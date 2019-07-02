@@ -138,16 +138,17 @@ I just completed my first year as Laboratory Instructor in SDS and Psychology. I
 
 Many of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:
 
-Stout-  Street Social
-588   
+- Stout Street Social  
   1400 Stout St,  
   Denver, CO 80202  
   https://www.stoutstsocial.com/  
-  y, August 30th,29 pm
+  Monday, August 29th, 6 pm
 
 
+Mark your calendar!
 
-###Mark your calendar! Women in Statistics and Data Science Conference
+
+### Women in Statistics and Data Science Conference
 
 
 **Randi Garcia** and four students will be attending the [ASA Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2019/) in Bellevue, WA from October 18--20th. Two groups of students swill be presenting their work:
