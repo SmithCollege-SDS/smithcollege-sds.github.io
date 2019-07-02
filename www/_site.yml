@@ -1,0 +1,40 @@
+name: "www"
+output_dir: "../docs"
+include: "gfx"
+exclude: ["makefile", "data"]
+navbar:
+  title: "SDS"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Awards"
+      icon: fa-award
+      href: awards.html
+    - text: "Troubleshooting R Markdown"
+      icon: fa-question-circle
+      href: https://smithcollege-sds.github.io/sds-public/rmarkdown_problems.html
+    - text: "Newsletters"
+      icon: fa-newspaper
+      menu:
+        - text: "2019"
+          href: sds_newsletter_2019.html
+        - text: "2018"
+          href: sds_newsletter_2018.html
+        - text: "2017"
+          href: sds_newsletter_2017.html
+        - text: "2016"
+          href: sds_newsletter_2016.html
+    - icon: fa-github fa-lg
+      href: https://github.com/SmithCollege-SDS
+
+
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments
+    css: include/smith.css
+    toc: true
+    toc_float: true
+    include:
+      after_body: include/after_body.html

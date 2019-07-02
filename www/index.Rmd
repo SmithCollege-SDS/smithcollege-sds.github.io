@@ -1,0 +1,10 @@
+---
+title: "Statistical & Data Sciences"
+output:
+  html_document:
+    toc: false
+---
+
+This website is managed by the SDS faculty. For our official website, please visit:
+
+https://www.smith.edu/academics/statistics
