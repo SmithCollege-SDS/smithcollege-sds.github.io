@@ -106,6 +106,8 @@ I've spent the past academic year teaching statistics, Design of Experiments and
 
 #### Miles Ott
 
+So many wonderful things happened this year! I had fun teaching a class on my research area: Statistical Analysis of Social Network Data, as well as Probability, Mathematical Statistics, and Intro Stats 201.  I am continuing to work on Respondent Driven Sampling, LGBT Health, and methods for Social Network Interventions in my research. I am getting a bit more involved in efforts to make Stats and Data Science more inclusive for LGBTQ+ folks. I attended both WSDS and SDSS conferences for the first time, and I thought that they both were excellent, welcoming, and fun. I highly recommend them both!  Best of all, I started working with wonderful new colleagues Albert Kim, Katie Kinnaird, Dave Rockoff, and Jenny Smetzer.
+
 #### David Rockoff
 
 I just finished my first year as a Visiting Assistant Professor at Smith, having taught Intro Stats and Communicating With Data. This summer I will give a short course on Survival Analysis for MassMutual. I am very excited to be sticking around for another year, during which I will develop a special topics course in educational measurement.
