@@ -1,0 +1,140 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2019"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Program Updates
+
+
+* Please follow us on Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) or visit [our website](http://smith.edu/statistics/) for more information on the program! There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/) and a Google group. **Please help us reach out to other alumnae by having them contact me!**
+
+- Randi Garcia was chosen to win the [Sherrerd Prize for Distinguished Teaching](https://www.smith.edu/news/sherrerd-awards)! This comes on the heels of last year's [junior faculty teaching award](https://www.smith.edu/news/people-news-50/). Randi is on a roll!
+
+- Smithies cleaned up at the 6th annual [ASA Five College DataFest](http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/), winning 6 of the 8 prizes, including Best in Show. It was a dominating performance, with 13 of the 30 teams coming from Smith, and a record 75 Smithies expressing interest in competing. We made a big enough splash that President McCartney invite all of the winners to her house for tea and cookies!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Winners of the Five College DataFest Best in Show, team A-Super-NOVA (that’s a statistics joke) ⁦<a href="https://twitter.com/smithcollege?ref_src=twsrc%5Etfw">@smithcollege</a>⁩ ⁦<a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a>⁩ <a href="https://twitter.com/hashtag/AllWeDoIsWin?src=hash&amp;ref_src=twsrc%5Etfw">#AllWeDoIsWin</a> <a href="https://t.co/8P08f1SF0x">pic.twitter.com/8P08f1SF0x</a></p>&mdash; Kathleen McCartney (@presmccartney) <a href="https://twitter.com/presmccartney/status/1122969002513502215?ref_src=twsrc%5Etfw">April 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- A record 20 members of the class of 2019 majored in SDS. Next year we are poised to break the record again, with at least 34 declared majors in the class of 2020 alread. 
+
+- Julianna Alvord '19 received highest honors for her thesis "Modeling Racially Disproportionate Language on Twitter During NFL Game Play." Julianna also won the annual SDS Research Prize for her work. Ben Baumer and Randi Garcia served as her advisers. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congratulations to Julianna Alvord for earning Highest Honors in <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> for her thesis on race and language on <a href="https://twitter.com/hashtag/nfl?src=hash&amp;ref_src=twsrc%5Etfw">#nfl</a> Twitter. <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw">@randiLgarcia</a> <a href="https://t.co/2CHwjjKgj5">pic.twitter.com/2CHwjjKgj5</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/1130486683441553408?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Albert Kim, Miles Ott, and Katie Kinnaird represented Smith at the Symoposium on Statistics and Data Science.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I would remiss not to mention that you can’t have <a href="https://twitter.com/hashtag/SDSS2019?src=hash&amp;ref_src=twsrc%5Etfw">#SDSS2019</a> without <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> <a href="https://t.co/y02DKAIOwq">pic.twitter.com/y02DKAIOwq</a></p>&mdash; Miles Ott 🏳️
+🌈 (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1134636727946031104?ref_src=twsrc%5Etfw">June 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Albert Kim brought Crystal Zang, Jordan Moody, and Starry Zhou to USCOTS to help TA his workshop on "moderndive: statistical inference using the tidyverse", and they connected with Amy Hogan '??.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congratulations to Julianna Alvord for earning Highest Honors in <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> for her thesis on race and language on <a href="https://twitter.com/hashtag/nfl?src=hash&amp;ref_src=twsrc%5Etfw">#nfl</a> Twitter. <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw">@randiLgarcia</a> <a href="https://t.co/2CHwjjKgj5">pic.twitter.com/2CHwjjKgj5</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/1130486683441553408?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- We added a statement about ethics to our [Departmental Learning Goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences):  
+
+> Assess the ethical implications to society of data-based research, analyses, and technology in an informed manner. Use resources, such as professional guidelines, institutional review boards, and published research, to inform ethical responsibilities.
+
+- Albert Kim and Miles Ott were pied in the face on Pi Day.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> professors put up with so much 😂😂 <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw">@rudeboybert</a> and <a href="https://twitter.com/Miles_Ott?ref_src=twsrc%5Etfw">@Miles_Ott</a> were pie-d for a fundraiser on campus, thanks for putting up with our shenanigans! <a href="https://t.co/BmK5nXlYwQ">pic.twitter.com/BmK5nXlYwQ</a></p>&mdash; Emma Livingston (@livin_emma) <a href="https://twitter.com/livin_emma/status/1124367475980812288?ref_src=twsrc%5Etfw">May 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Book contracts were signed! Albert Kim is working on [ModernDive](https://moderndive.com/), Miles Ott '08 is working on a Bayesian statistics textbook (with Mine Dogucu '09), and Ben Baumer is working on a second edition of [*Modern Data Science with R*](http://mdsr-book.github.io/). 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good news everyone! We’ve signed with <a href="https://twitter.com/CRCPress?ref_src=twsrc%5Etfw">@CRCPress</a> for a print edition with our new title: “Statistical Inference via Data Science: A moderndive into R &amp; the tidyverse” by <a href="https://twitter.com/old_man_chester?ref_src=twsrc%5Etfw">@old_man_chester</a> &amp; <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw">@rudeboybert</a>! Coming Fall 2019! Until then check out a preview at <a href="https://t.co/X5zI0LvHGb">https://t.co/X5zI0LvHGb</a> <a href="https://t.co/Wa049JBeaJ">pic.twitter.com/Wa049JBeaJ</a></p>&mdash; ModernDive (@ModernDive) <a href="https://twitter.com/ModernDive/status/1102624954892406785?ref_src=twsrc%5Etfw">March 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Randi Garcia brought a group of students to the 2nd Data 4 Black Lives conference. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> students are here meeting <a href="https://twitter.com/Data4BlackLives?ref_src=twsrc%5Etfw">@Data4BlackLives</a> ‘s founder <a href="https://twitter.com/YESHICAN?ref_src=twsrc%5Etfw">@YESHICAN</a> and feeling inspired and energized! <a href="https://t.co/cebIZFmbNA">pic.twitter.com/cebIZFmbNA</a></p>&mdash; Smith College SDS (@SmithCollegeSDS) <a href="https://twitter.com/SmithCollegeSDS/status/1084158855871979520?ref_src=twsrc%5Etfw">January 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Ben Baumer published the second edition of [*Analyzing Baseball Data with R*](https://www.crcpress.com/Analyzing-Baseball-Data-with-R-Second-Edition/Marchi-Albert-Baumer/p/book/9780815353515). He was not an author of the first edition, but replaced Max Marchi for the second edition. 
+
+- Katie Kinnaird delivered the closing remarks as WiML Board President.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Katherine Kinnaird <a href="https://twitter.com/kmkinnaird?ref_src=twsrc%5Etfw">@kmkinnaird</a> the WiML Board President, delivering the closing remarks for <a href="https://twitter.com/hashtag/WiML2018?src=hash&amp;ref_src=twsrc%5Etfw">#WiML2018</a> workshop! <a href="https://t.co/hPsPQ3dz5d">pic.twitter.com/hPsPQ3dz5d</a></p>&mdash; WiML (@WiMLworkshop) <a href="https://twitter.com/WiMLworkshop/status/1069712762060836864?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- Our student group Smithies in SDS held Data Science Day, welcoming alums working in data science. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you so much everyone for making Data Science Day happen! We are super grateful for the generous advice and support from the amazing panelists, the amazing department <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> and profs who came over on a Saturday to support us 💗 Proud to be a <a href="https://twitter.com/hashtag/smithieinSDS?src=hash&amp;ref_src=twsrc%5Etfw">#smithieinSDS</a> <a href="https://t.co/q4pjuHeokj">https://t.co/q4pjuHeokj</a></p>&mdash; Starry Yujia Zhou (@ZhouStarry) <a href="https://twitter.com/ZhouStarry/status/1059165706678423554?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+### Previous Updates
+
+- [2018](sds_newsletter_2018.html)
+- [2017](sds_newsletter_2017.html)
+- [2016](sds_newsletter_2016.html)
+
+
+
+
+## Faculty Updates 
+
+#### Ben Baumer
+
+#### R. Jordan Crouser 
+
+#### Randi Garcia
+
+I just finished my third year at Smith and it’s so exciting to see how much the SDS program has grown since I arrived! This year I got to teach 17 Smith students Structural Equation Modeling in SDS 390. I also continued to expand the client-partner relationships in SDS 290, Research Design and Analysis, teaching the course for a second time in Spring 2019. Thirty-five students in SDS 290 conducted 10 extremely cool experimental studies with the Museum of Art, the Executive Education office, and again with the Botanic Garden. This year I gave two talks about the SDS program, the first at JSM in Vancouver on the many pathways through the SDS major, and in May I spoke at NESS about integrating real-world projects into a modern design course. I also published a book chapter on data analysis strategies for relationship research in an edited volume titled New Directions in the Psychology of Close Relationships. I am proud to receive one of the 2019 the Sherrerd Prizes for distinguished teaching--ceremony upcoming in October 2019. Lastly, I am looking forward to a sabbatical in Spring 2020!
+
+#### Katherine Halvorsen
+
+I've spent the past academic year teaching statistics, Design of Experiments and Categorical Data Analysis, at Middlebury College in Middlebury, Vermont.  Middlebury is a small, coeducational, liberal arts college with about 2500 students. Middlebury, Vermont, is a small New England town of about 8500 residents chartered in 1761, and located in the Champlain Valley.  The area is very rural and has lots of farms for both beef and dairy cattle.  It also has several historical sites including the Hubbardton Battlefield where the only battle held in Vermont during the revolutionary war occurred in July of 1777.  We also toured the site of the American encampment at Fort Independence, just across the lake from Fort Ticonderoga, both of which were American fortifications during the war and were abandoned shortly before the British sailed down Lake Champlain. One of my happy accomplishments was hiking the TAM, the Trail Around Middlebury, an 18-mile trail that encircles the village of Middlebury.  I'm looking forward to being back at Smith in the fall and teaching Design and Categorical again.
+
+#### Albert Y. Kim
+
+#### Katie Kinnaird
+
+#### Miles Ott
+
+#### David Rockoff
+
+I just finished my first year as a Visiting Assistant Professor at Smith, having taught Intro Stats and Communicating With Data. This summer I will give a short course on Survival Analysis for MassMutual. I am very excited to be sticking around for another year, during which I will develop a special topics course in educational measurement.
+
+#### Jenny Smetzer
+
+## Alumnae Updates
+
+- [Mine Dogucu '09](https://www.linkedin.com/in/minedogucu/): I spent the academic year at Denison University as Visiting Assistant Professor of Data Analytics. In July, I will be joining the Department of Statistics at University of California Irvine as Assistant Professor of Teaching. I had many opportunities reconnecting with Smithies. In September, I took my students to Amherst College for StatFest where Portia Exum (Parker) '10 was a panelist. Emily Dodwell '11 was also in the Valley to give a talk for the SDS department. In October, I attended Women in Statistics and Data Science Conference in Cincinnati where I met [Dr. Miles Ott '01](https://twitter.com/MineDogucu/status/1053299181891317766) (side note: he now is a prof. at Smith, see above for his update in case you missed it).  Dr. Alicia Johnson of Macalester College, Dr. Ott, and I now collaborate on a Bayesian Statistics textbook for undergraduate students that is going to be published by CRC. I organized Denison's first [DataFest](https://twitter.com/MineDogucu/status/1117144314176593921). In May, I attended my tenth year reunion at Smith. I connected with friends and faculty and met graduating seniors at the SDS reception. I also ran into Dr. Elizabeth Stuart '97 during Friday Tea in the Cloud. I enjoy (online and offline) connections with Smithies who are in Statistical and Data Sciences and am looking forward to making new ones in the future.
+
+- [Wencong (Priscilla) Li '18](https://www.linkedin.com/in/wencong-priscilla-li-83732169/): I went back to watch the 2019 commencement and was happy to see that the SDS department is growing!
+
+- [Jordan Menter '16](https://www.linkedin.com/in/jordanmenter/): 
+"In May I finished the last year of the Data Science Development Program at MassMututal, concluding three years of full-time work as a junior data scientist and part-time graduate study in computer science at UMass Amherst. I’m still waiting for my diploma to come in the mail, but in the mean time I’ve accepted a data scientist role at MM. We recently welcomed the sixth cohort of the DSDP -  they're wicked smart, and it’s so exciting to see so much energy and engagement from them.  
+  
+  This fall I hope to submit a paper on algorithmic fairness and causality that I worked on as part of my MS degree, supervised by Professor David Jensen at UMass Amherst. I was also lucky enough to take an ethics and computing course last fall, and will be part of a group-level collaboration among myself, Professor Michelle Trim (also at UMass Amherst), and some of my classmates (all of whom were or are also in the DSDP!) to produce a data science and ethics publication of some sorts (a brief textbook, or a reader for a course, or a co-authored paper…). I feel very lucky to have experiences in the research side of things, in addition to the work I do in industry.  
+  
+  Finally, I’ve greatly enjoyed mentoring current Smith senior and SDS major Starry Zhou. It’s wonderful to have connections back to the department, and I’m excited to see what the future holds for SDS!"
+
+- [Sara Stoudt '15](https://www.linkedin.com/in/sara-s-172a957a/): I made it through another year in the PhD with (hopefully) only one more to go. This year I became a Berkeley Institute for Data Science Fellow and got to help organize a "Fostering diverse and inclusive data science at Berkeley" series for underrepresented undergraduate students. Professor Deb Nolan and I are are finishing up our book on how to write about data and are hoping to have it out in the spring. I'm spending the summer at the Los Angeles Times Data Desk, living the glamorous data journalist life. :D
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:
+
+Cactus Club Cafe (Bentall 5 location)  
+588 Burrard Street  
+Vancouver, BC  
+https://www.cactusclubcafe.com/location/bentall-5/  
+Monday, August 30th, 6 pm
+
+
+
+### Women in Statistics and Data Science Conference
+
+Randi and four students will be attending the [ASA Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2019/) in Bellevue, WA from October 18--20th. Two groups of students swill be presenting their work:
+
+- [Social Network Analysis of Cosponsorship in the 115th Congress (306427)]( https://ww2.amstat.org/meetings/wsds/2019/onlineprogram/AbstractDetails.cfm?AbstractID=306427)  
+  Emily Daubenspeck, Smith College   
+  *Arielle Dror, Smith College  
+  Kara Van Allen, Smith College  
+
+- [Data Analytics in the Archives: A Statistical Examination of the Robinson and via Family Papers (306452)](https://ww2.amstat.org/meetings/wsds/2019/onlineprogram/AbstractDetails.cfm?AbstractID=306452)  
+  *Clara Roseberg, Smith College
+
+Hope to see you there!

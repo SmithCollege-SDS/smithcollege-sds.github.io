@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Ben Baumer" />
+
+<meta name="date" content="2019-07-15" />
+
+<title>SDS Newsletter</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="include/smith.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SDS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="awards.html">
+    <span class="fa fa-award"></span>
+     
+    Awards
+  </a>
+</li>
+<li>
+  <a href="https://smithcollege-sds.github.io/sds-public/rmarkdown_problems.html">
+    <span class="fa fa-question-circle"></span>
+     
+    Troubleshooting R Markdown
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-newspaper"></span>
+     
+    Newsletters
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="sds_newsletter_2019.html">2019</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2018.html">2018</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2017.html">2017</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2016.html">2016</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://github.com/SmithCollege-SDS">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">SDS Newsletter</h1>
+<h4 class="author">Ben Baumer</h4>
+<h4 class="date">July 15, 2019</h4>
+
+</div>
+
+
+<div id="program-updates" class="section level2">
+<h2>Program Updates</h2>
+<ul>
+<li><p>Please follow us on Twitter @<a href="https://twitter.com/SmithCollegeSDS">SmithCollegeSDS</a> or visit <a href="http://smith.edu/statistics/">our website</a> for more information on the program! There is also a <a href="https://www.facebook.com/groups/665780273559948/">Facebook group</a> and a Google group. <strong>Please help us reach out to other alumnae by having them contact me!</strong></p></li>
+<li><p>Randi Garcia was chosen to win the <a href="https://www.smith.edu/news/sherrerd-awards">Sherrerd Prize for Distinguished Teaching</a>! This comes on the heels of last year’s <a href="https://www.smith.edu/news/people-news-50/">junior faculty teaching award</a>. Randi is on a roll!</p></li>
+<li><p>Smithies cleaned up at the 6th annual <a href="http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/">ASA Five College DataFest</a>, winning 6 of the 8 prizes, including Best in Show. It was a dominating performance, with 13 of the 30 teams coming from Smith, and a record 75 Smithies expressing interest in competing. We made a big enough splash that President McCartney invite all of the winners to her house for tea and cookies!</p></li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Winners of the Five College DataFest Best in Show, team A-Super-NOVA (that’s a statistics joke) ⁦<a href="https://twitter.com/smithcollege?ref_src=twsrc%5Etfw"><span class="citation">@smithcollege</span></a>⁩ ⁦<a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a>⁩ <a href="https://twitter.com/hashtag/AllWeDoIsWin?src=hash&amp;ref_src=twsrc%5Etfw">#AllWeDoIsWin</a> <a href="https://t.co/8P08f1SF0x">pic.twitter.com/8P08f1SF0x</a>
+</p>
+— Kathleen McCartney (<span class="citation">@presmccartney</span>) <a href="https://twitter.com/presmccartney/status/1122969002513502215?ref_src=twsrc%5Etfw">April 29, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li><p>A record 20 members of the class of 2019 majored in SDS. Next year we are poised to break the record again, with at least 34 declared majors in the class of 2020 alread.</p></li>
+<li><p>Julianna Alvord ’19 received highest honors for her thesis “Modeling Racially Disproportionate Language on Twitter During NFL Game Play.” Julianna also won the annual SDS Research Prize for her work. Ben Baumer and Randi Garcia served as her advisers.</p></li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Congratulations to Julianna Alvord for earning Highest Honors in <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> for her thesis on race and language on <a href="https://twitter.com/hashtag/nfl?src=hash&amp;ref_src=twsrc%5Etfw">#nfl</a> Twitter. <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw"><span class="citation">@randiLgarcia</span></a> <a href="https://t.co/2CHwjjKgj5">pic.twitter.com/2CHwjjKgj5</a>
+</p>
+— Ben Baumer (<span class="citation">@BaumerBen</span>) <a href="https://twitter.com/BaumerBen/status/1130486683441553408?ref_src=twsrc%5Etfw">May 20, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>Albert Kim, Miles Ott, and Katie Kinnaird represented Smith at the Symoposium on Statistics and Data Science.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+I would remiss not to mention that you can’t have <a href="https://twitter.com/hashtag/SDSS2019?src=hash&amp;ref_src=twsrc%5Etfw">#SDSS2019</a> without <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> <a href="https://t.co/y02DKAIOwq">pic.twitter.com/y02DKAIOwq</a>
+</p>
+— Miles Ott 🏳️ 🌈 (<span class="citation">@Miles_Ott</span>) <a href="https://twitter.com/Miles_Ott/status/1134636727946031104?ref_src=twsrc%5Etfw">June 1, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>Albert Kim brought Crystal Zang, Jordan Moody, and Starry Zhou to USCOTS to help TA his workshop on “moderndive: statistical inference using the tidyverse”, and they connected with Amy Hogan ’??.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Congratulations to Julianna Alvord for earning Highest Honors in <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> for her thesis on race and language on <a href="https://twitter.com/hashtag/nfl?src=hash&amp;ref_src=twsrc%5Etfw">#nfl</a> Twitter. <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw"><span class="citation">@randiLgarcia</span></a> <a href="https://t.co/2CHwjjKgj5">pic.twitter.com/2CHwjjKgj5</a>
+</p>
+— Ben Baumer (<span class="citation">@BaumerBen</span>) <a href="https://twitter.com/BaumerBen/status/1130486683441553408?ref_src=twsrc%5Etfw">May 20, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>We added a statement about ethics to our <a href="https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences">Departmental Learning Goals</a>:</li>
+</ul>
+<blockquote>
+<p>Assess the ethical implications to society of data-based research, analyses, and technology in an informed manner. Use resources, such as professional guidelines, institutional review boards, and published research, to inform ethical responsibilities.</p>
+</blockquote>
+<ul>
+<li>Albert Kim and Miles Ott were pied in the face on Pi Day.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> professors put up with so much 😂😂 <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw"><span class="citation">@rudeboybert</span></a> and <a href="https://twitter.com/Miles_Ott?ref_src=twsrc%5Etfw"><span class="citation">@Miles_Ott</span></a> were pie-d for a fundraiser on campus, thanks for putting up with our shenanigans! <a href="https://t.co/BmK5nXlYwQ">pic.twitter.com/BmK5nXlYwQ</a>
+</p>
+— Emma Livingston (<span class="citation">@livin_emma</span>) <a href="https://twitter.com/livin_emma/status/1124367475980812288?ref_src=twsrc%5Etfw">May 3, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>Book contracts were signed! Albert Kim is working on <a href="https://moderndive.com/">ModernDive</a>, Miles Ott ’08 is working on a Bayesian statistics textbook (with Mine Dogucu ’09), and Ben Baumer is working on a second edition of <a href="http://mdsr-book.github.io/"><em>Modern Data Science with R</em></a>.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Good news everyone! We’ve signed with <a href="https://twitter.com/CRCPress?ref_src=twsrc%5Etfw"><span class="citation">@CRCPress</span></a> for a print edition with our new title: “Statistical Inference via Data Science: A moderndive into R &amp; the tidyverse” by <a href="https://twitter.com/old_man_chester?ref_src=twsrc%5Etfw"><span class="citation">@old_man_chester</span></a> &amp; <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw"><span class="citation">@rudeboybert</span></a>! Coming Fall 2019! Until then check out a preview at <a href="https://t.co/X5zI0LvHGb">https://t.co/X5zI0LvHGb</a> <a href="https://t.co/Wa049JBeaJ">pic.twitter.com/Wa049JBeaJ</a>
+</p>
+— ModernDive (<span class="citation">@ModernDive</span>) <a href="https://twitter.com/ModernDive/status/1102624954892406785?ref_src=twsrc%5Etfw">March 4, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>Randi Garcia brought a group of students to the 2nd Data 4 Black Lives conference.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> students are here meeting <a href="https://twitter.com/Data4BlackLives?ref_src=twsrc%5Etfw"><span class="citation">@Data4BlackLives</span></a> ‘s founder <a href="https://twitter.com/YESHICAN?ref_src=twsrc%5Etfw"><span class="citation">@YESHICAN</span></a> and feeling inspired and energized! <a href="https://t.co/cebIZFmbNA">pic.twitter.com/cebIZFmbNA</a>
+</p>
+— Smith College SDS (<span class="citation">@SmithCollegeSDS</span>) <a href="https://twitter.com/SmithCollegeSDS/status/1084158855871979520?ref_src=twsrc%5Etfw">January 12, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li><p>Ben Baumer published the second edition of <a href="https://www.crcpress.com/Analyzing-Baseball-Data-with-R-Second-Edition/Marchi-Albert-Baumer/p/book/9780815353515"><em>Analyzing Baseball Data with R</em></a>. He was not an author of the first edition, but replaced Max Marchi for the second edition.</p></li>
+<li><p>Katie Kinnaird delivered the closing remarks as WiML Board President.</p></li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Katherine Kinnaird <a href="https://twitter.com/kmkinnaird?ref_src=twsrc%5Etfw"><span class="citation">@kmkinnaird</span></a> the WiML Board President, delivering the closing remarks for <a href="https://twitter.com/hashtag/WiML2018?src=hash&amp;ref_src=twsrc%5Etfw">#WiML2018</a> workshop! <a href="https://t.co/hPsPQ3dz5d">pic.twitter.com/hPsPQ3dz5d</a>
+</p>
+— WiML (<span class="citation">@WiMLworkshop</span>) <a href="https://twitter.com/WiMLworkshop/status/1069712762060836864?ref_src=twsrc%5Etfw">December 3, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>Our student group Smithies in SDS held Data Science Day, welcoming alums working in data science.</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Thank you so much everyone for making Data Science Day happen! We are super grateful for the generous advice and support from the amazing panelists, the amazing department <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> and profs who came over on a Saturday to support us 💗 Proud to be a <a href="https://twitter.com/hashtag/smithieinSDS?src=hash&amp;ref_src=twsrc%5Etfw">#smithieinSDS</a> <a href="https://t.co/q4pjuHeokj">https://t.co/q4pjuHeokj</a>
+</p>
+— Starry Yujia Zhou (<span class="citation">@ZhouStarry</span>) <a href="https://twitter.com/ZhouStarry/status/1059165706678423554?ref_src=twsrc%5Etfw">November 4, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="previous-updates" class="section level3">
+<h3>Previous Updates</h3>
+<ul>
+<li><a href="sds_newsletter_2018.html">2018</a></li>
+<li><a href="sds_newsletter_2017.html">2017</a></li>
+<li><a href="sds_newsletter_2016.html">2016</a></li>
+</ul>
+</div>
+</div>
+<div id="faculty-updates" class="section level2">
+<h2>Faculty Updates</h2>
+<div id="ben-baumer" class="section level4">
+<h4>Ben Baumer</h4>
+</div>
+<div id="r.-jordan-crouser" class="section level4">
+<h4>R. Jordan Crouser</h4>
+</div>
+<div id="randi-garcia" class="section level4">
+<h4>Randi Garcia</h4>
+<p>I just finished my third year at Smith and it’s so exciting to see how much the SDS program has grown since I arrived! This year I got to teach 17 Smith students Structural Equation Modeling in SDS 390. I also continued to expand the client-partner relationships in SDS 290, Research Design and Analysis, teaching the course for a second time in Spring 2019. Thirty-five students in SDS 290 conducted 10 extremely cool experimental studies with the Museum of Art, the Executive Education office, and again with the Botanic Garden. This year I gave two talks about the SDS program, the first at JSM in Vancouver on the many pathways through the SDS major, and in May I spoke at NESS about integrating real-world projects into a modern design course. I also published a book chapter on data analysis strategies for relationship research in an edited volume titled New Directions in the Psychology of Close Relationships. I am proud to receive one of the 2019 the Sherrerd Prizes for distinguished teaching–ceremony upcoming in October 2019. Lastly, I am looking forward to a sabbatical in Spring 2020!</p>
+</div>
+<div id="katherine-halvorsen" class="section level4">
+<h4>Katherine Halvorsen</h4>
+<p>I’ve spent the past academic year teaching statistics, Design of Experiments and Categorical Data Analysis, at Middlebury College in Middlebury, Vermont. Middlebury is a small, coeducational, liberal arts college with about 2500 students. Middlebury, Vermont, is a small New England town of about 8500 residents chartered in 1761, and located in the Champlain Valley. The area is very rural and has lots of farms for both beef and dairy cattle. It also has several historical sites including the Hubbardton Battlefield where the only battle held in Vermont during the revolutionary war occurred in July of 1777. We also toured the site of the American encampment at Fort Independence, just across the lake from Fort Ticonderoga, both of which were American fortifications during the war and were abandoned shortly before the British sailed down Lake Champlain. One of my happy accomplishments was hiking the TAM, the Trail Around Middlebury, an 18-mile trail that encircles the village of Middlebury. I’m looking forward to being back at Smith in the fall and teaching Design and Categorical again.</p>
+</div>
+<div id="albert-y.-kim" class="section level4">
+<h4>Albert Y. Kim</h4>
+</div>
+<div id="katie-kinnaird" class="section level4">
+<h4>Katie Kinnaird</h4>
+</div>
+<div id="miles-ott" class="section level4">
+<h4>Miles Ott</h4>
+</div>
+<div id="david-rockoff" class="section level4">
+<h4>David Rockoff</h4>
+<p>I just finished my first year as a Visiting Assistant Professor at Smith, having taught Intro Stats and Communicating With Data. This summer I will give a short course on Survival Analysis for MassMutual. I am very excited to be sticking around for another year, during which I will develop a special topics course in educational measurement.</p>
+</div>
+<div id="jenny-smetzer" class="section level4">
+<h4>Jenny Smetzer</h4>
+</div>
+</div>
+<div id="alumnae-updates" class="section level2">
+<h2>Alumnae Updates</h2>
+<ul>
+<li><p><a href="https://www.linkedin.com/in/minedogucu/">Mine Dogucu ’09</a>: I spent the academic year at Denison University as Visiting Assistant Professor of Data Analytics. In July, I will be joining the Department of Statistics at University of California Irvine as Assistant Professor of Teaching. I had many opportunities reconnecting with Smithies. In September, I took my students to Amherst College for StatFest where Portia Exum (Parker) ’10 was a panelist. Emily Dodwell ’11 was also in the Valley to give a talk for the SDS department. In October, I attended Women in Statistics and Data Science Conference in Cincinnati where I met <a href="https://twitter.com/MineDogucu/status/1053299181891317766">Dr. Miles Ott ’01</a> (side note: he now is a prof. at Smith, see above for his update in case you missed it). Dr. Alicia Johnson of Macalester College, Dr. Ott, and I now collaborate on a Bayesian Statistics textbook for undergraduate students that is going to be published by CRC. I organized Denison’s first <a href="https://twitter.com/MineDogucu/status/1117144314176593921">DataFest</a>. In May, I attended my tenth year reunion at Smith. I connected with friends and faculty and met graduating seniors at the SDS reception. I also ran into Dr. Elizabeth Stuart ’97 during Friday Tea in the Cloud. I enjoy (online and offline) connections with Smithies who are in Statistical and Data Sciences and am looking forward to making new ones in the future.</p></li>
+<li><p><a href="https://www.linkedin.com/in/wencong-priscilla-li-83732169/">Wencong (Priscilla) Li ’18</a>: I went back to watch the 2019 commencement and was happy to see that the SDS department is growing!</p></li>
+<li><p><a href="https://www.linkedin.com/in/jordanmenter/">Jordan Menter ’16</a>: &quot;In May I finished the last year of the Data Science Development Program at MassMututal, concluding three years of full-time work as a junior data scientist and part-time graduate study in computer science at UMass Amherst. I’m still waiting for my diploma to come in the mail, but in the mean time I’ve accepted a data scientist role at MM. We recently welcomed the sixth cohort of the DSDP - they’re wicked smart, and it’s so exciting to see so much energy and engagement from them.</p>
+<p>This fall I hope to submit a paper on algorithmic fairness and causality that I worked on as part of my MS degree, supervised by Professor David Jensen at UMass Amherst. I was also lucky enough to take an ethics and computing course last fall, and will be part of a group-level collaboration among myself, Professor Michelle Trim (also at UMass Amherst), and some of my classmates (all of whom were or are also in the DSDP!) to produce a data science and ethics publication of some sorts (a brief textbook, or a reader for a course, or a co-authored paper…). I feel very lucky to have experiences in the research side of things, in addition to the work I do in industry.</p>
+<p>Finally, I’ve greatly enjoyed mentoring current Smith senior and SDS major Starry Zhou. It’s wonderful to have connections back to the department, and I’m excited to see what the future holds for SDS!&quot;</p></li>
+<li><p><a href="https://www.linkedin.com/in/sara-s-172a957a/">Sara Stoudt ’15</a>: I made it through another year in the PhD with (hopefully) only one more to go. This year I became a Berkeley Institute for Data Science Fellow and got to help organize a “Fostering diverse and inclusive data science at Berkeley” series for underrepresented undergraduate students. Professor Deb Nolan and I are are finishing up our book on how to write about data and are hoping to have it out in the spring. I’m spending the summer at the Los Angeles Times Data Desk, living the glamorous data journalist life. :D</p></li>
+</ul>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s next?</h2>
+<div id="joint-statistical-meetings" class="section level3">
+<h3>Joint Statistical Meetings</h3>
+<p>Many of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:</p>
+<p>Cactus Club Cafe (Bentall 5 location)<br />
+588 Burrard Street<br />
+Vancouver, BC<br />
+<a href="https://www.cactusclubcafe.com/location/bentall-5/" class="uri">https://www.cactusclubcafe.com/location/bentall-5/</a><br />
+Monday, August 30th, 6 pm</p>
+</div>
+<div id="women-in-statistics-and-data-science-conference" class="section level3">
+<h3>Women in Statistics and Data Science Conference</h3>
+<p>Randi and four students will be attending the <a href="https://ww2.amstat.org/meetings/wsds/2019/">ASA Women in Statistics and Data Science Conference</a> in Bellevue, WA from October 18–20th. Two groups of students swill be presenting their work:</p>
+<ul>
+<li><p><a href="https://ww2.amstat.org/meetings/wsds/2019/onlineprogram/AbstractDetails.cfm?AbstractID=306427">Social Network Analysis of Cosponsorship in the 115th Congress (306427)</a><br />
+Emily Daubenspeck, Smith College<br />
+*Arielle Dror, Smith College<br />
+Kara Van Allen, Smith College</p></li>
+<li><p><a href="https://ww2.amstat.org/meetings/wsds/2019/onlineprogram/AbstractDetails.cfm?AbstractID=306452">Data Analytics in the Archives: A Statistical Examination of the Robinson and via Family Papers (306452)</a><br />
+*Clara Roseberg, Smith College</p></li>
+</ul>
+<p>Hope to see you there!</p>
+</div>
+</div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Created by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+---
+title: 'Awards Archive'
+---
+
+# Prizes
+
+## Statistical & Data Sciences Research Prize
+
+The program awards an annual prize to a student majoring in SDS who performed outstanding research during her time at Smith. The faculty meets every spring to review the research projects they have supervised and select the prize recipient, who is then notified at the annual Awards Ceremony the day before Commencement.
+
+### Awardees
+
+- 2019: Julianna Alvord '19
+- 2018: Wencong (Priscilla) Li '18
+- 2017: Weijia (Vega) Zhang '17
+
+## Five College Statistics Prize
+
+The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</a> prize is awarded to one student at each of the Five Colleges, at their discretion. The award may be presented to a student satisfying any one of the following criteria (based on faculty vote from that institution):
+
+- outstanding independent research, thesis, or capstone course project in statistics
+- outstanding service to statistics on their campus (or across campuses)
+- outstanding use of Five College statistics resources
+- outstanding non-senior pursuing further study in statistics
+
+### Awardees
+
+- 2019: Yue Kuang '19, Zixian Li '19, and Jingyi Liu '19 <cite>(outstanding senior capstone project)</cite>
+- 2018: Paige Patrick 'AC and Rutendo Madziwo '19 <cite>(outstanding service to statistics)</cite>
+- 2017: Abby Doctor '17 <cite>(outstanding senior capstone project)</cite>
+- 2016: Yiwen Zhu '16 and Emma Beauchamp '16 <cite>(outstanding theses)</cite>
+- 2015: Weijia (Vega) Zhang '18 <cite>(outstanding non-senior)</cite>
+
+	
+# Departmental Honors
+
+- 2019
+    - Julianna Alvord '19, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/">Modeling Racially Disproportionate Language on Twitter during NFL Gameplay</a>
+- 2018
+    - Wencong (Priscilla) Li '18, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/2032/">Tools for understanding taxicab and e-hail service use in New York City</a>
+- 2017
+    - Weijia (Vega) Zhang '17, High Honors</br><a href="https://scholarworks.smith.edu/theses/1871/">Improving access to open-source data about the NYC bike sharing system (Citi Bike)</a>
+
+	
+# Competitions
+
+## [ASA Five College DataFest](http://www.science.smith.edu/datafest/)
+
+DataFest is a national undergraduate data analysis competition hosted at UMass each spring, in which students work in teams of up to five to extract insights from a complex, challenging data set over a weekend. 
+
+Recent winners from Smith include:
+
+- <a href="http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/">2019</a>
+    - Best in Show: A-super-NOVA </br>
+    	Audrey Bertin '21, Arielle Dror '20, Clara Rosenberg '20, Kara VanAllen '20
+    - Best in Group (Panel B): Data Pirates </br>
+    	Tina Liu '22, Francesca Giardine, Jessica Keast '20
+    - Best Multilevel Solution: ggsquad2</br>
+    	Elaona Lemoto '20, Ana Porro, Mathena Abramson '19, Paige Patrick AC, Jordan Moody '20
+    - Best External Data: FUN[ction]</br>
+    	Khulood Fahim, Zoya Alam, Melanie Nguyen, Julia Bouzaher
+    - Best Actionable Insight: LeGit</br>
+    	Victoria Zheng, Sunni Raleigh, Kelly Pien, Catherine Kung
+    - Best Data Insight: Unofficial Intelligence</br>
+    	Yanwan Zhu, Xian (Elaine) Ye, Rachel Yan, Kelly Shen '21, Yifan Ma '20, Nichole Yao
+- <a href="http://www.science.smith.edu/datafest/2018/03/27/winners-from-asa-five-college-datafest-2018/">2018</a>
+    - Best in Group (Panel B): A-super-NOVA </br>
+    	Audrey Bertin '21, Riley Boeth '18, Emma Livingston '20, Clara Rosenberg '20, Kara VanAllen '20
+-	<a href="http://www.science.smith.edu/datafest/2017/04/02/recap-of-winners-from-datafest-2017/">2017</a>
+    - Best in Show: DataBest </br>
+    	Zainab Aqdas Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18, Ji Wong Chung '18 and Van Nguyen '18
+    - Best Statistical Interpretation: Normally Distributed </br>
+    	Zixian Li '19, Angie Dinh '17, Abby Doctor '17, Erina Fukuda '18 and Raeesa Alam '19J
+    - Best Business Insight: Standard Divination </br>
+    	Isabella Zhu '20, Cas Sweeney '19, Sarah Abowitz '20 and Garcia Sun '20
+-	<a href="http://www.science.smith.edu/datafest/2015/03/30/datafest-2015-recap/">2015</a>
+    - Best in Show: 2&beta;||!2&beta; <br>
+    	Galen Long '15, Sara Stoudt '15, Zhenzhen Tan '15, Aiyi Zhang '15, Weijia (Vega) Zhang '18
+-	<a href="http://www.science.smith.edu/datafest/2014/03/31/congratulations-to-all-participants/">2014</a>
+    - Best in Show: P-Valuables<br>
+  	  Deirdre Fitzpatrick '14, Michele Handy '15, Maja Milosavljevic '14, Sara Stoudt '15, and Dana Udwin '14
+
+
+## [Undergraduate Statistics Project Competition](https://www.causeweb.org/usproc/USCLAP%20Competition) (USCLAP)
+
+The class project competition is for undergraduate students who conduct projects as part of an introductory or intermediate level statistics course. Most projects submitted to the USCLAP competition involve analyzing real data using existing statistical techniques. Students may choose any topic on which to conduct a study and students may use existing data or collect their own.
+
+Recent winners from Smith include:
+
+- 2017
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18<br>
+    		<cite>"Factors that Impact Video Game Sales"</cite>
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st Place (Intermediate Statistics)</a>: Angelica Estrada '18 PB, Jessica Wert '18, Oumayma Koulouh '19<br>
+    		<cite>"Helping the Red Cross Predict Flooding in Togo"</cite>
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh '17, Van Nguyen '18, Abby Doctor '17, Christine Yee '17<br>
+    	<cite>"What Are Your Odds?":An Interactive Web Application to Visualize Health Outcomes</cite>
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd Place (Second Course in Statistics)</a>: Ji Won Chung '18, Zainab Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18<br>
+    	<cite>A Business Opportunity: Targeting Expedia's Niche Market in Travel Packages Via Analytical and Predictive Modeling</cite>
+- 2016
+    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st Place (First Course in Statistics)</a>: Madison Laethem '17, Grace Zhan '18<br>
+    	<cite>Predicting Student Debt Upon College Graduation</cite>
+    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd Place (Second Course in Statistics)</a>:Ji Young Yun '18, Wencong Li '18<br>
+    	<cite>NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?</cite>
+- 2014
+    - <a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable Mention</a>: Sara Stoudt '15, Dana Udwin '14, and Kelly Francis '15<br>
+	    <cite>WeathR: Twitter perspectives on the weather</cite>
+
+### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
+
+The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
+
+
+- 2015
+    - <a href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd Place</a>: Sara Stoudt '15<br>
+	  <cite>Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States</cite>
+
+
+

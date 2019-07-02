@@ -1,0 +1,179 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2018"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Program Updates
+
+What an incredible year it has been! There were many more firsts for the [Statistical & Data Sciences](https://www.smith.edu/sds/) program. 
+
+- In quite possibly the highlight of the year, Prof. Randi Garcia won the [junior faculty teaching award at Rally Day](https://www.smith.edu/news/people-news-50/). Listen to this ovation!!! We are so proud of her!
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/cwOo8MwVafc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+- **Syeda Zainab Aqdas Rizvi '18**, a double major in SDS and CSC, delivered the [student speech during Ivy Day](https://www.smith.edu/about-smith/college-events/commencement/ivy-day-speech-2018) -- and gave a shout out to Prof. Jordan Crouser! There were many emotions!
+
+![](https://www.smith.edu/sites/default/files/media/Office%20Images/College%20Relations/ivy-day-student-2018-800.jpg)
+
+
+- This year we offered our senior capstone course (required for all majors) for the first time. The 9 seniors who took the course became the first cohort to graduate with the full SDS major as it was originally intended. **Julianna Alvord '19, Minji Kang '18, Zainab Rizvi '18**, and **Erina Fukuda '18** traveled to New York City to present their work to their capstone course client, HuffPost. Then we ate ramen.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Tfw you present to your client and then hit up <a href="https://twitter.com/momofuku?ref_src=twsrc%5Etfw">@momofuku</a> for lunch. <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> <a href="https://twitter.com/hashtag/smithieslead?src=hash&amp;ref_src=twsrc%5Etfw">#smithieslead</a> <a href="https://t.co/xVhNGdp6PG">pic.twitter.com/xVhNGdp6PG</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/993555071916019712?ref_src=twsrc%5Etfw">May 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+- **Erina Fukuda '18** became the first Smith student to graduate with *only* a major in SDS! Erina joined the [MassMutual Data Science Development Program](https://datascience.massmutual.com/development) after graduation, marking the 5th consecutive year that at least one Smithie has joined that program. 
+
+
+- **Wencong (Priscilla) Li '18** won the SDS Research Prize for her thesis, "[Tools for understanding taxicab and e-hail service use in New York City](https://scholarworks.smith.edu/theses/2032/)." Her thesis advisors were Ben Baumer and Jordan Crouser. Priscilla also earned departmental honors for her work. 
+
+- Team [A-super-NOVA](http://www.science.smith.edu/datafest/) (**Audrey Bertin '21, Riley Boeth '18, Kara VanAllen '20, Clara Rosenberg '20, Emma Livingston '20**) was awarded a Best in Group prize at the [5th annual Five College DataFest](http://www.science.smith.edu/datafest/2018/03/27/winners-from-asa-five-college-datafest-2018/). The big story here is that a record 49 Smithies -- comprising 10 teams -- participated. This was nearly twice as many students as we had last year, and nearly as many as Amherst and Mt. Holyoke COMBINED! 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Team A-Super-NOVA (representing <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a>) shortly before winning BEST IN GROUP at <a href="https://twitter.com/FiveCollegeStat?ref_src=twsrc%5Etfw">@FiveCollegeStat</a> <a href="https://twitter.com/hashtag/datafest?src=hash&amp;ref_src=twsrc%5Etfw">#datafest</a>!! What a great way to spend the weekend! (📷: <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw">@randiLgarcia</a>) <a href="https://t.co/6b9mtts92U">pic.twitter.com/6b9mtts92U</a></p>&mdash; Clara Rosenberg (@clarajrosenberg) <a href="https://twitter.com/clarajrosenberg/status/978118743569190912?ref_src=twsrc%5Etfw">March 26, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+- **Erina Fukuda '18** earned [2nd place in the introductory statistics](https://www.causeweb.org/usproc/usclap/2017/fall/winners) segment of the Undergraduate Statistics Class Project (USCLAP) competition for her project "Factors that Impact Video Game Sales". Erina completed this project while studying abroad in Denmark. 
+
+- **Angelica Estrada 'PB, Jessica Wert '18, and Oumayma Koulouh '19** won the intermediate statistics USCLAP competition for their project "Helping the Red Cross Predict Flooding in Togo."
+This was part of their coursework for Jordan Crouser's machine learning class. 
+
+- Smithies in SDS is a new student group being led by **Paige Patrick 'AC** and **Rutendo Madziwo '19**. Paige and Rutendo were awarded Smith's share of the Five College Statistics Prize for their efforts. Email them at (smithies-sds@googlegroups.com)!
+
+- A school-record 15 Smithies were [inducted into the Mu Sigma Rho national honor society](https://www.smith.edu/sds/awards.php) for statistics. The previous record appears to be 11, set in 2015 and tied in 2016. 
+
+- Amelia McNamara gave a [well-attended talk](https://twitter.com/AmeliaMN/status/1006344158510903296) on "Algorithmic Accountability" during Otelia Cromwell Day.
+
+- [Rachel Schutt](https://www.linkedin.com/in/rachelschutt/) gave a talk titled "A Humanst Approach to Data Science" to more than 100 people in March. It was standing room only!
+
+- Randi Garcia led a group of Smith students to the Women in Data Science livestream at WPI.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks again for a great conference <a href="https://twitter.com/WiDSCentralMass?ref_src=twsrc%5Etfw">@WiDSCentralMass</a>! <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> <a href="https://twitter.com/hashtag/WiDS2018?src=hash&amp;ref_src=twsrc%5Etfw">#WiDS2018</a> <a href="https://t.co/Bas6jy7che">pic.twitter.com/Bas6jy7che</a></p>&mdash; Randi Garcia (@randiLgarcia) <a href="https://twitter.com/randiLgarcia/status/970851911116165120?ref_src=twsrc%5Etfw">March 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- Smith, Mount Holyoke, and MassMutual teamed up to host the first [Women in Data Science Conference in Boston](http://www.science.smith.edu/wdsboston/) in January. Many current and former Smithies were in attendance. 
+
+<iframe width="504" height="284" src="https://www.youtube.com/embed/5OKDFpjDmmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Smithies enjoyed their time at the Women in Data Science conference! <a href="https://twitter.com/hashtag/WDSboston?src=hash&amp;ref_src=twsrc%5Etfw">#WDSboston</a> <a href="https://twitter.com/hashtag/smithieslead?src=hash&amp;ref_src=twsrc%5Etfw">#smithieslead</a> <a href="https://t.co/efsczvHbnm">pic.twitter.com/efsczvHbnm</a></p>&mdash; Smith College SDS (@SmithCollegeSDS) <a href="https://twitter.com/SmithCollegeSDS/status/954518714912837632?ref_src=twsrc%5Etfw">January 20, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- Smith was [well represented at a Women in Statistics and Data Science conference](https://www.smith.edu/news/people-news-46/) hosted by the American Statistical Association last month in San Diego, Calif. Participants included **Subashini Sridhar '18J, Angelica Estrada '18, Marta Garcia '19, Sakaiza Rasolofomanana Rajery '20, Thealexa Becker '13, Emily Dodwell '11, Maria Terres, post-baccalaureate '09, Christine Zhang '09, Mine Dogucu '09 and Elizabeth Stuart '97**. Ben Baumer, assistant professor of statistical and data sciences, and Amelia McNamara, Mass Mutual visiting assistant professor of statistical and data sciences, also attended the conference.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">4 students, 2 faculty, 5 alums from <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> at <a href="https://twitter.com/hashtag/WSDS2017?src=hash&amp;ref_src=twsrc%5Etfw">#WSDS2017</a> <a href="https://twitter.com/hashtag/smithieslead?src=hash&amp;ref_src=twsrc%5Etfw">#smithieslead</a> <a href="https://t.co/I529L2Tacc">pic.twitter.com/I529L2Tacc</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/921549394280833024?ref_src=twsrc%5Etfw">October 21, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- Jordan Crouser's [work on data visualization](https://www.smith.edu/news/visualize-this/) was featured in the Grecourt Gate.
+
+
+- SDS hosted a livestream viewing of the [Data 4 Black Lives conference](http://d4bl.org/conference.html) in November. 
+
+
+
+* Please follow us on Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) or visit [our website](http://smith.edu/statistics/) for more information on the program! There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/) and a Google group. **Please help us reach out to other alumnae by having them contact me!**
+
+### Previous Updates
+
+- [2017](sds_newsletter_2017.html)
+- [2016](sds_newsletter_2016.html)
+
+
+## Faculty Updates 
+
+It was a busy year in terms of faculty hiring. 
+
+- David Rockoff will be a MassMutual Faculty Fellow for 2018-2019. David finished his Ph.D. in statistics at the University of Arizona in the spring and just arrived in Northampton. He will be teaching introductory statistics. 
+
+- Jennifer Smetzer is our new lab instructor. Jenny received her Ph.D. in Wildlife, Fish and Conservation Biology in 2017 at UMass. She is jointly appointed in SDS and Psychology, and will be teaching the labs for SDS 220 and SDS 201. 
+
+- Albert Y. Kim and Katherine Kinnaird, both of whom were hired last year, have arrived at Smith and are now full-time tenure-track faculty. Albert's position is fully in SDS, while Katie's position is joint with computer science. 
+
+- Our program, director Joe O'Rourke, became the interim Provost when Katherine Rowe left Smith to become the [president of William and Mary](https://www.washingtonpost.com/news/grade-point/wp/2018/02/20/after-325-years-college-of-william-mary-names-its-first-woman-leader/?noredirect=on&utm_term=.d8d41fd12b97). Katherine was a champion of SDS, a fact mentioned in many articles about her time at Smith. Peter de Villiers of Psychology will serve as SDS chair in 2018-2019. 
+
+- Ben Capistrant -- who taught in SDS this year -- is staying at Smith after accepting a tenure-track position in the School for Social Work. Ben will continue to teach two courses in SDS for at least the next three years. We are really happy to keep him in the fold!
+
+- We were awarded a tenure-track, joint position with Government for next year. The hiring process is already underway. Please steer any qualified candidates our way!
+
+#### Ben Baumer
+
+I'm looking forward to my first ever sabbatical in the fall of 2018. This year I taught the capstone course for the first time, brought 156 students through introduction to data science (SDS 192), and had two noteworthy papers accepted: ["A Grammar for Reproducible and Painless Extract-Transform-Load Operations on Medium Data"](https://arxiv.org/abs/1708.07073) is going to the *Journal of Computational and Statistical Graphics*, and ["How often does the best team win? A unified approach to understanding randomness in North American sport"](https://arxiv.org/abs/1701.05976) is going to the *Annals of Applied Statistics*. 
+
+#### R. Jordan Crouser 
+
+Jordan Crouser has just completed his first year as an Assistant Professor in the Department of Computer Science, and is pleased to maintain a courtesy appointment in SDS. His debut thesis student **Ji Young Yun '18** successfully defended the first human-computer interaction thesis in the history of the department, entitled "[DiagnosisChecker: an Interactive Interface for Mitigating Diagnostic Bias in Mental Health Care](https://scholarworks.smith.edu/theses/2078/)". Thank you Prof. Randi Garcia for serving as the second reader for this project! This summer, he has 7 SURF students working in the Human Computation and Visualization Lab.
+
+#### Randi Garcia
+
+
+In my second year at Smith I developed a new 300-level research course, SDS/PSY 364 Research Seminar in Intergroup Relationships. In this course students learned about the psychology of dyadic and group relationships as well as how to statistically model dependency in data that violates the independence assumption. I also taught MTH/SDS 290, Research Design and Analysis, for this first time. Students in 290 conducted experiments in collaboration with the Smith Botanic Gardens with help from a curriculum enhancement grant. To top off a great year of teaching, at this year's Rally Day, I proudly (and nervously) received the SGA's junior faculty teaching award!
+
+This year I published research articles in Group Dynamics: Theory, Research, And Practice, Sexual and Relationship Therapy: Special Issue on Shining Light into the Darkness: Bisexuality and Relationships, and in Cultural Diversity and Ethnic Minority Psychology. I presented research at the National Council for Family Relations' annual meeting and at UMass Amherst's Social Psychology lunchtime brown bag.
+
+
+#### Katherine Halvorsen
+
+I have been on sabbatical this year, and I devoted much of the fall to helping my husband clean out and fix up his farm in Connecticut. His family had lived on the farm since 1910. While cleaning out the house and barn, we discovered a lot of family history through old pictures and interesting objects. We sold the farm in January to a family with five girls who we hope will enjoy the place as much as we have.   
+I intended my project for the spring to be revising the math stat course, and a great opportunity came along when three students who needed to take the course could not travel to Mount Holyoke to take it there.  I volunteered to teach a seminar in math stat and through that teaching learned how I want to change the course for the next time I teach it.  
+In January, I was invited to become a “Distinguished Visiting Professor of Statistics” at Middlebury College for the 2018-19 academic year. I suspect I will be temporarily filling the place Albert Kim left when Smith hired him to start teaching with us next fall!   I will teach two applied statistics courses and do statistical consulting while I am at Middlebury, and I will see all of you when I return in the fall of 2019.  Please make sure to look for Albert and welcome him to Smith when you return in the fall.
+
+#### Lu Lu
+
+I just finished my first year as a Visiting Assistant Professor at Smith. I am glad to have the opportunity of teaching Multiple Regression in Spring. 
+In the summer, I'm attending local talks and conferences related to data science in finance and preparing for a two-day course in this field for MassMutual.
+I'm also doing research on modeling equity data and quantitative trading strategies.
+
+#### Amelia McNamara
+
+
+After three great years teaching at Smith, I'm moving to the University of St Thomas, in St Paul, MN. I'm joining the [Department of Computer & Information Sciences](https://www.stthomas.edu/cisc/faculty/), but I'll still be teaching statistics, and helping them develop their data analytics program. I'm really going to miss all the Smithies and the fantastic SDS program. However, I grew up in Minnesota and am excited to be back closer to my family and friends. My new email address is amelia.mcnamara@stthomas.edu Please stay in touch!
+
+#### Miles Ott
+
+It was an eventful first year: I got to teach Intro Probability and Statistics both semesters, took part in my first five college datafest, and am all set up with a whopping 12 potted plants in my office.  This summer I am looking forward to working with two SURF students to analyze a social network data set to better understand how one's position in a social network is related to certain demographic characteristics and health behaviors.  I will be presenting on some new research extending Generalized Estimating Equations to the network context at JSM in Vancouver, I hope to see many other Smithies there.  I also will be speaking at the Institute for Computational and Experimental Research in Mathematics (ICERM) at Brown University in August at a workshop on  "Building Community in the Foundations of Data Science", which sounds like my kind of fun!  In the fall I am looking forward to to teaching a class on statistical analysis of social networks and welcoming Bert Kim, Jenny Smetzer,  and Katie Kinnaird to SDS!  
+
+
+## Alumnae Updates
+
+- Stephanie Eckman '94:  The Joint Program in Survey Methodology at the University of Maryland has launched a Master of Professional Studies in Survey and Data Science – 30 credits and completely online.  Students complete courses in five focus areas, allowing a customized educational experience that addresses the unique professional development needs of each student.  
+The application deadline for the spring is October 31.  https://gradschool.umd.edu/behavioralsocial-sciences/mpds
+
+- Elizabeth Offermann (Atkins) '15: I have continued my work in the Department of Neuropsychology at the Kennedy Krieger Institute and am loving it! Right now I am working on a project looking at early iron deficiency and the relationship to attention issues later in childhood. We have folks coming in for blood draws, MRIs, and neuropsychological testing of attention. We are about to analyze some preliminary data, which I am pumped to get started! We have our eye on a few conferences coming up to submit our results. I am also working on a cancer survivorship study looking at the transition back to school and where support lacks especially when it comes to neuropsychological evaluation of being ready to go back to school after cancer treatment. I am also working on a study exploring a phenomenon called Sluggish Cognitive Tempo and trying to figure out how exactly these kiddos are slower and in what capacity. Exciting news from my department - we were just in the New York Times! My department chair, Dr. Mark Mahone, was interviewed for NBC nightly news about a study I have worked on evaluating the brains of preschoolers with ADHD and how they are different from those without ADHD and from their younger selves. The article is called “[Scans Show Differences in Brains of Preschoolers With ADHD](https://www.nytimes.com/2018/03/26/well/family/scans-show-differences-in-brains-of-preschoolers-with-adhd.html).”  
+In other news, my husband and I welcomed our identical twin boys, Owen (6lbs 14oz) and Timothy (7lbs 2oz), in January! They are bundles of fun cooing and giggling like wild. It has been such a joyful six months so far! Here are some pictures with Owen on the left:
+
+- Sara Stoudt '15: I finished year three of the PhD (ah!) and am making progress on a project on species distribution and abundance modeling and a book on Prof. Deb Nolan and my experience teaching a writing class for statisticians. For the summer I'm interning at the Farmers Business Network (a startup that crowdsources farmer data to help them making planting, buying, and selling decisions), my first taste of industry!
+
+- Liz Stuart '97: I guess if you're looking for things you can say that I had a blast coming back to give the The Dorothy Wrinch Lecture in Biomathematics at the [Women in Mathematics
+in New England Conference](http://www.math.smith.edu/~jhenle/wimin17/) in September 2017, and that I especially appreciated the efforts to find childcare for my 6 year old so I could attend and present! 
+
+- Maria Toeres '09: I'm currently a Senior Quantitative Researcher at The Climate Corporation, and this summer I'm mentoring my first intern! Last October I presented my work in precision agriculture at the Women in Statistics and Data Science conference in La Jolla, CA - it was great to see a lot of other Smithies there! This summer I'll be at JSM presenting some of my postdoc work in Bayesian spectral modeling for spatial processes. I'm also Treasurer for the ENVR section, so I encourage you all to attend our mixer! On a more personal note, my daughter Ottavia was born in January. Those of you attending JSM may get a chance to meet her.  
+If there are any other Bay Area Smithies out there, please feel free to get in touch; a couple of us have been meeting for brunch from time to time, and it would be fun to have a bigger group!
+
+- Jingyang (Judy) Zhang '14: Happy Summer! I have been admitted by the Northwestern phd program in Statistics and will be attending this fall. 
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the Joint Statistical Meetings in Vancouver at the end of the month. We are planning to meet up for drinks/eats at:
+
+Cactus Club Cafe (Bentall 5 location)  
+588 Burrard Street  
+Vancouver, BC  
+https://www.cactusclubcafe.com/location/bentall-5/  
+Monday, August 30th, 6 pm
+
+At last year's JSM Katherine and I had a great time with **Dana Udwin '14**, **Sara Stoudt '15**, **Maura Spiegelman '08**, **Stephanie Eckman '94**, **Liz Stuart  '97**, and **Amy Hogan '97**. I also ran into **Emily Dodwell '11** at the conference. Come join us!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Smithie reunion at <a href="https://twitter.com/hashtag/JSM2017?src=hash&amp;ref_src=twsrc%5Etfw">#JSM2017</a> <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> <a href="https://t.co/E3zCOZFlXs">pic.twitter.com/E3zCOZFlXs</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/892143635197816833?ref_src=twsrc%5Etfw">July 31, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+### Women in Statistics and Data Science Conference
+
+Miles, Albert, and four students will be attending the ASA Women in Statistics and Data Science Conference in Cincinnati, OH from October 18--20th. The student swill be [presenting their work](https://ww2.amstat.org/meetings/wsds/2018/onlineprogram/Program.cfm). Hope to see you there!

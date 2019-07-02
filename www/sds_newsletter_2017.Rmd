@@ -1,0 +1,166 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2017"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Program Updates
+
+Whew! It has been another huge year for our program in **Statistical & Data Sciences**! In our first academic year with a major, 21 students officially declared an SDS major. For reference, this puts us on par with established majors like Geosciences, Spanish, and Theatre in terms of number of majors. We hired *three* tenure-track faculty members this year (more on that later). These new people will be housed in our corridor on the 2nd floor of McConnell Hall, which is the new home of SDS. Our graduates continue to do amazing things, and this year's graduates are already on their way to join them! 
+
+Some updates:
+
+* **Abby Doctor '17** and **Weijia (Vega) Zhang '17** became our first official SDS graduates. [You may recall that **Yiwen Zhu '16** completed a self-designed major in "Statistical & Data Sciences" before the official major was approved, so she is our first *unofficial* graduate.]
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s official! <a href="https://twitter.com/hashtag/smithieslead?src=hash">#smithieslead</a> <a href="https://twitter.com/hashtag/datascience?src=hash">#datascience</a> <a href="https://t.co/cMdy8Jz716">pic.twitter.com/cMdy8Jz716</a></p>&mdash; Smith College SDS (@SmithCollegeSDS) <a href="https://twitter.com/SmithCollegeSDS/status/866325293069467649">May 21, 2017</a></blockquote>
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* **Weijia (Vega) Zhang '17** completed the first SDS honor's thesis. She was awarded High Honors for her project, *Improving Access to Open-Source Data about the NYC Bike Sharing System (Citi Bike)*, which was advised by Ben Baumer and Jordan Crouser. For this effort Vega was also awarded the first ever Statistical & Data Science Research Prize. 
+
+* Two teams from Smith were awarded prizes in the Undergraduate Statistics Project Competition (USPROC). In the First Course in Statistics category, **Madison Laethem '17** and **Grace Zhan '18** won first place for their project *[Predicting Student Debt Upon College Graduation](https://www.causeweb.org/usproc/content/2016-fall-usclap-winners)*. In the Second Course in Statistics category, **Ji Young Yun '18** and **Wencong Li '18** won second place for their project *[NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?](https://www.causeweb.org/usproc/content/2016-fall-usclap-winners)*. Both groups were advised by Jordan Crouser. 
+
+* **Madison Laethem '17** joined the [MassMutual **Data Science Development Program**](http://datascience.massmutual.com/development).  This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. **Deirdre Fitzpatrick '14** and **Dana Udwin '14** will be among the first cohort to complete the development program this summer. 
+
+* **Christine Zhang '09**, a data journalist at the *Los Angeles Times*, gave a well-attended talk on "Data Visualization at the Los Angeles Times" on December 6, 2016.
+
+![](https://www.smith.edu/sds/images/christine_zhang_poster_500px.jpg)
+
+* Jessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about "Understanding p-values and the Controversy Surrounding Them."
+
+* **Abby Doctor '17** won Smith's [Five College Statistics Prize](https://www.fivecolleges.edu/statistics/news) for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.
+
+* Smith teams restored order to the world by cleaning up at the [4th annual ASA Five College DataFest](http://www.science.smith.edu/datafest/2017/04/02/recap-of-winners-from-datafest-2017/) at UMass in March. The Best in Show prize went to DataBest (**Zainab Aqdas Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18, Ji Wong Chung '18 and Van Nguyen '18**), while prizes for Best Statistical Interpretation went to Normally Distributed (**Zixian Li '19, Angie Dinh '17, Abby Doctor '17, Erina Fukuda '18 and Raeesa Alam '19J**) and Best Business Insight went to Standard Divination (**Isabella Zhu '20, Cas Sweeney '19, Sarah Abowitz '20 and Garcia Sun '20**). Smith teams have now won the Best in Show prize at three of the first four competitions. Many alumnae stopped by and served as VIP Consultants during the weekend. 
+
+![DataBest with trophy and judges](http://www.science.smith.edu/datafest/wp-content/uploads/sites/12/2017/04/2017-04-02-16.55.43-768x534.jpg)
+
+* Smith was awarded a [Claire Booth Luce](http://www.hluce.org/cblgrants.aspx) tenure-track position joint in SDS and computer science through a grant from the Luce Foundation. The grant pays $500k that allows Smith to create a permanent line (more on the hire later).
+
+* **[Liz Stuart '97](http://www.biostat.jhsph.edu/~estuart)** [won the Gertrude Cox Award](https://hub.jhu.edu/at-work/2017/06/22/elizabeth-stuart-receives-gertrude-m-cox-award/) as early to mid-career statistician who has made significant contributions to one or more of the areas of applied statistics in which Gertrude Cox worked: survey methodology, experimental design, biostatistics, and statistical computing. This award is not to be confused with the Gertrude Cox scholarship, which Liz also won in 2000. 
+
+* Jordan Crouser's work on boater hats with several students was profiled in [a Grecourt Gate video](https://www.smith.edu/video/boater-hats). 
+
+* **Cas Sweeney '19** described the SDS major as "one of Smith's newest and fastest-growing majors" in [an article for the Sophian](http://www.thesmithsophian.com/a-look-into-statistical-and-data-sciences-one-of-smiths-newest-and-fastest-growing-majors/).
+
+* **Dana Udwin '14** was profiled in Parade magazine's 2017 edition of [*What People Earn*](https://parade.com/562623/parade/what-people-earn-2017-peek-inside-the-jobs-and-paychecks-of-everyday-people/#gallery_562623-92). 
+
+* Provost Katherine Rowe touted the SDS program at a [Forum on Data Analytics & Tomorrow's Workforce](https://www.theatlantic.com/live/events/crunching-the-numbers/2017/) sponsored by *The Atlantic*. 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Katherine Rowe <a href="https://twitter.com/smithcollege">@SmithCollege</a>: we have a chance today to shape the future of  <a href="https://twitter.com/hashtag/datascience?src=hash">#datascience</a> workforce to be <a href="https://twitter.com/hashtag/diverse?src=hash">#diverse</a> <a href="https://twitter.com/hashtag/AtlanticDataScience?src=hash">#AtlanticDataScience</a> <a href="https://t.co/rS7EqtvcX0">pic.twitter.com/rS7EqtvcX0</a></p>&mdash; Cristina Ampil (@CristinaAmpil) <a href="https://twitter.com/CristinaAmpil/status/847439073178341380">March 30, 2017</a></blockquote>
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;At Smith, We see an opportunity to establish the culture of data science &amp; make it hospitable to women and minorities&quot; <a href="https://twitter.com/hashtag/AtlanticDataScience?src=hash">#AtlanticDataScience</a></p>&mdash; Smith College Tweets (@smithcollege) <a href="https://twitter.com/smithcollege/status/847440209507532800">March 30, 2017</a></blockquote>
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* [BestValueSchools.com](http://www.bestvalueschools.com/small-colleges/data-science/) listed Smith at #6 on their list of Best Value Small Colleges for a Data Science degree. 
+
+* Please follow us on Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) or visit [our website](http://smith.edu/statistics/) for more information on the program! There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/) and a Google group. **Please help us reach out to other alumnae by having them contact me!**
+
+### Previous Updates
+
+- [2016](sds_newsletter_2016.html)
+
+## Faculty Updates 
+
+* We hired **[Miles Ott '01](https://www.smith.edu/academics/faculty/miles-ott)** as a tenure-track faculty member. After majoring in mathematics and minoring in computer science at Smith, Miles earned an MPH in epidemiology from the University of Minnesota, an MS in biostatistics from Harvard, and a PhD in biostatistics from Brown University. Miles taught at Carleton College and Augsberg College before coming home to Smith. 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">20 years after starting <a href="https://twitter.com/smithcollege">@smithcollege</a> as a first year student I will join <a href="https://twitter.com/SmithCollegeSDS">@SmithCollegeSDS</a> as a faculty member in Fall of 2017! 🎉🎉🎉</p>&mdash; Miles Ott (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/846776946184900608">March 28, 2017</a></blockquote>
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* We also hired **[Albert Y. Kim](https://rudeboybert.github.io/)** as a tenure-track faculty member. Albert will join us in 2018  after teaching at Amherst College this year. A Montreal native, Albert majored in mathematics and computer science at McGill University before earning his PhD in statistics from the University of Washington. Albert worked at Google before taking faculty positions at Reed College, Middlebury College, and Amherst. 
+
+* We hired **[Katherine Kinnaird](http://katherinemkinnaird.net/)** as the Claire Booth Luce professor of computer science and statistical & data sciences. Katie will join us in 2018 after she completes her post-doc at Brown University. Katie majored in mathematics at Wellesley and earned her PhD in math from Dartmouth College. She taught statistics and computer science at Macalester College before moving to Brown. 
+
+* **[R. Jordan Crouser '08](https://www.smith.edu/academics/faculty/jordan-crouser)** was hired as a tenure-track professor of computer science. While we are sad to lose Jordan to CSC, we are ecstatic that he will be staying at Smith and will do everything we can to keep him involved in our program! 
+
+* Filling a two-year Visiting Assistant Professor, MassMutual Faculty Fellow position is **[Lu Lu](http://web.colby.edu/llu/)**. Lu is a mathematical statistician with an interest in industrial applications who is coming to Smith from Colby College. **[Amelia McNamara](https://www.smith.edu/academics/faculty/amelia-mcnamara)** remains in her MassMutual Faculty Fellow position. 
+
+* **[Ben Capistrant](https://twitter.com/bencapistrant?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)** was hired as a Visiting Professor. Ben was most recently in the Epidemiology department of the University of Minnesota. 
+
+#### Ben Baumer
+
+I've got two pieces of big news to report this year (in no particular order):
+
+* My second book, [*Modern Data Science with R*](http://mdsr-book.github.io/) was published by CRC Press. This book was co-authored with Nick Horton and Danny Kaplan, and serves as a textbook for undergraduate data science courses like the ones that I have been teaching here at Smith. The material for the book evolved out of lectures notes and homework assignments that have been used in 292 and 192. 
+* My second daughter, Arlo, was born in January. Here is [a recent picture of her](20170709_193921.jpg) with Alice.
+
+Looking forward to seeing you at JSM and WSDS!
+
+#### Ben Capistrant
+
+Ben Capistrant is a new Visiting Assistant Professor in SDS. His research focuses on social determinants of population health, both in the U.S. and in low and middle-income countries. This summer, he is working on a number of research studies on how providing care to a family member is associated with changes in the caregiver's health. In June, he started a new project with the Minnesota Department of Human Services to model projections of population aging, health and health care demands in the coming decades. He is glad to use summer conferences as a way to see friends and family around the country and is looking forward to teaching this fall.
+
+
+#### R. Jordan Crouser 
+
+This summer 9 SURF students joined Jordan Crouser in the Human Computation and Visualization Laboratory. The HCV lab produced several papers this year, including:
+
+#.  R. Jordan Crouser, Lyndsey Franklin, Alex Endert, and Kris Cook. Toward theoretical techniques for measuring the use of human effort in visual analytic systems. IEEE Transactions on Visualization and Computer Graphics, 23(1):121–130, 2017.
+#.  R. Jordan Crouser, Lyndsey Franklin, and Kris Cook. Rethinking visual analytics for streaming data applications. IEEE Internet Computing, 21(4), 2017. To appear.
+#.  R. Jordan Crouser, Erina Fukuda\*, and Subashini Sridhar\*. Retrospective on a decade of research in visualization for cybersecurity. In IEEE Symposium on Technologies for Homeland Security, 2017.
+#.  Ji Won Chung\*, Isha Raut\*, Ji Young Yun\*, Kelly Pien\*, Subashini Sridhar\*, Morganne R. Crouser, and R. Jordan Crouser. DSMVis: Interactive visual exploration of the DSM-5 for mental health providers. In IEEE Conference on Visual Analytics Science and Technology, 2017. To appear. 
+
+\* Indicates authors that were undergraduate students at the time of submission.
+
+Beginning in July 2017, Jordan has accepted a tenure-track position with the Department of Computer Science at Smith.
+
+#### Randi Garcia
+
+Randi just finished teaching her first year at Smith. She taught SDS 201, Statistical Methods for Undergraduate Research, and also Research Methods and the Psychology of Women and Gender in the Psychology department. She also taught a special studies with Minji Kang '19, on Longitudinal Data Analysis with Structural Equation Modeling. Minji presented analyses conducted for this course at the Modern Modeling Methods (MMM) conference at UConn in May. This Spring Randi also started a project with Connie Zhang '19, on using R Markdown to create APA style manuscripts. Connie was awarded a SURF to continuing this work at Smith into the summer. With the help of six students, data collection is underway in Randi's Intergroup Relationships Laboratory on a project examining interpersonal objectification. This year Randi published research articles in the Journal of Family Psychology, Group Processes and Intergroup Relations, and Cultural Diversity and Ethnic Minority Psychology. This summer she has presented work MMM, the Association for Psychological Science, The European Association of Social Psychology, and taught two data analysis workshops. 
+
+#### Katherine Halvorsen
+
+Katherine is on sabbatical during the 2017--2018 academic year. 
+
+#### Lu Lu
+
+I'm excited to begin my first year as a Visiting Assistant Professor in Statistical and Data Sciences Program. I earned my M.S. and Ph.D. in applied mathematics from University of Connecticut. Since then, I've taught at the Department of Mathematics and Statistics at Colby College.
+
+I have been working on statistical learning theory, in particular, nonparametric curve estimation and the probability theory related to it. I have studied the aysmptotic properties of density estimators. I've become more interested in applying big data analytics to finance. Currently I'm working on credit scoring using survival analysis and other machine learning techniques.
+
+#### Amelia McNamara
+
+It was fun to reprise my Introduction to Probability and Statistics and Multiple Regression courses last year, but I am looking forward to expanding my course offerings this year. I'll be taking over Jordan Crouser's Communicating with Data course in the fall, and creating a Data Journalism course for the spring. My personal goal for the SDS program is for us to have connections with every division on campus, and I'm particularly interested in crossover with the humanities. After a crazy summer of travel last year, I did my best to stay put this summer, which has allowed me to focus more on my research. 
+
+#### Miles Ott
+
+Miles Ott is a new faculty member joining SDS in the Fall.  He is interested in the statistical analysis of social network data and public health.  This summer he gave a talk titled "Strategic Players for Identifying Optimal Social Network Intervention Subjects, with Application to an Undergraduate Social Network" at the Sunbelt Social Network conference in Beijing. He is excited to be a part of the SDS program and is looking forward to teaching 220 in September, and involving Smith students in his research.  In the meantime, he has been sampling delicious baked goods throughout the Pioneer Valley and exploring the rail trail by bike.
+
+## Alumnae Updates
+
+* [Mine Dogucu '09](https://twitter.com/MineDogucu): I just finished my PhD at Ohio State and I will be starting at New College of Florida as an assistant professor of statistics. I am excited to be teaching both undergraduate and graduate courses in a liberal arts setting. I think New College has a unique master's program in Data Science. I would be happy to talk to any Smithies who are interested. I will not be able to attend JSM this year due to move but I am hoping to meet Smithies at Women in Statistics and Data Science conference in October. This year, I also have been involved with R Ladies which is a global organization that aims to improve gender diversity in the R community. I started a local chapter in Columbus and hoping to start one in Sarasota. Feel free to contact me if you need help finding/starting a local chapter in your own city. 
+
+* Maja Miloslavjevic '14: I moved to Seattle 5 months ago and now work at Microsoft as a Program Manager in Office365! I love the quick-paced nature of Microsoft and that I get to drive direct customer impact with  my work. Outside of work, I spend my time trying to enjoy as much of the Seattle summer as possible before the months of rain begin again...
+
+* Jingyang (Judy) Zhang '14: I am still working for ITS at Smith, currently working on the college's website. 
+
+* [Sara Stoudt '15](https://twitter.com/sastoudt): I made it through year two in the Statistics PhD program at UC Berkeley and finished the Data Sciences for the 21st Century: Environment and Society program. I am currently back at NIST for the summer working on greenhouse gas monitoring data collected via small aircraft. In the fall I will be focusing on helping to teach a new class on writing for statistics and transitioning to research with a project to try to use citizen science data to better understand species distribution changes over space and time.
+
+* Liz Stuart '97 is a Professor of Mental Health, Biostatistics, and Health Policy and Management at Johns Hopkins Bloomberg School of Public Health.  She won the 2017 Gertrude Cox Award, given out by the Washington Statistical Society and RTI to recognize an early to mid-career statistician who has made significant contributions to applied statistics.  She welcomes anyone who wants to learn about biostatistics, public health, or education to reach out!  estuart@jhu.edu
+
+* [Dana Udwin '14](https://twitter.com/danascientist): is starting the PhD program in biostatistics at Brown University in the fall!
+
+* Lizzy (Atkins) Offermann '15: I recently moved to the Department of Neuropsychology at The Kennedy Krieger Institute / Johns Hopkins. I manage all of the data for the Department and am working with Python, R Studio, SQL, STATA, and SPSS everyday. I have thoroughly enjoyed the challenge of switching between languages and so appreciate that I still have my notes from Smith in addition to Google :) Each day, I am working on large clinical data sets for manuscript preparation in hopes of targeting our neuropsychological treatments to better serve our patients. In December, I was selected as the Smith Alumnae Admissions Coordinator for Maryland and Delaware - which means I coordinate all student interviews, lead a team of admissions volunteers, and host all of our accepted and admitted student parties. It is a packed job, but I love every moment of it!
+
+* [Christa Chiao '15](https://www.linkedin.com/in/christa-chiao-3a674453/): I recently started working at the Democratic Congressional Campaign Committee as a Regional Targeting Director for the 2018 mid-term elections. I am really excited to combine my statistics and coding skills with some political know-how. The technical skills I'm using most in this job are R, SQL, Bash, GIS, and Python. Last year, I worked as a Deputy Analytics Director in Ohio for the Hillary campaign and as an Analytics Fellow at the Analyst Institute, a political analytics firm that helps campaigns measure the impact of their voter-contact programs. In my spare time, I row with Potomac Boat Club and think about acquiring some hobbies. I am so incredibly envious of the students that get to take part in this Data Science major! If anyone wants to learn more about getting into the (strictly) progressive data world, please let me know.
+
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the Joint Statistical Meetings in Baltimore at the end of the month. We are planning to meet up for drinks/eats at [Pratt's Ale House](https://www.google.com/maps/place/Pratt+Street+Ale+House/@39.2865834,-76.6203367,17z/data=!4m12!1m6!3m5!1s0x89c80360762b208f:0x374c0165735c335f!2sPratt+Street+Ale+House!8m2!3d39.2865834!4d-76.618148!3m4!1s0x89c80360762b208f:0x374c0165735c335f!8m2!3d39.2865834!4d-76.618148?hl=en) Monday night at 5:00 pm. Come join us!!
+
+
+Pratt Street Ale House  
+206 W Pratt St  
+Baltimore, MD 21201  
+Monday, July 31, 5 pm  
+
+### Women in Statistics and Data Science Conference
+
+A few of us---hopefully including some students---will be attending the ASA Women in Statistics and Data Science Conference in La Jolla, CA from October 20--22nd. We have put together a dynamite panel who will be discussing [data science at women's colleges](https://ww2.amstat.org/meetings/wsds/2017/onlineprogram/AbstractDetails.cfm?AbstractID=303897). We hope to see you there!

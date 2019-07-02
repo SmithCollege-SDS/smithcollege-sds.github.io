@@ -1,0 +1,51 @@
+---
+title: "Mu Sigma Rho"
+output:
+  html_document:
+    toc: false
+---
+
+<a href="http://www.stat.purdue.edu/~mccabe/msr/">Mu Sigma Rho</a> is the national statistics honor society, and the Boston Chapter of the ASA oversees <a href="http://www.colby.edu/musigmarho/">nominations</a> from Smith each spring.
+
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+```{r, eval=FALSE, include=FALSE}
+library(googlesheets)
+key <- "1P2ZOOXB5dHwycXZkFYm_3u7M4lEPPm36RJHdMloAZlY"
+gs_auth()
+g <- gs_key(key)
+g <- gs_ls()
+
+# currently not working. Download spreadsheet manually
+
+```
+
+
+```{r, echo=FALSE, message=FALSE}
+archive <- read_csv(here::here("www", "Mu_Sigma_Rho_DB.csv"))
+```
+
+```{r mu-sigma-rho, fig.cap="Growth of Mu Sigma Rho inductees.", echo=FALSE}
+archive %>%
+  group_by(induction, class) %>%
+  summarize(N = n()) %>%
+  ggplot(aes(x = induction, y = N, fill = class)) +
+  geom_col() +
+  scale_y_continuous("Number of Inductees") + 
+  scale_x_continuous("Year of Induction") + 
+  labs(title = "Growth of Smith College Mu Sigma Rho inductees")
+```
+
+Search the archive to find inductees:
+
+```{r, echo=FALSE, message=FALSE}
+archive %>%
+  arrange(desc(induction), Last, First) %>%
+#  mutate(Name = paste(Last, First, "(", PrefFirst, ")")) %>%
+  select(induction, Last, First, PrefFirst, class) %>%
+  DT::datatable(options = list(pageLength = 25))
+```
+
