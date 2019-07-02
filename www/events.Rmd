@@ -1,0 +1,70 @@
+---
+title: "Recent Events"
+---
+
+<div class="row">
+<div class="col-sm-6 col-md-4">
+
+  <div class="thumbnail">
+  [![](gfx/stephanie_hicks_poster_500px.jpg)](gfx/stephanie_hicks_poster.pdf)
+  <div class="caption">
+
+### Stephanie Hicks
+
+  </div>
+  </div>
+
+  <div class="thumbnail">
+  [![](gfx/emma_benn_poster_500px.jpg)](gfx/emma_benn_poster.pdf)
+  <div class="caption">
+
+### Emma Benn
+
+  </div>
+  </div>
+
+  
+  <div class="thumbnail">
+  [![](gfx/terryann_craigie_poster_500px.jpg)](gfx/terryann_craigie_poster.pdf)
+  <div class="caption">
+
+### Terry-Ann Craigie
+
+  </div>
+  </div>
+
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+
+  <div class="thumbnail">
+  [![](gfx/rachel_schutt_poster_500px.jpg)](gfx/rachel_schutt_poster.pdf)
+  <div class="caption">
+
+### Rachel Schutt
+
+  </div>
+  </div>
+
+  <div class="thumbnail">
+  [![](gfx/christine_zhang_poster_500px.jpg)](gfx/christine_zhang_poster.pdf)
+  <div class="caption">
+
+### Christine Zhang '09
+
+  </div>
+  </div>
+  
+
+  <div class="thumbnail">
+  [![](gfx/amanda_cox_poster_500px.png)](gfx/amanda_cox_poster.pdf)
+  <div class="caption">
+
+### Amanda Cox
+
+  </div>
+  </div>
+
+</div>
+</div>
