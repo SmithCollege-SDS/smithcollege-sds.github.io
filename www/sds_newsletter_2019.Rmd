@@ -138,6 +138,9 @@ I just completed my first year as Laboratory Instructor in SDS and Psychology. I
 
 - [Sara Stoudt '15](https://www.linkedin.com/in/sara-s-172a957a/): I made it through another year in the PhD with (hopefully) only one more to go. This year I became a Berkeley Institute for Data Science Fellow and got to help organize a "Fostering diverse and inclusive data science at Berkeley" series for underrepresented undergraduate students. Professor Deb Nolan and I are are finishing up our book on how to write about data and are hoping to have it out in the spring. I'm spending the summer at the Los Angeles Times Data Desk, living the glamorous data journalist life. :D
 
+
+- [Dana Udwin '14](https://www.linkedin.com/in/dludwin): I passed the qualifying exam! The plan for the summer is to resume research with Professor Crawford and stress a little less.
+
 ## What's next? 
 
 ### Joint Statistical Meetings
