@@ -26,7 +26,7 @@ https://www.facebook.com/groups/665780273559948/) and a Google group. **Please h
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congratulations to Julianna Alvord for earning Highest Honors in <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> for her thesis on race and language on <a href="https://twitter.com/hashtag/nfl?src=hash&amp;ref_src=twsrc%5Etfw">#nfl</a> Twitter. <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw">@randiLgarcia</a> <a href="https://t.co/2CHwjjKgj5">pic.twitter.com/2CHwjjKgj5</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/1130486683441553408?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-- **Yue Kuang '19**, **Zixian Li '19** and **Jingyi Liu '19** won Smith's share of the Five College Statistics Prize for their outstanding senior capstone project. They worked with the [Wisconsin Project on Nuclear Arms Control](https://www.wisconsinproject.org/) to help limit the international spread of nuclear materials. 
+- **Yue Kuang '19**, **Zixian Li '19** and **Jingyi Liu '19** won Smith's share of the Five College Statistics Prize for their outstanding senior capstone project. They worked with the [Wisconsin Project on Nuclear Arms Control](https://www.wisconsinproject.org/) (headed by **Valerie Lincy '97**) to help limit the international spread of nuclear materials. 
 
 - **Albert Kim**, **Miles Ott '01**, and **Katie Kinnaird** represented Smith at the Symoposium on Statistics and Data Science.
 
@@ -78,9 +78,9 @@ https://www.facebook.com/groups/665780273559948/) and a Google group. **Please h
 The SDS faculty continues to grow. 
 
 - [Peter de Villiers](https://www.smith.edu/academics/faculty/peter-de-villiers) of the Psychology department served as SDS Program Chair this past year, and will serve again next year, despite being retired. Thank you Peter for your service to SDS!
-- Our search for a joint position with GOV failed last year. Fortunately, we will be searching again this fall. 
-- After four bountiful years, the MassMutual Visiting Assistant Professor positions expired. MassMutual's support brought us three years of Amelia McNamara, two years of Jordan Crouser and Lu Lu, and one year of David Rockoff, for which we are eternally grateful. 
-- We hired **Dhanamalee Bandara** as a Visiting Assistant Professor for 2019-2020. Dhanamalee comes to us from the [University of North Carolina Wilmington](https://uncw.edu/math/faculty.html). She has a Ph.D. in Mathematics with a Statistics concentration from Texas Tech University. 
+- Our search for a joint position with GOV failed last year. Fortunately, we will be searching again this fall. If you know good candidates, please direct them our way!
+- After four bountiful years, the MassMutual Visiting Assistant Professor positions expired. MassMutual's support brought us three years of [Amelia McNamara](https://www.stthomas.edu/cisc/faculty/amelia-mcnamara.html), two years of Jordan Crouser and Lu Lu, and one year of David Rockoff, for which we are eternally grateful. 
+- We hired **Dhanamalee Bandara** as a Visiting Assistant Professor for 2019-2020. Dhanamalee comes to us from the [University of North Carolina Wilmington](https://uncw.edu/math/faculty.html). She has a Ph.D. in Mathematics with a Statistics concentration from Texas Tech University, and will be teaching 291 in the fall. Welcome Dhanamalee!
 - We hired **David Rockoff** as a Visiting Assistant Professor for another year after his MassMutual appointment ended. 
 
 
@@ -90,7 +90,9 @@ The SDS faculty continues to grow.
 I'm coming up for tenure this fall, and working on my dossier over the summer. I'm also working on a second edition of *Modern Data Science with R*, which we have converted to R Markdown and will publish simultaneously online and in print, thanks to [`bookdown`](https://bookdown.org/). If you come to JSM this year you will have a hard time avoiding me, as I'll be winning the [Waller Education Award](https://www.amstat.org/ASA/Your-Career/Awards/Waller-Awards.aspx) from the Section on Statistics Education *and* the [Significant Contributor Award](https://community.amstat.org/sis/aboutus/honorees) from the Section on Statistics in Sports. Both are great honors and I'm deeply grateful to those of you who supported my nomination!
 
 
-#### R. Jordan Crouser 
+#### R. Jordan Crouser
+
+[Jordan is away for much of this summer and (Ben thinks) will be on sabbatical in the fall.]
 
 #### Randi Garcia
 
@@ -125,16 +127,16 @@ I just completed my first year as Laboratory Instructor in SDS and Psychology. I
 
 ## Alumnae Updates
 
-- [Mine Dogucu '09](https://www.linkedin.com/in/minedogucu/): I spent the academic year at Denison University as Visiting Assistant Professor of Data Analytics. In July, I will be joining the Department of Statistics at University of California Irvine as Assistant Professor of Teaching. I had many opportunities reconnecting with Smithies. In September, I took my students to Amherst College for StatFest where Portia Exum (Parker) '10 was a panelist. Emily Dodwell '11 was also in the Valley to give a talk for the SDS department. In October, I attended Women in Statistics and Data Science Conference in Cincinnati where I met [Dr. Miles Ott '01](https://twitter.com/MineDogucu/status/1053299181891317766) (side note: he now is a prof. at Smith, see above for his update in case you missed it).  Dr. Alicia Johnson of Macalester College, Dr. Ott, and I now collaborate on a Bayesian Statistics textbook for undergraduate students that is going to be published by CRC. I organized Denison's first [DataFest](https://twitter.com/MineDogucu/status/1117144314176593921). In May, I attended my tenth year reunion at Smith. I connected with friends and faculty and met graduating seniors at the SDS reception. I also ran into Dr. Elizabeth Stuart '97 during Friday Tea in the Cloud. I enjoy (online and offline) connections with Smithies who are in Statistical and Data Sciences and am looking forward to making new ones in the future.
+- [Mine Dogucu '09](https://www.linkedin.com/in/minedogucu/): I spent the academic year at Denison University as Visiting Assistant Professor of Data Analytics. In July, I will be joining the Department of Statistics at University of California Irvine as Assistant Professor of Teaching. I had many opportunities reconnecting with Smithies. In September, I took my students to Amherst College for StatFest where **Portia Exum (Parker) '10** was a panelist. **Emily Dodwell '11** was also in the Valley to give a talk for the SDS department. In October, I attended Women in Statistics and Data Science Conference in Cincinnati where I met **[Dr. Miles Ott '01](https://twitter.com/MineDogucu/status/1053299181891317766)** (side note: he now is a prof. at Smith, see above for his update in case you missed it).  Dr. Alicia Johnson of Macalester College, Dr. Ott, and I now collaborate on a Bayesian Statistics textbook for undergraduate students that is going to be published by CRC. I organized Denison's first [DataFest](https://twitter.com/MineDogucu/status/1117144314176593921). In May, I attended my tenth year reunion at Smith. I connected with friends and faculty and met graduating seniors at the SDS reception. I also ran into Dr. **Elizabeth Stuart '97** during Friday Tea in the Cloud. I enjoy (online and offline) connections with Smithies who are in Statistical and Data Sciences and am looking forward to making new ones in the future.
 
 - [Wencong (Priscilla) Li '18](https://www.linkedin.com/in/wencong-priscilla-li-83732169/): I went back to watch the 2019 commencement and was happy to see that the SDS department is growing!
 
 - [Jordan Menter '16](https://www.linkedin.com/in/jordanmenter/): 
-"In May I finished the last year of the Data Science Development Program at MassMututal, concluding three years of full-time work as a junior data scientist and part-time graduate study in computer science at UMass Amherst. I’m still waiting for my diploma to come in the mail, but in the mean time I’ve accepted a data scientist role at MM. We recently welcomed the sixth cohort of the DSDP -  they're wicked smart, and it’s so exciting to see so much energy and engagement from them.  
+In May I finished the last year of the Data Science Development Program at MassMututal, concluding three years of full-time work as a junior data scientist and part-time graduate study in computer science at UMass Amherst. I’m still waiting for my diploma to come in the mail, but in the meantime I’ve accepted a data scientist role at MM. We recently welcomed the sixth cohort of the DSDP -  they're wicked smart, and it’s so exciting to see so much energy and engagement from them.  
   
   This fall I hope to submit a paper on algorithmic fairness and causality that I worked on as part of my MS degree, supervised by Professor David Jensen at UMass Amherst. I was also lucky enough to take an ethics and computing course last fall, and will be part of a group-level collaboration among myself, Professor Michelle Trim (also at UMass Amherst), and some of my classmates (all of whom were or are also in the DSDP!) to produce a data science and ethics publication of some sorts (a brief textbook, or a reader for a course, or a co-authored paper…). I feel very lucky to have experiences in the research side of things, in addition to the work I do in industry.  
   
-  Finally, I’ve greatly enjoyed mentoring current Smith senior and SDS major Starry Zhou. It’s wonderful to have connections back to the department, and I’m excited to see what the future holds for SDS!"
+  Finally, I’ve greatly enjoyed mentoring current Smith senior and SDS major **Starry Zhou '20**. It’s wonderful to have connections back to the department, and I’m excited to see what the future holds for SDS!
 
 - [Sara Stoudt '15](https://www.linkedin.com/in/sara-s-172a957a/): I made it through another year in the PhD with (hopefully) only one more to go. This year I became a Berkeley Institute for Data Science Fellow and got to help organize a "Fostering diverse and inclusive data science at Berkeley" series for underrepresented undergraduate students. Professor Deb Nolan and I are are finishing up our book on how to write about data and are hoping to have it out in the spring. I'm spending the summer at the Los Angeles Times Data Desk, living the glamorous data journalist life. :D
 
@@ -148,7 +150,7 @@ I just completed my first year as Laboratory Instructor in SDS and Psychology. I
 Many of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:
 
 - Stout Street Social  
-  1400 Stout St,  
+  1400 Stout St  
   Denver, CO 80202  
   https://www.stoutstsocial.com/  
   Monday, August 29th, 6 pm
@@ -160,7 +162,7 @@ Mark your calendar!
 ### Women in Statistics and Data Science Conference
 
 
-**Randi Garcia** and four students will be attending the [ASA Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2019/) in Bellevue, WA from October 18--20th. Two groups of students swill be presenting their work:
+**Randi Garcia** and four students will be attending the [ASA Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2019/) in Bellevue, WA from October 18--20th. Two groups of students will be presenting their work:
 
 - [Social Network Analysis of Cosponsorship in the 115th Congress (306427)]( https://ww2.amstat.org/meetings/wsds/2019/onlineprogram/AbstractDetails.cfm?AbstractID=306427)  
   **Emily Daubenspeck '20**, Smith College   
