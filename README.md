@@ -1,5 +1,6 @@
-# sds-www
+sds-www
+================
+
 SDS content for the web not managed by college relations
 
-https://smithcollege-sds.github.io/sds-www/
-
+<https://smithcollege-sds.github.io/sds-www/>

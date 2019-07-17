@@ -1,0 +1,138 @@
+---
+title: "Troubleshooting in R Markdown"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(knitr)
+opts_chunk$set(error = TRUE)
+library(mosaic)
+library(tidyverse)
+```
+
+
+There are a few common problems that people have had with their labs. This page will be updated with new problems when they arise, and it's a good place to look if you're having trouble. 
+
+## Downloading the HTML so you can upload it to Moodle
+
+To download the knitted HTML, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document's name. Make sure it is the HTML file with the same filename as the Rmd file you were editing. Then click the More button and select Export. This will download the file onto your computer and you can then upload it to Moodle. For a short video showing this process, see [here](http://www.science.smith.edu/~amcnamara/SavingLabs.mp4).
+
+[![](gfx/exportRMarkdown.jpeg)](http://www.science.smith.edu/~amcnamara/SavingLabs.mp4)
+
+## Document won't knit
+
+There could be many reasons for this. Usually, the error message will pinpoint the location of the problem. **Read the error messages!!**
+
+Some most common problems are:
+
+- including output in your code chunks, like 
+```{r}
+mean(~speed, data = cars) 169.683
+```
+- including the > or + prompts that come from the console in your code chunks, like
+```{r}
+> mean(~speed, data = cars)
+```
+ or
+```{r}
+cars %>%
++ filter(speed > 100)
+```
+- Asking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like `[ reached getOption("max.print") -- omitted 18684 rows ]`, but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included
+```{r, eval=FALSE}
+  cars
+```
+  in your document, but also `dplyr` expressions that aren't saved into an object can do it, like
+```{r, eval=FALSE}
+  cars %>%
+   filter(speed > 100)
+```
+
+- Not including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven't loaded previously in your Markdown document.
+```{r}
+now()
+library(lubridate)
+now()
+```
+
+For SDS classes, you often need to include
+```{r, message=FALSE, eval=FALSE}
+require(mosaic)
+require(oilabs)
+```
+  Note that `mosaic` in turn loads `dplyr` and `ggplot2`. If you aren't using `mosaic`, another solution may be to load the `tidyverse` package, which will in turn load `dplyr`, `ggplot2`, and several other packages. 
+
+```{r, eval=FALSE}
+require(tidyverse)
+```
+  Note also that `require()` and `library()` are [equivalent for our purposes](http://yihui.name/en/2014/07/library-vs-require/). 
+
+- Packages not installed. If you try to load a package that is not available in your R session, then you will get a warning. 
+
+```{r}
+library(imadethisup)
+```
+
+To install the package, click on the "Install" button under the "Packages" tab, or use the `install.packages()` function.
+
+```{r, eval=FALSE}
+install.packages("imadethisup")
+```
+
+- Having spaces or other [non-safe characters in filenames](https://en.wikipedia.org/wiki/Filename#Reserved_characters_and_words). This will often break when you try to compile your Markown document into HTML. **Do not use spaces, slashes, or pound signs in filenames!!** 
+
+- Referring to objects that don't exist. **Recall that your Markdown document knits in a clean R session!!** Objects in your working environment are shown under the "Environment" tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:
+
+```{r}
+my_object
+```
+
+it means that R cannot find any object in its environment called `my_object`. Make sure that `my_object` is created in the Markdown document prior to where you are trying to access it.  
+  One common way this can occur is if you failed to load a data frame provided by a package (that doesn't use lazy loading). For example, the `oilabs` package does not support lazy loading, so you have to use the `data()` command to bring the data frames into your environment before using them. 
+  
+```{r}
+library(oilabs)
+head(ames)
+data(ames)
+head(ames)
+```
+
+- Incorrect [file path](https://en.wikipedia.org/wiki/Path_(computing)). Note that absolute filenames like
+```{r}
+read.csv("/home/bbaumer/sds220/data/my_data.csv")
+```
+will not work on anyone else's computer. It is usually better to use a relative file path like:
+```{r, eval=FALSE}
+read.csv("~/sds220/data/my_data.csv")
+```
+  However this will only works if someone else has the same directory structure as you. 
+  Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if 
+```{r, eval=FALSE}
+read.csv("my_data.csv")
+```
+doesn't work, you may have to try
+```{r, eval=FALSE}
+read.csv("project/my_data.csv")
+```
+or something along those lines. 
+
+## Code not being evaluated
+
+If you have code showing up in your document like this
+```
+mean(~speed, data = cars)
+```
+where the code isn't colored nicely and the output isn't showing, that's often because your chunk delimiters weren't specified correctly. You need three "ticks" (the key on the upper left corner of the keyboard, usually, the same one with the ~): ``` Then you need curly braces with an "r" in the middle, {r}, then a line break, then your code, and finally three more ticks. 
+
+If you're having trouble getting the formatting correct, you can always click the Chunks button at the upper right corner of the RMarkdown window and select Insert Chunk. This will do all the formatting for you.
+
+## No Knit HTML button
+
+This means that RStudio doesn't understand your document is supposed to be an RMarkdown document, often because your file extension is `.txt`. To fix this, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document's name. Then select Rename and remove the `.txt` and make sure the extension is `.Rmd`. 
+
+## Getting more help
+
+When in doubt, consult the authoritative source. The R Markdown website contains a [detailed tutorial with videos](http://rmarkdown.rstudio.com/lesson-1.html). There are also Cheatsheets available from within RStudio. Simply go to: `Help -> Cheatsheets -> R Markdown Cheat Sheet` for the most commonly used R Markdown commands.
