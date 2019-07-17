@@ -11,6 +11,9 @@ navbar:
     - text: "Awards"
       icon: fa-award
       href: awards.html
+    - text: "Mu Sigma Rho"
+      icon: fa-calculator
+      href: mu_sigma_rho.html
     - text: "Events"
       icon: fa-ticket
       href: events.html
