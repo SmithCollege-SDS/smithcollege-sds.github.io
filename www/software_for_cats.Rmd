@@ -1,0 +1,46 @@
+---
+title: "SDS Software"
+date: "September 7, 2016"
+output: html_document
+---
+
+## Software used by SDS classes
+
+These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.
+
+**All software should be the latest general available (GA) release unless otherwise noted**
+
+### SDS 136
+
+* [Tableau](http://www.tableau.com) - if we ever got a site license for it; I know CATS was talking about it
+
+### SDS 192
+
+* [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+* [mysql CLI](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
+* [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* External dependencies for `sf` package
+    * [GDAL](http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries)
+    * [GEOS](http://trac.osgeo.org/geos)
+    * [UDUNITS](https://www.unidata.ucar.edu/software/udunits/)
+
+### SDS 220
+
+* [RStudio Desktop](https://www.rstudio.com/products/rstudio/download2/)
+* [R](https://cran.r-project.org/bin/)
+
+### SDS 291
+
+* [RStudio Desktop](https://www.rstudio.com/products/rstudio/download2/)
+* [R](https://cran.r-project.org/bin/)
+* [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Spotify](https://www.spotify.com/us/download/)
+
+### SDS 293
+
+* [Python3](https://www.python.org/) - I personally like the [Anaconda](https://www.continuum.io/downloads) distribution for this course, but I can made do with most things.
+
+
+### R packages
+
+See [R packages used by SDS](sds_r_packages.Rmd)

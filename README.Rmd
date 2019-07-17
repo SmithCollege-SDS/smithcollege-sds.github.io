@@ -1,0 +1,9 @@
+---
+title: "sds-www"
+output: github_document
+---
+
+SDS content for the web not managed by college relations
+
+https://smithcollege-sds.github.io/sds-www/
+

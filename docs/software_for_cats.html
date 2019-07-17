@@ -10,24 +10,20 @@
 
 
 
+<meta name="date" content="2016-09-07" />
 
-<title>Mu Sigma Rho</title>
+<title>SDS Software</title>
 
-<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.7/datatables.js"></script>
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -254,6 +250,90 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -261,6 +341,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -346,21 +436,63 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Mu Sigma Rho</h1>
+<h1 class="title toc-ignore">SDS Software</h1>
+<h4 class="date">September 7, 2016</h4>
 
 </div>
 
 
-<p><a href="http://www.stat.purdue.edu/~mccabe/msr/">Mu Sigma Rho</a> is the national statistics honor society, and the Boston Chapter of the ASA oversees <a href="http://www.colby.edu/musigmarho/">nominations</a> from Smith each spring.</p>
-<div class="figure">
-<img src="mu_sigma_rho_files/figure-html/mu-sigma-rho-1.png" alt="Growth of Mu Sigma Rho inductees." width="672" />
-<p class="caption">
-Growth of Mu Sigma Rho inductees.
-</p>
+<div id="software-used-by-sds-classes" class="section level2">
+<h2>Software used by SDS classes</h2>
+<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
+<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
+<div id="sds-136" class="section level3">
+<h3>SDS 136</h3>
+<ul>
+<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
+</ul>
 </div>
-<p>Search the archive to find inductees:</p>
-<div id="htmlwidget-87b18af2d197ba3ad6e2" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-87b18af2d197ba3ad6e2">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100","101","102","103","104","105","106","107","108","109","110","111","112","113","114","115","116","117","118","119","120","121","122","123","124","125","126","127","128","129","130","131","132","133","134","135","136","137","138","139"],[2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2019,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2018,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2014,2014,2014,2014,2014,2014,2013,2013,2013,2013,2013,2013,2012,2012,2012,2011,2011,2011,2011,2011,2011,2011,2011,2011,2011,2010,2010,2010,2010,2010,2010,2010,2010,2010,2009,2009,2009,2009,2009,2009,2009,2009,2008,2008,2008,2008,2008,2008,2007,2007,2007,2007,2007,2006,2006,2006,2006,2005,2005,2005],["Abramson","Alvord","Daubenspeck","Dror","Foukaris","Gans","Haines","Halloway","Halstead","Kahindi","Keast","Kosyka","Kuang","LaBossier","LaFlamme","Lee","Liu","Lu","Miguel","Moody","Ning","Patrick","Sweeney","VanAllen","Wang","Wang","Xiao","Xu","Yun","Zang","Zhang","Zhou","Boeth","Calabrese","Kang","Kyuchukova","Lemiesz","Li","Madziwo","Nguyen","Qian","Rizvi","Ruppel","Shen","Wang","Xia","Yun","Dasari","Dinh","Fitzpatrick","Fukuda","Laethem","Li","Li","Mishkin","Shaw","Sinha","Augusto","Beauchamp","Bowling","Menter","Miller","Wang","Xia","Yun","Zhang","Zheng","Zhu","Atkins","Earley","Ekins","Flores","Goore","Handy","Kung","Li","Maphanyane","Stoudt","Zhang","Fitzpatrick","Lee","Li","Milosavljevic","Udwin","Zhao","Aloisio","Pal","Shen","Yan","Yeazel","Zadworny","Anoke","Cao","Yang","Aloisio","Aryal","Do","Dodwell","Gao","Johnson","Jung","Lynch","Nyamumbo","Zadworny","Chen","Indge","Ma","Neal","O’Connor","Parker","Sheng","Tapia","Yang","Chen","Kam","Krumdieck","Lofgren","McDonough","Rathnam","Terres","Zhang","Dexter","Kirk","Rijal","Tyler","Woerner","Zheng","Bacon","Boonroong","Jain","Miu","Spasova","Antoske","Braverman","Spiegelman","Switzer","Finucane","Qian","Sang"],["Mathena","Julianna","Emily","Arielle","Stephanie","Tommi","Madeline","Shakira","Emily","Joan","Jessica","Kalynn","Yue","Natalie","Rachel","Julia","Jingyi","Hanxiao","Danica","Jordan","Yujia","Paige","Catherine","Kara","Vivian","Xiaonan","Tiffany","Chenwei","Duanyue","Ziwei","Kimberly","Yujia","Riley","Julianna","Minji","Katerina","Katherine","Zixian","Rutendo","Van","Siyu","Syeda Zainab","Emily","Zhu","Yi","Jing","Ji Young","Preeti","Ngoc","Isabelle","Erina","Madison","Qingyang","Wencong","Juliana","Olivia","Aakanksha","Carmen","Emma","Alicia","Jordan","Martha","Ruiwen","Jing","Julia","Weijia","Qingyun","Yiwen","Elizabeth","Erika","Jacqueline","Yadira","Lou Lydia Laura","Michele","Yungjen","YuXin","Lerato","Sara","Jingyang","Deirdre","Ji Ah","Rui","Maja","Dana","Yuting","Kathryn","Isabela","Qingyang","Haomin","Linnea","Zoe","Sarah","Guangye","Wenyue","Kathryn","Shivani","Elizabeth","Emily","Chi","Kathryn","Elizabeth","Kathryn","Margaret","Zoe","Zehui","Caroline","Thida","Marissa","Cyla","Portia","Isabel","Amanda","Hong","Xiaoshuang","Sarah","Natalie","Katherine","Shannon","Sarah","Maria","Christine","Nancy","Jennifer","Dharana","Kristin","Martha","Min","Julie","Onjira","Shikha","Kwun","Ana","Elizabeth","Stacy","Maura","Suzanne","Mariel","Linjuan","Xiaohong"],[null,null,null,null,null,null,"Maddie",null,null,null,null,null,null,null,null,null,null,null,null,null,"Emma",null,null,null,null,"Maggie",null,null,"Nancy","Crystal","Kim",null,null,null,null,null,null,null,null,null,"Lily",null,null,null,null,null,null,null,null,null,null,null,null,"Priscilla",null,null,null,null,null,null,null,null,null,null,null,"Vega",null,null,null,null,null,null,null,null,null,null,null,null,"Judy",null,null,null,null,null,null,null,null,"Rallye",null,null,null,null,null,null,null,null,null,null,null,"Molly",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],["19","19","20","20","19","19J","20","19","19","19","20","19","19","19","20J","19","19","19","20","20","19","AC","19","20","19","20","20J","20J","19","20J","19J","20","18","18","18","19","18","19","19","18","19","18","18","19J","19","18J","18","17",null,"18","18","18","17","18","18J","17","18J",null,null,null,null,null,null,null,null,"17",null,null,null,null,null,null,null,null,null,null,null,"15",null,"14",null,null,"14","14",null,"13",null,null,null,null,null,null,null,null,null,null,null,"11",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>induction<\/th>\n      <th>Last<\/th>\n      <th>First<\/th>\n      <th>PrefFirst<\/th>\n      <th>class<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":25,"columnDefs":[{"className":"dt-right","targets":1},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="sds-192" class="section level3">
+<h3>SDS 192</h3>
+<ul>
+<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
+<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
+<li>External dependencies for <code>sf</code> package
+<ul>
+<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
+<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
+<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="sds-220" class="section level3">
+<h3>SDS 220</h3>
+<ul>
+<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
+<li><a href="https://cran.r-project.org/bin/">R</a></li>
+</ul>
+</div>
+<div id="sds-291" class="section level3">
+<h3>SDS 291</h3>
+<ul>
+<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
+<li><a href="https://cran.r-project.org/bin/">R</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
+<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
+</ul>
+</div>
+<div id="sds-293" class="section level3">
+<h3>SDS 293</h3>
+<ul>
+<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
+</ul>
+</div>
+<div id="r-packages" class="section level3">
+<h3>R packages</h3>
+<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
+</div>
+</div>
 
     <div id="footer">
       <div class="container">
@@ -369,6 +501,8 @@ Growth of Mu Sigma Rho inductees.
     </div>
 
 
+</div>
+</div>
 
 </div>
 

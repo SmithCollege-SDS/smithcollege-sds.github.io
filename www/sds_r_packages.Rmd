@@ -1,0 +1,94 @@
+---
+title: "R Packages for SDS"
+date: "September 7, 2016"
+output: html_document
+---
+
+```{r}
+library(knitr)
+opts_chunk$set(eval = FALSE)
+```
+
+
+
+## Check existing library paths
+
+```{r}
+libs <- .libPaths()
+libs
+```
+
+> Note: `admin` installs into `/usr/local/lib/R/site-library`
+
+```{r}
+sys.lib <- "/usr/local/lib/R/site-library"
+```
+
+## Currently installed packages
+
+```{r}
+pkgs <- as.data.frame(installed.packages(sys.lib))
+pkgs.here <- as.character(pkgs$Package)
+# these are the packages that are installed in the system library
+pkgs.here
+```
+
+## Update currently installed packages
+
+```{r}
+# run this first -- should always be safe
+update.packages(lib.loc = sys.lib)
+```
+
+## SDS packages requested
+
+These packages should be installed in the system library for all users. Please update these **every semester**
+
+```{r}
+pkgs.desired <- c("mosaic", "dplyr", "rmarkdown", "knitr", "markdown", "formatR"
+                  , "rstudio", "ggplot2", "tidyr", "stringr", "agricolae", "leaps"
+                  , "Lahman", "twitteR", "latticeExtra", "RSQLite"
+                  , "igraph", "Stat2Data", "lme4", "sp", "maptools", "rpart"
+                  , "manipulate", "BiocInstaller", "mosaicData", "RcolorBrewer"
+                  , "nycflights13", "devtools", "googlesheets", "readr"
+                  , "mdsr", "etl", "macleish", "lubridate", "openintro"
+                  , "tm", "jsonlite", "ggmap", "ggvis", "Rcpp", "plotly"
+                  , "tigris", "rvest", "MASS", "XML", "leaflet"
+                  , "readxl", "rmarkdown", "DBI", "ISLR", "broom")
+```
+
+## Install missing requested packages
+
+```{r}
+# run this -- should always be safe but may take a while
+install.packages(setdiff(pkgs.desired, pkgs.here), lib = sys.lib)
+```
+
+## Non-standard installs
+
+These packages may have external dependencies that require some finagling.
+
+```{r}
+pkgs.tricky <- c("RMySQL", "RPostgreSQL", "rgdal", "rgeos")
+install.packages(setdiff(pkgs.tricky, pkgs.here), lib = sys.lib)
+```
+
+These packages are not on CRAN and must be installed from GtiHub.
+
+```{r}
+pkgs.github <- c("andrewpbray/oilabs", "rstudio/sparklyr", "omegahat/Sxslt")
+lapply(pkgs.github, FUN = "devtools::install_github")
+```
+
+## Find multiply installed packages
+
+Note that packages can be installed in multiple libraries!
+
+```{r}
+library(dplyr)
+as.data.frame(installed.packages()) %>%
+  group_by(Package) %>%
+  summarise(N = n(), where = paste(LibPath, collapse = ", ")) %>%
+  filter(N > 1) %>%
+  print.data.frame()
+```
