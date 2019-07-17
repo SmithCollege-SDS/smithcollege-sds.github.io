@@ -28,12 +28,12 @@ https://www.facebook.com/groups/665780273559948/) and a Google group. **Please h
 
 - **Yue Kuang '19**, **Zixian Li '19** and **Jingyi Liu '19** won Smith's share of the Five College Statistics Prize for their outstanding senior capstone project. They worked with the [Wisconsin Project on Nuclear Arms Control](https://www.wisconsinproject.org/) (headed by **Valerie Lincy '97**) to help limit the international spread of nuclear materials. 
 
-- **Albert Kim**, **Miles Ott '01**, and **Katie Kinnaird** represented Smith at the Symoposium on Statistics and Data Science.
+- **Albert Y. Kim**, **Miles Ott '01**, and **Katie Kinnaird** represented Smith at the Symoposium on Statistics and Data Science.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I would remiss not to mention that you can’t have <a href="https://twitter.com/hashtag/SDSS2019?src=hash&amp;ref_src=twsrc%5Etfw">#SDSS2019</a> without <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> <a href="https://t.co/y02DKAIOwq">pic.twitter.com/y02DKAIOwq</a></p>&mdash; Miles Ott 🏳️
 🌈 (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1134636727946031104?ref_src=twsrc%5Etfw">June 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-- Albert Kim brought **Crystal Zang '19J**, **Jordan Moody '20**, and **Starry Zhou '20** to USCOTS to help TA his workshop on "moderndive: statistical inference using the tidyverse", and they connected with **Amy Hogan '97**.
+- Albert Y. Kim brought **Crystal Zang '19J**, **Jordan Moody '20**, and **Starry Zhou '20** to USCOTS to help TA his workshop on ["moderndive: statistical inference using the tidyverse"](https://www.causeweb.org/cause/uscots/uscots19/workshop/4){target="_blank"}, and they connected with **Amy Hogan '97**.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s not a stats ed conference unless <a href="https://twitter.com/alittlestats?ref_src=twsrc%5Etfw">@alittlestats</a> is in the house! <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> majors, present &amp; retroactive! <a href="https://t.co/2ifx0WixVH">pic.twitter.com/2ifx0WixVH</a></p>&mdash; Albert Y. Kim (@rudeboybert) <a href="https://twitter.com/rudeboybert/status/1129187512776318976?ref_src=twsrc%5Etfw">May 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -41,12 +41,12 @@ https://www.facebook.com/groups/665780273559948/) and a Google group. **Please h
 
 > Assess the ethical implications to society of data-based research, analyses, and technology in an informed manner. Use resources, such as professional guidelines, institutional review boards, and published research, to inform ethical responsibilities.
 
-- **Albert Kim** and **Miles Ott '01** were pied in the face on Pi Day.
+- **Albert Y. Kim** and **Miles Ott '01** were pied in the face on Pi Day.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> professors put up with so much 😂😂 <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw">@rudeboybert</a> and <a href="https://twitter.com/Miles_Ott?ref_src=twsrc%5Etfw">@Miles_Ott</a> were pie-d for a fundraiser on campus, thanks for putting up with our shenanigans! <a href="https://t.co/BmK5nXlYwQ">pic.twitter.com/BmK5nXlYwQ</a></p>&mdash; Emma Livingston (@livin_emma) <a href="https://twitter.com/livin_emma/status/1124367475980812288?ref_src=twsrc%5Etfw">May 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-- Book contracts were signed! **Albert Kim** is working on [ModernDive](https://moderndive.com/), *Miles Ott '01* is working on a Bayesian statistics textbook (with **Mine Dogucu '09**), and **Ben Baumer** is working on a second edition of [*Modern Data Science with R*](http://mdsr-book.github.io/). 
+- Book contracts were signed! **Albert Y. Kim** is working on [ModernDive](https://moderndive.com/), *Miles Ott '01* is working on a Bayesian statistics textbook (with **Mine Dogucu '09**), and **Ben Baumer** is working on a second edition of [*Modern Data Science with R*](http://mdsr-book.github.io/). 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good news everyone! We’ve signed with <a href="https://twitter.com/CRCPress?ref_src=twsrc%5Etfw">@CRCPress</a> for a print edition with our new title: “Statistical Inference via Data Science: A moderndive into R &amp; the tidyverse” by <a href="https://twitter.com/old_man_chester?ref_src=twsrc%5Etfw">@old_man_chester</a> &amp; <a href="https://twitter.com/rudeboybert?ref_src=twsrc%5Etfw">@rudeboybert</a>! Coming Fall 2019! Until then check out a preview at <a href="https://t.co/X5zI0LvHGb">https://t.co/X5zI0LvHGb</a> <a href="https://t.co/Wa049JBeaJ">pic.twitter.com/Wa049JBeaJ</a></p>&mdash; ModernDive (@ModernDive) <a href="https://twitter.com/ModernDive/status/1102624954892406785?ref_src=twsrc%5Etfw">March 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -112,7 +112,7 @@ I can't believe I've completed my first year at Smith; what a whirlwind this yea
 
 #### Miles Ott
 
-So many wonderful things happened this year! I had fun teaching a class on my research area: Statistical Analysis of Social Network Data, as well as Probability, Mathematical Statistics, and Intro Stats 201.  I am continuing to work on Respondent Driven Sampling, LGBT Health, and methods for Social Network Interventions in my research. I am getting a bit more involved in efforts to make Stats and Data Science more inclusive for LGBTQ+ folks. I attended both WSDS and SDSS conferences for the first time, and I thought that they both were excellent, welcoming, and fun. I highly recommend them both!  Best of all, I started working with wonderful new colleagues Albert Kim, Katie Kinnaird, Dave Rockoff, and Jenny Smetzer.
+So many wonderful things happened this year! I had fun teaching a class on my research area: Statistical Analysis of Social Network Data, as well as Probability, Mathematical Statistics, and Intro Stats 201.  I am continuing to work on Respondent Driven Sampling, LGBT Health, and methods for Social Network Interventions in my research. I am getting a bit more involved in efforts to make Stats and Data Science more inclusive for LGBTQ+ folks. I attended both WSDS and SDSS conferences for the first time, and I thought that they both were excellent, welcoming, and fun. I highly recommend them both!  Best of all, I started working with wonderful new colleagues Albert Y. Kim, Katie Kinnaird, Dave Rockoff, and Jenny Smetzer.
 
 #### David Rockoff
 
@@ -157,6 +157,13 @@ Many of us will be at the Joint Statistical Meetings in Denver at the end of the
 
 
 Mark your calendar!
+
+
+### StatFest
+
+**Albert Y. Kim** and a group of students have plans to attend [StatFest 2019](https://community.amstat.org/cmis/events/statfest/statfest-2019){target="_blank"} at The University of Texas Health Science Center at Houston TX on September 21. 
+
+StatFest an annual one-day conference for undergraduates that is meant to encourage historically under-represented students (e.g., African-American, Latino, Native American, Pacific Islander) with quantitative interests to pursue careers or graduate study in the statistical sciences.
 
 
 ### Women in Statistics and Data Science Conference
