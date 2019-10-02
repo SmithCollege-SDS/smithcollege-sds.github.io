@@ -31,6 +31,7 @@ navbar:
           href: sds_newsletter_2017.html
         - text: "2016"
           href: sds_newsletter_2016.html
+  right:
     - icon: fa-github fa-lg
       href: https://github.com/SmithCollege-SDS
 
