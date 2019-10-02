@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Ben Baumer" />
@@ -235,48 +236,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -462,7 +424,10 @@ div.tocify {
 <ul>
 <li><strong>Syeda Zainab Aqdas Rizvi ’18</strong>, a double major in SDS and CSC, delivered the <a href="https://www.smith.edu/about-smith/college-events/commencement/ivy-day-speech-2018">student speech during Ivy Day</a> – and gave a shout out to Prof. Jordan Crouser! There were many emotions!</li>
 </ul>
-<p><img src="https://www.smith.edu/sites/default/files/media/Office%20Images/College%20Relations/ivy-day-student-2018-800.jpg" /></p>
+<div class="figure">
+<img src="https://www.smith.edu/sites/default/files/media/Office%20Images/College%20Relations/ivy-day-student-2018-800.jpg" />
+
+</div>
 <ul>
 <li>This year we offered our senior capstone course (required for all majors) for the first time. The 9 seniors who took the course became the first cohort to graduate with the full SDS major as it was originally intended. <strong>Julianna Alvord ’19, Minji Kang ’18, Zainab Rizvi ’18</strong>, and <strong>Erina Fukuda ’18</strong> traveled to New York City to present their work to their capstone course client, HuffPost. Then we ate ramen.</li>
 </ul>
@@ -488,7 +453,7 @@ Team A-Super-NOVA (representing <a href="https://twitter.com/SmithCollegeSDS?ref
 <ul>
 <li><p><strong>Erina Fukuda ’18</strong> earned <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd place in the introductory statistics</a> segment of the Undergraduate Statistics Class Project (USCLAP) competition for her project “Factors that Impact Video Game Sales”. Erina completed this project while studying abroad in Denmark.</p></li>
 <li><p><strong>Angelica Estrada ’PB, Jessica Wert ’18, and Oumayma Koulouh ’19</strong> won the intermediate statistics USCLAP competition for their project “Helping the Red Cross Predict Flooding in Togo.” This was part of their coursework for Jordan Crouser’s machine learning class.</p></li>
-<li><p>Smithies in SDS is a new student group being led by <strong>Paige Patrick ’AC</strong> and <strong>Rutendo Madziwo ’19</strong>. Paige and Rutendo were awarded Smith’s share of the Five College Statistics Prize for their efforts. Email them at (<a href="mailto:smithies-sds@googlegroups.com" class="email">smithies-sds@googlegroups.com</a>)!</p></li>
+<li><p>Smithies in SDS is a new student group being led by <strong>Paige Patrick ’AC</strong> and <strong>Rutendo Madziwo ’19</strong>. Paige and Rutendo were awarded Smith’s share of the Five College Statistics Prize for their efforts. Email them at (<a href="mailto:smithies-sds@googlegroups.com">smithies-sds@googlegroups.com</a>)!</p></li>
 <li><p>A school-record 15 Smithies were <a href="https://www.smith.edu/sds/awards.php">inducted into the Mu Sigma Rho national honor society</a> for statistics. The previous record appears to be 11, set in 2015 and tied in 2016.</p></li>
 <li><p>Amelia McNamara gave a <a href="https://twitter.com/AmeliaMN/status/1006344158510903296">well-attended talk</a> on “Algorithmic Accountability” during Otelia Cromwell Day.</p></li>
 <li><p><a href="https://www.linkedin.com/in/rachelschutt/">Rachel Schutt</a> gave a talk titled “A Humanst Approach to Data Science” to more than 100 people in March. It was standing room only!</p></li>
@@ -514,12 +479,12 @@ Smithies enjoyed their time at the Women in Data Science conference! <a href="ht
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <ul>
-<li><p>Smith was <a href="https://www.smith.edu/news/people-news-46/">well represented at a Women in Statistics and Data Science conference</a> hosted by the American Statistical Association last month in San Diego, Calif. Participants included <strong>Subashini Sridhar ’18J, Angelica Estrada ’18, Marta Garcia ’19, Sakaiza Rasolofomanana Rajery ’20, Thealexa Becker ’13, Emily Dodwell ’11, Maria Terres, post-baccalaureate ’09, Christine Zhang ’09, Mine Dogucu ’09 and Elizabeth Stuart ’97</strong>. Ben Baumer, assistant professor of statistical and data sciences, and Amelia McNamara, Mass Mutual visiting assistant professor of statistical and data sciences, also attended the conference.</p>
+<li>Smith was <a href="https://www.smith.edu/news/people-news-46/">well represented at a Women in Statistics and Data Science conference</a> hosted by the American Statistical Association last month in San Diego, Calif. Participants included <strong>Subashini Sridhar ’18J, Angelica Estrada ’18, Marta Garcia ’19, Sakaiza Rasolofomanana Rajery ’20, Thealexa Becker ’13, Emily Dodwell ’11, Maria Terres, post-baccalaureate ’09, Christine Zhang ’09, Mine Dogucu ’09 and Elizabeth Stuart ’97</strong>. Ben Baumer, assistant professor of statistical and data sciences, and Amelia McNamara, Mass Mutual visiting assistant professor of statistical and data sciences, also attended the conference.
 <blockquote class="twitter-tweet" data-lang="en">
 <p lang="en" dir="ltr">
-<p>4 students, 2 faculty, 5 alums from <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> at <a href="https://twitter.com/hashtag/WSDS2017?src=hash&amp;ref_src=twsrc%5Etfw">#WSDS2017</a> <a href="https://twitter.com/hashtag/smithieslead?src=hash&amp;ref_src=twsrc%5Etfw">#smithieslead</a> <a href="https://t.co/I529L2Tacc">pic.twitter.com/I529L2Tacc</a></p>
+4 students, 2 faculty, 5 alums from <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw"><span class="citation">@SmithCollegeSDS</span></a> at <a href="https://twitter.com/hashtag/WSDS2017?src=hash&amp;ref_src=twsrc%5Etfw">#WSDS2017</a> <a href="https://twitter.com/hashtag/smithieslead?src=hash&amp;ref_src=twsrc%5Etfw">#smithieslead</a> <a href="https://t.co/I529L2Tacc">pic.twitter.com/I529L2Tacc</a>
 </p>
-<p>— Ben Baumer (<span class="citation">@BaumerBen</span>) <a href="https://twitter.com/BaumerBen/status/921549394280833024?ref_src=twsrc%5Etfw">October 21, 2017</a></p>
+— Ben Baumer (<span class="citation">@BaumerBen</span>) <a href="https://twitter.com/BaumerBen/status/921549394280833024?ref_src=twsrc%5Etfw">October 21, 2017</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
 <li><p>Jordan Crouser’s <a href="https://www.smith.edu/news/visualize-this/">work on data visualization</a> was featured in the Grecourt Gate.</p></li>
@@ -570,7 +535,7 @@ In January, I was invited to become a “Distinguished Visiting Professor of Sta
 </div>
 <div id="amelia-mcnamara" class="section level4">
 <h4>Amelia McNamara</h4>
-<p>After three great years teaching at Smith, I’m moving to the University of St Thomas, in St Paul, MN. I’m joining the <a href="https://www.stthomas.edu/cisc/faculty/">Department of Computer &amp; Information Sciences</a>, but I’ll still be teaching statistics, and helping them develop their data analytics program. I’m really going to miss all the Smithies and the fantastic SDS program. However, I grew up in Minnesota and am excited to be back closer to my family and friends. My new email address is <a href="mailto:amelia.mcnamara@stthomas.edu" class="email">amelia.mcnamara@stthomas.edu</a> Please stay in touch!</p>
+<p>After three great years teaching at Smith, I’m moving to the University of St Thomas, in St Paul, MN. I’m joining the <a href="https://www.stthomas.edu/cisc/faculty/">Department of Computer &amp; Information Sciences</a>, but I’ll still be teaching statistics, and helping them develop their data analytics program. I’m really going to miss all the Smithies and the fantastic SDS program. However, I grew up in Minnesota and am excited to be back closer to my family and friends. My new email address is <a href="mailto:amelia.mcnamara@stthomas.edu">amelia.mcnamara@stthomas.edu</a> Please stay in touch!</p>
 </div>
 <div id="miles-ott" class="section level4">
 <h4>Miles Ott</h4>
@@ -639,6 +604,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

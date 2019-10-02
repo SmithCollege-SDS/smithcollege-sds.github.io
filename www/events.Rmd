@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 speakers <- tribble(
   ~when, ~name, ~img, ~pdf, 
+  "2019-10-21 17:00:00", "Yeshimabeit Milner", "yeshimabeit_milner_poster_500px.jpg", "yeshimabeit_milner_poster.pdf",
   "2019-04-18 18:00:00", "Stephanie Hicks", "stephanie_hicks_poster_500px.jpg", "stephanie_hicks_poster.pdf",
   "2019-03-05 17:00:00", "Emma Benn", "emma_benn_poster_500px.jpg", "emma_benn_poster.pdf",
   "2018-10-12 17:30:00", "Terry-Ann Craigie", "terryann_craigie_poster_500px.jpg", "terryann_craigie_poster.pdf",

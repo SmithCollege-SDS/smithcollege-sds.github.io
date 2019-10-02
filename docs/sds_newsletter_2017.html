@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Ben Baumer" />
@@ -235,48 +236,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -471,7 +433,10 @@ It's official! <a href="https://twitter.com/hashtag/smithieslead?src=hash">#smit
 <li><p><strong>Madison Laethem ’17</strong> joined the <a href="http://datascience.massmutual.com/development">MassMutual <strong>Data Science Development Program</strong></a>. This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. <strong>Deirdre Fitzpatrick ’14</strong> and <strong>Dana Udwin ’14</strong> will be among the first cohort to complete the development program this summer.</p></li>
 <li><p><strong>Christine Zhang ’09</strong>, a data journalist at the <em>Los Angeles Times</em>, gave a well-attended talk on “Data Visualization at the Los Angeles Times” on December 6, 2016.</p></li>
 </ul>
-<p><img src="https://www.smith.edu/sds/images/christine_zhang_poster_500px.jpg" /></p>
+<div class="figure">
+<img src="https://www.smith.edu/sds/images/christine_zhang_poster_500px.jpg" />
+
+</div>
 <ul>
 <li><p>Jessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about “Understanding p-values and the Controversy Surrounding Them.”</p></li>
 <li><p><strong>Abby Doctor ’17</strong> won Smith’s <a href="https://www.fivecolleges.edu/statistics/news">Five College Statistics Prize</a> for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.</p></li>
@@ -587,7 +552,7 @@ Katherine Rowe <a href="https://twitter.com/smithcollege"><span class="citation"
 <li><p>Maja Miloslavjevic ’14: I moved to Seattle 5 months ago and now work at Microsoft as a Program Manager in Office365! I love the quick-paced nature of Microsoft and that I get to drive direct customer impact with my work. Outside of work, I spend my time trying to enjoy as much of the Seattle summer as possible before the months of rain begin again…</p></li>
 <li><p>Jingyang (Judy) Zhang ’14: I am still working for ITS at Smith, currently working on the college’s website.</p></li>
 <li><p><a href="https://twitter.com/sastoudt">Sara Stoudt ’15</a>: I made it through year two in the Statistics PhD program at UC Berkeley and finished the Data Sciences for the 21st Century: Environment and Society program. I am currently back at NIST for the summer working on greenhouse gas monitoring data collected via small aircraft. In the fall I will be focusing on helping to teach a new class on writing for statistics and transitioning to research with a project to try to use citizen science data to better understand species distribution changes over space and time.</p></li>
-<li><p>Liz Stuart ’97 is a Professor of Mental Health, Biostatistics, and Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She won the 2017 Gertrude Cox Award, given out by the Washington Statistical Society and RTI to recognize an early to mid-career statistician who has made significant contributions to applied statistics. She welcomes anyone who wants to learn about biostatistics, public health, or education to reach out! <a href="mailto:estuart@jhu.edu" class="email">estuart@jhu.edu</a></p></li>
+<li><p>Liz Stuart ’97 is a Professor of Mental Health, Biostatistics, and Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She won the 2017 Gertrude Cox Award, given out by the Washington Statistical Society and RTI to recognize an early to mid-career statistician who has made significant contributions to applied statistics. She welcomes anyone who wants to learn about biostatistics, public health, or education to reach out! <a href="mailto:estuart@jhu.edu">estuart@jhu.edu</a></p></li>
 <li><p><a href="https://twitter.com/danascientist">Dana Udwin ’14</a>: is starting the PhD program in biostatistics at Brown University in the fall!</p></li>
 <li><p>Lizzy (Atkins) Offermann ’15: I recently moved to the Department of Neuropsychology at The Kennedy Krieger Institute / Johns Hopkins. I manage all of the data for the Department and am working with Python, R Studio, SQL, STATA, and SPSS everyday. I have thoroughly enjoyed the challenge of switching between languages and so appreciate that I still have my notes from Smith in addition to Google :) Each day, I am working on large clinical data sets for manuscript preparation in hopes of targeting our neuropsychological treatments to better serve our patients. In December, I was selected as the Smith Alumnae Admissions Coordinator for Maryland and Delaware - which means I coordinate all student interviews, lead a team of admissions volunteers, and host all of our accepted and admitted student parties. It is a packed job, but I love every moment of it!</p></li>
 <li><p><a href="https://www.linkedin.com/in/christa-chiao-3a674453/">Christa Chiao ’15</a>: I recently started working at the Democratic Congressional Campaign Committee as a Regional Targeting Director for the 2018 mid-term elections. I am really excited to combine my statistics and coding skills with some political know-how. The technical skills I’m using most in this job are R, SQL, Bash, GIS, and Python. Last year, I worked as a Deputy Analytics Director in Ohio for the Hillary campaign and as an Analytics Fellow at the Analyst Institute, a political analytics firm that helps campaigns measure the impact of their voter-contact programs. In my spare time, I row with Potomac Boat Club and think about acquiring some hobbies. I am so incredibly envious of the students that get to take part in this Data Science major! If anyone wants to learn more about getting into the (strictly) progressive data world, please let me know.</p></li>
@@ -632,6 +597,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
