@@ -35,7 +35,7 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 # Departmental Honors
 
 - 2019
-    - Julianna Alvord '19, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/">Modeling Racially Disproportionate Language on Twitter during NFL Gameplay</a>
+    - Julianna Alvord '19, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/2108">Modeling Racially Disproportionate Language on Twitter during NFL Gameplay</a>
 - 2018
     - Wencong (Priscilla) Li '18, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/2032/">Tools for understanding taxicab and e-hail service use in New York City</a>
 - 2017
