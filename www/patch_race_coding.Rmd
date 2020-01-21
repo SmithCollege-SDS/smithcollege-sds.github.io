@@ -1,0 +1,99 @@
+---
+title: "Ethics patches in a box"
+subtitle: "The coding and analysis of racial/ethnic identity data"
+author: "blinded"
+date: "Last updated on `r Sys.Date()`"
+bibliography: bibliography.bib
+output:
+  html_document:
+    fig_caption: yes
+    theme: lumen
+    toc: yes
+    toc_depth: 2
+    df_print: kable
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+## Description of course/setting
+
+- Actual: upper-level domain application course focused on the psychology of intergroup relations
+- Generic: any course where students may encounter race data
+
+## NAS ethical areas
+
+- Responsible conduct of research
+
+## Questions/goals addressed
+
+Important lessons to learn and revelations students might make while completing this activity:
+
+- Researchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.
+- A person's personal racial/ethnic identity may be different from how they are perceived by another person (roommate). 
+- The choice to use a person's own racial/ethnic identity data or someone's perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context? 
+- Race is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?
+- Are there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?
+- If you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience? 
+
+
+## Generalizability
+
+- any use of pre-collected racial/ethnic data
+- any attempt at collecting racial/ethnic data when designing studies
+
+# Lesson plan for instructors
+
+## Student preparation required
+
+- Some technical knowledge of basic data cleaning is required
+- before class, read:
+    - @shook2008interracial
+- (optional) other reference material:
+    - [Race/Ethnicity in the 2020 US Census](https://www.census2020now.org/faces-blog/same-sex-households-2020-census-r3976)
+    - [US Census: Research to Improve Data on Race and Ethnicity](https://census.gov/about/our-research/race-ethnicity.html)   
+
+## Instructions for students
+
+Your goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss @shook2008interracial. This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally. 
+
+- First, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article: 
+    #. What did they find?
+    #. How did they do it?
+    #. What is missing or limited?
+
+- Next, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.          
+
+- After this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called `race_clean`. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group). 
+
+## Activity description
+
+Students must come to class having read @shook2008interracial. The following is a suggested timeline for a 70-minute class session. 
+
+#. (15 minutes): Break the class into four groups. Each group will discuss the following questions pertaining to the assigned article and write their bulletpointed responses on the boards. The first two questions help the students warm up and make sure that everyone understood 
+    #. What did they find?
+        - Discuss the results resented in the article.
+    #. How did they do it?
+        - Discuss the methods employed by the researchers.
+    #. What is missing or limited?
+        - Discuss the limitations of the research study. This piece is where the concerns regarding race are likely to come out.   
+    #. Bonus (completed if groups finish early): Make a sketch of the dataset that was used in these analyses.  What does each row represent? What variables must it have? What index variables must it have?    
+ 
+#. (25 minutes): Discuss the three questions as a class. Try to move them quickly through the first two questions to leave about half the time for the third question. I would leave them in suspence with the bonus task---perhaps start the following class with this as a warm-up activity. As they raise missing pieces and limitations, write their suggestions on the board in a joint class bulletpointed list.   
+#. (15 minutes): Now in pairs, have students start cleaning the messy race data provided. Their task is to code the check-all-that-apply and/or free response data into a new categorical variable called `race_clean`. 
+#. (10 minutes): Back in small groups of four (two pairs), have students discuss the choices they made and feelings they had while re-coding the race/ethnicity data. These feelings reflect the hard realities that researchers must confront in their work. 
+#. (5 minutes): Wrap up. Let students know that this is not the end of the discussion. If they are feeling like they have more questions than answers, or they are more confused about race and ethnicity in data science than when the class began, this is a good thing---it is a complex issue! You might also remind them that the coding of race and ethnicity in the US is deeply connected to a history of racial oppression. As future data scientists, they can play an active role in creating ethical guidelines for moving towards more appropriate use of race and ethnicity data. **It is very important not to skip the wrap up for this activity.** Set a timer such that you can touch base with them and ideally, end on a hopeful note. 
+
+
+## Deliverables
+
+- A bullet-point list on the board for each group answering the three research questions. 
+- (optional): A detailed written description about the decisions made while coding the race and ethnicity data. This should be completed for each pair of students. 
+
+
+# References

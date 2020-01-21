@@ -1,0 +1,120 @@
+---
+title: "Ethics patches in a box"
+subtitle: "a clever, topical title"
+author: "blinded"
+date: "Last updated on `r Sys.Date()`"
+bibliography: bibliography.bib
+output:
+  html_document:
+    fig_caption: yes
+    theme: lumen
+    toc: yes
+    toc_depth: 2
+    df_print: kable
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+## Description of course/setting
+
+- Actual: senior computer science seminar on 
+[music information retrieval](https://en.wikipedia.org/wiki/Music_information_retrieval)
+(MIR)
+- Generic:
+    - data collection and/or wrangling course where issues of data provenance are discussed
+    - machine learning course with a unit on data ownership and privacy
+
+## NAS ethical areas
+
+- Responsible conduct of research
+
+## Questions/goals addressed
+
+- Are current methods for accessing music for MIR research sufficient? 
+- Is data access for MIR research equitable? 
+- Are the current copyright laws hindering the production of MIR research? 
+- If copyright laws were to soften for academic research, what would that look like? 
+
+## Generalizability
+
+- Discussions about data ownership, usage, and access 
+- Discussions about [YouTube](https://en.wikipedia.org/wiki/YouTube) materials
+- Discussions about social media data
+- Applications of [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) [@gdpr]
+- Use of large server farms for deep learning systems
+- Use of large server farms for [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)
+- Growing divide between access and development in industrial/corporate research labs and that in academic environments. In the context of MIR, what data access do you have working at somewhere like Spotify, Apple Music, or Pandora? How does that access compare and contrast to the access at a research university or at a small liberal arts college? 
+- Discussion about how laws designed to protect sales and artists (i.e copyright) differ from protecting privacy (ie. HIPAA or FERPA), and how ethical considerations vary when laws dictate "right and wrong" as opposed to morality
+
+
+# Lesson plan for instructors
+
+## Student preparation required
+
+- previous writing intensive course
+- write their position paper in preparation for the debate
+
+
+## Instructions for students
+
+The goal of this position paper is to prepare you for a debate on whether 
+or not there should be an academic license for music data. Your paper should 
+present a coherent argument that is well supported by the literature (e.g., [@casey2008content; @downie2014ten; @mcfee2018open; @chendata]). 
+While 
+there are others assigned to your position, you may not share arguments with 
+each other until the day of the debate. You may, however, share resources with 
+each other (just not your opinion of them). 
+
+Your paper is due at 9am on the day of the debate. The paper should be 3-5 pages, 
+double spaced. Please submit your paper as a PDF. 
+
+- Read the [debate rules](http://homepage.ntu.edu.tw/~karchung/debate1.htm) inspired by @musgrave1957competitive.
+
+## Activity description
+
+### Before class
+
+Instructor needs to determine the groups (ideally at least a week in advance) 
+and set up a system (like a private Slack channel) for students to share resources.
+
+### Debate structure (in class)
+
+Begin class with each side having 10 minutes to discuss the position and 
+form a coherent argument. The instructor will flip a coin and the winning 
+side will decide if they want to go first and be side "A" or not. The 
+debate will go as follows:
+
+1. Side A will have 4 minutes to make opening statements. 
+2. Side B will have 4 minutes to make opening statements.
+3. Now we enter the phase of "constructive speeches." By this, we mean 
+each speech will go into detail on one of the points that each side has laid 
+out in their opening statement. The opposing side then will offer a rebuttal 
+just to the points that were raised in the most recent constructive speech. 
+   * Side A has first constructive speech for 5 minutes with Side B having 3 minutes for rebuttal.
+   * Side B has first constructive speech for 5 minutes with Side A having 3 minutes for rebuttal.
+   * Side B has second constructive speech for 4 minutes with Side A having 3 minutes for rebuttal.
+   * Side A has second constructive speech for 4 minutes with Side B having 3 minutes for rebuttal.
+   * Side A has last constructive speech for 3 minutes with Side B having 2 minutes for rebuttal.
+   * Side B has last constructive speech for 3 minutes with Side A having 2 minutes for rebuttal.
+4. Quick break: Each team will have 5 minutes to consult with each other to make the closing arguments
+5. Finally to closing arguments:
+   * Side B has 3 minutes for first closing arguments
+   * Side A has 5 minutes for their entire closing arguments
+   * Side B has 2 minutes for any final closing arguments
+
+
+
+
+## Deliverables
+
+- A position paper from each student 
+- A robust conversation in class via the structured debate
+
+
+# References

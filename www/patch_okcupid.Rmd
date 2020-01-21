@@ -1,0 +1,97 @@
+---
+title: "Ethics patches in a box"
+subtitle: "OkCupid, what should I do now?"
+author: "blinded"
+date: "Last updated on `r Sys.Date()`"
+bibliography: bibliography.bib
+output:
+  html_document:
+    fig_caption: yes
+    theme: lumen
+    toc: yes
+    toc_depth: 2
+    df_print: kable
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+## Description of course/setting
+
+- Actual: senior capstone in statistical & data sciences
+- Generic:
+    - introductory data science course
+    - any course that covers web scraping
+
+## NAS ethical areas
+
+- Ethical precepts for data science and codes of conduct
+- Privacy and confidentiality
+- Responsible conduct of research
+- Ability to identify “junk” science
+
+## Questions/goals addressed
+
+- If I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped? 
+- How do my ethical responsibilities differ from my legal responsibilities? 
+- Are there technical solutions that could allow me to publish the data while protecting people's privacy? 
+- Are my ethical responsibitilies impacted by the value of the data? 
+
+
+## Generalizability
+
+- any publishing of personal data
+- any attempt at web scraping
+
+# Lesson plan for instructors
+
+
+## Student preparation required
+
+- no technical knowledge required
+- before class, read:
+    - @kim2015okcupid
+    - @poulsen2014wired
+    - @hackett2016fortune
+- (optional) other reference material:
+    - @kirkegaard2016okcupid
+
+## Instructions for students
+
+- Your goal in this class activity is to help Prof. Kim draft a letter to the editor of the [*Journal of Statistics Education*](https://en.wikipedia.org/wiki/Journal_of_Statistics_Education) that addresses any ethical considerations you find present in @kim2015okcupid. Perhaps you think Prof. Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary. 
+- You may want to consult the Internet for relevant facts during the group discussion. 
+- Have at least one person taking notes during your discussion, preferably on a white board that all group members can see. 
+- There is no right or wrong answer. However, your choices should be based on informed logical reasoning. 
+
+
+
+## Activity description
+
+#. (10 minutes): Give a brief overview of the three uses of [OkCupid](https://en.wikipedia.org/wiki/OkCupid) data. Focus on Prof. Kim's responsibilities as a published author. The students should have already read the assigned material. 
+#. (20 minutes): Break the class into four groups. Each group will discuss one of the following topics:
+    #. Other OkCupid users
+        - Discuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof. Kim's situation?
+    #. Anonymization and differential privacy
+        - What role do [data anonymization](https://en.wikipedia.org/wiki/Data_anonymization) and [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy) play in Prof. Kim's situation? Could these techniques lead to a safer product? 
+    #. Terms of Service
+        - How closely do the ethical issues track the legal issues? What role do [Terms of Service](https://en.wikipedia.org/wiki/Terms_of_service) and/or The [Computer Fraud and Abuse Act](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) (CFAA) play? 
+    #. Value of Data
+        - What is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm? 
+#. (15 minutes): Have each group draft a **one-paragraph statement** to the editor of the [*Journal of Statistics Education*](https://en.wikipedia.org/wiki/Journal_of_Statistics_Education) on your topic that **all** group members agree with. 
+#. (15 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution. 
+#. (5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news. 
+
+
+
+## Deliverables
+
+- one paragraph from each group
+- (optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of *JSE* suitable for publication. Send the letter to Prof. Kim!
+
+
+# References

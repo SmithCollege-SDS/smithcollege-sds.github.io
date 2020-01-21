@@ -10,14 +10,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="blinded" />
 
-<meta name="date" content="2016-09-07" />
 
-<title>SDS Software</title>
+<title>Ethics patches in a box</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -93,33 +93,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -291,6 +291,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -432,61 +438,133 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">SDS Software</h1>
-<h4 class="date">September 7, 2016</h4>
+<h1 class="title toc-ignore">Ethics patches in a box</h1>
+<h3 class="subtitle">a clever, topical title</h3>
+<h4 class="author">blinded</h4>
+<h4 class="date">Last updated on 2020-01-21</h4>
 
 </div>
 
 
-<div id="software-used-by-sds-classes" class="section level2">
-<h2>Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<div id="sds-136" class="section level3">
-<h3>SDS 136</h3>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="description-of-coursesetting" class="section level2">
+<h2>Description of course/setting</h2>
 <ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
-</ul>
-</div>
-<div id="sds-192" class="section level3">
-<h3>SDS 192</h3>
+<li>Actual: senior computer science seminar on <a href="https://en.wikipedia.org/wiki/Music_information_retrieval">music information retrieval</a> (MIR)</li>
+<li>Generic:
 <ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
-<ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+<li>data collection and/or wrangling course where issues of data provenance are discussed</li>
+<li>machine learning course with a unit on data ownership and privacy</li>
 </ul></li>
 </ul>
 </div>
-<div id="sds-220" class="section level3">
-<h3>SDS 220</h3>
+<div id="nas-ethical-areas" class="section level2">
+<h2>NAS ethical areas</h2>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
+<li>Responsible conduct of research</li>
 </ul>
 </div>
-<div id="sds-291" class="section level3">
-<h3>SDS 291</h3>
+<div id="questionsgoals-addressed" class="section level2">
+<h2>Questions/goals addressed</h2>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
+<li>Are current methods for accessing music for MIR research sufficient?</li>
+<li>Is data access for MIR research equitable?</li>
+<li>Are the current copyright laws hindering the production of MIR research?</li>
+<li>If copyright laws were to soften for academic research, what would that look like?</li>
 </ul>
 </div>
-<div id="sds-293" class="section level3">
-<h3>SDS 293</h3>
+<div id="generalizability" class="section level2">
+<h2>Generalizability</h2>
 <ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
+<li>Discussions about data ownership, usage, and access</li>
+<li>Discussions about <a href="https://en.wikipedia.org/wiki/YouTube">YouTube</a> materials</li>
+<li>Discussions about social media data</li>
+<li>Applications of <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> <span class="citation">(European Parliament 2018)</span></li>
+<li>Use of large server farms for deep learning systems</li>
+<li>Use of large server farms for <a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a></li>
+<li>Growing divide between access and development in industrial/corporate research labs and that in academic environments. In the context of MIR, what data access do you have working at somewhere like Spotify, Apple Music, or Pandora? How does that access compare and contrast to the access at a research university or at a small liberal arts college?</li>
+<li>Discussion about how laws designed to protect sales and artists (i.e copyright) differ from protecting privacy (ie. HIPAA or FERPA), and how ethical considerations vary when laws dictate “right and wrong” as opposed to morality</li>
 </ul>
 </div>
-<div id="r-packages" class="section level3">
-<h3>R packages</h3>
-<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
+</div>
+<div id="lesson-plan-for-instructors" class="section level1">
+<h1>Lesson plan for instructors</h1>
+<div id="student-preparation-required" class="section level2">
+<h2>Student preparation required</h2>
+<ul>
+<li>previous writing intensive course</li>
+<li>write their position paper in preparation for the debate</li>
+</ul>
+</div>
+<div id="instructions-for-students" class="section level2">
+<h2>Instructions for students</h2>
+<p>The goal of this position paper is to prepare you for a debate on whether or not there should be an academic license for music data. Your paper should present a coherent argument that is well supported by the literature (e.g., <span class="citation">(Casey et al. 2008; Downie et al. 2014; McFee et al. 2018; Chen et al. 2019)</span>). While there are others assigned to your position, you may not share arguments with each other until the day of the debate. You may, however, share resources with each other (just not your opinion of them).</p>
+<p>Your paper is due at 9am on the day of the debate. The paper should be 3-5 pages, double spaced. Please submit your paper as a PDF.</p>
+<ul>
+<li>Read the <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">debate rules</a> inspired by <span class="citation">Musgrave (1957)</span>.</li>
+</ul>
+</div>
+<div id="activity-description" class="section level2">
+<h2>Activity description</h2>
+<div id="before-class" class="section level3">
+<h3>Before class</h3>
+<p>Instructor needs to determine the groups (ideally at least a week in advance) and set up a system (like a private Slack channel) for students to share resources.</p>
+</div>
+<div id="debate-structure-in-class" class="section level3">
+<h3>Debate structure (in class)</h3>
+<p>Begin class with each side having 10 minutes to discuss the position and form a coherent argument. The instructor will flip a coin and the winning side will decide if they want to go first and be side “A” or not. The debate will go as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Side A will have 4 minutes to make opening statements.</li>
+<li>Side B will have 4 minutes to make opening statements.</li>
+<li>Now we enter the phase of “constructive speeches.” By this, we mean each speech will go into detail on one of the points that each side has laid out in their opening statement. The opposing side then will offer a rebuttal just to the points that were raised in the most recent constructive speech.
+<ul>
+<li>Side A has first constructive speech for 5 minutes with Side B having 3 minutes for rebuttal.</li>
+<li>Side B has first constructive speech for 5 minutes with Side A having 3 minutes for rebuttal.</li>
+<li>Side B has second constructive speech for 4 minutes with Side A having 3 minutes for rebuttal.</li>
+<li>Side A has second constructive speech for 4 minutes with Side B having 3 minutes for rebuttal.</li>
+<li>Side A has last constructive speech for 3 minutes with Side B having 2 minutes for rebuttal.</li>
+<li>Side B has last constructive speech for 3 minutes with Side A having 2 minutes for rebuttal.</li>
+</ul></li>
+<li>Quick break: Each team will have 5 minutes to consult with each other to make the closing arguments</li>
+<li>Finally to closing arguments:
+<ul>
+<li>Side B has 3 minutes for first closing arguments</li>
+<li>Side A has 5 minutes for their entire closing arguments</li>
+<li>Side B has 2 minutes for any final closing arguments</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="deliverables" class="section level2">
+<h2>Deliverables</h2>
+<ul>
+<li>A position paper from each student</li>
+<li>A robust conversation in class via the structured debate</li>
+</ul>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-casey2008content">
+<p>Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. “Content-Based Music Information Retrieval: Current Directions and Future Challenges.” <em>Proceedings of the IEEE</em> 96 (4). IEEE: 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.</p>
+</div>
+<div id="ref-chendata">
+<p>Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. “Data Usage in MIR: History &amp; Future Recommendations.” ISMIR 2019. <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.</p>
+</div>
+<div id="ref-downie2014ten">
+<p>Downie, J Stephen, Xiao Hu, Jin Ha Lee, Kahyun Choi, Sally Jo Cunningham, and Yun Hao. 2014. “Ten Years of MIREX: Reflections, Challenges and Opportunities.” In <em>ISMIR 2014</em>, 657–62. ISMIR. <a href="https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities">https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities</a>.</p>
+</div>
+<div id="ref-gdpr">
+<p>European Parliament. 2018. “Regulation on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/Ec (Data Protection Directive).” European Union. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679</a>.</p>
+</div>
+<div id="ref-mcfee2018open">
+<p>McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. “Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.” <em>IEEE Signal Processing Magazine</em> 36 (1). IEEE: 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.</p>
+</div>
+<div id="ref-musgrave1957competitive">
+<p>Musgrave, George McCoy. 1957. “Competitive Debate: Rules and Techniques.” New York: H.W. Wilson. <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.</p>
+</div>
 </div>
 </div>
 
@@ -541,7 +619,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -550,7 +628,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

@@ -1,0 +1,118 @@
+---
+title: "Ethics patches in a box"
+subtitle: "Get your fix: Algorithmic bias in shopping for clothes"
+author: "blinded"
+date: "Last updated on `r Sys.Date()`"
+bibliography: bibliography.bib
+output:
+  html_document:
+    fig_caption: yes
+    theme: lumen
+    toc: yes
+    toc_depth: 2
+    df_print: kable
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Disclaimer**: The author of this patch is not being compensated by StitchFix.
+
+# Overview
+
+## Description of course/setting
+
+- Actual: undergraduate machine learning
+- Generic: any course that involves statistical modeling, such as a 200-level regression course
+
+## NAS ethical areas
+
+- Privacy and confidentiality
+- Responsible conduct of research
+- Ability to detect algorithmic bias
+
+## Questions/goals addressed
+
+- Presents students with an example of algorithmic bias that they can directly play with and relate to. This is in contrast to more abstract and much less accessible examples discussed in academic readings and news media, such as facial recognition software.
+- Asks students to view the statistical, mathematical, and machine learning topics covered in class through a sociological lens, in particular the nature of gender.
+- Gives students the opportunity to think about statistical models in a very rich, real, and realistic setting, in particular what predictor variables $\vec{x}$ are (and are not) being collected and what modeling method $\widehat{f}()$ is being used.
+
+
+## Generalizability
+
+You can generalize this activity to any internet service where user information is collected for prediction purposes. While this exercise can work in almost any such setting (such as Netflix recommendations), we think it will work best when there is a clear opportunity for comparing and contrasting along some demographic variable, as was the case with StitchFix's "Style Profile" quiz split along (binary) gender.
+
+
+
+# Lesson plan for instructors
+
+## Student preparation required
+
+Students should have a basic understanding of statistical modeling: $y = f(\vec{x}) + \epsilon$ and $\widehat{y} = \widehat{f}(\vec{x})$ where we have:
+
+1. Outcome variables, both observed $y$ and fitted/predicted $\widehat{y}$
+1. A "true" unknown model $f()$ (i.e. "signal") and a fitted/approximated model $\widehat{f}()$
+1. Explanatory/predictor variables $\vec{x}$
+1. An error term $\epsilon$ (i.e. noise)
+
+Optionally, students who have some familiarity with the difference between "modeling for prediction" and "modeling for explanation" will be well placed to absorb the lessons of this patch. For a broad discussion on this differencel, in particular to what ends each modeling paradigm is used for, instructors and upper-level students can read [@breiman2001statistical].
+
+
+
+## Instructions for students
+
+In this exercise, you'll learn that machine learning in practice isn't as objective as many may think. Because machine learning algorithms are designed by humans for humans, they consequently incorporate many human biases and beliefs. 
+
+The context for this exercise will be one many of you can relate to: shopping for clothes. In particular, we'll focus on [StitchFix](https://www.stitchfix.com/), an online clothing subscription service that uses machine learning to predict which clothes will suit your style and hence are likely to buy. They then send you a "fix" of clothes to try at home and you keep only the ones you want.
+
+Today's exercise will proceed as follows:
+
+1. You'll form groups of ideally two students.
+1. We'll watch the following 4 minute clip from ABC's [Good Morning America](http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347) to familiarize ourselves with StitchFix's business model.  
+</br>
+<center>
+<a href="http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347">
+<img border="0" alt="GMA" src="images/stitchfix/GMA.png" width="600">
+</a>
+</center>
+</br>
+1. In groups you'll go to [StitchFix](https://www.stitchfix.com/) and complete the "Style Profile" quiz that collects information about your clothing preferences as follows:
+    1. One of you will sign up for StitchFix.
+    1. Together you'll both complete the quiz for one of the (binary) choices of gender: men or women.
+    1. The other group member will then sign up for StitchFix.
+    1. Together you'll both complete the quiz for the *other* choice of gender. Make note of any differences you find interesting.
+1. We'll have a class discussion relating this experience to the topics we've been learning in class and the notion of *algorithmic bias*.
+
+
+
+## Activity description
+
+This activity can be self-contained in a single 50 minute lecture as follows:
+
+1. (5 minutes): Give students above instructions.
+1. (5 minutes): Watch clip from *Good Morning America*.
+1. (20 minutes): Have the student groups complete both the men's and women's "Style Profile" quiz.
+1. (10 minutes): Class discussion. Potential prompts include:
+    + "What sociological biases and beliefs are embedded in the quizzes?" There are too many to enumerate and thus we recommend the instructor complete both quizzes beforehand to get a sense for themselves.
+    + "What predictor variables are being collected in the quizzes both directly as well as indirectly?" Examples of the latter include date/time (hence season), browser/operating system (these are weakly tied with technological sophistication and income), and shipping address (hence climate).
+    + "What are the principal components to consider when buying clothes?" In our opinion, the user's style (patterns, cuts, colors), fit (lengths, proportions), and budget.
+    + "What modeling method $\widehat{f}()$ do you think is being used by StitchFix?" While $\widehat{f}()$ is proprietary to StitchFix and thus unknown, given the initial prompt for the user to select "men" or "women", at the very highest level $\widehat{f}()$ is a decision tree a split on gender encoded as a binary variable.
+    + "What crucial predictor variable $\vec{x}$ can StitchFix only collect after they've sent you your first fix?" Examples include which clothes you keep, which clothes you return, and the ratings/feedback you give.
+    + "What is being predicted by these models and what is being *reinforced*?" A much more rhetorical question. 
+1. (5 minutes): Give a brief lecture on algorithmic bias.
+1. (5 minutes): Give students instructions on the reflection piece they need to submit.
+
+
+
+
+## Deliverables
+
+A reflection piece written by students summarizing their experiences and thoughts, ideally addressing the questions and goals in the previous section. 
+
+
+
+
+# References

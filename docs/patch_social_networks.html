@@ -10,14 +10,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="blinded" />
 
-<meta name="date" content="2016-09-07" />
 
-<title>SDS Software</title>
+<title>Ethics patches in a box</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -93,33 +93,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -291,6 +291,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -432,61 +438,122 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">SDS Software</h1>
-<h4 class="date">September 7, 2016</h4>
+<h1 class="title toc-ignore">Ethics patches in a box</h1>
+<h3 class="subtitle">a clever, topical title</h3>
+<h4 class="author">blinded</h4>
+<h4 class="date">Last updated on 2020-01-21</h4>
 
 </div>
 
 
-<div id="software-used-by-sds-classes" class="section level2">
-<h2>Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<div id="sds-136" class="section level3">
-<h3>SDS 136</h3>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="description-of-coursesetting" class="section level2">
+<h2>Description of course/setting</h2>
 <ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
+<li>Acutal: <em>Statistical Analysis of Social Network Data</em></li>
+<li>Generic: upper-level course that requires a second course in statistics, and preferably a programming course</li>
 </ul>
 </div>
-<div id="sds-192" class="section level3">
-<h3>SDS 192</h3>
+<div id="nas-ethical-areas" class="section level2">
+<h2>NAS ethical areas</h2>
 <ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
+<li>Privacy and confidentiality,</li>
+<li>Responsible conduct of research,</li>
+</ul>
+</div>
+<div id="questionsgoals-addressed" class="section level2">
+<h2>Questions/goals addressed</h2>
 <ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+<li>Give students the experience of collecting social network data, and to experience how there are many subjective choices in the collection of those data.</li>
+<li>Have students consider how abstraction (the way in which data are represented) strips context from the data, and talk about implications of that lack of context</li>
+<li>Students apply general paper on ethics of survey data to the specific context of social network surveys: students create their own understanding of what makes social network data collection ethical.</li>
+<li>This is meant for the first day of class, so the main goal is to set the tone for the class that ethics must be considered throughout.</li>
+</ul>
+</div>
+<div id="generalizability" class="section level2">
+<h2>Generalizability</h2>
+<ul>
+<li>any collection of data on humans</li>
+</ul>
+</div>
+</div>
+<div id="lesson-plan-for-instructors" class="section level1">
+<h1>Lesson plan for instructors</h1>
+<div id="student-preparation-required" class="section level2">
+<h2>Student preparation required</h2>
+<ul>
+<li>no technical knowledge required</li>
+<li>after class, read:
+<ul>
+<li><span class="citation">Hammer (2017)</span></li>
+<li><span class="citation">Kolaczyk and Csárdi (2014)</span> (Pages 1-10 and 13-18)</li>
 </ul></li>
 </ul>
 </div>
-<div id="sds-220" class="section level3">
-<h3>SDS 220</h3>
+<div id="activity-description" class="section level2">
+<h2>Activity description</h2>
+<div id="warm-up-how-are-people-connected-to-each-other" class="section level3">
+<h3>Warm up: How are people connected to each other?</h3>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
+<li>Networks are collections of inter-connected entities and in social networks those entities are people</li>
+<li>working in small groups: brainstorm as many possible different social connections that you can think of</li>
+<li>(after brainstorming is over) Have students share social connections they thought of and write them on the board</li>
 </ul>
 </div>
-<div id="sds-291" class="section level3">
-<h3>SDS 291</h3>
+<div id="time-to-collect-data-greys-anatomy" class="section level3">
+<h3>Time to collect data: <a href="https://en.wikipedia.org/wiki/Grey%27s_Anatomy"><em>Grey’s Anatomy</em></a></h3>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
+<li>Introduce a TV show or movie in which many people interact with each other in different ways (I chose <em>Grey’s Anatomy</em> and got a DVD from the College Library)</li>
+<li>Ask each student to pair up. In pairs: identify two kinds of social connections that you could collect from watching part of <em>Grey’s Anatomy</em></li>
+<li>Have students pick which kind of social connection information they will collect</li>
+<li>Show part of the first episode of <em>Grey’s Anatomy</em> (I showed first 12 minutes) and have students collect the social network information</li>
 </ul>
 </div>
-<div id="sds-293" class="section level3">
-<h3>SDS 293</h3>
+<div id="questions-to-ask-in-data-collection-discussion" class="section level3">
+<h3>Questions to Ask in Data Collection Discussion:</h3>
 <ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
+<li>What did you notice as you were collecting the data?</li>
+<li>Was it always obvious that people were or were not connected?</li>
+<li>How can biases be introduced when collecting social network data? What implications will that have for the conclusions we will make based on the data?</li>
+<li>Assuming that you were a “<a href="https://idioms.thefreedictionary.com/a+fly+on+the+wall">fly on the wall</a>” instead of watching a TV show, do you have any concerns for collecting these data?</li>
 </ul>
 </div>
-<div id="r-packages" class="section level3">
-<h3>R packages</h3>
-<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
+<div id="homework-portion" class="section level3">
+<h3>Homework Portion</h3>
+<ul>
+<li>Read <span class="citation">Hammer (2017)</span> and reflect on the following questions:
+<ul>
+<li>How can you apply the ideas about data ethics from this reading (which is about surveys in general) to social network analysis survey collection? Which ideas carry over to the social network context, which do not?</li>
+<li>Did collecting the <em>Grey’s Anatomy</em> data bring up ethical concerns? Why or why not?</li>
+</ul></li>
+<li>Read <span class="citation">Kolaczyk and Csárdi (2014)</span> (Pages 1-10 and 13-18)
+<ul>
+<li>Summarize in your own words the three types of Network Analysis</li>
+<li>Using <em>Grey’s Anatomy</em> data as an example: what are potential benefits/harms of conducting these kinds of analyses?</li>
+<li>Use the social network data you collected from watching <em>Grey’s Anatomy</em> in class to create an adjaceny list, an edge list, an adjacency matrix. What are the advantages and disadvantages of representing your network data in each of these ways?</li>
+<li>How does the way we represent data about people change how we consider the ethical implications that can be intwined in the collection and analysis of that data?</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="deliverables" class="section level2">
+<h2>Deliverables</h2>
+<ul>
+<li>homework assignment</li>
+<li>(optional): sets up class discussion for the next class period in which students dicuss their ideas from the reading</li>
+</ul>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-hammer2017ethical">
+<p>Hammer, Marilyn J. 2017. “Ethical Considerations for Data Collection Using Surveys.” In <em>Oncology Nursing Forum</em>. Vol. 44. 2.</p>
+</div>
+<div id="ref-kolaczyk2014">
+<p>Kolaczyk, Eric D, and Gábor Csárdi. 2014. <em>Statistical Analysis of Network Data with R</em>. Vol. 65. Springer.</p>
+</div>
 </div>
 </div>
 
@@ -541,7 +608,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -550,7 +617,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

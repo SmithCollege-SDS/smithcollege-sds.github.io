@@ -10,14 +10,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="blinded" />
 
-<meta name="date" content="2016-09-07" />
 
-<title>SDS Software</title>
+<title>Ethics patches in a box</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -93,33 +93,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -291,6 +291,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -432,61 +438,112 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">SDS Software</h1>
-<h4 class="date">September 7, 2016</h4>
+<h1 class="title toc-ignore">Ethics patches in a box</h1>
+<h3 class="subtitle">Get your fix: Algorithmic bias in shopping for clothes</h3>
+<h4 class="author">blinded</h4>
+<h4 class="date">Last updated on 2020-01-21</h4>
 
 </div>
 
 
-<div id="software-used-by-sds-classes" class="section level2">
-<h2>Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<div id="sds-136" class="section level3">
-<h3>SDS 136</h3>
+<p><strong>Disclaimer</strong>: The author of this patch is not being compensated by StitchFix.</p>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="description-of-coursesetting" class="section level2">
+<h2>Description of course/setting</h2>
 <ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
+<li>Actual: undergraduate machine learning</li>
+<li>Generic: any course that involves statistical modeling, such as a 200-level regression course</li>
 </ul>
 </div>
-<div id="sds-192" class="section level3">
-<h3>SDS 192</h3>
+<div id="nas-ethical-areas" class="section level2">
+<h2>NAS ethical areas</h2>
 <ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
+<li>Privacy and confidentiality</li>
+<li>Responsible conduct of research</li>
+<li>Ability to detect algorithmic bias</li>
+</ul>
+</div>
+<div id="questionsgoals-addressed" class="section level2">
+<h2>Questions/goals addressed</h2>
 <ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+<li>Presents students with an example of algorithmic bias that they can directly play with and relate to. This is in contrast to more abstract and much less accessible examples discussed in academic readings and news media, such as facial recognition software.</li>
+<li>Asks students to view the statistical, mathematical, and machine learning topics covered in class through a sociological lens, in particular the nature of gender.</li>
+<li>Gives students the opportunity to think about statistical models in a very rich, real, and realistic setting, in particular what predictor variables <span class="math inline">\(\vec{x}\)</span> are (and are not) being collected and what modeling method <span class="math inline">\(\widehat{f}()\)</span> is being used.</li>
+</ul>
+</div>
+<div id="generalizability" class="section level2">
+<h2>Generalizability</h2>
+<p>You can generalize this activity to any internet service where user information is collected for prediction purposes. While this exercise can work in almost any such setting (such as Netflix recommendations), we think it will work best when there is a clear opportunity for comparing and contrasting along some demographic variable, as was the case with StitchFix’s “Style Profile” quiz split along (binary) gender.</p>
+</div>
+</div>
+<div id="lesson-plan-for-instructors" class="section level1">
+<h1>Lesson plan for instructors</h1>
+<div id="student-preparation-required" class="section level2">
+<h2>Student preparation required</h2>
+<p>Students should have a basic understanding of statistical modeling: <span class="math inline">\(y = f(\vec{x}) + \epsilon\)</span> and <span class="math inline">\(\widehat{y} = \widehat{f}(\vec{x})\)</span> where we have:</p>
+<ol style="list-style-type: decimal">
+<li>Outcome variables, both observed <span class="math inline">\(y\)</span> and fitted/predicted <span class="math inline">\(\widehat{y}\)</span></li>
+<li>A “true” unknown model <span class="math inline">\(f()\)</span> (i.e. “signal”) and a fitted/approximated model <span class="math inline">\(\widehat{f}()\)</span></li>
+<li>Explanatory/predictor variables <span class="math inline">\(\vec{x}\)</span></li>
+<li>An error term <span class="math inline">\(\epsilon\)</span> (i.e. noise)</li>
+</ol>
+<p>Optionally, students who have some familiarity with the difference between “modeling for prediction” and “modeling for explanation” will be well placed to absorb the lessons of this patch. For a broad discussion on this differencel, in particular to what ends each modeling paradigm is used for, instructors and upper-level students can read <span class="citation">(Breiman and others 2001)</span>.</p>
+</div>
+<div id="instructions-for-students" class="section level2">
+<h2>Instructions for students</h2>
+<p>In this exercise, you’ll learn that machine learning in practice isn’t as objective as many may think. Because machine learning algorithms are designed by humans for humans, they consequently incorporate many human biases and beliefs.</p>
+<p>The context for this exercise will be one many of you can relate to: shopping for clothes. In particular, we’ll focus on <a href="https://www.stitchfix.com/">StitchFix</a>, an online clothing subscription service that uses machine learning to predict which clothes will suit your style and hence are likely to buy. They then send you a “fix” of clothes to try at home and you keep only the ones you want.</p>
+<p>Today’s exercise will proceed as follows:</p>
+<ol style="list-style-type: decimal">
+<li>You’ll form groups of ideally two students.</li>
+<li>We’ll watch the following 4 minute clip from ABC’s <a href="http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347">Good Morning America</a> to familiarize ourselves with StitchFix’s business model.<br />
+</br>
+<center>
+<a href="http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347"> <img border="0" alt="GMA" src="images/stitchfix/GMA.png" width="600"> </a>
+</center>
+</br></li>
+<li>In groups you’ll go to <a href="https://www.stitchfix.com/">StitchFix</a> and complete the “Style Profile” quiz that collects information about your clothing preferences as follows:
+<ol style="list-style-type: decimal">
+<li>One of you will sign up for StitchFix.</li>
+<li>Together you’ll both complete the quiz for one of the (binary) choices of gender: men or women.</li>
+<li>The other group member will then sign up for StitchFix.</li>
+<li>Together you’ll both complete the quiz for the <em>other</em> choice of gender. Make note of any differences you find interesting.</li>
+</ol></li>
+<li>We’ll have a class discussion relating this experience to the topics we’ve been learning in class and the notion of <em>algorithmic bias</em>.</li>
+</ol>
+</div>
+<div id="activity-description" class="section level2">
+<h2>Activity description</h2>
+<p>This activity can be self-contained in a single 50 minute lecture as follows:</p>
+<ol style="list-style-type: decimal">
+<li>(5 minutes): Give students above instructions.</li>
+<li>(5 minutes): Watch clip from <em>Good Morning America</em>.</li>
+<li>(20 minutes): Have the student groups complete both the men’s and women’s “Style Profile” quiz.</li>
+<li>(10 minutes): Class discussion. Potential prompts include:
+<ul>
+<li>“What sociological biases and beliefs are embedded in the quizzes?” There are too many to enumerate and thus we recommend the instructor complete both quizzes beforehand to get a sense for themselves.</li>
+<li>“What predictor variables are being collected in the quizzes both directly as well as indirectly?” Examples of the latter include date/time (hence season), browser/operating system (these are weakly tied with technological sophistication and income), and shipping address (hence climate).</li>
+<li>“What are the principal components to consider when buying clothes?” In our opinion, the user’s style (patterns, cuts, colors), fit (lengths, proportions), and budget.</li>
+<li>“What modeling method <span class="math inline">\(\widehat{f}()\)</span> do you think is being used by StitchFix?” While <span class="math inline">\(\widehat{f}()\)</span> is proprietary to StitchFix and thus unknown, given the initial prompt for the user to select “men” or “women”, at the very highest level <span class="math inline">\(\widehat{f}()\)</span> is a decision tree a split on gender encoded as a binary variable.</li>
+<li>“What crucial predictor variable <span class="math inline">\(\vec{x}\)</span> can StitchFix only collect after they’ve sent you your first fix?” Examples include which clothes you keep, which clothes you return, and the ratings/feedback you give.</li>
+<li>“What is being predicted by these models and what is being <em>reinforced</em>?” A much more rhetorical question.</li>
 </ul></li>
-</ul>
+<li>(5 minutes): Give a brief lecture on algorithmic bias.</li>
+<li>(5 minutes): Give students instructions on the reflection piece they need to submit.</li>
+</ol>
 </div>
-<div id="sds-220" class="section level3">
-<h3>SDS 220</h3>
-<ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-</ul>
+<div id="deliverables" class="section level2">
+<h2>Deliverables</h2>
+<p>A reflection piece written by students summarizing their experiences and thoughts, ideally addressing the questions and goals in the previous section.</p>
 </div>
-<div id="sds-291" class="section level3">
-<h3>SDS 291</h3>
-<ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
-</ul>
 </div>
-<div id="sds-293" class="section level3">
-<h3>SDS 293</h3>
-<ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
-</ul>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-breiman2001statistical">
+<p>Breiman, Leo, and others. 2001. “Statistical Modeling: The Two Cultures (with Comments and a Rejoinder by the Author).” <em>Statistical Science</em> 16 (3). Institute of Mathematical Statistics: 199–231. <a href="https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726">https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726</a>.</p>
 </div>
-<div id="r-packages" class="section level3">
-<h3>R packages</h3>
-<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
 </div>
 </div>
 
@@ -541,7 +598,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -550,7 +607,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

@@ -10,14 +10,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="blinded" />
 
-<meta name="date" content="2016-09-07" />
 
-<title>SDS Software</title>
+<title>Ethics patches in a box</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -93,33 +93,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -291,6 +291,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -432,61 +438,131 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">SDS Software</h1>
-<h4 class="date">September 7, 2016</h4>
+<h1 class="title toc-ignore">Ethics patches in a box</h1>
+<h3 class="subtitle">OkCupid, what should I do now?</h3>
+<h4 class="author">blinded</h4>
+<h4 class="date">Last updated on 2020-01-21</h4>
 
 </div>
 
 
-<div id="software-used-by-sds-classes" class="section level2">
-<h2>Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<div id="sds-136" class="section level3">
-<h3>SDS 136</h3>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="description-of-coursesetting" class="section level2">
+<h2>Description of course/setting</h2>
 <ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
-</ul>
-</div>
-<div id="sds-192" class="section level3">
-<h3>SDS 192</h3>
+<li>Actual: senior capstone in statistical &amp; data sciences</li>
+<li>Generic:
 <ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
-<ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+<li>introductory data science course</li>
+<li>any course that covers web scraping</li>
 </ul></li>
 </ul>
 </div>
-<div id="sds-220" class="section level3">
-<h3>SDS 220</h3>
+<div id="nas-ethical-areas" class="section level2">
+<h2>NAS ethical areas</h2>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
+<li>Ethical precepts for data science and codes of conduct</li>
+<li>Privacy and confidentiality</li>
+<li>Responsible conduct of research</li>
+<li>Ability to identify “junk” science</li>
 </ul>
 </div>
-<div id="sds-291" class="section level3">
-<h3>SDS 291</h3>
+<div id="questionsgoals-addressed" class="section level2">
+<h2>Questions/goals addressed</h2>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
+<li>If I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?</li>
+<li>How do my ethical responsibilities differ from my legal responsibilities?</li>
+<li>Are there technical solutions that could allow me to publish the data while protecting people’s privacy?</li>
+<li>Are my ethical responsibitilies impacted by the value of the data?</li>
 </ul>
 </div>
-<div id="sds-293" class="section level3">
-<h3>SDS 293</h3>
+<div id="generalizability" class="section level2">
+<h2>Generalizability</h2>
 <ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
+<li>any publishing of personal data</li>
+<li>any attempt at web scraping</li>
 </ul>
 </div>
-<div id="r-packages" class="section level3">
-<h3>R packages</h3>
-<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
+</div>
+<div id="lesson-plan-for-instructors" class="section level1">
+<h1>Lesson plan for instructors</h1>
+<div id="student-preparation-required" class="section level2">
+<h2>Student preparation required</h2>
+<ul>
+<li>no technical knowledge required</li>
+<li>before class, read:
+<ul>
+<li><span class="citation">Kim and Escobedo-Land (2015)</span></li>
+<li><span class="citation">Poulsen (2014)</span></li>
+<li><span class="citation">Hackett (2016)</span></li>
+</ul></li>
+<li>(optional) other reference material:
+<ul>
+<li><span class="citation">Kirkegaard and Bjerrekær (2016)</span></li>
+</ul></li>
+</ul>
+</div>
+<div id="instructions-for-students" class="section level2">
+<h2>Instructions for students</h2>
+<ul>
+<li>Your goal in this class activity is to help Prof. Kim draft a letter to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> that addresses any ethical considerations you find present in <span class="citation">Kim and Escobedo-Land (2015)</span>. Perhaps you think Prof. Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.</li>
+<li>You may want to consult the Internet for relevant facts during the group discussion.</li>
+<li>Have at least one person taking notes during your discussion, preferably on a white board that all group members can see.</li>
+<li>There is no right or wrong answer. However, your choices should be based on informed logical reasoning.</li>
+</ul>
+</div>
+<div id="activity-description" class="section level2">
+<h2>Activity description</h2>
+<ol>
+<li>(10 minutes): Give a brief overview of the three uses of <a href="https://en.wikipedia.org/wiki/OkCupid">OkCupid</a> data. Focus on Prof. Kim’s responsibilities as a published author. The students should have already read the assigned material.</li>
+<li>(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:
+<ol>
+<li>Other OkCupid users
+<ul>
+<li>Discuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof. Kim’s situation?</li>
+</ul></li>
+<li>Anonymization and differential privacy
+<ul>
+<li>What role do <a href="https://en.wikipedia.org/wiki/Data_anonymization">data anonymization</a> and <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> play in Prof. Kim’s situation? Could these techniques lead to a safer product?</li>
+</ul></li>
+<li>Terms of Service
+<ul>
+<li>How closely do the ethical issues track the legal issues? What role do <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a> and/or The <a href="https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act">Computer Fraud and Abuse Act</a> (CFAA) play?</li>
+</ul></li>
+<li>Value of Data
+<ul>
+<li>What is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?</li>
+</ul></li>
+</ol></li>
+<li>(15 minutes): Have each group draft a <strong>one-paragraph statement</strong> to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> on your topic that <strong>all</strong> group members agree with.</li>
+<li>(15 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.</li>
+<li>(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.</li>
+</ol>
+</div>
+<div id="deliverables" class="section level2">
+<h2>Deliverables</h2>
+<ul>
+<li>one paragraph from each group</li>
+<li>(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of <em>JSE</em> suitable for publication. Send the letter to Prof. Kim!</li>
+</ul>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-hackett2016fortune">
+<p>Hackett, Robert. 2016. “Researchers Caused an Uproar by Publishing Data from 70,000 Okcupid Users.” Fortune. <a href="https://fortune.com/2016/05/18/okcupid-data-research/">https://fortune.com/2016/05/18/okcupid-data-research/</a>.</p>
+</div>
+<div id="ref-kim2015okcupid">
+<p>Kim, Albert Y, and Adriana Escobedo-Land. 2015. “OKCupid Data for Introductory Statistics and Data Science Courses.” <em>Journal of Statistics Education</em> 23 (2). Taylor &amp; Francis. <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.</p>
+</div>
+<div id="ref-kirkegaard2016okcupid">
+<p>Kirkegaard, Emil OW, and Julius D Bjerrekær. 2016. “The OKCupid Dataset: A Very Large Public Dataset of Dating Site Users.” <em>Open Differential Psychology</em> 46.</p>
+</div>
+<div id="ref-poulsen2014wired">
+<p>Poulsen, Kevin. 2014. “How a Math Genius Hacked OKCupid to Find True Love.” Wired. <a href="https://www.wired.com/2014/01/how-to-hack-okcupid/">https://www.wired.com/2014/01/how-to-hack-okcupid/</a>.</p>
+</div>
 </div>
 </div>
 
@@ -541,7 +617,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -550,7 +626,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify
