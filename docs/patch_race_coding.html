@@ -10,14 +10,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="blinded" />
 
-<meta name="date" content="2016-09-07" />
 
-<title>SDS Software</title>
+<title>Ethics patches in a box</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -93,33 +93,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -291,6 +291,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -432,61 +438,122 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">SDS Software</h1>
-<h4 class="date">September 7, 2016</h4>
+<h1 class="title toc-ignore">Ethics patches in a box</h1>
+<h3 class="subtitle">The coding and analysis of racial/ethnic identity data</h3>
+<h4 class="author">blinded</h4>
+<h4 class="date">Last updated on 2020-01-21</h4>
 
 </div>
 
 
-<div id="software-used-by-sds-classes" class="section level2">
-<h2>Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<div id="sds-136" class="section level3">
-<h3>SDS 136</h3>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="description-of-coursesetting" class="section level2">
+<h2>Description of course/setting</h2>
 <ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
+<li>Actual: upper-level domain application course focused on the psychology of intergroup relations</li>
+<li>Generic: any course where students may encounter race data</li>
 </ul>
 </div>
-<div id="sds-192" class="section level3">
-<h3>SDS 192</h3>
+<div id="nas-ethical-areas" class="section level2">
+<h2>NAS ethical areas</h2>
 <ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
+<li>Responsible conduct of research</li>
+</ul>
+</div>
+<div id="questionsgoals-addressed" class="section level2">
+<h2>Questions/goals addressed</h2>
+<p>Important lessons to learn and revelations students might make while completing this activity:</p>
 <ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
+<li>Researchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.</li>
+<li>A person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).</li>
+<li>The choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?</li>
+<li>Race is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?</li>
+<li>Are there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?</li>
+<li>If you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?</li>
+</ul>
+</div>
+<div id="generalizability" class="section level2">
+<h2>Generalizability</h2>
+<ul>
+<li>any use of pre-collected racial/ethnic data</li>
+<li>any attempt at collecting racial/ethnic data when designing studies</li>
+</ul>
+</div>
+</div>
+<div id="lesson-plan-for-instructors" class="section level1">
+<h1>Lesson plan for instructors</h1>
+<div id="student-preparation-required" class="section level2">
+<h2>Student preparation required</h2>
+<ul>
+<li>Some technical knowledge of basic data cleaning is required</li>
+<li>before class, read:
+<ul>
+<li><span class="citation">Shook and Fazio (2008)</span></li>
+</ul></li>
+<li>(optional) other reference material:
+<ul>
+<li><a href="https://www.census2020now.org/faces-blog/same-sex-households-2020-census-r3976">Race/Ethnicity in the 2020 US Census</a></li>
+<li><a href="https://census.gov/about/our-research/race-ethnicity.html">US Census: Research to Improve Data on Race and Ethnicity</a></li>
 </ul></li>
 </ul>
 </div>
-<div id="sds-220" class="section level3">
-<h3>SDS 220</h3>
+<div id="instructions-for-students" class="section level2">
+<h2>Instructions for students</h2>
+<p>Your goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss <span class="citation">Shook and Fazio (2008)</span>. This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally.</p>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
+<li>First, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:
+<ol>
+<li>What did they find?</li>
+<li>How did they do it?</li>
+<li>What is missing or limited?</li>
+</ol></li>
+<li><p>Next, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.</p></li>
+<li><p>After this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called <code>race_clean</code>. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group).</p></li>
 </ul>
 </div>
-<div id="sds-291" class="section level3">
-<h3>SDS 291</h3>
+<div id="activity-description" class="section level2">
+<h2>Activity description</h2>
+<p>Students must come to class having read <span class="citation">Shook and Fazio (2008)</span>. The following is a suggested timeline for a 70-minute class session.</p>
+<ol>
+<li>(15 minutes): Break the class into four groups. Each group will discuss the following questions pertaining to the assigned article and write their bulletpointed responses on the boards. The first two questions help the students warm up and make sure that everyone understood
+<ol>
+<li>What did they find?
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
+<li>Discuss the results resented in the article.</li>
+</ul></li>
+<li>How did they do it?
+<ul>
+<li>Discuss the methods employed by the researchers.</li>
+</ul></li>
+<li>What is missing or limited?
+<ul>
+<li>Discuss the limitations of the research study. This piece is where the concerns regarding race are likely to come out.<br />
+</li>
+</ul></li>
+<li>Bonus (completed if groups finish early): Make a sketch of the dataset that was used in these analyses. What does each row represent? What variables must it have? What index variables must it have?</li>
+</ol></li>
+<li>(25 minutes): Discuss the three questions as a class. Try to move them quickly through the first two questions to leave about half the time for the third question. I would leave them in suspence with the bonus task—perhaps start the following class with this as a warm-up activity. As they raise missing pieces and limitations, write their suggestions on the board in a joint class bulletpointed list.<br />
+</li>
+<li>(15 minutes): Now in pairs, have students start cleaning the messy race data provided. Their task is to code the check-all-that-apply and/or free response data into a new categorical variable called <code>race_clean</code>.</li>
+<li>(10 minutes): Back in small groups of four (two pairs), have students discuss the choices they made and feelings they had while re-coding the race/ethnicity data. These feelings reflect the hard realities that researchers must confront in their work.</li>
+<li>(5 minutes): Wrap up. Let students know that this is not the end of the discussion. If they are feeling like they have more questions than answers, or they are more confused about race and ethnicity in data science than when the class began, this is a good thing—it is a complex issue! You might also remind them that the coding of race and ethnicity in the US is deeply connected to a history of racial oppression. As future data scientists, they can play an active role in creating ethical guidelines for moving towards more appropriate use of race and ethnicity data. <strong>It is very important not to skip the wrap up for this activity.</strong> Set a timer such that you can touch base with them and ideally, end on a hopeful note.</li>
+</ol>
+</div>
+<div id="deliverables" class="section level2">
+<h2>Deliverables</h2>
+<ul>
+<li>A bullet-point list on the board for each group answering the three research questions.</li>
+<li>(optional): A detailed written description about the decisions made while coding the race and ethnicity data. This should be completed for each pair of students.</li>
 </ul>
 </div>
-<div id="sds-293" class="section level3">
-<h3>SDS 293</h3>
-<ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
-</ul>
 </div>
-<div id="r-packages" class="section level3">
-<h3>R packages</h3>
-<p>See <a href="sds_r_packages.Rmd">R packages used by SDS</a></p>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-shook2008interracial">
+<p>Shook, Natalie J, and Russell H Fazio. 2008. “Interracial Roommate Relationships: An Experimental Field Test of the Contact Hypothesis.” <em>Psychological Science</em> 19 (7). SAGE Publications Sage CA: Los Angeles, CA: 717–23.</p>
+</div>
 </div>
 </div>
 
@@ -541,7 +608,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -550,7 +617,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

@@ -1,0 +1,87 @@
+---
+title: "Ethics patches in a box"
+subtitle: "Let's essay an essay"
+author: "blinded"
+date: "Last updated on `r Sys.Date()`"
+bibliography: bibliography.bib
+output:
+  html_document:
+    fig_caption: yes
+    theme: lumen
+    toc: yes
+    toc_depth: 2
+    df_print: kable
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+## Description of course/setting
+
+- Actual: senior capstone in statistical & data sciences
+- Generic: liberal arts course on ethics, technology, and society
+
+## NAS ethical areas
+
+- Ethical precepts for data science and codes of conduct,
+- Privacy and confidentiality
+- Responsible conduct of research
+- Ability to detect algorithmic bias
+
+## Questions/goals addressed
+
+- How can we *constructively* assess the ethical considerations of a data science product? 
+- How does our consideration of ethical issues in data science reflect our own values? What are those values?
+
+
+## Generalizability
+
+- any data science product
+
+
+# Lesson plan for instructors
+
+## Student preparation required
+
+- no technical knowledge required
+- read:
+    - @o2017weapons
+    - frameworks for data science ethics:
+        - [Data Values and Principles](https://datapractices.org/manifesto/)
+        - [Data Science for Undergraduates: Opportunities and Options, Ch. 13](https://www.nap.edu/read/25104/chapter/13)
+        - @elliott2018teaching
+- (optional) additional context and commentary:
+    - [Data for Good Exchange](https://medium.com/@dpatil/ethics-data-science-ff21d0c29346)
+    - Commentary by [Tom Simonite](https://www.wired.com/story/should-data-scientists-adhere-to-a-hippocratic-oath/)
+    - Commentary by [Virgina Eubanks](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
+    - Comparison by [Lori Sherer](https://www.forbes.com/sites/baininsights/2018/06/13/data-scientists-take-a-hippocratic-oath/#468402c41bcb)
+    - [Interview with Cathy O'Neil](https://www.wired.co.uk/article/data-ai-ethics-hippocratic-oath-cathy-o-neil-weapons-of-math-destruction)
+
+## Instructions for students
+
+Choose one of the following prompts and write an at most 2500-word [**essay**](https://en.wikipedia.org/wiki/Essay) on data science ethics, technology, and society (in Markdown). In addition to the readings list above, expect to do some additional research relevant to your topic. This is *not* a reflection paper -- you should support your arguments with citations throughout.
+
+#. Choose *one* episode from *Weapons of Math Destruction* and analyze it in the context of either the Data Values and Principles or the Hippocratic Oath for Data Science outlined by the National Academy of Sciences. Did the actors in this episode behave ethically? Explain why or why not by linking specific actions to specific ethical principles. Could this code of ethics prevent similar behavior in the future? 
+
+#. Choose *one* episode from *Weapons of Math Destruction* and analyze it in the context of *both* the Western and Confucian principles ethical principles outlined by [Elliott, et al.](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1307140). Did the actors in this episode behave ethically? Explain why or why not by linking specific actions to specific ethical principles. Could either code of ethics prevent similar behavior in the future? 
+
+#. Choose your own topic. Check with your instructor before proceeding.
+
+
+## Activity description
+
+Various in-class discussions surrounding *WMD* will support student engagement with the material and help them gain comfort with discussing ethical issues. 
+
+
+## Deliverables
+
+- an essay, not to exceed 2500 words
+- (recommended): scaffold the assignment by requiring students to submit an outline at least two weeks in advance
+- (optional): have students submit a draft
+
+# References
