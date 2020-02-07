@@ -1,0 +1,27 @@
+---
+title: 'Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103'
+---
+
+# Public Lecture: Generating Synthetic Family Income for the Consumer Expenditure Surveys
+
+![Jingchen (Monika) Hu](https://www.vassar.edu/faculty/assets/images/profiles/jihu/Jingchen-Hu-KR_0012_72.jpg)
+
+## Jingchen (Monika) Hu
+
+Monika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates. 
+
+## What Does "Abolish Big Data" Mean?
+
+Have you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics.
+ 
+
+## Details
+
+- Date and Time:Thursday Feb 27, 5pm
+- Location: McConnell Hall, 103, Smith College
+- Open to the Public
+
+### Sponsors
+
+- Smith College <a href="https://www.smith.edu/academics/statistics">Statistical and Data Sciences</a>
+
