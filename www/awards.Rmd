@@ -87,6 +87,7 @@ The class project competition is for undergraduate students who conduct projects
 
 Recent winners from Smith include:
 
+
 - 2017
     - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18<br>
     		<cite>"Factors that Impact Video Game Sales"</cite>
@@ -110,9 +111,13 @@ Recent winners from Smith include:
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
 
 
+- 2019
+    - [3rd Place](https://www.causeweb.org/usproc/usresp/2019/fall/winners): Karen Santamaria '20, Kara Van Allen '20, Maggie X. Wang '20, and Tiffany Xiao '20J  
+      *Methods for Freeing Public Election Data from PDFs*
+    
 - 2015
-    - <a href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd Place</a>: Sara Stoudt '15<br>
-	  <cite>Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States</cite>
+    - [2nd Place](https://www.causeweb.org/usproc/usproc/2015-usresp-winners): Sara Stoudt '15  
+	    *Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States*
 
 
 

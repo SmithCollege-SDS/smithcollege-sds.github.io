@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -221,6 +220,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -249,6 +249,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -550,9 +556,15 @@ div.tocify {
 <h3><a href="https://www.causeweb.org/usproc/USRESP%20Competition">Undergraduate Research Project Competition</a> (USRESP)</h3>
 <p>The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor’s college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.</p>
 <ul>
+<li>2019
+<ul>
+<li><a href="https://www.causeweb.org/usproc/usresp/2019/fall/winners">3rd Place</a>: Karen Santamaria ’20, Kara Van Allen ’20, Maggie X. Wang ’20, and Tiffany Xiao ’20J<br />
+<em>Methods for Freeing Public Election Data from PDFs</em></li>
+</ul></li>
 <li>2015
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd Place</a>: Sara Stoudt ’15<br> <cite>Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States</cite></li>
+<li><a href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd Place</a>: Sara Stoudt ’15<br />
+<em>Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States</em></li>
 </ul></li>
 </ul>
 </div>
