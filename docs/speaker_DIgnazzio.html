@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Upcoming Speaker: Catherine DIgnazio</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="include\smith.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SDS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="awards.html">
+    <span class="fa fa-award"></span>
+     
+    Awards
+  </a>
+</li>
+<li>
+  <a href="mu_sigma_rho.html">
+    <span class="fa fa-calculator"></span>
+     
+    Mu Sigma Rho
+  </a>
+</li>
+<li>
+  <a href="events.html">
+    <span class="fa fa-ticket"></span>
+     
+    Events
+  </a>
+</li>
+<li>
+  <a href="rmarkdown_problems.html">
+    <span class="fa fa-question-circle"></span>
+     
+    Help
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-newspaper"></span>
+     
+    Newsletters
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="sds_newsletter_2019.html">2019</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2018.html">2018</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2017.html">2017</a>
+    </li>
+    <li>
+      <a href="sds_newsletter_2016.html">2016</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-book"></span>
+     
+    Ethics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="patch_music.html">Copywriting music</a>
+    </li>
+    <li>
+      <a href="patch_okcupid.html">OkCupid</a>
+    </li>
+    <li>
+      <a href="patch_race_coding.html">Coding race</a>
+    </li>
+    <li>
+      <a href="patch_social_networks.html">Social networks</a>
+    </li>
+    <li>
+      <a href="patch_stitchfix.html">StitchFix</a>
+    </li>
+    <li>
+      <a href="patch_wmd.html">Codes of ethics</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/SmithCollege-SDS">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Upcoming Speaker: Catherine DIgnazio</h1>
+
+</div>
+
+
+<div id="public-lecture-data-feminism" class="section level1">
+<h1>Public Lecture: Data Feminism</h1>
+<div class="figure">
+<img src="https://cmsw.mit.edu/wp/wp-content/uploads/2020/02/Catherine-DIgnazio-square.png" />
+
+</div>
+<div id="catherine-dignazio" class="section level2">
+<h2>Catherine D’Ignazio</h2>
+<p>Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design &amp; social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place</p>
+</div>
+<div id="data-feminism" class="section level2">
+<h2>Data Feminism</h2>
+<p>As data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists–and others who rely on data in their work–to ignore. But it is precisely this power that makes it worth asking: “Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices.</p>
+</div>
+<div id="details" class="section level2">
+<h2>Details</h2>
+<ul>
+<li>Date and Time:TBD</li>
+<li>Location: TBD</li>
+<li>Open to the Public</li>
+</ul>
+<div id="sponsors" class="section level3">
+<h3>Sponsors</h3>
+<ul>
+<li>Smith College <a href="https://www.smith.edu/academics/statistics">Statistical and Data Sciences</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Created by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
