@@ -1,0 +1,29 @@
+---
+title: 'Upcoming Speakers: Juliana Alvord `19 and and Abbey Benzine'
+---
+
+<!-- https://smithcollege-sds.github.io/sds-www/speaker_Alvord.html -->
+
+<img src="gfx/smith_flyer_graphic.png" width="600px">
+
+
+
+# Lunch talk: Mission-driven data science: Using Data to Improve Education
+
+<!-- ## Data for Education -->
+
+With the recent explosion of data science, there is a desire across many fields to employ big data to innovate and improve decision making. Education Analytics strives to meet that demand in the realm of K-12 education. EA partners with school districts and other education groups across the country to help them make data-driven decisions on policies and programs that lead to school and student success. A few of the practices that accomplish this include the automation of metrics, rigorous research processes, and transparent communication.
+
+In this talk, Julianna Alvord '19 and Abbey Benzine, research analysts at Education Analytics, will discuss data use cases, the programming and political challenges associated with data science in education, and what technical and policy innovations EA drives to improve education across the country.
+ 
+
+## Details
+
+- Date and Time:Tuesday March 3, 12:10pm
+- Location: Sabin-Reed, 301, Smith College
+- Open to Students
+
+### Sponsors
+
+- Smith College <a href="https://www.smith.edu/academics/statistics">Statistical and Data Sciences</a>
+
