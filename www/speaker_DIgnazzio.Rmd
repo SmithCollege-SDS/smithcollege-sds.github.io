@@ -1,0 +1,27 @@
+---
+title: 'Upcoming Speaker: Catherine DIgnazio'
+---
+
+# Public Lecture: Data Feminism
+
+![](https://cmsw.mit.edu/wp/wp-content/uploads/2020/02/Catherine-DIgnazio-square.png)
+
+## Catherine D'Ignazio
+
+Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design & social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place
+
+## Data Feminism
+
+As data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists--and others who rely on data in their work--to ignore. But it is precisely this power that makes it worth asking: "Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices.
+ 
+
+## Details
+
+- Date and Time:TBD
+- Location: TBD
+- Open to the Public
+
+### Sponsors
+
+- Smith College <a href="https://www.smith.edu/academics/statistics">Statistical and Data Sciences</a>
+
