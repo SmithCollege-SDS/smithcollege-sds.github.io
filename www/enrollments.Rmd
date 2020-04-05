@@ -10,6 +10,7 @@ library(tidyverse)
 library(lubridate)
 library(sds)
 library(enrollments)
+set.seed(21)
 ```
 
 
@@ -112,20 +113,25 @@ by_major <- sds %>%
     subject == "MTH" ~ "MTH",
     subject == "CSC" ~ "CSC", 
     subject == "ECO" ~ "ECO",
+#    subject == "NSC" ~ "NSC",
     subject == "PSY" ~ "PSY",
     subject == "EGR" ~ "EGR",
     subject == "BIO" ~ "BIO",
     TRUE ~ "Other"
   )) %>%
-  group_by(crn_term, major) %>%
+  group_by(AY, major) %>%
   summarize(N = n())
 
-major_plot <- ggplot(by_major, aes(x = as.character(crn_term), y = N, fill = major)) + 
+major_plot <- ggplot(by_major, aes(x = as.character(AY), y = N, fill = fct_relevel(major, "Other", after = Inf))) + 
   geom_bar(stat = "identity") +
-  scale_y_continuous("Total Declared/Intended Majors") + 
-  scale_x_discrete("Term") + 
-  scale_fill_brewer("Course", palette = "Set2") + 
+  geom_label(data = . %>% filter(major == "Other"), 
+             aes(label = N)) + 
+  scale_y_continuous("Total Declared/Intended Majors", breaks = 0:25*40) + 
+  scale_x_discrete("Academic Year") + 
+  scale_fill_brewer("Major", palette = "Set2") + 
   ggtitle("Enrollment by Major", subtitle = "2012-present")
+
+major_plot
 ```
 
 ### Intro statistics
@@ -141,12 +147,13 @@ by_major_220 <- sds %>%
     subject == "MTH" ~ "MTH",
     subject == "CSC" ~ "CSC", 
     subject == "ECO" ~ "ECO",
+#    subject == "NSC" ~ "NSC",
     subject == "PSY" ~ "PSY",
     subject == "EGR" ~ "EGR",
     subject == "BIO" ~ "BIO",
     TRUE ~ "Other"
   )) %>%
-  group_by(crn_term, major) %>%
+  group_by(AY, major) %>%
   summarize(N = n())
 
 major_plot %+% by_major_220 + 
