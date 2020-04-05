@@ -175,7 +175,11 @@ sds %>%
   group_by(grad_year, is_major) %>%
   summarize(N = n(), num_students = n_distinct(ID)) %>%
   filter(grad_year > 2008) %>%
-  ggplot(aes(x = grad_year, y = num_students, fill = is_major)) + 
+  ggplot(aes(x = grad_year, y = num_students, fill = is_major)) +   
+  geom_hline(yintercept = 2502/4/2, linetype = 3) + 
+  geom_hline(yintercept = 2502/4/4, linetype = 3) + 
+  annotate("text", x = 2013, y = 2502/4/4 + 10, label = "25%", hjust = "left") + 
+  annotate("text", x = 2013, y = 2502/4/2 + 10, label = "50% of typical graduating class", hjust = "left") + 
   geom_bar(stat = "identity") +
   geom_label(data = . %>% filter(is_major), aes(label = num_students)) + 
   scale_y_continuous("number of distinct students") + 
