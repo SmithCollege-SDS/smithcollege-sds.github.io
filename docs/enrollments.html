@@ -24,6 +24,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -465,115 +466,374 @@ div.tocify {
 <div id="intro-statistics" class="section level3">
 <h3>Intro statistics</h3>
 <p><img src="enrollments_files/figure-html/enrollment_major_220-1.png" width="960" /></p>
-<table>
-<caption>Composition of 220/201 by major since 2017</caption>
+<pre><code>## 
+## Attaching package: &#39;kableExtra&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     group_rows</code></pre>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Composition of 220/201 by major since 2017
+</caption>
 <thead>
-<tr class="header">
-<th align="left">subject</th>
-<th align="right">num_students</th>
-<th align="right">pct</th>
+<tr>
+<th style="text-align:left;">
+subject
+</th>
+<th style="text-align:right;">
+num_terms
+</th>
+<th style="text-align:right;">
+num_students
+</th>
+<th style="text-align:right;">
+avg_per_year
+</th>
+<th style="text-align:right;">
+pct
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left">BIO</td>
-<td align="right">132</td>
-<td align="right">0.1846154</td>
+<tr>
+<td style="text-align:left;">
+BIO
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+132
+</td>
+<td style="text-align:right;">
+37.7
+</td>
+<td style="text-align:right;">
+0.1846154
+</td>
 </tr>
-<tr class="even">
-<td align="left">EGR</td>
-<td align="right">132</td>
-<td align="right">0.1846154</td>
+<tr>
+<td style="text-align:left;">
+EGR
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+132
+</td>
+<td style="text-align:right;">
+37.7
+</td>
+<td style="text-align:right;">
+0.1846154
+</td>
 </tr>
-<tr class="odd">
-<td align="left">CSC</td>
-<td align="right">44</td>
-<td align="right">0.0615385</td>
+<tr>
+<td style="text-align:left;">
+CSC
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+12.6
+</td>
+<td style="text-align:right;">
+0.0615385
+</td>
 </tr>
-<tr class="even">
-<td align="left">NSC</td>
-<td align="right">43</td>
-<td align="right">0.0601399</td>
+<tr>
+<td style="text-align:left;">
+NSC
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+12.3
+</td>
+<td style="text-align:right;">
+0.0601399
+</td>
 </tr>
-<tr class="odd">
-<td align="left">BCH</td>
-<td align="right">41</td>
-<td align="right">0.0573427</td>
+<tr>
+<td style="text-align:left;">
+BCH
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+11.7
+</td>
+<td style="text-align:right;">
+0.0573427
+</td>
 </tr>
-<tr class="even">
-<td align="left">MTH</td>
-<td align="right">35</td>
-<td align="right">0.0489510</td>
+<tr>
+<td style="text-align:left;">
+MTH
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+10.0
+</td>
+<td style="text-align:right;">
+0.0489510
+</td>
 </tr>
-<tr class="odd">
-<td align="left">SDS</td>
-<td align="right">33</td>
-<td align="right">0.0461538</td>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+SDS
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+6
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+33
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+9.4
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+0.0461538
+</td>
 </tr>
-<tr class="even">
-<td align="left">ENV</td>
-<td align="right">30</td>
-<td align="right">0.0419580</td>
+<tr>
+<td style="text-align:left;">
+ENV
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+8.6
+</td>
+<td style="text-align:right;">
+0.0419580
+</td>
 </tr>
-<tr class="odd">
-<td align="left">PSY</td>
-<td align="right">29</td>
-<td align="right">0.0405594</td>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+PSY
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+6
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+29
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+8.3
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+0.0405594
+</td>
 </tr>
-<tr class="even">
-<td align="left">CHM</td>
-<td align="right">28</td>
-<td align="right">0.0391608</td>
+<tr>
+<td style="text-align:left;">
+CHM
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+8.0
+</td>
+<td style="text-align:right;">
+0.0391608
+</td>
 </tr>
-<tr class="odd">
-<td align="left">GOV</td>
-<td align="right">15</td>
-<td align="right">0.0209790</td>
+<tr>
+<td style="text-align:left;">
+GOV
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4.3
+</td>
+<td style="text-align:right;">
+0.0209790
+</td>
 </tr>
-<tr class="even">
-<td align="left">GSC</td>
-<td align="right">14</td>
-<td align="right">0.0195804</td>
+<tr>
+<td style="text-align:left;">
+GSC
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+4.0
+</td>
+<td style="text-align:right;">
+0.0195804
+</td>
 </tr>
-<tr class="odd">
-<td align="left">EGN</td>
-<td align="right">12</td>
-<td align="right">0.0167832</td>
+<tr>
+<td style="text-align:left;">
+EGN
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+0.0167832
+</td>
 </tr>
-<tr class="even">
-<td align="left">ECO</td>
-<td align="right">10</td>
-<td align="right">0.0139860</td>
+<tr>
+<td style="text-align:left;">
+ECO
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+2.9
+</td>
+<td style="text-align:right;">
+0.0139860
+</td>
 </tr>
-<tr class="odd">
-<td align="left">EDC</td>
-<td align="right">9</td>
-<td align="right">0.0125874</td>
+<tr>
+<td style="text-align:left;">
+EDC
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+2.6
+</td>
+<td style="text-align:right;">
+0.0125874
+</td>
 </tr>
-<tr class="even">
-<td align="left">SOC</td>
-<td align="right">8</td>
-<td align="right">0.0111888</td>
+<tr>
+<td style="text-align:left;">
+SOC
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+0.0111888
+</td>
 </tr>
-<tr class="odd">
-<td align="left">MUS</td>
-<td align="right">7</td>
-<td align="right">0.0097902</td>
+<tr>
+<td style="text-align:left;">
+MUS
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+2.0
+</td>
+<td style="text-align:right;">
+0.0097902
+</td>
 </tr>
-<tr class="even">
-<td align="left">ENG</td>
-<td align="right">6</td>
-<td align="right">0.0083916</td>
+<tr>
+<td style="text-align:left;">
+ENG
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1.7
+</td>
+<td style="text-align:right;">
+0.0083916
+</td>
 </tr>
-<tr class="odd">
-<td align="left">ANT</td>
-<td align="right">5</td>
-<td align="right">0.0069930</td>
+<tr>
+<td style="text-align:left;">
+ANT
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+0.0069930
+</td>
 </tr>
-<tr class="even">
-<td align="left">EVS</td>
-<td align="right">5</td>
-<td align="right">0.0069930</td>
+<tr>
+<td style="text-align:left;">
+EVS
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+0.0069930
+</td>
 </tr>
 </tbody>
 </table>
@@ -583,23 +843,45 @@ div.tocify {
 <h2>By graduation year</h2>
 <p><img src="enrollments_files/figure-html/enrollment_major_grad_year-1.png" width="960" /></p>
 <table>
-<caption>Allocation of seats in SDS courses</caption>
+<caption>
+Allocation of seats in SDS courses
+</caption>
 <thead>
-<tr class="header">
-<th align="right">N</th>
-<th align="right">numIntro</th>
-<th align="right">num220</th>
-<th align="right">pct220</th>
-<th align="right">pctIntro</th>
+<tr>
+<th style="text-align:right;">
+N
+</th>
+<th style="text-align:right;">
+numIntro
+</th>
+<th style="text-align:right;">
+num220
+</th>
+<th style="text-align:right;">
+pct220
+</th>
+<th style="text-align:right;">
+pctIntro
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="right">3716</td>
-<td align="right">2170</td>
-<td align="right">1046</td>
-<td align="right">0.2814855</td>
-<td align="right">0.5839612</td>
+<tr>
+<td style="text-align:right;">
+3716
+</td>
+<td style="text-align:right;">
+2170
+</td>
+<td style="text-align:right;">
+1046
+</td>
+<td style="text-align:right;">
+0.2814855
+</td>
+<td style="text-align:right;">
+0.5839612
+</td>
 </tr>
 </tbody>
 </table>

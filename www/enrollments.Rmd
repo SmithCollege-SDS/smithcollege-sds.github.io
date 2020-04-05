@@ -154,17 +154,26 @@ major_plot %+% by_major_220 +
 ```
 
 ```{r table_220}
+library(kableExtra)
 sds %>%
   filter(term_date > 2017, number %in% c(201, 220)) %>%
   gather(key = major_type, value = subject, Major1, Major2) %>%
   mutate(subject = gsub("X", "", subject)) %>%
   filter(subject != "", !grepl("\\[", subject), grepl("^[A-Z]+$", subject)) %>%
   group_by(subject) %>%
-  summarize(num_students = n_distinct(ID)) %>%
-  mutate(pct = num_students / sum(num_students)) %>%
+  summarize(
+    num_terms = n_distinct(term_date), 
+    num_students = n_distinct(ID)
+  ) %>%
+  mutate(
+    avg_per_year = round(2 * num_students / max(num_terms), 1),
+    pct = num_students / sum(num_students), 
+  ) %>%
   arrange(desc(num_students)) %>%
   head(20) %>%
-  knitr::kable(caption = "Composition of 220/201 by major since 2017")
+  knitr::kable(caption = "Composition of 220/201 by major since 2017") %>%
+  kable_styling("striped", full_width = F) %>%
+  row_spec(c(7, 9), bold = T, color = "white", background = "#D7261E")
 ```
 
 ## By graduation year
