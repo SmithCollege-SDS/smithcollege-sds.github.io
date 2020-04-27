@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -222,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,6 +250,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -441,7 +447,7 @@ div.tocify {
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">Get your fix: Algorithmic bias in shopping for clothes</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-01-21</h4>
+<h4 class="date">Last updated on 2020-04-27</h4>
 
 </div>
 
@@ -484,7 +490,7 @@ div.tocify {
 <p>Students should have a basic understanding of statistical modeling: <span class="math inline">\(y = f(\vec{x}) + \epsilon\)</span> and <span class="math inline">\(\widehat{y} = \widehat{f}(\vec{x})\)</span> where we have:</p>
 <ol style="list-style-type: decimal">
 <li>Outcome variables, both observed <span class="math inline">\(y\)</span> and fitted/predicted <span class="math inline">\(\widehat{y}\)</span></li>
-<li>A “true” unknown model <span class="math inline">\(f()\)</span> (i.e. “signal”) and a fitted/approximated model <span class="math inline">\(\widehat{f}()\)</span></li>
+<li>A “true” unknown model <span class="math inline">\(f()\)</span> (i.e. “signal”) and a fitted/approximated model <span class="math inline">\(\widehat{f}()\)</span></li>
 <li>Explanatory/predictor variables <span class="math inline">\(\vec{x}\)</span></li>
 <li>An error term <span class="math inline">\(\epsilon\)</span> (i.e. noise)</li>
 </ol>
@@ -542,7 +548,7 @@ div.tocify {
 <h1>References</h1>
 <div id="refs" class="references">
 <div id="ref-breiman2001statistical">
-<p>Breiman, Leo, and others. 2001. “Statistical Modeling: The Two Cultures (with Comments and a Rejoinder by the Author).” <em>Statistical Science</em> 16 (3). Institute of Mathematical Statistics: 199–231. <a href="https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726">https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726</a>.</p>
+<p>Breiman, Leo, and others. 2001. “Statistical Modeling: The Two Cultures (with Comments and a Rejoinder by the Author).” <em>Statistical Science</em> 16 (3): 199–231. <a href="https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726">https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726</a>.</p>
 </div>
 </div>
 </div>

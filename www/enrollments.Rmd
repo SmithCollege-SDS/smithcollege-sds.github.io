@@ -9,7 +9,7 @@ knitr::opts_chunk$set(fig.width = 10, echo = FALSE)
 library(tidyverse)
 library(lubridate)
 library(sds)
-library(enrollments)
+library(bannerdata)
 set.seed(21)
 ```
 
@@ -223,3 +223,5 @@ sds %>%
   mutate(pct220 = num220 / N, pctIntro = numIntro / N) %>%
   knitr::kable(caption = "Allocation of seats in SDS courses")
 ```
+
+

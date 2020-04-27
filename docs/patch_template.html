@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -222,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,6 +250,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -441,7 +447,7 @@ div.tocify {
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">a clever, topical title</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-01-21</h4>
+<h4 class="date">Last updated on 2020-04-27</h4>
 
 </div>
 
@@ -537,7 +543,7 @@ div.tocify {
 <p>Hackett, Robert. 2016. “Researchers Caused an Uproar by Publishing Data from 70,000 Okcupid Users.” Fortune. <a href="https://fortune.com/2016/05/18/okcupid-data-research/">https://fortune.com/2016/05/18/okcupid-data-research/</a>.</p>
 </div>
 <div id="ref-kim2015okcupid">
-<p>Kim, Albert Y, and Adriana Escobedo-Land. 2015. “OKCupid Data for Introductory Statistics and Data Science Courses.” <em>Journal of Statistics Education</em> 23 (2). Taylor &amp; Francis. <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.</p>
+<p>Kim, Albert Y, and Adriana Escobedo-Land. 2015. “OKCupid Data for Introductory Statistics and Data Science Courses.” <em>Journal of Statistics Education</em> 23 (2). <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.</p>
 </div>
 <div id="ref-kirkegaard2016okcupid">
 <p>Kirkegaard, Emil OW, and Julius D Bjerrekær. 2016. “The OKCupid Dataset: A Very Large Public Dataset of Dating Site Users.” <em>Open Differential Psychology</em> 46.</p>

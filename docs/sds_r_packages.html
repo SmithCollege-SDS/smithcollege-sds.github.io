@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -48,7 +47,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -313,6 +312,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -341,6 +341,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -529,66 +535,66 @@ div.tocify {
 </div>
 
 
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(knitr)</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">opts_chunk<span class="op">$</span><span class="kw">set</span>(<span class="dt">eval =</span> <span class="ot">FALSE</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(knitr)</a>
+<a class="sourceLine" id="cb1-2" title="2">opts_chunk<span class="op">$</span><span class="kw">set</span>(<span class="dt">eval =</span> <span class="ot">FALSE</span>)</a></code></pre></div>
 <div id="check-existing-library-paths" class="section level2">
 <h2>Check existing library paths</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">libs &lt;-<span class="st"> </span><span class="kw">.libPaths</span>()</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">libs</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">libs &lt;-<span class="st"> </span><span class="kw">.libPaths</span>()</a>
+<a class="sourceLine" id="cb2-2" title="2">libs</a></code></pre></div>
 <blockquote>
 <p>Note: <code>admin</code> installs into <code>/usr/local/lib/R/site-library</code></p>
 </blockquote>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">sys.lib &lt;-<span class="st"> &quot;/usr/local/lib/R/site-library&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">sys.lib &lt;-<span class="st"> &quot;/usr/local/lib/R/site-library&quot;</span></a></code></pre></div>
 </div>
 <div id="currently-installed-packages" class="section level2">
 <h2>Currently installed packages</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">pkgs &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span class="kw">installed.packages</span>(sys.lib))</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2">pkgs.here &lt;-<span class="st"> </span><span class="kw">as.character</span>(pkgs<span class="op">$</span>Package)</a>
-<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co"># these are the packages that are installed in the system library</span></a>
-<a class="sourceLine" id="cb4-4" data-line-number="4">pkgs.here</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">pkgs &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span class="kw">installed.packages</span>(sys.lib))</a>
+<a class="sourceLine" id="cb4-2" title="2">pkgs.here &lt;-<span class="st"> </span><span class="kw">as.character</span>(pkgs<span class="op">$</span>Package)</a>
+<a class="sourceLine" id="cb4-3" title="3"><span class="co"># these are the packages that are installed in the system library</span></a>
+<a class="sourceLine" id="cb4-4" title="4">pkgs.here</a></code></pre></div>
 </div>
 <div id="update-currently-installed-packages" class="section level2">
 <h2>Update currently installed packages</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="co"># run this first -- should always be safe</span></a>
-<a class="sourceLine" id="cb5-2" data-line-number="2"><span class="kw">update.packages</span>(<span class="dt">lib.loc =</span> sys.lib)</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="co"># run this first -- should always be safe</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="kw">update.packages</span>(<span class="dt">lib.loc =</span> sys.lib)</a></code></pre></div>
 </div>
 <div id="sds-packages-requested" class="section level2">
 <h2>SDS packages requested</h2>
 <p>These packages should be installed in the system library for all users. Please update these <strong>every semester</strong></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">pkgs.desired &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;mosaic&quot;</span>, <span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;rmarkdown&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;markdown&quot;</span>, <span class="st">&quot;formatR&quot;</span></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">                  , <span class="st">&quot;rstudio&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;tidyr&quot;</span>, <span class="st">&quot;stringr&quot;</span>, <span class="st">&quot;agricolae&quot;</span>, <span class="st">&quot;leaps&quot;</span></a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">                  , <span class="st">&quot;Lahman&quot;</span>, <span class="st">&quot;twitteR&quot;</span>, <span class="st">&quot;latticeExtra&quot;</span>, <span class="st">&quot;RSQLite&quot;</span></a>
-<a class="sourceLine" id="cb6-4" data-line-number="4">                  , <span class="st">&quot;igraph&quot;</span>, <span class="st">&quot;Stat2Data&quot;</span>, <span class="st">&quot;lme4&quot;</span>, <span class="st">&quot;sp&quot;</span>, <span class="st">&quot;maptools&quot;</span>, <span class="st">&quot;rpart&quot;</span></a>
-<a class="sourceLine" id="cb6-5" data-line-number="5">                  , <span class="st">&quot;manipulate&quot;</span>, <span class="st">&quot;BiocInstaller&quot;</span>, <span class="st">&quot;mosaicData&quot;</span>, <span class="st">&quot;RcolorBrewer&quot;</span></a>
-<a class="sourceLine" id="cb6-6" data-line-number="6">                  , <span class="st">&quot;nycflights13&quot;</span>, <span class="st">&quot;devtools&quot;</span>, <span class="st">&quot;googlesheets&quot;</span>, <span class="st">&quot;readr&quot;</span></a>
-<a class="sourceLine" id="cb6-7" data-line-number="7">                  , <span class="st">&quot;mdsr&quot;</span>, <span class="st">&quot;etl&quot;</span>, <span class="st">&quot;macleish&quot;</span>, <span class="st">&quot;lubridate&quot;</span>, <span class="st">&quot;openintro&quot;</span></a>
-<a class="sourceLine" id="cb6-8" data-line-number="8">                  , <span class="st">&quot;tm&quot;</span>, <span class="st">&quot;jsonlite&quot;</span>, <span class="st">&quot;ggmap&quot;</span>, <span class="st">&quot;ggvis&quot;</span>, <span class="st">&quot;Rcpp&quot;</span>, <span class="st">&quot;plotly&quot;</span></a>
-<a class="sourceLine" id="cb6-9" data-line-number="9">                  , <span class="st">&quot;tigris&quot;</span>, <span class="st">&quot;rvest&quot;</span>, <span class="st">&quot;MASS&quot;</span>, <span class="st">&quot;XML&quot;</span>, <span class="st">&quot;leaflet&quot;</span></a>
-<a class="sourceLine" id="cb6-10" data-line-number="10">                  , <span class="st">&quot;readxl&quot;</span>, <span class="st">&quot;rmarkdown&quot;</span>, <span class="st">&quot;DBI&quot;</span>, <span class="st">&quot;ISLR&quot;</span>, <span class="st">&quot;broom&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">pkgs.desired &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;mosaic&quot;</span>, <span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;rmarkdown&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;markdown&quot;</span>, <span class="st">&quot;formatR&quot;</span></a>
+<a class="sourceLine" id="cb6-2" title="2">                  , <span class="st">&quot;rstudio&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;tidyr&quot;</span>, <span class="st">&quot;stringr&quot;</span>, <span class="st">&quot;agricolae&quot;</span>, <span class="st">&quot;leaps&quot;</span></a>
+<a class="sourceLine" id="cb6-3" title="3">                  , <span class="st">&quot;Lahman&quot;</span>, <span class="st">&quot;twitteR&quot;</span>, <span class="st">&quot;latticeExtra&quot;</span>, <span class="st">&quot;RSQLite&quot;</span></a>
+<a class="sourceLine" id="cb6-4" title="4">                  , <span class="st">&quot;igraph&quot;</span>, <span class="st">&quot;Stat2Data&quot;</span>, <span class="st">&quot;lme4&quot;</span>, <span class="st">&quot;sp&quot;</span>, <span class="st">&quot;maptools&quot;</span>, <span class="st">&quot;rpart&quot;</span></a>
+<a class="sourceLine" id="cb6-5" title="5">                  , <span class="st">&quot;manipulate&quot;</span>, <span class="st">&quot;BiocInstaller&quot;</span>, <span class="st">&quot;mosaicData&quot;</span>, <span class="st">&quot;RcolorBrewer&quot;</span></a>
+<a class="sourceLine" id="cb6-6" title="6">                  , <span class="st">&quot;nycflights13&quot;</span>, <span class="st">&quot;devtools&quot;</span>, <span class="st">&quot;googlesheets&quot;</span>, <span class="st">&quot;readr&quot;</span></a>
+<a class="sourceLine" id="cb6-7" title="7">                  , <span class="st">&quot;mdsr&quot;</span>, <span class="st">&quot;etl&quot;</span>, <span class="st">&quot;macleish&quot;</span>, <span class="st">&quot;lubridate&quot;</span>, <span class="st">&quot;openintro&quot;</span></a>
+<a class="sourceLine" id="cb6-8" title="8">                  , <span class="st">&quot;tm&quot;</span>, <span class="st">&quot;jsonlite&quot;</span>, <span class="st">&quot;ggmap&quot;</span>, <span class="st">&quot;ggvis&quot;</span>, <span class="st">&quot;Rcpp&quot;</span>, <span class="st">&quot;plotly&quot;</span></a>
+<a class="sourceLine" id="cb6-9" title="9">                  , <span class="st">&quot;tigris&quot;</span>, <span class="st">&quot;rvest&quot;</span>, <span class="st">&quot;MASS&quot;</span>, <span class="st">&quot;XML&quot;</span>, <span class="st">&quot;leaflet&quot;</span></a>
+<a class="sourceLine" id="cb6-10" title="10">                  , <span class="st">&quot;readxl&quot;</span>, <span class="st">&quot;rmarkdown&quot;</span>, <span class="st">&quot;DBI&quot;</span>, <span class="st">&quot;ISLR&quot;</span>, <span class="st">&quot;broom&quot;</span>)</a></code></pre></div>
 </div>
 <div id="install-missing-requested-packages" class="section level2">
 <h2>Install missing requested packages</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># run this -- should always be safe but may take a while</span></a>
-<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="kw">install.packages</span>(<span class="kw">setdiff</span>(pkgs.desired, pkgs.here), <span class="dt">lib =</span> sys.lib)</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1"><span class="co"># run this -- should always be safe but may take a while</span></a>
+<a class="sourceLine" id="cb7-2" title="2"><span class="kw">install.packages</span>(<span class="kw">setdiff</span>(pkgs.desired, pkgs.here), <span class="dt">lib =</span> sys.lib)</a></code></pre></div>
 </div>
 <div id="non-standard-installs" class="section level2">
 <h2>Non-standard installs</h2>
 <p>These packages may have external dependencies that require some finagling.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">pkgs.tricky &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;RMySQL&quot;</span>, <span class="st">&quot;RPostgreSQL&quot;</span>, <span class="st">&quot;rgdal&quot;</span>, <span class="st">&quot;rgeos&quot;</span>)</a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="kw">install.packages</span>(<span class="kw">setdiff</span>(pkgs.tricky, pkgs.here), <span class="dt">lib =</span> sys.lib)</a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1">pkgs.tricky &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;RMySQL&quot;</span>, <span class="st">&quot;RPostgreSQL&quot;</span>, <span class="st">&quot;rgdal&quot;</span>, <span class="st">&quot;rgeos&quot;</span>)</a>
+<a class="sourceLine" id="cb8-2" title="2"><span class="kw">install.packages</span>(<span class="kw">setdiff</span>(pkgs.tricky, pkgs.here), <span class="dt">lib =</span> sys.lib)</a></code></pre></div>
 <p>These packages are not on CRAN and must be installed from GtiHub.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">pkgs.github &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;andrewpbray/oilabs&quot;</span>, <span class="st">&quot;rstudio/sparklyr&quot;</span>, <span class="st">&quot;omegahat/Sxslt&quot;</span>)</a>
-<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="kw">lapply</span>(pkgs.github, <span class="dt">FUN =</span> <span class="st">&quot;devtools::install_github&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1">pkgs.github &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;andrewpbray/oilabs&quot;</span>, <span class="st">&quot;rstudio/sparklyr&quot;</span>, <span class="st">&quot;omegahat/Sxslt&quot;</span>)</a>
+<a class="sourceLine" id="cb9-2" title="2"><span class="kw">lapply</span>(pkgs.github, <span class="dt">FUN =</span> <span class="st">&quot;devtools::install_github&quot;</span>)</a></code></pre></div>
 </div>
 <div id="find-multiply-installed-packages" class="section level2">
 <h2>Find multiply installed packages</h2>
 <p>Note that packages can be installed in multiple libraries!</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw">library</span>(dplyr)</a>
-<a class="sourceLine" id="cb10-2" data-line-number="2"><span class="kw">as.data.frame</span>(<span class="kw">installed.packages</span>()) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-3" data-line-number="3"><span class="st">  </span><span class="kw">group_by</span>(Package) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="st">  </span><span class="kw">summarise</span>(<span class="dt">N =</span> <span class="kw">n</span>(), <span class="dt">where =</span> <span class="kw">paste</span>(LibPath, <span class="dt">collapse =</span> <span class="st">&quot;, &quot;</span>)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="st">  </span><span class="kw">filter</span>(N <span class="op">&gt;</span><span class="st"> </span><span class="dv">1</span>) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-6" data-line-number="6"><span class="st">  </span><span class="kw">print.data.frame</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1"><span class="kw">library</span>(dplyr)</a>
+<a class="sourceLine" id="cb10-2" title="2"><span class="kw">as.data.frame</span>(<span class="kw">installed.packages</span>()) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-3" title="3"><span class="st">  </span><span class="kw">group_by</span>(Package) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-4" title="4"><span class="st">  </span><span class="kw">summarise</span>(<span class="dt">N =</span> <span class="kw">n</span>(), <span class="dt">where =</span> <span class="kw">paste</span>(LibPath, <span class="dt">collapse =</span> <span class="st">&quot;, &quot;</span>)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-5" title="5"><span class="st">  </span><span class="kw">filter</span>(N <span class="op">&gt;</span><span class="st"> </span><span class="dv">1</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-6" title="6"><span class="st">  </span><span class="kw">print.data.frame</span>()</a></code></pre></div>
 </div>
 
     <div id="footer">
