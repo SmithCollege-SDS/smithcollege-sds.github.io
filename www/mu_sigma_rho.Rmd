@@ -43,17 +43,29 @@ nominees <- potential_nominees %>%
 write_csv(nominees, "mu_sigma_rho_2020.csv")
 ```
 
-
-
-
-```{r mu-sigma-rho, fig.cap="Growth of Mu Sigma Rho inductees.", echo=FALSE}
+```{r, eval=FALSE, include=FALSE}
 archive %>%
-  group_by(induction, class) %>%
+  filter(class %in% c("20", "20J")) %>%
+  select(Id, induction, class, Last, First) %>%
+  arrange(induction, class, Last, First) %>%
+  print(n = Inf)
+```
+
+
+
+```{r mu-sigma-rho, fig.cap="Growth of Mu Sigma Rho inductees.", echo=FALSE, warning=FALSE}
+archive %>%
+  mutate(
+    class_year = ifelse(is.na(class), 0, induction - (2000 + parse_number(class))),
+    class_year = factor(class_year, labels = c("junior", "senior"))
+  ) %>%
+  group_by(induction, class_year) %>%
   summarize(N = n()) %>%
-  ggplot(aes(x = induction, y = N, fill = class)) +
+  ggplot(aes(x = induction, y = N, fill = fct_relevel(class_year, rev))) +
   geom_col() +
   scale_y_continuous("Number of Inductees") + 
   scale_x_continuous("Year of Induction") + 
+  sds::scale_fill_smith_d("Class") + 
   labs(title = "Growth of Smith College Mu Sigma Rho inductees")
 ```
 
