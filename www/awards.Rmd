@@ -10,6 +10,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ### Awardees
 
+- 2020: Jessica Keast '20
 - 2019: Julianna Alvord '19
 - 2018: Wencong (Priscilla) Li '18
 - 2017: Weijia (Vega) Zhang '17
@@ -25,7 +26,7 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 
 ### Awardees
 
-- 2020: Laneé Jung ’20 and Fatima Keita ’20 <cite>(outstanding service to statistics)</cite>
+- 2020: Laneé Jung '20 and Fatima Keita '20 <cite>(outstanding service to statistics)</cite>
 - 2019: Yue Kuang '19, Zixian Li '19, and Jingyi Liu '19 <cite>(outstanding senior capstone project)</cite>
 - 2018: Paige Patrick 'AC and Rutendo Madziwo '19 <cite>(outstanding service to statistics)</cite>
 - 2017: Abby Doctor '17 <cite>(outstanding senior capstone project)</cite>
@@ -35,12 +36,29 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 	
 # Departmental Honors
 
+- 2020
+    - Jessica Keast '20, Highest Honors  
+      Twang Identification in American Folk and Country Music  
+      Adviser: Katherine Kinnaird
+    - Aoi Ogawa '20, High Honors  
+      Estimating Microbial Diversity of Toxin Producing Bacteria from
+Soil Using Cellular Automata  
+      Adviser: Katherine Halvorsen, Chris Golé, Jan Vriezen
+    - Ziwei (Crystal) Zang '20  
+    Metabolites Prediction in Multiple Studies Using Machine Learning   
+      Adviser: Katherine Halvorsen
 - 2019
-    - Julianna Alvord '19, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/2108">Modeling Racially Disproportionate Language on Twitter during NFL Gameplay</a>
+    - Julianna Alvord '19, Highest Honors  
+    [Modeling Racially Disproportionate Language on Twitter during NFL Gameplay](https://scholarworks.smith.edu/theses/2108)  
+    Adviser: Randi Garcia and Ben Baumer
 - 2018
-    - Wencong (Priscilla) Li '18, Highest Honors</br><a href="https://scholarworks.smith.edu/theses/2032/">Tools for understanding taxicab and e-hail service use in New York City</a>
+    - Wencong (Priscilla) Li '18, Highest Honors  
+    [Tools for understanding taxicab and e-hail service use in New York City](https://scholarworks.smith.edu/theses/2032)  
+    Adviser: Ben Baumer
 - 2017
-    - Weijia (Vega) Zhang '17, High Honors</br><a href="https://scholarworks.smith.edu/theses/1871/">Improving access to open-source data about the NYC bike sharing system (Citi Bike)</a>
+    - Weijia (Vega) Zhang '17, High Honors  
+    [Improving access to open-source data about the NYC bike sharing system (Citi Bike)](https://scholarworks.smith.edu/theses/1871)  
+    Adviser: Ben Baumer
 
 	
 # Competitions
