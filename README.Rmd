@@ -8,7 +8,7 @@ SDS content for the web not managed by college relations, available at https://s
 In order to edit this website:
 
 1. The layout/style is based on `www/_site.yml`
-1. The contents is based on all `.Rmd` files in the `www/` folder
+1. The contents are based on all `.Rmd` files in the `www/` folder
 
 In order to build this website:
 
