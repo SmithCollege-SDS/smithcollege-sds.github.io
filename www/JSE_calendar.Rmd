@@ -1,0 +1,32 @@
+---
+title: 'Data collection & analysis using Google Calendar'
+date: "Last updated on `r Sys.Date()`"
+---
+
+Resources for [Albert Y. Kim](http://rudeboybert.rbind.io/){target="_blank"} & [Johanna Hardin's](https://research.pomona.edu/johardin/){target="_blank"} data collection and analysis activity using Google Calendar. 
+
+![](JSE_calendar/whole-game.002.png)
+
+# Learning Goals
+
+The learning goals of this assignement are:
+
+1. LG1
+1. LG2
+
+# Assignment in a box
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Example uses
+
+Katharine Correia at Amherst College extended our original idea and used it for her students to create **data diaries** during the COVID-19 quarantine period of Spring 2020.  Some examples of her students' amazing work can be found [here](https://stat231-01-s20.github.io/data-science-diaries/){target="_blank"}.
+
+
+
+
+
+
+***
