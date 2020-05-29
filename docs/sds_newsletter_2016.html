@@ -342,19 +342,22 @@ div.tocify {
     Home
   </a>
 </li>
-<li>
-  <a href="awards.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-award"></span>
      
     Awards
-  </a>
-</li>
-<li>
-  <a href="mu_sigma_rho.html">
-    <span class="fa fa-calculator"></span>
      
-    Mu Sigma Rho
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="awards.html">Honors &amp; Prizes</a>
+    </li>
+    <li>
+      <a href="mu_sigma_rho.html">Mu Sigma Rho</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="events.html">
@@ -372,53 +375,85 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-newspaper"></span>
+    <span class="fa fa-pencil-alt"></span>
      
-    Newsletters
+    Writing
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="sds_newsletter_2019.html">2019</a>
+      <a href="https://scholarworks.smith.edu/sds/">
+        <span class="fa fa-scroll"></span>
+         
+        Publications
+      </a>
     </li>
-    <li>
-      <a href="sds_newsletter_2018.html">2018</a>
-    </li>
-    <li>
-      <a href="sds_newsletter_2017.html">2017</a>
-    </li>
-    <li>
-      <a href="sds_newsletter_2016.html">2016</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-newspaper"></span>
+         
+        Newsletters
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="sds_newsletter_2019.html">2019</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2018.html">2018</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2017.html">2017</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2016.html">2016</a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-book"></span>
+    <span class="fa fa-chalkboard-teacher"></span>
      
-    Ethics
+    Teaching
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="patch_music.html">Copywriting music</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-book"></span>
+         
+        Ethics
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="patch_music.html">Copywriting music</a>
+        </li>
+        <li>
+          <a href="patch_okcupid.html">OkCupid</a>
+        </li>
+        <li>
+          <a href="patch_race_coding.html">Coding race</a>
+        </li>
+        <li>
+          <a href="patch_social_networks.html">Social networks</a>
+        </li>
+        <li>
+          <a href="patch_stitchfix.html">StitchFix</a>
+        </li>
+        <li>
+          <a href="patch_wmd.html">Codes of ethics</a>
+        </li>
+      </ul>
     </li>
     <li>
-      <a href="patch_okcupid.html">OkCupid</a>
-    </li>
-    <li>
-      <a href="patch_race_coding.html">Coding race</a>
-    </li>
-    <li>
-      <a href="patch_social_networks.html">Social networks</a>
-    </li>
-    <li>
-      <a href="patch_stitchfix.html">StitchFix</a>
-    </li>
-    <li>
-      <a href="patch_wmd.html">Codes of ethics</a>
+      <a href="JSE_calendar.html">
+        <span class="fa fa-calendar-alt"></span>
+         
+        Calendar
+      </a>
     </li>
   </ul>
 </li>
@@ -451,7 +486,7 @@ div.tocify {
 <p>It has been an incredibly big year for our fledgling program in <strong>Statistical &amp; Data Sciences</strong>! Our program can now claim to have Smith’s <a href="http://smith.edu/statistics/major.php">newest major</a>. In keeping with Smith’s tradition for blazing trails, we are the first women’s college—and only the second liberal arts college—in the country to have a major that includes “data science” in its title. The major in SDS consists of 10 courses, including depth in both statistics and computer science, an integrating course in data science, a course that emphasizes communication, and an application domain of expertise. We have developed a number of new courses to support this curriculum. We hope to be able to continue to add new faculty members to the program to staff these expanded offerings. The immediate success of our recent alumnae (more on that later) has played no small role in building the momentum our program is seeing on campus!</p>
 <p>Some more updates:</p>
 <ul>
-<li><p>Five new courses were developed and taught in 2015-16.</p>
+<li>Five new courses were developed and taught in 2015-16.
 <ul>
 <li>SDS 235: Visual Analytics (Fall 2015)</li>
 <li>SDS 390: Advanced Topics in SDS (Fall 2015)</li>
@@ -460,7 +495,7 @@ div.tocify {
 <li>SDS 293: Machine Learning (Spring 2016)</li>
 </ul></li>
 <li><p><strong>Yiwen Zhu ’16</strong> completed a self-designed major in “Statistical &amp; Data Sciences” before the official major was approved, so she is our first unofficial graduate. Yiwen also majored in PSY and will attend an M.A. program in biostatistics at the Harvard School of Public Health.</p></li>
-<li><p>In 2015, MassMutual Financial Group awarded Smith College an $800,000 grant for the <strong>Women in Data Science Program</strong>. Funds were used to hire two visiting assistant professors to deepen the curriculum in data science. The visiting professors include:</p>
+<li>In 2015, MassMutual Financial Group awarded Smith College an $800,000 grant for the <strong>Women in Data Science Program</strong>. Funds were used to hire two visiting assistant professors to deepen the curriculum in data science. The visiting professors include:
 <ul>
 <li><p><strong>R. Jordan Crouser ’08</strong>, Visiting Assistant Professor, MassMutual Faculty Fellow<br />
 Jordan’s research program investigates the complementary nature of human and machine computation as used in visual analytics and other human-machine collaborative systems. Jordan earned his M.S. in educational technology and Ph.D. in computer science from the VALT: Visual Analytics Laboratory at Tufts University in 2013, and is a 2008 graduate of Smith College.</p></li>
