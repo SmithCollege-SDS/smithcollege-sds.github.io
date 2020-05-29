@@ -9,7 +9,9 @@ knitr::opts_chunk$set(fig.width = 10, echo = FALSE)
 library(tidyverse)
 library(lubridate)
 library(sds)
-library(bannerdata)
+if (!require(bannerdata)) {
+  knitr::opts_chunk$set(error = TRUE)
+}
 set.seed(21)
 ```
 
