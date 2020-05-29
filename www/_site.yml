@@ -2,6 +2,7 @@ name: "www"
 output_dir: "../docs"
 include: "gfx"
 exclude: ["makefile", "data"]
+# All icons on the menubar are from https://fontawesome.com/icons?d=gallery
 navbar:
   title: "SDS"
   left:
