@@ -48,7 +48,7 @@ navbar:
           href: patch_wmd.html
     - text: "Calendar"
       icon: fa-calendar-alt
-      href: calendar.html           
+      href: JSE_calendar.html           
   right:
     - icon: fa-github fa-lg
       href: https://github.com/SmithCollege-SDS
