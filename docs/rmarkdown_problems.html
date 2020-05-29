@@ -431,19 +431,22 @@ div.tocify {
     Home
   </a>
 </li>
-<li>
-  <a href="awards.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-award"></span>
      
     Awards
-  </a>
-</li>
-<li>
-  <a href="mu_sigma_rho.html">
-    <span class="fa fa-calculator"></span>
      
-    Mu Sigma Rho
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="awards.html">Honors &amp; Prizes</a>
+    </li>
+    <li>
+      <a href="mu_sigma_rho.html">Mu Sigma Rho</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="events.html">
@@ -461,53 +464,85 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-newspaper"></span>
+    <span class="fa fa-pencil-alt"></span>
      
-    Newsletters
+    Writing
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="sds_newsletter_2019.html">2019</a>
+      <a href="https://scholarworks.smith.edu/sds/">
+        <span class="fa fa-scroll"></span>
+         
+        Publications
+      </a>
     </li>
-    <li>
-      <a href="sds_newsletter_2018.html">2018</a>
-    </li>
-    <li>
-      <a href="sds_newsletter_2017.html">2017</a>
-    </li>
-    <li>
-      <a href="sds_newsletter_2016.html">2016</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-newspaper"></span>
+         
+        Newsletters
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="sds_newsletter_2019.html">2019</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2018.html">2018</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2017.html">2017</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2016.html">2016</a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-book"></span>
+    <span class="fa fa-chalkboard-teacher"></span>
      
-    Ethics
+    Teaching
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="patch_music.html">Copywriting music</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-book"></span>
+         
+        Ethics
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="patch_music.html">Copywriting music</a>
+        </li>
+        <li>
+          <a href="patch_okcupid.html">OkCupid</a>
+        </li>
+        <li>
+          <a href="patch_race_coding.html">Coding race</a>
+        </li>
+        <li>
+          <a href="patch_social_networks.html">Social networks</a>
+        </li>
+        <li>
+          <a href="patch_stitchfix.html">StitchFix</a>
+        </li>
+        <li>
+          <a href="patch_wmd.html">Codes of ethics</a>
+        </li>
+      </ul>
     </li>
     <li>
-      <a href="patch_okcupid.html">OkCupid</a>
-    </li>
-    <li>
-      <a href="patch_race_coding.html">Coding race</a>
-    </li>
-    <li>
-      <a href="patch_social_networks.html">Social networks</a>
-    </li>
-    <li>
-      <a href="patch_stitchfix.html">StitchFix</a>
-    </li>
-    <li>
-      <a href="patch_wmd.html">Codes of ethics</a>
+      <a href="JSE_calendar.html">
+        <span class="fa fa-calendar-alt"></span>
+         
+        Calendar
+      </a>
     </li>
   </ul>
 </li>
@@ -572,10 +607,10 @@ div.tocify {
 <li>Not including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.</li>
 </ul>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1"><span class="kw">now</span>()</a></code></pre></div>
-<pre><code>## [1] &quot;2020-04-27 14:18:32 EDT&quot;</code></pre>
+<pre><code>## [1] &quot;2020-05-29 10:00:14 EDT&quot;</code></pre>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1"><span class="kw">library</span>(lubridate)</a>
 <a class="sourceLine" id="cb11-2" title="2"><span class="kw">now</span>()</a></code></pre></div>
-<pre><code>## [1] &quot;2020-04-27 14:18:32 EDT&quot;</code></pre>
+<pre><code>## [1] &quot;2020-05-29 10:00:14 EDT&quot;</code></pre>
 <p>For SDS classes, you often need to include</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1"><span class="kw">require</span>(mosaic)</a>
 <a class="sourceLine" id="cb13-2" title="2"><span class="kw">require</span>(oilabs)</a></code></pre></div>

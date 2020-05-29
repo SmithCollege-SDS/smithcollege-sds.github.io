@@ -11,45 +11,55 @@ navbar:
       href: index.html
     - text: "Awards"
       icon: fa-award
-      href: awards.html
-    - text: "Mu Sigma Rho"
-      icon: fa-calculator
-      href: mu_sigma_rho.html
+      menu:
+        - text: Honors & Prizes
+          href: awards.html
+        - text: "Mu Sigma Rho"
+          href: mu_sigma_rho.html
     - text: "Events"
       icon: fa-ticket
       href: events.html
     - text: "Help"
       icon: fa-question-circle
       href: rmarkdown_problems.html
-    - text: "Newsletters"
-      icon: fa-newspaper
+    - text: "Writing"
+      icon: fa-pencil-alt
       menu:
-        - text: "2019"
-          href: sds_newsletter_2019.html
-        - text: "2018"
-          href: sds_newsletter_2018.html
-        - text: "2017"
-          href: sds_newsletter_2017.html
-        - text: "2016"
-          href: sds_newsletter_2016.html
-    - text: "Ethics"
-      icon: fa-book
+        - text: "Publications"
+          icon: fa-scroll
+          href: https://scholarworks.smith.edu/sds/
+        - text: "Newsletters"
+          icon: fa-newspaper
+          menu:
+            - text: "2019"
+              href: sds_newsletter_2019.html
+            - text: "2018"
+              href: sds_newsletter_2018.html
+            - text: "2017"
+              href: sds_newsletter_2017.html
+            - text: "2016"
+              href: sds_newsletter_2016.html
+    - text: Teaching
+      icon: fa-chalkboard-teacher
       menu:
-        - text: "Copywriting music"
-          href: patch_music.html
-        - text: "OkCupid"
-          href: patch_okcupid.html
-        - text: "Coding race"
-          href: patch_race_coding.html
-        - text: "Social networks"
-          href: patch_social_networks.html
-        - text: "StitchFix"
-          href: patch_stitchfix.html
-        - text: "Codes of ethics"
-          href: patch_wmd.html
-    - text: "Calendar"
-      icon: fa-calendar-alt
-      href: JSE_calendar.html           
+        - text: "Ethics"
+          icon: fa-book
+          menu:
+            - text: "Copywriting music"
+              href: patch_music.html
+            - text: "OkCupid"
+              href: patch_okcupid.html
+            - text: "Coding race"
+              href: patch_race_coding.html
+            - text: "Social networks"
+              href: patch_social_networks.html
+            - text: "StitchFix"
+              href: patch_stitchfix.html
+            - text: "Codes of ethics"
+              href: patch_wmd.html
+        - text: "Calendar"
+          icon: fa-calendar-alt
+          href: JSE_calendar.html           
   right:
     - icon: fa-github fa-lg
       href: https://github.com/SmithCollege-SDS
