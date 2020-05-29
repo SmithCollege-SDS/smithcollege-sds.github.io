@@ -17,6 +17,9 @@ The learning goals of this assignement are:
 # Assignment in a box
 
 
+
+Here is a 6m56s screencast demonstrating the entire process:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
