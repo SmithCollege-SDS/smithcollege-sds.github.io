@@ -2,6 +2,7 @@ name: "www"
 output_dir: "../docs"
 include: "gfx"
 exclude: ["makefile", "data"]
+# All icons on the menubar are from https://fontawesome.com/icons?d=gallery
 navbar:
   title: "SDS"
   left:
@@ -46,7 +47,9 @@ navbar:
           href: patch_stitchfix.html
         - text: "Codes of ethics"
           href: patch_wmd.html
-          
+    - text: "Calendar"
+      icon: fa-calendar-alt
+      href: events.html          
   right:
     - icon: fa-github fa-lg
       href: https://github.com/SmithCollege-SDS
