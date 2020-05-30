@@ -1,32 +1,78 @@
 ---
 title: 'Data collection & analysis using Google Calendar'
 date: "Last updated on `r Sys.Date()`"
+output: 
+  html_document: 
+    number_sections: yes
 ---
 
-Resources for [Albert Y. Kim](http://rudeboybert.rbind.io/){target="_blank"} & [Johanna Hardin's](https://research.pomona.edu/johardin/){target="_blank"} data collection and analysis activity using Google Calendar. 
+Resources for instructors for [Albert Y. Kim](http://rudeboybert.rbind.io/){target="_blank"} & [Johanna Hardin's](https://research.pomona.edu/johardin/){target="_blank"} *"Playing the whole game": A data collection and analysis exercise with Google Calendar* paper.
 
-![](JSE_calendar/whole-game.002.png)
+```{r, echo = FALSE, out.width = "80%"}
+knitr::include_graphics("JSE_calendar/whole-game.002.png")
+```
+
 
 # Learning Goals
 
-The learning goals of this assignement are:
+The learning goals of this assignment are:
 
 1. LG1
 1. LG2
-
-# Assignment in a box
-
+1. LG3
 
 
-Here is a 6m56s screencast demonstrating the entire process:
+# Resources
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Examples
+
+1. Previews of the assignment as given to students in
+    + [Albert's](JSE_calendar/albert.html){target="_blank"} course
+    + [Johanna's](JSE_calendar/jo.html){target="_blank"} course
+1. A `.zip` file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a>
+1. Both assignments give students some variation of the starter code below:  
+```{r, eval=FALSE}
+library(tideverse)
+library(lubridate)
+library(ical)
+
+calendar_data <- "calendar_filename.ics" %>% 
+  # Use ical package to import into R
+  ical_parse_df() %>% 
+  # Convert to "tibble" data frame format
+  as_tibble() %>% 
+  # Use lubridate package to wrangle dates and times
+  mutate(
+    start_datetime = with_tz(start, tzone = "America/New_York"),
+    end_datetime = with_tz(end, tzone = "America/New_York"),
+    length = end_datetime - start_datetime,
+    date = floor_date(start_datetime, unit = "day")
+  ) %>%
+  # Do data wrangling to compute number of minutes and hours per day
+  group_by(date, summary) %>%
+  summarize(length = sum(length))
+```
 
 
-# Example uses
+## Screencast demo
+
+Here is a 6m56s YouTube screencast demonstrating how to:
+
+1. Log time data in Google Calendar
+1. Export the calendar data to [`.ics` file format](https://en.wikipedia.org/wiki/ICalendar){target="_blank"}
+1. Import the `.ics` in R using the `ical` package
+
+<center>
+<iframe width="600" height="337.5" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</br>
+
+
+
+
+# Examples from the community
 
 Katharine Correia at Amherst College extended our original idea and used it for her students to create **data diaries** during the COVID-19 quarantine period of Spring 2020.  Some examples of her students' amazing work can be found [here](https://stat231-01-s20.github.io/data-science-diaries/){target="_blank"}.
-
 
 
 
