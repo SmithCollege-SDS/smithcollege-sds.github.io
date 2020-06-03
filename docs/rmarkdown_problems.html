@@ -46,7 +46,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(title);
+  { content: attr(data-line-number);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -568,6 +568,10 @@ div.tocify {
 </div>
 
 
+<pre><code>## Warning: package &#39;mosaic&#39; was built under R version 3.6.2</code></pre>
+<pre><code>## Warning: package &#39;lattice&#39; was built under R version 3.6.2</code></pre>
+<pre><code>## Warning: package &#39;ggstance&#39; was built under R version 3.6.2</code></pre>
+<pre><code>## Warning: package &#39;mosaicData&#39; was built under R version 3.6.2</code></pre>
 <p>There are a few common problems that people have had with their labs. This page will be updated with new problems when they arise, and it’s a good place to look if you’re having trouble.</p>
 <div id="downloading-the-html-so-you-can-upload-it-to-moodle" class="section level2">
 <h2>Downloading the HTML so you can upload it to Moodle</h2>
@@ -581,78 +585,112 @@ div.tocify {
 <ul>
 <li>including output in your code chunks, like</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">mean</span>(<span class="op">~</span>speed, <span class="dt">data =</span> cars) <span class="fl">169.683</span></a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">mean</span>(<span class="op">~</span>speed, <span class="dt">data =</span> cars) <span class="fl">169.683</span></a></code></pre></div>
 <pre><code>## Error: &lt;text&gt;:1:27: unexpected numeric constant
 ## 1: mean(~speed, data = cars) 169.683
 ##                               ^</code></pre>
 <ul>
 <li>including the &gt; or + prompts that come from the console in your code chunks, like</li>
 </ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(<span class="op">~</span>speed, <span class="dt">data =</span> cars)</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(<span class="op">~</span>speed, <span class="dt">data =</span> cars)</a></code></pre></div>
 <pre><code>## Error: &lt;text&gt;:1:1: unexpected &#39;&gt;&#39;
 ## 1: &gt;
 ##     ^</code></pre>
 <p>or</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">cars <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb5-2" title="2"><span class="op">+</span><span class="st"> </span><span class="kw">filter</span>(speed <span class="op">&gt;</span><span class="st"> </span><span class="dv">100</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">cars <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="op">+</span><span class="st"> </span><span class="kw">filter</span>(speed <span class="op">&gt;</span><span class="st"> </span><span class="dv">100</span>)</a></code></pre></div>
 <pre><code>## Error in filter(speed &gt; 100): object &#39;speed&#39; not found</code></pre>
 <ul>
-<li>Asking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like <code>[ reached getOption("max.print") -- omitted 18684 rows ]</code>, but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included</li>
+<li>Asking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like <code>[ reached getOption(&quot;max.print&quot;) -- omitted 18684 rows ]</code>, but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">  cars</a></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">  cars</a></code></pre></div>
 <p>in your document, but also <code>dplyr</code> expressions that aren’t saved into an object can do it, like</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1">  cars <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-2" title="2"><span class="st">   </span><span class="kw">filter</span>(speed <span class="op">&gt;</span><span class="st"> </span><span class="dv">100</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">  cars <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="st">   </span><span class="kw">filter</span>(speed <span class="op">&gt;</span><span class="st"> </span><span class="dv">100</span>)</a></code></pre></div>
 <ul>
 <li>Not including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.</li>
 </ul>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1"><span class="kw">now</span>()</a></code></pre></div>
-<pre><code>## [1] &quot;2020-05-29 10:00:14 EDT&quot;</code></pre>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1"><span class="kw">library</span>(lubridate)</a>
-<a class="sourceLine" id="cb11-2" title="2"><span class="kw">now</span>()</a></code></pre></div>
-<pre><code>## [1] &quot;2020-05-29 10:00:14 EDT&quot;</code></pre>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="kw">now</span>()</a></code></pre></div>
+<pre><code>## Error in now(): could not find function &quot;now&quot;</code></pre>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="kw">library</span>(lubridate)</a></code></pre></div>
+<pre><code>## Warning: package &#39;lubridate&#39; was built under R version 3.6.2</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     date, intersect, setdiff, union</code></pre>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" data-line-number="1"><span class="kw">now</span>()</a></code></pre></div>
+<pre><code>## [1] &quot;2020-06-03 08:07:17 EDT&quot;</code></pre>
 <p>For SDS classes, you often need to include</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1"><span class="kw">require</span>(mosaic)</a>
-<a class="sourceLine" id="cb13-2" title="2"><span class="kw">require</span>(oilabs)</a></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb21-1" data-line-number="1"><span class="kw">require</span>(mosaic)</a>
+<a class="sourceLine" id="cb21-2" data-line-number="2"><span class="kw">require</span>(oilabs)</a></code></pre></div>
 <p>Note that <code>mosaic</code> in turn loads <code>dplyr</code> and <code>ggplot2</code>. If you aren’t using <code>mosaic</code>, another solution may be to load the <code>tidyverse</code> package, which will in turn load <code>dplyr</code>, <code>ggplot2</code>, and several other packages.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" title="1"><span class="kw">require</span>(tidyverse)</a></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb22-1" data-line-number="1"><span class="kw">require</span>(tidyverse)</a></code></pre></div>
 <p>Note also that <code>require()</code> and <code>library()</code> are <a href="http://yihui.name/en/2014/07/library-vs-require/">equivalent for our purposes</a>.</p>
 <ul>
 <li>Packages not installed. If you try to load a package that is not available in your R session, then you will get a warning.</li>
 </ul>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="kw">library</span>(imadethisup)</a></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb23-1" data-line-number="1"><span class="kw">library</span>(imadethisup)</a></code></pre></div>
 <pre><code>## Error in library(imadethisup): there is no package called &#39;imadethisup&#39;</code></pre>
 <p>To install the package, click on the “Install” button under the “Packages” tab, or use the <code>install.packages()</code> function.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="kw">install.packages</span>(<span class="st">&quot;imadethisup&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb25-1" data-line-number="1"><span class="kw">install.packages</span>(<span class="st">&quot;imadethisup&quot;</span>)</a></code></pre></div>
 <ul>
 <li><p>Having spaces or other <a href="https://en.wikipedia.org/wiki/Filename#Reserved_characters_and_words">non-safe characters in filenames</a>. This will often break when you try to compile your Markown document into HTML. <strong>Do not use spaces, slashes, or pound signs in filenames!!</strong></p></li>
 <li><p>Referring to objects that don’t exist. <strong>Recall that your Markdown document knits in a clean R session!!</strong> Objects in your working environment are shown under the “Environment” tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:</p></li>
 </ul>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" title="1">my_object</a></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb26-1" data-line-number="1">my_object</a></code></pre></div>
 <pre><code>## Error in eval(expr, envir, enclos): object &#39;my_object&#39; not found</code></pre>
 <p>it means that R cannot find any object in its environment called <code>my_object</code>. Make sure that <code>my_object</code> is created in the Markdown document prior to where you are trying to access it.<br />
 One common way this can occur is if you failed to load a data frame provided by a package (that doesn’t use lazy loading). For example, the <code>oilabs</code> package does not support lazy loading, so you have to use the <code>data()</code> command to bring the data frames into your environment before using them.</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb20-1" title="1"><span class="kw">library</span>(oilabs)</a></code></pre></div>
-<pre><code>## Error in library(oilabs): there is no package called &#39;oilabs&#39;</code></pre>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb22-1" title="1"><span class="kw">head</span>(ames)</a></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" data-line-number="1"><span class="kw">library</span>(oilabs)</a>
+<a class="sourceLine" id="cb28-2" data-line-number="2"><span class="kw">head</span>(ames)</a></code></pre></div>
 <pre><code>## Error in head(ames): object &#39;ames&#39; not found</code></pre>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb24-1" title="1"><span class="kw">data</span>(ames)</a></code></pre></div>
-<pre><code>## Warning in data(ames): data set &#39;ames&#39; not found</code></pre>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb26-1" title="1"><span class="kw">head</span>(ames)</a></code></pre></div>
-<pre><code>## Error in head(ames): object &#39;ames&#39; not found</code></pre>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb30-1" data-line-number="1"><span class="kw">data</span>(ames)</a>
+<a class="sourceLine" id="cb30-2" data-line-number="2"><span class="kw">head</span>(ames)</a></code></pre></div>
+<pre><code>## # A tibble: 6 x 82
+##   Order    PID  area  price MS.SubClass MS.Zoning Lot.Frontage Lot.Area Street
+##   &lt;int&gt;  &lt;int&gt; &lt;int&gt;  &lt;int&gt;       &lt;int&gt; &lt;fct&gt;            &lt;int&gt;    &lt;int&gt; &lt;fct&gt; 
+## 1     1 5.26e8  1656 215000          20 RL                 141    31770 Pave  
+## 2     2 5.26e8   896 105000          20 RH                  80    11622 Pave  
+## 3     3 5.26e8  1329 172000          20 RL                  81    14267 Pave  
+## 4     4 5.26e8  2110 244000          20 RL                  93    11160 Pave  
+## 5     5 5.27e8  1629 189900          60 RL                  74    13830 Pave  
+## 6     6 5.27e8  1604 195500          60 RL                  78     9978 Pave  
+## # … with 73 more variables: Alley &lt;fct&gt;, Lot.Shape &lt;fct&gt;, Land.Contour &lt;fct&gt;,
+## #   Utilities &lt;fct&gt;, Lot.Config &lt;fct&gt;, Land.Slope &lt;fct&gt;, Neighborhood &lt;fct&gt;,
+## #   Condition.1 &lt;fct&gt;, Condition.2 &lt;fct&gt;, Bldg.Type &lt;fct&gt;, House.Style &lt;fct&gt;,
+## #   Overall.Qual &lt;int&gt;, Overall.Cond &lt;int&gt;, Year.Built &lt;int&gt;,
+## #   Year.Remod.Add &lt;int&gt;, Roof.Style &lt;fct&gt;, Roof.Matl &lt;fct&gt;,
+## #   Exterior.1st &lt;fct&gt;, Exterior.2nd &lt;fct&gt;, Mas.Vnr.Type &lt;fct&gt;,
+## #   Mas.Vnr.Area &lt;int&gt;, Exter.Qual &lt;fct&gt;, Exter.Cond &lt;fct&gt;, Foundation &lt;fct&gt;,
+## #   Bsmt.Qual &lt;fct&gt;, Bsmt.Cond &lt;fct&gt;, Bsmt.Exposure &lt;fct&gt;,
+## #   BsmtFin.Type.1 &lt;fct&gt;, BsmtFin.SF.1 &lt;int&gt;, BsmtFin.Type.2 &lt;fct&gt;,
+## #   BsmtFin.SF.2 &lt;int&gt;, Bsmt.Unf.SF &lt;int&gt;, Total.Bsmt.SF &lt;int&gt;, Heating &lt;fct&gt;,
+## #   Heating.QC &lt;fct&gt;, Central.Air &lt;fct&gt;, Electrical &lt;fct&gt;, X1st.Flr.SF &lt;int&gt;,
+## #   X2nd.Flr.SF &lt;int&gt;, Low.Qual.Fin.SF &lt;int&gt;, Bsmt.Full.Bath &lt;int&gt;,
+## #   Bsmt.Half.Bath &lt;int&gt;, Full.Bath &lt;int&gt;, Half.Bath &lt;int&gt;,
+## #   Bedroom.AbvGr &lt;int&gt;, Kitchen.AbvGr &lt;int&gt;, Kitchen.Qual &lt;fct&gt;,
+## #   TotRms.AbvGrd &lt;int&gt;, Functional &lt;fct&gt;, Fireplaces &lt;int&gt;,
+## #   Fireplace.Qu &lt;fct&gt;, Garage.Type &lt;fct&gt;, Garage.Yr.Blt &lt;int&gt;,
+## #   Garage.Finish &lt;fct&gt;, Garage.Cars &lt;int&gt;, Garage.Area &lt;int&gt;,
+## #   Garage.Qual &lt;fct&gt;, Garage.Cond &lt;fct&gt;, Paved.Drive &lt;fct&gt;,
+## #   Wood.Deck.SF &lt;int&gt;, Open.Porch.SF &lt;int&gt;, Enclosed.Porch &lt;int&gt;,
+## #   X3Ssn.Porch &lt;int&gt;, Screen.Porch &lt;int&gt;, Pool.Area &lt;int&gt;, Pool.QC &lt;fct&gt;,
+## #   Fence &lt;fct&gt;, Misc.Feature &lt;fct&gt;, Misc.Val &lt;int&gt;, Mo.Sold &lt;int&gt;,
+## #   Yr.Sold &lt;int&gt;, Sale.Type &lt;fct&gt;, Sale.Condition &lt;fct&gt;</code></pre>
 <ul>
 <li>Incorrect <a href="https://en.wikipedia.org/wiki/Path_(computing)">file path</a>. Note that absolute filenames like</li>
 </ul>
-<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" title="1"><span class="kw">read.csv</span>(<span class="st">&quot;/home/bbaumer/sds220/data/my_data.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" data-line-number="1"><span class="kw">read.csv</span>(<span class="st">&quot;/home/bbaumer/sds220/data/my_data.csv&quot;</span>)</a></code></pre></div>
 <pre><code>## Warning in file(file, &quot;rt&quot;): cannot open file &#39;/home/bbaumer/sds220/data/
 ## my_data.csv&#39;: No such file or directory</code></pre>
 <pre><code>## Error in file(file, &quot;rt&quot;): cannot open the connection</code></pre>
 <p>will not work on anyone else’s computer. It is usually better to use a relative file path like:</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb31-1" title="1"><span class="kw">read.csv</span>(<span class="st">&quot;~/sds220/data/my_data.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb35-1" data-line-number="1"><span class="kw">read.csv</span>(<span class="st">&quot;~/sds220/data/my_data.csv&quot;</span>)</a></code></pre></div>
 <p>However this will only works if someone else has the same directory structure as you. Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="kw">read.csv</span>(<span class="st">&quot;my_data.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb36-1" data-line-number="1"><span class="kw">read.csv</span>(<span class="st">&quot;my_data.csv&quot;</span>)</a></code></pre></div>
 <p>doesn’t work, you may have to try</p>
-<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb33-1" title="1"><span class="kw">read.csv</span>(<span class="st">&quot;project/my_data.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb37-1" data-line-number="1"><span class="kw">read.csv</span>(<span class="st">&quot;project/my_data.csv&quot;</span>)</a></code></pre></div>
 <p>or something along those lines.</p>
 </div>
 <div id="code-not-being-evaluated" class="section level2">
@@ -673,7 +711,7 @@ One common way this can occur is if you failed to load a data frame provided by 
 
     <div id="footer">
       <div class="container">
-        <p class="muted credit">Created by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
+        <p class="muted credit">Website maintained by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
       </div>
     </div>
 
