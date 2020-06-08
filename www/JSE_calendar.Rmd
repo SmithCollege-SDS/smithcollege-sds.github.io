@@ -27,12 +27,15 @@ The learning goals of this assignment relate to:
   - Deliberation on the trade-offs between research results and privacy.
 
 
+
 # Resources
 
 ## Examples
 
+Both Albert and Johanna's versions of the assignment assumed basic familiarity with R and RStudio as well as the `ggplot2` and `dplyr` packages. 
+
 1. Previews of the assignment as given to students in
-    + [Albert's](JSE_calendar/albert.html){target="_blank"} course
+    + [Albert's](JSE_calendar/albert.html){target="_blank"} course.
     + [Johanna's](JSE_calendar/jo.html){target="_blank"} course
 1. A `.zip` file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a>
 1. Both assignments give students some variation of the starter code below:  
