@@ -15,11 +15,16 @@ knitr::include_graphics("JSE_calendar/whole-game.002.png")
 
 # Learning Goals
 
-The learning goals of this assignment are:
+The learning goals of this assignment relate to:
 
-1. LG1
-1. LG2
-1. LG3
+* Data Collection
+  - Experience with creating measurable data observations (e.g., how is "one day" measured, or what defines "studying")
+  - Iterative nature of between collection & analysis, and within
+  - Technological limitations based on the epistemological questions
+* Data Ethics
+  - Practice with the ethical and legal responsibilities of those collecting, storing, and analyzing data
+  - Decision making around personal privacy
+  - Deliberation on the trade-offs between research results and privacy.
 
 
 # Resources
@@ -72,7 +77,7 @@ Here is a 6m56s YouTube screencast demonstrating how to:
 
 # Examples from the community
 
-Katharine Correia at Amherst College extended our original idea and used it for her students to create **data diaries** during the COVID-19 quarantine period of Spring 2020.  Some examples of her students' amazing work can be found [here](https://stat231-01-s20.github.io/data-science-diaries/){target="_blank"}.
+[Prof. Katharine Correia](https://www.amherst.edu/people/facstaff/kcorreia){target="_blank"} at Amherst College extended our original idea and used it for her students to create **data diaries** during the COVID-19 quarantine period of Spring 2020.  Some examples of her students' amazing work can be found [here](https://stat231-01-s20.github.io/data-science-diaries/){target="_blank"}.
 
 
 
