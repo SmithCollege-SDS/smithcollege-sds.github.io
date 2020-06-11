@@ -26,7 +26,7 @@ The learning goals of this assignment relate to:
     5. Deliberate on the trade-offs between research results and privacy.
 * "Playing the whole game"
     6. Tie together data collection, analysis, ethics, and communication components.
-    7. Iterate between and within the components of the whole game.
+    7. Iterate between and within the components of the "whole game."
 
 
 
