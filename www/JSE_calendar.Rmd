@@ -18,13 +18,16 @@ knitr::include_graphics("JSE_calendar/whole-game.002.png")
 The learning goals of this assignment relate to:
 
 * Data Collection
-  - Experience with creating measurable data observations (e.g., how is "one day" measured, or what defines "studying")
-  - Iterative nature of between collection & analysis, and within
-  - Technological limitations based on the epistemological questions
+    1. Experience creating measurable data observations (e.g., how is "one day" measured, or what defines "studying").
+    2.  Address data collection constraints due to limits in technological capacity and human behavior.
 * Data Ethics
-  - Practice with the ethical and legal responsibilities of those collecting, storing, and analyzing data
-  - Decision making around personal privacy
-  - Deliberation on the trade-offs between research results and privacy.
+    3. Practice the ethical and legal responsibilities of those collecting, storing, and analyzing data.
+    4. Decide limits for personal privacy.
+    5. Deliberate on the trade-offs between research results and privacy.
+* "Playing the whole game"
+    6. Tie together data collection, analysis, ethics, and communication components.
+    7. Iterate between and within the components of the whole game.
+
 
 
 
