@@ -9,9 +9,220 @@ knitr::opts_chunk$set(fig.width = 10, echo = FALSE)
 library(tidyverse)
 library(lubridate)
 library(sds)
-
+if (!require(bannerdata)) {
+  knitr::opts_chunk$set(error = TRUE)
+}
 set.seed(21)
 ```
 
 
 ## Curriculum Plan
+
+
+```{r curriculum_plan}
+plan <- ggplot(data = sds, aes(x = term_date, y = number, color = deptt)) +
+  geom_jitter(aes(shape = is_major), width = 0.15, height = 0.3, alpha = 0.5) +
+  geom_vline(xintercept = 2012.5:2019.5, linetype = 3) + 
+#  ggrepel::geom_text_repel(data = filter(sds, crn_term == 201901), aes(label = instructor)) + 
+  scale_y_discrete("Course number") + 
+  scale_x_continuous("Academic Year", ) + 
+  scale_color_smith_d("Unit") +  
+  labs(title = "Total enrollment in courses now controlled by SDS, 2012-", 
+       subtitle = "By course number", 
+       caption = format(Sys.Date(), "%B %e, %Y"))
+plan
+# ggsave(filename = here::here("gfx", "sds_curriculum_plan_course.png"), width = 8, height = 5)
+```
+
+### Three-Year curriculum plan
+
+```{r curricum_plan_three_year}
+plan +
+  coord_cartesian(xlim = c(year(now()) - 2.5, year(now()) + 0.5)) + 
+  labs(title = "SDS 3-Year Curriculum Plan")
+# ggsave(filename = "sds_curriculum_plan_course.png", width = 8, height = 5)
+```
+
+## Growing enrollments
+
+```{r total-enrollment}
+terms <- sds %>%
+  group_by(term_date, deptt) %>%
+  summarize(N = n(), num_students = n_distinct(ID))
+
+avg <- terms %>%
+  ungroup() %>%
+  filter(term_date < 2016) %>%
+  summarize(avg_n = mean(N))
+
+dual_prefix <- sds %>%
+  filter(number %in% c(107, 220, 246, 290, 291)) %>%
+  group_by(crn_term, deptt) %>%
+  summarize(N = n(), num_students = n_distinct(ID))
+
+enrollment_plot <- ggplot(data = terms, 
+       aes(x = as.factor(term_date), y = N, fill = fct_relevel(deptt, "SDS", after = 3))) + 
+  geom_col(alpha = 0.8) + 
+  geom_hline(data = avg, aes(yintercept = avg_n), linetype = 3) +
+  geom_label(data = . %>% filter(deptt == "SDS"), 
+             aes(label = N), color = "white", size = 4) + 
+  annotate(geom = "text", x = "2013.25", y = avg$avg_n - 7, label = "pre-SDS average", size = 3) +
+  annotate(geom = "text", x = "2015.75", y = 300, label = "Major\napproved", size = 3) + 
+  annotate("curve", x = "2015.75", xend = "2016.25", y = 275, yend = 150, 
+           curvature = -0.5, angle = 120,
+           arrow = arrow(length = unit(0.2, "cm"))) + 
+  scale_y_continuous("Total Enrollment (seats)") + 
+  scale_x_discrete("Term") + 
+  scale_fill_smith_d("Unit") + 
+  labs(title = "Total enrollment in courses now managed by SDS, 2012-2020", 
+       subtitle = "107, 109, 192, 201, 220, 235, 290, 291, 293, 300, 320, 364, 390, 410", 
+       caption = format(Sys.Date(), "%B %e, %Y")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+enrollment_plot
+# ggsave(filename = here::here("gfx", "sds_enrollments_by_unit.png"), width = 12, height = 9)
+```
+
+## Service vs. major
+
+```{r service-major}
+majors <- sds %>%
+  group_by(term_date, is_major) %>%
+  summarize(N = n()) 
+
+ggplot(majors, aes(x = as.factor(term_date), y = N, fill = is_major)) + 
+  geom_bar(stat = "identity") +
+  geom_label(data = . %>% filter(is_major), 
+             aes(label = N), size = 4) + 
+  scale_y_continuous("Total Enrollment (seats)") + 
+  scale_x_discrete("Term") + 
+  scale_fill_smith_d("SDS Major") + 
+  labs(title = "Total enrollment in courses now managed by SDS, 2012-2020", 
+       subtitle = "107, 109, 192, 201, 220, 235, 290, 291, 293, 300, 320, 364, 390, 410", 
+       caption = format(Sys.Date(), "%B %e, %Y")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## Constituents
+
+```{r enrollment_major}
+by_major <- sds %>%
+  gather(key = major_type, value = subject, Major1, Major2) %>%
+  mutate(subject = gsub("X", "", subject)) %>%
+  filter(subject != "", !grepl("\\[", subject), grepl("^[A-Z]+$", subject)) %>%
+  mutate(major = case_when(
+    subject == "SDS" ~ "SDS",
+    subject == "MTH" ~ "MTH",
+    subject == "CSC" ~ "CSC", 
+    subject == "ECO" ~ "ECO",
+#    subject == "NSC" ~ "NSC",
+    subject == "PSY" ~ "PSY",
+    subject == "EGR" ~ "EGR",
+    subject == "BIO" ~ "BIO",
+    TRUE ~ "Other"
+  )) %>%
+  group_by(AY, major) %>%
+  summarize(N = n())
+
+major_plot <- ggplot(by_major, aes(x = as.character(AY), y = N, fill = fct_relevel(major, "Other", after = Inf))) + 
+  geom_bar(stat = "identity") +
+  geom_label(data = . %>% filter(major == "Other"), 
+             aes(label = N)) + 
+  scale_y_continuous("Total Declared/Intended Majors", breaks = 0:25*40) + 
+  scale_x_discrete("Academic Year") + 
+  scale_fill_brewer("Major", palette = "Set2") + 
+  ggtitle("Enrollment by Major", subtitle = "2012-present")
+
+major_plot
+```
+
+### Intro statistics
+
+```{r enrollment_major_220}
+by_major_220 <- sds %>%
+  filter(number == 220) %>%
+  gather(key = major_type, value = subject, Major1, Major2) %>%
+  mutate(subject = gsub("X", "", subject)) %>%
+  filter(subject != "", !grepl("\\[", subject), grepl("^[A-Z]+$", subject)) %>%
+  mutate(major = case_when(
+    subject == "SDS" ~ "SDS",
+    subject == "MTH" ~ "MTH",
+    subject == "CSC" ~ "CSC", 
+    subject == "ECO" ~ "ECO",
+#    subject == "NSC" ~ "NSC",
+    subject == "PSY" ~ "PSY",
+    subject == "EGR" ~ "EGR",
+    subject == "BIO" ~ "BIO",
+    TRUE ~ "Other"
+  )) %>%
+  group_by(AY, major) %>%
+  summarize(N = n())
+
+major_plot %+% by_major_220 + 
+  labs(title = "Enrollment by Major, 220")
+```
+
+```{r table_220, message=FALSE}
+library(kableExtra)
+sds %>%
+  filter(term_date > 2017, number %in% c(201, 220)) %>%
+  gather(key = major_type, value = subject, Major1, Major2) %>%
+  mutate(subject = gsub("X", "", subject)) %>%
+  filter(subject != "", !grepl("\\[", subject), grepl("^[A-Z]+$", subject)) %>%
+  group_by(subject) %>%
+  summarize(
+    num_terms = n_distinct(term_date), 
+    num_students = n_distinct(ID)
+  ) %>%
+  mutate(
+    avg_per_year = round(2 * num_students / max(num_terms), 1),
+    pct = num_students / sum(num_students), 
+  ) %>%
+  arrange(desc(num_students)) %>%
+  head(20) %>%
+  knitr::kable(caption = "Composition of 220/201 by major since 2017") %>%
+  kable_styling("striped", full_width = F) %>%
+  row_spec(c(7, 9), bold = T, color = "white", background = "#D7261E")
+```
+
+## By graduation year
+
+```{r enrollment_major_grad_year}
+by_grad_year <- sds %>%
+#  filter(number == 220) %>%
+  group_by(grad_year, is_major) %>%
+  summarize(N = n(), num_students = n_distinct(ID)) %>%
+  filter(grad_year > 2008)
+
+grad_plot <- ggplot(by_grad_year, 
+                    aes(x = grad_year, y = num_students, fill = is_major)) +   
+  geom_hline(yintercept = 2502/4/2, linetype = 3) + 
+  geom_hline(yintercept = 2502/4/4, linetype = 3) + 
+  annotate("text", x = 2013, y = 2502/4/4 + 10, label = "25%", hjust = "left") + 
+  annotate("text", x = 2013, y = 2502/4/2 + 10, label = "50% of typical graduating class", hjust = "left") + 
+  geom_bar(stat = "identity") +
+  geom_label(data = . %>% filter(is_major), aes(label = num_students)) + 
+  scale_y_continuous("number of distinct students") + 
+  scale_x_continuous("Graduation Year", breaks = c(2012:2022)) + 
+  scale_fill_smith_d("SDS Major") +   
+  labs(title = "Enrollment in SDS Courses by Graduation Year", 
+       subtitle = "2012-present", 
+       caption = format(Sys.Date(), "%B %e, %Y"))
+grad_plot
+```
+
+
+```{r enrollment_grad_year_current}
+grad_plot %+% filter(by_grad_year, grad_year <= 2020)
+```
+
+
+```{r}
+sds %>%
+#  filter(isSDS) %>%
+  summarize(N = n(), numIntro = sum(isIntro), 
+            num220 = sum(number == 220)) %>%
+  mutate(pct220 = num220 / N, pctIntro = numIntro / N) %>%
+  knitr::kable(caption = "Allocation of seats in SDS courses")
+```
+
