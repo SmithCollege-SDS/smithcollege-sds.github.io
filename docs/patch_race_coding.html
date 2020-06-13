@@ -482,7 +482,7 @@ div.tocify {
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">The coding and analysis of racial/ethnic identity data</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-06-11</h4>
+<h4 class="date">Last updated on 2020-06-12</h4>
 
 </div>
 
@@ -543,7 +543,7 @@ div.tocify {
 <h2>Instructions for students</h2>
 <p>Your goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss <span class="citation">Shook and Fazio (2008)</span>. This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally.</p>
 <ul>
-<li>First, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:
+<li><p>First, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:</p>
 <ol>
 <li>What did they find?</li>
 <li>How did they do it?</li>
@@ -593,7 +593,7 @@ div.tocify {
 <h1>References</h1>
 <div id="refs" class="references">
 <div id="ref-shook2008interracial">
-<p>Shook, Natalie J, and Russell H Fazio. 2008. “Interracial Roommate Relationships: An Experimental Field Test of the Contact Hypothesis.” <em>Psychological Science</em> 19 (7). SAGE Publications Sage CA: Los Angeles, CA: 717–23.</p>
+<p>Shook, Natalie J, and Russell H Fazio. 2008. “Interracial Roommate Relationships: An Experimental Field Test of the Contact Hypothesis.” <em>Psychological Science</em> 19 (7): 717–23.</p>
 </div>
 </div>
 </div>
@@ -653,7 +653,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

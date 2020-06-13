@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-05-29" />
+<meta name="date" content="2020-06-12" />
 
 <title>SDS enrollment analysis</title>
 
@@ -475,7 +475,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">SDS enrollment analysis</h1>
-<h4 class="date">2020-05-29</h4>
+<h4 class="date">2020-06-12</h4>
 
 </div>
 
@@ -490,17 +490,22 @@ div.tocify {
 </div>
 <div id="growing-enrollments" class="section level2">
 <h2>Growing enrollments</h2>
+<pre><code>## `summarise()` regrouping output by &#39;term_date&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` regrouping output by &#39;crn_term&#39; (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/total-enrollment-1.png" width="960" /></p>
 </div>
 <div id="service-vs.-major" class="section level2">
 <h2>Service vs. major</h2>
+<pre><code>## `summarise()` regrouping output by &#39;term_date&#39; (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/service-major-1.png" width="960" /></p>
 </div>
 <div id="constituents" class="section level2">
 <h2>Constituents</h2>
+<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major-1.png" width="960" /></p>
 <div id="intro-statistics" class="section level3">
 <h3>Intro statistics</h3>
+<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major_220-1.png" width="960" /></p>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -872,6 +877,7 @@ EVS
 </div>
 <div id="by-graduation-year" class="section level2">
 <h2>By graduation year</h2>
+<pre><code>## `summarise()` regrouping output by &#39;grad_year&#39; (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major_grad_year-1.png" width="960" /></p>
 <p><img src="enrollments_files/figure-html/enrollment_grad_year_current-1.png" width="960" /></p>
 <table>
@@ -921,7 +927,7 @@ pctIntro
 
     <div id="footer">
       <div class="container">
-        <p class="muted credit">Created by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
+        <p class="muted credit">Website maintained by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
       </div>
     </div>
 
@@ -974,7 +980,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
