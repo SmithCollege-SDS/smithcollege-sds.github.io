@@ -482,7 +482,7 @@ div.tocify {
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">a clever, topical title</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-06-11</h4>
+<h4 class="date">Last updated on 2020-06-12</h4>
 
 </div>
 
@@ -589,10 +589,10 @@ div.tocify {
 <h1>References</h1>
 <div id="refs" class="references">
 <div id="ref-casey2008content">
-<p>Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. “Content-Based Music Information Retrieval: Current Directions and Future Challenges.” <em>Proceedings of the IEEE</em> 96 (4). IEEE: 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.</p>
+<p>Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. “Content-Based Music Information Retrieval: Current Directions and Future Challenges.” <em>Proceedings of the IEEE</em> 96 (4): 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.</p>
 </div>
 <div id="ref-chendata">
-<p>Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. “Data Usage in MIR: History &amp; Future Recommendations.” ISMIR 2019. <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.</p>
+<p>Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. “Data Usage in MIR: History &amp; Future Recommendations.” <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.</p>
 </div>
 <div id="ref-downie2014ten">
 <p>Downie, J Stephen, Xiao Hu, Jin Ha Lee, Kahyun Choi, Sally Jo Cunningham, and Yun Hao. 2014. “Ten Years of MIREX: Reflections, Challenges and Opportunities.” In <em>ISMIR 2014</em>, 657–62. ISMIR. <a href="https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities">https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities</a>.</p>
@@ -601,10 +601,10 @@ div.tocify {
 <p>European Parliament. 2018. “Regulation on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/Ec (Data Protection Directive).” European Union. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679</a>.</p>
 </div>
 <div id="ref-mcfee2018open">
-<p>McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. “Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.” <em>IEEE Signal Processing Magazine</em> 36 (1). IEEE: 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.</p>
+<p>McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. “Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.” <em>IEEE Signal Processing Magazine</em> 36 (1): 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.</p>
 </div>
 <div id="ref-musgrave1957competitive">
-<p>Musgrave, George McCoy. 1957. “Competitive Debate: Rules and Techniques.” New York: H.W. Wilson. <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.</p>
+<p>Musgrave, George McCoy. 1957. “Competitive Debate: Rules and Techniques.” <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.</p>
 </div>
 </div>
 </div>
@@ -664,7 +664,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
