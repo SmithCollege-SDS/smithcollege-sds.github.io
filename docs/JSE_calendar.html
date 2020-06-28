@@ -564,7 +564,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Data collection &amp; analysis using Google Calendar</h1>
-<h4 class="date">Last updated on 2020-06-11</h4>
+<h4 class="date">Last updated on 2020-06-28</h4>
 
 </div>
 
@@ -620,12 +620,14 @@ div.tocify {
 <a class="sourceLine" id="cb1-11" data-line-number="11"><span class="st">  </span><span class="kw">mutate</span>(</a>
 <a class="sourceLine" id="cb1-12" data-line-number="12">    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
 <a class="sourceLine" id="cb1-13" data-line-number="13">    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb1-14" data-line-number="14">    <span class="dt">length =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
+<a class="sourceLine" id="cb1-14" data-line-number="14">    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
 <a class="sourceLine" id="cb1-15" data-line-number="15">    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</a>
 <a class="sourceLine" id="cb1-16" data-line-number="16">  ) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-17" data-line-number="17"><span class="st">  </span><span class="co"># Do data wrangling to compute number of minutes and hours per day</span></a>
-<a class="sourceLine" id="cb1-18" data-line-number="18"><span class="st">  </span><span class="kw">group_by</span>(date, summary) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-19" data-line-number="19"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">length =</span> <span class="kw">sum</span>(length))</a></code></pre></div>
+<a class="sourceLine" id="cb1-17" data-line-number="17"><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></a>
+<a class="sourceLine" id="cb1-18" data-line-number="18"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb1-19" data-line-number="19"><span class="st">  </span><span class="co"># Compute total duration of time for each day &amp; activity:</span></a>
+<a class="sourceLine" id="cb1-20" data-line-number="20"><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb1-21" data-line-number="21"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration))</a></code></pre></div>
 </div>
 <div id="screencast-demo" class="section level2">
 <h2><span class="header-section-number">2.2</span> Screencast demo</h2>
@@ -703,7 +705,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

@@ -56,12 +56,14 @@ calendar_data <- "calendar_filename.ics" %>%
   mutate(
     start_datetime = with_tz(start, tzone = "America/New_York"),
     end_datetime = with_tz(end, tzone = "America/New_York"),
-    length = end_datetime - start_datetime,
+    duration = end_datetime - start_datetime,
     date = floor_date(start_datetime, unit = "day")
   ) %>%
-  # Do data wrangling to compute number of minutes and hours per day
-  group_by(date, summary) %>%
-  summarize(length = sum(length))
+  # Convert calendar entry to all lowercase and rename:
+  mutate(activity = tolower(summary)) %>%
+  # Compute total duration of time for each day & activity:
+  group_by(date, activity) %>%
+  summarize(duration = sum(duration))
 ```
 
 
