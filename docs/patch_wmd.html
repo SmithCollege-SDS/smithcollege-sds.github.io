@@ -482,7 +482,7 @@ div.tocify {
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">Let’s essay an essay</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-06-11</h4>
+<h4 class="date">Last updated on 2020-06-12</h4>
 
 </div>
 
@@ -571,7 +571,7 @@ div.tocify {
 <h1>References</h1>
 <div id="refs" class="references">
 <div id="ref-elliott2018teaching">
-<p>Elliott, Alan C, S Lynne Stokes, and Jing Cao. 2018. “Teaching Ethics in a Statistics Curriculum with a Cross-Cultural Emphasis.” <em>The American Statistician</em> 72 (4). Taylor &amp; Francis: 359–67. <a href="https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1307140">https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1307140</a>.</p>
+<p>Elliott, Alan C, S Lynne Stokes, and Jing Cao. 2018. “Teaching Ethics in a Statistics Curriculum with a Cross-Cultural Emphasis.” <em>The American Statistician</em> 72 (4): 359–67. <a href="https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1307140">https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1307140</a>.</p>
 </div>
 <div id="ref-o2017weapons">
 <p>O’Neil, Cathy. 2016. <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>. New York: Crown. <a href="https://weaponsofmathdestructionbook.com/">https://weaponsofmathdestructionbook.com/</a>.</p>
@@ -634,7 +634,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
