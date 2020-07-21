@@ -11,7 +11,7 @@
 
 
 
-<title>Data collection &amp; analysis using Google Calendar</title>
+<title>Self Study</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,97 +27,6 @@
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {  }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -566,91 +475,51 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Data collection &amp; analysis using Google Calendar</h1>
-<h4 class="date">Last updated on 2020-07-21</h4>
+<h1 class="title toc-ignore">Self Study</h1>
 
 </div>
 
 
-<p>Resources for instructors for <a href="http://rudeboybert.rbind.io/" target="_blank">Albert Y. Kim</a> &amp; <a href="https://research.pomona.edu/johardin/" target="_blank">Johanna Hardin’s</a> <em>“Playing the whole game”: A data collection and analysis exercise with Google Calendar</em> paper.</p>
-<p><img src="JSE_calendar/whole-game.002.png" width="80%" /></p>
-<div id="learning-goals" class="section level1">
-<h1><span class="header-section-number">1</span> Learning Goals</h1>
-<p>The learning goals of this assignment relate to:</p>
+<div id="books" class="section level2">
+<h2>Books</h2>
+<div id="general-data-science" class="section level3">
+<h3>General data science</h3>
 <ul>
-<li>Data Collection
-<ol style="list-style-type: decimal">
-<li>Experience creating measurable data observations (e.g., how is “one day” measured, or what defines “studying”).</li>
-<li>Address data collection constraints due to limits in technological capacity and human behavior.</li>
-</ol></li>
-<li>Data Ethics
-<ol start="3" style="list-style-type: decimal">
-<li>Practice the ethical and legal responsibilities of those collecting, storing, and analyzing data.</li>
-<li>Decide limits for personal privacy.</li>
-<li>Deliberate on the trade-offs between research results and privacy.</li>
-</ol></li>
-<li>“Playing the whole game”
-<ol start="6" style="list-style-type: decimal">
-<li>Tie together data collection, analysis, ethics, and communication components.</li>
-<li>Iterate between and within the components of the “whole game.”</li>
-</ol></li>
+<li><em>R for Data Science</em> (Grolemund and Wickham), <a href="https://r4ds.had.co.nz/" class="uri">https://r4ds.had.co.nz/</a></li>
 </ul>
 </div>
-<div id="resources" class="section level1">
-<h1><span class="header-section-number">2</span> Resources</h1>
-<div id="examples" class="section level2">
-<h2><span class="header-section-number">2.1</span> Examples</h2>
-<p>Both Albert and Johanna’s versions of the assignment assumed basic familiarity with R and RStudio as well as the <code>ggplot2</code> and <code>dplyr</code> packages.</p>
-<ol style="list-style-type: decimal">
-<li>Previews of the assignment as given to students in
+<div id="r-programming-and-package-development" class="section level3">
+<h3>R programming and package development</h3>
 <ul>
-<li><a href="JSE_calendar/albert.html" target="_blank">Albert’s</a> course.</li>
-<li><a href="JSE_calendar/jo.html" target="_blank">Johanna’s</a> course</li>
+<li><em>Advanced R</em> (Wickham), <a href="https://adv-r.hadley.nz/" class="uri">https://adv-r.hadley.nz/</a>
+<ul>
+<li><em>Advanced R Solutions</em> (Grosser, Bumann, Wickham), <a href="https://advanced-r-solutions.rbind.io/" class="uri">https://advanced-r-solutions.rbind.io/</a></li>
 </ul></li>
-<li>A <code>.zip</code> file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a></li>
-<li>Both assignments give students some variation of the starter code below:</li>
-</ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(tideverse)</a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="kw">library</span>(lubridate)</a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="kw">library</span>(ical)</a>
-<a class="sourceLine" id="cb1-4" title="4"></a>
-<a class="sourceLine" id="cb1-5" title="5">calendar_data &lt;-<span class="st"> &quot;calendar_filename.ics&quot;</span> <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-6" title="6"><span class="st">  </span><span class="co"># Use ical package to import into R</span></a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="st">  </span><span class="kw">ical_parse_df</span>() <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-8" title="8"><span class="st">  </span><span class="co"># Convert to &quot;tibble&quot; data frame format</span></a>
-<a class="sourceLine" id="cb1-9" title="9"><span class="st">  </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-10" title="10"><span class="st">  </span><span class="co"># Use lubridate package to wrangle dates and times</span></a>
-<a class="sourceLine" id="cb1-11" title="11"><span class="st">  </span><span class="kw">mutate</span>(</a>
-<a class="sourceLine" id="cb1-12" title="12">    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb1-13" title="13">    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb1-14" title="14">    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
-<a class="sourceLine" id="cb1-15" title="15">    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</a>
-<a class="sourceLine" id="cb1-16" title="16">  ) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-17" title="17"><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></a>
-<a class="sourceLine" id="cb1-18" title="18"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-19" title="19"><span class="st">  </span><span class="co"># Compute total duration of time for each day &amp; activity:</span></a>
-<a class="sourceLine" id="cb1-20" title="20"><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-21" title="21"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration))</a></code></pre></div>
+<li><em>R Packages</em> (Wickham), <a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a></li>
+<li><em>What They Forgot to Teach You About R</em> (Bryan and Hester), <a href="https://rstats.wtf/" class="uri">https://rstats.wtf/</a></li>
+</ul>
 </div>
-<div id="screencast-demo" class="section level2">
-<h2><span class="header-section-number">2.2</span> Screencast demo</h2>
-<p>Here is a 6m56s YouTube screencast demonstrating how to:</p>
-<ol style="list-style-type: decimal">
-<li>Log time data in Google Calendar</li>
-<li>Export the calendar data to <a href="https://en.wikipedia.org/wiki/ICalendar" target="_blank"><code>.ics</code> file format</a></li>
-<li>Import the <code>.ics</code> in R using the <code>ical</code> package</li>
-</ol>
-<center>
-<iframe width="600" height="337.5" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</center>
-<p></br></p>
+<div id="machine-learning" class="section level3">
+<h3>Machine learning</h3>
+<ul>
+<li><em>An Introduction to Statistical Learning</em> (James, Witten, Hastie, and Tibshirani), <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/" class="uri">http://faculty.marshall.usc.edu/gareth-james/ISL/</a></li>
+</ul>
+</div>
+<div id="geospatial-analysis" class="section level3">
+<h3>Geospatial analysis</h3>
+<ul>
+<li><em>Geocomputation with R</em> (Lovelace, Nowosad, Muenchow), <a href="https://geocompr.robinlovelace.net/" class="uri">https://geocompr.robinlovelace.net/</a></li>
+</ul>
 </div>
 </div>
-<div id="examples-from-the-community" class="section level1">
-<h1><span class="header-section-number">3</span> Examples from the community</h1>
-<p><a href="https://www.amherst.edu/people/facstaff/kcorreia" target="_blank">Prof. Katharine Correia</a> at Amherst College extended our original idea and used it for her students to create <strong>data diaries</strong> during the COVID-19 quarantine period of Spring 2020. Some examples of her students’ amazing work can be found <a href="https://stat231-01-s20.github.io/data-science-diaries/" target="_blank">here</a>.</p>
-<hr />
+<div id="online-courses" class="section level2">
+<h2>Online Courses</h2>
+<ul>
+<li><a href="https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup">You know how we feel</a> about DataCamp</li>
+</ul>
+</div>
+<div id="other-resources" class="section level2">
+<h2>Other resources</h2>
 </div>
 
     <div id="footer">
