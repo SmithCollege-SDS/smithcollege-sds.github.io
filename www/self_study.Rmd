@@ -1,0 +1,33 @@
+---
+title: 'Self Study'
+---
+
+## Books
+
+### General data science
+
+- *R for Data Science* (Grolemund and Wickham), https://r4ds.had.co.nz/
+
+### R programming and package development
+
+- *Advanced R* (Wickham), https://adv-r.hadley.nz/
+    - *Advanced R Solutions* (Grosser, Bumann, Wickham), https://advanced-r-solutions.rbind.io/
+- *R Packages* (Wickham), http://r-pkgs.had.co.nz/
+- *What They Forgot to Teach You About R* (Bryan and Hester), https://rstats.wtf/
+
+### Machine learning
+
+- *An Introduction to Statistical Learning* (James, Witten, Hastie, and Tibshirani), http://faculty.marshall.usc.edu/gareth-james/ISL/
+
+
+### Geospatial analysis
+
+- *Geocomputation with R* (Lovelace, Nowosad, Muenchow), https://geocompr.robinlovelace.net/
+
+## Online Courses
+
+- [You know how we feel](https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup) about DataCamp
+
+## Other resources
+
+

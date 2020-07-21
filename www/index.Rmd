@@ -8,3 +8,5 @@ output:
 This website is managed by the SDS faculty. For our official website, please visit:
 
 https://www.smith.edu/academics/statistics
+
+Please see our [list of resources for self-study](self_study.html)
