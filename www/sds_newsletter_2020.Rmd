@@ -1,0 +1,51 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2020"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Program Updates
+
+
+* Please follow us on Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) or visit [our website](http://smith.edu/statistics/) for more information on the program! There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/) and a Google group. **Please help us reach out to other alumnae by having them contact me!**
+
+
+## Faculty Updates 
+
+#### Ben Baumer
+
+#### R. Jordan Crouser
+
+#### Randi Garcia
+
+#### Katherine Halvorsen
+
+#### Albert Y. Kim
+
+#### Katie Kinnaird
+
+#### Scott LaCombe
+
+#### Miles Ott
+
+#### Sara Stoudt
+
+
+## Alumnae Updates
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:
+
+
+### StatFest
+
+### Women in Statistics and Data Science Conference
+
