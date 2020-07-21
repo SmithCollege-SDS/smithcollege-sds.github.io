@@ -1585,7 +1585,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">‘Where am I spending my time?’ Data Collection &amp; Analysis Exercise</h1>
 <h4 class="author">WRITE YOUR NAME HERE</h4>
-<h4 class="date">Last updated on 2020-06-08</h4>
+<h4 class="date">Last updated on 2020-06-28</h4>
 
 </div>
 
@@ -1643,17 +1643,17 @@ div.tocify {
 <a class="sourceLine" id="cb2-9" data-line-number="9"><span class="st">  </span><span class="kw">mutate</span>(</a>
 <a class="sourceLine" id="cb2-10" data-line-number="10">    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
 <a class="sourceLine" id="cb2-11" data-line-number="11">    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb2-12" data-line-number="12">    <span class="dt">length =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
+<a class="sourceLine" id="cb2-12" data-line-number="12">    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
 <a class="sourceLine" id="cb2-13" data-line-number="13">    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</a>
 <a class="sourceLine" id="cb2-14" data-line-number="14">  ) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="st">  </span><span class="co"># Convert calendar entry summary to lowercase</span></a>
-<a class="sourceLine" id="cb2-16" data-line-number="16"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">summary =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></a>
+<a class="sourceLine" id="cb2-16" data-line-number="16"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></a>
 <a class="sourceLine" id="cb2-17" data-line-number="17"><span class="st">  </span><span class="co"># Do data wrangling to compute number of minutes and hours per day</span></a>
-<a class="sourceLine" id="cb2-18" data-line-number="18"><span class="st">  </span><span class="kw">group_by</span>(date, summary) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb2-19" data-line-number="19"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">length =</span> <span class="kw">sum</span>(length) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">as.numeric</span>()) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb2-18" data-line-number="18"><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb2-19" data-line-number="19"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">as.numeric</span>()) <span class="op">%&gt;%</span></a>
 <a class="sourceLine" id="cb2-20" data-line-number="20"><span class="st">  </span><span class="co"># DO THIS: After looking at your data, change the time interval length units</span></a>
 <a class="sourceLine" id="cb2-21" data-line-number="21"><span class="st">  </span><span class="co"># if necessary. </span></a>
-<a class="sourceLine" id="cb2-22" data-line-number="22"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">hours =</span> length<span class="op">/</span><span class="dv">60</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb2-22" data-line-number="22"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">hours =</span> duration<span class="op">/</span><span class="dv">60</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb2-23" data-line-number="23"><span class="st">  </span><span class="co"># OPTIONAL: Filter out rows to only include certain dates:</span></a>
 <a class="sourceLine" id="cb2-24" data-line-number="24"><span class="st">  </span><span class="kw">filter</span>(<span class="st">&quot;2019-09-01&quot;</span> <span class="op">&lt;=</span><span class="st"> </span>date, date <span class="op">&lt;=</span><span class="st"> &quot;2019-09-06&quot;</span>)</a></code></pre></div>
 <p>Make sure your data looks good by looking at the raw values:</p>
@@ -1663,8 +1663,8 @@ div.tocify {
 <thead>
 <tr class="header">
 <th align="left">date</th>
-<th align="left">summary</th>
-<th align="right">length</th>
+<th align="left">activity</th>
+<th align="right">duration</th>
 <th align="right">hours</th>
 </tr>
 </thead>
@@ -1725,10 +1725,10 @@ div.tocify {
 <pre><code>## Rows: 8
 ## Columns: 4
 ## Groups: date [5]
-## $ date    &lt;dttm&gt; 2019-09-02, 2019-09-02, 2019-09-03, 2019-09-04, 2019-09-04, …
-## $ summary &lt;chr&gt; &quot;sleep&quot;, &quot;study&quot;, &quot;exercise&quot;, &quot;sleep&quot;, &quot;study&quot;, &quot;sleep&quot;, &quot;exe…
-## $ length  &lt;dbl&gt; 480, 60, 60, 960, 180, 540, 30, 90
-## $ hours   &lt;dbl&gt; 8.0, 1.0, 1.0, 16.0, 3.0, 9.0, 0.5, 1.5</code></pre>
+## $ date     &lt;dttm&gt; 2019-09-02, 2019-09-02, 2019-09-03, 2019-09-04, 2019-09-04,…
+## $ activity &lt;chr&gt; &quot;sleep&quot;, &quot;study&quot;, &quot;exercise&quot;, &quot;sleep&quot;, &quot;study&quot;, &quot;sleep&quot;, &quot;ex…
+## $ duration &lt;dbl&gt; 480, 60, 60, 960, 180, 540, 30, 90
+## $ hours    &lt;dbl&gt; 8.0, 1.0, 1.0, 16.0, 3.0, 9.0, 0.5, 1.5</code></pre>
 <p>Use RStudio’s spreadsheet viewer. Note by setting <code>eval=FALSE</code> in this code chunk, R Markdown will not “evaluate” this code chunk and ignore it.</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">View</span>(calendar_data)</a></code></pre></div>
 </div>
@@ -1794,7 +1794,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
