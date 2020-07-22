@@ -90,6 +90,9 @@ Here is a 6m56s YouTube screencast demonstrating how to:
 
 [Prof. Katharine Correia](https://www.amherst.edu/people/facstaff/kcorreia){target="_blank"} at Amherst College extended our original idea and used it for her students to create **data diaries** during the COVID-19 quarantine period of Spring 2020.  Some examples of her students' amazing work can be found [here](https://stat231-01-s20.github.io/data-science-diaries/){target="_blank"}.
 
+```{r, echo = FALSE, out.width = "80%"}
+knitr::include_graphics("JSE_calendar/data_diaries.png")
+```
 
 
 
