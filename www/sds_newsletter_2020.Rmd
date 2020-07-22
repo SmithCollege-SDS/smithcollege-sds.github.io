@@ -19,6 +19,13 @@ https://www.facebook.com/groups/665780273559948/) and a Google group. **Please h
 
 #### Ben Baumer
 
+I'm trying to enjoy all the time at home with my wife and two children. `r emo::ji("zany")` Alice is 6, and she can now read, swim, ride a bike, and log in to a Linux terminal. Arlo is 3 and she is an adorable terror. Today I woke up when she jumped on my head (true story). 
+
+Last fall, I taught a new course on advanced programming with R, that was very rewarding for both the students and me. [They wrote 11 R packages in three weeks](https://twitter.com/BaumerBen/status/1220456055353892864), some of which have already built up a user base and may make it onto CRAN! 
+
+I'm now a *tenured* associate professor, which is strange and wonderful. I'm working on finishing a 2nd edition of our data science textbook, *Modern Data Science with R*. This one will have [a free online version](https://beanumber.github.io/mdsr2e/)! This is been a very trying year, but I'm so encouraged by all the incredible work our alums are doing and all the fabulous colleagues I get to work with!
+
+
 #### R. Jordan Crouser
 
 #### Randi Garcia
@@ -38,7 +45,11 @@ This crazy year is divided in half by COVID-19! One highlight for me from the be
 #### Sara Stoudt
 
 
-## Alumnae Updates
+## Alumni Updates
+
+- [Brittany Bennett '16](https://www.linkedin.com/in/thebbennett/): I am bending the laws of mathematics to engineer the backend infrastructure, analyze the data, and establish the systems needed to turn out the youth vote in key swing states in November and pass bold climate legislation in the new year.  
+
+- [Wencong (Priscilla) Li '18](https://www.linkedin.com/in/wencong-priscilla-li-83732169/): The recruiting season is starting soon and I hope to see more Smithies from SDS to apply for the Analyst/Summer Analyst position at my company, [Cornerstone Research](https://www.cornerstone.com/). Please feel free to email me at liwencong1995@gmail.com if any of your students is interested and I am more than happy to help!
 
 ## What's next? 
 
