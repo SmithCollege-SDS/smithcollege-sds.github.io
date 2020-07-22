@@ -34,6 +34,12 @@ This crazy year is divided in half by COVID-19! One highlight for me from the be
 
 #### Katherine Halvorsen
 
+#### Will Hopper
+
+I'm excited to start my first full year at Smith, and keep doing what I do best: introducing students to their new favorite subject, statistics! I'll be teaching SDS 201, which introduces people to the wonderful world of statistical modeling, as well as SDS 291, which goes more into depth with Multiple Regression, and introduces people to an even wider family of statistical models. Thanks to teaching remotely, I've revived my video production and editing skills that have lied dormant since undergraduate film classes. Despite the circumstances, I've had a lot of fun making silly thumbnails and pretending I'm a YouTuber.
+
+When I'm not thinking about how to explain the nuances of a two-tailed hypothesis test, I love playing competetive Pokémon, specifically the [VGC format](https://www.reddit.com/r/PokemonVGC/comments/5bmuua/so_you_want_to_play_vgc_newcomers_start_here/). I've been playing with [Ashton Cox's Pincurchin/Raichu Team](https://twitter.com/ashtoncoxgaz/status/1277064810098802688) recently, which has absolutely tanked my ranking, but it's all in good fun. Come to office hours if you want to team-build with me!
+
 #### Albert Y. Kim
 
 What a bonkers 2019-2020 it has been! We'll be telling our grandchildren's generation about it for sure! This past year I taught, both in-person and remotely, SDS 220 Intro Stats twice, SDS 192 Intro to Data Science, as well as SDS's revamped [SDS 293 Modeling for Machine Learning](https://rudeboybert.github.io/SDS293/){target="_blank"}. Some highlights of this past year:
