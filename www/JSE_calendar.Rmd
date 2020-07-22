@@ -6,7 +6,7 @@ output:
     number_sections: yes
 ---
 
-Resources for instructors for [Albert Y. Kim](http://rudeboybert.rbind.io/){target="_blank"} & [Johanna Hardin's](https://research.pomona.edu/johardin/){target="_blank"} *"Playing the whole game": A data collection and analysis exercise with Google Calendar* paper.
+Resources for instructors for [Albert Y. Kim](http://rudeboybert.rbind.io/){target="_blank"} & [Johanna Hardin's](https://research.pomona.edu/johardin/){target="_blank"} *"Playing the whole game": A data collection and analysis exercise with Google Calendar* [Journal of Statistics Education paper](https://doi.org/10.1080/10691898.2020.1799728){target="_blank"}.
 
 ```{r, echo = FALSE, out.width = "80%"}
 knitr::include_graphics("JSE_calendar/whole-game.002.png")
