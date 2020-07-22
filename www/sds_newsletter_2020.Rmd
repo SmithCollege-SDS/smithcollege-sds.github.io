@@ -36,6 +36,15 @@ This crazy year is divided in half by COVID-19! One highlight for me from the be
 
 #### Albert Y. Kim
 
+What a bonkers 2019-2020 it has been! We'll be telling our grandchildren's generation about it for sure! This past year I taught, both in-person and remotely, SDS 220 Intro Stats twice, SDS 192 Intro to Data Science, as well as SDS's revamped [SDS 293 Modeling for Machine Learning](https://rudeboybert.github.io/SDS293/){target="_blank"}. Some highlights of this past year:
+
+1. I was honoured with the 2020 Faculty Teaching Award from the Smith College Student Government Association for outstanding dedication to teaching! Thanks Smithies!
+1. In September, I accompanied [four Smithies](https://twitter.com/SmithCollegeSDS/status/1175474705605771269){target="_blank"} to StatFest 2019 at the University of Texas Health Science Center in Houston TX. StatFest is a one-day ASA conference aimed at encouraging undergraduate students from historically underrepresented groups to consider careers and graduate studies in the statistical sciences. 
+1. The print edition of my [*Statistical Inference via Data Science: A ModernDive into R and the Tidyverse*](https://moderndive.com/){target="_blank"} textbook was published by CRC Press.
+1. My first foray into forest ecology research was published by the Public Library of Science journal PLOS One: [*A permutation test and spatial cross-validation approach to assess models of interspecific competition between trees.*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229930){target="_blank"} Try saying that title three times fast! 
+
+Lastly, my normal self-care routines took a big hit from the shoulder surgery I had in December as well as the pandemic. Some new outlets for well-being I've discovered as a result include: sensory deprivation epsom salt-water floats, TRX suspension training, spinning, going on long walks, and gardening. Although a family of deer are constantly eating all my crops!
+
 #### Katie Kinnaird
 
 #### Scott LaCombe
