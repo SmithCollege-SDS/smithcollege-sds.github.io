@@ -23,15 +23,16 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -41,14 +42,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -57,9 +60,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -567,13 +570,15 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Data collection &amp; analysis using Google Calendar</h1>
-<h4 class="date">Last updated on 2020-07-21</h4>
+<h4 class="date">Last updated on 2020-07-22</h4>
 
 </div>
 
 
-<p>Resources for instructors for <a href="http://rudeboybert.rbind.io/" target="_blank">Albert Y. Kim</a> &amp; <a href="https://research.pomona.edu/johardin/" target="_blank">Johanna Hardin’s</a> <em>“Playing the whole game”: A data collection and analysis exercise with Google Calendar</em> paper.</p>
+<p>Resources for instructors for Albert Y. Kim and Johanna Hardin’s Journal of Statistics Education paper:<br />
+<a href="https://doi.org/10.1080/10691898.2020.1799728" target="_blank"><em>“Playing the whole game”: A data collection and analysis exercise with Google Calendar.</em></a></p>
 <p><img src="JSE_calendar/whole-game.002.png" width="80%" /></p>
+<p><strong>Abstract</strong>: We provide a computational exercise suitable for early introduction in an undergraduate statistics or data science course that allows students to ‘play the whole game’ of data science: performing both data collection and data analysis. While many teaching resources exist for data analysis, such resources are not as abundant for data collection given the inherent difficulty of the task. Our proposed exercise centers around student use of Google Calendar to collect data with the goal of answering the question ‘How do I spend my time?’ On the one hand, the exercise involves answering a question with near universal appeal, but on the other hand, the data collection mechanism is not beyond the reach of a typical undergraduate student. A further benefit of the exercise is that it provides an opportunity for discussions on ethical questions and considerations that data providers and data analysts face in today’s age of large-scale internet-based data collection.</p>
 <div id="learning-goals" class="section level1">
 <h1><span class="header-section-number">1</span> Learning Goals</h1>
 <p>The learning goals of this assignment relate to:</p>
@@ -610,27 +615,27 @@ div.tocify {
 <li>A <code>.zip</code> file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a></li>
 <li>Both assignments give students some variation of the starter code below:</li>
 </ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(tideverse)</a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="kw">library</span>(lubridate)</a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="kw">library</span>(ical)</a>
-<a class="sourceLine" id="cb1-4" title="4"></a>
-<a class="sourceLine" id="cb1-5" title="5">calendar_data &lt;-<span class="st"> &quot;calendar_filename.ics&quot;</span> <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-6" title="6"><span class="st">  </span><span class="co"># Use ical package to import into R</span></a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="st">  </span><span class="kw">ical_parse_df</span>() <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-8" title="8"><span class="st">  </span><span class="co"># Convert to &quot;tibble&quot; data frame format</span></a>
-<a class="sourceLine" id="cb1-9" title="9"><span class="st">  </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-10" title="10"><span class="st">  </span><span class="co"># Use lubridate package to wrangle dates and times</span></a>
-<a class="sourceLine" id="cb1-11" title="11"><span class="st">  </span><span class="kw">mutate</span>(</a>
-<a class="sourceLine" id="cb1-12" title="12">    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb1-13" title="13">    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</a>
-<a class="sourceLine" id="cb1-14" title="14">    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</a>
-<a class="sourceLine" id="cb1-15" title="15">    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</a>
-<a class="sourceLine" id="cb1-16" title="16">  ) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-17" title="17"><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></a>
-<a class="sourceLine" id="cb1-18" title="18"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-19" title="19"><span class="st">  </span><span class="co"># Compute total duration of time for each day &amp; activity:</span></a>
-<a class="sourceLine" id="cb1-20" title="20"><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb1-21" title="21"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration))</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(tideverse)</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">library</span>(lubridate)</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">library</span>(ical)</span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a>calendar_data &lt;-<span class="st"> &quot;calendar_filename.ics&quot;</span> <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="st">  </span><span class="co"># Use ical package to import into R</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="st">  </span><span class="kw">ical_parse_df</span>() <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="st">  </span><span class="co"># Convert to &quot;tibble&quot; data frame format</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="st">  </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="st">  </span><span class="co"># Use lubridate package to wrangle dates and times</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="st">  </span><span class="kw">mutate</span>(</span>
+<span id="cb1-12"><a href="#cb1-12"></a>    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
+<span id="cb1-13"><a href="#cb1-13"></a>    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</span>
+<span id="cb1-15"><a href="#cb1-15"></a>    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</span>
+<span id="cb1-16"><a href="#cb1-16"></a>  ) <span class="op">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a><span class="st">  </span><span class="co"># Compute total duration of time for each day &amp; activity:</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration))</span></code></pre></div>
 </div>
 <div id="screencast-demo" class="section level2">
 <h2><span class="header-section-number">2.2</span> Screencast demo</h2>
@@ -650,6 +655,7 @@ div.tocify {
 <div id="examples-from-the-community" class="section level1">
 <h1><span class="header-section-number">3</span> Examples from the community</h1>
 <p><a href="https://www.amherst.edu/people/facstaff/kcorreia" target="_blank">Prof. Katharine Correia</a> at Amherst College extended our original idea and used it for her students to create <strong>data diaries</strong> during the COVID-19 quarantine period of Spring 2020. Some examples of her students’ amazing work can be found <a href="https://stat231-01-s20.github.io/data-science-diaries/" target="_blank">here</a>.</p>
+<p><img src="JSE_calendar/data_diaries.png" width="80%" /></p>
 <hr />
 </div>
 
