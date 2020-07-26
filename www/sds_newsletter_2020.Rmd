@@ -53,7 +53,16 @@ What a bonkers 2019-2020 it has been! We'll be telling our grandchildren's gener
 
 Lastly, my normal self-care routines took a big hit from the shoulder surgery I had in December as well as the pandemic. Some new outlets for well-being I've discovered as a result include: sensory deprivation epsom salt-water floats, TRX suspension training, spinning, going on long walks, and gardening. Although a family of deer are constantly eating all my crops `r emo::ji("deer")``r emo::ji("deer")``r emo::ji("deer")``r emo::ji("herb")`!
 
-#### Katie Kinnaird
+#### Katherine M. Kinnaird
+
+It's almost strange to think that our last newsletter was just a year ago! My second year at Smith included teaching new courses, attending conferences, submitting research papers for review, bringing collaborators to Smith, and knitting (both Rmd files and actual yarn). A few highlights from this year, include:
+* Journeying to International Society of Music Information Retrieval (ISMIR) Conference in the Netherlands with seven Smithies in November. They opened the main conference presenting their peer-reviewed paper and then spent the rest of the week discussing music, computer science, and video games with leading experts in the field. They were constantly mistaken for graduate students, which was really cool. 
+* Co-Organizing the [Women in MIR workshop](https://wimir.wordpress.com/2019/06/26/wimir-workshop-2019-project-guides/) (that four Smithies attended!) and attending the [Women in Machine Learning workshop](https://wimlworkshop.org/2019/) in 2019
+* Being part of the Kahn Project [TranslationS](https://www.smith.edu/academics/kahn-institute/translations-project) and worked on my book proposal with my collaborator [Prof. John Laudun](http://johnlaudun.org/). Prof. Laudun was also able to visit Smith, where we shared our work at the Liberal Arts Lunch. 
+* Supervising Jessica Keast's SDS thesis. It was a great project, and it was an absolute highlight of my year to see her present her work (over Zoom) to an audience that included SDS majors, MIR experts, and faculty as well as her friends and family. Jessica also won the annual SDS Research Prize for her collection of research conducted at Smith, including her thesis and work on the ISMIR paper. 
+
+There's lots to be excited about for next year, including our amazing new SDS colleagues Will Hopper, Scott LaCombe, and Sara Stoudt! Looking forward to working with all of them!
+
 
 #### Scott LaCombe
 
