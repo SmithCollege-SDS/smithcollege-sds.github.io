@@ -32,7 +32,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 - **Elizabeth A. Stuart '97** [was appointed as a Bloomberg Professor of American Health](https://www.jhsph.edu/news/news-releases/2020/elizabeth-stuart-appointed-as-new-bloomberg-professor-of-american-health.html) at the Johns Hopkins Bloomberg School of Public Health. This endowed position will provide dedicated support for her work through the Bloomberg American Health Initiative in multiple fields, including addiction, violence, adolescent health, and education.
 
-
+- Two Smithies completed their PhDs this year: **Sara Stoudt '15** finished her degree in statistics at UC Berkeley, and **Maura Spiegelman '08** completed her degree in survey methodology at the University of Maryland. Congratulations to both!!
 
 - [**Lillian Carrasquillo '05**](https://twitter.com/lillian/status/1253415442841919492) and [**Portia Exum '10**](https://twitter.com/Miles_Ott/status/1245793688879616005) spoke in the SDS Capstone. 
 
@@ -154,7 +154,7 @@ It's almost strange to think that our last newsletter was just a year ago! My se
 * Being part of the Kahn Project [TranslationS](https://www.smith.edu/academics/kahn-institute/translations-project) and worked on my book proposal with my collaborator [Prof. John Laudun](http://johnlaudun.org/). Prof. Laudun was also able to visit Smith, where we shared our work at the Liberal Arts Lunch. 
 * Supervising **Jessica Keast '20**'s SDS thesis. It was a great project, and it was an absolute highlight of my year to see her present her work (over Zoom) to an audience that included SDS majors, MIR experts, and faculty as well as her friends and family. Jessica also won the annual SDS Research Prize for her collection of research conducted at Smith, including her thesis and work on the ISMIR paper. 
 
-There's lots to be excited about for next year, including our amazing new SDS colleagues Will Hopper, Scott LaCombe, and **Sara Stoudt '15**! Looking forward to working with all of them!
+There's lots to be excited about for next year, including our amazing new SDS colleagues **Will Hopper**, **Scott LaCombe**, and **Sara Stoudt '15**! Looking forward to working with all of them!
 
 
 #### Scott LaCombe
@@ -164,7 +164,7 @@ There's lots to be excited about for next year, including our amazing new SDS co
 #### Miles Ott
 
 
-What a year! Before everything got locked down I traveled to Santiago, Chile to work with my collaborator [Isabelle Beaudry](http://www.mat.uc.cl/personas/perfil/isabelle.beaudry), to Irvine to work with [Alicia Johnson](https://www.macalester.edu/mscs/facultystaff/aliciajohnson/) and Smith Alum [**Mine Dogucu '09**](https://mdogucu.ics.uci.edu/) on our forthcoming textbook *Bayes Rules! An Introduction to Bayesian Modeling with R*, and to Harvard and the Icahn School of Medicine to talk about my research in respondent driven sampling. This year I taught Intro Stats in the fall, and for the first time I taught the SDS Capstone course in the spring. My first SDS major advisees graduated, and I am so proud of all of them! I joined the development committee of the American Statistical Association, and am excited to learn more about the ASA as an organization. I am delighted to be working with new SDS colleagues Will Hopper, Scott LaCombe, and **Sara Stoudt '15**! Special message to alums: I love hearing/reading your updates! 
+What a year! Before everything got locked down I traveled to Santiago, Chile to work with my collaborator [Isabelle Beaudry](http://www.mat.uc.cl/personas/perfil/isabelle.beaudry), to Irvine to work with [Alicia Johnson](https://www.macalester.edu/mscs/facultystaff/aliciajohnson/) and Smith Alum [**Mine Dogucu '09**](https://mdogucu.ics.uci.edu/) on our forthcoming textbook *Bayes Rules! An Introduction to Bayesian Modeling with R*, and to Harvard and the Icahn School of Medicine to talk about my research in respondent driven sampling. This year I taught Intro Stats in the fall, and for the first time I taught the SDS Capstone course in the spring. My first SDS major advisees graduated, and I am so proud of all of them! I joined the development committee of the American Statistical Association, and am excited to learn more about the ASA as an organization. I am delighted to be working with new SDS colleagues **Will Hopper**, **Scott LaCombe**, and **Sara Stoudt '15**! Special message to alums: I love hearing/reading your updates! 
 
 
 #### Sara Stoudt
@@ -181,7 +181,7 @@ Since the last newsletter I had an amazing summer at the LA Times, I wrote my di
 
 - [Emma Livingston '20](https://www.linkedin.com/in/emma-livingston/): I finished my last semester from home in Illinois after working with **Brittany Bennett '16** & the [Sunrise Movement](https://www.sunrisemovement.org/) on my SDS Capstone project and serving as president of both the Smith College Glee Club and the Asexual & Aromantic Community and Education Club (AACEs). This summer I started working remotely at MassMutual in their [Data Science Development Program](https://datascience.massmutual.com/dsdp), and will start my Masters at UMass in [CICS](https://www.cics.umass.edu/) in the fall. In my time off and between side projects, I have been embroidering, learning to cut my own hair (thanks quarantine), and dreaming of the garden I'll get to start planting once I move to Amherst in mid-August. Follow along with my latest ramblings on [twitter](https://twitter.com/livin_emma) or on my [blog](https://emmal73.github.io/)!
 
-- [**Maura Spiegelman '08**](https://www.linkedin.com/in/maura-spiegelman-88a9207): I completed my PhD in Survey Methodology this spring, with a remote defense! In my job at the National Center for Education Statistics, I'm working on some of the questionnaire, operational, and analytical challenges related to collecting data from school staff during the upcoming school year, when many schools will be conducting instruction remotely.
+- [Maura Spiegelman '08](https://www.linkedin.com/in/maura-spiegelman-88a9207): **I completed my PhD** in Survey Methodology this spring, with a remote defense! In my job at the National Center for Education Statistics, I'm working on some of the questionnaire, operational, and analytical challenges related to collecting data from school staff during the upcoming school year, when many schools will be conducting instruction remotely.
 
 ## What's next? 
 
