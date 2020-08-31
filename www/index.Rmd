@@ -12,7 +12,7 @@ Please see our [list of resources for self-study](self_study.html)
 
 ## 2020-2021 Faculty
 
-(From top left): Miles Q. Ott, Albert Y. Kim, Sara Stoudt, William Hopper, Scott LaCombe, Randi Garcia, Benjamin Baumer, Katherine M. Kinnarid, Katherine Halvorsen (not pictured). 
+(From top left): Miles Q. Ott, Albert Y. Kim, Sara Stoudt, William Hopper, Scott LaCombe, Randi Garcia, Benjamin Baumer, Katherine M. Kinnaird, Katherine Halvorsen (not pictured). 
 
 ```{r, echo = FALSE}
 knitr::include_graphics("2020-2021-Faculty.png")
