@@ -5,8 +5,16 @@ output:
     toc: false
 ---
 
-This website is managed by the SDS faculty. For our official website, please visit:
-
-https://www.smith.edu/academics/statistics
+This website is managed by the SDS faculty. For our official website, please visit [smith.edu](https://www.smith.edu/academics/statistics).
 
 Please see our [list of resources for self-study](self_study.html)
+
+
+## 2020-2021 Faculty
+
+(From top left): Miles Q. Ott, Albert Y. Kim, Sara Stoudt, William Hopper, Scott LaCombe, Randi Garcia, Benjamin Baumer, Katherine M. Kinnarid, Katherine Halvorsen (not pictured). 
+
+```{r, echo = FALSE}
+knitr::include_graphics("2020-2021-Faculty.png")
+```
+
