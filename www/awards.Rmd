@@ -107,6 +107,12 @@ The class project competition is for undergraduate students who conduct projects
 Recent winners from Smith include:
 
 
+- 2020
+    - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/spring/winners): Clara Li '23, Rose Porta '23  
+    <cite>"Analysis of Sleep and Depression as Risk Factors for Diabetes"</cite>
+- 2018
+    - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2018/spring/winners): Rebecca Wolf '20, Francesca Giardine '20, Denize Keles '20, & Rebecca Miller '20  
+    <cite>"Statistical Analysis of Climate Change Variables"</cite>
 - 2017
     - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18<br>
     		<cite>"Factors that Impact Video Game Sales"</cite>
