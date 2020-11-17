@@ -47,8 +47,6 @@ archive %>%
   print(n = Inf)
 ```
 
-
-
 ```{r mu-sigma-rho, fig.cap="Growth of Mu Sigma Rho inductees.", echo=FALSE, warning=FALSE, message=FALSE}
 archive %>%
   mutate(
