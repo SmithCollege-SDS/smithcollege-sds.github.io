@@ -189,6 +189,30 @@ sds %>%
   row_spec(c(7, 9), bold = T, color = "white", background = "#D7261E")
 ```
 
+## Core courses
+
+```{r core}
+core <- sds %>%
+  filter(number %in% c(192, 201, 220, 291)) %>%
+  group_by(AY, number) %>%
+  summarize(
+    num_seats = n(),
+    num_students = n_distinct(id)
+  )
+
+ggplot(core, aes(x = as.character(AY), y = num_students, fill = number)) +
+  geom_col(position = "dodge") + 
+  scale_x_discrete("Academic Year") +
+  scale_y_continuous("Total Enrollment (seats)") + 
+  scale_fill_smith_d("Course") + 
+  labs(
+    title = "Total enrollment in SDS Core courses",
+       subtitle = "2012-present", 
+       caption = format(Sys.Date(), "%B %e, %Y")
+  )
+```
+
+
 ## By graduation year
 
 ```{r enrollment_major_grad_year}
@@ -235,5 +259,34 @@ sds %>%
             num220 = sum(number == 220)) %>%
   mutate(pct220 = num220 / N, pctIntro = numIntro / N) %>%
   knitr::kable(caption = "Allocation of seats in SDS courses")
+```
+
+```{r}
+sds %>%
+  filter(is_intro, AY >= 2018) %>%
+  group_by(years_left = grad_year - year) %>%
+  summarize(
+    num_seats = n(),
+    num_students = n_distinct(id),
+    num_years = n_distinct(AY)
+  ) %>%
+  filter(years_left >= 0, years_left <= 4) %>%
+  mutate(num_seats / num_years)
+```
+
+```{r}
+library(tidyverse)
+library(bannerdata)
+sds %>%
+  filter(is_intro, AY >= 2018) %>%
+  group_by(AY, number) %>%
+  count() %>%
+  pivot_wider(names_from = number, values_from = n)
+
+sds %>%
+  filter(is_intro, AY >= 2018, grad_year - year == 3) %>%
+  group_by(AY, number) %>%
+  count() %>%
+  pivot_wider(names_from = number, values_from = n)
 ```
 

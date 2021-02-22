@@ -10,10 +10,11 @@
 
 
 
-<meta name="date" content="2020-11-20" />
+<meta name="date" content="2021-02-22" />
 
 <title>SDS enrollment analysis</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -24,7 +25,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
@@ -37,7 +37,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 
 
@@ -68,6 +68,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="include/smith.css" type="text/css" />
 
@@ -348,14 +349,14 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-award"></span>
+    <span class="fas fa-award"></span>
      
     Awards
      
@@ -372,21 +373,21 @@ div.tocify {
 </li>
 <li>
   <a href="events.html">
-    <span class="fa fa-ticket"></span>
+    <span class="fas fa-ticket"></span>
      
     Events
   </a>
 </li>
 <li>
   <a href="rmarkdown_problems.html">
-    <span class="fa fa-question-circle"></span>
+    <span class="fas fa-question-circle"></span>
      
     Help
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-pencil-alt"></span>
+    <span class="fas fa-pencil-alt"></span>
      
     Writing
      
@@ -395,14 +396,14 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://scholarworks.smith.edu/sds/">
-        <span class="fa fa-scroll"></span>
+        <span class="fas fa-scroll"></span>
          
         Publications
       </a>
     </li>
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fa fa-newspaper"></span>
+        <span class="fas fa-newspaper"></span>
          
         Newsletters
       </a>
@@ -428,7 +429,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-chalkboard-teacher"></span>
+    <span class="fas fa-chalkboard-teacher"></span>
      
     Teaching
      
@@ -437,7 +438,7 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fa fa-book"></span>
+        <span class="fas fa-book"></span>
          
         Ethics
       </a>
@@ -464,7 +465,7 @@ div.tocify {
     </li>
     <li>
       <a href="JSE_calendar.html">
-        <span class="fa fa-calendar-alt"></span>
+        <span class="fas fa-calendar-alt"></span>
          
         Calendar
       </a>
@@ -475,7 +476,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -489,7 +490,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">SDS enrollment analysis</h1>
-<h4 class="date">2020-11-20</h4>
+<h4 class="date">2021-02-22</h4>
 
 </div>
 
@@ -889,6 +890,11 @@ SOC
 </table>
 </div>
 </div>
+<div id="core-courses" class="section level2">
+<h2>Core courses</h2>
+<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
+<p><img src="enrollments_files/figure-html/core-1.png" width="960" /></p>
+</div>
 <div id="by-graduation-year" class="section level2">
 <h2>By graduation year</h2>
 <pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
@@ -937,6 +943,31 @@ pctIntro
 </tr>
 </tbody>
 </table>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
+<pre><code>## # A tibble: 5 x 5
+##   years_left num_seats num_students num_years `num_seats/num_years`
+##        &lt;dbl&gt;     &lt;int&gt;        &lt;int&gt;     &lt;int&gt;                 &lt;dbl&gt;
+## 1          0       118          118         4                  29.5
+## 2          1       369          348         4                  92.2
+## 3          2       510          464         4                 128. 
+## 4          3       455          402         4                 114. 
+## 5          4       158          151         4                  39.5</code></pre>
+<pre><code>## # A tibble: 4 x 6
+## # Groups:   AY [4]
+##      AY `109` `192` `201` `220` `107`
+##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+## 1  2018    57   151    28   134    NA
+## 2  2019    90   145    22   177    12
+## 3  2020    79   126    30   195    NA
+## 4  2021    51   156    83   147    NA</code></pre>
+<pre><code>## # A tibble: 4 x 6
+## # Groups:   AY [4]
+##      AY `109` `192` `201` `220` `107`
+##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+## 1  2018    13    35     8    37    NA
+## 2  2019    18    47    10    49     3
+## 3  2020    23    39    18    46    NA
+## 4  2021     6    52    27    24    NA</code></pre>
 </div>
 
     <div id="footer">
@@ -955,7 +986,7 @@ pctIntro
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
