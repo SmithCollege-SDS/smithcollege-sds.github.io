@@ -10,10 +10,11 @@
 
 
 
-<meta name="date" content="2020-07-21" />
+<meta name="date" content="2021-02-22" />
 
 <title>SDS enrollment analysis</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -25,8 +26,18 @@
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -57,6 +68,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="include/smith.css" type="text/css" />
 
@@ -337,14 +349,14 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-award"></span>
+    <span class="fas fa-award"></span>
      
     Awards
      
@@ -361,21 +373,21 @@ div.tocify {
 </li>
 <li>
   <a href="events.html">
-    <span class="fa fa-ticket"></span>
+    <span class="fas fa-ticket"></span>
      
     Events
   </a>
 </li>
 <li>
   <a href="rmarkdown_problems.html">
-    <span class="fa fa-question-circle"></span>
+    <span class="fas fa-question-circle"></span>
      
     Help
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-pencil-alt"></span>
+    <span class="fas fa-pencil-alt"></span>
      
     Writing
      
@@ -384,14 +396,14 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://scholarworks.smith.edu/sds/">
-        <span class="fa fa-scroll"></span>
+        <span class="fas fa-scroll"></span>
          
         Publications
       </a>
     </li>
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fa fa-newspaper"></span>
+        <span class="fas fa-newspaper"></span>
          
         Newsletters
       </a>
@@ -417,7 +429,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-chalkboard-teacher"></span>
+    <span class="fas fa-chalkboard-teacher"></span>
      
     Teaching
      
@@ -426,7 +438,7 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fa fa-book"></span>
+        <span class="fas fa-book"></span>
          
         Ethics
       </a>
@@ -453,7 +465,7 @@ div.tocify {
     </li>
     <li>
       <a href="JSE_calendar.html">
-        <span class="fa fa-calendar-alt"></span>
+        <span class="fas fa-calendar-alt"></span>
          
         Calendar
       </a>
@@ -464,7 +476,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -478,7 +490,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">SDS enrollment analysis</h1>
-<h4 class="date">2020-07-21</h4>
+<h4 class="date">2021-02-22</h4>
 
 </div>
 
@@ -536,36 +548,36 @@ pct
 <tbody>
 <tr>
 <td style="text-align:left;">
-BIO
+EGR
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
-132
+167
 </td>
 <td style="text-align:right;">
-37.7
+37.1
 </td>
 <td style="text-align:right;">
-0.1846154
+0.1748691
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-EGR
+BIO
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
-132
+158
 </td>
 <td style="text-align:right;">
-37.7
+35.1
 </td>
 <td style="text-align:right;">
-0.1846154
+0.1654450
 </td>
 </tr>
 <tr>
@@ -573,33 +585,33 @@ EGR
 CSC
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
-44
+60
 </td>
 <td style="text-align:right;">
-12.6
+13.3
 </td>
 <td style="text-align:right;">
-0.0615385
+0.0628272
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-NSC
+PSY
 </td>
 <td style="text-align:right;">
-7
+8
 </td>
 <td style="text-align:right;">
-43
+58
 </td>
 <td style="text-align:right;">
-12.3
+12.9
 </td>
 <td style="text-align:right;">
-0.0601399
+0.0607330
 </td>
 </tr>
 <tr>
@@ -607,16 +619,50 @@ NSC
 BCH
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
-41
+53
 </td>
 <td style="text-align:right;">
-11.7
+11.8
 </td>
 <td style="text-align:right;">
-0.0573427
+0.0554974
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NSC
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+53
+</td>
+<td style="text-align:right;">
+11.8
+</td>
+<td style="text-align:right;">
+0.0554974
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+CHM
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+9
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+42
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+9.3
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+0.0439791
 </td>
 </tr>
 <tr>
@@ -624,16 +670,16 @@ BCH
 MTH
 </td>
 <td style="text-align:right;">
-7
+8
 </td>
 <td style="text-align:right;">
-35
+42
 </td>
 <td style="text-align:right;">
-10.0
+9.3
 </td>
 <td style="text-align:right;">
-0.0489510
+0.0439791
 </td>
 </tr>
 <tr>
@@ -641,67 +687,16 @@ MTH
 SDS
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-6
+8
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-33
+38
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-9.4
+8.4
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0461538
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ENV
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-30
-</td>
-<td style="text-align:right;">
-8.6
-</td>
-<td style="text-align:right;">
-0.0419580
-</td>
-</tr>
-<tr>
-<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-PSY
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-6
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-29
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-8.3
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0405594
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CHM
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-28
-</td>
-<td style="text-align:right;">
-8.0
-</td>
-<td style="text-align:right;">
-0.0391608
+0.0397906
 </td>
 </tr>
 <tr>
@@ -709,16 +704,33 @@ CHM
 GOV
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
-15
+36
 </td>
 <td style="text-align:right;">
-4.3
+8.0
 </td>
 <td style="text-align:right;">
-0.0209790
+0.0376963
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ENV
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+7.3
+</td>
+<td style="text-align:right;">
+0.0345550
 </td>
 </tr>
 <tr>
@@ -726,16 +738,33 @@ GOV
 GSC
 </td>
 <td style="text-align:right;">
-6
+7
 </td>
 <td style="text-align:right;">
-14
+18
 </td>
 <td style="text-align:right;">
 4.0
 </td>
 <td style="text-align:right;">
-0.0195804
+0.0188482
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+EDC
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+3.8
+</td>
+<td style="text-align:right;">
+0.0178010
 </td>
 </tr>
 <tr>
@@ -743,16 +772,67 @@ GSC
 EGN
 </td>
 <td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+2.9
+</td>
+<td style="text-align:right;">
+0.0136126
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ENG
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+2.4
+</td>
+<td style="text-align:right;">
+0.0115183
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+EVS
+</td>
+<td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
-12
+11
 </td>
 <td style="text-align:right;">
-3.4
+2.4
 </td>
 <td style="text-align:right;">
-0.0167832
+0.0115183
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ANT
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+2.2
+</td>
+<td style="text-align:right;">
+0.0104712
 </td>
 </tr>
 <tr>
@@ -766,44 +846,10 @@ ECO
 10
 </td>
 <td style="text-align:right;">
-2.9
+2.2
 </td>
 <td style="text-align:right;">
-0.0139860
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EDC
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-2.6
-</td>
-<td style="text-align:right;">
-0.0125874
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-SOC
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-2.3
-</td>
-<td style="text-align:right;">
-0.0111888
+0.0104712
 </td>
 </tr>
 <tr>
@@ -811,76 +857,47 @@ SOC
 MUS
 </td>
 <td style="text-align:right;">
-4
+6
 </td>
 <td style="text-align:right;">
-7
+9
 </td>
 <td style="text-align:right;">
 2.0
 </td>
 <td style="text-align:right;">
-0.0097902
+0.0094241
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ENG
+SOC
 </td>
 <td style="text-align:right;">
 4
 </td>
 <td style="text-align:right;">
-6
+9
 </td>
 <td style="text-align:right;">
-1.7
+2.0
 </td>
 <td style="text-align:right;">
-0.0083916
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ANT
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-0.0069930
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EVS
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-0.0069930
+0.0094241
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+<div id="core-courses" class="section level2">
+<h2>Core courses</h2>
+<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
+<p><img src="enrollments_files/figure-html/core-1.png" width="960" /></p>
+</div>
 <div id="by-graduation-year" class="section level2">
 <h2>By graduation year</h2>
-<pre><code>## `summarise()` regrouping output by &#39;grad_year&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major_grad_year-1.png" width="960" /></p>
 <p><img src="enrollments_files/figure-html/enrollment_grad_year_current-1.png" width="960" /></p>
 <table>
@@ -909,23 +926,48 @@ pctIntro
 <tbody>
 <tr>
 <td style="text-align:right;">
-3716
+4487
 </td>
 <td style="text-align:right;">
-2170
+2607
 </td>
 <td style="text-align:right;">
-1046
+1193
 </td>
 <td style="text-align:right;">
-0.2814855
+0.2658792
 </td>
 <td style="text-align:right;">
-0.5839612
+0.5810118
 </td>
 </tr>
 </tbody>
 </table>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
+<pre><code>## # A tibble: 5 x 5
+##   years_left num_seats num_students num_years `num_seats/num_years`
+##        &lt;dbl&gt;     &lt;int&gt;        &lt;int&gt;     &lt;int&gt;                 &lt;dbl&gt;
+## 1          0       118          118         4                  29.5
+## 2          1       369          348         4                  92.2
+## 3          2       510          464         4                 128. 
+## 4          3       455          402         4                 114. 
+## 5          4       158          151         4                  39.5</code></pre>
+<pre><code>## # A tibble: 4 x 6
+## # Groups:   AY [4]
+##      AY `109` `192` `201` `220` `107`
+##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+## 1  2018    57   151    28   134    NA
+## 2  2019    90   145    22   177    12
+## 3  2020    79   126    30   195    NA
+## 4  2021    51   156    83   147    NA</code></pre>
+<pre><code>## # A tibble: 4 x 6
+## # Groups:   AY [4]
+##      AY `109` `192` `201` `220` `107`
+##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+## 1  2018    13    35     8    37    NA
+## 2  2019    18    47    10    49     3
+## 3  2020    23    39    18    46    NA
+## 4  2021     6    52    27    24    NA</code></pre>
 </div>
 
     <div id="footer">
@@ -944,7 +986,7 @@ pctIntro
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
