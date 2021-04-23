@@ -108,28 +108,43 @@ Recent winners from Smith include:
 
 
 - 2020
+    - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/fall/winners): Xian Ye '21, Hannah Snell '21, Dianne Caravela '22, & Natalia Iannucci '22  
+    <cite>"Bayesian Analysis of Quality of Life and PPE (Personal Protective Equipment) Use During the Coronavirus (COVID-19) Pandemic"</cite>  
+    Faculty sponsor: Miles Ott
+    - [Honorable Mention (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/fall/winners): Juliet Ramey-Lariviere '22, Ivy Chen '22, & Kathleen Hablutzel '23  
+    <cite>"Measuring Healthcare Access: Are Income and Health Insurance Coverage Associated with whether Americans have a Usual Doctor's Office?"</cite>  
+    Faculty sponsor: Miles Ott
     - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/spring/winners): Clara Li '23, Rose Porta '23  
-    <cite>"Analysis of Sleep and Depression as Risk Factors for Diabetes"</cite>
+    <cite>"Analysis of Sleep and Depression as Risk Factors for Diabetes"</cite>  
+    Faculty sponsor: Ben Capistrant
 - 2018
     - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2018/spring/winners): Rebecca Wolf '20, Francesca Giardine '20, Denize Keles '20, & Rebecca Miller '20  
-    <cite>"Statistical Analysis of Climate Change Variables"</cite>
+    <cite>"Statistical Analysis of Climate Change Variables"</cite>  
+    Faculty sponsor: Miles Ott
 - 2017
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18<br>
-    		<cite>"Factors that Impact Video Game Sales"</cite>
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st Place (Intermediate Statistics)</a>: Angelica Estrada '18 PB, Jessica Wert '18, Oumayma Koulouh '19<br>
-    		<cite>"Helping the Red Cross Predict Flooding in Togo"</cite>
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh '17, Van Nguyen '18, Abby Doctor '17, Christine Yee '17<br>
-    	<cite>"What Are Your Odds?":An Interactive Web Application to Visualize Health Outcomes</cite>
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd Place (Second Course in Statistics)</a>: Ji Won Chung '18, Zainab Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18<br>
-    	<cite>A Business Opportunity: Targeting Expedia's Niche Market in Travel Packages Via Analytical and Predictive Modeling</cite>
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18  
+    <cite>"Factors that Impact Video Game Sales"</cite>  
+    Faculty sponsor: Ulf Aslak Jensen (DIS)
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st Place (Intermediate Statistics)</a>: Angelica Estrada '18 PB, Jessica Wert '18, Oumayma Koulouh '19  
+    <cite>"Helping the Red Cross Predict Flooding in Togo"</cite>  
+    Faculty sponsor: Jordan Crouser
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh '17, Van Nguyen '18, Abby Doctor '17, Christine Yee '17  
+    <cite>"What Are Your Odds?":An Interactive Web Application to Visualize Health Outcomes</cite>  
+    Faculty sponsor: Jordan Crouser
+    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd Place (Second Course in Statistics)</a>: Ji Won Chung '18, Zainab Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18  
+    <cite>A Business Opportunity: Targeting Expedia's Niche Market in Travel Packages Via Analytical and Predictive Modeling</cite>  
+    Faculty sponsor: Jordan Crouser
 - 2016
-    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st Place (First Course in Statistics)</a>: Madison Laethem '17, Grace Zhan '18<br>
-    	<cite>Predicting Student Debt Upon College Graduation</cite>
-    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd Place (Second Course in Statistics)</a>:Ji Young Yun '18, Wencong Li '18<br>
-    	<cite>NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?</cite>
+    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st Place (First Course in Statistics)</a>: Madison Laethem '17, Grace Zhan '18  
+    <cite>Predicting Student Debt Upon College Graduation</cite>  
+    Faculty sponsor: Jordan Crouser
+    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd Place (Second Course in Statistics)</a>:Ji Young Yun '18, Wencong Li '18  
+    <cite>NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?</cite>  
+    Faculty sponsor: Jordan Crouser
 - 2014
-    - <a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable Mention</a>: Sara Stoudt '15, Dana Udwin '14, and Kelly Francis '15<br>
-	    <cite>WeathR: Twitter perspectives on the weather</cite>
+    - <a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable Mention</a>: Sara Stoudt '15, Dana Udwin '14, and Kelly Francis '15  
+    <cite>WeathR: Twitter perspectives on the weather</cite>  
+    Faculty sponsor: Ben Baumer
 
 ### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
 
@@ -138,11 +153,13 @@ The research project competition is for undergraduate students who conduct resea
 
 - 2019
     - [3rd Place](https://www.causeweb.org/usproc/usresp/2019/fall/winners): Karen Santamaria '20, Kara Van Allen '20, Maggie X. Wang '20, and Tiffany Xiao '20J  
-      *Methods for Freeing Public Election Data from PDFs*
+      *Methods for Freeing Public Election Data from PDFs*  
+      Faculty sponsor: Ben Baumer
     
 - 2015
     - [2nd Place](https://www.causeweb.org/usproc/usproc/2015-usresp-winners): Sara Stoudt '15  
-	    *Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States*
+	    *Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States*  
+      Faculty sponsor: Ben Baumer
 
 
 
