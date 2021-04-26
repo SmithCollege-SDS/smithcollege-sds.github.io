@@ -19,29 +19,29 @@ archive <- read_sheet(key)
 ```
 
 ```{r, include=FALSE, eval=FALSE}
-potential_nominees <- read_sheet("1BDA98lZeEthJdfRPcZAstP1n6eq5avshMAnrRQUL9sM")
+potential_nominees <- read_sheet("1Uy-pjhe0VSWrRKBaVrhC5bjbT1GSUS2qtuf9Eth3e_c")
 
 nominees <- potential_nominees %>%
   mutate(
     Id = as.numeric(Id),
-    not_eligible = SumOfcredit == 8 & ifelse(is.na(`MTH 246`), FALSE, TRUE)
+    not_eligible = SumOfcredit < 8
   ) %>%
 #  pivot_longer(matches("CSC|SDS|MTH"), names_to = "course", values_to = "taken")
 #    sds291 = sum(c(`MTH 291`, `SDS 291`), na.rm = TRUE)
   filter(
     SumOfcredit >= 8, 
-    class %in% c("20", "20J", "21J"),
+    class %in% c("21", "21J", "22J"),
     CumGPA > 3.2,
     !not_eligible
   ) %>%
   anti_join(archive, by = "Id")
 
-write_csv(nominees, "mu_sigma_rho_2020.csv")
+write_csv(nominees, "mu_sigma_rho_2021.csv")
 ```
 
 ```{r, eval=FALSE, include=FALSE}
 archive %>%
-  filter(class %in% c("20", "20J")) %>%
+  filter(class %in% c("21", "21J")) %>%
   select(Id, induction, class, Last, First) %>%
   arrange(induction, class, Last, First) %>%
   print(n = Inf)

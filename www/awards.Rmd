@@ -38,14 +38,13 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 
 - 2020
     - Jessica Keast '20, Highest Honors  
-      Twang Identification in American Folk and Country Music  
+      [Twang Identification in American Folk and Country Music](https://scholarworks.smith.edu/theses/2227/)  
       Adviser: Katherine Kinnaird
     - Aoi Ogawa '20, High Honors  
-      Estimating Microbial Diversity of Toxin Producing Bacteria from
-Soil Using Cellular Automata  
+      [Estimating Microbial Diversity of Toxin Producing Bacteria from Soil Using Cellular Automata](https://scholarworks.smith.edu/theses/2251/)  
       Adviser: Katherine Halvorsen, Chris Golé, Jan Vriezen
     - Ziwei (Crystal) Zang '20  
-    Metabolites Prediction in Multiple Studies Using Machine Learning   
+    [Metabolites Prediction in Multiple Studies Using Machine Learning](https://scholarworks.smith.edu/theses/2290/)   
       Adviser: Katherine Halvorsen
 - 2019
     - Julianna Alvord '19, Highest Honors  
