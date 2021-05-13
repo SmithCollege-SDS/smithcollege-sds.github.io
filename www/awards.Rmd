@@ -10,6 +10,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ### Awardees
 
+- 2021: 
 - 2020: Jessica Keast '20
 - 2019: Julianna Alvord '19
 - 2018: Wencong (Priscilla) Li '18
@@ -26,6 +27,7 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 
 ### Awardees
 
+- 2021: Yujia (Starry) Zhou '20J and Hannah Snell '21 <cite>(outstanding service to statistics)</cite>
 - 2020: Laneé Jung '20 and Fatima Keita '20 <cite>(outstanding service to statistics)</cite>
 - 2019: Yue Kuang '19, Zixian Li '19, and Jingyi Liu '19 <cite>(outstanding senior capstone project)</cite>
 - 2018: Paige Patrick 'AC and Rutendo Madziwo '19 <cite>(outstanding service to statistics)</cite>
@@ -36,6 +38,10 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 	
 # Departmental Honors
 
+- 2021
+    - Audrey Bertin '21, ??  
+      [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/)  
+      Adviser: Ben Baumer
 - 2020
     - Jessica Keast '20, Highest Honors  
       [Twang Identification in American Folk and Country Music](https://scholarworks.smith.edu/theses/2227/)  
