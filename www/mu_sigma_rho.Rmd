@@ -41,6 +41,7 @@ write_csv(nominees, "mu_sigma_rho_2021.csv")
 
 ```{r, eval=FALSE, include=FALSE}
 archive %>%
+  mutate(class = as.character(class)) %>%
   filter(class %in% c("21", "21J")) %>%
   select(Id, induction, class, Last, First) %>%
   arrange(induction, class, Last, First) %>%
@@ -51,7 +52,8 @@ archive %>%
 ```{r mu-sigma-rho, fig.cap="Growth of Mu Sigma Rho inductees.", echo=FALSE, warning=FALSE, message=FALSE}
 archive %>%
   mutate(
-    class_year = ifelse(is.na(class), 0, induction - (2000 + parse_number(class))),
+    class = as.character(class),
+    class_year = ifelse(class %in% c("NULL", "AC"), 0, induction - (2000 + parse_number(class))),
     class_year = factor(class_year, labels = c("junior", "senior"))
   ) %>%
   group_by(induction, class_year) %>%
