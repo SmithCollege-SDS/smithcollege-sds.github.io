@@ -10,7 +10,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ### Awardees
 
-- 2021: 
+- 2021: Audrey Bertin '21
 - 2020: Jessica Keast '20
 - 2019: Julianna Alvord '19
 - 2018: Wencong (Priscilla) Li '18
@@ -39,7 +39,7 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 # Departmental Honors
 
 - 2021
-    - Audrey Bertin '21, ??  
+    - Audrey Bertin '21, Highest Honors  
       [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/)  
       Adviser: Ben Baumer
 - 2020
