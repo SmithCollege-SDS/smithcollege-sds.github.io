@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Ben Baumer" />
+
+<meta name="date" content="2021-07-15" />
+
+<title>SDS Newsletter</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<link rel="stylesheet" href="include/smith.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SDS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-award"></span>
+     
+    Awards
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="awards.html">Honors &amp; Prizes</a>
+    </li>
+    <li>
+      <a href="mu_sigma_rho.html">Mu Sigma Rho</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="events.html">
+    <span class="fa fa-ticket"></span>
+     
+    Events
+  </a>
+</li>
+<li>
+  <a href="rmarkdown_problems.html">
+    <span class="fa fa-question-circle"></span>
+     
+    Help
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-pencil-alt"></span>
+     
+    Writing
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://scholarworks.smith.edu/sds/">
+        <span class="fa fa-scroll"></span>
+         
+        Publications
+      </a>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-newspaper"></span>
+         
+        Newsletters
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="sds_newsletter_2020.html">2020</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2019.html">2019</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2018.html">2018</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2017.html">2017</a>
+        </li>
+        <li>
+          <a href="sds_newsletter_2016.html">2016</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-chalkboard-teacher"></span>
+     
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        <span class="fa fa-book"></span>
+         
+        Ethics
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="patch_music.html">Copywriting music</a>
+        </li>
+        <li>
+          <a href="patch_okcupid.html">OkCupid</a>
+        </li>
+        <li>
+          <a href="patch_race_coding.html">Coding race</a>
+        </li>
+        <li>
+          <a href="patch_social_networks.html">Social networks</a>
+        </li>
+        <li>
+          <a href="patch_stitchfix.html">StitchFix</a>
+        </li>
+        <li>
+          <a href="patch_wmd.html">Codes of ethics</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="JSE_calendar.html">
+        <span class="fa fa-calendar-alt"></span>
+         
+        Calendar
+      </a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/SmithCollege-SDS">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">SDS Newsletter</h1>
+<h4 class="author">Ben Baumer</h4>
+<h4 class="date">July 15, 2021</h4>
+
+</div>
+
+
+<p>This newsletter is mostly a distillation of our Twitter @<a href="https://twitter.com/SmithCollegeSDS">SmithCollegeSDS</a> feed. Please follow us to see more news, updates, and pictures!</p>
+<p>There is also a <a href="https://www.facebook.com/groups/665780273559948/">Facebook group</a>, a Google group, and a <a href="https://twitter.com/Miles_Ott/status/1242104426921426945">Slack</a>. <strong>Please help us reach out to other alumnae by having them contact me!</strong></p>
+<div id="program-updates" class="section level2">
+<h2>Program Updates</h2>
+<div id="previous-updates" class="section level3">
+<h3>Previous Updates</h3>
+<ul>
+<li><a href="sds_newsletter_2020.html">2020</a></li>
+<li><a href="sds_newsletter_2019.html">2019</a></li>
+<li><a href="sds_newsletter_2018.html">2018</a></li>
+<li><a href="sds_newsletter_2017.html">2017</a></li>
+<li><a href="sds_newsletter_2016.html">2016</a></li>
+</ul>
+</div>
+</div>
+<div id="faculty-updates" class="section level2">
+<h2>Faculty Updates</h2>
+<p>I can say with certainty—which is <strong>rare</strong> in our discipline—that the 2020–2021 academic year was the most difficult for the faculty in…who knows how long? We all adapted our pedagogy to remote instruction and settled in for the long haul of a year of Zoom meetings and online classes. My heart goes out to <strong>Sara Stoudt ’15</strong>, who accepted a one-year teaching position and then never got to set foot in her office or in a Smith classroom!</p>
+<p>It was nevertheless an eventful year for faculty:</p>
+<ul>
+<li><strong>Miles Ott ’01</strong> was granted tenure and promotion to associate professor in February. To our great sadness, Miles resigned his position at the end of the year to become a Chief Data Scientist at Johnson &amp; Johnson. We wish Miles all the best in his new line of work and will miss him dearly.</li>
+<li><strong>Sara Stoudt ’15</strong> accepted <a href="https://www.bucknell.edu/fac-staff/sara-stoudt">a tenure-track position at Bucknell University</a>. We’re thrilled for Sara and look forward to collaborating with her.</li>
+<li>We hired <strong>Lindsay Poirier</strong> as a MassMutual assistant professor of statistics and data science. Lindsay is a data anthropologist who comes to us from <a href="https://lindsaypoirier.faculty.ucdavis.edu/">UC-Davis</a>. We’re super-excited about the breadth of new course offerings she will offer and the experience she brings to the Program.</li>
+<li>We hired <strong>Fatou Sanogo</strong> as a Lecturer. <a href="https://www.linkedin.com/in/fatoumata-sanogo-447085a8/">Fatou</a> just completed her PhD in applied mathematics at the University of Alabama-Birmingham. She’ll be teaching mostly introductory statistics and we are lucky to have her here as she starts her career.</li>
+<li>We’ll be searching for <strong>three</strong> tenure-track positions this year!
+<ul>
+<li>a biostatistician</li>
+<li>a 2nd MassMutual assistant professor position</li>
+<li>a joint position to be shared with the Mathematics department for a Mathematical Statistician</li>
+</ul></li>
+</ul>
+<div id="ben-baumer" class="section level4">
+<h4>Ben Baumer</h4>
+<p>It was a hard year to be Chair! We never even had the chance to celebrate my tenure decision before the pandemic threw us all into a tailspin. I’m grateful to my family and my colleagues for their perseverance through all the challenges we faced.</p>
+<p>We finished the <a href="https://mdsr-book.github.io/mdsr2e/">2nd edition of <em>Modern Data Science with R</em></a>. There are some interesting things starting to come out of the <a href="https://dsc-wav.github.io/www/outreach.html">DSC-WAV project</a>, which now entering its 3rd year. In particular, we’ve been tracking how some of the software development practices (e.g., GitHub and Scrum) we’ve been implementing with students have fared in the remote working environment.</p>
+<p>I continue to be in awe of the resilience of Smithies (and their general fabulous-ness)!</p>
+</div>
+<div id="randi-garcia" class="section level4">
+<h4>Randi Garcia</h4>
+</div>
+<div id="katherine-halvorsen" class="section level4">
+<h4>Katherine Halvorsen</h4>
+</div>
+<div id="will-hopper" class="section level4">
+<h4>Will Hopper</h4>
+</div>
+<div id="albert-y.-kim" class="section level4">
+<h4>Albert Y. Kim</h4>
+</div>
+<div id="katherine-m.-kinnaird" class="section level4">
+<h4>Katherine M. Kinnaird</h4>
+</div>
+<div id="scott-lacombe" class="section level4">
+<h4>Scott LaCombe</h4>
+</div>
+<div id="lindsay-poirier" class="section level4">
+<h4>Lindsay Poirier</h4>
+</div>
+<div id="fatou-sanogo" class="section level4">
+<h4>Fatou Sanogo</h4>
+</div>
+</div>
+<div id="alumni-updates" class="section level2">
+<h2>Alumni Updates</h2>
+<ul>
+<li><p><a href="https://www.linkedin.com/in/anna-ballou/">Anna Ballou ’20</a>: I just finished my first year of my PhD in Quantitative Epidemiology at the University of North Carolina, Chapel Hill. I am studying the sex-specific effects of the genetic architecture of various diseases. I’ve also worked on generating several graphics and figures for my lab’s publications.</p></li>
+<li><p><a href="https://www.linkedin.com/in/thebbennett/">Brittany Bennett ’16</a>: is on her second year of serving as the Data Director of the Sunrise Movement. She leverages analytics engineering to uncover insight for organizers working to pass a Green New Deal. <a href="https://www.brittanybennett.com/blog">You can follow her writing here</a></p></li>
+</ul>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s next?</h2>
+<div id="joint-statistical-meetings" class="section level3">
+<h3>Joint Statistical Meetings</h3>
+<p>Many of us will be at the virtual Joint Statistical Meetings at the end of the month. We wish we could see you in person, but we’ll have to settle for Zoom waves this year. 😞</p>
+</div>
+<div id="statfest" class="section level3">
+<h3>StatFest</h3>
+</div>
+<div id="women-in-statistics-and-data-science-conference" class="section level3">
+<h3>Women in Statistics and Data Science Conference</h3>
+</div>
+</div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Website maintained by <a href="http://www.science.smith.edu/~bbaumer" target="_blank">Ben Baumer</a>.</p>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

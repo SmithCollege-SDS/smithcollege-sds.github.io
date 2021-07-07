@@ -1,0 +1,102 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2021"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This newsletter is mostly a distillation of our Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) feed. Please follow us to see more news, updates, and pictures!
+
+There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945). **Please help us reach out to other alumnae by having them contact me!**
+
+## Program Updates
+
+
+### Previous Updates
+
+
+- [2020](sds_newsletter_2020.html)
+- [2019](sds_newsletter_2019.html)
+- [2018](sds_newsletter_2018.html)
+- [2017](sds_newsletter_2017.html)
+- [2016](sds_newsletter_2016.html)
+
+
+## Faculty Updates 
+
+I can say with certainty---which is **rare** in our discipline---that the 2020--2021 academic year was the most difficult for the faculty in...who knows how long? 
+We all adapted our pedagogy to remote instruction and settled in for the long haul of a year of Zoom meetings and online classes. 
+My heart goes out to **Sara Stoudt '15**, who accepted a one-year teaching position and then never got to set foot in her office or in a Smith classroom!
+
+It was nevertheless an eventful year for faculty:
+
+- **Miles Ott '01** was granted tenure and promotion to associate professor in February. To our great sadness, Miles resigned his position at the end of the year to become a Chief Data Scientist at Johnson & Johnson. We wish Miles all the best in his new line of work and will miss him dearly. 
+- **Sara Stoudt '15** accepted [a tenure-track position at Bucknell University](https://www.bucknell.edu/fac-staff/sara-stoudt). We're thrilled for Sara and look forward to collaborating with her. 
+- We hired **Lindsay Poirier** as a MassMutual assistant professor of statistics and data science. Lindsay is a data anthropologist who comes to us from [UC-Davis](https://lindsaypoirier.faculty.ucdavis.edu/). We're super-excited about the breadth of new course offerings she will offer and the experience she brings to the Program. 
+- We hired **Fatou Sanogo** as a Lecturer. [Fatou](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) just completed her PhD in applied mathematics at the University of Alabama-Birmingham. She'll be teaching mostly introductory statistics and we are lucky to have her here as she starts her career. 
+- We'll be searching for **three** tenure-track positions this year!
+    - a biostatistician
+    - a 2nd MassMutual assistant professor position
+    - a joint position to be shared with the Mathematics department for a Mathematical Statistician  
+  
+
+
+#### Ben Baumer
+
+It was a hard year to be Chair! 
+We never even had the chance to celebrate my tenure decision before the pandemic threw us all into a tailspin. 
+I'm grateful to my family and my colleagues for their perseverance through all the challenges we faced. 
+
+We finished the [2nd edition of *Modern Data Science with R*](https://mdsr-book.github.io/mdsr2e/). 
+There are some interesting things starting to come out of the [DSC-WAV project](https://dsc-wav.github.io/www/outreach.html), which now entering its 3rd year. 
+In particular, we've been tracking how some of the software development practices (e.g., GitHub and Scrum) we've been implementing with students have fared in the remote working environment. 
+
+I continue to be in awe of the resilience of Smithies (and their general fabulous-ness)!
+
+#### Randi Garcia
+
+
+#### Katherine Halvorsen
+
+
+#### Will Hopper
+
+
+
+#### Albert Y. Kim
+
+
+#### Katherine M. Kinnaird
+
+
+
+#### Scott LaCombe
+
+
+#### Lindsay Poirier
+
+
+#### Fatou Sanogo
+
+## Alumni Updates
+
+- [Anna Ballou '20](https://www.linkedin.com/in/anna-ballou/): I just finished my first year of my PhD in Quantitative Epidemiology at the University of North Carolina, Chapel Hill.  I am studying the sex-specific effects of the genetic architecture of various diseases. I've also worked on generating several graphics and figures for my lab's publications. 
+
+- [Brittany Bennett '16](https://www.linkedin.com/in/thebbennett/): is on her second year of serving as the Data Director of the Sunrise Movement. She leverages analytics engineering to uncover insight for organizers working to pass a Green New Deal. [You can follow her writing here](https://www.brittanybennett.com/blog)
+
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the virtual Joint Statistical Meetings at the end of the month. We wish we could see you in person, but we'll have to settle for Zoom waves this year. `r emo::ji("disappointed")`
+
+### StatFest
+
+
+### Women in Statistics and Data Science Conference
+
