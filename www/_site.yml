@@ -63,7 +63,7 @@ navbar:
           icon: fa-calendar-alt
           href: JSE_calendar.html           
   right:
-    - icon: fa-github fa-lg
+    - icon: fa-github
       href: https://github.com/SmithCollege-SDS
 
 
