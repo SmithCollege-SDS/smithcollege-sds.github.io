@@ -72,7 +72,14 @@ I continue to be in awe of the resilience of Smithies (and their general fabulou
 
 #### Katherine M. Kinnaird
 
+With both teaching and conferences all virtual, this year was like no other for sure! In the spring, I taught two different machine learning classes: _Modeling for Machine Learning_ (SDS 293) and _Computational Machine Learning_ (CSC 294). 
+It was great to [gather](https://gather.town/) and work through the details of various Machine Learning concepts. 
 
+Since last newsletter, I once again was a co-organizer for the [Women In Music Information Retrieval Workshop](https://wimir.wordpress.com/2020/08/13/wimir-workshop-2020-project-guides/) and for the [Machine Learning for Media Discovery Workshop](https://sites.google.com/view/ml4md2020/home). 
+I had a lot of fun working with collaborators this year. 
+[Automatic Hierarchy Expansion for Improved Structure and Chord Evaluation](https://transactions.ismir.net/articles/10.5334/tismir.71/) with [Brian McFee](https://brianmcfee.net/) expands on our ISMIR 2019 paper. 
+It was also fun to integrate my interests in MIR and pedagogy in [Interactive Learning of Signal Processing Through Music: Making Fourier Analysis Concrete for Students](https://ieeexplore.ieee.org/document/9418542) with [Meinard Mueller](https://www.audiolabs-erlangen.de/fau/professor/mueller) and Brian McFee. 
+This summer, I've been privileged to work with five students through the SURF program, which is a great way to wrap up this year of virtual collaboration 
 
 #### Scott LaCombe
 
