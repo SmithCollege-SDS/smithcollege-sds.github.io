@@ -86,6 +86,9 @@ This summer, I've been privileged to work with five students through the SURF pr
 
 #### Lindsay Poirier
 
+I am so thrilled to be joining the faculty in SDS at Smith! Last month, I road-tripped across the country from Sacramento, CA where I was an Assistant Professor at UC Davis in a program called Science and Technology Studies (STS). STS is a social science discipline that studies the intricate ways science, technology, culture, and politics all co-constitute each other. Many of the courses that I will be teaching at Smith (such as *Data Ethnography* and *Data and Social Justice*) approach data science from this angle.
+
+As if I wasn't excited enough for my start day at Smith, that same day an article I've been working on for a year and half was [published](https://journals.sagepub.com/doi/full/10.1177/20539517211029322) in the journal *Big Data and Society*. It describes how I've taught students to perform critical readings of datasets like the NYPD's Stop, Question, and Frisk dataset and the EPA's Toxic Release Inventory. This year I also [published](https://www.tandfonline.com/doi/abs/10.1080/09502386.2021.1895256) in the *Journal of Cultural Studies*, [co-published](https://sciencetechnologystudies.journal.fi/article/view/89782) in the *Science and Technology Studies* journal, and [collaborated](https://critical-data-analysis.org/) with some amazing students and colleagues on the development of public interest [databases](https://critical-data-analysis.org/general-plan-map/) and [mapping tools](https://critical-data-analysis.org/shiny/proximity/proximity-app/). I can't wait to bring Smith students on to some of these projects. I spent most evenings in 2021 cooking, working on mosaic projects, and attempting to match the energy of my spunky pup Maddie. Like me, she's loving life here in Northampton!
 
 #### Fatou Sanogo
 
