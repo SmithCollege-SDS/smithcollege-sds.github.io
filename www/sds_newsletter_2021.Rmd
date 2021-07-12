@@ -34,7 +34,7 @@ My heart goes out to **Sara Stoudt '15**, who accepted a one-year teaching posit
 
 It was nevertheless an eventful year for faculty:
 
-- **Miles Ott '01** was granted tenure and promotion to associate professor in February. To our great sadness, Miles resigned his position at the end of the year to become a Chief Data Scientist at Johnson & Johnson. We wish Miles all the best in his new line of work and will miss him dearly. 
+- **Miles Ott '01** was granted tenure and promotion to associate professor in February. To our great sadness, Miles resigned his position at the end of the year to become a [Senior Data Scientist at Johnson & Johnson](https://twitter.com/Miles_Ott/status/1403086377684721667). We wish Miles all the best in his new line of work and will miss him dearly. 
 - **Sara Stoudt '15** accepted [a tenure-track position at Bucknell University](https://www.bucknell.edu/fac-staff/sara-stoudt). We're thrilled for Sara and look forward to collaborating with her. 
 - We hired **Lindsay Poirier** as a MassMutual assistant professor of statistics and data science. Lindsay is a data anthropologist who comes to us from [UC-Davis](https://lindsaypoirier.faculty.ucdavis.edu/). We're super-excited about the breadth of new course offerings she will offer and the experience she brings to the Program. 
 - We hired **Fatou Sanogo** as a Lecturer. [Fatou](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) just completed her PhD in applied mathematics at the University of Alabama-Birmingham. She'll be teaching mostly introductory statistics and we are lucky to have her here as she starts her career. 
@@ -81,7 +81,11 @@ I had a lot of fun working with collaborators this year.
 It was also fun to integrate my interests in MIR and pedagogy in [Interactive Learning of Signal Processing Through Music: Making Fourier Analysis Concrete for Students](https://ieeexplore.ieee.org/document/9418542) with [Meinard Mueller](https://www.audiolabs-erlangen.de/fau/professor/mueller) and Brian McFee. 
 This summer, I've been privileged to work with five students through the SURF program, which is a great way to wrap up this year of virtual collaboration 
 
-#### Scott LaCombe
+#### [Scott LaCombe](www.scottlacombe.com)
+
+After my first year virtual teaching, I'm so excited to finally be teaching in person and getting to participate in some Smithie traditions this Fall (I've been promised donuts). This Fall, I will be teaching my first dual prefixed course, SDS/GOV 338 Political Networks, and I look forward building more connections between GOV ad SDS.
+
+I used the pandemic as an excuse to explore every trail and state park I can with my dog, Gollum. Say hi if you see us walking around campus and I'm always looking for new trail recommendations! In the past year I have finished an [upcoming book](https://global.oup.com/academic/product/choosing-the-future-9780197585757?cc=us&lang=en&) with Karen Mossberger and Caroline Tolbert on the importance of broadband for state and local economic and political development, and was honored to receive the best dissertation award from the State Politics and Policy Section of the American Political Science Association. I also have published papers in State Politics and Policy Quarterly, Politics Research Quarterly, and my first solo-authored publication in Social Science Quarterly.
 
 
 #### Lindsay Poirier
