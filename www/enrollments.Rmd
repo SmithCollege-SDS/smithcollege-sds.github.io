@@ -248,7 +248,7 @@ grad_plot
 
 
 ```{r enrollment_grad_year_current}
-grad_plot %+% filter(by_grad_year, grad_year <= 2022)
+grad_plot %+% filter(by_grad_year, grad_year <= 2023)
 ```
 
 

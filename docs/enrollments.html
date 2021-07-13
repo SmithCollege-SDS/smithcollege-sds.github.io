@@ -10,17 +10,26 @@
 
 
 
-<meta name="date" content="2021-02-22" />
+<meta name="date" content="2021-07-13" />
 
 <title>SDS enrollment analysis</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -42,32 +51,6 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="include/smith.css" type="text/css" />
@@ -79,10 +62,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +78,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +112,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +124,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +135,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +163,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -324,7 +288,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -349,14 +313,14 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-award"></span>
+    <span class="fa fa-award"></span>
      
     Awards
      
@@ -373,21 +337,21 @@ div.tocify {
 </li>
 <li>
   <a href="events.html">
-    <span class="fas fa-ticket"></span>
+    <span class="fa fa-ticket"></span>
      
     Events
   </a>
 </li>
 <li>
   <a href="rmarkdown_problems.html">
-    <span class="fas fa-question-circle"></span>
+    <span class="fa fa-question-circle"></span>
      
     Help
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-pencil-alt"></span>
+    <span class="fa fa-pencil-alt"></span>
      
     Writing
      
@@ -396,14 +360,14 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://scholarworks.smith.edu/sds/">
-        <span class="fas fa-scroll"></span>
+        <span class="fa fa-scroll"></span>
          
         Publications
       </a>
     </li>
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fas fa-newspaper"></span>
+        <span class="fa fa-newspaper"></span>
          
         Newsletters
       </a>
@@ -429,7 +393,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-chalkboard-teacher"></span>
+    <span class="fa fa-chalkboard-teacher"></span>
      
     Teaching
      
@@ -438,7 +402,7 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fas fa-book"></span>
+        <span class="fa fa-book"></span>
          
         Ethics
       </a>
@@ -465,7 +429,7 @@ div.tocify {
     </li>
     <li>
       <a href="JSE_calendar.html">
-        <span class="fas fa-calendar-alt"></span>
+        <span class="fa fa-calendar-alt"></span>
          
         Calendar
       </a>
@@ -476,7 +440,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -485,12 +449,12 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
 <h1 class="title toc-ignore">SDS enrollment analysis</h1>
-<h4 class="date">2021-02-22</h4>
+<h4 class="date">2021-07-13</h4>
 
 </div>
 
@@ -505,22 +469,22 @@ div.tocify {
 </div>
 <div id="growing-enrollments" class="section level2">
 <h2>Growing enrollments</h2>
-<pre><code>## `summarise()` regrouping output by &#39;term_date&#39; (override with `.groups` argument)</code></pre>
-<pre><code>## `summarise()` regrouping output by &#39;crn_term&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;term_date&#39;. You can override using the `.groups` argument.</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;crn_term&#39;. You can override using the `.groups` argument.</code></pre>
 <p><img src="enrollments_files/figure-html/total-enrollment-1.png" width="960" /></p>
 </div>
 <div id="service-vs.-major" class="section level2">
 <h2>Service vs. major</h2>
-<pre><code>## `summarise()` regrouping output by &#39;term_date&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;term_date&#39;. You can override using the `.groups` argument.</code></pre>
 <p><img src="enrollments_files/figure-html/service-major-1.png" width="960" /></p>
 </div>
 <div id="constituents" class="section level2">
 <h2>Constituents</h2>
-<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major-1.png" width="960" /></p>
 <div id="intro-statistics" class="section level3">
 <h3>Intro statistics</h3>
-<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major_220-1.png" width="960" /></p>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -554,13 +518,13 @@ EGR
 9
 </td>
 <td style="text-align:right;">
-167
+163
 </td>
 <td style="text-align:right;">
-37.1
+36.2
 </td>
 <td style="text-align:right;">
-0.1748691
+0.1699687
 </td>
 </tr>
 <tr>
@@ -577,24 +541,7 @@ BIO
 35.1
 </td>
 <td style="text-align:right;">
-0.1654450
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CSC
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-60
-</td>
-<td style="text-align:right;">
-13.3
-</td>
-<td style="text-align:right;">
-0.0628272
+0.1647550
 </td>
 </tr>
 <tr>
@@ -605,13 +552,47 @@ PSY
 8
 </td>
 <td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+13.6
+</td>
+<td style="text-align:right;">
+0.0636079
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CSC
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
 58
 </td>
 <td style="text-align:right;">
 12.9
 </td>
 <td style="text-align:right;">
-0.0607330
+0.0604797
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NSC
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+54
+</td>
+<td style="text-align:right;">
+12.0
+</td>
+<td style="text-align:right;">
+0.0563087
 </td>
 </tr>
 <tr>
@@ -628,58 +609,7 @@ BCH
 11.8
 </td>
 <td style="text-align:right;">
-0.0554974
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-NSC
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-53
-</td>
-<td style="text-align:right;">
-11.8
-</td>
-<td style="text-align:right;">
-0.0554974
-</td>
-</tr>
-<tr>
-<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-CHM
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-9
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-42
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-9.3
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0439791
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MTH
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-42
-</td>
-<td style="text-align:right;">
-9.3
-</td>
-<td style="text-align:right;">
-0.0439791
+0.0552659
 </td>
 </tr>
 <tr>
@@ -690,30 +620,47 @@ SDS
 8
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-38
+48
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-8.4
+10.7
 </td>
 <td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0397906
+0.0500521
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-GOV
+MTH
 </td>
 <td style="text-align:right;">
 9
 </td>
 <td style="text-align:right;">
-36
+45
 </td>
 <td style="text-align:right;">
-8.0
+10.0
 </td>
 <td style="text-align:right;">
-0.0376963
+0.0469239
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+CHM
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+9
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+39
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+8.7
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
+0.0406674
 </td>
 </tr>
 <tr>
@@ -724,13 +671,30 @@ ENV
 9
 </td>
 <td style="text-align:right;">
-33
+35
 </td>
 <td style="text-align:right;">
-7.3
+7.8
 </td>
 <td style="text-align:right;">
-0.0345550
+0.0364964
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GOV
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+7.1
+</td>
+<td style="text-align:right;">
+0.0333681
 </td>
 </tr>
 <tr>
@@ -738,16 +702,16 @@ ENV
 GSC
 </td>
 <td style="text-align:right;">
-7
+8
 </td>
 <td style="text-align:right;">
-18
+19
 </td>
 <td style="text-align:right;">
-4.0
+4.2
 </td>
 <td style="text-align:right;">
-0.0188482
+0.0198123
 </td>
 </tr>
 <tr>
@@ -758,13 +722,13 @@ EDC
 7
 </td>
 <td style="text-align:right;">
-17
+15
 </td>
 <td style="text-align:right;">
-3.8
+3.3
 </td>
 <td style="text-align:right;">
-0.0178010
+0.0156413
 </td>
 </tr>
 <tr>
@@ -781,41 +745,24 @@ EGN
 2.9
 </td>
 <td style="text-align:right;">
-0.0136126
+0.0135558
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ENG
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-11
-</td>
-<td style="text-align:right;">
-2.4
-</td>
-<td style="text-align:right;">
-0.0115183
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EVS
+SOC
 </td>
 <td style="text-align:right;">
 5
 </td>
 <td style="text-align:right;">
-11
+12
 </td>
 <td style="text-align:right;">
-2.4
+2.7
 </td>
 <td style="text-align:right;">
-0.0115183
+0.0125130
 </td>
 </tr>
 <tr>
@@ -826,13 +773,13 @@ ANT
 7
 </td>
 <td style="text-align:right;">
-10
+11
 </td>
 <td style="text-align:right;">
-2.2
+2.4
 </td>
 <td style="text-align:right;">
-0.0104712
+0.0114703
 </td>
 </tr>
 <tr>
@@ -849,12 +796,12 @@ ECO
 2.2
 </td>
 <td style="text-align:right;">
-0.0104712
+0.0104275
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-MUS
+ENG
 </td>
 <td style="text-align:right;">
 6
@@ -866,24 +813,41 @@ MUS
 2.0
 </td>
 <td style="text-align:right;">
-0.0094241
+0.0093848
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-SOC
+EVS
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+1.8
+</td>
+<td style="text-align:right;">
+0.0083420
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MUS
 </td>
 <td style="text-align:right;">
 4
 </td>
 <td style="text-align:right;">
-9
+7
 </td>
 <td style="text-align:right;">
-2.0
+1.6
 </td>
 <td style="text-align:right;">
-0.0094241
+0.0072993
 </td>
 </tr>
 </tbody>
@@ -892,12 +856,11 @@ SOC
 </div>
 <div id="core-courses" class="section level2">
 <h2>Core courses</h2>
-<pre><code>## `summarise()` regrouping output by &#39;AY&#39; (override with `.groups` argument)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
 <p><img src="enrollments_files/figure-html/core-1.png" width="960" /></p>
 </div>
 <div id="by-graduation-year" class="section level2">
 <h2>By graduation year</h2>
-<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <p><img src="enrollments_files/figure-html/enrollment_major_grad_year-1.png" width="960" /></p>
 <p><img src="enrollments_files/figure-html/enrollment_grad_year_current-1.png" width="960" /></p>
 <table>
@@ -926,32 +889,31 @@ pctIntro
 <tbody>
 <tr>
 <td style="text-align:right;">
-4487
+4439
 </td>
 <td style="text-align:right;">
-2607
+2568
 </td>
 <td style="text-align:right;">
-1193
+1178
 </td>
 <td style="text-align:right;">
-0.2658792
+0.2653751
 </td>
 <td style="text-align:right;">
-0.5810118
+0.5785087
 </td>
 </tr>
 </tbody>
 </table>
-<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <pre><code>## # A tibble: 5 x 5
 ##   years_left num_seats num_students num_years `num_seats/num_years`
 ##        &lt;dbl&gt;     &lt;int&gt;        &lt;int&gt;     &lt;int&gt;                 &lt;dbl&gt;
 ## 1          0       118          118         4                  29.5
 ## 2          1       369          348         4                  92.2
-## 3          2       510          464         4                 128. 
-## 4          3       455          402         4                 114. 
-## 5          4       158          151         4                  39.5</code></pre>
+## 3          2       497          452         4                 124. 
+## 4          3       439          386         4                 110. 
+## 5          4       152          144         4                  38</code></pre>
 <pre><code>## # A tibble: 4 x 6
 ## # Groups:   AY [4]
 ##      AY `109` `192` `201` `220` `107`
@@ -959,7 +921,7 @@ pctIntro
 ## 1  2018    57   151    28   134    NA
 ## 2  2019    90   145    22   177    12
 ## 3  2020    79   126    30   195    NA
-## 4  2021    51   156    83   147    NA</code></pre>
+## 4  2021    51   139    76   132    NA</code></pre>
 <pre><code>## # A tibble: 4 x 6
 ## # Groups:   AY [4]
 ##      AY `109` `192` `201` `220` `107`
@@ -967,7 +929,7 @@ pctIntro
 ## 1  2018    13    35     8    37    NA
 ## 2  2019    18    47    10    49     3
 ## 3  2020    23    39    18    46    NA
-## 4  2021     6    52    27    24    NA</code></pre>
+## 4  2021     7    43    24    19    NA</code></pre>
 </div>
 
     <div id="footer">
@@ -1004,7 +966,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -1013,6 +975,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
