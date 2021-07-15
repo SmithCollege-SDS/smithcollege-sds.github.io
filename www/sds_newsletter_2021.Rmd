@@ -59,15 +59,33 @@ I continue to be in awe of the resilience of Smithies (and their general fabulou
 
 #### Randi Garcia
 
+This year was full of ups and downs for me...and for many others it seems. In the fall (after pivoting my research questions due to the COVID shut down!) I successfully collected daily-diary data for a research project investigating household and childcare labor among cohabitating couples with at least one person working from home. It was exciting to start analyzing this data set with my students in my Spring 2021 research seminar. We have some interesting results that we'll be writing up for publication together! In addition, this year I had a paper written with Sarah Bingham '22 on Instagram use and self-objectification accepted for publication in Psychology of Popular Media and I submitted a paper written with Kat Kyuchukova, Asha Hinson, and Lanee Jung on objectification in interactions among women for publication. 
+
+After a Spring 2020 sabbatical and a Fall 2020 course release, I had my first remote teaching experience teaching SDS 290 during J-term this year. Shout out to Julie Destine and Audrey Bertin --- I simply could not have taught this crazy [face-paced](https://randilgarcia.github.io/sds290interterm21/schedule.html) J-term course without your assistance and swift grading! And shout out to all of my J-term students for working so hard. It was a pleasure to have that experience with you! In the Spring I taught my Psychology of Women and Gender course and my Research Seminar. It was nice to find that I was still able to build relationships with my students, and to help them build community with each other, even in the remote environment. But I'm definitely ready to get back in the classroom! 
+
+I read lots of classic books this year including Pride and Prejudice, the Harry Potter series, Dune, and the Golden Compass series. All for the very first time! I am currently reading the Lord or the Rings: Two Towers. I also read [The Fate of Food](https://www.amandalittle.com/fateoffood) and [Braiding Sweetgrass](https://milkweed.org/book/braiding-sweetgrass) which was amazing --- thanks to Ester Zhao for the recommendation! There was also a lot of Nintendo playing and gardening in my life.
 
 #### Katherine Halvorsen
 
 
 #### Will Hopper
 
+This fall, I'll be returning to teach my greatest hits, SDS 201 (Statistical Methods for Undergraduates) and SDS 291 (Multiple Regression). I'm most excited to adapt some ideas and methods for creating a more interactive lecture experience, inspired by the experience of teaching online, to the physical classroom. Oddly enough, I've taught more semesters online than in-person, so in some ways returning to campus will be the strange adaptation, rather than the other way around! Regardless of locale, I'm sure I'll continue to be impressed by the tenacity and commitment of the students in my classes.
 
+I continued to enjoy playing competitive Pokémon in the [VGC format](https://www.reddit.com/r/PokemonVGC/comments/5bmuua/so_you_want_to_play_vgc_newcomers_start_here/), and I even won my first prize money (well, $24, but still, it's something!). I'm enjoying the current series 10 ruleset, and looking forward to the upcoming Diamond/Pearl remakes coming this fall. Pokémon is a game **full** of probabilities, so expect a few examples if you're taking one of my classes!
 
 #### Albert Y. Kim
+
+Hello SDS world! It being my sabbatical year, I taught a single course in the fall: SDS 390 Ecological Forecasting. It was among the most rewarding teaching experiences of my career. Despite the remote circumstances, I felt like I had a chance to really bond with every student in the class. Not only did we apply data science tools and technology to answer ecologigcal questions, but we also discussed larger topics like time-management, healthy work-life balance, and interpersonal skills in workplace settings.
+
+On the research side of things, my work in forest ecology has been getting curiouser and curiouser. Here are three projects I’ve been involved in:
+
+1. Studying the growth phenology of trees i.e. how year-to-year changes in within-year climate variation is impacting the growth of trees. We found evidence that suggests even though growing seasons are getting longer (springs that start earlier and falls that end later), this is not translating to increased tree growth :(
+2. Using Bayesian Hidden Markov Models to fuse disparate sources of tree data into a single model with the ultimate goal of forecasting the growth of trees. 
+3. Implementing GitHub Actions continuous integration cyberinfrastructure to automate quality assurance and control of data on forest dynamics. The basic pipeline is: ecologists gather data in the field and then push the resulting spreadsheets to GitHub. This will then trigger data scripts that will automatically verify data quality and produce a dashboard of reports.
+
+Other than than during this year of COVID I’ve been playing a lot of tennis, fell into a Nintendo Switch Zelda Breath of the Wild wormhole for most of late December and January, and been doing a lot of soul-searching as a result of the anti-Asian hate crimes that occurred in Atlanta in March. Lastly, my beloved Montreal Canadiens made it to the NHL Stanley Cup Finals for the first time since I was 12 years old. Despite an odds-defying run to the finals, they lost in 5 games to the repeat champion Tampa Bay Lightning. 
+
 
 
 #### Katherine M. Kinnaird
