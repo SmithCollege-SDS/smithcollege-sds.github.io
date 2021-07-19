@@ -29,11 +29,17 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 - **Audrey Bertin '21** won the SDS Research Prize for her honors thesis, titled: "Addressing The Scientific Reproducibility Crisis Through Educational Software Integration". Based on her research, Audrey also co-authored [a peer-reviewed journal paper](https://onlinelibrary.wiley.com/doi/10.1002/sta4.332) that appeared in STAT. 
 
-- **Xian (Elaine) Ye ’21**, **Hannah Snell ’21**, **Dianne Caravela ’22**, **Natalia Iannucci ’22**, **Juliet Ramey-Lariviere ’22**, **Ivy Chen ’22**, **Kathleen Hablutzel ’23**, **Clara Li ’23**, and **Rose Porta ’23** were all recognized by the [Undergraduate Statistics Project Competition](https://www.causeweb.org/usproc/usclap/2020/fall/winners) for their work in intermediate statistics. 
+- **Xian (Elaine) Ye ’21**, **Hannah Snell ’21**, **Dianne Caravela ’22**, **Natalia Iannucci ’22**, **Juliet Ramey-Lariviere ’22**, **Ivy Chen ’22**, **Kathleen Hablutzel ’23**, **Clara Li ’23**, and **Rose Porta ’23** were all recognized by the [Undergraduate Statistics Project Competition](https://www.causeweb.org/usproc/usclap/2020/fall/winners) for their work in intermediate statistics. These projects arose from work in SDS 291 taught by **Miles Ott '01** and **Ben Capistrant**. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Honored to have had our project chosen--thank you for your mentorship throughout the crazy end of the year! Rose and I can&#39;t wait to present at the Electronic Undergraduate Statistics Research Conference <a href="https://t.co/ihQK84r1cg">https://t.co/ihQK84r1cg</a></p>&mdash; Clara Li (@statsmed_sheep) <a href="https://twitter.com/statsmed_sheep/status/1307478017569173507?ref_src=twsrc%5Etfw">September 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 - Teaching remotely led to some opportunities for innovation. Thanks to Jon Caris and the Spatial Analysis Lab, students in SDS 192 were able to tour the MacLeish Field Station virtually during a live drone flight during class!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Gratitude to <a href="https://twitter.com/AirdataUAV?ref_src=twsrc%5Etfw">@AirdataUAV</a> for enabling live stream drone flights for <a href="https://twitter.com/smithcollege?ref_src=twsrc%5Etfw">@smithcollege</a> <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> class. <a href="https://twitter.com/BaumerBen?ref_src=twsrc%5Etfw">@BaumerBen</a> provided great play by play analysis and we plan to do again soon! <a href="https://twitter.com/hashtag/somanymovingparts?src=hash&amp;ref_src=twsrc%5Etfw">#somanymovingparts</a> <a href="https://t.co/tPxR01tvay">pic.twitter.com/tPxR01tvay</a></p>&mdash; GIS @ Smith College (@SmithGIS) <a href="https://twitter.com/SmithGIS/status/1339210090247835648?ref_src=twsrc%5Etfw">December 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- **Albert Kim** joined the ForestGeo research network.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s an honour to be joining the <a href="https://twitter.com/ForestGEO?ref_src=twsrc%5Etfw">@ForestGEO</a> network of forest ecology researchers for my sabbatical this spring! <a href="https://t.co/A0gaH0x7fg">https://t.co/A0gaH0x7fg</a></p>&mdash; Albert Y. Kim (@rudeboybert) <a href="https://twitter.com/rudeboybert/status/1336035248266735620?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 - **Stephanie Eckman '94** gave a talk in SDS 192 about her research in using computer vision to detect housing units from satellite imagery.  
 
@@ -54,6 +60,14 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 - **Marium Tapal '22** published the `fec16` package on CRAN.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a>! My first R📦&#39;fec16&#39; is live on CRAN. fec16 contains relational data from the 2016 United States Federal Elections in the form of pre-loaded datasets and functions. <br>GitHub repo: <a href="https://t.co/RNcKwAkW0e">https://t.co/RNcKwAkW0e</a></p>&mdash; Marium Tapal (@mariumtapal) <a href="https://twitter.com/mariumtapal/status/1288834414747811840?ref_src=twsrc%5Etfw">July 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- A number of students had their contributions to the `fivethirtyeight` packaged enshrined on CRAN. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🆕 v0.6.0 of the fivethirtyeight <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> 📦 is now on CRAN! <br><br>Check out the new datasets, added by students in <a href="https://twitter.com/BaumerBen?ref_src=twsrc%5Etfw">@BaumerBen</a>&#39;s SDS390 Adv Programming for Data Science, where students learned how to build R packages!<br><br>You can explore all the data here <a href="https://t.co/EchFdGYvZw">https://t.co/EchFdGYvZw</a> <a href="https://t.co/a7rU7gNLeG">pic.twitter.com/a7rU7gNLeG</a></p>&mdash; Albert Y. Kim (@rudeboybert) <a href="https://twitter.com/rudeboybert/status/1290413119177621511?ref_src=twsrc%5Etfw">August 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+- **Randi Garcia** spoke on a JSM 2020 panel about creating an inclusive SDS program:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣Excited to chair <a href="https://twitter.com/hashtag/JSM2020?src=hash&amp;ref_src=twsrc%5Etfw">#JSM2020</a> session today:<br><br>Show Me the Data: Making <a href="https://twitter.com/hashtag/Statistics?src=hash&amp;ref_src=twsrc%5Etfw">#Statistics</a> &amp; <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> More <a href="https://twitter.com/hashtag/Diverse?src=hash&amp;ref_src=twsrc%5Etfw">#Diverse</a> &amp; <a href="https://twitter.com/hashtag/Inclusive?src=hash&amp;ref_src=twsrc%5Etfw">#Inclusive</a> in 2020!<br><br>*All-star* lineup:<br>🎆 <a href="https://twitter.com/randiLgarcia?ref_src=twsrc%5Etfw">@randiLgarcia</a> <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a><br>🎆 Margaret Taub <a href="https://twitter.com/jhubiostat?ref_src=twsrc%5Etfw">@jhubiostat</a><br>🎆 <a href="https://twitter.com/fellgernon?ref_src=twsrc%5Etfw">@fellgernon</a> <a href="https://twitter.com/LieberInstitute?ref_src=twsrc%5Etfw">@LieberInstitute</a> <br>🎆 Discussant: <a href="https://twitter.com/GreeneScientist?ref_src=twsrc%5Etfw">@GreeneScientist</a>! <a href="https://t.co/yvlqEoDGWj">pic.twitter.com/yvlqEoDGWj</a></p>&mdash; Stephanie Hicks (@stephaniehicks) <a href="https://twitter.com/stephaniehicks/status/1290690624988078082?ref_src=twsrc%5Etfw">August 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ### Previous Updates
 
@@ -182,7 +196,7 @@ I have lived in Birmingham since I first came to the US back in 2013 and this wi
 ### Joint Statistical Meetings
 
 Many of us will be at the virtual [2021 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/index.cfm) during the second week of August. 
-We wish we could see you in person, but we'll have to settle for Zoom waves this year. `r emo::ji("disappointed")`
+We wish we could see you in person, but we'll have to settle for Zoom waves yet again this year. `r emo::ji("disappointed")`
 
 ### StatFest
 
