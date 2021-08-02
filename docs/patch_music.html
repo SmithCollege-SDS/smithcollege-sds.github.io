@@ -14,12 +14,22 @@
 
 <title>Ethics patches in a box</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -27,33 +37,39 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
 
 
 
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -66,10 +82,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -86,40 +98,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -147,7 +132,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -159,7 +144,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -170,10 +155,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -185,7 +183,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -317,7 +314,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -469,7 +466,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -478,14 +475,14 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
 <h1 class="title toc-ignore">Ethics patches in a box</h1>
 <h3 class="subtitle">a clever, topical title</h3>
 <h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2020-07-21</h4>
+<h4 class="date">Last updated on 2021-08-02</h4>
 
 </div>
 
@@ -516,6 +513,12 @@ div.tocify {
 <li>Is data access for MIR research equitable?</li>
 <li>Are the current copyright laws hindering the production of MIR research?</li>
 <li>If copyright laws were to soften for academic research, what would that look like?</li>
+</ul>
+</div>
+<div id="bloom-taxonomy" class="section level2">
+<h2><a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom taxonomy</a></h2>
+<ul>
+<li>Evaluation: Students argue for a specific proposition and defend it</li>
 </ul>
 </div>
 <div id="generalizability" class="section level2">
@@ -589,25 +592,25 @@ div.tocify {
 </div>
 </div>
 <div id="references" class="section level1 unnumbered">
-<h1>References</h1>
-<div id="refs" class="references">
-<div id="ref-casey2008content">
-<p>Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. “Content-Based Music Information Retrieval: Current Directions and Future Challenges.” <em>Proceedings of the IEEE</em> 96 (4): 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.</p>
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-casey2008content" class="csl-entry">
+Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. <span>“Content-Based Music Information Retrieval: Current Directions and Future Challenges.”</span> <em>Proceedings of the IEEE</em> 96 (4): 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.
 </div>
-<div id="ref-chendata">
-<p>Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. “Data Usage in MIR: History &amp; Future Recommendations.” <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.</p>
+<div id="ref-chendata" class="csl-entry">
+Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. <span>“Data Usage in <span>MIR</span>: History &amp; Future Recommendations.”</span> <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.
 </div>
-<div id="ref-downie2014ten">
-<p>Downie, J Stephen, Xiao Hu, Jin Ha Lee, Kahyun Choi, Sally Jo Cunningham, and Yun Hao. 2014. “Ten Years of MIREX: Reflections, Challenges and Opportunities.” In <em>ISMIR 2014</em>, 657–62. ISMIR. <a href="https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities">https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities</a>.</p>
+<div id="ref-downie2014ten" class="csl-entry">
+Downie, J Stephen, Xiao Hu, Jin Ha Lee, Kahyun Choi, Sally Jo Cunningham, and Yun Hao. 2014. <span>“Ten Years of <span>MIREX</span>: Reflections, Challenges and Opportunities.”</span> In <em>ISMIR 2014</em>, 657–62. ISMIR. <a href="https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities">https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities</a>.
 </div>
-<div id="ref-gdpr">
-<p>European Parliament. 2018. “Regulation on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/Ec (Data Protection Directive).” European Union. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679</a>.</p>
+<div id="ref-gdpr" class="csl-entry">
+European Parliament. 2018. <span>“Regulation on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/EC (Data Protection Directive).”</span> European Union. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679</a>.
 </div>
-<div id="ref-mcfee2018open">
-<p>McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. “Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.” <em>IEEE Signal Processing Magazine</em> 36 (1): 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.</p>
+<div id="ref-mcfee2018open" class="csl-entry">
+McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. <span>“Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.”</span> <em>IEEE Signal Processing Magazine</em> 36 (1): 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.
 </div>
-<div id="ref-musgrave1957competitive">
-<p>Musgrave, George McCoy. 1957. “Competitive Debate: Rules and Techniques.” <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.</p>
+<div id="ref-musgrave1957competitive" class="csl-entry">
+Musgrave, George McCoy. 1957. <span>“Competitive Debate: Rules and Techniques.”</span> <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.
 </div>
 </div>
 </div>
@@ -628,7 +631,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -646,7 +649,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -655,6 +658,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

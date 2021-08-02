@@ -13,36 +13,61 @@
 
 <title>Data collection &amp; analysis using Google Calendar</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
-<style type="text/css">code{white-space: pre;}</style>
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -62,7 +87,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -116,39 +141,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 })();
 </script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="include/smith.css" type="text/css" />
 
@@ -159,10 +154,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -179,40 +170,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -240,7 +204,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -252,7 +216,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -263,10 +227,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -278,7 +255,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -404,7 +380,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -556,7 +532,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -565,12 +541,12 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
 <h1 class="title toc-ignore">Data collection &amp; analysis using Google Calendar</h1>
-<h4 class="date">Last updated on 2020-07-22</h4>
+<h4 class="date">Last updated on 2021-08-02</h4>
 
 </div>
 
@@ -579,8 +555,8 @@ div.tocify {
 <a href="https://doi.org/10.1080/10691898.2020.1799728" target="_blank"><em>“Playing the whole game”: A data collection and analysis exercise with Google Calendar.</em></a></p>
 <p><img src="JSE_calendar/whole-game.002.png" width="80%" /></p>
 <p><strong>Abstract</strong>: We provide a computational exercise suitable for early introduction in an undergraduate statistics or data science course that allows students to ‘play the whole game’ of data science: performing both data collection and data analysis. While many teaching resources exist for data analysis, such resources are not as abundant for data collection given the inherent difficulty of the task. Our proposed exercise centers around student use of Google Calendar to collect data with the goal of answering the question ‘How do I spend my time?’ On the one hand, the exercise involves answering a question with near universal appeal, but on the other hand, the data collection mechanism is not beyond the reach of a typical undergraduate student. A further benefit of the exercise is that it provides an opportunity for discussions on ethical questions and considerations that data providers and data analysts face in today’s age of large-scale internet-based data collection.</p>
-<div id="learning-goals" class="section level1">
-<h1><span class="header-section-number">1</span> Learning Goals</h1>
+<div id="learning-goals" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Learning Goals</h1>
 <p>The learning goals of this assignment relate to:</p>
 <ul>
 <li>Data Collection
@@ -601,10 +577,10 @@ div.tocify {
 </ol></li>
 </ul>
 </div>
-<div id="resources" class="section level1">
-<h1><span class="header-section-number">2</span> Resources</h1>
-<div id="examples" class="section level2">
-<h2><span class="header-section-number">2.1</span> Examples</h2>
+<div id="resources" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Resources</h1>
+<div id="examples" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Examples</h2>
 <p>Both Albert and Johanna’s versions of the assignment assumed basic familiarity with R and RStudio as well as the <code>ggplot2</code> and <code>dplyr</code> packages.</p>
 <ol style="list-style-type: decimal">
 <li>Previews of the assignment as given to students in
@@ -615,30 +591,30 @@ div.tocify {
 <li>A <code>.zip</code> file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a></li>
 <li>Both assignments give students some variation of the starter code below:</li>
 </ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(tideverse)</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">library</span>(lubridate)</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">library</span>(ical)</span>
-<span id="cb1-4"><a href="#cb1-4"></a></span>
-<span id="cb1-5"><a href="#cb1-5"></a>calendar_data &lt;-<span class="st"> &quot;calendar_filename.ics&quot;</span> <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="st">  </span><span class="co"># Use ical package to import into R</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="st">  </span><span class="kw">ical_parse_df</span>() <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="st">  </span><span class="co"># Convert to &quot;tibble&quot; data frame format</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="st">  </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="st">  </span><span class="co"># Use lubridate package to wrangle dates and times</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="st">  </span><span class="kw">mutate</span>(</span>
-<span id="cb1-12"><a href="#cb1-12"></a>    <span class="dt">start_datetime =</span> <span class="kw">with_tz</span>(start, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
-<span id="cb1-13"><a href="#cb1-13"></a>    <span class="dt">end_datetime =</span> <span class="kw">with_tz</span>(end, <span class="dt">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
-<span id="cb1-14"><a href="#cb1-14"></a>    <span class="dt">duration =</span> end_datetime <span class="op">-</span><span class="st"> </span>start_datetime,</span>
-<span id="cb1-15"><a href="#cb1-15"></a>    <span class="dt">date =</span> <span class="kw">floor_date</span>(start_datetime, <span class="dt">unit =</span> <span class="st">&quot;day&quot;</span>)</span>
-<span id="cb1-16"><a href="#cb1-16"></a>  ) <span class="op">%&gt;%</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="st">  </span><span class="co"># Convert calendar entry to all lowercase and rename:</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">activity =</span> <span class="kw">tolower</span>(summary)) <span class="op">%&gt;%</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="st">  </span><span class="co"># Compute total duration of time for each day &amp; activity:</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="st">  </span><span class="kw">group_by</span>(date, activity) <span class="op">%&gt;%</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">duration =</span> <span class="kw">sum</span>(duration))</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tideverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ical)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>calendar_data <span class="ot">&lt;-</span> <span class="st">&quot;calendar_filename.ics&quot;</span> <span class="sc">%&gt;%</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use ical package to import into R</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ical_parse_df</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert to &quot;tibble&quot; data frame format</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use lubridate package to wrangle dates and times</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">start_datetime =</span> <span class="fu">with_tz</span>(start, <span class="at">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">end_datetime =</span> <span class="fu">with_tz</span>(end, <span class="at">tzone =</span> <span class="st">&quot;America/New_York&quot;</span>),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">duration =</span> end_datetime <span class="sc">-</span> start_datetime,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> <span class="fu">floor_date</span>(start_datetime, <span class="at">unit =</span> <span class="st">&quot;day&quot;</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert calendar entry to all lowercase and rename:</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">activity =</span> <span class="fu">tolower</span>(summary)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Compute total duration of time for each day &amp; activity:</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(date, activity) <span class="sc">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">duration =</span> <span class="fu">sum</span>(duration))</span></code></pre></div>
 </div>
-<div id="screencast-demo" class="section level2">
-<h2><span class="header-section-number">2.2</span> Screencast demo</h2>
+<div id="screencast-demo" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> Screencast demo</h2>
 <p>Here is a 6m56s YouTube screencast demonstrating how to:</p>
 <ol style="list-style-type: decimal">
 <li>Log time data in Google Calendar</li>
@@ -652,8 +628,8 @@ div.tocify {
 <p></br></p>
 </div>
 </div>
-<div id="examples-from-the-community" class="section level1">
-<h1><span class="header-section-number">3</span> Examples from the community</h1>
+<div id="examples-from-the-community" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Examples from the community</h1>
 <p><a href="https://www.amherst.edu/people/facstaff/kcorreia" target="_blank">Prof. Katharine Correia</a> at Amherst College extended our original idea and used it for her students to create <strong>data diaries</strong> during the COVID-19 quarantine period of Spring 2020. Some examples of her students’ amazing work can be found <a href="https://stat231-01-s20.github.io/data-science-diaries/" target="_blank">here</a>.</p>
 <p><img src="JSE_calendar/data_diaries.png" width="80%" /></p>
 <hr />
@@ -675,7 +651,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -693,7 +669,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -702,6 +678,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

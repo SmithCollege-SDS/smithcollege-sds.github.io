@@ -13,7 +13,7 @@
 
 <title>Awards Archive</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -310,14 +310,14 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-award"></span>
+    <span class="fa fa-award"></span>
      
     Awards
      
@@ -334,21 +334,21 @@ div.tocify {
 </li>
 <li>
   <a href="events.html">
-    <span class="fas fa-ticket"></span>
+    <span class="fa fa-ticket"></span>
      
     Events
   </a>
 </li>
 <li>
   <a href="rmarkdown_problems.html">
-    <span class="fas fa-question-circle"></span>
+    <span class="fa fa-question-circle"></span>
      
     Help
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-pencil-alt"></span>
+    <span class="fa fa-pencil-alt"></span>
      
     Writing
      
@@ -357,14 +357,14 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://scholarworks.smith.edu/sds/">
-        <span class="fas fa-scroll"></span>
+        <span class="fa fa-scroll"></span>
          
         Publications
       </a>
     </li>
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fas fa-newspaper"></span>
+        <span class="fa fa-newspaper"></span>
          
         Newsletters
       </a>
@@ -390,7 +390,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-chalkboard-teacher"></span>
+    <span class="fa fa-chalkboard-teacher"></span>
      
     Teaching
      
@@ -399,7 +399,7 @@ div.tocify {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        <span class="fas fa-book"></span>
+        <span class="fa fa-book"></span>
          
         Ethics
       </a>
@@ -426,7 +426,7 @@ div.tocify {
     </li>
     <li>
       <a href="JSE_calendar.html">
-        <span class="fas fa-calendar-alt"></span>
+        <span class="fa fa-calendar-alt"></span>
          
         Calendar
       </a>
@@ -437,7 +437,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/SmithCollege-SDS">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -689,6 +689,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

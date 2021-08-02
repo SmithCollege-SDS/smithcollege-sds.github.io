@@ -38,6 +38,9 @@ knitr::opts_chunk$set(echo = TRUE)
 - How can we *constructively* assess the ethical considerations of a data science product? 
 - How does our consideration of ethical issues in data science reflect our own values? What are those values?
 
+## [Bloom taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png)
+
+- Evaluation: Students judge the actions of real-world actors and justify their assessment
 
 ## Generalizability
 

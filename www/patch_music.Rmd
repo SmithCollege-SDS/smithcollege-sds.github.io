@@ -41,6 +41,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - Are the current copyright laws hindering the production of MIR research? 
 - If copyright laws were to soften for academic research, what would that look like? 
 
+## [Bloom taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png)
+
+- Evaluation: Students argue for a specific proposition and defend it
+
 ## Generalizability
 
 - Discussions about data ownership, usage, and access 

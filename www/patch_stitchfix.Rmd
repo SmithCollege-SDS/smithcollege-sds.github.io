@@ -40,6 +40,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - Asks students to view the statistical, mathematical, and machine learning topics covered in class through a sociological lens, in particular the nature of gender.
 - Gives students the opportunity to think about statistical models in a very rich, real, and realistic setting, in particular what predictor variables $\vec{x}$ are (and are not) being collected and what modeling method $\widehat{f}()$ is being used.
 
+## [Bloom taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png)
+
+- Application: Students apply knowledge of data science ethics in real-world context
+
 
 ## Generalizability
 

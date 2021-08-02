@@ -41,6 +41,10 @@ Important lessons to learn and revelations students might make while completing 
 - Are there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?
 - If you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience? 
 
+## [Bloom taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png)
+
+- Synthesis: Students construct new ways to code race
+
 
 ## Generalizability
 
@@ -67,7 +71,7 @@ Your goal in this in-class activity is to begin a discussion about how to best c
     #. How did they do it?
     #. What is missing or limited?
 
-- Next, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.          
+- Next, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.
 
 - After this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called `race_clean`. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group). 
 
