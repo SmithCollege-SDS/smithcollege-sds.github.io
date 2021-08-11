@@ -31,6 +31,8 @@ navbar:
         - text: "Newsletters"
           icon: fa-newspaper
           menu:
+            - text: "2021"
+              href: sds_newsletter_2021.html
             - text: "2020"
               href: sds_newsletter_2020.html
             - text: "2019"
