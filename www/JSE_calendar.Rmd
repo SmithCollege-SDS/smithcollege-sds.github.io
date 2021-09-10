@@ -46,7 +46,7 @@ Both Albert and Johanna's versions of the assignment assumed basic familiarity w
 1. A `.zip` file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download>calendar.zip</a>
 1. Both assignments give students some variation of the starter code below:  
 ```{r, eval=FALSE}
-library(tideverse)
+library(tidyverse)
 library(lubridate)
 library(ical)
 
