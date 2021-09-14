@@ -111,7 +111,10 @@ The class project competition is for undergraduate students who conduct projects
 
 Recent winners from Smith include:
 
-
+- 2021
+    - [3rd Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2021/spring/winners): Quinn White '23 and Rose Evard '23  
+    <cite>"Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication?"</cite>  
+    Faculty sponsor: Miles Ott
 - 2020
     - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/fall/winners): Xian Ye '21, Hannah Snell '21, Dianne Caravela '22, & Natalia Iannucci '22  
     <cite>"Bayesian Analysis of Quality of Life and PPE (Personal Protective Equipment) Use During the Coronavirus (COVID-19) Pandemic"</cite>  
