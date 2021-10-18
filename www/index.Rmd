@@ -10,11 +10,14 @@ This website is managed by the SDS faculty. For our official website, please vis
 Please see our [list of resources for self-study](self_study.html)
 
 
-## 2020-2021 Faculty
+## Who we are
 
-(From top left): Miles Q. Ott, Albert Y. Kim, Sara Stoudt, William Hopper, Scott LaCombe, Randi Garcia, Benjamin Baumer, Katherine M. Kinnaird, Katherine Halvorsen (not pictured). 
+- Top row: Scott LaCombe, Albert Y. Kim, Benjamin Baumer, Randi Garcia
+- Middle row: Arris Moise (SDS Coalition of Color student rep), Lindsay Poirier, William Hopper, Marium Tapal (Smithies in SDS student rep),
+- Bottom row: Fatou Sanogo, Katherine M. Kinnaird, 
+- Not pictured: Katherine Halvorsen (not pictured). 
 
 ```{r, echo = FALSE}
-knitr::include_graphics("2020-2021-Faculty.png")
+knitr::include_graphics("2021-2022-Faculty.png")
 ```
 
