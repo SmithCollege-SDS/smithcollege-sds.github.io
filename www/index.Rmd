@@ -13,9 +13,9 @@ Please see our [list of resources for self-study](self_study.html)
 ## Who we are
 
 - Top row: Scott LaCombe, Albert Y. Kim, Benjamin Baumer, Randi Garcia
-- Middle row: Arris Moise (SDS Coalition of Color student rep), Lindsay Poirier, William Hopper, Marium Tapal (Smithies in SDS student rep),
-- Bottom row: Fatou Sanogo, Katherine M. Kinnaird, 
-- Not pictured: Katherine Halvorsen (not pictured). 
+- Middle row: Arris Moise (SDS Coalition of Color student rep), Lindsay Poirier, William Hopper, Marium Tapal (Smithies in SDS student rep)
+- Bottom row: Fatou Sanogo, Katherine M. Kinnaird 
+- Not pictured: Katherine Halvorsen
 
 ```{r, echo = FALSE}
 knitr::include_graphics("2021-2022-Faculty.png")
