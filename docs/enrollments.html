@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2021-08-11" />
+<meta name="date" content="2021-10-18" />
 
 <title>SDS enrollment analysis</title>
 
@@ -34,8 +34,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -457,482 +455,62 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">SDS enrollment analysis</h1>
-<h4 class="date">2021-08-11</h4>
+<h4 class="date">2021-10-18</h4>
 
 </div>
 
 
 <div id="curriculum-plan" class="section level2">
 <h2>Curriculum Plan</h2>
-<p><img src="enrollments_files/figure-html/curriculum_plan-1.png" width="960" /></p>
+<pre><code>## Error in ggplot(data = sds, aes(x = term_date, y = number, color = deptt)): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;plan&#39; not found</code></pre>
 <div id="three-year-curriculum-plan" class="section level3">
 <h3>Three-Year curriculum plan</h3>
-<p><img src="enrollments_files/figure-html/curricum_plan_three_year-1.png" width="960" /></p>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;plan&#39; not found</code></pre>
 </div>
 </div>
 <div id="growing-enrollments" class="section level2">
 <h2>Growing enrollments</h2>
-<pre><code>## `summarise()` has grouped output by &#39;term_date&#39;. You can override using the `.groups` argument.</code></pre>
-<pre><code>## `summarise()` has grouped output by &#39;crn_term&#39;. You can override using the `.groups` argument.</code></pre>
-<p><img src="enrollments_files/figure-html/total-enrollment-1.png" width="960" /></p>
+<pre><code>## Error in group_by(., term_date, deptt): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in UseMethod(&quot;ungroup&quot;): no applicable method for &#39;ungroup&#39; applied to an object of class &quot;function&quot;</code></pre>
+<pre><code>## Error in filter(., number %in% c(107, 220, 246, 290, 291)): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error:   You&#39;re passing a function as global data.
+##   Have you misspelled the `data` argument in `ggplot()`</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;enrollment_plot&#39; not found</code></pre>
 </div>
 <div id="service-vs.-major" class="section level2">
 <h2>Service vs. major</h2>
-<pre><code>## `summarise()` has grouped output by &#39;term_date&#39;. You can override using the `.groups` argument.</code></pre>
-<p><img src="enrollments_files/figure-html/service-major-1.png" width="960" /></p>
+<pre><code>## Error in group_by(., term_date, is_major): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in ggplot(majors, aes(x = as.factor(term_date), y = N, fill = is_major)): object &#39;majors&#39; not found</code></pre>
 </div>
 <div id="constituents" class="section level2">
 <h2>Constituents</h2>
-<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
-<p><img src="enrollments_files/figure-html/enrollment_major-1.png" width="960" /></p>
+<pre><code>## Error in gather(., key = major_type, value = subject, major1, major2_minor): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in ggplot(by_major, aes(x = as.character(AY), y = N, fill = fct_relevel(major, : object &#39;by_major&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;major_plot&#39; not found</code></pre>
 <div id="intro-statistics" class="section level3">
 <h3>Intro statistics</h3>
-<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
-<p><img src="enrollments_files/figure-html/enrollment_major_220-1.png" width="960" /></p>
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>
-Composition of 220/201 by major since 2017
-</caption>
-<thead>
-<tr>
-<th style="text-align:left;">
-subject
-</th>
-<th style="text-align:right;">
-num_terms
-</th>
-<th style="text-align:right;">
-num_students
-</th>
-<th style="text-align:right;">
-avg_per_year
-</th>
-<th style="text-align:right;">
-pct
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-EGR
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-163
-</td>
-<td style="text-align:right;">
-36.2
-</td>
-<td style="text-align:right;">
-0.1699687
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-BIO
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-158
-</td>
-<td style="text-align:right;">
-35.1
-</td>
-<td style="text-align:right;">
-0.1647550
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PSY
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-61
-</td>
-<td style="text-align:right;">
-13.6
-</td>
-<td style="text-align:right;">
-0.0636079
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CSC
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-58
-</td>
-<td style="text-align:right;">
-12.9
-</td>
-<td style="text-align:right;">
-0.0604797
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-NSC
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-54
-</td>
-<td style="text-align:right;">
-12.0
-</td>
-<td style="text-align:right;">
-0.0563087
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-BCH
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-53
-</td>
-<td style="text-align:right;">
-11.8
-</td>
-<td style="text-align:right;">
-0.0552659
-</td>
-</tr>
-<tr>
-<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-SDS
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-8
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-48
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-10.7
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0500521
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MTH
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-45
-</td>
-<td style="text-align:right;">
-10.0
-</td>
-<td style="text-align:right;">
-0.0469239
-</td>
-</tr>
-<tr>
-<td style="text-align:left;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-CHM
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-9
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-39
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-8.7
-</td>
-<td style="text-align:right;font-weight: bold;color: white !important;background-color: #D7261E !important;">
-0.0406674
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ENV
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-35
-</td>
-<td style="text-align:right;">
-7.8
-</td>
-<td style="text-align:right;">
-0.0364964
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-GOV
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-32
-</td>
-<td style="text-align:right;">
-7.1
-</td>
-<td style="text-align:right;">
-0.0333681
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-GSC
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-19
-</td>
-<td style="text-align:right;">
-4.2
-</td>
-<td style="text-align:right;">
-0.0198123
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EDC
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-15
-</td>
-<td style="text-align:right;">
-3.3
-</td>
-<td style="text-align:right;">
-0.0156413
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EGN
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-13
-</td>
-<td style="text-align:right;">
-2.9
-</td>
-<td style="text-align:right;">
-0.0135558
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-SOC
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-12
-</td>
-<td style="text-align:right;">
-2.7
-</td>
-<td style="text-align:right;">
-0.0125130
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ANT
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-11
-</td>
-<td style="text-align:right;">
-2.4
-</td>
-<td style="text-align:right;">
-0.0114703
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ECO
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-10
-</td>
-<td style="text-align:right;">
-2.2
-</td>
-<td style="text-align:right;">
-0.0104275
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ENG
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-2.0
-</td>
-<td style="text-align:right;">
-0.0093848
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EVS
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-1.8
-</td>
-<td style="text-align:right;">
-0.0083420
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MUS
-</td>
-<td style="text-align:right;">
-4
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-1.6
-</td>
-<td style="text-align:right;">
-0.0072993
-</td>
-</tr>
-</tbody>
-</table>
+<pre><code>## Error in filter(., number == 220): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in is.theme(e1): object &#39;major_plot&#39; not found</code></pre>
+<pre><code>## Error in filter(., term_date &gt; 2017, number %in% c(201, 220)): object &#39;sds&#39; not found</code></pre>
 </div>
 </div>
 <div id="core-courses" class="section level2">
 <h2>Core courses</h2>
-<pre><code>## `summarise()` has grouped output by &#39;AY&#39;. You can override using the `.groups` argument.</code></pre>
-<p><img src="enrollments_files/figure-html/core-1.png" width="960" /></p>
+<pre><code>## Error in filter(., number %in% c(192, 201, 220, 291)): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in ggplot(core, aes(x = as.character(AY), y = num_students, fill = number)): object &#39;core&#39; not found</code></pre>
 </div>
 <div id="by-graduation-year" class="section level2">
 <h2>By graduation year</h2>
-<p><img src="enrollments_files/figure-html/enrollment_major_grad_year-1.png" width="960" /></p>
-<p><img src="enrollments_files/figure-html/enrollment_grad_year_current-1.png" width="960" /></p>
-<table>
-<caption>
-Allocation of seats in SDS courses
-</caption>
-<thead>
-<tr>
-<th style="text-align:right;">
-N
-</th>
-<th style="text-align:right;">
-numIntro
-</th>
-<th style="text-align:right;">
-num220
-</th>
-<th style="text-align:right;">
-pct220
-</th>
-<th style="text-align:right;">
-pctIntro
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right;">
-4439
-</td>
-<td style="text-align:right;">
-2568
-</td>
-<td style="text-align:right;">
-1178
-</td>
-<td style="text-align:right;">
-0.2653751
-</td>
-<td style="text-align:right;">
-0.5785087
-</td>
-</tr>
-</tbody>
-</table>
-<pre><code>## # A tibble: 5 × 5
-##   years_left num_seats num_students num_years `num_seats/num_years`
-##        &lt;dbl&gt;     &lt;int&gt;        &lt;int&gt;     &lt;int&gt;                 &lt;dbl&gt;
-## 1          0       118          118         4                  29.5
-## 2          1       369          348         4                  92.2
-## 3          2       497          452         4                 124. 
-## 4          3       439          386         4                 110. 
-## 5          4       152          144         4                  38</code></pre>
-<pre><code>## # A tibble: 4 × 6
-## # Groups:   AY [4]
-##      AY `109` `192` `201` `220` `107`
-##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
-## 1  2018    57   151    28   134    NA
-## 2  2019    90   145    22   177    12
-## 3  2020    79   126    30   195    NA
-## 4  2021    51   139    76   132    NA</code></pre>
-<pre><code>## # A tibble: 4 × 6
-## # Groups:   AY [4]
-##      AY `109` `192` `201` `220` `107`
-##   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
-## 1  2018    13    35     8    37    NA
-## 2  2019    18    47    10    49     3
-## 3  2020    23    39    18    46    NA
-## 4  2021     7    43    24    19    NA</code></pre>
+<pre><code>## Error in group_by(., grad_year): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in ggplot(by_grad_year, aes(x = grad_year, y = num_students)): object &#39;by_grad_year&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;grad_plot&#39; not found</code></pre>
+<pre><code>## Error in is.theme(e1): object &#39;grad_plot&#39; not found</code></pre>
+<pre><code>## Error in summarize(., N = n(), numIntro = sum(is_intro), num220 = sum(number == : object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in filter(., is_intro, AY &gt;= 2018): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in library(bannerdata): there is no package called &#39;bannerdata&#39;</code></pre>
+<pre><code>## Error in filter(., is_intro, AY &gt;= 2018): object &#39;sds&#39; not found</code></pre>
+<pre><code>## Error in filter(., is_intro, AY &gt;= 2018, grad_year - year == 3): object &#39;sds&#39; not found</code></pre>
 </div>
 
     <div id="footer">
