@@ -40,7 +40,7 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 
 - 2021
     - Audrey Bertin '21, Highest Honors  
-      [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/)  
+      [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/2317)  
       Adviser: Ben Baumer
 - 2020
     - Jessica Keast '20, Highest Honors  
