@@ -46,6 +46,13 @@ Important lessons to learn and revelations students might make while completing 
 - Synthesis: Students construct new ways to code race
 
 
+## Related work in data science ethics
+
+- @gebru2020race
+- @benjamin2019race
+- @d4bl
+- @codedbias
+
 ## Generalizability
 
 - any use of pre-collected racial/ethnic data

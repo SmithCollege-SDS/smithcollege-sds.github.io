@@ -42,6 +42,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Evaluation: Students judge the actions of real-world actors and justify their assessment
 
+
+
+## Related work in data science ethics
+
+- @codedbias
+- @elliott2018teaching
+
 ## Generalizability
 
 - any data science product

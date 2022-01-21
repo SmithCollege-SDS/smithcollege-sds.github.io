@@ -72,7 +72,7 @@ enrollment_plot <- ggplot(
   annotate(geom = "text", x = "2015.75", y = 300, label = "Major\napproved", size = 3) + 
   annotate("curve", x = "2015.75", xend = "2016.25", y = 275, yend = 150, 
            curvature = -0.5, angle = 120,
-           arrow = arrow(length = unit(0.2, "cm"))) + 
+           arrow = grid::arrow(length = unit(0.2, "cm"))) + 
   scale_y_continuous("Total Enrollment (seats)") + 
   scale_x_discrete("Term") + 
   scale_fill_smith_d("Unit") + 
@@ -86,6 +86,22 @@ enrollment_plot <- ggplot(
 enrollment_plot
 # ggsave(filename = here::here("gfx", "sds_enrollments_by_unit.png"), width = 12, height = 9)
 ```
+
+```{r}
+sds %>%
+  group_by(AY) %>%
+  summarize(N = n(), num_students = n_distinct(id), num_sections = n_distinct(crn))
+
+sds %>%
+  filter(AY == 2021) %>%
+  group_by(crn, number) %>%
+  summarize(
+    N = n(), num_students = n_distinct(id)
+  ) %>%
+  print(n = Inf)
+
+```
+
 
 ## Service vs. major
 

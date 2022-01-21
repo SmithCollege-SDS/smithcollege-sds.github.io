@@ -43,6 +43,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - Application: Students apply knowledge of data science ethics in real-world context
 
 
+## Related work in data science ethics
+
+- @fiesler2020we
+
 ## Generalizability
 
 - any collection of data on humans

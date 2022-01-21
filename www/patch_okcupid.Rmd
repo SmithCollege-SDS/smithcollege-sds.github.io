@@ -46,6 +46,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Application: Students apply knowledge of data science ethics in real-world context
 
+## Related work in data science ethics
+
+- @zimmer2010but
+
 ## Generalizability
 
 - any publishing of personal data

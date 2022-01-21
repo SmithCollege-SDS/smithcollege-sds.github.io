@@ -104,14 +104,14 @@ Some big changes occurred on the faculty side:
 - After 31 years of teaching statistics at Smith, **Katherine Halvorsen** retired. Unfortunately, Katherine's much-deserved retirement party was postponed due to the pandemic, but we'll celebrate her once gatherings of more than 30 people are allowed on campus. As you might have expected given Katherine's work ethic, she is still planning to teach two classes this academic year. 
 - **Jenny Smetzer**, **Dhanamalee Bandara**, and **David Rockoff** have left the College. 
 - **Ben Baumer** received tenure and promotion to associate professor, and has taken over as SDS chair. Ben is the first faculty member to receive tenure as a member of SDS. 
-- We hired **Scott LaCombe** to a tenure-track position that is joint with the Government department (see below). Wish Scott well, he now has to deal with *two different Baumers* for department chairs! `r emo::ji("laughing")`
+- We hired **Scott LaCombe** to a tenure-track position that is joint with the Government department (see below). Wish Scott well, he now has to deal with *two different Baumers* for department chairs! `r emoji::emoji("laughing")`
 - **Sara Stoudt '15** finished her PhD at UC-Berkeley and was hired as a Lecturer. Even though Sara technically predates the SDS program, like many of you she is living proof that we are doing something right over here. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some news 🗞️: today is my first day as part of the <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> team. What a dream!</p>&mdash; Sara Stoudt, PhD (@sastoudt) <a href="https://twitter.com/sastoudt/status/1278344595978326017?ref_src=twsrc%5Etfw">July 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### Ben Baumer
 
-I'm trying to enjoy all the time at home with my wife and two children. `r emo::ji("zany")` Alice is 6, and she can now read, swim, ride a bike, and log in to a Linux terminal. Arlo is 3 and she is an adorable terror. Today I woke up when she jumped on my head (true story). 
+I'm trying to enjoy all the time at home with my wife and two children. `r emoji::emoji("zany face")` Alice is 6, and she can now read, swim, ride a bike, and log in to a Linux terminal. Arlo is 3 and she is an adorable terror. Today I woke up when she jumped on my head (true story). 
 
 Last fall, I taught a new course on advanced programming with R, that was very rewarding for both the students and me. [They wrote 11 R packages in three weeks](https://twitter.com/BaumerBen/status/1220456055353892864), some of which have already built up a user base and may make it onto CRAN! 
 
@@ -143,7 +143,7 @@ What a bonkers 2019-2020 it has been! We'll be telling our grandchildren's gener
 1. The print edition of my [*Statistical Inference via Data Science: A ModernDive into R and the Tidyverse*](https://moderndive.com/){target="_blank"} textbook was published by CRC Press.
 1. My first foray into forest ecology research was published by the Public Library of Science journal PLOS One: [*A permutation test and spatial cross-validation approach to assess models of interspecific competition between trees.*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229930){target="_blank"} Try saying that title three times fast! 
 
-Lastly, my normal self-care routines took a big hit from the shoulder surgery I had in December as well as the pandemic. Some new outlets for well-being I've discovered as a result include: sensory deprivation epsom salt-water floats, TRX suspension training, spinning, going on long walks, and gardening. Although a family of deer are constantly eating all my crops `r emo::ji("deer")``r emo::ji("deer")``r emo::ji("deer")``r emo::ji("herb")`!
+Lastly, my normal self-care routines took a big hit from the shoulder surgery I had in December as well as the pandemic. Some new outlets for well-being I've discovered as a result include: sensory deprivation epsom salt-water floats, TRX suspension training, spinning, going on long walks, and gardening. Although a family of deer are constantly eating all my crops `r emoji::emoji("deer")``r emoji::emoji("deer")``r emoji::emoji("deer")``r emoji::emoji("herb")`!
 
 #### Katherine M. Kinnaird
 
@@ -189,7 +189,7 @@ Since the last newsletter I had an amazing summer at the LA Times, I wrote my di
 
 ### Joint Statistical Meetings
 
-Many of us will be at the virtual Joint Statistical Meetings at the end of the month. We wish we could see you in person, but we'll have to settle for Zoom waves this year. `r emo::ji("disappointed")`
+Many of us will be at the virtual Joint Statistical Meetings at the end of the month. We wish we could see you in person, but we'll have to settle for Zoom waves this year. `r emoji::emoji("disappointed")`
 
 ### StatFest
 

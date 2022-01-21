@@ -44,6 +44,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Application: Students apply knowledge of data science ethics in real-world context
 
+## Related work in data science ethics
+
+- @gebru2020race
 
 ## Generalizability
 
@@ -76,13 +79,7 @@ Today's exercise will proceed as follows:
 
 1. You'll form groups of ideally two students.
 1. We'll watch the following 4 minute clip from ABC's [Good Morning America](http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347) to familiarize ourselves with StitchFix's business model.  
-</br>
-<center>
-<a href="http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347">
-<img border="0" alt="GMA" src="images/stitchfix/GMA.png" width="600">
-</a>
-</center>
-</br>
+<iframe src="https://www.goodmorningamerica.com/video/embed/49810458" width="640" height="360" scrolling="no" style="border:none;" allowfullscreen></iframe>  
 1. In groups you'll go to [StitchFix](https://www.stitchfix.com/) and complete the "Style Profile" quiz that collects information about your clothing preferences as follows:
     1. One of you will sign up for StitchFix.
     1. Together you'll both complete the quiz for one of the (binary) choices of gender: men or women.

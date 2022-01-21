@@ -45,6 +45,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Evaluation: Students argue for a specific proposition and defend it
 
+## Related work in data science ethics
+
+- @burton2018teach
+
 ## Generalizability
 
 - Discussions about data ownership, usage, and access 

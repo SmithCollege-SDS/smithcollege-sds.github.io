@@ -196,7 +196,7 @@ I have lived in Birmingham since I first came to the US back in 2013 and this wi
 ### Joint Statistical Meetings
 
 Many of us will be at the virtual [2021 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/index.cfm) during the second week of August. 
-We wish we could see you in person, but we'll have to settle for Zoom waves yet again this year. `r emo::ji("disappointed")`
+We wish we could see you in person, but we'll have to settle for Zoom waves yet again this year. `r emoji::emoji("disappointed")`
 
 ### StatFest
 

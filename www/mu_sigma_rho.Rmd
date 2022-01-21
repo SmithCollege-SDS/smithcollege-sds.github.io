@@ -12,8 +12,10 @@ output:
 library(tidyverse)
 ```
 
-```{r, eval=TRUE, include=FALSE}
+```{r read-sheet, eval=TRUE, include=FALSE}
 library(googlesheets4)
+options(gargle_oauth_email = TRUE)
+# gs4_auth(email = TRUE)
 key <- "1P2ZOOXB5dHwycXZkFYm_3u7M4lEPPm36RJHdMloAZlY"
 archive <- read_sheet(key)
 ```
