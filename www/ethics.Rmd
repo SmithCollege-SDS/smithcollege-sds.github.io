@@ -6,6 +6,9 @@ output:
     toc: false
 ---
 
+
+### Supplementary materials
+
 In our paper, *Integrating Data Science Ethics Into an Undergraduate Major: A Case Study* [@baumer2020integrating], we describe six ethics modules that can be incorporated into various classes. 
 These modules are summarized in Table 1 of the paper, which is reproduced below. 
 This table connects each module to the relevant categories as defined by @floridi2016what and the taxonomy of learning defined by @bloom1956taxonomy.
