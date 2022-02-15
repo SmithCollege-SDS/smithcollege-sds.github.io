@@ -9,15 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="blinded" />
 
 
-<title>Ethics patches in a box</title>
+<title>Teaching Data Science Ethics</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -235,75 +231,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-
 
 </head>
 
@@ -311,16 +238,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -462,112 +379,72 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Ethics patches in a box</h1>
-<h3 class="subtitle">a clever, topical title</h3>
-<h4 class="author">blinded</h4>
-<h4 class="date">Last updated on 2022-02-14</h4>
+<h1 class="title toc-ignore">Teaching Data Science Ethics</h1>
 
 </div>
 
 
-<div id="description-of-coursesetting" class="section level1">
-<h1>Description of course/setting</h1>
-<ul>
-<li>senior capstone in statistical &amp; data sciences</li>
-<li>introductory data science course</li>
-<li>any course that covers web scraping</li>
-</ul>
-</div>
-<div id="student-preparation-required" class="section level1">
-<h1>Student preparation required</h1>
-<ul>
-<li>no technical knowledge required</li>
-<li>before class, read:
-<ul>
-<li><span class="citation">Kim and Escobedo-Land (2015)</span></li>
-<li><span class="citation">Poulsen (2014)</span></li>
-<li><span class="citation">Hackett (2016)</span></li>
-</ul></li>
-<li>(optional) other reference material:
-<ul>
-<li><span class="citation">Kirkegaard and Bjerrekær (2016)</span></li>
-</ul></li>
-</ul>
-</div>
-<div id="instructions-for-students" class="section level1">
-<h1>Instructions for students</h1>
-<ul>
-<li>Your goal in this class activity is to help Prof. Kim draft a letter to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> that addresses any ethical considerations you find present in <span class="citation">Kim and Escobedo-Land (2015)</span>. Perhaps you think Prof. Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.</li>
-<li>You may want to consult the Internet for relevant facts during the group discussion.</li>
-<li>Have at least one person taking notes during your discussion, preferably on a white board that all group members can see.</li>
-<li>There is no right or wrong answer. However, your choices should be based on informed logical reasoning.</li>
-</ul>
-</div>
-<div id="activity-description" class="section level1">
-<h1>Activity description</h1>
-<ol>
-<li>(5 minutes): Give a brief overview of the three uses of <a href="https://en.wikipedia.org/wiki/OkCupid">OkCupid</a> data. Focus on Prof. Kim’s responsibilities as a published author. The students should have already read the assigned material.</li>
-<li>(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:
-<ol>
-<li>Other OkCupid users
-<ul>
-<li>Discuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof. Kim’s situation?</li>
-</ul></li>
-<li>Anonymization and differential privacy
-<ul>
-<li>What role do <a href="https://en.wikipedia.org/wiki/Data_anonymization">data anonymization</a> and <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> play in Prof. Kim’s situation? Could these techniques lead to a safer product?</li>
-</ul></li>
-<li>Terms of Service
-<ul>
-<li>How closely do the ethical issues track the legal issues? What role do <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a> and/or The <a href="https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act">Computer Fraud and Abuse Act</a> (CFAA) play?</li>
-</ul></li>
-<li>Value of Data
-<ul>
-<li>What is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?</li>
-</ul></li>
-</ol></li>
-<li>(10 minutes): Have each group draft a <strong>one-paragraph statement</strong> to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> on your topic that <strong>all</strong> group members agree with.</li>
-<li>(10 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.</li>
-<li>(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.</li>
-</ol>
-</div>
-<div id="questionsgoals-addressed" class="section level1">
-<h1>Questions/goals addressed</h1>
-<ul>
-<li>If I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?</li>
-<li>How do my ethical responsibilities differ from my legal responsibilities?</li>
-<li>Are there technical solutions that could allow me to publish the data while protecting people’s privacy?</li>
-<li>Are my ethical responsibitilies impacted by the value of the data?</li>
-</ul>
-</div>
-<div id="deliverables" class="section level1">
-<h1>Deliverables</h1>
-<ul>
-<li>one paragraph from each group</li>
-<li>(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of <em>JSE</em> suitable for publication. Send the letter to Prof. Kim!</li>
-</ul>
-</div>
-<div id="generalizability" class="section level1">
-<h1>Generalizability</h1>
-<ul>
-<li>any publishing of personal data</li>
-<li>any attempt at web scraping</li>
-</ul>
-</div>
-<div id="references" class="section level1 unnumbered">
-<h1 class="unnumbered">References</h1>
+<p>In our paper, <em>Integrating Data Science Ethics Into an Undergraduate Major: A Case Study</em> <span class="citation">(Baumer et al. 2022)</span>, we describe six ethics modules that can be incorporated into various classes. These modules are summarized in Table 1 of the paper, which is reproduced below. This table connects each module to the relevant categories as defined by <span class="citation">Floridi and Taddeo (2016)</span> and the taxonomy of learning defined by <span class="citation">Bloom and others (1956)</span>. Hyperlinks will take you to the actual teaching material.</p>
+<table>
+<caption>Summary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. ‘Bloom’ refers to Bloom’s taxonomy.</caption>
+<thead>
+<tr class="header">
+<th align="left">Section</th>
+<th align="left">Topic</th>
+<th align="left">Categories</th>
+<th align="left">Bloom</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">4.1</td>
+<td align="left"><a href="patch_okcupid.html">OkCupid</a></td>
+<td align="left">data</td>
+<td align="left">Application</td>
+</tr>
+<tr class="even">
+<td align="left">4.2</td>
+<td align="left"><a href="patch_stitchfix.html">StitchFix</a></td>
+<td align="left">algorithms</td>
+<td align="left">Application</td>
+</tr>
+<tr class="odd">
+<td align="left">4.3</td>
+<td align="left"><a href="patch_social_networks.html">Grey’s Anatomy</a></td>
+<td align="left">practices, data</td>
+<td align="left">Application</td>
+</tr>
+<tr class="even">
+<td align="left">4.4</td>
+<td align="left"><a href="patch_music.html">Copywriting music</a></td>
+<td align="left">practices</td>
+<td align="left">Evaluation</td>
+</tr>
+<tr class="odd">
+<td align="left">4.5</td>
+<td align="left"><a href="patch_race_coding.html">Coding race</a></td>
+<td align="left">practices, data</td>
+<td align="left">Synthesis</td>
+</tr>
+<tr class="even">
+<td align="left">4.6</td>
+<td align="left"><a href="patch_wmd.html">Weapons of Math Destruction</a></td>
+<td align="left">practices, algorithms</td>
+<td align="left">Evaluation</td>
+</tr>
+</tbody>
+</table>
+<div id="references" class="section level2 unnumbered">
+<h2 class="unnumbered">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-hackett2016fortune" class="csl-entry">
-Hackett, Robert. 2016. <span>“Researchers Caused an Uproar by Publishing Data from 70,000 OkCupid Users.”</span> Fortune. <a href="https://fortune.com/2016/05/18/okcupid-data-research/">https://fortune.com/2016/05/18/okcupid-data-research/</a>.
+<div id="ref-baumer2020integrating" class="csl-entry">
+Baumer, Benjamin S, Randi L Garcia, Albert Y Kim, Katherine M Kinnaird, and Miles Q Ott. 2022. <span>“Integrating Data Science Ethics into an Undergraduate Major: A Case Study.”</span> <em>Journal of Statistics and Data Science Education</em>. <a href="https://arxiv.org/abs/2001.07649">https://arxiv.org/abs/2001.07649</a>.
 </div>
-<div id="ref-kim2015okcupid" class="csl-entry">
-Kim, Albert Y, and Adriana Escobedo-Land. 2015. <span>“<span>OKCupid</span> Data for Introductory Statistics and Data Science Courses.”</span> <em>Journal of Statistics Education</em> 23 (2). <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.
+<div id="ref-bloom1956taxonomy" class="csl-entry">
+Bloom, Benjamin S, and others. 1956. <span>“Taxonomy of Educational Objectives. Vol. 1: Cognitive Domain.”</span> Edited by Benjamin S Bloom and others. <em>New York: McKay</em> 20 (24): 1.
 </div>
-<div id="ref-kirkegaard2016okcupid" class="csl-entry">
-Kirkegaard, Emil OW, and Julius D Bjerrekær. 2016. <span>“The <span>OKCupid</span> Dataset: A Very Large Public Dataset of Dating Site Users.”</span> <em>Open Differential Psychology</em> 46.
-</div>
-<div id="ref-poulsen2014wired" class="csl-entry">
-Poulsen, Kevin. 2014. <span>“How a Math Genius Hacked <span>OKC</span>upid to Find True Love.”</span> Wired. <a href="https://www.wired.com/2014/01/how-to-hack-okcupid/">https://www.wired.com/2014/01/how-to-hack-okcupid/</a>.
+<div id="ref-floridi2016what" class="csl-entry">
+Floridi, Luciano, and Mariarosaria Taddeo. 2016. <span>“What Is Data Ethics?”</span> <em>Philosophical Transactions of the Royal Society A</em>, December. <a href="https://doi.org/10.1098/rsta.2016.0360">https://doi.org/10.1098/rsta.2016.0360</a>.
 </div>
 </div>
 </div>
@@ -579,8 +456,6 @@ Poulsen, Kevin. 2014. <span>“How a Math Genius Hacked <span>OKC</span>upid to 
     </div>
 
 
-</div>
-</div>
 
 </div>
 
@@ -613,35 +488,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

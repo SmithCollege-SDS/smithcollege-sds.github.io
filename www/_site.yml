@@ -48,22 +48,10 @@ navbar:
       menu:
         - text: "Ethics"
           icon: fa-book
-          menu:
-            - text: "Copywriting music"
-              href: patch_music.html
-            - text: "OkCupid"
-              href: patch_okcupid.html
-            - text: "Coding race"
-              href: patch_race_coding.html
-            - text: "Social networks"
-              href: patch_social_networks.html
-            - text: "StitchFix"
-              href: patch_stitchfix.html
-            - text: "Codes of ethics"
-              href: patch_wmd.html
+          href: ethics.html
         - text: "Calendar"
           icon: fa-calendar-alt
-          href: JSE_calendar.html           
+          href: JSE_calendar.html
   right:
     - icon: fa-github
       href: https://github.com/SmithCollege-SDS

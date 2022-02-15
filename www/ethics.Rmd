@@ -1,0 +1,34 @@
+---
+title: "Teaching Data Science Ethics"
+bibliography: bibliography.bib
+output:
+  html_document:
+    toc: false
+---
+
+In our paper, *Integrating Data Science Ethics Into an Undergraduate Major: A Case Study* [@baumer2020integrating], we describe six ethics modules that can be incorporated into various classes. 
+These modules are summarized in Table 1 of the paper, which is reproduced below. 
+This table connects each module to the relevant categories as defined by @floridi2016what and the taxonomy of learning defined by @bloom1956taxonomy.
+Hyperlinks will take you to the actual teaching material. 
+
+```{r modules, echo=FALSE, message=FALSE}
+library(tidyverse)
+modules <- tribble(
+  ~Section, ~Topic, ~Categories, ~Bloom, ~url,
+  "4.1", "OkCupid", "data", "Application", "patch_okcupid.html",
+  "4.2", "StitchFix", "algorithms", "Application", "patch_stitchfix.html",
+  "4.3", "Grey's Anatomy", "practices, data", "Application", "patch_social_networks.html",
+  "4.4", "Copywriting music", "practices", "Evaluation", "patch_music.html",
+  "4.5", "Coding race", "practices, data", "Synthesis", "patch_race_coding.html",
+  "4.6", "Weapons of Math Destruction", "practices, algorithms", "Evaluation", "patch_wmd.html",
+)
+modules %>%
+  mutate(
+    Topic = paste0("[", Topic, "](", url, ")")
+  ) %>%
+  select(-url) %>%
+  knitr::kable(caption = "Summary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. 'Bloom' refers to Bloom's taxonomy.")
+```
+
+
+## References
