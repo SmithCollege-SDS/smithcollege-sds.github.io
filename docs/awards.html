@@ -13,7 +13,7 @@
 
 <title>Awards Archive</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -50,6 +50,7 @@
 
 
 
+
 <link rel="stylesheet" href="include/smith.css" type="text/css" />
 
 
@@ -74,6 +75,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -299,7 +303,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -316,7 +320,7 @@ div.tocify {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-award"></span>
      
     Awards
@@ -347,7 +351,7 @@ div.tocify {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-pencil-alt"></span>
      
     Writing
@@ -363,7 +367,7 @@ div.tocify {
       </a>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <span class="fa fa-newspaper"></span>
          
         Newsletters
@@ -392,7 +396,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-chalkboard-teacher"></span>
      
     Teaching
@@ -440,9 +444,14 @@ div.tocify {
 
 <div id="prizes" class="section level1">
 <h1>Prizes</h1>
-<div id="statistical-data-sciences-research-prize" class="section level2">
+<div id="statistical-data-sciences-research-prize"
+class="section level2">
 <h2>Statistical &amp; Data Sciences Research Prize</h2>
-<p>The program awards an annual prize to a student majoring in SDS who performed outstanding research during her time at Smith. The faculty meets every spring to review the research projects they have supervised and select the prize recipient, who is then notified at the annual Awards Ceremony the day before Commencement.</p>
+<p>The program awards an annual prize to a student majoring in SDS who
+performed outstanding research during her time at Smith. The faculty
+meets every spring to review the research projects they have supervised
+and select the prize recipient, who is then notified at the annual
+Awards Ceremony the day before Commencement.</p>
 <div id="awardees" class="section level3">
 <h3>Awardees</h3>
 <ul>
@@ -456,23 +465,38 @@ div.tocify {
 </div>
 <div id="five-college-statistics-prize" class="section level2">
 <h2>Five College Statistics Prize</h2>
-<p>The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</a> prize is awarded to one student at each of the Five Colleges, at their discretion. The award may be presented to a student satisfying any one of the following criteria (based on faculty vote from that institution):</p>
+<p>The <a href="https://www.fivecolleges.edu/statistics/">Five College
+Statistics</a> prize is awarded to one student at each of the Five
+Colleges, at their discretion. The award may be presented to a student
+satisfying any one of the following criteria (based on faculty vote from
+that institution):</p>
 <ul>
-<li>outstanding independent research, thesis, or capstone course project in statistics</li>
-<li>outstanding service to statistics on their campus (or across campuses)</li>
+<li>outstanding independent research, thesis, or capstone course project
+in statistics</li>
+<li>outstanding service to statistics on their campus (or across
+campuses)</li>
 <li>outstanding use of Five College statistics resources</li>
 <li>outstanding non-senior pursuing further study in statistics</li>
 </ul>
 <div id="awardees-1" class="section level3">
 <h3>Awardees</h3>
 <ul>
-<li>2021: Yujia (Starry) Zhou ’21J and Hannah Snell ’21 <cite>(outstanding service to statistics)</cite></li>
-<li>2020: Laneé Jung ’20 and Fatima Keita ’20 <cite>(outstanding service to statistics)</cite></li>
-<li>2019: Yue Kuang ’19, Zixian Li ’19, and Jingyi Liu ’19 <cite>(outstanding senior capstone project)</cite></li>
-<li>2018: Paige Patrick ’AC and Rutendo Madziwo ’19 <cite>(outstanding service to statistics)</cite></li>
-<li>2017: Abby Doctor ’17 <cite>(outstanding senior capstone project)</cite></li>
-<li>2016: Yiwen Zhu ’16 and Emma Beauchamp ’16 <cite>(outstanding theses)</cite></li>
-<li>2015: Weijia (Vega) Zhang ’18 <cite>(outstanding non-senior)</cite></li>
+<li>2022: Sarah Gillespie ’22J, Joyce Huang ’22, Arris Moise ’22, Chichi
+Wu ’22 <cite>(outstanding service to statistics)</cite></li>
+<li>2021: Yujia (Starry) Zhou ’21J and Hannah Snell ’21
+<cite>(outstanding service to statistics)</cite></li>
+<li>2020: Laneé Jung ’20 and Fatima Keita ’20 <cite>(outstanding service
+to statistics)</cite></li>
+<li>2019: Yue Kuang ’19, Zixian Li ’19, and Jingyi Liu ’19
+<cite>(outstanding senior capstone project)</cite></li>
+<li>2018: Paige Patrick ’AC and Rutendo Madziwo ’19 <cite>(outstanding
+service to statistics)</cite></li>
+<li>2017: Abby Doctor ’17 <cite>(outstanding senior capstone
+project)</cite></li>
+<li>2016: Yiwen Zhu ’16 and Emma Beauchamp ’16 <cite>(outstanding
+theses)</cite></li>
+<li>2015: Weijia (Vega) Zhang ’18 <cite>(outstanding
+non-senior)</cite></li>
 </ul>
 </div>
 </div>
@@ -483,37 +507,46 @@ div.tocify {
 <li>2021
 <ul>
 <li>Audrey Bertin ’21, Highest Honors<br />
-<a href="https://scholarworks.smith.edu/theses/2317">Addressing The Scientific Reproducibility Crisis Through Educational Software Integration</a><br />
+<a href="https://scholarworks.smith.edu/theses/2317">Addressing The
+Scientific Reproducibility Crisis Through Educational Software
+Integration</a><br />
 Adviser: Ben Baumer</li>
 </ul></li>
 <li>2020
 <ul>
 <li>Jessica Keast ’20, Highest Honors<br />
-<a href="https://scholarworks.smith.edu/theses/2227/">Twang Identification in American Folk and Country Music</a><br />
+<a href="https://scholarworks.smith.edu/theses/2227/">Twang
+Identification in American Folk and Country Music</a><br />
 Adviser: Katherine Kinnaird</li>
 <li>Aoi Ogawa ’20, High Honors<br />
-<a href="https://scholarworks.smith.edu/theses/2251/">Estimating Microbial Diversity of Toxin Producing Bacteria from Soil Using Cellular Automata</a><br />
+<a href="https://scholarworks.smith.edu/theses/2251/">Estimating
+Microbial Diversity of Toxin Producing Bacteria from Soil Using Cellular
+Automata</a><br />
 Adviser: Katherine Halvorsen, Chris Golé, Jan Vriezen</li>
 <li>Ziwei (Crystal) Zang ’20<br />
-<a href="https://scholarworks.smith.edu/theses/2290/">Metabolites Prediction in Multiple Studies Using Machine Learning</a><br />
+<a href="https://scholarworks.smith.edu/theses/2290/">Metabolites
+Prediction in Multiple Studies Using Machine Learning</a><br />
 Adviser: Katherine Halvorsen</li>
 </ul></li>
 <li>2019
 <ul>
 <li>Julianna Alvord ’19, Highest Honors<br />
-<a href="https://scholarworks.smith.edu/theses/2108">Modeling Racially Disproportionate Language on Twitter during NFL Gameplay</a><br />
+<a href="https://scholarworks.smith.edu/theses/2108">Modeling Racially
+Disproportionate Language on Twitter during NFL Gameplay</a><br />
 Adviser: Randi Garcia and Ben Baumer</li>
 </ul></li>
 <li>2018
 <ul>
 <li>Wencong (Priscilla) Li ’18, Highest Honors<br />
-<a href="https://scholarworks.smith.edu/theses/2032">Tools for understanding taxicab and e-hail service use in New York City</a><br />
+<a href="https://scholarworks.smith.edu/theses/2032">Tools for
+understanding taxicab and e-hail service use in New York City</a><br />
 Adviser: Ben Baumer</li>
 </ul></li>
 <li>2017
 <ul>
 <li>Weijia (Vega) Zhang ’17, High Honors<br />
-<a href="https://scholarworks.smith.edu/theses/1871">Improving access to open-source data about the NYC bike sharing system (Citi Bike)</a><br />
+<a href="https://scholarworks.smith.edu/theses/1871">Improving access to
+open-source data about the NYC bike sharing system (Citi Bike)</a><br />
 Adviser: Ben Baumer</li>
 </ul></li>
 </ul>
@@ -521,113 +554,196 @@ Adviser: Ben Baumer</li>
 <div id="competitions" class="section level1">
 <h1>Competitions</h1>
 <div id="asa-five-college-datafest" class="section level2">
-<h2><a href="http://www.science.smith.edu/datafest/">ASA Five College DataFest</a></h2>
-<p>DataFest is a national undergraduate data analysis competition hosted at UMass each spring, in which students work in teams of up to five to extract insights from a complex, challenging data set over a weekend.</p>
+<h2><a href="http://www.science.smith.edu/datafest/">ASA Five College
+DataFest</a></h2>
+<p>DataFest is a national undergraduate data analysis competition hosted
+at UMass each spring, in which students work in teams of up to five to
+extract insights from a complex, challenging data set over a
+weekend.</p>
 <p>Recent winners from Smith include:</p>
 <ul>
 <li><a href="http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/">2019</a>
 <ul>
-<li>Best in Show: A-super-NOVA </br> Audrey Bertin ’21, Arielle Dror ’20, Clara Rosenberg ’20, Kara VanAllen ’20</li>
-<li>Best in Group (Panel B): Data Pirates </br> Tina Liu ’22, Francesca Giardine, Jessica Keast ’20</li>
-<li>Best Multilevel Solution: ggsquad2</br> Elaona Lemoto ’20, Ana Porro, Mathena Abramson ’19, Paige Patrick AC, Jordan Moody ’20</li>
-<li>Best External Data: FUN[ction]</br> Khulood Fahim, Zoya Alam, Melanie Nguyen, Julia Bouzaher</li>
-<li>Best Actionable Insight: LeGit</br> Victoria Zheng, Sunni Raleigh, Kelly Pien, Catherine Kung</li>
-<li>Best Data Insight: Unofficial Intelligence</br> Yanwan Zhu, Xian (Elaine) Ye, Rachel Yan, Kelly Shen ’21, Yifan Ma ’20, Nichole Yao</li>
+<li>Best in Show: A-super-NOVA </br> Audrey Bertin ’21, Arielle Dror
+’20, Clara Rosenberg ’20, Kara VanAllen ’20</li>
+<li>Best in Group (Panel B): Data Pirates </br> Tina Liu ’22, Francesca
+Giardine, Jessica Keast ’20</li>
+<li>Best Multilevel Solution: ggsquad2</br> Elaona Lemoto ’20, Ana
+Porro, Mathena Abramson ’19, Paige Patrick AC, Jordan Moody ’20</li>
+<li>Best External Data: FUN[ction]</br> Khulood Fahim, Zoya Alam,
+Melanie Nguyen, Julia Bouzaher</li>
+<li>Best Actionable Insight: LeGit</br> Victoria Zheng, Sunni Raleigh,
+Kelly Pien, Catherine Kung</li>
+<li>Best Data Insight: Unofficial Intelligence</br> Yanwan Zhu, Xian
+(Elaine) Ye, Rachel Yan, Kelly Shen ’21, Yifan Ma ’20, Nichole Yao</li>
 </ul></li>
 <li><a href="http://www.science.smith.edu/datafest/2018/03/27/winners-from-asa-five-college-datafest-2018/">2018</a>
 <ul>
-<li>Best in Group (Panel B): A-super-NOVA </br> Audrey Bertin ’21, Riley Boeth ’18, Emma Livingston ’20, Clara Rosenberg ’20, Kara VanAllen ’20</li>
+<li>Best in Group (Panel B): A-super-NOVA </br> Audrey Bertin ’21, Riley
+Boeth ’18, Emma Livingston ’20, Clara Rosenberg ’20, Kara VanAllen
+’20</li>
 </ul></li>
 <li><a href="http://www.science.smith.edu/datafest/2017/04/02/recap-of-winners-from-datafest-2017/">2017</a>
 <ul>
-<li>Best in Show: DataBest </br> Zainab Aqdas Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen ’18</li>
-<li>Best Statistical Interpretation: Normally Distributed </br> Zixian Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa Alam ’19J</li>
-<li>Best Business Insight: Standard Divination </br> Isabella Zhu ’20, Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20</li>
+<li>Best in Show: DataBest </br> Zainab Aqdas Rizvi ’18, Subashini
+Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen
+’18</li>
+<li>Best Statistical Interpretation: Normally Distributed </br> Zixian
+Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa
+Alam ’19J</li>
+<li>Best Business Insight: Standard Divination </br> Isabella Zhu ’20,
+Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20</li>
 </ul></li>
 <li><a href="http://www.science.smith.edu/datafest/2015/03/30/datafest-2015-recap/">2015</a>
 <ul>
-<li>Best in Show: 2β||!2β <br> Galen Long ’15, Sara Stoudt ’15, Zhenzhen Tan ’15, Aiyi Zhang ’15, Weijia (Vega) Zhang ’18</li>
+<li>Best in Show: 2β||!2β <br> Galen Long ’15, Sara Stoudt ’15, Zhenzhen
+Tan ’15, Aiyi Zhang ’15, Weijia (Vega) Zhang ’18</li>
 </ul></li>
 <li><a href="http://www.science.smith.edu/datafest/2014/03/31/congratulations-to-all-participants/">2014</a>
 <ul>
-<li>Best in Show: P-Valuables<br> Deirdre Fitzpatrick ’14, Michele Handy ’15, Maja Milosavljevic ’14, Sara Stoudt ’15, and Dana Udwin ’14</li>
+<li>Best in Show: P-Valuables<br> Deirdre Fitzpatrick ’14, Michele Handy
+’15, Maja Milosavljevic ’14, Sara Stoudt ’15, and Dana Udwin ’14</li>
 </ul></li>
 </ul>
 </div>
-<div id="undergraduate-statistics-project-competition-usclap" class="section level2">
-<h2><a href="https://www.causeweb.org/usproc/USCLAP%20Competition">Undergraduate Statistics Project Competition</a> (USCLAP)</h2>
-<p>The class project competition is for undergraduate students who conduct projects as part of an introductory or intermediate level statistics course. Most projects submitted to the USCLAP competition involve analyzing real data using existing statistical techniques. Students may choose any topic on which to conduct a study and students may use existing data or collect their own.</p>
+<div id="undergraduate-statistics-project-competition-usclap"
+class="section level2">
+<h2><a
+href="https://www.causeweb.org/usproc/USCLAP%20Competition">Undergraduate
+Statistics Project Competition</a> (USCLAP)</h2>
+<p>The class project competition is for undergraduate students who
+conduct projects as part of an introductory or intermediate level
+statistics course. Most projects submitted to the USCLAP competition
+involve analyzing real data using existing statistical techniques.
+Students may choose any topic on which to conduct a study and students
+may use existing data or collect their own.</p>
 <p>Recent winners from Smith include:</p>
 <ul>
 <li>2021
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usclap/2021/spring/winners">3rd Place (Intermediate Statistics)</a>: Quinn White ’23 and Rose Evard ’23<br />
-<cite>“Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication?”</cite><br />
+<li><a
+href="https://www.causeweb.org/usproc/usclap/2021/spring/winners">3rd
+Place (Intermediate Statistics)</a>: Quinn White ’23 and Rose Evard
+’23<br />
+<cite>“Predicting Depression in the United States: Are Sexual
+Orientation, Race, and Income Related to Taking Depression
+Medication?”</cite><br />
 Faculty sponsor: Miles Ott</li>
 </ul></li>
 <li>2020
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usclap/2020/fall/winners">1st Place (Intermediate Statistics)</a>: Xian Ye ’21, Hannah Snell ’21, Dianne Caravela ’22, &amp; Natalia Iannucci ’22<br />
-<cite>“Bayesian Analysis of Quality of Life and PPE (Personal Protective Equipment) Use During the Coronavirus (COVID-19) Pandemic”</cite><br />
+<li><a
+href="https://www.causeweb.org/usproc/usclap/2020/fall/winners">1st
+Place (Intermediate Statistics)</a>: Xian Ye ’21, Hannah Snell ’21,
+Dianne Caravela ’22, &amp; Natalia Iannucci ’22<br />
+<cite>“Bayesian Analysis of Quality of Life and PPE (Personal Protective
+Equipment) Use During the Coronavirus (COVID-19) Pandemic”</cite><br />
 Faculty sponsor: Miles Ott</li>
-<li><a href="https://www.causeweb.org/usproc/usclap/2020/fall/winners">Honorable Mention (Intermediate Statistics)</a>: Juliet Ramey-Lariviere ’22, Ivy Chen ’22, &amp; Kathleen Hablutzel ’23<br />
-<cite>“Measuring Healthcare Access: Are Income and Health Insurance Coverage Associated with whether Americans have a Usual Doctor’s Office?”</cite><br />
+<li><a
+href="https://www.causeweb.org/usproc/usclap/2020/fall/winners">Honorable
+Mention (Intermediate Statistics)</a>: Juliet Ramey-Lariviere ’22, Ivy
+Chen ’22, &amp; Kathleen Hablutzel ’23<br />
+<cite>“Measuring Healthcare Access: Are Income and Health Insurance
+Coverage Associated with whether Americans have a Usual Doctor’s
+Office?”</cite><br />
 Faculty sponsor: Miles Ott</li>
-<li><a href="https://www.causeweb.org/usproc/usclap/2020/spring/winners">1st Place (Intermediate Statistics)</a>: Clara Li ’23, Rose Porta ’23<br />
-<cite>“Analysis of Sleep and Depression as Risk Factors for Diabetes”</cite><br />
+<li><a
+href="https://www.causeweb.org/usproc/usclap/2020/spring/winners">1st
+Place (Intermediate Statistics)</a>: Clara Li ’23, Rose Porta ’23<br />
+<cite>“Analysis of Sleep and Depression as Risk Factors for
+Diabetes”</cite><br />
 Faculty sponsor: Ben Capistrant</li>
 </ul></li>
 <li>2018
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usclap/2018/spring/winners">Honorable Mention (Introductory Statistics)</a>: Rebecca Wolf ’20, Francesca Giardine ’20, Denize Keles ’20, &amp; Rebecca Miller ’20<br />
+<li><a
+href="https://www.causeweb.org/usproc/usclap/2018/spring/winners">Honorable
+Mention (Introductory Statistics)</a>: Rebecca Wolf ’20, Francesca
+Giardine ’20, Denize Keles ’20, &amp; Rebecca Miller ’20<br />
 <cite>“Statistical Analysis of Climate Change Variables”</cite><br />
 Faculty sponsor: Miles Ott</li>
 </ul></li>
 <li>2017
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda ’18<br />
+<li><a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd
+Place (Introductory Statistics)</a>: Erina Fukuda ’18<br />
 <cite>“Factors that Impact Video Game Sales”</cite><br />
 Faculty sponsor: Ulf Aslak Jensen (DIS)</li>
-<li><a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st Place (Intermediate Statistics)</a>: Angelica Estrada ’18 PB, Jessica Wert ’18, Oumayma Koulouh ’19<br />
+<li><a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st
+Place (Intermediate Statistics)</a>: Angelica Estrada ’18 PB, Jessica
+Wert ’18, Oumayma Koulouh ’19<br />
 <cite>“Helping the Red Cross Predict Flooding in Togo”</cite><br />
 Faculty sponsor: Jordan Crouser</li>
-<li><a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh ’17, Van Nguyen ’18, Abby Doctor ’17, Christine Yee ’17<br />
-<cite>“What Are Your Odds?”:An Interactive Web Application to Visualize Health Outcomes</cite><br />
+<li><a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd
+Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh ’17, Van
+Nguyen ’18, Abby Doctor ’17, Christine Yee ’17<br />
+<cite>“What Are Your Odds?”:An Interactive Web Application to Visualize
+Health Outcomes</cite><br />
 Faculty sponsor: Jordan Crouser</li>
-<li><a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd Place (Second Course in Statistics)</a>: Ji Won Chung ’18, Zainab Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18<br />
-<cite>A Business Opportunity: Targeting Expedia’s Niche Market in Travel Packages Via Analytical and Predictive Modeling</cite><br />
+<li><a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd
+Place (Second Course in Statistics)</a>: Ji Won Chung ’18, Zainab Rizvi
+’18, Subashini Sridhar ’18J, Ji Young Yun ’18<br />
+<cite>A Business Opportunity: Targeting Expedia’s Niche Market in Travel
+Packages Via Analytical and Predictive Modeling</cite><br />
 Faculty sponsor: Jordan Crouser</li>
 </ul></li>
 <li>2016
 <ul>
-<li><a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st Place (First Course in Statistics)</a>: Madison Laethem ’17, Grace Zhan ’18<br />
+<li><a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st
+Place (First Course in Statistics)</a>: Madison Laethem ’17, Grace Zhan
+’18<br />
 <cite>Predicting Student Debt Upon College Graduation</cite><br />
 Faculty sponsor: Jordan Crouser</li>
-<li><a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd Place (Second Course in Statistics)</a>:Ji Young Yun ’18, Wencong Li ’18<br />
-<cite>NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?</cite><br />
+<li><a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd
+Place (Second Course in Statistics)</a>:Ji Young Yun ’18, Wencong Li
+’18<br />
+<cite>NYC 311 - What are some of the factors that determine the number
+of days spent to solve non-emergency issues in New York
+City?</cite><br />
 Faculty sponsor: Jordan Crouser</li>
 </ul></li>
 <li>2014
 <ul>
-<li><a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable Mention</a>: Sara Stoudt ’15, Dana Udwin ’14, and Kelly Francis ’15<br />
+<li><a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable
+Mention</a>: Sara Stoudt ’15, Dana Udwin ’14, and Kelly Francis
+’15<br />
 <cite>WeathR: Twitter perspectives on the weather</cite><br />
 Faculty sponsor: Ben Baumer</li>
 </ul></li>
 </ul>
-<div id="undergraduate-research-project-competition-usresp" class="section level3">
-<h3><a href="https://www.causeweb.org/usproc/USRESP%20Competition">Undergraduate Research Project Competition</a> (USRESP)</h3>
-<p>The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor’s college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.</p>
+<div id="undergraduate-research-project-competition-usresp"
+class="section level3">
+<h3><a
+href="https://www.causeweb.org/usproc/USRESP%20Competition">Undergraduate
+Research Project Competition</a> (USRESP)</h3>
+<p>The research project competition is for undergraduate students who
+conduct research projects coming from activities like summer research
+projects, senior capstone course research projects, independent research
+projects (e.g., independent studies), Honor’s college research projects,
+or extension of class research projects. Some submissions to USRESP are
+applied research projects using existing statistical/analytical
+techniques to solve real world problems, which others are involve
+methodological research involving statistical applications or simulation
+studies evaluating different techniques. Students may collect their own
+data or use existing data and students can select any topic to
+study.</p>
 <ul>
 <li>2019
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usresp/2019/fall/winners">3rd Place</a>: Karen Santamaria ’20, Kara Van Allen ’20, Maggie X. Wang ’20, and Tiffany Xiao ’20J<br />
+<li><a
+href="https://www.causeweb.org/usproc/usresp/2019/fall/winners">3rd
+Place</a>: Karen Santamaria ’20, Kara Van Allen ’20, Maggie X. Wang ’20,
+and Tiffany Xiao ’20J<br />
 <em>Methods for Freeing Public Election Data from PDFs</em><br />
 Faculty sponsor: Ben Baumer</li>
 </ul></li>
 <li>2015
 <ul>
-<li><a href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd Place</a>: Sara Stoudt ’15<br />
-<em>Geostatistical Models for the Spatial Distribution of Uranium in the Continental United States</em><br />
+<li><a
+href="https://www.causeweb.org/usproc/usproc/2015-usresp-winners">2nd
+Place</a>: Sara Stoudt ’15<br />
+<em>Geostatistical Models for the Spatial Distribution of Uranium in the
+Continental United States</em><br />
 Faculty sponsor: Ben Baumer</li>
 </ul></li>
 </ul>
