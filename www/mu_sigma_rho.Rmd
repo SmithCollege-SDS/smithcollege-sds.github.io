@@ -21,6 +21,18 @@ archive <- read_sheet(key)
 ```
 
 ```{r, include=FALSE, eval=FALSE}
+nominees <- read_csv("~/Dropbox/SDS/students/mu_sigma_rho/Spring 2022 Mu sigma Rho.xlsx - mu sigma rho.csv")
+
+x <- nominees %>%
+  filter(str_detect(`Class Year`, "22|23J")) %>%
+  group_by(Student, `Class Year`, cumGPA) %>%
+  count() %>%
+  filter(n >= 2) %>%
+  arrange(desc(n))
+```
+
+
+```{r, include=FALSE, eval=FALSE}
 potential_nominees <- read_sheet("1Uy-pjhe0VSWrRKBaVrhC5bjbT1GSUS2qtuf9Eth3e_c")
 
 nominees <- potential_nominees %>%
