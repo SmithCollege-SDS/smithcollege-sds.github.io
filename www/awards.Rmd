@@ -10,6 +10,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ### Awardees
 
+- 2022: Natalia Iannucci '22
 - 2021: Audrey Bertin '21
 - 2020: Jessica Keast '20
 - 2019: Julianna Alvord '19
@@ -39,6 +40,10 @@ The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</
 	
 # Departmental Honors
 
+- 2022
+    - Natalia Iannucci '22, Highest Honors  
+      [Improving Mutational Signature Detection in Cancer through Frequentist and Bayesian Hypothesis Testing](https://scholarworks.smith.edu/theses/)  
+      Adviser: Ben Baumer
 - 2021
     - Audrey Bertin '21, Highest Honors  
       [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/2317)  
