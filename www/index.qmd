@@ -18,6 +18,6 @@ Please see our [list of resources for self-study](self_study.html)
 - Not pictured: Katherine Halvorsen
 
 ```{r, echo = FALSE}
-knitr::include_graphics("2021-2022-Faculty.png")
+knitr::include_graphics("gfx/2021-2022_faculty.png")
 ```
 

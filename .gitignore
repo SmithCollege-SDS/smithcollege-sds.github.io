@@ -1,4 +1,5 @@
 docs/*.bib
+docs/
 
 # History files
 .Rhistory
