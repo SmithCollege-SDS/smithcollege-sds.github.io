@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="blinded">
+<meta name="dcterms.date" content="2022-07-18">
+
+<title>SDS - Ethics patches in a box</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="include/smith.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SDS</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-awards" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
+        <li>
+    <a class="dropdown-item" href="./awards.html">
+ <span class="dropdown-text">Honors &amp; Prizes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mu_sigma_rho.html">
+ <span class="dropdown-text">Mu Sigma Rho</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html">Events</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./rmarkdown_problems.html">Help</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="button" data-bs-toggle="dropdown" aria-expanded="false">Writing</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
+        <li>
+    <a class="dropdown-item" href="https://scholarworks.smith.edu/sds/"><i class="bi bi-fa-scroll" role="img">
+</i> 
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li class="dropdown-header">Newsletters</li>
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+ <span class="dropdown-text">2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+ <span class="dropdown-text">2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+ <span class="dropdown-text">2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+ <span class="dropdown-text">2018</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+ <span class="dropdown-text">2017</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+ <span class="dropdown-text">2016</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teaching</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+</i> 
+ <span class="dropdown-text">Ethics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+</i> 
+ <span class="dropdown-text">Calendar</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS"><i class="bi bi-fa-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#description-of-coursesetting" id="toc-description-of-coursesetting" class="nav-link" data-scroll-target="#description-of-coursesetting">Description of course/setting</a></li>
+  <li><a href="#nas-ethical-areas" id="toc-nas-ethical-areas" class="nav-link" data-scroll-target="#nas-ethical-areas">NAS ethical areas</a></li>
+  <li><a href="#questionsgoals-addressed" id="toc-questionsgoals-addressed" class="nav-link" data-scroll-target="#questionsgoals-addressed">Questions/goals addressed</a></li>
+  <li><a href="#bloom-taxonomy" id="toc-bloom-taxonomy" class="nav-link" data-scroll-target="#bloom-taxonomy"><span>Bloom taxonomy</span></a></li>
+  <li><a href="#related-work-in-data-science-ethics" id="toc-related-work-in-data-science-ethics" class="nav-link" data-scroll-target="#related-work-in-data-science-ethics">Related work in data science ethics</a></li>
+  <li><a href="#generalizability" id="toc-generalizability" class="nav-link" data-scroll-target="#generalizability">Generalizability</a></li>
+  </ul></li>
+  <li><a href="#lesson-plan-for-instructors" id="toc-lesson-plan-for-instructors" class="nav-link" data-scroll-target="#lesson-plan-for-instructors">Lesson plan for instructors</a>
+  <ul class="collapse">
+  <li><a href="#student-preparation-required" id="toc-student-preparation-required" class="nav-link" data-scroll-target="#student-preparation-required">Student preparation required</a></li>
+  <li><a href="#instructions-for-students" id="toc-instructions-for-students" class="nav-link" data-scroll-target="#instructions-for-students">Instructions for students</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a>
+  <ul class="collapse">
+  <li><a href="#before-class" id="toc-before-class" class="nav-link" data-scroll-target="#before-class">Before class</a></li>
+  <li><a href="#debate-structure-in-class" id="toc-debate-structure-in-class" class="nav-link" data-scroll-target="#debate-structure-in-class">Debate structure (in class)</a></li>
+  </ul></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ethics patches in a box</h1>
+<p class="subtitle lead">a clever, topical title</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>blinded </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 18, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="description-of-coursesetting" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-coursesetting">Description of course/setting</h2>
+<ul>
+<li>Actual: senior computer science seminar on <a href="https://en.wikipedia.org/wiki/Music_information_retrieval">music information retrieval</a> (MIR)</li>
+<li>Generic:
+<ul>
+<li>data collection and/or wrangling course where issues of data provenance are discussed</li>
+<li>machine learning course with a unit on data ownership and privacy</li>
+</ul></li>
+</ul>
+</section>
+<section id="nas-ethical-areas" class="level2">
+<h2 class="anchored" data-anchor-id="nas-ethical-areas">NAS ethical areas</h2>
+<ul>
+<li>Responsible conduct of research</li>
+</ul>
+</section>
+<section id="questionsgoals-addressed" class="level2">
+<h2 class="anchored" data-anchor-id="questionsgoals-addressed">Questions/goals addressed</h2>
+<ul>
+<li>Are current methods for accessing music for MIR research sufficient?</li>
+<li>Is data access for MIR research equitable?</li>
+<li>Are the current copyright laws hindering the production of MIR research?</li>
+<li>If copyright laws were to soften for academic research, what would that look like?</li>
+</ul>
+</section>
+<section id="bloom-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="bloom-taxonomy"><a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom taxonomy</a></h2>
+<ul>
+<li>Evaluation: Students argue for a specific proposition and defend it</li>
+</ul>
+</section>
+<section id="related-work-in-data-science-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="related-work-in-data-science-ethics">Related work in data science ethics</h2>
+<ul>
+<li><span class="citation" data-cites="burton2018teach">Burton, Goldsmith, and Mattei (<a href="#ref-burton2018teach" role="doc-biblioref">2018</a>)</span></li>
+</ul>
+</section>
+<section id="generalizability" class="level2">
+<h2 class="anchored" data-anchor-id="generalizability">Generalizability</h2>
+<ul>
+<li>Discussions about data ownership, usage, and access</li>
+<li>Discussions about <a href="https://en.wikipedia.org/wiki/YouTube">YouTube</a> materials</li>
+<li>Discussions about social media data</li>
+<li>Applications of <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> <span class="citation" data-cites="gdpr">(<a href="#ref-gdpr" role="doc-biblioref">European Parliament 2018</a>)</span></li>
+<li>Use of large server farms for deep learning systems</li>
+<li>Use of large server farms for <a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a></li>
+<li>Growing divide between access and development in industrial/corporate research labs and that in academic environments. In the context of MIR, what data access do you have working at somewhere like Spotify, Apple Music, or Pandora? How does that access compare and contrast to the access at a research university or at a small liberal arts college?</li>
+<li>Discussion about how laws designed to protect sales and artists (i.e copyright) differ from protecting privacy (ie. HIPAA or FERPA), and how ethical considerations vary when laws dictate “right and wrong” as opposed to morality</li>
+</ul>
+</section>
+</section>
+<section id="lesson-plan-for-instructors" class="level1">
+<h1>Lesson plan for instructors</h1>
+<section id="student-preparation-required" class="level2">
+<h2 class="anchored" data-anchor-id="student-preparation-required">Student preparation required</h2>
+<ul>
+<li>previous writing intensive course</li>
+<li>write their position paper in preparation for the debate</li>
+</ul>
+</section>
+<section id="instructions-for-students" class="level2">
+<h2 class="anchored" data-anchor-id="instructions-for-students">Instructions for students</h2>
+<p>The goal of this position paper is to prepare you for a debate on whether or not there should be an academic license for music data. Your paper should present a coherent argument that is well supported by the literature (e.g., <span class="citation" data-cites="casey2008content downie2014ten mcfee2018open chendata">(<a href="#ref-casey2008content" role="doc-biblioref">Casey et al. 2008</a>; <a href="#ref-downie2014ten" role="doc-biblioref">Downie et al. 2014</a>; <a href="#ref-mcfee2018open" role="doc-biblioref">McFee et al. 2018</a>; <a href="#ref-chendata" role="doc-biblioref">Chen et al. 2019</a>)</span>). While there are others assigned to your position, you may not share arguments with each other until the day of the debate. You may, however, share resources with each other (just not your opinion of them).</p>
+<p>Your paper is due at 9am on the day of the debate. The paper should be 3-5 pages, double spaced. Please submit your paper as a PDF.</p>
+<ul>
+<li>Read the <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">debate rules</a> inspired by <span class="citation" data-cites="musgrave1957competitive">Musgrave (<a href="#ref-musgrave1957competitive" role="doc-biblioref">1957</a>)</span>.</li>
+</ul>
+</section>
+<section id="activity-description" class="level2">
+<h2 class="anchored" data-anchor-id="activity-description">Activity description</h2>
+<section id="before-class" class="level3">
+<h3 class="anchored" data-anchor-id="before-class">Before class</h3>
+<p>Instructor needs to determine the groups (ideally at least a week in advance) and set up a system (like a private Slack channel) for students to share resources.</p>
+</section>
+<section id="debate-structure-in-class" class="level3">
+<h3 class="anchored" data-anchor-id="debate-structure-in-class">Debate structure (in class)</h3>
+<p>Begin class with each side having 10 minutes to discuss the position and form a coherent argument. The instructor will flip a coin and the winning side will decide if they want to go first and be side “A” or not. The debate will go as follows:</p>
+<ol type="1">
+<li>Side A will have 4 minutes to make opening statements.</li>
+<li>Side B will have 4 minutes to make opening statements.</li>
+<li>Now we enter the phase of “constructive speeches.” By this, we mean each speech will go into detail on one of the points that each side has laid out in their opening statement. The opposing side then will offer a rebuttal just to the points that were raised in the most recent constructive speech.
+<ul>
+<li>Side A has first constructive speech for 5 minutes with Side B having 3 minutes for rebuttal.</li>
+<li>Side B has first constructive speech for 5 minutes with Side A having 3 minutes for rebuttal.</li>
+<li>Side B has second constructive speech for 4 minutes with Side A having 3 minutes for rebuttal.</li>
+<li>Side A has second constructive speech for 4 minutes with Side B having 3 minutes for rebuttal.</li>
+<li>Side A has last constructive speech for 3 minutes with Side B having 2 minutes for rebuttal.</li>
+<li>Side B has last constructive speech for 3 minutes with Side A having 2 minutes for rebuttal.</li>
+</ul></li>
+<li>Quick break: Each team will have 5 minutes to consult with each other to make the closing arguments</li>
+<li>Finally to closing arguments:
+<ul>
+<li>Side B has 3 minutes for first closing arguments</li>
+<li>Side A has 5 minutes for their entire closing arguments</li>
+<li>Side B has 2 minutes for any final closing arguments</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li>A position paper from each student</li>
+<li>A robust conversation in class via the structured debate</li>
+</ul>
+</section>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-burton2018teach" class="csl-entry" role="doc-biblioentry">
+Burton, Emanuelle, Judy Goldsmith, and Nicholas Mattei. 2018. <span>“How to Teach Computer Ethics Through Science Fiction.”</span> <em>Communications of the ACM</em> 61 (8): 54–64. <a href="https://doi.org/10.1145/3154485">https://doi.org/10.1145/3154485</a>.
+</div>
+<div id="ref-casey2008content" class="csl-entry" role="doc-biblioentry">
+Casey, Michael A, Remco Veltkamp, Masataka Goto, Marc Leman, Christophe Rhodes, and Malcolm Slaney. 2008. <span>“Content-Based Music Information Retrieval: Current Directions and Future Challenges.”</span> <em>Proceedings of the IEEE</em> 96 (4): 668–96. <a href="https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges">https://www.researchgate.net/publication/2998482_Content-Based_Music_Information_Retrieval_Current_Directions_and_Future_Challenges</a>.
+</div>
+<div id="ref-chendata" class="csl-entry" role="doc-biblioentry">
+Chen, Wenqin, Jessica Keast, Jordan Moody, Corinne Moriarty, Felicia Villalobos, Virtue Winter, Xueqi Zhang, et al. 2019. <span>“Data Usage in <span>MIR</span>: History &amp; Future Recommendations.”</span> <a href="http://archives.ismir.net/ismir2019/paper/000001.pdf">http://archives.ismir.net/ismir2019/paper/000001.pdf</a>.
+</div>
+<div id="ref-downie2014ten" class="csl-entry" role="doc-biblioentry">
+Downie, J Stephen, Xiao Hu, Jin Ha Lee, Kahyun Choi, Sally Jo Cunningham, and Yun Hao. 2014. <span>“Ten Years of <span>MIREX</span>: Reflections, Challenges and Opportunities.”</span> In <em>ISMIR 2014</em>, 657–62. ISMIR. <a href="https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities">https://www.researchgate.net/publication/220723776_Ten_Years_of_ISMIR_Reflections_on_Challenges_and_Opportunities</a>.
+</div>
+<div id="ref-gdpr" class="csl-entry" role="doc-biblioentry">
+European Parliament. 2018. <span>“Regulation on the Protection of Natural Persons with Regard to the Processing of Personal Data and on the Free Movement of Such Data, and Repealing Directive 95/46/EC (Data Protection Directive).”</span> European Union. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A32016R0679</a>.
+</div>
+<div id="ref-mcfee2018open" class="csl-entry" role="doc-biblioentry">
+McFee, Brian, Jong Wook Kim, Mark Cartwright, Justin Salamon, Rachel M Bittner, and Juan Pablo Bello. 2018. <span>“Open-Source Practices for Music Signal Processing Research: Recommendations for Transparent, Sustainable, and Reproducible Audio Research.”</span> <em>IEEE Signal Processing Magazine</em> 36 (1): 128–37. <a href="https://ieeexplore.ieee.org/document/8588406">https://ieeexplore.ieee.org/document/8588406</a>.
+</div>
+<div id="ref-musgrave1957competitive" class="csl-entry" role="doc-biblioentry">
+Musgrave, George McCoy. 1957. <span>“Competitive Debate: Rules and Techniques.”</span> <a href="http://homepage.ntu.edu.tw/~karchung/debate1.htm">http://homepage.ntu.edu.tw/~karchung/debate1.htm</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Website maintained by <a href="http://www.science.smith.edu/~bbaumer">Ben Baumer</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

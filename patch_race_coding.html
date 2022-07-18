@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="blinded">
+<meta name="dcterms.date" content="2022-07-18">
+
+<title>SDS - Ethics patches in a box</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="include/smith.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SDS</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-awards" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
+        <li>
+    <a class="dropdown-item" href="./awards.html">
+ <span class="dropdown-text">Honors &amp; Prizes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mu_sigma_rho.html">
+ <span class="dropdown-text">Mu Sigma Rho</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html">Events</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./rmarkdown_problems.html">Help</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="button" data-bs-toggle="dropdown" aria-expanded="false">Writing</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
+        <li>
+    <a class="dropdown-item" href="https://scholarworks.smith.edu/sds/"><i class="bi bi-fa-scroll" role="img">
+</i> 
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li class="dropdown-header">Newsletters</li>
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+ <span class="dropdown-text">2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+ <span class="dropdown-text">2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+ <span class="dropdown-text">2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+ <span class="dropdown-text">2018</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+ <span class="dropdown-text">2017</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+ <span class="dropdown-text">2016</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teaching</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+</i> 
+ <span class="dropdown-text">Ethics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+</i> 
+ <span class="dropdown-text">Calendar</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS"><i class="bi bi-fa-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#description-of-coursesetting" id="toc-description-of-coursesetting" class="nav-link" data-scroll-target="#description-of-coursesetting">Description of course/setting</a></li>
+  <li><a href="#nas-ethical-areas" id="toc-nas-ethical-areas" class="nav-link" data-scroll-target="#nas-ethical-areas">NAS ethical areas</a></li>
+  <li><a href="#questionsgoals-addressed" id="toc-questionsgoals-addressed" class="nav-link" data-scroll-target="#questionsgoals-addressed">Questions/goals addressed</a></li>
+  <li><a href="#bloom-taxonomy" id="toc-bloom-taxonomy" class="nav-link" data-scroll-target="#bloom-taxonomy"><span>Bloom taxonomy</span></a></li>
+  <li><a href="#related-work-in-data-science-ethics" id="toc-related-work-in-data-science-ethics" class="nav-link" data-scroll-target="#related-work-in-data-science-ethics">Related work in data science ethics</a></li>
+  <li><a href="#generalizability" id="toc-generalizability" class="nav-link" data-scroll-target="#generalizability">Generalizability</a></li>
+  </ul></li>
+  <li><a href="#lesson-plan-for-instructors" id="toc-lesson-plan-for-instructors" class="nav-link" data-scroll-target="#lesson-plan-for-instructors">Lesson plan for instructors</a>
+  <ul class="collapse">
+  <li><a href="#student-preparation-required" id="toc-student-preparation-required" class="nav-link" data-scroll-target="#student-preparation-required">Student preparation required</a></li>
+  <li><a href="#instructions-for-students" id="toc-instructions-for-students" class="nav-link" data-scroll-target="#instructions-for-students">Instructions for students</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ethics patches in a box</h1>
+<p class="subtitle lead">The coding and analysis of racial/ethnic identity data</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>blinded </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 18, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="description-of-coursesetting" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-coursesetting">Description of course/setting</h2>
+<ul>
+<li>Actual: upper-level domain application course focused on the psychology of intergroup relations</li>
+<li>Generic: any course where students may encounter race data</li>
+</ul>
+</section>
+<section id="nas-ethical-areas" class="level2">
+<h2 class="anchored" data-anchor-id="nas-ethical-areas">NAS ethical areas</h2>
+<ul>
+<li>Responsible conduct of research</li>
+</ul>
+</section>
+<section id="questionsgoals-addressed" class="level2">
+<h2 class="anchored" data-anchor-id="questionsgoals-addressed">Questions/goals addressed</h2>
+<p>Important lessons to learn and revelations students might make while completing this activity:</p>
+<ul>
+<li>Researchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.</li>
+<li>A person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).</li>
+<li>The choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?</li>
+<li>Race is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?</li>
+<li>Are there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?</li>
+<li>If you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?</li>
+</ul>
+</section>
+<section id="bloom-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="bloom-taxonomy"><a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom taxonomy</a></h2>
+<ul>
+<li>Synthesis: Students construct new ways to code race</li>
+</ul>
+</section>
+<section id="related-work-in-data-science-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="related-work-in-data-science-ethics">Related work in data science ethics</h2>
+<ul>
+<li><span class="citation" data-cites="gebru2020race">Gebru (<a href="#ref-gebru2020race" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="benjamin2019race">Benjamin (<a href="#ref-benjamin2019race" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="d4bl">Milner (<a href="#ref-d4bl" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="codedbias">Kantayya and Buolamwini (<a href="#ref-codedbias" role="doc-biblioref">2020</a>)</span></li>
+</ul>
+</section>
+<section id="generalizability" class="level2">
+<h2 class="anchored" data-anchor-id="generalizability">Generalizability</h2>
+<ul>
+<li>any use of pre-collected racial/ethnic data</li>
+<li>any attempt at collecting racial/ethnic data when designing studies</li>
+</ul>
+</section>
+</section>
+<section id="lesson-plan-for-instructors" class="level1">
+<h1>Lesson plan for instructors</h1>
+<section id="student-preparation-required" class="level2">
+<h2 class="anchored" data-anchor-id="student-preparation-required">Student preparation required</h2>
+<ul>
+<li>Some technical knowledge of basic data cleaning is required</li>
+<li>before class, read:
+<ul>
+<li><span class="citation" data-cites="shook2008interracial">Shook and Fazio (<a href="#ref-shook2008interracial" role="doc-biblioref">2008</a>)</span></li>
+</ul></li>
+<li>(optional) other reference material:
+<ul>
+<li><a href="https://www.census2020now.org/faces-blog/same-sex-households-2020-census-r3976">Race/Ethnicity in the 2020 US Census</a></li>
+<li><a href="https://census.gov/about/our-research/race-ethnicity.html">US Census: Research to Improve Data on Race and Ethnicity</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="instructions-for-students" class="level2">
+<h2 class="anchored" data-anchor-id="instructions-for-students">Instructions for students</h2>
+<p>Your goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss <span class="citation" data-cites="shook2008interracial">Shook and Fazio (<a href="#ref-shook2008interracial" role="doc-biblioref">2008</a>)</span>. This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally.</p>
+<ul>
+<li><p>First, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:</p>
+<ol>
+<li>What did they find?</li>
+<li>How did they do it?</li>
+<li>What is missing or limited?</li>
+</ol></li>
+<li><p>Next, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.</p></li>
+<li><p>After this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called <code>race_clean</code>. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group).</p></li>
+</ul>
+</section>
+<section id="activity-description" class="level2">
+<h2 class="anchored" data-anchor-id="activity-description">Activity description</h2>
+<p>Students must come to class having read <span class="citation" data-cites="shook2008interracial">Shook and Fazio (<a href="#ref-shook2008interracial" role="doc-biblioref">2008</a>)</span>. The following is a suggested timeline for a 70-minute class session.</p>
+<ol>
+<li>(15 minutes): Break the class into four groups. Each group will discuss the following questions pertaining to the assigned article and write their bulletpointed responses on the boards. The first two questions help the students warm up and make sure that everyone understood
+<ol>
+<li>What did they find?
+<ul>
+<li>Discuss the results resented in the article.</li>
+</ul></li>
+<li>How did they do it?
+<ul>
+<li>Discuss the methods employed by the researchers.</li>
+</ul></li>
+<li>What is missing or limited?
+<ul>
+<li>Discuss the limitations of the research study. This piece is where the concerns regarding race are likely to come out.<br>
+</li>
+</ul></li>
+<li>Bonus (completed if groups finish early): Make a sketch of the dataset that was used in these analyses. What does each row represent? What variables must it have? What index variables must it have?</li>
+</ol></li>
+<li>(25 minutes): Discuss the three questions as a class. Try to move them quickly through the first two questions to leave about half the time for the third question. I would leave them in suspence with the bonus task—perhaps start the following class with this as a warm-up activity. As they raise missing pieces and limitations, write their suggestions on the board in a joint class bulletpointed list.<br>
+</li>
+<li>(15 minutes): Now in pairs, have students start cleaning the messy race data provided. Their task is to code the check-all-that-apply and/or free response data into a new categorical variable called <code>race_clean</code>.</li>
+<li>(10 minutes): Back in small groups of four (two pairs), have students discuss the choices they made and feelings they had while re-coding the race/ethnicity data. These feelings reflect the hard realities that researchers must confront in their work.</li>
+<li>(5 minutes): Wrap up. Let students know that this is not the end of the discussion. If they are feeling like they have more questions than answers, or they are more confused about race and ethnicity in data science than when the class began, this is a good thing—it is a complex issue! You might also remind them that the coding of race and ethnicity in the US is deeply connected to a history of racial oppression. As future data scientists, they can play an active role in creating ethical guidelines for moving towards more appropriate use of race and ethnicity data. <strong>It is very important not to skip the wrap up for this activity.</strong> Set a timer such that you can touch base with them and ideally, end on a hopeful note.</li>
+</ol>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li>A bullet-point list on the board for each group answering the three research questions.</li>
+<li>(optional): A detailed written description about the decisions made while coding the race and ethnicity data. This should be completed for each pair of students.</li>
+</ul>
+</section>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-benjamin2019race" class="csl-entry" role="doc-biblioentry">
+Benjamin, Ruha. 2019. <em>Race After Technology: Abolitionist Tools for the New <span>Jim Code</span></em>. Polity: Cambridge.
+</div>
+<div id="ref-gebru2020race" class="csl-entry" role="doc-biblioentry">
+Gebru, Timnit. 2020. <span>“Race and Gender.”</span> In <em>The Oxford Handbook of Ethics of <span>AI</span></em>, edited by Markus D. Dubber, Frank Pasquale, and Sunit Das, 251–69. Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780190067397.013.16">https://doi.org/10.1093/oxfordhb/9780190067397.013.16</a>.
+</div>
+<div id="ref-codedbias" class="csl-entry" role="doc-biblioentry">
+Kantayya, Shalini, and Joy Buolamwini. 2020. <span>“Coded Bias.”</span> 7th Empire Media. <a href="https://www.codedbias.com/">https://www.codedbias.com/</a>.
+</div>
+<div id="ref-d4bl" class="csl-entry" role="doc-biblioentry">
+Milner, Yeshimabeit. 2019. <span>“<span class="nocase">Data for Black Lives II</span>.”</span> MIT Media Lab, 75 Amherst St., Cambridge, MA 02139: Data for Black Lives. <a href="http://d4bl.org/conference.html">http://d4bl.org/conference.html</a>.
+</div>
+<div id="ref-shook2008interracial" class="csl-entry" role="doc-biblioentry">
+Shook, Natalie J, and Russell H Fazio. 2008. <span>“Interracial Roommate Relationships: An Experimental Field Test of the Contact Hypothesis.”</span> <em>Psychological Science</em> 19 (7): 717–23. <a href="https://doi.org/doi.org/10.1111/j.1467-9280.2008.02147.x">https://doi.org/doi.org/10.1111/j.1467-9280.2008.02147.x</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Website maintained by <a href="http://www.science.smith.edu/~bbaumer">Ben Baumer</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

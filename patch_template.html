@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="blinded">
+<meta name="dcterms.date" content="2022-07-18">
+
+<title>SDS - Ethics patches in a box</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="include/smith.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SDS</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-awards" role="button" data-bs-toggle="dropdown" aria-expanded="false">Awards</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
+        <li>
+    <a class="dropdown-item" href="./awards.html">
+ <span class="dropdown-text">Honors &amp; Prizes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mu_sigma_rho.html">
+ <span class="dropdown-text">Mu Sigma Rho</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html">Events</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./rmarkdown_problems.html">Help</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="button" data-bs-toggle="dropdown" aria-expanded="false">Writing</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
+        <li>
+    <a class="dropdown-item" href="https://scholarworks.smith.edu/sds/"><i class="bi bi-fa-scroll" role="img">
+</i> 
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li class="dropdown-header">Newsletters</li>
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+ <span class="dropdown-text">2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+ <span class="dropdown-text">2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+ <span class="dropdown-text">2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+ <span class="dropdown-text">2018</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+ <span class="dropdown-text">2017</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+ <span class="dropdown-text">2016</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teaching</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+</i> 
+ <span class="dropdown-text">Ethics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+</i> 
+ <span class="dropdown-text">Calendar</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS"><i class="bi bi-fa-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description-of-coursesetting" id="toc-description-of-coursesetting" class="nav-link active" data-scroll-target="#description-of-coursesetting">Description of course/setting</a></li>
+  <li><a href="#student-preparation-required" id="toc-student-preparation-required" class="nav-link" data-scroll-target="#student-preparation-required">Student preparation required</a></li>
+  <li><a href="#instructions-for-students" id="toc-instructions-for-students" class="nav-link" data-scroll-target="#instructions-for-students">Instructions for students</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a></li>
+  <li><a href="#questionsgoals-addressed" id="toc-questionsgoals-addressed" class="nav-link" data-scroll-target="#questionsgoals-addressed">Questions/goals addressed</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#generalizability" id="toc-generalizability" class="nav-link" data-scroll-target="#generalizability">Generalizability</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ethics patches in a box</h1>
+<p class="subtitle lead">a clever, topical title</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>blinded </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 18, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="description-of-coursesetting" class="level1">
+<h1>Description of course/setting</h1>
+<ul>
+<li>senior capstone in statistical &amp; data sciences</li>
+<li>introductory data science course</li>
+<li>any course that covers web scraping</li>
+</ul>
+</section>
+<section id="student-preparation-required" class="level1">
+<h1>Student preparation required</h1>
+<ul>
+<li>no technical knowledge required</li>
+<li>before class, read:
+<ul>
+<li><span class="citation" data-cites="kim2015okcupid">Kim and Escobedo-Land (<a href="#ref-kim2015okcupid" role="doc-biblioref">2015</a>)</span></li>
+<li><span class="citation" data-cites="poulsen2014wired">Poulsen (<a href="#ref-poulsen2014wired" role="doc-biblioref">2014</a>)</span></li>
+<li><span class="citation" data-cites="hackett2016fortune">Hackett (<a href="#ref-hackett2016fortune" role="doc-biblioref">2016</a>)</span></li>
+</ul></li>
+<li>(optional) other reference material:
+<ul>
+<li><span class="citation" data-cites="kirkegaard2016okcupid">Kirkegaard and Bjerrekær (<a href="#ref-kirkegaard2016okcupid" role="doc-biblioref">2016</a>)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="instructions-for-students" class="level1">
+<h1>Instructions for students</h1>
+<ul>
+<li>Your goal in this class activity is to help Prof.&nbsp;Kim draft a letter to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> that addresses any ethical considerations you find present in <span class="citation" data-cites="kim2015okcupid">Kim and Escobedo-Land (<a href="#ref-kim2015okcupid" role="doc-biblioref">2015</a>)</span>. Perhaps you think Prof.&nbsp;Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.</li>
+<li>You may want to consult the Internet for relevant facts during the group discussion.</li>
+<li>Have at least one person taking notes during your discussion, preferably on a white board that all group members can see.</li>
+<li>There is no right or wrong answer. However, your choices should be based on informed logical reasoning.</li>
+</ul>
+</section>
+<section id="activity-description" class="level1">
+<h1>Activity description</h1>
+<ol>
+<li>(5 minutes): Give a brief overview of the three uses of <a href="https://en.wikipedia.org/wiki/OkCupid">OkCupid</a> data. Focus on Prof.&nbsp;Kim’s responsibilities as a published author. The students should have already read the assigned material.</li>
+<li>(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:
+<ol>
+<li>Other OkCupid users
+<ul>
+<li>Discuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof.&nbsp;Kim’s situation?</li>
+</ul></li>
+<li>Anonymization and differential privacy
+<ul>
+<li>What role do <a href="https://en.wikipedia.org/wiki/Data_anonymization">data anonymization</a> and <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> play in Prof.&nbsp;Kim’s situation? Could these techniques lead to a safer product?</li>
+</ul></li>
+<li>Terms of Service
+<ul>
+<li>How closely do the ethical issues track the legal issues? What role do <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a> and/or The <a href="https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act">Computer Fraud and Abuse Act</a> (CFAA) play?</li>
+</ul></li>
+<li>Value of Data
+<ul>
+<li>What is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?</li>
+</ul></li>
+</ol></li>
+<li>(10 minutes): Have each group draft a <strong>one-paragraph statement</strong> to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> on your topic that <strong>all</strong> group members agree with.</li>
+<li>(10 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.</li>
+<li>(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.</li>
+</ol>
+</section>
+<section id="questionsgoals-addressed" class="level1">
+<h1>Questions/goals addressed</h1>
+<ul>
+<li>If I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?</li>
+<li>How do my ethical responsibilities differ from my legal responsibilities?</li>
+<li>Are there technical solutions that could allow me to publish the data while protecting people’s privacy?</li>
+<li>Are my ethical responsibitilies impacted by the value of the data?</li>
+</ul>
+</section>
+<section id="deliverables" class="level1">
+<h1>Deliverables</h1>
+<ul>
+<li>one paragraph from each group</li>
+<li>(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of <em>JSE</em> suitable for publication. Send the letter to Prof.&nbsp;Kim!</li>
+</ul>
+</section>
+<section id="generalizability" class="level1">
+<h1>Generalizability</h1>
+<ul>
+<li>any publishing of personal data</li>
+<li>any attempt at web scraping</li>
+</ul>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-hackett2016fortune" class="csl-entry" role="doc-biblioentry">
+Hackett, Robert. 2016. <span>“Researchers Caused an Uproar by Publishing Data from 70,000 OkCupid Users.”</span> Fortune. <a href="https://fortune.com/2016/05/18/okcupid-data-research/">https://fortune.com/2016/05/18/okcupid-data-research/</a>.
+</div>
+<div id="ref-kim2015okcupid" class="csl-entry" role="doc-biblioentry">
+Kim, Albert Y, and Adriana Escobedo-Land. 2015. <span>“<span>OKCupid</span> Data for Introductory Statistics and Data Science Courses.”</span> <em>Journal of Statistics Education</em> 23 (2). <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.
+</div>
+<div id="ref-kirkegaard2016okcupid" class="csl-entry" role="doc-biblioentry">
+Kirkegaard, Emil OW, and Julius D Bjerrekær. 2016. <span>“The <span>OKCupid</span> Dataset: A Very Large Public Dataset of Dating Site Users.”</span> <em>Open Differential Psychology</em> 46.
+</div>
+<div id="ref-poulsen2014wired" class="csl-entry" role="doc-biblioentry">
+Poulsen, Kevin. 2014. <span>“How a Math Genius Hacked <span>OKC</span>upid to Find True Love.”</span> Wired. <a href="https://www.wired.com/2014/01/how-to-hack-okcupid/">https://www.wired.com/2014/01/how-to-hack-okcupid/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Website maintained by <a href="http://www.science.smith.edu/~bbaumer">Ben Baumer</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
