@@ -60,15 +60,11 @@ now()
 
 For SDS classes, you often need to include
 ```{r, message=FALSE, eval=FALSE}
-require(mosaic)
-require(oilabs)
+library(tidyverse)
 ```
-  Note that `mosaic` in turn loads `dplyr` and `ggplot2`. If you aren't using `mosaic`, another solution may be to load the `tidyverse` package, which will in turn load `dplyr`, `ggplot2`, and several other packages. 
+  Note that `tidyverse` in turn loads `dplyr` and `ggplot2`. 
 
-```{r, eval=FALSE}
-require(tidyverse)
-```
-  Note also that `require()` and `library()` are [equivalent for our purposes](http://yihui.name/en/2014/07/library-vs-require/). 
+Note also that `require()` and `library()` are [equivalent for our purposes](http://yihui.name/en/2014/07/library-vs-require/), but `library()` is preferred. 
 
 - Packages not installed. If you try to load a package that is not available in your R session, then you will get a warning. 
 
@@ -93,7 +89,7 @@ my_object
 it means that R cannot find any object in its environment called `my_object`. Make sure that `my_object` is created in the Markdown document prior to where you are trying to access it.  
   One common way this can occur is if you failed to load a data frame provided by a package (that doesn't use lazy loading). For example, the `oilabs` package does not support lazy loading, so you have to use the `data()` command to bring the data frames into your environment before using them. 
   
-```{r}
+```{r, eval=FALSE}
 library(oilabs)
 head(ames)
 data(ames)
