@@ -3,6 +3,11 @@ title: "sds-www"
 output: github_document
 ---
 
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+
+
 SDS content for the web not managed by college relations, available at https://smithcollege-sds.github.io/sds-www/
 
 In order to edit this website:

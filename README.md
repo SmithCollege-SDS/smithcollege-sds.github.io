@@ -1,6 +1,10 @@
 sds-www
 ================
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 SDS content for the web not managed by college relations, available at
 <https://smithcollege-sds.github.io/sds-www/>
 
@@ -12,11 +16,11 @@ In order to edit this website:
 In order to build this website:
 
 1.  If you haven’t already
-      - Install the `sds` package following these
+    -   Install the `sds` package following these
         [instructions](https://github.com/SmithCollege-SDS/sds)
-      - Install the `bannerweb` package
+    -   Install the `bannerweb` package
 2.  Using Terminal/command line
-      - Navigate to `www/`
-      - Run `make`
+    -   Navigate to `www/`
+    -   Run `make`
 
 The resulting `docs/` folder will contain all `.html` files
