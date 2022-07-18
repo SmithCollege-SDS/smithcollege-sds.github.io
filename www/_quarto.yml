@@ -10,7 +10,7 @@ website:
     left:
       - text: "Home"
         icon: fa-home
-        href: index.html
+        href: index.qmd
       - text: "Awards"
         icon: fa-award
         menu:
@@ -20,7 +20,7 @@ website:
             href: mu_sigma_rho.html
       - text: "Events"
         icon: fa-ticket
-        href: events.html
+        href: events.qmd
       - text: "Help"
         icon: fa-question-circle
         href: rmarkdown_problems.html
