@@ -2,7 +2,7 @@ sds-www
 ================
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/R-CMD-check.yaml)
+[![website](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/quarto.yaml/badge.svg)](https://github.com/SmithCollege-SDS/sds-www/actions/workflows/quarto.yaml)
 <!-- badges: end -->
 
 SDS content for the web not managed by college relations, available at
@@ -10,17 +10,12 @@ SDS content for the web not managed by college relations, available at
 
 In order to edit this website:
 
-1.  The layout/style is based on `www/_site.yml`
-2.  The contents are based on all `.Rmd` files in the `www/` folder
+1.  The layout/style is based on `www/_quarto.yml`
+2.  The contents are based on all `.qmd/.Rmd` files in the `www/` folder
 
 In order to build this website:
 
-1.  If you haven’t already
-    -   Install the `sds` package following these
-        [instructions](https://github.com/SmithCollege-SDS/sds)
-    -   Install the `bannerweb` package
-2.  Using Terminal/command line
-    -   Navigate to `www/`
-    -   Run `make`
+1.  Just make a commit, the build will be triggered automatically by
+    GitHub Actions.
 
-The resulting `docs/` folder will contain all `.html` files
+The resulting `gh-pages` branch will contain all `.html` files
