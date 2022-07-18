@@ -15,7 +15,6 @@ Imports:
     ical,
     lubridate,
     mosaic,
-    oilabs,
     tidyverse
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
