@@ -25,17 +25,31 @@ speakers <- tribble(
 
 ```
 
-<div class="row">
+<div class="grid">
 
 ```{r, results='asis'}
 library(htmltools)
 
 thumbnail <- function(name, img, pdf, when) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = name, href = pdf,
-        img(src = img),
-        div(class = "caption", name, br(), format(when, "%A, %B %e, %Y"))
+  div(
+    class = "g-col-6 g-col-md-4",
+    div(
+      class = "card",
+      a(
+        title = name, 
+        href = pdf,
+        img(src = img, class = "card-img-top"),
+      ),
+      div(
+        class = "card-body",
+        p(
+          class = "card-text",
+          name, 
+          br(), 
+          format(when, "%a, %b %e, %Y")
+        )
       )
+    )
   )
 }
 
