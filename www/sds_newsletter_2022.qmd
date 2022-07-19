@@ -42,7 +42,7 @@ We've brought on a number of outstanding junior faculty members, while also tenu
 We now have a plan of succession, as Randi has been elected the future Chair of SDS, to start July 2023, when I leave for a full-year sabbatical. 
 
 This year I continued to oversee the [DSC-WAV project](https://dsc-wav.github.io/www/), which is now entering its final year. 
-We published two papers related to this work, a short one in the [*Harvard Data Science Review*](https://hdsr.mitpress.mit.edu/pub/nvflcexe) and a longer one in [*Foundation of Data Science*](http://dx.doi.org/10.3934/fods.2022003). 
+We published two papers related to this work, a short one in the [*Harvard Data Science Review*](https://hdsr.mitpress.mit.edu/pub/nvflcexe) and a longer one in [*Foundations of Data Science*](http://dx.doi.org/10.3934/fods.2022003). 
 AS part of these efforts I'm working on [creating transfer pathways in data science](https://dsc-wav.github.io/facdev22/symposium.html) from two-year to four-year colleges in Massachusetts. 
 My collaborators and I also published our thoughts on the [tidyverse](https://doi.org/10.5070/T514154352).
 
@@ -75,7 +75,36 @@ I'm excited to begin the new year with new colleagues!
 ### Joint Statistical Meetings
 
 Many of us will be at the virtual [2022 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/index.cfm) during the second week of August. 
-We hope to see you in person!
+Don't miss these events featuring Smithies!
+
+- [Promoting Diversity in Sports Analytics — Invited Panel]((https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=222046))  
+  Arielle Dror '20  
+- [Creating Optimal Conditions for Reproducible Data Analysis in R with 'Fertile' ](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=320382)  
+  Benjamin Baumer and Audrey M. Bertin '21
+- [erspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=223215)  
+  Katherine Kinnaird
+- [Combining Trial and Population Data to Estimate Population Average Treatment Effects](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=319275)  
+  Elizabeth Stuart '97
+- [Data Science Informed by Survey Science: Collecting More Accurate Labels](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=323313)  
+  Stephanie Eckman '94
+- [Findings and Recommendations from the Promoting and Engaging Racial Inclusion ASA Antiracism Task Force Subcommittee](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=320553)  
+  Portia Exum '10
+- [Improving Data Science Education Infrastructure at Community Colleges, Teaching, and Research Universities — Invited Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=221850)  
+  Mine Dogucu '09
+- [Audiences and Arguments: Teaching the Strategies of Effective Data Communicators](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=320544)  
+  Sara Stoudt '15
+- [Planning a Drive: Autonomous Vehicles and the Role of Statisticians](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322090)  
+  Maria Terres '09
+
+We hope to see you **in person**!
+I'm planning a get together on Tuesday, at [The Smith](https://thesmithrestaurant.com/location/penn-quarter/)! It's a couple blocks from the Convention Center, but where else could we possibly meet??
+
+Details:
+
+[The Smith](https://thesmithrestaurant.com/location/penn-quarter/)  
+901 F STREET NW (at 9th street)  
+Tuesday, August 9th  
+5 pm - 6:30 pm
 
 ### StatFest
 
