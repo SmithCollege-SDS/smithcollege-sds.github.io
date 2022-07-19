@@ -17,7 +17,7 @@ website:
           - text: Honors & Prizes
             href: awards.html
           - text: "Mu Sigma Rho"
-            href: mu_sigma_rho.html
+            href: mu_sigma_rho.qmd
       - text: "Events"
         icon: fa-ticket
         href: events.qmd

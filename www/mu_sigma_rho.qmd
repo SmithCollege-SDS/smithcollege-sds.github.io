@@ -3,6 +3,8 @@ title: "Mu Sigma Rho"
 output:
   html_document:
     toc: false
+execute:
+  echo: false
 ---
 
 [Mu Sigma Rho](http://www.stat.purdue.edu/~mccabe/msr/) is the national statistics honor society, and the [Boston Chapter of the American Statistical Association](https://community.amstat.org/bostonchapter/home) oversees [nominations](http://www.colby.edu/musigmarho/) from Smith each spring.
@@ -12,13 +14,25 @@ output:
 library(tidyverse)
 ```
 
-```{r read-sheet, eval=TRUE, include=FALSE}
+
+
+```{r read-sheet, eval=googlesheets4::gs4_has_token(), include=FALSE}
 library(googlesheets4)
 options(gargle_oauth_email = TRUE)
 # gs4_auth(email = TRUE)
 key <- "1P2ZOOXB5dHwycXZkFYm_3u7M4lEPPm36RJHdMloAZlY"
+
 archive <- read_sheet(key)
+archive %>%
+  write_rds(file = here::here("mu_sigma_rho.rda"))
 ```
+
+```{r read-archive}
+archive <- read_rds(here::here("mu_sigma_rho.rda"))
+```
+
+
+
 
 ```{r, include=FALSE, eval=FALSE}
 nominees <- read_csv("~/Dropbox/SDS/students/mu_sigma_rho/Spring 2022 Mu sigma Rho.xlsx - mu sigma rho.csv")

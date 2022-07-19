@@ -1,0 +1,31 @@
+---
+title: 'Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium'
+---
+
+# Public Lecture: Abolish Big Data
+
+![Yeshimabeit Milner](https://isgmh.northwestern.edu/files/2019/07/yeshi-headshot-chiapas-blouse-2.jpg)
+
+## Yeshimabeit Milner
+
+Yeshimabeit Milner is the Founder & Executive Director of <a href="http://d4bl.org/">Data for Black Lives</a>, an organization that mobilizes scientists around racial justice issues, bringing together data scientists, computer programmers, and racial justice activists to discuss the role that data can and should play in Black communities.
+
+## What Does "Abolish Big Data" Mean?
+
+This talk serves as a call to action to reject the concentration of Big Data in the hands of a few, to challenge the structures that allow data to be wielded as a weapon of immense political influence. To abolish Big Data would mean to put data in the hands of people who need it the most. 
+
+## Details
+
+- Date and Time: Monday October 21, 5pm
+- Location: Weinstein Auditorium, Wright Hall, Smith College
+- Open to the Public
+
+### Sponsors
+
+- Smith College <a href="https://www.smith.edu/academics/statistics">Statistical and Data Sciences</a>
+- Smith College <a href="https://www.smith.edu/academics/africana-studies">Africana Studies</a>
+- Smith College <a href = "https://www.smith.edu/academics/swg">Program for the Study of Women & Gender</a>
+- Smith College <a href= "https://ssw.smith.edu/">School of Social Work</a>
+- Smith College Lecture Committee
+
+
