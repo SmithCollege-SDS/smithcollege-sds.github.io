@@ -22,6 +22,10 @@ jobs:
     
       - uses: r-lib/actions/setup-r-dependencies@v2
       
+      - name: extra packages
+        run: |
+          Rscript -e 'remotes::install_github("SmithCollege-SDS/sds")'
+      
       - uses: quarto-dev/quarto-actions/install-quarto@v1
 
       - name: Build site

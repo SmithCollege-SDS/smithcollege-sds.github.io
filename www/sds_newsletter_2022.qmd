@@ -23,18 +23,30 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 ## Faculty Updates 
 
+- [**Randi Garcia** was promoted](https://www.smith.edu/news/2022-tenure-and-promotion) to associate professor with tenure!
 - [Fatou Sanogo](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) got a tenure-track job at Bates! We're wishing Fatou all the best in her next steps. 
-- We hired **Kaitlyn Cook** as a tenure-track faculty member. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. 
+- We hired **Kaitlyn Cook** as a tenure-track faculty member. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics course and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
 - We hired **Shiya Cao** as a MassMutual assistant professor of statistical and data sciences. 
-Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). 
-- We hired **Jared Joseph** as a Lecturer for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment.
+Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). Shiya will be teaching SDS 192 and SDS 100 in her first year. 
+- We hired **Jared Joseph** as a Lecturer for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
 - We'll be searching for **two** tenure-track positions this year, both of which are joint with other departments!
     - a joint position with the Mathematical Sciences department for a mathematical statistician  
     - a joint position with the Physics department for a computational physicist 
   
 
 
-#### Ben Baumer
+#### [Ben Baumer](https://beanumber.github.io/www)
+
+This past year was transitional for me and the department. 
+We've brought on a number of outstanding junior faculty members, while also tenuring Randi Garcia!
+We now have a plan of succession, as Randi has been elected the future Chair of SDS, to start July 2023, when I leave for a full-year sabbatical. 
+
+This year I continued to oversee the [DSC-WAV project](https://dsc-wav.github.io/www/), which is now entering its final year. 
+We published two papers related to this work, a short one in the [*Harvard Data Science Review*](https://hdsr.mitpress.mit.edu/pub/nvflcexe) and a longer one in [*Foundation of Data Science*](http://dx.doi.org/10.3934/fods.2022003). 
+AS part of these efforts I'm working on [creating transfer pathways in data science](https://dsc-wav.github.io/facdev22/symposium.html) from two-year to four-year colleges in Massachusetts. 
+My collaborators and I also published our thoughts on the [tidyverse](https://doi.org/10.5070/T514154352).
+
+I'm excited to begin the new year with new colleagues!
 
 #### Shiya Cao
 
@@ -71,4 +83,4 @@ We hope to see you in person!
 
 ### Women in Statistics and Data Science Conference
 
-[WSDS 2022](https://ww2.amstat.org/meetings/wsds/2021/) will also be virtual in October. 
+[WSDS 2022](https://ww2.amstat.org/meetings/wsds/2022/) will be in St. Louis in October. 
