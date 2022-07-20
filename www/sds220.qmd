@@ -1,0 +1,265 @@
+---
+title: "Introductory Statistics"
+subtitle: "SDS 201/220"
+author: "The Department"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+---
+
+# SDS 201/220 Topics List
+
+## Getting started with Data and Types of Studies
+
+### We cover
+
+- How data sets are organized (cases in rows, variables in columns)
+- Types of variables (Quantitative, Categorical/Ordinal)
+- Types of variables (Explanatory, Response, Neither)
+- Univariate and bivariate visualizations
+- Univariate and bivariate Summary Statistics
+- Types of studies (observational, experiment, randomized experiment)
+- Confounding variables and causal associations
+- Assessing if statements imply causality
+- Type of Study and Confounding Variables
+- Type of Study and Determining Causality
+
+### Instructor discretion
+
+- Simple Random Sampling / Stratified Sampling / Cluster Sampling
+- how mean, median, and SD change under linear transformations? (i.e., adding or - multiplying by a constant)
+
+### Good to mention
+
+- Hinting at methods for making causal statements using observational data and natural - experiments, but not going in depth. rather pointing them to more advanced courses - e.g. epi courses, econometrics.
+
+### Should not be taught in 220/201
+
+- Mean, variance calculations by hand (you can have them do it *once* -- that’s it!) - [Reasoning: Let the computers do the work]
+ 
+## Simple Linear Regression (before getting to inference)
+
+### We cover
+
+- Least Squares Line. In particular, what is meant by “least” and “squares”
+- Use regression to make predictions
+- Interpret the intercept and slope in context
+- Read regression output in R
+- Residuals
+- Relationship between correlation and linear regression
+- Extrapolation (warnings about the danger of this)
+- Outliers and Regression
+- Regression with a categorical predictor (see also one-way ANOVA)
+- Residual vs. Fitted Value Plot
+
+### Instructor discretion
+
+- Leverage and Regression
+- Influential Points and Regression
+
+## Probability (Only for 220, not necessary for 201)
+
+### We cover
+
+- Bayes Rule (can teach with two by two tables or by introducing the probability - concepts below)
+- Instructor discretion
+- Events, disjoint events, and Probability of Events [could be good for bayes]
+- Sample space [good for bayes]
+- Complement of an event [good for bayes]
+- Independent events [good for bayes]
+- Properties of probabilities [good for bayes]
+- Additive rule for probabilities [good for bayes]
+- Random variables
+- Expected value, variance of r.v.’s
+- Linearity of Expectation
+
+## Sampling
+
+### We cover
+
+- Critical point of inference: You want to know the value of a population parameter, - but you don’t have the means to conduct a census. So instead you use a sample to - generate a point estimate of this parameter. 
+- Sampling variation
+- Accuracy/bias of estimates is based on representative sampling
+- Precision/error of estimates is based on sample size. 
+- Differentiating between Sample and Population
+- Generalizing from the sample to the population
+- Random Sampling
+- Sampling Bias
+- Other types of bias (wording, volunteer, survival, convenience bias, etc)
+
+### Instructor discretion
+
+- Physical/tactile demonstration of point of sampling and effect of sampling variation - using bowl of white and red balls in Sabin-Reed 301
+
+## Bootstrap Distributions and CIs
+
+### We cover
+
+- Distinction between standard error vs. standard deviation
+- Interpretation of CI
+- Meaning of "confidence"
+- confidence level
+- sampling distribution
+- Common mistakes in interpreting CIs
+- bootstrap procedure (sampling w/ replacement) / how to construct a Bootstrap CI using
+- SE method for bootstrap CI
+- Percentile method for bootstrap CI
+
+### Instructor discretion
+
+- relationship between p value and CI...for instance, if 95% CI for a slope includes - zero the p value will also indicate that you fail to reject the null.
+
+## Randomization Distribution and Hypothesis Testing
+
+### We cover
+
+- Null and Alternative Hypotheses
+- Assuming Null Hypothesis is true
+- Meaning of p-value
+- (Population) Parameters vs. test statistics
+- Significance levels
+- Type I and Type II errors
+- Make a conclusion in context based on hypothesis tests
+- Not accepting null hypothesis
+- Practical significance vs. statistical significance
+- Null distribution: create with randomization distribution
+- Center and spread of randomization distribution
+- Calculating a p-value with randomization distribution
+- One tailed test vs. two tailed test [emphasize that in practice two tail tests are - more conservative and are used consistently in scientific literature]
+- Generalizability (or lack thereof) to population
+
+### Instructor discretion
+
+- Power of a statistical test
+
+## Normal distribution and CLT
+
+### We cover
+
+- Z-score / Converting between standard normal and Normal with specific mean and - variance
+- 68-95-99.7 Rule
+- Normal calculations with R
+- Defining the CLT (in words, not in mathematical equations)
+- simulations demonstrating CLT (can be done using sampling bowl in SR 301)
+
+### Should not be taught in 220/201
+
+- Normal calculations on calculator [Reasoning: no one uses calculators anymore]
+- Normal / T Tables [Reasoning: computers are more precise and adaptable]
+- Mathematical definition of CLT, proof of CLT [Reasoning: not applicable to this - course or students at this level of mathematical sophistication.]
+
+## Inference with Distributional Assumptions
+
+### We cover
+
+- Checking assumptions: including emphasis on independent sampling
+- CI and test for one proportion with N(0,1)
+- CI and test for two proportions (must include either this or difference of two - proportions with randomization and bootstrap or both)
+- One-sample t-test and CI for mean
+- 2-sample t-test and CI for difference in means (must include either this or - difference of two means with randomization and bootstrap or both)
+- 1-way ANOVA (can teach as extension of regression, but should include discussion of - ANOVA table)
+- Multiple comparisons: the concept, and how it relates to p-hacking/statistical - malpractice
+
+### Instructor discretion
+
+- Paired data: Test and CI
+- Multiple comparisons remedies: Bonferonni
+- Contrasts
+- Chi-square test for association
+- Chi-square test for goodness of fit
+
+## Return to Regression: Now with Statistical inference
+
+### We cover
+
+- T-test for slope
+- CI for slope using t distribution
+- Multiple Linear Regression: Interpretation of Coefficients
+- Weighing the complexity vs. interpretability of model
+- Multiple Linear Regression parallel slopes model (at you discretion if you talk about - inference for this or just use it descriptively)
+
+### Instructor discretion
+
+- Randomization Test for Slope
+- Bootstrap CI for Slope
+- Relation to ANOVA
+- ANOVA table and F test for regression
+- Interaction with 1 quantitative and 1 categorical 
+- Transformations? (i.e., taking the log of the response)
+- Model Selection / searching for “best” model [Reasoning: all of this will be covered - in 291 at greater depth, and the focus of 220/201 is inference.]
+
+### Do not teach in 220/201
+
+- Adjusted R squared
+- Interaction more complicated than 1 quant and 1 categorical 
+- Quadratic/polynomial terms in regression
+- Logistic regression / anything beyond multiple linear regression
+
+## Data Ethics
+
+### We cover
+
+- P-hacking and other issues with p-values
+- Brief mention of IRB and Human subjects
+- Generalizing beyond your data 
+- History of racism’s legacy in stats. For example: eugenics, censuses across the world - (the evolution of the “race/ethnicity” category over the years, citizenship question)
+- Modeling/data collection reflects biases of creators (e.g., recording gender as - binary)
+
+### Instructor discretion?
+
+- Algorithmic bias (will be covered in 293 and 410)
+- How to Lie with Statistics (data viz tricks)
+- False notion of objectivity
+
+## R
+
+### We cover
+
+- simple visualizations with ggplot
+- Creating documents in R Markdown
+- lm()
+- Encourage students use of Spinelli center / Stat TAs / Data Assistants
+- how to tell the data type of each variable [glimpse() etc]
+
+### At your discretion
+
+- Use of tidyverse throughout (but strongly encouraged)
+- https://github.com/allisonhorst/stats-illustrations
+- Use of infer (but encouraged)
+- Recoding variables
+- Creating new variables
+- getting started with tidy R (cases/observations stored in rows, variables stored in - columns, be aware of variable names, etc)
+- Importing data
+- Combining different data sets (i.e., merge(), inner_join())
+
+### Do not include
+
+- In depth data wrangling: can talk to students one-on-one about their questions but - this isn’t the point of the class [Reasoning: core content of 192]
+
+## Final Project
+
+### We cover
+
+- Written component (technical report) is created in RMarkdown
+- Intermediary milestone assignments (data proposals approved by instructor, first - submission that instructor will give feedback on and then students will resubmit, - etc)
+- Forming a question / questions that can be answered with data
+- Explaining data’s context and how it was collected.
+- Regression / interpreting regression coefficients, 
+- Explaining limitations of study / results
+- Scope of inference: generalizability to what population
+- Assessing assumptions 
+- Conducting a hypothesis test and interpreting in context
+- EDA
+
+### Instructor discretion:
+
+- [more of a caution] Students often want to use states or countries as units of - observations but are conceptualizing this as population data… which then obviates the - need for any statistical inference. If the students are savvy enough to understand - the data generation process then this might be doable.  
+- Anything covered in the class beyond include category
+- A verbal component (though this is highly encouraged and could take many different - forms: in class group presentations / poster sessions / screencasts etc)
+- How to form groups. Some things to consider:
+- If you need to form groups (either for all or some of your class), consider blocking - by some common theme. For example, bio vs non-bio majors, distributing those with 192 - experience evenly across groups
+- Make sure they are in the same lab so section so that they can work on projects - during lab time 
+
+### Not allowed: 
+- Logistic regression, or more complicated than multiple regression
+- No simulated data
+
+
