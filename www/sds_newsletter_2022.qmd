@@ -25,10 +25,10 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 - [**Randi Garcia** was promoted](https://www.smith.edu/news/2022-tenure-and-promotion) to associate professor with tenure!
 - [Fatou Sanogo](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) got a tenure-track job at Bates! We're wishing Fatou all the best in her next steps. 
-- We hired **Kaitlyn Cook** as a tenure-track faculty member. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics course and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
+- We hired **Kaitlyn Cook** as a tenure-track assistant professor. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics course and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
 - We hired **Shiya Cao** as a MassMutual assistant professor of statistical and data sciences. 
 Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). Shiya will be teaching SDS 192 and SDS 100 in her first year. 
-- We hired **Jared Joseph** as a Lecturer for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
+- We hired **Jared Joseph** as a visiting assistant professor for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
 - We'll be searching for **two** tenure-track positions this year, both of which are joint with other departments!
     - a joint position with the Mathematical Sciences department for a mathematical statistician  
     - a joint position with the Physics department for a computational physicist 
@@ -69,6 +69,7 @@ I'm excited to begin the new year with new colleagues!
 
 ## Alumni Updates
 
+- [Emily Flynn '14](https://www.linkedin.com/in/emily-flynn-863511179/): I finished my PhD in Biomedical Informatics at Stanford in summer of 2021 and started a job as a Senior Biological Data Scientist at UCSF, where I am working on a data science team in the department of immunology. I'm really enjoying all the learning in my new role, and helping researchers with exciting projects. In my spare time, I enjoy biking around the bay area, going on gorgeous hikes, and spending time with my cat. 
 
 ## What's next? 
 
