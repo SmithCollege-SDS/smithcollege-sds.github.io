@@ -1,0 +1,178 @@
+---
+title: "Introductory Data Science"
+subtitle: "SDS 192"
+author: "The Department"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+---
+
+# SDS 192 Topics List
+
+## Data Wrangling
+
+### Definitely teach
+
+- Grammar of data transformation (dplyr)
+- Joins
+- Pivoting data between long and wide (tidyr)
+- basic missing data handling
+- good variable names (e.g., snake_case, meaningful names)
+- basic values and cells; recoding
+
+### Instructor discretion
+
+- Basic string manipulation (stringr)
+- Categorical vs. ordinal (forcats)
+- unite/separate
+
+### Good to mention
+
+- Regular expression (complex string manipulation) 
+- Working with dates (lubridate)
+
+### Should not be taught in 192
+
+## Data Visualization
+
+### Definitely teach
+
+- Grammar of graphics (ggplot2)
+- Elementary color theory (RColorBrewer)
+- small multiples / facetting
+- canonical data graphics (e.g., side-by-side boxplot for continuous y - and categorical x)
+- Context: titles, subtitles, labels, axes, units, guide lines, legends, - zooming-in etc.
+- Strategies for overplotting: transparencies, jitter
+
+### Instructor discretion
+
+- Tufte: Ink to information ratio
+- Interactive graphics (plotly, gganimate)
+
+### Good to mention
+
+- Data art
+
+### Should not be taught in 192
+
+- Tableau
+
+## Data Acquisition
+
+### Definitely teach
+
+- Importing from a CSV (readr)
+- File paths (relative vs. absolute)
+- basic concept of hierarchical file system
+
+### Instructor discretion
+
+- APIs
+- web scraping (rvest)
+- here::here()
+- Google Sheets (publish to csv, or use googlesheets4 pkg)
+
+### Good to mention
+
+- Scraping from PDFs
+
+### Should not be taught in 192
+
+## Programming 
+
+### Definitely teach
+
+- Debugging
+- The psychology of error messages
+- Functions: arguments/inputs and output, defaults
+- Boolean operators (comes naturally via data wrangling)
+- Vectors only in terms of c() as inputs to functions
+
+### Instructor discretion
+
+- Shiny Apps
+- Iteration (purrr::map)
+- Vectors and matrices in R
+
+### Good to mention
+
+- Cheatsheets
+- pull()
+
+### Should not be taught in 192
+
+- Object oriented programming
+- 
+## Data Science Best Practices
+
+### Definitely teach
+
+- Ethics
+- Data provenance/sources
+- Project development workflow: MVP, iterating, done is better than - perfect
+- Markdown formatting
+- Code commenting/styling
+
+### Instructor discretion
+
+- (Minimally) reproducible examples (reprex)
+
+### Good to mention
+
+### Should not be taught in 192
+
+## Stats
+
+### Definitely teach
+
+- Summary stats? (LP: question on framing) - does this go in data - wrangling?
+
+### Instructor discretion
+
+- Trend lines (linear vs. non-linear) 
+
+### Good to mention
+
+### Should not be taught in 192
+
+- Modeling
+- Regression
+- 
+## Spatial (Assuming you feel Spatial is a must)
+
+### Definitely teach
+
+- Types of spatial: shapefiles (points, lines, polygons) vs raster. (Bert - invited Spatial Analysis Lab people to give lecture)
+- Layering a map: basemap and then add layers (sf pkg)
+- Projections: Idea that sphere is hard to project onto 2D page
+
+### Instructor discretion
+
+- Leaflet
+- Spatial joins/computation
+
+### Good to mention
+
+### Should not be taught in 192
+
+## Collaborative Workflow and Version Control
+
+### Definitely teach
+
+- GitHub: Repo, clone, push, pull, commit, fork, resolve merge simple - conflict 
+- README.md as project marketing
+- Project-oriented lifestyle: RStudio projects (*.Rproj files should line - up with repos)
+
+### Instructor discretion
+
+- Command line vs GitHub Desktop vs. RStudio integration vs. GitHub.com - GUI
+- usethis
+
+### Good to mention
+
+- Issues
+- Projects
+
+### Should not be taught in 192
+
+- pull requests
+- branches
+
