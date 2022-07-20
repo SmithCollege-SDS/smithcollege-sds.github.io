@@ -67,7 +67,7 @@ date: "`r format(Sys.Date(), '%B %e, %Y')`"
 
 - APIs
 - web scraping (rvest)
-- here::here()
+- `here::here()`
 - Google Sheets (publish to csv, or use googlesheets4 pkg)
 
 ### Good to mention
@@ -95,12 +95,12 @@ date: "`r format(Sys.Date(), '%B %e, %Y')`"
 ### Good to mention
 
 - Cheatsheets
-- pull()
+- `pull()`
 
 ### Should not be taught in 192
 
 - Object oriented programming
-- 
+
 ## Data Science Best Practices
 
 ### Definitely teach
@@ -135,7 +135,7 @@ date: "`r format(Sys.Date(), '%B %e, %Y')`"
 
 - Modeling
 - Regression
-- 
+
 ## Spatial (Assuming you feel Spatial is a must)
 
 ### Definitely teach
@@ -158,8 +158,8 @@ date: "`r format(Sys.Date(), '%B %e, %Y')`"
 ### Definitely teach
 
 - GitHub: Repo, clone, push, pull, commit, fork, resolve merge simple - conflict 
-- README.md as project marketing
-- Project-oriented lifestyle: RStudio projects (*.Rproj files should line - up with repos)
+- `README.md` as project marketing
+- Project-oriented lifestyle: RStudio projects (`*.Rproj` files should line - up with repos)
 
 ### Instructor discretion
 
