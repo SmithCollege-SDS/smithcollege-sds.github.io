@@ -60,7 +60,11 @@ I'm excited to begin the new year with new colleagues!
 
 #### Albert Y. Kim
 
-#### Katherine M. Kinnaird
+#### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
+
+Season three of the pandemic was another year like no other. It was great to be back on campus with students chatting about statistics and machine learning. This past fall, I was a co-organizer for the [Teaching ML workshop](https://teaching-ml.github.io/2021/) which included a talk by [Prof. Alicia Johnson](https://ajohns24.github.io/portfolio/), collaborator and co-author of Miles Ott '01. (Our next workshop is in [September](https://teaching-ml.github.io/2022/); join us!) I've continued working with students on my collaborative NSF TRIPODS+X grant during the academic year and to work virtually with four students through SURF. 
+
+I'm teaching both _Modeling for Machine Learning_ (SDS 293) and _Computational Machine Learning_ (CSC294) this fall. Then I'll be on sabbatical in the spring. Looking forward to seeing everyone again this fall! 
 
 #### [Scott LaCombe](www.scottlacombe.com)
 
