@@ -84,7 +84,13 @@ I'm teaching both _Modeling for Machine Learning_ (SDS 293) and _Computational M
 
 #### [Scott LaCombe](www.scottlacombe.com)
 
-#### Lindsay Poirier
+#### [Lindsay Poirier](https://lindsaypoirier.github.io/)
+
+What a whirlwind of a first year at Smith! It has been such a joy and a privilege getting to know Smith students and colleagues, and I can't wait for what's in store in the coming years. 
+
+This year I launched the *Data Ethnography and Advocacy Lab* - a research group focused on investigating the cultural histories of public interest datasets in the United States. A number of exceptional Smith students have helped get this lab off the ground! Based on this work, I published a paper in the conference proceedings for [ACM FAccT](https://dl.acm.org/doi/abs/10.1145/3531146.3533201). The paper highlights a number of concerns around the representativeness and usefulness of "disclosure datasets," or datasets aggregated from information produced by the same institutions the data is meant to hold accountable. I also published a book chapter in the [Handbook for the Anthropology of Technology](https://link.springer.com/book/10.1007/978-981-16-7084-8), detailing the knowledge practices engaged as the EPA works to develop nationwide vehicle emissions estimates. In March, five Smithies (Amrita Acharya, Sena Amuzu, Lara Brown, Juniper Huang, Naomi Liftman, and Molly Zelloe) came with me down to NYC School of Data to present [a workshop](https://www.youtube.com/watch?v=6sS3s37yDvc&t=1s&ab_channel=BetaNYC) to NYC civic technologists and city staff on how to examine and narrate the cultural backstories of datasets. I also brought an anthropologist's perspective to [a panel](https://www.scidatacon.org/IDW-2022/sessions/392/) assessing "20 Years of Data Science" at *International Data Week* this past June. 
+
+In the Fall, I'll be teaching *Data and Social Justice* (SDS 189) and *Introduction to Data Science* (SDS 192), and in the Spring, I'll be teaching *Data Ethnography* (SDS 237) and *Capstone in Statistical & Data Sciences* (SDS 410). I hope you've soaked up the best of summer, and looking forward to seeing you very soon!
 
 
 ## Alumni Updates
