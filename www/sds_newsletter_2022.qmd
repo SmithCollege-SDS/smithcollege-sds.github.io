@@ -25,7 +25,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 - [**Randi Garcia** was promoted](https://www.smith.edu/news/2022-tenure-and-promotion) to associate professor with tenure!
 - [Fatou Sanogo](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) got a tenure-track job at Bates! We're wishing Fatou all the best in her next steps. 
-- We hired **Kaitlyn Cook** as a tenure-track assistant professor. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics course and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
+- We hired **Kaitlyn Cook** as a tenure-track assistant professor. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard T.H. Chan School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics courses and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
 - We hired **Shiya Cao** as a MassMutual assistant professor of statistical and data sciences. 
 Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). Shiya will be teaching SDS 192 and SDS 100 in her first year. 
 - We hired **Jared Joseph** as a visiting assistant professor for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
@@ -50,13 +50,35 @@ I'm excited to begin the new year with new colleagues!
 
 #### Shiya Cao
 
+This year’s keywords for me included *new* and *transition*. As a newly minted Ph.D., I am looking forward to continuing to conduct disability inclusion and broader social inclusion research and engaging Smithies in these research projects. My doctoral dissertation focused on the critical view of the design of information systems to improve the workplace accommodation process for disabled employees. An initial version was [co-published](https://scholarspace.manoa.hawaii.edu/items/8a3b15d1-d537-403b-9eac-08d967d562bc) at the Hawaii International Conference on System Sciences in 2022. I also conducted digital accessibility research regarding data-based decision making to integrate accessibility guidelines into college curricula, which was [co-published](https://www.tandfonline.com/doi/full/10.1080/0144929X.2021.1940278) at Behavior & Information Technology in 2021. I also have a forthcoming coauthored book chapter titled “The Chains that Bind: Gender, Disability, Race, and IT Accommodations”. I am excited to further explore these research areas with Smithies and help them pay attention to human, social, and emotional elements of data science.
+
+I also can’t wait to start teaching at Smith! I will be teaching SDS 192 and SDS 100 this Fall. I taught an Introduction to Data Science course at WPI for five terms and developed course content including statistics lectures, data visualization labs, programming and machine learning tutorials, assignments, and quizzes. However, there are still things for me to learn with new materials, new platforms, new tools, and new students. I am thrilled to have the opportunity to evolve my teaching strategies, ideas, and philosophies as I grow alongside my students.
+
+Another new thing for me is that I have moved from Central MA to Western MA. This is the first time I have lived in the countryside. I love nature and seeing so much green. However, again, I have many new things to learn, such as gardening, living in harmony with bears. Life is full of adventure. Keep learning, keep improving. I am excited to start my new journey here with great colleagues and great students.
+
 #### Kaitlyn Cook
+
+I’m incredibly honored and excited to be joining the Statistics and Data Science Program at Smith! I’m coming to Northampton by way of Boston, MA, where I've lived for the last seven years: first as a biostatistics graduate student at Harvard T.H. Chan School of Public Health and then as a postdoctoral research fellow at Harvard Medical School and Harvard Pilgrim Health Care Institute. My research focuses on statistical methods development for clinical trials with (a) cluster randomization schemes, wherein entire groups of individuals (such as families, schools, or communities) are collectively assigned to a particular treatment arm, and (b) time-to-event endpoints, where a “time-to-event” endpoint might be something like the time from study enrollment to COVID-19 infection or the time to progression from HIV to AIDS. I published a paper on this topic in _Biometrics_ this past August (a [preprint is available here](https://biostats.bepress.com/harvardbiostat/paper220/) for those who are interested!) and have spent the last year working on both a pediatric sleep medicine trial and a COVID-19 treatment/prevention trial. I’m looking forward to continuing this research while at Smith, as well as to teaching _Probability_ (MTH 246) and _Introduction to Probability and Statistics_ (SDS 220) this fall!
+
+Outside of the classroom, I dedicate myself to watching (too much) reality TV---this past winter I managed to watch all 19 seasons of Top Chef over the course of two and a half months, though sadly without any noticeable improvement in my own culinary skills---and am also an avid reader, an avid Zumba-er, and a sometimes runner. 
 
 #### Randi Garcia
 
+This past Fall semester marked a returned to the classroom! I cannot express how good it felt to get back in there and see all of my students faces (well, half of their faces). Although masking and still being very much in a global pandemic came with challenges, just being in the same room with everyone was amazing. In SDS 290 Design and Analysis I switched textbooks and continued having students design their own individual experiments---an assignment I adopted for remote teaching which I'm happy to have carried over into the in-person course. I also taught (a full semester of) SDS 291 Multiple Regression for the first time! It was nice to get to know this smaller group of students of the course of the semester. My research group continued working on the daily-diary data investigating household and childcare labor among cohabitating couples.
+
+In the Spring semester I worked with a great group of students on the [DSC-WAV project](https://dsc-wav.github.io/www/). They continued work started by a group at Amherst College creating an equity dashboard for the [SPIFFY coallition](https://www.collaborative.org/services/healthy-families-and-communities/spiffy-coalition). My research group analyzed data on a project investigating self-objectification and Zoom use. We hope to submit this research report for publication this summer. I am honored to have received the 2022 [Mu Sigma Rho Early Career Undergraduate Impact Award](https://community.amstat.org/statisticaleducationsection/awards/mu-sigma-rho-award)! This award is very meaningful to me as recognition of my work mentoring students in SDS over the years.
+
+The Spring semester also brought two **very important** pieces of great news for me: 1) I received tenure, and 2) I learned that I'm expecting a baby a September!! I feel so honored to become a permanent member of the faculty at an institution I love. Stay tuned for news on the baby in next year's newsletter. 
+
 #### Will Hopper
 
-#### Jared Joseph
+#### [Jared Joseph](https://jnjoseph.com/)
+
+This Fall will bring many exciting changes for me as I start my first year at Smith. I’m moving from the West to East coast, progressing from student to professor, and shifting titles from sociologist to data scientist. I see each of these changes as an opportunity to bring the best of my experiences to a new venue.
+
+Bridging the gap between the social and data sciences has always been a passion of mine, and I look forward to continuing to do so in my instruction. As I prepare to teach Introduction to Data Science (SDS 192), I look forward to highlighting the human element in the data we use, and hopefully inviting more social scientists to level up their data skills. As a recent student in the social sciences, I can remember the initial hurdles of reaching beyond my comfort zone, but can also speak to the major ways it has improved my work, and my life in general. As I prepare for this work, I hope to learn more about my new home, as it’s my first time living in this part of the world.
+
+In addition to my teaching, I’ll be focusing on translating my dissertation into publications. I studied how asset forfeiture (basically police seizing private property) is used in California over the past two decades, and the impact such power has on law enforcement actions. I recently got the news that the first paper from this project has been accepted for publication (more details soon). I’ve got 2 more papers planned from this project! For now I get to enjoy the most fun part of the research process (in my opinion), deciding what my next big question will be.
 
 #### Albert Y. Kim
 
@@ -66,16 +88,40 @@ Hello SDS world! A lot has been going! First, my forest ecology research started
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/48d63BcgJbyRnnlitScglv?utm_source=generator" width="40%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </center>
 
-#### Katherine M. Kinnaird
+
+#### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
+
+Season three of the pandemic was another year like no other. It was great to be back on campus with students chatting about statistics and machine learning. This past fall, I was a co-organizer for the [Teaching ML workshop](https://teaching-ml.github.io/2021/) which included a talk by [Prof. Alicia Johnson](https://ajohns24.github.io/portfolio/), collaborator and co-author of Miles Ott '01. (Our next workshop is in [September](https://teaching-ml.github.io/2022/); join us!) I've continued working with students on my collaborative NSF TRIPODS+X grant during the academic year and to work virtually with four students through SURF. 
+
+I'm teaching both _Modeling for Machine Learning_ (SDS 293) and _Computational Machine Learning_(CSC294) this fall. Then I'll be on sabbatical in the spring. Looking forward to seeing everyone again this fall! 
+
+
 
 #### [Scott LaCombe](www.scottlacombe.com)
 
-#### Lindsay Poirier
+I can't believe I'm beginning my third year at Smith and was so grateful to be able to see and work with student during the last academic year. I have particularly enjoyed working with students on creating a new database of racial disparities in state-level population health outcomes. 
+
+In this last year, my co-authored book titled [*Choosing the Future: Technology and Opportunity in Communities*](https://global.oup.com/academic/product/choosing-the-future-9780197585757?cc=us&lang=en&) came out, where we explore the political and economic effects of broadband in counties and cities across the United States. I've also continued my research on public policy in the American states, and hope to continue working with students to think critically about the data generating process. 
+
+This upcoming year, I will be teaching two courses for the Government department in the Fall (Gov 200 and GOV 306) and in the Spring will be teaching *Introduction to Probability and Statistics* (SDS 220) as well as a *seminar in Network analysis in Political Science* (SDS/GOV 338- which will count towards your application domain!)
+
+#### [Lindsay Poirier](https://lindsaypoirier.github.io/)
+
+What a whirlwind of a first year at Smith! It has been such a joy and a privilege getting to know Smith students and colleagues, and I can't wait for what's in store in the coming years. 
+
+This year I launched the *Data Ethnography and Advocacy Lab* - a research group focused on investigating the cultural histories of public interest datasets in the United States. A number of exceptional Smith students have helped get this lab off the ground! Based on this work, I published a paper in the conference proceedings for [ACM FAccT](https://dl.acm.org/doi/abs/10.1145/3531146.3533201). The paper highlights a number of concerns around the representativeness and usefulness of "disclosure datasets," or datasets aggregated from information produced by the same institutions the data is meant to hold accountable. I also published a book chapter in the [Handbook for the Anthropology of Technology](https://link.springer.com/book/10.1007/978-981-16-7084-8), detailing the knowledge practices engaged as the EPA works to develop nationwide vehicle emissions estimates. In March, five Smithies (Amrita Acharya, Sena Amuzu, Lara Brown, Juniper Huang, Naomi Liftman, and Molly Zelloe) came with me down to NYC School of Data to present [a workshop](https://www.youtube.com/watch?v=6sS3s37yDvc&t=1s&ab_channel=BetaNYC) to NYC civic technologists and city staff on how to examine and narrate the cultural backstories of datasets. I also brought an anthropologist's perspective to [a panel](https://www.scidatacon.org/IDW-2022/sessions/392/) assessing "20 Years of Data Science" at *International Data Week* this past June. 
+
+In the Fall, I'll be teaching *Data and Social Justice* (SDS 189) and *Introduction to Data Science* (SDS 192), and in the Spring, I'll be teaching *Data Ethnography* (SDS 237) and *Capstone in Statistical & Data Sciences* (SDS 410). I hope you've soaked up the best of summer, and looking forward to seeing you very soon!
 
 
 ## Alumni Updates
 
 - [Emily Flynn '14](https://www.linkedin.com/in/emily-flynn-863511179/): I finished my PhD in Biomedical Informatics at Stanford in summer of 2021 and started a job as a Senior Biological Data Scientist at UCSF, where I am working on a data science team in the department of immunology. I'm really enjoying all the learning in my new role, and helping researchers with exciting projects. In my spare time, I enjoy biking around the bay area, going on gorgeous hikes, and spending time with my cat. 
+
+- [Lizzy (Atkins) Offermann '15](https://www.linkedin.com/in/elizabethoffermann/): Life has been busy over the last year in the Offermann household! I graduated with my master's degree in Clinical and Translational Research from George Washington University, changed jobs and now work for an amazing healthcare tech company aiming to [make healthcare more accessible for everyone](https://www.color.com), have continued my work as the Treasurer for the Class of 2015 Cabinet, and recently finished up a busy admissions season as the Smith Club of Baltimore's Alumnae Admission Coordinator for the tri-state area. Some major professional highlights involve working on all of the data for my company's [COVID-19 Antiviral Treatment Programs](https://www.color.com/covid19) across multiple states in the US, our [ship-to-home preventative care kit](https://www.color.com/essential-care), and most recently our partnership with the CDC and White House to make [COVID-19 testing more accessible](https://www.linkedin.com/posts/color_community-covid19testing-cdc-activity-6952676033481371648-pqwP)! My involvement with these three projects and others ranges from data ingestion from the UI, data wrangling, modeling, database creation, analytics, visualization, and working with the customers and stakeholders to fully understand the story their data is telling them. We have open positions on my team and other fabulous teams at Color, so if you are looking to get into healthcare tech - reach out!  
+Personally, our twin toddlers are getting closer and closer to turning 5 years old and entering public school - wild how time flies! My husband and I just love to watch them grow, learn, and form into their own little people with full personalities. We have been very thankful to avoid COVID so far and the kiddos are almost fully vaxxed now, too - fingers crossed we can keep it away until they get their final dose!
+
+- [Sara Stoudt '15](https://sastoudt.github.io/): My first year as an assistant professor at Bucknell University is in the books, and now I'm gearing up to teach a first-year seminar in the fall on "Storytelling with Data". Send me your favorite data stories! Here are some things I'm proud of this year: [for the birders](https://doi.org/10.1073/pnas.2110156119), [for the teachers](https://doi.org/10.1080/26939169.2022.2082602), and [for the creatives](https://datasciencebydesign.org/book).
 
 ## What's next? 
 
@@ -88,7 +134,7 @@ Don't miss these events featuring Smithies!
   Arielle Dror '20  
 - [Creating Optimal Conditions for Reproducible Data Analysis in R with 'Fertile' ](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=320382)  
   Benjamin Baumer and Audrey M. Bertin '21
-- [erspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=223215)  
+- [Perspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=223215)  
   Katherine Kinnaird
 - [Combining Trial and Population Data to Estimate Population Average Treatment Effects](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=319275)  
   Elizabeth Stuart '97
