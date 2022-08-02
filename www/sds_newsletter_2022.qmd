@@ -60,6 +60,12 @@ I'm excited to begin the new year with new colleagues!
 
 #### Albert Y. Kim
 
+Hello SDS world! A lot has been going! First, my forest ecology research started to take off. On top of continuing my work with the Smithsonian Conservation Biology Institute in Front Royal VA, I've started new collaborations with Harvard Forest in nearby Petersham MA. My collaborators and I have been putting the finishing touches on two big papers about this work, standby! Second, in Fall 2022, SDS 192 Intro to Data Science had a whopping **121** students registered; by far the largest number of students I've had! While having this many students presented many new challenges, it was still a rewarding experience; having the Spinelli tutoring center provide both in-class data assistants and evening drop-in tutoring made this possible. Next, I also very much enjoyed acting as the faculty liaison to the [SDS Coalition of Color](https://www.instagram.com/sdsccsmith/){target="_blank"}, who this past academic year got officially chartered as an SGA organization. Lastly, but most importantly, my wife and I welcomed the birth of our first child, Georgina "Gigi" Jeewon Kim! Baby Gigi's interests include making deep baritone burps and listening to baby lullaby renditions of Guns n' Roses songs:
+
+<center>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/48d63BcgJbyRnnlitScglv?utm_source=generator" width="40%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</center>
+
 #### Katherine M. Kinnaird
 
 #### [Scott LaCombe](www.scottlacombe.com)
