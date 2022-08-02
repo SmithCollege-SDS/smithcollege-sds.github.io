@@ -64,6 +64,12 @@ Outside of the classroom, I dedicate myself to watching (too much) reality TV---
 
 #### Randi Garcia
 
+This past Fall semester marked a returned to the classroom! I cannot express how good it felt to get back in there and see all of my students faces (well, half of their faces). Although masking and still being very much in a global pandemic came with challenges, just being in the same room with everyone was amazing. In SDS 290 Design and Analysis I switched textbooks and continued having students design their own individual experiments---an assignment I adopted for remote teaching which I'm happy to have carried over into the in-person course. I also taught (a full semester of) SDS 291 Multiple Regression for the first time! It was nice to get to know this smaller group of students of the course of the semester. My research group continued working on the daily-diary data investigating household and childcare labor among cohabitating couples.
+
+In the Spring semester I worked with a great group of students on the [DSC-WAV project](https://dsc-wav.github.io/www/). They continued work started by a group at Amherst College creating an equity dashboard for the [SPIFFY coallition](https://www.collaborative.org/services/healthy-families-and-communities/spiffy-coalition). My research group analyzed data on a project investigating self-objectification and Zoom use. We hope to submit this research report for publication this summer. I am honored to have received the 2022 [Mu Sigma Rho Early Career Undergraduate Impact Award](https://community.amstat.org/statisticaleducationsection/awards/mu-sigma-rho-award)! This award is very meaningful to me as recognition of my work mentoring students in SDS over the years.
+
+The Spring semester also brought two **very important** pieces of great news for me: 1) I received tenure, and 2) I learned that I'm expecting a baby a September!! I feel so honored to become a permanent member of the faculty at an institution I love. Stay tuned for news on the baby in next year's newsletter. 
+
 #### Will Hopper
 
 #### [Jared Joseph](https://jnjoseph.com/)
@@ -119,7 +125,7 @@ Don't miss these events featuring Smithies!
   Arielle Dror '20  
 - [Creating Optimal Conditions for Reproducible Data Analysis in R with 'Fertile' ](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=320382)  
   Benjamin Baumer and Audrey M. Bertin '21
-- [erspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=223215)  
+- [Perspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/ActivityDetails.cfm?SessionID=223215)  
   Katherine Kinnaird
 - [Combining Trial and Population Data to Estimate Population Average Treatment Effects](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=319275)  
   Elizabeth Stuart '97
