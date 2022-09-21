@@ -160,7 +160,7 @@ Recent winners from Smith include:
     <cite>WeathR: Twitter perspectives on the weather</cite>  
     Faculty sponsor: Ben Baumer
 
-### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
+## [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
 
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
 
