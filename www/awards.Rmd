@@ -117,6 +117,10 @@ The class project competition is for undergraduate students who conduct projects
 
 Recent winners from Smith include:
 
+- 2018
+    - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2022/spring/winners): Grace Rade '24, Audrey Kim '24, Lisa Li '24, & Joy Mahoney '24  
+    <cite>"Analysis Of Age, Race And Income As Factors Of Work Time"</cite>  
+    Faculty sponsor: Will Hopper
 - 2021
     - [3rd Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2021/spring/winners): Quinn White '23 and Rose Evard '23  
     <cite>"Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication?"</cite>  
