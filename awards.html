@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -64,9 +69,11 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SDS</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -173,7 +180,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -191,10 +198,10 @@ ul.task-list{list-style: none;}
   <li><a href="#departmental-honors" id="toc-departmental-honors" class="nav-link" data-scroll-target="#departmental-honors">Departmental Honors</a></li>
   <li><a href="#competitions" id="toc-competitions" class="nav-link" data-scroll-target="#competitions">Competitions</a>
   <ul class="collapse">
-  <li><a href="#asa-five-college-datafest" id="toc-asa-five-college-datafest" class="nav-link" data-scroll-target="#asa-five-college-datafest"><span>ASA Five College DataFest</span></a></li>
-  <li><a href="#undergraduate-statistics-project-competition-usclap" id="toc-undergraduate-statistics-project-competition-usclap" class="nav-link" data-scroll-target="#undergraduate-statistics-project-competition-usclap"><span>Undergraduate Statistics Project Competition</span> (USCLAP)</a>
+  <li><a href="#asa-five-college-datafest" id="toc-asa-five-college-datafest" class="nav-link" data-scroll-target="#asa-five-college-datafest">ASA Five College DataFest</a></li>
+  <li><a href="#undergraduate-statistics-project-competition-usclap" id="toc-undergraduate-statistics-project-competition-usclap" class="nav-link" data-scroll-target="#undergraduate-statistics-project-competition-usclap">Undergraduate Statistics Project Competition (USCLAP)</a>
   <ul class="collapse">
-  <li><a href="#undergraduate-research-project-competition-usresp" id="toc-undergraduate-research-project-competition-usresp" class="nav-link" data-scroll-target="#undergraduate-research-project-competition-usresp"><span>Undergraduate Research Project Competition</span> (USRESP)</a></li>
+  <li><a href="#undergraduate-research-project-competition-usresp" id="toc-undergraduate-research-project-competition-usresp" class="nav-link" data-scroll-target="#undergraduate-research-project-competition-usresp">Undergraduate Research Project Competition (USRESP)</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -407,6 +414,12 @@ Faculty sponsor: Ben Baumer</li>
 <h3 class="anchored" data-anchor-id="undergraduate-research-project-competition-usresp"><a href="https://www.causeweb.org/usproc/USRESP%20Competition">Undergraduate Research Project Competition</a> (USRESP)</h3>
 <p>The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor’s college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.</p>
 <ul>
+<li>2022
+<ul>
+<li><a href="https://www.causeweb.org/usproc/usresp/2022/spring/winners">Honorable Mention</a>: Dianne Caravela ’22, Amrita Acharya ’22J, Emma Kornberg ’22, Elisabeth Nesmith ’22, &amp; Eunice Kim ’22<br>
+<em>Does The Compas Needle Always Point Towards Equity? Finding Fairness In The Compas Risk Assessment Algorithm: A Case Study</em><br>
+Faculty sponsor: Ben Baumer</li>
+</ul></li>
 <li>2019
 <ul>
 <li><a href="https://www.causeweb.org/usproc/usresp/2019/fall/winners">3rd Place</a>: Karen Santamaria ’20, Kara Van Allen ’20, Maggie X. Wang ’20, and Tiffany Xiao ’20J<br>
@@ -496,7 +509,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
