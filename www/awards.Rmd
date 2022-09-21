@@ -164,6 +164,10 @@ Recent winners from Smith include:
 
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
 
+- 2022
+    - [Honorable Mention](https://www.causeweb.org/usproc/usresp/2022/spring/winners): Dianne Caravela '22, Amrita Acharya '22J, Emma Kornberg '22, Elisabeth Nesmith '22, & Eunice Kim '22  
+      *Does The Compas Needle Always Point Towards Equity? Finding Fairness In The Compas Risk Assessment Algorithm: A Case Study*  
+      Faculty sponsor: Ben Baumer
 
 - 2019
     - [3rd Place](https://www.causeweb.org/usproc/usresp/2019/fall/winners): Karen Santamaria '20, Kara Van Allen '20, Maggie X. Wang '20, and Tiffany Xiao '20J  
