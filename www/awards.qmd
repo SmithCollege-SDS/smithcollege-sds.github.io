@@ -19,7 +19,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ## Five College Statistics Prize
 
-The <a href="https://www.fivecolleges.edu/statistics/">Five College Statistics</a> prize is awarded to one student at each of the Five Colleges, at their discretion. The award may be presented to a student satisfying any one of the following criteria (based on faculty vote from that institution):
+The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is awarded to one student at each of the Five Colleges, at their discretion. The award may be presented to a student satisfying any one of the following criteria (based on faculty vote from that institution):
 
 - outstanding independent research, thesis, or capstone course project in statistics
 - outstanding service to statistics on their campus (or across campuses)
@@ -167,6 +167,11 @@ Recent winners from Smith include:
 ## [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
 
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
+
+- 2023
+    - [1st Place](https://www.causeweb.org/usproc/usresp/2022/fall/winners): Irene Foster '23, Sunshine Schneider '23, Caitlin Timmons '23, Katelyn Diaz '23  
+      *Storm Chasers: Synthesizing New England Weather Data on a Dashboard for Emergency Response Workers*  
+      Faculty sponsor: Albert Kim
 
 - 2022
     - [Honorable Mention](https://www.causeweb.org/usproc/usresp/2022/spring/winners): Dianne Caravela '22, Amrita Acharya '22J, Emma Kornberg '22, Elisabeth Nesmith '22, & Eunice Kim '22  
