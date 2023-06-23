@@ -10,6 +10,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 
 ### Awardees
 
+- 2023: Quinn White '23
 - 2022: Natalia Iannucci '22
 - 2021: Audrey Bertin '21
 - 2020: Jessica Keast '20
@@ -28,6 +29,7 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 
 ### Awardees
 
+- 2023: Aushanae Haller '23J, Clara Li '23 <cite>(outstanding service to statistics)</cite>
 - 2022: Sarah Gillespie '22J, Joyce Huang '22, Arris Moise '22, Chichi Wu '22 <cite>(outstanding service to statistics)</cite>
 - 2021: Yujia (Starry) Zhou '21J and Hannah Snell '21 <cite>(outstanding service to statistics)</cite>
 - 2020: Laneé Jung '20 and Fatima Keita '20 <cite>(outstanding service to statistics)</cite>
@@ -40,6 +42,10 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 	
 # Departmental Honors
 
+- 2023
+    - Quinn White '23, Highest Honors  
+      [Using Sensitivity Analyses to Approximate Total COVID-19 Infections: State and County level in the United States, March 2021--March 2022](https://scholarworks.smith.edu/theses/)  
+      Adviser: Ben Baumer
 - 2022
     - Natalia Iannucci '22, Highest Honors  
       [Improving Mutational Signature Detection in Cancer through Frequentist and Bayesian Hypothesis Testing](https://scholarworks.smith.edu/theses/)  
@@ -80,6 +86,13 @@ DataFest is a national undergraduate data analysis competition hosted at UMass e
 
 Recent winners from Smith include:
 
+- [2023](https://www.science.smith.edu/datafest/2023/04/10/recap-from-the-2023-asa-five-college-datafest/)
+    - Best in Show: The Model Mavericks </br>
+      Clara Li '23, Nikki Lin, Rose Porta '23, Quinn White '23, and Kushagra Srivastava (UMass)
+    - Best in Group (Panel B): Sexy Data Scientists </br>
+      Sarah Branch, Yaretsy Castro, Camila Maldonado, Su Than Thar Nyi, and Sonia Paredes
+
+
 - <a href="http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/">2019</a>
     - Best in Show: A-super-NOVA </br>
     	Audrey Bertin '21, Arielle Dror '20, Clara Rosenberg '20, Kara VanAllen '20
@@ -117,7 +130,7 @@ The class project competition is for undergraduate students who conduct projects
 
 Recent winners from Smith include:
 
-- 2018
+- 2022
     - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2022/spring/winners): Grace Rade '24, Audrey Kim '24, Lisa Li '24, & Joy Mahoney '24  
     <cite>"Analysis Of Age, Race And Income As Factors Of Work Time"</cite>  
     Faculty sponsor: Will Hopper
