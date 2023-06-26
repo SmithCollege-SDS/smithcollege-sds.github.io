@@ -1,31 +1,388 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistical & Data Sciences",
+    "objectID": "speaker.html",
+    "href": "speaker.html",
+    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
     "section": "",
-    "text": "This website is managed by the SDS faculty. For our official website, please visit smith.edu.\nPlease see our list of resources for self-study"
+    "text": "Yeshimabeit Milner\n\n\n\n\nYeshimabeit Milner is the Founder & Executive Director of Data for Black Lives, an organization that mobilizes scientists around racial justice issues, bringing together data scientists, computer programmers, and racial justice activists to discuss the role that data can and should play in Black communities.\n\n\n\nThis talk serves as a call to action to reject the concentration of Big Data in the hands of a few, to challenge the structures that allow data to be wielded as a weapon of immense political influence. To abolish Big Data would mean to put data in the hands of people who need it the most.\n\n\n\n\nDate and Time: Monday October 21, 5pm\nLocation: Weinstein Auditorium, Wright Hall, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences\nSmith College Africana Studies\nSmith College Program for the Study of Women & Gender\nSmith College School of Social Work\nSmith College Lecture Committee"
   },
   {
-    "objectID": "index.html#who-we-are",
-    "href": "index.html#who-we-are",
-    "title": "Statistical & Data Sciences",
-    "section": "Who we are",
-    "text": "Who we are\n\nTop row: Scott LaCombe, Albert Y. Kim, Benjamin Baumer, Randi Garcia\nMiddle row: Arris Moise (SDS Coalition of Color student rep), Lindsay Poirier, William Hopper, Marium Tapal (Smithies in SDS student rep)\nBottom row: Fatou Sanogo, Katherine M. Kinnaird\nNot pictured: Katherine Halvorsen"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Recent Events",
+    "objectID": "speaker.html#yeshimabeit-milner",
+    "href": "speaker.html#yeshimabeit-milner",
+    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
     "section": "",
-    "text": "Yeshimabeit Milner  Mon, Oct 21, 2019\n\n\n\n\n\n\n  \n\n\nStephanie Hicks  Thu, Apr 18, 2019\n\n\n\n\n\n\n  \n\n\nEmma Benn  Tue, Mar 5, 2019\n\n\n\n\n\n\n  \n\n\nTerry-Ann Craigie  Fri, Oct 12, 2018\n\n\n\n\n\n\n  \n\n\nRachel Schutt  Thu, Mar 22, 2018\n\n\n\n\n\n\n  \n\n\nChristine Zhang ’09  Tue, Dec 6, 2016\n\n\n\n\n\n\n  \n\n\nAmanda Cox  Fri, Dec 4, 2015"
+    "text": "Yeshimabeit Milner is the Founder & Executive Director of Data for Black Lives, an organization that mobilizes scientists around racial justice issues, bringing together data scientists, computer programmers, and racial justice activists to discuss the role that data can and should play in Black communities."
   },
   {
-    "objectID": "patch_template.html",
-    "href": "patch_template.html",
+    "objectID": "speaker.html#what-does-abolish-big-data-mean",
+    "href": "speaker.html#what-does-abolish-big-data-mean",
+    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
+    "section": "",
+    "text": "This talk serves as a call to action to reject the concentration of Big Data in the hands of a few, to challenge the structures that allow data to be wielded as a weapon of immense political influence. To abolish Big Data would mean to put data in the hands of people who need it the most."
+  },
+  {
+    "objectID": "speaker.html#details",
+    "href": "speaker.html#details",
+    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
+    "section": "",
+    "text": "Date and Time: Monday October 21, 5pm\nLocation: Weinstein Auditorium, Wright Hall, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences\nSmith College Africana Studies\nSmith College Program for the Study of Women & Gender\nSmith College School of Social Work\nSmith College Lecture Committee"
+  },
+  {
+    "objectID": "patch_race_coding.html",
+    "href": "patch_race_coding.html",
     "title": "Ethics patches in a box",
     "section": "",
-    "text": "Description of course/setting\n\nsenior capstone in statistical & data sciences\nintroductory data science course\nany course that covers web scraping\n\n\n\nStudent preparation required\n\nno technical knowledge required\nbefore class, read:\n\nKim and Escobedo-Land (2015)\nPoulsen (2014)\nHackett (2016)\n\n(optional) other reference material:\n\nKirkegaard and Bjerrekær (2016)\n\n\n\n\nInstructions for students\n\nYour goal in this class activity is to help Prof. Kim draft a letter to the editor of the Journal of Statistics Education that addresses any ethical considerations you find present in Kim and Escobedo-Land (2015). Perhaps you think Prof. Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.\nYou may want to consult the Internet for relevant facts during the group discussion.\nHave at least one person taking notes during your discussion, preferably on a white board that all group members can see.\nThere is no right or wrong answer. However, your choices should be based on informed logical reasoning.\n\n\n\nActivity description\n\n(5 minutes): Give a brief overview of the three uses of OkCupid data. Focus on Prof. Kim’s responsibilities as a published author. The students should have already read the assigned material.\n(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:\n\nOther OkCupid users\n\nDiscuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof. Kim’s situation?\n\nAnonymization and differential privacy\n\nWhat role do data anonymization and differential privacy play in Prof. Kim’s situation? Could these techniques lead to a safer product?\n\nTerms of Service\n\nHow closely do the ethical issues track the legal issues? What role do Terms of Service and/or The Computer Fraud and Abuse Act (CFAA) play?\n\nValue of Data\n\nWhat is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?\n\n\n(10 minutes): Have each group draft a one-paragraph statement to the editor of the Journal of Statistics Education on your topic that all group members agree with.\n(10 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.\n(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.\n\n\n\nQuestions/goals addressed\n\nIf I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?\nHow do my ethical responsibilities differ from my legal responsibilities?\nAre there technical solutions that could allow me to publish the data while protecting people’s privacy?\nAre my ethical responsibitilies impacted by the value of the data?\n\n\n\nDeliverables\n\none paragraph from each group\n(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of JSE suitable for publication. Send the letter to Prof. Kim!\n\n\n\nGeneralizability\n\nany publishing of personal data\nany attempt at web scraping\n\n\n\n\n\n\n\n\n\nReferences\n\nHackett, Robert. 2016. “Researchers Caused an Uproar by Publishing Data from 70,000 OkCupid Users.” Fortune. https://fortune.com/2016/05/18/okcupid-data-research/.\n\n\nKim, Albert Y, and Adriana Escobedo-Land. 2015. “OKCupid Data for Introductory Statistics and Data Science Courses.” Journal of Statistics Education 23 (2). https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737.\n\n\nKirkegaard, Emil OW, and Julius D Bjerrekær. 2016. “The OKCupid Dataset: A Very Large Public Dataset of Dating Site Users.” Open Differential Psychology 46.\n\n\nPoulsen, Kevin. 2014. “How a Math Genius Hacked OKCupid to Find True Love.” Wired. https://www.wired.com/2014/01/how-to-hack-okcupid/."
+    "text": "Actual: upper-level domain application course focused on the psychology of intergroup relations\nGeneric: any course where students may encounter race data\n\n\n\n\n\nResponsible conduct of research\n\n\n\n\nImportant lessons to learn and revelations students might make while completing this activity:\n\nResearchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.\nA person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).\nThe choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?\nRace is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?\nAre there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?\nIf you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?\n\n\n\n\n\nSynthesis: Students construct new ways to code race\n\n\n\n\n\nGebru (2020)\nBenjamin (2019)\nMilner (2019)\nKantayya and Buolamwini (2020)\n\n\n\n\n\nany use of pre-collected racial/ethnic data\nany attempt at collecting racial/ethnic data when designing studies"
+  },
+  {
+    "objectID": "patch_race_coding.html#description-of-coursesetting",
+    "href": "patch_race_coding.html#description-of-coursesetting",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Actual: upper-level domain application course focused on the psychology of intergroup relations\nGeneric: any course where students may encounter race data"
+  },
+  {
+    "objectID": "patch_race_coding.html#nas-ethical-areas",
+    "href": "patch_race_coding.html#nas-ethical-areas",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Responsible conduct of research"
+  },
+  {
+    "objectID": "patch_race_coding.html#questionsgoals-addressed",
+    "href": "patch_race_coding.html#questionsgoals-addressed",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Important lessons to learn and revelations students might make while completing this activity:\n\nResearchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.\nA person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).\nThe choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?\nRace is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?\nAre there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?\nIf you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?"
+  },
+  {
+    "objectID": "patch_race_coding.html#bloom-taxonomy",
+    "href": "patch_race_coding.html#bloom-taxonomy",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Synthesis: Students construct new ways to code race"
+  },
+  {
+    "objectID": "patch_race_coding.html#related-work-in-data-science-ethics",
+    "href": "patch_race_coding.html#related-work-in-data-science-ethics",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Gebru (2020)\nBenjamin (2019)\nMilner (2019)\nKantayya and Buolamwini (2020)"
+  },
+  {
+    "objectID": "patch_race_coding.html#generalizability",
+    "href": "patch_race_coding.html#generalizability",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "any use of pre-collected racial/ethnic data\nany attempt at collecting racial/ethnic data when designing studies"
+  },
+  {
+    "objectID": "patch_race_coding.html#student-preparation-required",
+    "href": "patch_race_coding.html#student-preparation-required",
+    "title": "Ethics patches in a box",
+    "section": "Student preparation required",
+    "text": "Student preparation required\n\nSome technical knowledge of basic data cleaning is required\nbefore class, read:\n\nShook and Fazio (2008)\n\n(optional) other reference material:\n\nRace/Ethnicity in the 2020 US Census\nUS Census: Research to Improve Data on Race and Ethnicity"
+  },
+  {
+    "objectID": "patch_race_coding.html#instructions-for-students",
+    "href": "patch_race_coding.html#instructions-for-students",
+    "title": "Ethics patches in a box",
+    "section": "Instructions for students",
+    "text": "Instructions for students\nYour goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss Shook and Fazio (2008). This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally.\n\nFirst, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:\n\nWhat did they find?\nHow did they do it?\nWhat is missing or limited?\n\nNext, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.\nAfter this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called race_clean. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group)."
+  },
+  {
+    "objectID": "patch_race_coding.html#activity-description",
+    "href": "patch_race_coding.html#activity-description",
+    "title": "Ethics patches in a box",
+    "section": "Activity description",
+    "text": "Activity description\nStudents must come to class having read Shook and Fazio (2008). The following is a suggested timeline for a 70-minute class session.\n\n(15 minutes): Break the class into four groups. Each group will discuss the following questions pertaining to the assigned article and write their bulletpointed responses on the boards. The first two questions help the students warm up and make sure that everyone understood\n\nWhat did they find?\n\nDiscuss the results resented in the article.\n\nHow did they do it?\n\nDiscuss the methods employed by the researchers.\n\nWhat is missing or limited?\n\nDiscuss the limitations of the research study. This piece is where the concerns regarding race are likely to come out.\n\n\nBonus (completed if groups finish early): Make a sketch of the dataset that was used in these analyses. What does each row represent? What variables must it have? What index variables must it have?\n\n(25 minutes): Discuss the three questions as a class. Try to move them quickly through the first two questions to leave about half the time for the third question. I would leave them in suspence with the bonus task—perhaps start the following class with this as a warm-up activity. As they raise missing pieces and limitations, write their suggestions on the board in a joint class bulletpointed list.\n\n(15 minutes): Now in pairs, have students start cleaning the messy race data provided. Their task is to code the check-all-that-apply and/or free response data into a new categorical variable called race_clean.\n(10 minutes): Back in small groups of four (two pairs), have students discuss the choices they made and feelings they had while re-coding the race/ethnicity data. These feelings reflect the hard realities that researchers must confront in their work.\n(5 minutes): Wrap up. Let students know that this is not the end of the discussion. If they are feeling like they have more questions than answers, or they are more confused about race and ethnicity in data science than when the class began, this is a good thing—it is a complex issue! You might also remind them that the coding of race and ethnicity in the US is deeply connected to a history of racial oppression. As future data scientists, they can play an active role in creating ethical guidelines for moving towards more appropriate use of race and ethnicity data. It is very important not to skip the wrap up for this activity. Set a timer such that you can touch base with them and ideally, end on a hopeful note."
+  },
+  {
+    "objectID": "patch_race_coding.html#deliverables",
+    "href": "patch_race_coding.html#deliverables",
+    "title": "Ethics patches in a box",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nA bullet-point list on the board for each group answering the three research questions.\n(optional): A detailed written description about the decisions made while coding the race and ethnicity data. This should be completed for each pair of students."
+  },
+  {
+    "objectID": "speaker_hu.html",
+    "href": "speaker_hu.html",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Jingchen (Monika) Hu\n\n\n\n\nMonika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates.\n\n\n\nHave you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics.\n\n\n\n\nDate and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+  },
+  {
+    "objectID": "speaker_hu.html#jingchen-monika-hu",
+    "href": "speaker_hu.html#jingchen-monika-hu",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Monika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates."
+  },
+  {
+    "objectID": "speaker_hu.html#data-privacy",
+    "href": "speaker_hu.html#data-privacy",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Have you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics."
+  },
+  {
+    "objectID": "speaker_hu.html#details",
+    "href": "speaker_hu.html#details",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Date and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+  },
+  {
+    "objectID": "ethics.html",
+    "href": "ethics.html",
+    "title": "Teaching Data Science Ethics",
+    "section": "",
+    "text": "In our paper, Integrating Data Science Ethics Into an Undergraduate Major: A Case Study (Baumer et al. 2022), we describe six ethics modules that can be incorporated into various classes. These modules are summarized in Table 1 of the paper, which is reproduced below. This table connects each module to the relevant categories as defined by Floridi and Taddeo (2016) and the taxonomy of learning defined by Bloom et al. (1956). Hyperlinks will take you to the actual teaching material.\n\n\n\nSummary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. ‘Bloom’ refers to Bloom’s taxonomy.\n\n\nSection\nTopic\nCategories\nBloom\n\n\n\n\n4.1\nOkCupid\ndata\nApplication\n\n\n4.2\nStitchFix\nalgorithms\nApplication\n\n\n4.3\nGrey’s Anatomy\npractices, data\nApplication\n\n\n4.4\nCopywriting music\npractices\nEvaluation\n\n\n4.5\nCoding race\npractices, data\nSynthesis\n\n\n4.6\nWeapons of Math Destruction\npractices, algorithms\nEvaluation"
+  },
+  {
+    "objectID": "mu_sigma_rho.html",
+    "href": "mu_sigma_rho.html",
+    "title": "Mu Sigma Rho",
+    "section": "",
+    "text": "Mu Sigma Rho is the national statistics honor society, and the Boston Chapter of the American Statistical Association oversees nominations from Smith each spring.\n\n\n\n\n\nGrowth of Mu Sigma Rho inductees.\n\n\n\n\nSearch the archive to find inductees:"
+  },
+  {
+    "objectID": "sds_newsletter_2017.html",
+    "href": "sds_newsletter_2017.html",
+    "title": "SDS Newsletter",
+    "section": "",
+    "text": "Whew! It has been another huge year for our program in Statistical & Data Sciences! In our first academic year with a major, 21 students officially declared an SDS major. For reference, this puts us on par with established majors like Geosciences, Spanish, and Theatre in terms of number of majors. We hired three tenure-track faculty members this year (more on that later). These new people will be housed in our corridor on the 2nd floor of McConnell Hall, which is the new home of SDS. Our graduates continue to do amazing things, and this year’s graduates are already on their way to join them!\nSome updates:\n\nAbby Doctor ’17 and Weijia (Vega) Zhang ’17 became our first official SDS graduates. [You may recall that Yiwen Zhu ’16 completed a self-designed major in “Statistical & Data Sciences” before the official major was approved, so she is our first unofficial graduate.]\n\n\n\nIt's official! #smithieslead #datascience pic.twitter.com/cMdy8Jz716\n\n— Smith College SDS (@SmithCollegeSDS) May 21, 2017\n\n\n\nWeijia (Vega) Zhang ’17 completed the first SDS honor’s thesis. She was awarded High Honors for her project, Improving Access to Open-Source Data about the NYC Bike Sharing System (Citi Bike), which was advised by Ben Baumer and Jordan Crouser. For this effort Vega was also awarded the first ever Statistical & Data Science Research Prize.\nTwo teams from Smith were awarded prizes in the Undergraduate Statistics Project Competition (USPROC). In the First Course in Statistics category, Madison Laethem ’17 and Grace Zhan ’18 won first place for their project Predicting Student Debt Upon College Graduation. In the Second Course in Statistics category, Ji Young Yun ’18 and Wencong Li ’18 won second place for their project NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?. Both groups were advised by Jordan Crouser.\nMadison Laethem ’17 joined the MassMutual Data Science Development Program. This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. Deirdre Fitzpatrick ’14 and Dana Udwin ’14 will be among the first cohort to complete the development program this summer.\nChristine Zhang ’09, a data journalist at the Los Angeles Times, gave a well-attended talk on “Data Visualization at the Los Angeles Times” on December 6, 2016.\n\n\n\nJessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about “Understanding p-values and the Controversy Surrounding Them.”\nAbby Doctor ’17 won Smith’s Five College Statistics Prize for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.\nSmith teams restored order to the world by cleaning up at the 4th annual ASA Five College DataFest at UMass in March. The Best in Show prize went to DataBest (Zainab Aqdas Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen ’18), while prizes for Best Statistical Interpretation went to Normally Distributed (Zixian Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa Alam ’19J) and Best Business Insight went to Standard Divination (Isabella Zhu ’20, Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20). Smith teams have now won the Best in Show prize at three of the first four competitions. Many alumnae stopped by and served as VIP Consultants during the weekend.\n\n\n\n\nDataBest with trophy and judges\n\n\n\nSmith was awarded a Claire Booth Luce tenure-track position joint in SDS and computer science through a grant from the Luce Foundation. The grant pays $500k that allows Smith to create a permanent line (more on the hire later).\nLiz Stuart ’97 won the Gertrude Cox Award as early to mid-career statistician who has made significant contributions to one or more of the areas of applied statistics in which Gertrude Cox worked: survey methodology, experimental design, biostatistics, and statistical computing. This award is not to be confused with the Gertrude Cox scholarship, which Liz also won in 2000.\nJordan Crouser’s work on boater hats with several students was profiled in a Grecourt Gate video.\nCas Sweeney ’19 described the SDS major as “one of Smith’s newest and fastest-growing majors” in an article for the Sophian.\nDana Udwin ’14 was profiled in Parade magazine’s 2017 edition of What People Earn.\nProvost Katherine Rowe touted the SDS program at a Forum on Data Analytics & Tomorrow’s Workforce sponsored by The Atlantic.\n\n\n\nKatherine Rowe @SmithCollege: we have a chance today to shape the future of #datascience workforce to be #diverse #AtlanticDataScience pic.twitter.com/rS7EqtvcX0\n\n— Cristina Ampil (@CristinaAmpil) March 30, 2017\n\n\n\n\n\"At Smith, We see an opportunity to establish the culture of data science & make it hospitable to women and minorities\" #AtlanticDataScience\n\n— Smith College Tweets (@smithcollege) March 30, 2017\n\n\n\nBestValueSchools.com listed Smith at #6 on their list of Best Value Small Colleges for a Data Science degree.\nPlease follow us on Twitter @SmithCollegeSDS or visit our website for more information on the program! There is also a Facebook group and a Google group. Please help us reach out to other alumnae by having them contact me!\n\n\n\n\n2016"
+  },
+  {
+    "objectID": "sds_newsletter_2017.html#program-updates",
+    "href": "sds_newsletter_2017.html#program-updates",
+    "title": "SDS Newsletter",
+    "section": "",
+    "text": "Whew! It has been another huge year for our program in Statistical & Data Sciences! In our first academic year with a major, 21 students officially declared an SDS major. For reference, this puts us on par with established majors like Geosciences, Spanish, and Theatre in terms of number of majors. We hired three tenure-track faculty members this year (more on that later). These new people will be housed in our corridor on the 2nd floor of McConnell Hall, which is the new home of SDS. Our graduates continue to do amazing things, and this year’s graduates are already on their way to join them!\nSome updates:\n\nAbby Doctor ’17 and Weijia (Vega) Zhang ’17 became our first official SDS graduates. [You may recall that Yiwen Zhu ’16 completed a self-designed major in “Statistical & Data Sciences” before the official major was approved, so she is our first unofficial graduate.]\n\n\n\nIt's official! #smithieslead #datascience pic.twitter.com/cMdy8Jz716\n\n— Smith College SDS (@SmithCollegeSDS) May 21, 2017\n\n\n\nWeijia (Vega) Zhang ’17 completed the first SDS honor’s thesis. She was awarded High Honors for her project, Improving Access to Open-Source Data about the NYC Bike Sharing System (Citi Bike), which was advised by Ben Baumer and Jordan Crouser. For this effort Vega was also awarded the first ever Statistical & Data Science Research Prize.\nTwo teams from Smith were awarded prizes in the Undergraduate Statistics Project Competition (USPROC). In the First Course in Statistics category, Madison Laethem ’17 and Grace Zhan ’18 won first place for their project Predicting Student Debt Upon College Graduation. In the Second Course in Statistics category, Ji Young Yun ’18 and Wencong Li ’18 won second place for their project NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?. Both groups were advised by Jordan Crouser.\nMadison Laethem ’17 joined the MassMutual Data Science Development Program. This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. Deirdre Fitzpatrick ’14 and Dana Udwin ’14 will be among the first cohort to complete the development program this summer.\nChristine Zhang ’09, a data journalist at the Los Angeles Times, gave a well-attended talk on “Data Visualization at the Los Angeles Times” on December 6, 2016.\n\n\n\nJessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about “Understanding p-values and the Controversy Surrounding Them.”\nAbby Doctor ’17 won Smith’s Five College Statistics Prize for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.\nSmith teams restored order to the world by cleaning up at the 4th annual ASA Five College DataFest at UMass in March. The Best in Show prize went to DataBest (Zainab Aqdas Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen ’18), while prizes for Best Statistical Interpretation went to Normally Distributed (Zixian Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa Alam ’19J) and Best Business Insight went to Standard Divination (Isabella Zhu ’20, Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20). Smith teams have now won the Best in Show prize at three of the first four competitions. Many alumnae stopped by and served as VIP Consultants during the weekend.\n\n\n\n\nDataBest with trophy and judges\n\n\n\nSmith was awarded a Claire Booth Luce tenure-track position joint in SDS and computer science through a grant from the Luce Foundation. The grant pays $500k that allows Smith to create a permanent line (more on the hire later).\nLiz Stuart ’97 won the Gertrude Cox Award as early to mid-career statistician who has made significant contributions to one or more of the areas of applied statistics in which Gertrude Cox worked: survey methodology, experimental design, biostatistics, and statistical computing. This award is not to be confused with the Gertrude Cox scholarship, which Liz also won in 2000.\nJordan Crouser’s work on boater hats with several students was profiled in a Grecourt Gate video.\nCas Sweeney ’19 described the SDS major as “one of Smith’s newest and fastest-growing majors” in an article for the Sophian.\nDana Udwin ’14 was profiled in Parade magazine’s 2017 edition of What People Earn.\nProvost Katherine Rowe touted the SDS program at a Forum on Data Analytics & Tomorrow’s Workforce sponsored by The Atlantic.\n\n\n\nKatherine Rowe @SmithCollege: we have a chance today to shape the future of #datascience workforce to be #diverse #AtlanticDataScience pic.twitter.com/rS7EqtvcX0\n\n— Cristina Ampil (@CristinaAmpil) March 30, 2017\n\n\n\n\n\"At Smith, We see an opportunity to establish the culture of data science & make it hospitable to women and minorities\" #AtlanticDataScience\n\n— Smith College Tweets (@smithcollege) March 30, 2017\n\n\n\nBestValueSchools.com listed Smith at #6 on their list of Best Value Small Colleges for a Data Science degree.\nPlease follow us on Twitter @SmithCollegeSDS or visit our website for more information on the program! There is also a Facebook group and a Google group. Please help us reach out to other alumnae by having them contact me!\n\n\n\n\n2016"
+  },
+  {
+    "objectID": "sds_newsletter_2017.html#faculty-updates",
+    "href": "sds_newsletter_2017.html#faculty-updates",
+    "title": "SDS Newsletter",
+    "section": "Faculty Updates",
+    "text": "Faculty Updates\n\nWe hired Miles Ott ’01 as a tenure-track faculty member. After majoring in mathematics and minoring in computer science at Smith, Miles earned an MPH in epidemiology from the University of Minnesota, an MS in biostatistics from Harvard, and a PhD in biostatistics from Brown University. Miles taught at Carleton College and Augsberg College before coming home to Smith.\n\n\n\n20 years after starting @smithcollege as a first year student I will join @SmithCollegeSDS as a faculty member in Fall of 2017! 🎉🎉🎉\n\n— Miles Ott (@Miles_Ott) March 28, 2017\n\n\n\nWe also hired Albert Y. Kim as a tenure-track faculty member. Albert will join us in 2018 after teaching at Amherst College this year. A Montreal native, Albert majored in mathematics and computer science at McGill University before earning his PhD in statistics from the University of Washington. Albert worked at Google before taking faculty positions at Reed College, Middlebury College, and Amherst.\nWe hired Katherine Kinnaird as the Claire Booth Luce professor of computer science and statistical & data sciences. Katie will join us in 2018 after she completes her post-doc at Brown University. Katie majored in mathematics at Wellesley and earned her PhD in math from Dartmouth College. She taught statistics and computer science at Macalester College before moving to Brown.\nR. Jordan Crouser ’08 was hired as a tenure-track professor of computer science. While we are sad to lose Jordan to CSC, we are ecstatic that he will be staying at Smith and will do everything we can to keep him involved in our program!\nFilling a two-year Visiting Assistant Professor, MassMutual Faculty Fellow position is Lu Lu. Lu is a mathematical statistician with an interest in industrial applications who is coming to Smith from Colby College. Amelia McNamara remains in her MassMutual Faculty Fellow position.\nBen Capistrant was hired as a Visiting Professor. Ben was most recently in the Epidemiology department of the University of Minnesota.\n\n\nBen Baumer\nI’ve got two pieces of big news to report this year (in no particular order):\n\nMy second book, Modern Data Science with R was published by CRC Press. This book was co-authored with Nick Horton and Danny Kaplan, and serves as a textbook for undergraduate data science courses like the ones that I have been teaching here at Smith. The material for the book evolved out of lectures notes and homework assignments that have been used in 292 and 192.\nMy second daughter, Arlo, was born in January. Here is a recent picture of her with Alice.\n\nLooking forward to seeing you at JSM and WSDS!\n\n\nBen Capistrant\nBen Capistrant is a new Visiting Assistant Professor in SDS. His research focuses on social determinants of population health, both in the U.S. and in low and middle-income countries. This summer, he is working on a number of research studies on how providing care to a family member is associated with changes in the caregiver’s health. In June, he started a new project with the Minnesota Department of Human Services to model projections of population aging, health and health care demands in the coming decades. He is glad to use summer conferences as a way to see friends and family around the country and is looking forward to teaching this fall.\n\n\nR. Jordan Crouser\nThis summer 9 SURF students joined Jordan Crouser in the Human Computation and Visualization Laboratory. The HCV lab produced several papers this year, including:\n\nR. Jordan Crouser, Lyndsey Franklin, Alex Endert, and Kris Cook. Toward theoretical techniques for measuring the use of human effort in visual analytic systems. IEEE Transactions on Visualization and Computer Graphics, 23(1):121–130, 2017.\nR. Jordan Crouser, Lyndsey Franklin, and Kris Cook. Rethinking visual analytics for streaming data applications. IEEE Internet Computing, 21(4), 2017. To appear.\nR. Jordan Crouser, Erina Fukuda*, and Subashini Sridhar*. Retrospective on a decade of research in visualization for cybersecurity. In IEEE Symposium on Technologies for Homeland Security, 2017.\nJi Won Chung*, Isha Raut*, Ji Young Yun*, Kelly Pien*, Subashini Sridhar*, Morganne R. Crouser, and R. Jordan Crouser. DSMVis: Interactive visual exploration of the DSM-5 for mental health providers. In IEEE Conference on Visual Analytics Science and Technology, 2017. To appear.\n\n* Indicates authors that were undergraduate students at the time of submission.\nBeginning in July 2017, Jordan has accepted a tenure-track position with the Department of Computer Science at Smith.\n\n\nRandi Garcia\nRandi just finished teaching her first year at Smith. She taught SDS 201, Statistical Methods for Undergraduate Research, and also Research Methods and the Psychology of Women and Gender in the Psychology department. She also taught a special studies with Minji Kang ’19, on Longitudinal Data Analysis with Structural Equation Modeling. Minji presented analyses conducted for this course at the Modern Modeling Methods (MMM) conference at UConn in May. This Spring Randi also started a project with Connie Zhang ’19, on using R Markdown to create APA style manuscripts. Connie was awarded a SURF to continuing this work at Smith into the summer. With the help of six students, data collection is underway in Randi’s Intergroup Relationships Laboratory on a project examining interpersonal objectification. This year Randi published research articles in the Journal of Family Psychology, Group Processes and Intergroup Relations, and Cultural Diversity and Ethnic Minority Psychology. This summer she has presented work MMM, the Association for Psychological Science, The European Association of Social Psychology, and taught two data analysis workshops.\n\n\nKatherine Halvorsen\nKatherine is on sabbatical during the 2017–2018 academic year.\n\n\nLu Lu\nI’m excited to begin my first year as a Visiting Assistant Professor in Statistical and Data Sciences Program. I earned my M.S. and Ph.D. in applied mathematics from University of Connecticut. Since then, I’ve taught at the Department of Mathematics and Statistics at Colby College.\nI have been working on statistical learning theory, in particular, nonparametric curve estimation and the probability theory related to it. I have studied the aysmptotic properties of density estimators. I’ve become more interested in applying big data analytics to finance. Currently I’m working on credit scoring using survival analysis and other machine learning techniques.\n\n\nAmelia McNamara\nIt was fun to reprise my Introduction to Probability and Statistics and Multiple Regression courses last year, but I am looking forward to expanding my course offerings this year. I’ll be taking over Jordan Crouser’s Communicating with Data course in the fall, and creating a Data Journalism course for the spring. My personal goal for the SDS program is for us to have connections with every division on campus, and I’m particularly interested in crossover with the humanities. After a crazy summer of travel last year, I did my best to stay put this summer, which has allowed me to focus more on my research.\n\n\nMiles Ott\nMiles Ott is a new faculty member joining SDS in the Fall. He is interested in the statistical analysis of social network data and public health. This summer he gave a talk titled “Strategic Players for Identifying Optimal Social Network Intervention Subjects, with Application to an Undergraduate Social Network” at the Sunbelt Social Network conference in Beijing. He is excited to be a part of the SDS program and is looking forward to teaching 220 in September, and involving Smith students in his research. In the meantime, he has been sampling delicious baked goods throughout the Pioneer Valley and exploring the rail trail by bike."
+  },
+  {
+    "objectID": "sds_newsletter_2017.html#alumnae-updates",
+    "href": "sds_newsletter_2017.html#alumnae-updates",
+    "title": "SDS Newsletter",
+    "section": "Alumnae Updates",
+    "text": "Alumnae Updates\n\nMine Dogucu ’09: I just finished my PhD at Ohio State and I will be starting at New College of Florida as an assistant professor of statistics. I am excited to be teaching both undergraduate and graduate courses in a liberal arts setting. I think New College has a unique master’s program in Data Science. I would be happy to talk to any Smithies who are interested. I will not be able to attend JSM this year due to move but I am hoping to meet Smithies at Women in Statistics and Data Science conference in October. This year, I also have been involved with R Ladies which is a global organization that aims to improve gender diversity in the R community. I started a local chapter in Columbus and hoping to start one in Sarasota. Feel free to contact me if you need help finding/starting a local chapter in your own city.\nMaja Miloslavjevic ’14: I moved to Seattle 5 months ago and now work at Microsoft as a Program Manager in Office365! I love the quick-paced nature of Microsoft and that I get to drive direct customer impact with my work. Outside of work, I spend my time trying to enjoy as much of the Seattle summer as possible before the months of rain begin again…\nJingyang (Judy) Zhang ’14: I am still working for ITS at Smith, currently working on the college’s website.\nSara Stoudt ’15: I made it through year two in the Statistics PhD program at UC Berkeley and finished the Data Sciences for the 21st Century: Environment and Society program. I am currently back at NIST for the summer working on greenhouse gas monitoring data collected via small aircraft. In the fall I will be focusing on helping to teach a new class on writing for statistics and transitioning to research with a project to try to use citizen science data to better understand species distribution changes over space and time.\nLiz Stuart ’97 is a Professor of Mental Health, Biostatistics, and Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She won the 2017 Gertrude Cox Award, given out by the Washington Statistical Society and RTI to recognize an early to mid-career statistician who has made significant contributions to applied statistics. She welcomes anyone who wants to learn about biostatistics, public health, or education to reach out! estuart@jhu.edu\nDana Udwin ’14: is starting the PhD program in biostatistics at Brown University in the fall!\nLizzy (Atkins) Offermann ’15: I recently moved to the Department of Neuropsychology at The Kennedy Krieger Institute / Johns Hopkins. I manage all of the data for the Department and am working with Python, R Studio, SQL, STATA, and SPSS everyday. I have thoroughly enjoyed the challenge of switching between languages and so appreciate that I still have my notes from Smith in addition to Google :) Each day, I am working on large clinical data sets for manuscript preparation in hopes of targeting our neuropsychological treatments to better serve our patients. In December, I was selected as the Smith Alumnae Admissions Coordinator for Maryland and Delaware - which means I coordinate all student interviews, lead a team of admissions volunteers, and host all of our accepted and admitted student parties. It is a packed job, but I love every moment of it!\nChrista Chiao ’15: I recently started working at the Democratic Congressional Campaign Committee as a Regional Targeting Director for the 2018 mid-term elections. I am really excited to combine my statistics and coding skills with some political know-how. The technical skills I’m using most in this job are R, SQL, Bash, GIS, and Python. Last year, I worked as a Deputy Analytics Director in Ohio for the Hillary campaign and as an Analytics Fellow at the Analyst Institute, a political analytics firm that helps campaigns measure the impact of their voter-contact programs. In my spare time, I row with Potomac Boat Club and think about acquiring some hobbies. I am so incredibly envious of the students that get to take part in this Data Science major! If anyone wants to learn more about getting into the (strictly) progressive data world, please let me know."
+  },
+  {
+    "objectID": "sds_newsletter_2017.html#whats-next",
+    "href": "sds_newsletter_2017.html#whats-next",
+    "title": "SDS Newsletter",
+    "section": "What’s next?",
+    "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the Joint Statistical Meetings in Baltimore at the end of the month. We are planning to meet up for drinks/eats at Pratt’s Ale House Monday night at 5:00 pm. Come join us!!\nPratt Street Ale House\n206 W Pratt St\nBaltimore, MD 21201\nMonday, July 31, 5 pm\n\n\nWomen in Statistics and Data Science Conference\nA few of us—hopefully including some students—will be attending the ASA Women in Statistics and Data Science Conference in La Jolla, CA from October 20–22nd. We have put together a dynamite panel who will be discussing data science at women’s colleges. We hope to see you there!"
+  },
+  {
+    "objectID": "rmarkdown_problems.html",
+    "href": "rmarkdown_problems.html",
+    "title": "Troubleshooting in R Markdown",
+    "section": "",
+    "text": "There are a few common problems that people have had with their labs. This page will be updated with new problems when they arise, and it’s a good place to look if you’re having trouble."
+  },
+  {
+    "objectID": "rmarkdown_problems.html#downloading-the-html-so-you-can-upload-it-to-moodle",
+    "href": "rmarkdown_problems.html#downloading-the-html-so-you-can-upload-it-to-moodle",
+    "title": "Troubleshooting in R Markdown",
+    "section": "Downloading the HTML so you can upload it to Moodle",
+    "text": "Downloading the HTML so you can upload it to Moodle\nTo download the knitted HTML, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document’s name. Make sure it is the HTML file with the same filename as the Rmd file you were editing. Then click the More button and select Export. This will download the file onto your computer and you can then upload it to Moodle. For a short video showing this process, see here."
+  },
+  {
+    "objectID": "rmarkdown_problems.html#document-wont-knit",
+    "href": "rmarkdown_problems.html#document-wont-knit",
+    "title": "Troubleshooting in R Markdown",
+    "section": "Document won’t knit",
+    "text": "Document won’t knit\nThere could be many reasons for this. Usually, the error message will pinpoint the location of the problem. Read the error messages!!\nSome most common problems are:\n\nincluding output in your code chunks, like\n\n\nmean(~speed, data = cars) 169.683\n\nError: &lt;text&gt;:1:27: unexpected numeric constant\n1: mean(~speed, data = cars) 169.683\n                              ^\n\n\n\nincluding the &gt; or + prompts that come from the console in your code chunks, like\n\n\n&gt; mean(~speed, data = cars)\n\nError: &lt;text&gt;:1:1: unexpected '&gt;'\n1: &gt;\n    ^\n\n\nor\n\ncars %&gt;%\n+ filter(speed &gt; 100)\n\nError: object 'speed' not found\n\n\n\nAsking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like [ reached getOption(\"max.print\") -- omitted 18684 rows ], but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included\n\n\n  cars\n\nin your document, but also dplyr expressions that aren’t saved into an object can do it, like\n\n  cars %&gt;%\n   filter(speed &gt; 100)\n\n\nNot including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.\n\n\nnow()\n\n[1] \"2023-06-26 20:46:50 UTC\"\n\nlibrary(lubridate)\nnow()\n\n[1] \"2023-06-26 20:46:50 UTC\"\n\n\nFor SDS classes, you often need to include\n\nlibrary(tidyverse)\n\nNote that tidyverse in turn loads dplyr and ggplot2.\nNote also that require() and library() are equivalent for our purposes, but library() is preferred.\n\nPackages not installed. If you try to load a package that is not available in your R session, then you will get a warning.\n\n\nlibrary(imadethisup)\n\nError in library(imadethisup): there is no package called 'imadethisup'\n\n\nTo install the package, click on the “Install” button under the “Packages” tab, or use the install.packages() function.\n\ninstall.packages(\"imadethisup\")\n\n\nHaving spaces or other non-safe characters in filenames. This will often break when you try to compile your Markown document into HTML. Do not use spaces, slashes, or pound signs in filenames!!\nReferring to objects that don’t exist. Recall that your Markdown document knits in a clean R session!! Objects in your working environment are shown under the “Environment” tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:\n\n\nmy_object\n\nError in eval(expr, envir, enclos): object 'my_object' not found\n\n\nit means that R cannot find any object in its environment called my_object. Make sure that my_object is created in the Markdown document prior to where you are trying to access it.\nOne common way this can occur is if you failed to load a data frame provided by a package (that doesn’t use lazy loading). For example, the oilabs package does not support lazy loading, so you have to use the data() command to bring the data frames into your environment before using them.\n\nlibrary(oilabs)\nhead(ames)\ndata(ames)\nhead(ames)\n\n\nIncorrect file path. Note that absolute filenames like\n\n\nread.csv(\"/home/bbaumer/sds220/data/my_data.csv\")\n\nWarning in file(file, \"rt\"): cannot open file\n'/home/bbaumer/sds220/data/my_data.csv': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\n\nwill not work on anyone else’s computer. It is usually better to use a relative file path like:\n\nread.csv(\"~/sds220/data/my_data.csv\")\n\nHowever this will only works if someone else has the same directory structure as you. Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if\n\nread.csv(\"my_data.csv\")\n\ndoesn’t work, you may have to try\n\nread.csv(\"project/my_data.csv\")\n\nor something along those lines."
+  },
+  {
+    "objectID": "rmarkdown_problems.html#code-not-being-evaluated",
+    "href": "rmarkdown_problems.html#code-not-being-evaluated",
+    "title": "Troubleshooting in R Markdown",
+    "section": "Code not being evaluated",
+    "text": "Code not being evaluated\nIf you have code showing up in your document like this\nmean(~speed, data = cars)\nwhere the code isn’t colored nicely and the output isn’t showing, that’s often because your chunk delimiters weren’t specified correctly. You need three “ticks” (the key on the upper left corner of the keyboard, usually, the same one with the ~): ``` Then you need curly braces with an “r” in the middle, {r}, then a line break, then your code, and finally three more ticks.\nIf you’re having trouble getting the formatting correct, you can always click the Chunks button at the upper right corner of the RMarkdown window and select Insert Chunk. This will do all the formatting for you."
+  },
+  {
+    "objectID": "rmarkdown_problems.html#no-knit-html-button",
+    "href": "rmarkdown_problems.html#no-knit-html-button",
+    "title": "Troubleshooting in R Markdown",
+    "section": "No Knit HTML button",
+    "text": "No Knit HTML button\nThis means that RStudio doesn’t understand your document is supposed to be an RMarkdown document, often because your file extension is .txt. To fix this, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document’s name. Then select Rename and remove the .txt and make sure the extension is .Rmd."
+  },
+  {
+    "objectID": "rmarkdown_problems.html#getting-more-help",
+    "href": "rmarkdown_problems.html#getting-more-help",
+    "title": "Troubleshooting in R Markdown",
+    "section": "Getting more help",
+    "text": "Getting more help\nWhen in doubt, consult the authoritative source. The R Markdown website contains a detailed tutorial with videos. There are also Cheatsheets available from within RStudio. Simply go to: Help -&gt; Cheatsheets -&gt; R Markdown Cheat Sheet for the most commonly used R Markdown commands."
+  },
+  {
+    "objectID": "speaker_dignazio.html",
+    "href": "speaker_dignazio.html",
+    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
+    "section": "",
+    "text": "Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design & social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place\n\n\n\nAs data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists–and others who rely on data in their work–to ignore. But it is precisely this power that makes it worth asking: “Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices.\n\n\n\n\nDate and Time:April 7, 5pm-6pm\nLocation: Ford Hall 240\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+  },
+  {
+    "objectID": "speaker_dignazio.html#catherine-dignazio",
+    "href": "speaker_dignazio.html#catherine-dignazio",
+    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
+    "section": "",
+    "text": "Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design & social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place"
+  },
+  {
+    "objectID": "speaker_dignazio.html#data-feminism",
+    "href": "speaker_dignazio.html#data-feminism",
+    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
+    "section": "",
+    "text": "As data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists–and others who rely on data in their work–to ignore. But it is precisely this power that makes it worth asking: “Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices."
+  },
+  {
+    "objectID": "speaker_dignazio.html#details",
+    "href": "speaker_dignazio.html#details",
+    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
+    "section": "",
+    "text": "Date and Time:April 7, 5pm-6pm\nLocation: Ford Hall 240\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+  },
+  {
+    "objectID": "sds_newsletter_2023.html",
+    "href": "sds_newsletter_2023.html",
+    "title": "SDS Newsletter",
+    "section": "",
+    "text": "This newsletter is mostly a distillation of our Twitter @SmithCollegeSDS feed. Please follow us to see more news, updates, and pictures!\nThere is also a Facebook group, a Google group, and a Slack. Please help us reach out to other alumnae by having them contact me!"
+  },
+  {
+    "objectID": "sds_newsletter_2023.html#program-updates",
+    "href": "sds_newsletter_2023.html#program-updates",
+    "title": "SDS Newsletter",
+    "section": "Program Updates",
+    "text": "Program Updates\n\nPrevious Updates\n\n2022\n2021\n2020\n2019\n2018\n2017\n2016"
+  },
+  {
+    "objectID": "sds_newsletter_2023.html#faculty-updates",
+    "href": "sds_newsletter_2023.html#faculty-updates",
+    "title": "SDS Newsletter",
+    "section": "Faculty Updates",
+    "text": "Faculty Updates\n\nRandi Garcia was promoted to associate professor with tenure!\nFatou Sanogo got a tenure-track job at Bates! We’re wishing Fatou all the best in her next steps.\nWe hired Kaitlyn Cook as a tenure-track assistant professor. Kaitlyn is a biostatistician coming from the Harvard T.H. Chan School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics courses and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST).\nWe hired Shiya Cao as a MassMutual assistant professor of statistical and data sciences. Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on disability inclusion and broader social inclusion topics. Shiya will be teaching SDS 192 and SDS 100 in her first year.\nWe hired Jared Joseph as a visiting assistant professor for the next two years. Jared just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year.\nWe’ll be searching for two tenure-track positions this year, both of which are joint with other departments!\n\na joint position with the Mathematical Sciences department for a mathematical statistician\n\na joint position with the Physics department for a computational physicist\n\n\n\nBen Baumer\n\n\nShiya Cao\n\n\nKaitlyn Cook\n\n\nRandi Garcia\n\n\nWill Hopper\n\n\nJared Joseph\n\n\nAlbert Y. Kim\n\n\nKatherine M. Kinnaird\n\n\nScott LaCombe\n\n\nLindsay Poirier"
+  },
+  {
+    "objectID": "sds_newsletter_2023.html#alumni-updates",
+    "href": "sds_newsletter_2023.html#alumni-updates",
+    "title": "SDS Newsletter",
+    "section": "Alumni Updates",
+    "text": "Alumni Updates"
+  },
+  {
+    "objectID": "sds_newsletter_2023.html#whats-next",
+    "href": "sds_newsletter_2023.html#whats-next",
+    "title": "SDS Newsletter",
+    "section": "What’s next?",
+    "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the 2023 Joint Statistical Meetings during the second week of August. Don’t miss these events featuring Smithies!\nWe hope to see you in person!\n\n\nStatFest\nStatFest 2023 will also be virtual in September.\n\n\nWomen in Statistics and Data Science Conference\nWSDS 2023 will be in Seattle in October."
+  },
+  {
+    "objectID": "speaker_alvord.html#details",
+    "href": "speaker_alvord.html#details",
+    "title": "Upcoming Speakers: Juliana Alvord `19 and and Abbey Benzine",
+    "section": "Details",
+    "text": "Details\n\nDate and Time:Tuesday March 3, 12:10pm\nLocation: Sabin-Reed, 301, Smith College\nOpen to Students\n\n\nSponsors\n\nSmith College Statistical and Data Sciences"
+  },
+  {
+    "objectID": "sds_r_packages.html",
+    "href": "sds_r_packages.html",
+    "title": "R Packages for SDS",
+    "section": "",
+    "text": "library(knitr)\nopts_chunk$set(eval = FALSE)"
+  },
+  {
+    "objectID": "sds_r_packages.html#check-existing-library-paths",
+    "href": "sds_r_packages.html#check-existing-library-paths",
+    "title": "R Packages for SDS",
+    "section": "Check existing library paths",
+    "text": "Check existing library paths\n\nlibs &lt;- .libPaths()\nlibs\n\n\nNote: admin installs into /usr/local/lib/R/site-library\n\n\nsys.lib &lt;- \"/usr/local/lib/R/site-library\""
+  },
+  {
+    "objectID": "sds_r_packages.html#currently-installed-packages",
+    "href": "sds_r_packages.html#currently-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Currently installed packages",
+    "text": "Currently installed packages\n\npkgs &lt;- as.data.frame(installed.packages(sys.lib))\npkgs.here &lt;- as.character(pkgs$Package)\n# these are the packages that are installed in the system library\npkgs.here"
+  },
+  {
+    "objectID": "sds_r_packages.html#update-currently-installed-packages",
+    "href": "sds_r_packages.html#update-currently-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Update currently installed packages",
+    "text": "Update currently installed packages\n\n# run this first -- should always be safe\nupdate.packages(lib.loc = sys.lib)"
+  },
+  {
+    "objectID": "sds_r_packages.html#sds-packages-requested",
+    "href": "sds_r_packages.html#sds-packages-requested",
+    "title": "R Packages for SDS",
+    "section": "SDS packages requested",
+    "text": "SDS packages requested\nThese packages should be installed in the system library for all users. Please update these every semester\n\npkgs.desired &lt;- c(\"mosaic\", \"dplyr\", \"rmarkdown\", \"knitr\", \"markdown\", \"formatR\"\n                  , \"rstudio\", \"ggplot2\", \"tidyr\", \"stringr\", \"agricolae\", \"leaps\"\n                  , \"Lahman\", \"twitteR\", \"latticeExtra\", \"RSQLite\"\n                  , \"igraph\", \"Stat2Data\", \"lme4\", \"sp\", \"maptools\", \"rpart\"\n                  , \"manipulate\", \"BiocInstaller\", \"mosaicData\", \"RcolorBrewer\"\n                  , \"nycflights13\", \"devtools\", \"googlesheets\", \"readr\"\n                  , \"mdsr\", \"etl\", \"macleish\", \"lubridate\", \"openintro\"\n                  , \"tm\", \"jsonlite\", \"ggmap\", \"ggvis\", \"Rcpp\", \"plotly\"\n                  , \"tigris\", \"rvest\", \"MASS\", \"XML\", \"leaflet\"\n                  , \"readxl\", \"rmarkdown\", \"DBI\", \"ISLR\", \"broom\")"
+  },
+  {
+    "objectID": "sds_r_packages.html#install-missing-requested-packages",
+    "href": "sds_r_packages.html#install-missing-requested-packages",
+    "title": "R Packages for SDS",
+    "section": "Install missing requested packages",
+    "text": "Install missing requested packages\n\n# run this -- should always be safe but may take a while\ninstall.packages(setdiff(pkgs.desired, pkgs.here), lib = sys.lib)"
+  },
+  {
+    "objectID": "sds_r_packages.html#non-standard-installs",
+    "href": "sds_r_packages.html#non-standard-installs",
+    "title": "R Packages for SDS",
+    "section": "Non-standard installs",
+    "text": "Non-standard installs\nThese packages may have external dependencies that require some finagling.\n\npkgs.tricky &lt;- c(\"RMySQL\", \"RPostgreSQL\", \"rgdal\", \"rgeos\")\ninstall.packages(setdiff(pkgs.tricky, pkgs.here), lib = sys.lib)\n\nThese packages are not on CRAN and must be installed from GtiHub.\n\npkgs.github &lt;- c(\"andrewpbray/oilabs\", \"rstudio/sparklyr\", \"omegahat/Sxslt\")\nlapply(pkgs.github, FUN = \"devtools::install_github\")"
+  },
+  {
+    "objectID": "sds_r_packages.html#find-multiply-installed-packages",
+    "href": "sds_r_packages.html#find-multiply-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Find multiply installed packages",
+    "text": "Find multiply installed packages\nNote that packages can be installed in multiple libraries!\n\nlibrary(dplyr)\nas.data.frame(installed.packages()) %&gt;%\n  group_by(Package) %&gt;%\n  summarise(N = n(), where = paste(LibPath, collapse = \", \")) %&gt;%\n  filter(N &gt; 1) %&gt;%\n  print.data.frame()"
+  },
+  {
+    "objectID": "JSE_calendar.html",
+    "href": "JSE_calendar.html",
+    "title": "Data collection & analysis using Google Calendar",
+    "section": "",
+    "text": "Resources for instructors for Albert Y. Kim and Johanna Hardin’s Journal of Statistics and Data Science Education paper:\n“Playing the whole game”: A data collection and analysis exercise with Google Calendar.\nAbstract: We provide a computational exercise suitable for early introduction in an undergraduate statistics or data science course that allows students to ‘play the whole game’ of data science: performing both data collection and data analysis. While many teaching resources exist for data analysis, such resources are not as abundant for data collection given the inherent difficulty of the task. Our proposed exercise centers around student use of Google Calendar to collect data with the goal of answering the question ‘How do I spend my time?’ On the one hand, the exercise involves answering a question with near universal appeal, but on the other hand, the data collection mechanism is not beyond the reach of a typical undergraduate student. A further benefit of the exercise is that it provides an opportunity for discussions on ethical questions and considerations that data providers and data analysts face in today’s age of large-scale internet-based data collection."
+  },
+  {
+    "objectID": "JSE_calendar.html#examples",
+    "href": "JSE_calendar.html#examples",
+    "title": "Data collection & analysis using Google Calendar",
+    "section": "Examples",
+    "text": "Examples\nBoth Albert and Johanna’s versions of the assignment assumed basic familiarity with R and RStudio as well as the ggplot2 and dplyr packages.\n\nPreviews of the assignment as given to students in\n\nAlbert’s course.\nJohanna’s course\n\nA .zip file of all files necessary for both assignments: calendar.zip\nBoth assignments give students some variation of the starter code below:\n\n\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(ical)\n\ncalendar_data &lt;- \"calendar_filename.ics\" %&gt;% \n  # Use ical package to import into R\n  ical_parse_df() %&gt;% \n  # Convert to \"tibble\" data frame format\n  as_tibble() %&gt;% \n  # Use lubridate package to wrangle dates and times\n  mutate(\n    start_datetime = with_tz(start, tzone = \"America/New_York\"),\n    end_datetime = with_tz(end, tzone = \"America/New_York\"),\n    duration = end_datetime - start_datetime,\n    date = floor_date(start_datetime, unit = \"day\")\n  ) %&gt;%\n  # Convert calendar entry to all lowercase and rename:\n  mutate(activity = tolower(summary)) %&gt;%\n  # Compute total duration of time for each day & activity:\n  group_by(date, activity) %&gt;%\n  summarize(duration = sum(duration))"
+  },
+  {
+    "objectID": "JSE_calendar.html#screencast-demo",
+    "href": "JSE_calendar.html#screencast-demo",
+    "title": "Data collection & analysis using Google Calendar",
+    "section": "Screencast demo",
+    "text": "Screencast demo\nHere is a 6m56s YouTube screencast demonstrating how to:\n\nLog time data in Google Calendar\nExport the calendar data to .ics file format\nImport the .ics in R using the ical package"
+  },
+  {
+    "objectID": "software_for_cats.html",
+    "href": "software_for_cats.html",
+    "title": "SDS Software",
+    "section": "",
+    "text": "These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.\nAll software should be the latest general available (GA) release unless otherwise noted\n\n\n\nTableau - if we ever got a site license for it; I know CATS was talking about it\n\n\n\n\n\nMySQL Workbench\nmysql CLI\ngit\nExternal dependencies for sf package\n\nGDAL\nGEOS\nUDUNITS\n\n\n\n\n\n\nRStudio Desktop\nR\n\n\n\n\n\nRStudio Desktop\nR\ngit\nSpotify\n\n\n\n\n\nPython3 - I personally like the Anaconda distribution for this course, but I can made do with most things.\n\n\n\n\nSee R packages used by SDS"
+  },
+  {
+    "objectID": "software_for_cats.html#software-used-by-sds-classes",
+    "href": "software_for_cats.html#software-used-by-sds-classes",
+    "title": "SDS Software",
+    "section": "",
+    "text": "These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.\nAll software should be the latest general available (GA) release unless otherwise noted\n\n\n\nTableau - if we ever got a site license for it; I know CATS was talking about it\n\n\n\n\n\nMySQL Workbench\nmysql CLI\ngit\nExternal dependencies for sf package\n\nGDAL\nGEOS\nUDUNITS\n\n\n\n\n\n\nRStudio Desktop\nR\n\n\n\n\n\nRStudio Desktop\nR\ngit\nSpotify\n\n\n\n\n\nPython3 - I personally like the Anaconda distribution for this course, but I can made do with most things.\n\n\n\n\nSee R packages used by SDS"
   },
   {
     "objectID": "patch_wmd.html",
@@ -105,6 +462,34 @@
     "text": "Deliverables\n\nan essay, not to exceed 2500 words\n(recommended): scaffold the assignment by requiring students to submit an outline at least two weeks in advance\n(optional): have students submit a draft"
   },
   {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Recent Events",
+    "section": "",
+    "text": "Yeshimabeit Milner  Mon, Oct 21, 2019\n\n\n\n\n\n\n  \n\n\nStephanie Hicks  Thu, Apr 18, 2019\n\n\n\n\n\n\n  \n\n\nEmma Benn  Tue, Mar 5, 2019\n\n\n\n\n\n\n  \n\n\nTerry-Ann Craigie  Fri, Oct 12, 2018\n\n\n\n\n\n\n  \n\n\nRachel Schutt  Thu, Mar 22, 2018\n\n\n\n\n\n\n  \n\n\nChristine Zhang ’09  Tue, Dec 6, 2016\n\n\n\n\n\n\n  \n\n\nAmanda Cox  Fri, Dec 4, 2015"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistical & Data Sciences",
+    "section": "",
+    "text": "This website is managed by the SDS faculty. For our official website, please visit smith.edu.\nPlease see our list of resources for self-study"
+  },
+  {
+    "objectID": "index.html#who-we-are",
+    "href": "index.html#who-we-are",
+    "title": "Statistical & Data Sciences",
+    "section": "Who we are",
+    "text": "Who we are\n\nTop row: Scott LaCombe, Albert Y. Kim, Benjamin Baumer, Randi Garcia\nMiddle row: Arris Moise (SDS Coalition of Color student rep), Lindsay Poirier, William Hopper, Marium Tapal (Smithies in SDS student rep)\nBottom row: Fatou Sanogo, Katherine M. Kinnaird\nNot pictured: Katherine Halvorsen"
+  },
+  {
+    "objectID": "patch_template.html",
+    "href": "patch_template.html",
+    "title": "Ethics patches in a box",
+    "section": "",
+    "text": "Description of course/setting\n\nsenior capstone in statistical & data sciences\nintroductory data science course\nany course that covers web scraping\n\n\n\nStudent preparation required\n\nno technical knowledge required\nbefore class, read:\n\nKim and Escobedo-Land (2015)\nPoulsen (2014)\nHackett (2016)\n\n(optional) other reference material:\n\nKirkegaard and Bjerrekær (2016)\n\n\n\n\nInstructions for students\n\nYour goal in this class activity is to help Prof. Kim draft a letter to the editor of the Journal of Statistics Education that addresses any ethical considerations you find present in Kim and Escobedo-Land (2015). Perhaps you think Prof. Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.\nYou may want to consult the Internet for relevant facts during the group discussion.\nHave at least one person taking notes during your discussion, preferably on a white board that all group members can see.\nThere is no right or wrong answer. However, your choices should be based on informed logical reasoning.\n\n\n\nActivity description\n\n(5 minutes): Give a brief overview of the three uses of OkCupid data. Focus on Prof. Kim’s responsibilities as a published author. The students should have already read the assigned material.\n(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:\n\nOther OkCupid users\n\nDiscuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof. Kim’s situation?\n\nAnonymization and differential privacy\n\nWhat role do data anonymization and differential privacy play in Prof. Kim’s situation? Could these techniques lead to a safer product?\n\nTerms of Service\n\nHow closely do the ethical issues track the legal issues? What role do Terms of Service and/or The Computer Fraud and Abuse Act (CFAA) play?\n\nValue of Data\n\nWhat is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?\n\n\n(10 minutes): Have each group draft a one-paragraph statement to the editor of the Journal of Statistics Education on your topic that all group members agree with.\n(10 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.\n(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.\n\n\n\nQuestions/goals addressed\n\nIf I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?\nHow do my ethical responsibilities differ from my legal responsibilities?\nAre there technical solutions that could allow me to publish the data while protecting people’s privacy?\nAre my ethical responsibitilies impacted by the value of the data?\n\n\n\nDeliverables\n\none paragraph from each group\n(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of JSE suitable for publication. Send the letter to Prof. Kim!\n\n\n\nGeneralizability\n\nany publishing of personal data\nany attempt at web scraping\n\n\n\n\n\n\n\n\n\nReferences\n\nHackett, Robert. 2016. “Researchers Caused an Uproar by Publishing Data from 70,000 OkCupid Users.” Fortune. https://fortune.com/2016/05/18/okcupid-data-research/.\n\n\nKim, Albert Y, and Adriana Escobedo-Land. 2015. “OKCupid Data for Introductory Statistics and Data Science Courses.” Journal of Statistics Education 23 (2). https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737.\n\n\nKirkegaard, Emil OW, and Julius D Bjerrekær. 2016. “The OKCupid Dataset: A Very Large Public Dataset of Dating Site Users.” Open Differential Psychology 46.\n\n\nPoulsen, Kevin. 2014. “How a Math Genius Hacked OKCupid to Find True Love.” Wired. https://www.wired.com/2014/01/how-to-hack-okcupid/."
+  },
+  {
     "objectID": "patch_music.html",
     "href": "patch_music.html",
     "title": "Ethics patches in a box",
@@ -182,20 +567,6 @@
     "text": "Deliverables\n\nA position paper from each student\nA robust conversation in class via the structured debate"
   },
   {
-    "objectID": "software_for_cats.html",
-    "href": "software_for_cats.html",
-    "title": "SDS Software",
-    "section": "",
-    "text": "These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.\nAll software should be the latest general available (GA) release unless otherwise noted\n\n\n\nTableau - if we ever got a site license for it; I know CATS was talking about it\n\n\n\n\n\nMySQL Workbench\nmysql CLI\ngit\nExternal dependencies for sf package\n\nGDAL\nGEOS\nUDUNITS\n\n\n\n\n\n\nRStudio Desktop\nR\n\n\n\n\n\nRStudio Desktop\nR\ngit\nSpotify\n\n\n\n\n\nPython3 - I personally like the Anaconda distribution for this course, but I can made do with most things.\n\n\n\n\nSee R packages used by SDS"
-  },
-  {
-    "objectID": "software_for_cats.html#software-used-by-sds-classes",
-    "href": "software_for_cats.html#software-used-by-sds-classes",
-    "title": "SDS Software",
-    "section": "",
-    "text": "These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.\nAll software should be the latest general available (GA) release unless otherwise noted\n\n\n\nTableau - if we ever got a site license for it; I know CATS was talking about it\n\n\n\n\n\nMySQL Workbench\nmysql CLI\ngit\nExternal dependencies for sf package\n\nGDAL\nGEOS\nUDUNITS\n\n\n\n\n\n\nRStudio Desktop\nR\n\n\n\n\n\nRStudio Desktop\nR\ngit\nSpotify\n\n\n\n\n\nPython3 - I personally like the Anaconda distribution for this course, but I can made do with most things.\n\n\n\n\nSee R packages used by SDS"
-  },
-  {
     "objectID": "sds_newsletter_2020.html",
     "href": "sds_newsletter_2020.html",
     "title": "SDS Newsletter",
@@ -229,27 +600,6 @@
     "title": "SDS Newsletter",
     "section": "What’s next?",
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the virtual Joint Statistical Meetings at the end of the month. We wish we could see you in person, but we’ll have to settle for Zoom waves this year. 😞\n\n\nStatFest\nAlbert Kim brought several students to StatFest in September. Twitter will do the talking:\n\n\nWe are thrilled to be at @Statfest & engaging with a dedicated community of statisticians! We even managed to snag a photo with @smithcollege alum Portia Exum of @SASanalytics before her panel. #smithieslead pic.twitter.com/wloPa7Ybyd\n\n— Smith College SDS (@SmithCollegeSDS) September 21, 2019\n\n\n\n\nWomen in Statistics and Data Science Conference\n\nRandi Garcia brought a number of students to WSDS, and they gave a series of talks. Once again, the tweets:\n\n\n\n.@smithcollege students are here at #WSDS2019 ready to press their research! @karavan_allen @clarajrosenberg @DaubenspeckEm @arielle_dror and Elaine Ye pic.twitter.com/QzXJVZYmDh\n\n— Smith College SDS (@SmithCollegeSDS) October 3, 2019\n\n\n\n\n.@arielle_dror, @karavan_allen, and @DaubenspeckEm’s co-sponsorship poster draws a crowd at #WSDS2019. @SmithCollegeSDS is so proud! pic.twitter.com/7f0iMD3nRW\n\n— Randi Garcia (@randiLgarcia) October 4, 2019\n\n\n\n\n.@SmithCollegeSDS student @clarajrosenberg discussed the future of data science in archival research at #WSDS2019! 🔥👩🏻‍💻📜🧾📊🗃🗂 pic.twitter.com/RlZw1KMGxj\n\n— Randi Garcia (@randiLgarcia) October 4, 2019\n\n\n\n\nIt was wonderful to learn about the research your mentee, Elaine Ye, conducted with you @randiLgarcia. You guys are truly doing big things at @SmithCollegeSDS! I hope you guys publish your work so the rest of us can learn from you. Much respect! https://t.co/kaDza5BWo8\n\n— Emma Benn (@EKTBenn) October 5, 2019"
-  },
-  {
-    "objectID": "JSE_calendar.html",
-    "href": "JSE_calendar.html",
-    "title": "Data collection & analysis using Google Calendar",
-    "section": "",
-    "text": "Resources for instructors for Albert Y. Kim and Johanna Hardin’s Journal of Statistics and Data Science Education paper:\n“Playing the whole game”: A data collection and analysis exercise with Google Calendar.\nAbstract: We provide a computational exercise suitable for early introduction in an undergraduate statistics or data science course that allows students to ‘play the whole game’ of data science: performing both data collection and data analysis. While many teaching resources exist for data analysis, such resources are not as abundant for data collection given the inherent difficulty of the task. Our proposed exercise centers around student use of Google Calendar to collect data with the goal of answering the question ‘How do I spend my time?’ On the one hand, the exercise involves answering a question with near universal appeal, but on the other hand, the data collection mechanism is not beyond the reach of a typical undergraduate student. A further benefit of the exercise is that it provides an opportunity for discussions on ethical questions and considerations that data providers and data analysts face in today’s age of large-scale internet-based data collection."
-  },
-  {
-    "objectID": "JSE_calendar.html#examples",
-    "href": "JSE_calendar.html#examples",
-    "title": "Data collection & analysis using Google Calendar",
-    "section": "Examples",
-    "text": "Examples\nBoth Albert and Johanna’s versions of the assignment assumed basic familiarity with R and RStudio as well as the ggplot2 and dplyr packages.\n\nPreviews of the assignment as given to students in\n\nAlbert’s course.\nJohanna’s course\n\nA .zip file of all files necessary for both assignments: calendar.zip\nBoth assignments give students some variation of the starter code below:\n\n\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(ical)\n\ncalendar_data &lt;- \"calendar_filename.ics\" %&gt;% \n  # Use ical package to import into R\n  ical_parse_df() %&gt;% \n  # Convert to \"tibble\" data frame format\n  as_tibble() %&gt;% \n  # Use lubridate package to wrangle dates and times\n  mutate(\n    start_datetime = with_tz(start, tzone = \"America/New_York\"),\n    end_datetime = with_tz(end, tzone = \"America/New_York\"),\n    duration = end_datetime - start_datetime,\n    date = floor_date(start_datetime, unit = \"day\")\n  ) %&gt;%\n  # Convert calendar entry to all lowercase and rename:\n  mutate(activity = tolower(summary)) %&gt;%\n  # Compute total duration of time for each day & activity:\n  group_by(date, activity) %&gt;%\n  summarize(duration = sum(duration))"
-  },
-  {
-    "objectID": "JSE_calendar.html#screencast-demo",
-    "href": "JSE_calendar.html#screencast-demo",
-    "title": "Data collection & analysis using Google Calendar",
-    "section": "Screencast demo",
-    "text": "Screencast demo\nHere is a 6m56s YouTube screencast demonstrating how to:\n\nLog time data in Google Calendar\nExport the calendar data to .ics file format\nImport the .ics in R using the ical package"
   },
   {
     "objectID": "sds_newsletter_2022.html",
@@ -287,62 +637,6 @@
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the virtual 2022 Joint Statistical Meetings during the second week of August. Don’t miss these events featuring Smithies!\n\nPromoting Diversity in Sports Analytics — Invited Panel\nArielle Dror ’20\n\nCreating Optimal Conditions for Reproducible Data Analysis in R with ‘Fertile’\nBenjamin Baumer and Audrey M. Bertin ’21\nPerspectives on Nontraditional Grading in Statistics Courses — Topic Contributed Panel\nKatherine Kinnaird\nCombining Trial and Population Data to Estimate Population Average Treatment Effects\nElizabeth Stuart ’97\nData Science Informed by Survey Science: Collecting More Accurate Labels\nStephanie Eckman ’94\nFindings and Recommendations from the Promoting and Engaging Racial Inclusion ASA Antiracism Task Force Subcommittee\nPortia Exum ’10\nImproving Data Science Education Infrastructure at Community Colleges, Teaching, and Research Universities — Invited Panel\nMine Dogucu ’09\nAudiences and Arguments: Teaching the Strategies of Effective Data Communicators\nSara Stoudt ’15\nPlanning a Drive: Autonomous Vehicles and the Role of Statisticians\nMaria Terres ’09\n\nWe hope to see you in person! I’m planning a get together on Tuesday, at The Smith! It’s a couple blocks from the Convention Center, but where else could we possibly meet??\nDetails:\nThe Smith\n901 F STREET NW (at 9th street)\nTuesday, August 9th\n5 pm - 6:30 pm\n\n\nStatFest\nStatFest 2022 will also be virtual in September.\n\n\nWomen in Statistics and Data Science Conference\nWSDS 2022 will be in St. Louis in October."
   },
   {
-    "objectID": "sds_r_packages.html",
-    "href": "sds_r_packages.html",
-    "title": "R Packages for SDS",
-    "section": "",
-    "text": "library(knitr)\nopts_chunk$set(eval = FALSE)"
-  },
-  {
-    "objectID": "sds_r_packages.html#check-existing-library-paths",
-    "href": "sds_r_packages.html#check-existing-library-paths",
-    "title": "R Packages for SDS",
-    "section": "Check existing library paths",
-    "text": "Check existing library paths\n\nlibs &lt;- .libPaths()\nlibs\n\n\nNote: admin installs into /usr/local/lib/R/site-library\n\n\nsys.lib &lt;- \"/usr/local/lib/R/site-library\""
-  },
-  {
-    "objectID": "sds_r_packages.html#currently-installed-packages",
-    "href": "sds_r_packages.html#currently-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Currently installed packages",
-    "text": "Currently installed packages\n\npkgs &lt;- as.data.frame(installed.packages(sys.lib))\npkgs.here &lt;- as.character(pkgs$Package)\n# these are the packages that are installed in the system library\npkgs.here"
-  },
-  {
-    "objectID": "sds_r_packages.html#update-currently-installed-packages",
-    "href": "sds_r_packages.html#update-currently-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Update currently installed packages",
-    "text": "Update currently installed packages\n\n# run this first -- should always be safe\nupdate.packages(lib.loc = sys.lib)"
-  },
-  {
-    "objectID": "sds_r_packages.html#sds-packages-requested",
-    "href": "sds_r_packages.html#sds-packages-requested",
-    "title": "R Packages for SDS",
-    "section": "SDS packages requested",
-    "text": "SDS packages requested\nThese packages should be installed in the system library for all users. Please update these every semester\n\npkgs.desired &lt;- c(\"mosaic\", \"dplyr\", \"rmarkdown\", \"knitr\", \"markdown\", \"formatR\"\n                  , \"rstudio\", \"ggplot2\", \"tidyr\", \"stringr\", \"agricolae\", \"leaps\"\n                  , \"Lahman\", \"twitteR\", \"latticeExtra\", \"RSQLite\"\n                  , \"igraph\", \"Stat2Data\", \"lme4\", \"sp\", \"maptools\", \"rpart\"\n                  , \"manipulate\", \"BiocInstaller\", \"mosaicData\", \"RcolorBrewer\"\n                  , \"nycflights13\", \"devtools\", \"googlesheets\", \"readr\"\n                  , \"mdsr\", \"etl\", \"macleish\", \"lubridate\", \"openintro\"\n                  , \"tm\", \"jsonlite\", \"ggmap\", \"ggvis\", \"Rcpp\", \"plotly\"\n                  , \"tigris\", \"rvest\", \"MASS\", \"XML\", \"leaflet\"\n                  , \"readxl\", \"rmarkdown\", \"DBI\", \"ISLR\", \"broom\")"
-  },
-  {
-    "objectID": "sds_r_packages.html#install-missing-requested-packages",
-    "href": "sds_r_packages.html#install-missing-requested-packages",
-    "title": "R Packages for SDS",
-    "section": "Install missing requested packages",
-    "text": "Install missing requested packages\n\n# run this -- should always be safe but may take a while\ninstall.packages(setdiff(pkgs.desired, pkgs.here), lib = sys.lib)"
-  },
-  {
-    "objectID": "sds_r_packages.html#non-standard-installs",
-    "href": "sds_r_packages.html#non-standard-installs",
-    "title": "R Packages for SDS",
-    "section": "Non-standard installs",
-    "text": "Non-standard installs\nThese packages may have external dependencies that require some finagling.\n\npkgs.tricky &lt;- c(\"RMySQL\", \"RPostgreSQL\", \"rgdal\", \"rgeos\")\ninstall.packages(setdiff(pkgs.tricky, pkgs.here), lib = sys.lib)\n\nThese packages are not on CRAN and must be installed from GtiHub.\n\npkgs.github &lt;- c(\"andrewpbray/oilabs\", \"rstudio/sparklyr\", \"omegahat/Sxslt\")\nlapply(pkgs.github, FUN = \"devtools::install_github\")"
-  },
-  {
-    "objectID": "sds_r_packages.html#find-multiply-installed-packages",
-    "href": "sds_r_packages.html#find-multiply-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Find multiply installed packages",
-    "text": "Find multiply installed packages\nNote that packages can be installed in multiple libraries!\n\nlibrary(dplyr)\nas.data.frame(installed.packages()) %&gt;%\n  group_by(Package) %&gt;%\n  summarise(N = n(), where = paste(LibPath, collapse = \", \")) %&gt;%\n  filter(N &gt; 1) %&gt;%\n  print.data.frame()"
-  },
-  {
     "objectID": "sds_newsletter_2019.html",
     "href": "sds_newsletter_2019.html",
     "title": "SDS Newsletter",
@@ -376,13 +670,6 @@
     "title": "SDS Newsletter",
     "section": "What’s next?",
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the Joint Statistical Meetings in Denver at the end of the month. We are planning to meet up for drinks/eats at:\n\nStout Street Social\n1400 Stout St\nDenver, CO 80202\nhttps://www.stoutstsocial.com/\nMonday, July 29th, 6 pm\n\nMark your calendar!\n\n\nStatFest\nAlbert Y. Kim and a group of students have plans to attend StatFest 2019 at The University of Texas Health Science Center at Houston TX on September 21.\nStatFest an annual one-day conference for undergraduates that is meant to encourage historically under-represented students (e.g., African-American, Latino, Native American, Pacific Islander) with quantitative interests to pursue careers or graduate study in the statistical sciences.\n\n\nWomen in Statistics and Data Science Conference\nRandi Garcia and four students will be attending the ASA Women in Statistics and Data Science Conference in Bellevue, WA from October 18–20th. Two groups of students will be presenting their work:\n\nSocial Network Analysis of Cosponsorship in the 115th Congress (306427)\nEmily Daubenspeck ’20, Smith College\nArielle Dror ’20, Smith College\nKara Van Allen ’20, Smith College\nData Analytics in the Archives: A Statistical Examination of the Robinson and via Family Papers (306452)\nClara Roseberg ’20, Smith College\n\nHope to see you there!"
-  },
-  {
-    "objectID": "speaker_alvord.html#details",
-    "href": "speaker_alvord.html#details",
-    "title": "Upcoming Speakers: Juliana Alvord `19 and and Abbey Benzine",
-    "section": "Details",
-    "text": "Details\n\nDate and Time:Tuesday March 3, 12:10pm\nLocation: Sabin-Reed, 301, Smith College\nOpen to Students\n\n\nSponsors\n\nSmith College Statistical and Data Sciences"
   },
   {
     "objectID": "patch_okcupid.html",
@@ -504,34 +791,6 @@
     "text": "Undergraduate Research Project Competition (USRESP)\nThe research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor’s college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.\n\n2023\n\n1st Place: Irene Foster ’23, Sunshine Schneider ’23, Caitlin Timmons ’23, Katelyn Diaz ’23\nStorm Chasers: Synthesizing New England Weather Data on a Dashboard for Emergency Response Workers\nFaculty sponsor: Albert Kim\n\n2022\n\nHonorable Mention: Dianne Caravela ’22, Amrita Acharya ’22J, Emma Kornberg ’22, Elisabeth Nesmith ’22, & Eunice Kim ’22\nDoes The Compas Needle Always Point Towards Equity? Finding Fairness In The Compas Risk Assessment Algorithm: A Case Study\nFaculty sponsor: Ben Baumer\n\n2019\n\n3rd Place: Karen Santamaria ’20, Kara Van Allen ’20, Maggie X. Wang ’20, and Tiffany Xiao ’20J\nMethods for Freeing Public Election Data from PDFs\nFaculty sponsor: Ben Baumer\n\n2015\n\n2nd Place: Sara Stoudt ’15\nGeostatistical Models for the Spatial Distribution of Uranium in the Continental United States\nFaculty sponsor: Ben Baumer"
   },
   {
-    "objectID": "speaker_dignazio.html",
-    "href": "speaker_dignazio.html",
-    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
-    "section": "",
-    "text": "Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design & social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place\n\n\n\nAs data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists–and others who rely on data in their work–to ignore. But it is precisely this power that makes it worth asking: “Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices.\n\n\n\n\nDate and Time:April 7, 5pm-6pm\nLocation: Ford Hall 240\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
-  },
-  {
-    "objectID": "speaker_dignazio.html#catherine-dignazio",
-    "href": "speaker_dignazio.html#catherine-dignazio",
-    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
-    "section": "",
-    "text": "Catherine D’Ignazio is a scholar, artist/designer and hacker mama who focuses on feminist technology, data literacy and civic engagement. She has run reproductive justice hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. With Rahul Bhargava, she built the platform Databasic.io, a suite of tools and activities to introduce newcomers to data science. Her forthcoming book from MIT Press, Data Feminism, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her research at the intersection of technology, design & social justice has been published in the Journal of Peer Production, the Journal of Community Informatics, and the proceedings of Human Factors in Computing Systems (ACM SIGCHI). Her art and design projects have won awards from the Tanne Foundation, Turbulence.org and the Knight Foundation and exhibited at the Venice Biennial and the ICA Boston. D’Ignazio is an Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT. She is also Director of the Data + Feminism Lab which uses data and computational methods to work towards gender and racial equity, particularly in relation to space and place"
-  },
-  {
-    "objectID": "speaker_dignazio.html#data-feminism",
-    "href": "speaker_dignazio.html#data-feminism",
-    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
-    "section": "",
-    "text": "As data are increasingly mobilized in the service of governments and corporations, their unequal conditions of production, their asymmetrical methods of application, and their unequal effects on both individuals and groups have become increasingly difficult for data scientists–and others who rely on data in their work–to ignore. But it is precisely this power that makes it worth asking: “Data science by whom? Data science for whom? Data science with whose interests in mind? These are some of the questions that emerge from what we call data feminism, a way of thinking about data science and its communication that is informed by the past several decades of intersectional feminist activism and critical thought. Illustrating data feminism in action, this talk will show how challenges to the male/female binary can help to challenge other hierarchical (and empirically wrong) classification systems; it will explain how an understanding of emotion can expand our ideas about effective data visualization; how the concept of invisible labor can expose the significant human efforts required by our automated systems; and why the data never, ever “speak for themselves.” The goal of this talk, as with the project of data feminism, is to model how scholarship can be transformed into action: how feminist thinking can be operationalized in order to imagine more ethical and equitable data practices."
-  },
-  {
-    "objectID": "speaker_dignazio.html#details",
-    "href": "speaker_dignazio.html#details",
-    "title": "Upcoming Speaker: Catherine DIgnazio, April 7 5pm",
-    "section": "",
-    "text": "Date and Time:April 7, 5pm-6pm\nLocation: Ford Hall 240\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
-  },
-  {
     "objectID": "sds_newsletter_2021.html",
     "href": "sds_newsletter_2021.html",
     "title": "SDS Newsletter",
@@ -567,48 +826,6 @@
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the virtual 2021 Joint Statistical Meetings during the second week of August. We wish we could see you in person, but we’ll have to settle for Zoom waves yet again this year. 😞\n\n\nStatFest\nStatFest 2021 will also be virtual in September.\n\n\nWomen in Statistics and Data Science Conference\nWSDS 2021 will also be virtual in October."
   },
   {
-    "objectID": "rmarkdown_problems.html",
-    "href": "rmarkdown_problems.html",
-    "title": "Troubleshooting in R Markdown",
-    "section": "",
-    "text": "There are a few common problems that people have had with their labs. This page will be updated with new problems when they arise, and it’s a good place to look if you’re having trouble."
-  },
-  {
-    "objectID": "rmarkdown_problems.html#downloading-the-html-so-you-can-upload-it-to-moodle",
-    "href": "rmarkdown_problems.html#downloading-the-html-so-you-can-upload-it-to-moodle",
-    "title": "Troubleshooting in R Markdown",
-    "section": "Downloading the HTML so you can upload it to Moodle",
-    "text": "Downloading the HTML so you can upload it to Moodle\nTo download the knitted HTML, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document’s name. Make sure it is the HTML file with the same filename as the Rmd file you were editing. Then click the More button and select Export. This will download the file onto your computer and you can then upload it to Moodle. For a short video showing this process, see here."
-  },
-  {
-    "objectID": "rmarkdown_problems.html#document-wont-knit",
-    "href": "rmarkdown_problems.html#document-wont-knit",
-    "title": "Troubleshooting in R Markdown",
-    "section": "Document won’t knit",
-    "text": "Document won’t knit\nThere could be many reasons for this. Usually, the error message will pinpoint the location of the problem. Read the error messages!!\nSome most common problems are:\n\nincluding output in your code chunks, like\n\n\nmean(~speed, data = cars) 169.683\n\nError: &lt;text&gt;:1:27: unexpected numeric constant\n1: mean(~speed, data = cars) 169.683\n                              ^\n\n\n\nincluding the &gt; or + prompts that come from the console in your code chunks, like\n\n\n&gt; mean(~speed, data = cars)\n\nError: &lt;text&gt;:1:1: unexpected '&gt;'\n1: &gt;\n    ^\n\n\nor\n\ncars %&gt;%\n+ filter(speed &gt; 100)\n\nError: object 'speed' not found\n\n\n\nAsking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like [ reached getOption(\"max.print\") -- omitted 18684 rows ], but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included\n\n\n  cars\n\nin your document, but also dplyr expressions that aren’t saved into an object can do it, like\n\n  cars %&gt;%\n   filter(speed &gt; 100)\n\n\nNot including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.\n\n\nnow()\n\n[1] \"2023-06-23 14:37:25 UTC\"\n\nlibrary(lubridate)\nnow()\n\n[1] \"2023-06-23 14:37:25 UTC\"\n\n\nFor SDS classes, you often need to include\n\nlibrary(tidyverse)\n\nNote that tidyverse in turn loads dplyr and ggplot2.\nNote also that require() and library() are equivalent for our purposes, but library() is preferred.\n\nPackages not installed. If you try to load a package that is not available in your R session, then you will get a warning.\n\n\nlibrary(imadethisup)\n\nError in library(imadethisup): there is no package called 'imadethisup'\n\n\nTo install the package, click on the “Install” button under the “Packages” tab, or use the install.packages() function.\n\ninstall.packages(\"imadethisup\")\n\n\nHaving spaces or other non-safe characters in filenames. This will often break when you try to compile your Markown document into HTML. Do not use spaces, slashes, or pound signs in filenames!!\nReferring to objects that don’t exist. Recall that your Markdown document knits in a clean R session!! Objects in your working environment are shown under the “Environment” tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:\n\n\nmy_object\n\nError in eval(expr, envir, enclos): object 'my_object' not found\n\n\nit means that R cannot find any object in its environment called my_object. Make sure that my_object is created in the Markdown document prior to where you are trying to access it.\nOne common way this can occur is if you failed to load a data frame provided by a package (that doesn’t use lazy loading). For example, the oilabs package does not support lazy loading, so you have to use the data() command to bring the data frames into your environment before using them.\n\nlibrary(oilabs)\nhead(ames)\ndata(ames)\nhead(ames)\n\n\nIncorrect file path. Note that absolute filenames like\n\n\nread.csv(\"/home/bbaumer/sds220/data/my_data.csv\")\n\nWarning in file(file, \"rt\"): cannot open file\n'/home/bbaumer/sds220/data/my_data.csv': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\n\nwill not work on anyone else’s computer. It is usually better to use a relative file path like:\n\nread.csv(\"~/sds220/data/my_data.csv\")\n\nHowever this will only works if someone else has the same directory structure as you. Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if\n\nread.csv(\"my_data.csv\")\n\ndoesn’t work, you may have to try\n\nread.csv(\"project/my_data.csv\")\n\nor something along those lines."
-  },
-  {
-    "objectID": "rmarkdown_problems.html#code-not-being-evaluated",
-    "href": "rmarkdown_problems.html#code-not-being-evaluated",
-    "title": "Troubleshooting in R Markdown",
-    "section": "Code not being evaluated",
-    "text": "Code not being evaluated\nIf you have code showing up in your document like this\nmean(~speed, data = cars)\nwhere the code isn’t colored nicely and the output isn’t showing, that’s often because your chunk delimiters weren’t specified correctly. You need three “ticks” (the key on the upper left corner of the keyboard, usually, the same one with the ~): ``` Then you need curly braces with an “r” in the middle, {r}, then a line break, then your code, and finally three more ticks.\nIf you’re having trouble getting the formatting correct, you can always click the Chunks button at the upper right corner of the RMarkdown window and select Insert Chunk. This will do all the formatting for you."
-  },
-  {
-    "objectID": "rmarkdown_problems.html#no-knit-html-button",
-    "href": "rmarkdown_problems.html#no-knit-html-button",
-    "title": "Troubleshooting in R Markdown",
-    "section": "No Knit HTML button",
-    "text": "No Knit HTML button\nThis means that RStudio doesn’t understand your document is supposed to be an RMarkdown document, often because your file extension is .txt. To fix this, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document’s name. Then select Rename and remove the .txt and make sure the extension is .Rmd."
-  },
-  {
-    "objectID": "rmarkdown_problems.html#getting-more-help",
-    "href": "rmarkdown_problems.html#getting-more-help",
-    "title": "Troubleshooting in R Markdown",
-    "section": "Getting more help",
-    "text": "Getting more help\nWhen in doubt, consult the authoritative source. The R Markdown website contains a detailed tutorial with videos. There are also Cheatsheets available from within RStudio. Simply go to: Help -&gt; Cheatsheets -&gt; R Markdown Cheat Sheet for the most commonly used R Markdown commands."
-  },
-  {
     "objectID": "self_study.html",
     "href": "self_study.html",
     "title": "Self Study",
@@ -635,41 +852,6 @@
     "title": "Self Study",
     "section": "Other resources",
     "text": "Other resources"
-  },
-  {
-    "objectID": "sds_newsletter_2017.html",
-    "href": "sds_newsletter_2017.html",
-    "title": "SDS Newsletter",
-    "section": "",
-    "text": "Whew! It has been another huge year for our program in Statistical & Data Sciences! In our first academic year with a major, 21 students officially declared an SDS major. For reference, this puts us on par with established majors like Geosciences, Spanish, and Theatre in terms of number of majors. We hired three tenure-track faculty members this year (more on that later). These new people will be housed in our corridor on the 2nd floor of McConnell Hall, which is the new home of SDS. Our graduates continue to do amazing things, and this year’s graduates are already on their way to join them!\nSome updates:\n\nAbby Doctor ’17 and Weijia (Vega) Zhang ’17 became our first official SDS graduates. [You may recall that Yiwen Zhu ’16 completed a self-designed major in “Statistical & Data Sciences” before the official major was approved, so she is our first unofficial graduate.]\n\n\n\nIt's official! #smithieslead #datascience pic.twitter.com/cMdy8Jz716\n\n— Smith College SDS (@SmithCollegeSDS) May 21, 2017\n\n\n\nWeijia (Vega) Zhang ’17 completed the first SDS honor’s thesis. She was awarded High Honors for her project, Improving Access to Open-Source Data about the NYC Bike Sharing System (Citi Bike), which was advised by Ben Baumer and Jordan Crouser. For this effort Vega was also awarded the first ever Statistical & Data Science Research Prize.\nTwo teams from Smith were awarded prizes in the Undergraduate Statistics Project Competition (USPROC). In the First Course in Statistics category, Madison Laethem ’17 and Grace Zhan ’18 won first place for their project Predicting Student Debt Upon College Graduation. In the Second Course in Statistics category, Ji Young Yun ’18 and Wencong Li ’18 won second place for their project NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?. Both groups were advised by Jordan Crouser.\nMadison Laethem ’17 joined the MassMutual Data Science Development Program. This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. Deirdre Fitzpatrick ’14 and Dana Udwin ’14 will be among the first cohort to complete the development program this summer.\nChristine Zhang ’09, a data journalist at the Los Angeles Times, gave a well-attended talk on “Data Visualization at the Los Angeles Times” on December 6, 2016.\n\n\n\nJessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about “Understanding p-values and the Controversy Surrounding Them.”\nAbby Doctor ’17 won Smith’s Five College Statistics Prize for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.\nSmith teams restored order to the world by cleaning up at the 4th annual ASA Five College DataFest at UMass in March. The Best in Show prize went to DataBest (Zainab Aqdas Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen ’18), while prizes for Best Statistical Interpretation went to Normally Distributed (Zixian Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa Alam ’19J) and Best Business Insight went to Standard Divination (Isabella Zhu ’20, Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20). Smith teams have now won the Best in Show prize at three of the first four competitions. Many alumnae stopped by and served as VIP Consultants during the weekend.\n\n\n\n\nDataBest with trophy and judges\n\n\n\nSmith was awarded a Claire Booth Luce tenure-track position joint in SDS and computer science through a grant from the Luce Foundation. The grant pays $500k that allows Smith to create a permanent line (more on the hire later).\nLiz Stuart ’97 won the Gertrude Cox Award as early to mid-career statistician who has made significant contributions to one or more of the areas of applied statistics in which Gertrude Cox worked: survey methodology, experimental design, biostatistics, and statistical computing. This award is not to be confused with the Gertrude Cox scholarship, which Liz also won in 2000.\nJordan Crouser’s work on boater hats with several students was profiled in a Grecourt Gate video.\nCas Sweeney ’19 described the SDS major as “one of Smith’s newest and fastest-growing majors” in an article for the Sophian.\nDana Udwin ’14 was profiled in Parade magazine’s 2017 edition of What People Earn.\nProvost Katherine Rowe touted the SDS program at a Forum on Data Analytics & Tomorrow’s Workforce sponsored by The Atlantic.\n\n\n\nKatherine Rowe @SmithCollege: we have a chance today to shape the future of #datascience workforce to be #diverse #AtlanticDataScience pic.twitter.com/rS7EqtvcX0\n\n— Cristina Ampil (@CristinaAmpil) March 30, 2017\n\n\n\n\n\"At Smith, We see an opportunity to establish the culture of data science & make it hospitable to women and minorities\" #AtlanticDataScience\n\n— Smith College Tweets (@smithcollege) March 30, 2017\n\n\n\nBestValueSchools.com listed Smith at #6 on their list of Best Value Small Colleges for a Data Science degree.\nPlease follow us on Twitter @SmithCollegeSDS or visit our website for more information on the program! There is also a Facebook group and a Google group. Please help us reach out to other alumnae by having them contact me!\n\n\n\n\n2016"
-  },
-  {
-    "objectID": "sds_newsletter_2017.html#program-updates",
-    "href": "sds_newsletter_2017.html#program-updates",
-    "title": "SDS Newsletter",
-    "section": "",
-    "text": "Whew! It has been another huge year for our program in Statistical & Data Sciences! In our first academic year with a major, 21 students officially declared an SDS major. For reference, this puts us on par with established majors like Geosciences, Spanish, and Theatre in terms of number of majors. We hired three tenure-track faculty members this year (more on that later). These new people will be housed in our corridor on the 2nd floor of McConnell Hall, which is the new home of SDS. Our graduates continue to do amazing things, and this year’s graduates are already on their way to join them!\nSome updates:\n\nAbby Doctor ’17 and Weijia (Vega) Zhang ’17 became our first official SDS graduates. [You may recall that Yiwen Zhu ’16 completed a self-designed major in “Statistical & Data Sciences” before the official major was approved, so she is our first unofficial graduate.]\n\n\n\nIt's official! #smithieslead #datascience pic.twitter.com/cMdy8Jz716\n\n— Smith College SDS (@SmithCollegeSDS) May 21, 2017\n\n\n\nWeijia (Vega) Zhang ’17 completed the first SDS honor’s thesis. She was awarded High Honors for her project, Improving Access to Open-Source Data about the NYC Bike Sharing System (Citi Bike), which was advised by Ben Baumer and Jordan Crouser. For this effort Vega was also awarded the first ever Statistical & Data Science Research Prize.\nTwo teams from Smith were awarded prizes in the Undergraduate Statistics Project Competition (USPROC). In the First Course in Statistics category, Madison Laethem ’17 and Grace Zhan ’18 won first place for their project Predicting Student Debt Upon College Graduation. In the Second Course in Statistics category, Ji Young Yun ’18 and Wencong Li ’18 won second place for their project NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?. Both groups were advised by Jordan Crouser.\nMadison Laethem ’17 joined the MassMutual Data Science Development Program. This is an intense, three-year program that combines academic coursework with the practical experience of working on data science projects for MassMutual. Deirdre Fitzpatrick ’14 and Dana Udwin ’14 will be among the first cohort to complete the development program this summer.\nChristine Zhang ’09, a data journalist at the Los Angeles Times, gave a well-attended talk on “Data Visualization at the Los Angeles Times” on December 6, 2016.\n\n\n\nJessica Utts, the President of the American Statistical Association, gave a talk to a diverse group of students and faculty about “Understanding p-values and the Controversy Surrounding Them.”\nAbby Doctor ’17 won Smith’s Five College Statistics Prize for outstanding independent research, thesis, or capstone course project in statistics. Abby (an economics-SDS double major) was awarded the prize for her outstanding senior capstone project. In this independent project, Abby applied various machine learning methods to explore patterns in consumer financial data provided by Simple, a direct banking company.\nSmith teams restored order to the world by cleaning up at the 4th annual ASA Five College DataFest at UMass in March. The Best in Show prize went to DataBest (Zainab Aqdas Rizvi ’18, Subashini Sridhar ’18J, Ji Young Yun ’18, Ji Wong Chung ’18 and Van Nguyen ’18), while prizes for Best Statistical Interpretation went to Normally Distributed (Zixian Li ’19, Angie Dinh ’17, Abby Doctor ’17, Erina Fukuda ’18 and Raeesa Alam ’19J) and Best Business Insight went to Standard Divination (Isabella Zhu ’20, Cas Sweeney ’19, Sarah Abowitz ’20 and Garcia Sun ’20). Smith teams have now won the Best in Show prize at three of the first four competitions. Many alumnae stopped by and served as VIP Consultants during the weekend.\n\n\n\n\nDataBest with trophy and judges\n\n\n\nSmith was awarded a Claire Booth Luce tenure-track position joint in SDS and computer science through a grant from the Luce Foundation. The grant pays $500k that allows Smith to create a permanent line (more on the hire later).\nLiz Stuart ’97 won the Gertrude Cox Award as early to mid-career statistician who has made significant contributions to one or more of the areas of applied statistics in which Gertrude Cox worked: survey methodology, experimental design, biostatistics, and statistical computing. This award is not to be confused with the Gertrude Cox scholarship, which Liz also won in 2000.\nJordan Crouser’s work on boater hats with several students was profiled in a Grecourt Gate video.\nCas Sweeney ’19 described the SDS major as “one of Smith’s newest and fastest-growing majors” in an article for the Sophian.\nDana Udwin ’14 was profiled in Parade magazine’s 2017 edition of What People Earn.\nProvost Katherine Rowe touted the SDS program at a Forum on Data Analytics & Tomorrow’s Workforce sponsored by The Atlantic.\n\n\n\nKatherine Rowe @SmithCollege: we have a chance today to shape the future of #datascience workforce to be #diverse #AtlanticDataScience pic.twitter.com/rS7EqtvcX0\n\n— Cristina Ampil (@CristinaAmpil) March 30, 2017\n\n\n\n\n\"At Smith, We see an opportunity to establish the culture of data science & make it hospitable to women and minorities\" #AtlanticDataScience\n\n— Smith College Tweets (@smithcollege) March 30, 2017\n\n\n\nBestValueSchools.com listed Smith at #6 on their list of Best Value Small Colleges for a Data Science degree.\nPlease follow us on Twitter @SmithCollegeSDS or visit our website for more information on the program! There is also a Facebook group and a Google group. Please help us reach out to other alumnae by having them contact me!\n\n\n\n\n2016"
-  },
-  {
-    "objectID": "sds_newsletter_2017.html#faculty-updates",
-    "href": "sds_newsletter_2017.html#faculty-updates",
-    "title": "SDS Newsletter",
-    "section": "Faculty Updates",
-    "text": "Faculty Updates\n\nWe hired Miles Ott ’01 as a tenure-track faculty member. After majoring in mathematics and minoring in computer science at Smith, Miles earned an MPH in epidemiology from the University of Minnesota, an MS in biostatistics from Harvard, and a PhD in biostatistics from Brown University. Miles taught at Carleton College and Augsberg College before coming home to Smith.\n\n\n\n20 years after starting @smithcollege as a first year student I will join @SmithCollegeSDS as a faculty member in Fall of 2017! 🎉🎉🎉\n\n— Miles Ott (@Miles_Ott) March 28, 2017\n\n\n\nWe also hired Albert Y. Kim as a tenure-track faculty member. Albert will join us in 2018 after teaching at Amherst College this year. A Montreal native, Albert majored in mathematics and computer science at McGill University before earning his PhD in statistics from the University of Washington. Albert worked at Google before taking faculty positions at Reed College, Middlebury College, and Amherst.\nWe hired Katherine Kinnaird as the Claire Booth Luce professor of computer science and statistical & data sciences. Katie will join us in 2018 after she completes her post-doc at Brown University. Katie majored in mathematics at Wellesley and earned her PhD in math from Dartmouth College. She taught statistics and computer science at Macalester College before moving to Brown.\nR. Jordan Crouser ’08 was hired as a tenure-track professor of computer science. While we are sad to lose Jordan to CSC, we are ecstatic that he will be staying at Smith and will do everything we can to keep him involved in our program!\nFilling a two-year Visiting Assistant Professor, MassMutual Faculty Fellow position is Lu Lu. Lu is a mathematical statistician with an interest in industrial applications who is coming to Smith from Colby College. Amelia McNamara remains in her MassMutual Faculty Fellow position.\nBen Capistrant was hired as a Visiting Professor. Ben was most recently in the Epidemiology department of the University of Minnesota.\n\n\nBen Baumer\nI’ve got two pieces of big news to report this year (in no particular order):\n\nMy second book, Modern Data Science with R was published by CRC Press. This book was co-authored with Nick Horton and Danny Kaplan, and serves as a textbook for undergraduate data science courses like the ones that I have been teaching here at Smith. The material for the book evolved out of lectures notes and homework assignments that have been used in 292 and 192.\nMy second daughter, Arlo, was born in January. Here is a recent picture of her with Alice.\n\nLooking forward to seeing you at JSM and WSDS!\n\n\nBen Capistrant\nBen Capistrant is a new Visiting Assistant Professor in SDS. His research focuses on social determinants of population health, both in the U.S. and in low and middle-income countries. This summer, he is working on a number of research studies on how providing care to a family member is associated with changes in the caregiver’s health. In June, he started a new project with the Minnesota Department of Human Services to model projections of population aging, health and health care demands in the coming decades. He is glad to use summer conferences as a way to see friends and family around the country and is looking forward to teaching this fall.\n\n\nR. Jordan Crouser\nThis summer 9 SURF students joined Jordan Crouser in the Human Computation and Visualization Laboratory. The HCV lab produced several papers this year, including:\n\nR. Jordan Crouser, Lyndsey Franklin, Alex Endert, and Kris Cook. Toward theoretical techniques for measuring the use of human effort in visual analytic systems. IEEE Transactions on Visualization and Computer Graphics, 23(1):121–130, 2017.\nR. Jordan Crouser, Lyndsey Franklin, and Kris Cook. Rethinking visual analytics for streaming data applications. IEEE Internet Computing, 21(4), 2017. To appear.\nR. Jordan Crouser, Erina Fukuda*, and Subashini Sridhar*. Retrospective on a decade of research in visualization for cybersecurity. In IEEE Symposium on Technologies for Homeland Security, 2017.\nJi Won Chung*, Isha Raut*, Ji Young Yun*, Kelly Pien*, Subashini Sridhar*, Morganne R. Crouser, and R. Jordan Crouser. DSMVis: Interactive visual exploration of the DSM-5 for mental health providers. In IEEE Conference on Visual Analytics Science and Technology, 2017. To appear.\n\n* Indicates authors that were undergraduate students at the time of submission.\nBeginning in July 2017, Jordan has accepted a tenure-track position with the Department of Computer Science at Smith.\n\n\nRandi Garcia\nRandi just finished teaching her first year at Smith. She taught SDS 201, Statistical Methods for Undergraduate Research, and also Research Methods and the Psychology of Women and Gender in the Psychology department. She also taught a special studies with Minji Kang ’19, on Longitudinal Data Analysis with Structural Equation Modeling. Minji presented analyses conducted for this course at the Modern Modeling Methods (MMM) conference at UConn in May. This Spring Randi also started a project with Connie Zhang ’19, on using R Markdown to create APA style manuscripts. Connie was awarded a SURF to continuing this work at Smith into the summer. With the help of six students, data collection is underway in Randi’s Intergroup Relationships Laboratory on a project examining interpersonal objectification. This year Randi published research articles in the Journal of Family Psychology, Group Processes and Intergroup Relations, and Cultural Diversity and Ethnic Minority Psychology. This summer she has presented work MMM, the Association for Psychological Science, The European Association of Social Psychology, and taught two data analysis workshops.\n\n\nKatherine Halvorsen\nKatherine is on sabbatical during the 2017–2018 academic year.\n\n\nLu Lu\nI’m excited to begin my first year as a Visiting Assistant Professor in Statistical and Data Sciences Program. I earned my M.S. and Ph.D. in applied mathematics from University of Connecticut. Since then, I’ve taught at the Department of Mathematics and Statistics at Colby College.\nI have been working on statistical learning theory, in particular, nonparametric curve estimation and the probability theory related to it. I have studied the aysmptotic properties of density estimators. I’ve become more interested in applying big data analytics to finance. Currently I’m working on credit scoring using survival analysis and other machine learning techniques.\n\n\nAmelia McNamara\nIt was fun to reprise my Introduction to Probability and Statistics and Multiple Regression courses last year, but I am looking forward to expanding my course offerings this year. I’ll be taking over Jordan Crouser’s Communicating with Data course in the fall, and creating a Data Journalism course for the spring. My personal goal for the SDS program is for us to have connections with every division on campus, and I’m particularly interested in crossover with the humanities. After a crazy summer of travel last year, I did my best to stay put this summer, which has allowed me to focus more on my research.\n\n\nMiles Ott\nMiles Ott is a new faculty member joining SDS in the Fall. He is interested in the statistical analysis of social network data and public health. This summer he gave a talk titled “Strategic Players for Identifying Optimal Social Network Intervention Subjects, with Application to an Undergraduate Social Network” at the Sunbelt Social Network conference in Beijing. He is excited to be a part of the SDS program and is looking forward to teaching 220 in September, and involving Smith students in his research. In the meantime, he has been sampling delicious baked goods throughout the Pioneer Valley and exploring the rail trail by bike."
-  },
-  {
-    "objectID": "sds_newsletter_2017.html#alumnae-updates",
-    "href": "sds_newsletter_2017.html#alumnae-updates",
-    "title": "SDS Newsletter",
-    "section": "Alumnae Updates",
-    "text": "Alumnae Updates\n\nMine Dogucu ’09: I just finished my PhD at Ohio State and I will be starting at New College of Florida as an assistant professor of statistics. I am excited to be teaching both undergraduate and graduate courses in a liberal arts setting. I think New College has a unique master’s program in Data Science. I would be happy to talk to any Smithies who are interested. I will not be able to attend JSM this year due to move but I am hoping to meet Smithies at Women in Statistics and Data Science conference in October. This year, I also have been involved with R Ladies which is a global organization that aims to improve gender diversity in the R community. I started a local chapter in Columbus and hoping to start one in Sarasota. Feel free to contact me if you need help finding/starting a local chapter in your own city.\nMaja Miloslavjevic ’14: I moved to Seattle 5 months ago and now work at Microsoft as a Program Manager in Office365! I love the quick-paced nature of Microsoft and that I get to drive direct customer impact with my work. Outside of work, I spend my time trying to enjoy as much of the Seattle summer as possible before the months of rain begin again…\nJingyang (Judy) Zhang ’14: I am still working for ITS at Smith, currently working on the college’s website.\nSara Stoudt ’15: I made it through year two in the Statistics PhD program at UC Berkeley and finished the Data Sciences for the 21st Century: Environment and Society program. I am currently back at NIST for the summer working on greenhouse gas monitoring data collected via small aircraft. In the fall I will be focusing on helping to teach a new class on writing for statistics and transitioning to research with a project to try to use citizen science data to better understand species distribution changes over space and time.\nLiz Stuart ’97 is a Professor of Mental Health, Biostatistics, and Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She won the 2017 Gertrude Cox Award, given out by the Washington Statistical Society and RTI to recognize an early to mid-career statistician who has made significant contributions to applied statistics. She welcomes anyone who wants to learn about biostatistics, public health, or education to reach out! estuart@jhu.edu\nDana Udwin ’14: is starting the PhD program in biostatistics at Brown University in the fall!\nLizzy (Atkins) Offermann ’15: I recently moved to the Department of Neuropsychology at The Kennedy Krieger Institute / Johns Hopkins. I manage all of the data for the Department and am working with Python, R Studio, SQL, STATA, and SPSS everyday. I have thoroughly enjoyed the challenge of switching between languages and so appreciate that I still have my notes from Smith in addition to Google :) Each day, I am working on large clinical data sets for manuscript preparation in hopes of targeting our neuropsychological treatments to better serve our patients. In December, I was selected as the Smith Alumnae Admissions Coordinator for Maryland and Delaware - which means I coordinate all student interviews, lead a team of admissions volunteers, and host all of our accepted and admitted student parties. It is a packed job, but I love every moment of it!\nChrista Chiao ’15: I recently started working at the Democratic Congressional Campaign Committee as a Regional Targeting Director for the 2018 mid-term elections. I am really excited to combine my statistics and coding skills with some political know-how. The technical skills I’m using most in this job are R, SQL, Bash, GIS, and Python. Last year, I worked as a Deputy Analytics Director in Ohio for the Hillary campaign and as an Analytics Fellow at the Analyst Institute, a political analytics firm that helps campaigns measure the impact of their voter-contact programs. In my spare time, I row with Potomac Boat Club and think about acquiring some hobbies. I am so incredibly envious of the students that get to take part in this Data Science major! If anyone wants to learn more about getting into the (strictly) progressive data world, please let me know."
-  },
-  {
-    "objectID": "sds_newsletter_2017.html#whats-next",
-    "href": "sds_newsletter_2017.html#whats-next",
-    "title": "SDS Newsletter",
-    "section": "What’s next?",
-    "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the Joint Statistical Meetings in Baltimore at the end of the month. We are planning to meet up for drinks/eats at Pratt’s Ale House Monday night at 5:00 pm. Come join us!!\nPratt Street Ale House\n206 W Pratt St\nBaltimore, MD 21201\nMonday, July 31, 5 pm\n\n\nWomen in Statistics and Data Science Conference\nA few of us—hopefully including some students—will be attending the ASA Women in Statistics and Data Science Conference in La Jolla, CA from October 20–22nd. We have put together a dynamite panel who will be discussing data science at women’s colleges. We hope to see you there!"
   },
   {
     "objectID": "patch_social_networks.html",
@@ -742,13 +924,6 @@
     "text": "Deliverables\n\nhomework assignment\n(optional): sets up class discussion for the next class period in which students dicuss their ideas from the reading"
   },
   {
-    "objectID": "mu_sigma_rho.html",
-    "href": "mu_sigma_rho.html",
-    "title": "Mu Sigma Rho",
-    "section": "",
-    "text": "Mu Sigma Rho is the national statistics honor society, and the Boston Chapter of the American Statistical Association oversees nominations from Smith each spring.\n\n\n\n\n\nGrowth of Mu Sigma Rho inductees.\n\n\n\n\nSearch the archive to find inductees:"
-  },
-  {
     "objectID": "sds_newsletter_2018.html",
     "href": "sds_newsletter_2018.html",
     "title": "SDS Newsletter",
@@ -784,13 +959,6 @@
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the Joint Statistical Meetings in Vancouver at the end of the month. We are planning to meet up for drinks/eats at:\nCactus Club Cafe (Bentall 5 location)\n588 Burrard Street\nVancouver, BC\nhttps://www.cactusclubcafe.com/location/bentall-5/\nMonday, August 30th, 6 pm\nAt last year’s JSM Katherine and I had a great time with Dana Udwin ’14, Sara Stoudt ’15, Maura Spiegelman ’08, Stephanie Eckman ’94, Liz Stuart ’97, and Amy Hogan ’99. I also ran into Emily Dodwell ’11 at the conference. Come join us!\n\n\nSmithie reunion at #JSM2017 @SmithCollegeSDS pic.twitter.com/E3zCOZFlXs\n\n— Ben Baumer (@BaumerBen) July 31, 2017\n\n\n\n\nWomen in Statistics and Data Science Conference\nMiles, Albert, and four students will be attending the ASA Women in Statistics and Data Science Conference in Cincinnati, OH from October 18–20th. The student swill be presenting their work. Hope to see you there!"
   },
   {
-    "objectID": "ethics.html",
-    "href": "ethics.html",
-    "title": "Teaching Data Science Ethics",
-    "section": "",
-    "text": "In our paper, Integrating Data Science Ethics Into an Undergraduate Major: A Case Study (Baumer et al. 2022), we describe six ethics modules that can be incorporated into various classes. These modules are summarized in Table 1 of the paper, which is reproduced below. This table connects each module to the relevant categories as defined by Floridi and Taddeo (2016) and the taxonomy of learning defined by Bloom et al. (1956). Hyperlinks will take you to the actual teaching material.\n\n\n\nSummary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. ‘Bloom’ refers to Bloom’s taxonomy.\n\n\nSection\nTopic\nCategories\nBloom\n\n\n\n\n4.1\nOkCupid\ndata\nApplication\n\n\n4.2\nStitchFix\nalgorithms\nApplication\n\n\n4.3\nGrey’s Anatomy\npractices, data\nApplication\n\n\n4.4\nCopywriting music\npractices\nEvaluation\n\n\n4.5\nCoding race\npractices, data\nSynthesis\n\n\n4.6\nWeapons of Math Destruction\npractices, algorithms\nEvaluation"
-  },
-  {
     "objectID": "speaker_milner.html",
     "href": "speaker_milner.html",
     "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
@@ -819,34 +987,6 @@
     "text": "Date and Time: Monday October 21, 5pm\nLocation: Weinstein Auditorium, Wright Hall, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences\nSmith College Africana Studies\nSmith College Program for the Study of Women & Gender\nSmith College School of Social Work\nSmith College Lecture Committee"
   },
   {
-    "objectID": "speaker_hu.html",
-    "href": "speaker_hu.html",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Jingchen (Monika) Hu\n\n\n\n\nMonika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates.\n\n\n\nHave you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics.\n\n\n\n\nDate and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
-  },
-  {
-    "objectID": "speaker_hu.html#jingchen-monika-hu",
-    "href": "speaker_hu.html#jingchen-monika-hu",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Monika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates."
-  },
-  {
-    "objectID": "speaker_hu.html#data-privacy",
-    "href": "speaker_hu.html#data-privacy",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Have you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics."
-  },
-  {
-    "objectID": "speaker_hu.html#details",
-    "href": "speaker_hu.html#details",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Date and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
-  },
-  {
     "objectID": "sds_newsletter_2016.html",
     "href": "sds_newsletter_2016.html",
     "title": "SDS Newsletter",
@@ -873,83 +1013,6 @@
     "title": "SDS Newsletter",
     "section": "Alumnae Updates",
     "text": "Alumnae Updates\n\nMaja Miloslavjevic ’14: Maja currently works at MIT Lincoln Laboratory where she enjoys researching network analytics for big data. This fall, she’ll be pursuing an MS in CS at Tufts University and is very excited to continue her education in data science.\nDeirdre Fitzpatrick ’14: I am working at MassMutual in the Data Science Development Program out of Amherst, MA. At the same time, I am working on getting my MS in statistics at UMass Amherst, and should be finishing that up next spring.\nJingyang (Judy) Zhang ’14: I am still at Smith working for ITS as Application Systems Analyst. I have been working on projects related to pulling data from and writing data to the DB. I am currently working on Smith new website’s directory, writing web services that pull directory data into the website and display it nicely.\nLizzy Atkins ’15: I am working with Dr. Anne Comi at the Kennedy Krieger Institute / Johns Hopkins in Maryland in the neurology department. I am doing research on a rare genetic disease, Sturge-Weber syndrome. I work on data analysis every day, manuscript preparation, submissions to conferences, and clinical recruitment tasks with our patients. We are about to get stared with an FDA-approved, NIH-funded clinical drug trial that I will spearhead gulp. I very much enjoy what I am doing though I am looking forward to the next step - graduate school!\nIn my spare time, I am studying for the GRE and working as a Smith alumnae admissions coordinator for the Smith College Club of Baltimore. I get to talk about all things Smith to interested applicants - the BEST role for me!\nYadira Flores ’15: Currently, I am an application developer for Wharton Research Data Services on their data team. My work implements many of the skills I learned in classes like Data Science. My work involves coding in Python and SAS – a statistical language I was able to pick up quickly because of my experience with R and SQL – to bring on new financial data and update existing data. At the present time, our team is also working on creating visualizations for the most popular financial databases so I applying my visualizations knowledge that I learned in my Statistics classes.\nI’m learning many new technical skills such as learning about Linux, database storage, and general coding skills. I’m really enjoying my job and I know this will be a good stepping stone to my career.\nYungjen Kung ’15: I’m glad that Smith is offering more data science courses and wish I had the chance to take them! I’m still at Northwestern, working on an MS in analytics. I will be graduating December 2016 and will be interning at Nielsen this summer.\nGalen Long ’15: Galen’s currently in the MassMutual Data Science Development Program, a three-year program that combines graduate coursework with hands-on company projects. They spend their days running Python scripts with Apache Spark, learning more about statistics, and cursing at their computer.\nErika Miguel ’15: My first year out of college has been an exciting roller coaster. I started as a software developer at Goldman Sachs in July, building APIs and Java/AngularJS webapps. I put in my two weeks notice two weeks ago and on Monday will be joining a startup in Soho, where I’ll be a DevOps engineer.\nSara Stoudt ’15: I am finishing up my first year in the Statistics PhD program at UC Berkeley. Some highlights (besides surviving :D) were helping to organize Berkeley’s first DataFest and working on an interdisciplinary project as part of the Data Sciences for the 21st Century: Environment and Society program. I will be splitting my time this summer between NIST, the National Center for Atmospheric Research, and the San Francisco Estuary Institute."
-  },
-  {
-    "objectID": "patch_race_coding.html",
-    "href": "patch_race_coding.html",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Actual: upper-level domain application course focused on the psychology of intergroup relations\nGeneric: any course where students may encounter race data\n\n\n\n\n\nResponsible conduct of research\n\n\n\n\nImportant lessons to learn and revelations students might make while completing this activity:\n\nResearchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.\nA person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).\nThe choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?\nRace is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?\nAre there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?\nIf you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?\n\n\n\n\n\nSynthesis: Students construct new ways to code race\n\n\n\n\n\nGebru (2020)\nBenjamin (2019)\nMilner (2019)\nKantayya and Buolamwini (2020)\n\n\n\n\n\nany use of pre-collected racial/ethnic data\nany attempt at collecting racial/ethnic data when designing studies"
-  },
-  {
-    "objectID": "patch_race_coding.html#description-of-coursesetting",
-    "href": "patch_race_coding.html#description-of-coursesetting",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Actual: upper-level domain application course focused on the psychology of intergroup relations\nGeneric: any course where students may encounter race data"
-  },
-  {
-    "objectID": "patch_race_coding.html#nas-ethical-areas",
-    "href": "patch_race_coding.html#nas-ethical-areas",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Responsible conduct of research"
-  },
-  {
-    "objectID": "patch_race_coding.html#questionsgoals-addressed",
-    "href": "patch_race_coding.html#questionsgoals-addressed",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Important lessons to learn and revelations students might make while completing this activity:\n\nResearchers studying interracial interactions make choices about who to focus on, and, in the past, this choice has often been to focus on white participants only. An acknowledgement of white privilege and who, historically, has been asking the research questions might come out as well.\nA person’s personal racial/ethnic identity may be different from how they are perceived by another person (roommate).\nThe choice to use a person’s own racial/ethnic identity data or someone’s perception of their race depends, in part, on the research question. When is identity or perception more important for the specific research context?\nRace is not as clear of a categorical variable as we think it is. Can we think of other instances of this, for example, with gender categorization?\nAre there times when it could serve a social good to use race in our analyses and, in contrast, are there ways in which using race and ethnicity data in analyses might reify socially constructed racial categories?\nIf you decide to use race in your analyses, what might you do in smaller samples if there are very small numbers of ethnic minority groups relative to White/European-Americans? Is it ever OK to collapse racial/ethnic categories? What immediate consequences do these choices have for the interpretation of your analysis and what broader consequences might these choices have when your results are consumed by your intended audience?"
-  },
-  {
-    "objectID": "patch_race_coding.html#bloom-taxonomy",
-    "href": "patch_race_coding.html#bloom-taxonomy",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Synthesis: Students construct new ways to code race"
-  },
-  {
-    "objectID": "patch_race_coding.html#related-work-in-data-science-ethics",
-    "href": "patch_race_coding.html#related-work-in-data-science-ethics",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "Gebru (2020)\nBenjamin (2019)\nMilner (2019)\nKantayya and Buolamwini (2020)"
-  },
-  {
-    "objectID": "patch_race_coding.html#generalizability",
-    "href": "patch_race_coding.html#generalizability",
-    "title": "Ethics patches in a box",
-    "section": "",
-    "text": "any use of pre-collected racial/ethnic data\nany attempt at collecting racial/ethnic data when designing studies"
-  },
-  {
-    "objectID": "patch_race_coding.html#student-preparation-required",
-    "href": "patch_race_coding.html#student-preparation-required",
-    "title": "Ethics patches in a box",
-    "section": "Student preparation required",
-    "text": "Student preparation required\n\nSome technical knowledge of basic data cleaning is required\nbefore class, read:\n\nShook and Fazio (2008)\n\n(optional) other reference material:\n\nRace/Ethnicity in the 2020 US Census\nUS Census: Research to Improve Data on Race and Ethnicity"
-  },
-  {
-    "objectID": "patch_race_coding.html#instructions-for-students",
-    "href": "patch_race_coding.html#instructions-for-students",
-    "title": "Ethics patches in a box",
-    "section": "Instructions for students",
-    "text": "Instructions for students\nYour goal in this in-class activity is to begin a discussion about how to best code and analyze race/ethnicity data. In small groups and then as a class, you will discuss Shook and Fazio (2008). This discussion will get us thinking about the ways that racial/ethnicity data is used in psychological research. In this discussion we will also consider the ethical issues surrounding the use of race/ethnicity data in data science more generally.\n\nFirst, you will work in small groups (groups of ~4). Using the classroom boards, bullet-point your answers to the following three questions pertaining to the article:\n\nWhat did they find?\nHow did they do it?\nWhat is missing or limited?\n\nNext, we will come back together as a group to discuss your answers to these questions. Our discussion of the limitations of this research study will support our discussion about broader issues with the coding and using of race/ethnicity data.\nAfter this initial article discussion, you will work in pairs to try coding raw racial/ethnic identity data. This data comes in both in check-all-that-apply and free response formats. Your task is to create a new categorical variable in the dataset called race_clean. Next, you will discuss in small groups (~4) the choice you made while creating your clean race variable and any thoughts/feelings you had during the task (that you are comfortable sharing with your partner/group)."
-  },
-  {
-    "objectID": "patch_race_coding.html#activity-description",
-    "href": "patch_race_coding.html#activity-description",
-    "title": "Ethics patches in a box",
-    "section": "Activity description",
-    "text": "Activity description\nStudents must come to class having read Shook and Fazio (2008). The following is a suggested timeline for a 70-minute class session.\n\n(15 minutes): Break the class into four groups. Each group will discuss the following questions pertaining to the assigned article and write their bulletpointed responses on the boards. The first two questions help the students warm up and make sure that everyone understood\n\nWhat did they find?\n\nDiscuss the results resented in the article.\n\nHow did they do it?\n\nDiscuss the methods employed by the researchers.\n\nWhat is missing or limited?\n\nDiscuss the limitations of the research study. This piece is where the concerns regarding race are likely to come out.\n\n\nBonus (completed if groups finish early): Make a sketch of the dataset that was used in these analyses. What does each row represent? What variables must it have? What index variables must it have?\n\n(25 minutes): Discuss the three questions as a class. Try to move them quickly through the first two questions to leave about half the time for the third question. I would leave them in suspence with the bonus task—perhaps start the following class with this as a warm-up activity. As they raise missing pieces and limitations, write their suggestions on the board in a joint class bulletpointed list.\n\n(15 minutes): Now in pairs, have students start cleaning the messy race data provided. Their task is to code the check-all-that-apply and/or free response data into a new categorical variable called race_clean.\n(10 minutes): Back in small groups of four (two pairs), have students discuss the choices they made and feelings they had while re-coding the race/ethnicity data. These feelings reflect the hard realities that researchers must confront in their work.\n(5 minutes): Wrap up. Let students know that this is not the end of the discussion. If they are feeling like they have more questions than answers, or they are more confused about race and ethnicity in data science than when the class began, this is a good thing—it is a complex issue! You might also remind them that the coding of race and ethnicity in the US is deeply connected to a history of racial oppression. As future data scientists, they can play an active role in creating ethical guidelines for moving towards more appropriate use of race and ethnicity data. It is very important not to skip the wrap up for this activity. Set a timer such that you can touch base with them and ideally, end on a hopeful note."
-  },
-  {
-    "objectID": "patch_race_coding.html#deliverables",
-    "href": "patch_race_coding.html#deliverables",
-    "title": "Ethics patches in a box",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nA bullet-point list on the board for each group answering the three research questions.\n(optional): A detailed written description about the decisions made while coding the race and ethnicity data. This should be completed for each pair of students."
   },
   {
     "objectID": "patch_stitchfix.html",
@@ -1027,33 +1090,5 @@
     "title": "Ethics patches in a box",
     "section": "Deliverables",
     "text": "Deliverables\nA reflection piece written by students summarizing their experiences and thoughts, ideally addressing the questions and goals in the previous section."
-  },
-  {
-    "objectID": "speaker.html",
-    "href": "speaker.html",
-    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
-    "section": "",
-    "text": "Yeshimabeit Milner\n\n\n\n\nYeshimabeit Milner is the Founder & Executive Director of Data for Black Lives, an organization that mobilizes scientists around racial justice issues, bringing together data scientists, computer programmers, and racial justice activists to discuss the role that data can and should play in Black communities.\n\n\n\nThis talk serves as a call to action to reject the concentration of Big Data in the hands of a few, to challenge the structures that allow data to be wielded as a weapon of immense political influence. To abolish Big Data would mean to put data in the hands of people who need it the most.\n\n\n\n\nDate and Time: Monday October 21, 5pm\nLocation: Weinstein Auditorium, Wright Hall, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences\nSmith College Africana Studies\nSmith College Program for the Study of Women & Gender\nSmith College School of Social Work\nSmith College Lecture Committee"
-  },
-  {
-    "objectID": "speaker.html#yeshimabeit-milner",
-    "href": "speaker.html#yeshimabeit-milner",
-    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
-    "section": "",
-    "text": "Yeshimabeit Milner is the Founder & Executive Director of Data for Black Lives, an organization that mobilizes scientists around racial justice issues, bringing together data scientists, computer programmers, and racial justice activists to discuss the role that data can and should play in Black communities."
-  },
-  {
-    "objectID": "speaker.html#what-does-abolish-big-data-mean",
-    "href": "speaker.html#what-does-abolish-big-data-mean",
-    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
-    "section": "",
-    "text": "This talk serves as a call to action to reject the concentration of Big Data in the hands of a few, to challenge the structures that allow data to be wielded as a weapon of immense political influence. To abolish Big Data would mean to put data in the hands of people who need it the most."
-  },
-  {
-    "objectID": "speaker.html#details",
-    "href": "speaker.html#details",
-    "title": "Upcoming Speaker: Yeshimabeit Milner, October 21 5pm Weinstein Auditorium",
-    "section": "",
-    "text": "Date and Time: Monday October 21, 5pm\nLocation: Weinstein Auditorium, Wright Hall, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences\nSmith College Africana Studies\nSmith College Program for the Study of Women & Gender\nSmith College School of Social Work\nSmith College Lecture Committee"
   }
 ]
