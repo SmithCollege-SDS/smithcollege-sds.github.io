@@ -1,0 +1,91 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July 15, 2023"
+---
+
+This newsletter is mostly a distillation of our Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) feed. Please follow us to see more news, updates, and pictures!
+
+There is also a [Facebook group](
+https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945). **Please help us reach out to other alumnae by having them contact me!**
+
+## Program Updates
+
+### Previous Updates
+
+- [2022](sds_newsletter_2022.html)
+- [2021](sds_newsletter_2021.html)
+- [2020](sds_newsletter_2020.html)
+- [2019](sds_newsletter_2019.html)
+- [2018](sds_newsletter_2018.html)
+- [2017](sds_newsletter_2017.html)
+- [2016](sds_newsletter_2016.html)
+
+
+## Faculty Updates 
+
+- [**Randi Garcia** was promoted](https://www.smith.edu/news/2022-tenure-and-promotion) to associate professor with tenure!
+- [Fatou Sanogo](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) got a tenure-track job at Bates! We're wishing Fatou all the best in her next steps. 
+- We hired **Kaitlyn Cook** as a tenure-track assistant professor. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard T.H. Chan School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics courses and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
+- We hired **Shiya Cao** as a MassMutual assistant professor of statistical and data sciences. 
+Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). Shiya will be teaching SDS 192 and SDS 100 in her first year. 
+- We hired **Jared Joseph** as a visiting assistant professor for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
+- We'll be searching for **two** tenure-track positions this year, both of which are joint with other departments!
+    - a joint position with the Mathematical Sciences department for a mathematical statistician  
+    - a joint position with the Physics department for a computational physicist 
+  
+
+
+#### [Ben Baumer](https://beanumber.github.io/www)
+
+
+#### Shiya Cao
+
+#### Kaitlyn Cook
+
+
+#### Randi Garcia
+
+
+#### Will Hopper
+
+#### [Jared Joseph](https://jnjoseph.com/)
+
+
+#### Albert Y. Kim
+
+
+
+#### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
+
+
+
+
+#### [Scott LaCombe](www.scottlacombe.com)
+
+
+#### [Lindsay Poirier](https://lindsaypoirier.github.io/)
+
+
+
+## Alumni Updates
+
+
+## What's next? 
+
+### Joint Statistical Meetings
+
+Many of us will be at the [2023 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2023/onlineprogram/index.cfm) during the second week of August. 
+Don't miss these events featuring Smithies!
+
+
+We hope to see you **in person**!
+
+
+### StatFest
+
+[StatFest 2023](https://community.amstat.org/cmis/events/statfest/statfest-2023) will also be virtual in September.
+
+### Women in Statistics and Data Science Conference
+
+[WSDS 2023](https://ww2.amstat.org/meetings/wsds/2023/) will be in Seattle in October. 

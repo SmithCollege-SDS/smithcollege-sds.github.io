@@ -32,6 +32,8 @@ website:
             href: https://scholarworks.smith.edu/sds/
           - text: "Newsletters"
             icon: fa-newspaper
+          - text: "2023"
+            href: sds_newsletter_2023.qmd
           - text: "2022"
             href: sds_newsletter_2022.qmd
           - text: "2021"
