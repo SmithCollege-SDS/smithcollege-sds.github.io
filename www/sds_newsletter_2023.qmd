@@ -24,12 +24,9 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 ## Faculty Updates 
 
-- [**Randi Garcia** was promoted](https://www.smith.edu/news/2022-tenure-and-promotion) to associate professor with tenure!
-- [Fatou Sanogo](https://www.linkedin.com/in/fatoumata-sanogo-447085a8/) got a tenure-track job at Bates! We're wishing Fatou all the best in her next steps. 
-- We hired **Kaitlyn Cook** as a tenure-track assistant professor. [Kaitlyn](https://www.populationmedicine.org/kcook) is a biostatistician coming from the Harvard T.H. Chan School of Public Health, where she completed her doctorate and a postdoc. Her research focuses on methodological development for cluster-correlated and interval-censored data, with a particular emphasis on applications to cluster-randomized HIV (or other infectious disease) prevention studies. Kaitlyn will be teaching a range of statistics courses and may choose to join the steering committee for the new interdepartmental major in Mathematical Statistics (MST). 
-- We hired **Shiya Cao** as a MassMutual assistant professor of statistical and data sciences. 
-Shiya comes to us from WPI, where she completed her PhD in Information Technology. Her research focuses on [disability inclusion and broader social inclusion topics](https://www.shiyacao.com/). Shiya will be teaching SDS 192 and SDS 100 in her first year. 
-- We hired **Jared Joseph** as a visiting assistant professor for the next two years. [Jared](https://jnjoseph.com/) just completed his PhD in sociology at UC-Davis. His research uses computational techniques and civic data to uncover patterns of behavior that are otherwise unseen. For example, political networks of prohibition gangsters and bias hidden in the text of academic recruitment. Jared will be teaching SDS 192 an application domain course in his first year. 
+- [**Albert Kim** was promoted](https://www.smith.edu/news/2023-tenure-and-promotion) to associate professor with tenure!
+- We hired [**Casey Berger**](https://www.caseyeberger.com/) to a joint tenure-track position with the Physics department. Casey has been teaching at Smith already and her research is in applying high performance computing and machine learning methods to many-body quantum systems. She has already designed a new course, SDS 271, which she will offer in the fall as a Python-based alternative to SDS 270. Casey was just recently elected as a Member-At-Large for the Topical Group in Data Science within the American Physics Society. We're super-excited to keep her at Smith!
+- We also hired **Rebecca Kurtz-Garcia** into a joint tenure-track position with the Mathematical Sciences department. Rebecca comes to us from the University of California, Riverside, where she recently completed her Ph.D. in statistics. She is starting as a Project NExT fellow this summer, and will be teaching introductory statistics and mathematical statistics in her first year. Yay!
 - We'll be searching for **two** tenure-track positions this year, both of which are joint with other departments!
     - a joint position with the Mathematical Sciences department for a mathematical statistician  
     - a joint position with the Physics department for a computational physicist 
@@ -75,7 +72,7 @@ Shiya comes to us from WPI, where she completed her PhD in Information Technolog
 
 ### Joint Statistical Meetings
 
-Many of us will be at the [2023 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2023/onlineprogram/index.cfm) during the second week of August. 
+Many of us will be at the [2023 Joint Statistical Meetings](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.pubSearchOptions&style=0) during the second week of August. 
 Don't miss these events featuring Smithies!
 
 
