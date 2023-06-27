@@ -24,10 +24,10 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 ## Faculty Updates 
 
-- [**Albert Kim** was promoted](https://www.smith.edu/news/2023-tenure-and-promotion) to associate professor with tenure! **Ben Baumer** was also promoted to full Professor. 
+- [**Albert Kim** was promoted](https://www.smith.edu/news/faculty-2023-tenure-and-promotions) to associate professor with tenure! **Ben Baumer** was also promoted to full Professor. 
 - We hired [**Casey Berger**](https://www.caseyeberger.com/) to a joint tenure-track position with the Physics department. Casey has been teaching at Smith already and her research is in applying high performance computing and machine learning methods to many-body quantum systems. She has already designed a new course, SDS 271, which she will offer in the fall as a Python-based alternative to SDS 270. Casey was just recently elected as a Member-At-Large for the Topical Group in Data Science within the American Physics Society. We're super-excited to keep her at Smith!
-- We also hired **Rebecca Kurtz-Garcia** into a joint tenure-track position with the Mathematical Sciences department. Rebecca comes to us from the University of California, Riverside, where she recently completed her Ph.D. in statistics. She is starting as a Project NExT fellow this summer, and will be teaching introductory statistics and mathematical statistics in her first year. Yay!
-
+- We also hired **Rebecca Kurtz-Garcia** into a joint tenure-track position with the Mathematical Sciences department. Rebecca comes to us from the University of California, Riverside, where she recently completed her Ph.D. in statistics. Rebecca works in the intersection of time series analysis, econometrics, spectral analysis, and steady state simulation. She is starting as a Project NExT fellow this summer, and will be teaching introductory statistics and mathematical statistics in her first year. Yay!
+- After completing his first year, **Jared Joseph** is moving on to pursue a permanent job in the criminal investigations unit of the Internal Revenue Service. We're sad to see Jared go, but excited to see what he does next!
 
 
 #### [Ben Baumer](https://beanumber.github.io/www)
@@ -37,6 +37,8 @@ I will have an appointment as a Visiting Faculty member at the [Universidad EAFI
 Learning a new language in your forties hasn't been easy, but I took SPN 200 at Smith this spring with Prof. Adrián Gras-Velazquez and learned a lot while making some new friends. 
 
 Cuando vuelvo hablaremos español juntos!
+
+#### Casey Berger
 
 #### Shiya Cao
 
@@ -57,7 +59,7 @@ Cuando vuelvo hablaremos español juntos!
 
 #### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
 
-
+#### Rebecca Kurtz-Garcia
 
 
 #### [Scott LaCombe](www.scottlacombe.com)
