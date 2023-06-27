@@ -62,6 +62,12 @@ Cuando vuelvo hablaremos español juntos!
 
 #### [Scott LaCombe](www.scottlacombe.com)
 
+Year three at Smith was my favorite so far, and I've really enjoyed seeing all the traditions come back in full force! The past year has been full of collaborations with students, and I had my first opportunity to take Smithies with me to the Midwest Political Science Association Conference.
+
+This past Spring, I was able to start up the State Politics Lab through the Humanities and Social Science Lab program on campus. This lab focuses on tracking state legislatures across the American states to see what policy networks are forming. In particular, we are currently tracking laws around LGBT topics and are looking to collaborate with journalists and activists to get a better understanding of why some states pass restrictions and others do not. We are in the middle of data collection right now, but plan on starting to analyze the data this Fall and present our work. This research lies at the intersection of Government and Data Science, so please reach out if you are interested in joining our team this Fall. My reserach is continuing to focus on how public opinion is translated into policy across the states, and using network analysis to study how states are influenicng each other. 
+
+This upcoming year, I will be teaching *Introduction to Probability and Statistics* (SDS 220) in the Fall, as well as *The Politics of Public Policy* (GOV 207) for the Government department.  I will be on sabbatical in the Spring, but will be around campus. 
+
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
 
