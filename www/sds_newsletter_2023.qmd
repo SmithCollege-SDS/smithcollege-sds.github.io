@@ -11,6 +11,12 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 ## Program Updates
 
+- An article co-authored by five members of the department was awarded the [Jackie Dietz Award](https://www.amstat.org/your-career/awards/jackie-dietz-best-journal-of-statistics-and-data-science-education-paper-award) for the 2022 Best Paper published in the *Journal of Statistics and Data Science Education*. The paper is titled "Integrating Data Science Ethics Into an Undergraduate Major: A Case Study", and was written by **Benjamin S. Baumer**, **Randi L. Garcia**, **Albert Y. Kim**, **Katherine M. Kinnaird** & **Miles Q. Ott '01**. 
+- Our work on the [DSC-WAV](https://dsc-wav.github.io/www) project was written up in the [Grécourt Gate](https://www.smith.edu/news/new-pathways-for-students-in-data-sciences). This article features **AJ Haller '22J**
+- Students from SDS 236 (data journalism) wrote two articles that appeared on the front page (above the fold!) of the Daily Hampshire Gazette:
+    - [A higher ed game-changer?: Could MassReconnect change college education in Massachusetts? Experts say yes](https://www.gazettenet.com/Could-the-MassReconnect-Program-Change-College-Education-in-Massachusetts-51056620), by **Naylynn Tañón Reyes '23**, **Swaha Bhattacharya '23**, and **Tint Tha Ra Wun '23J**
+    - [Combating the crises: Northampton organizations eye ways to  address  mental health challenges among LGBTQ+ youth](https://www.gazettenet.com/Northampton-organizations-combat-LGBTQ--mental-health-crisis-51225706), by **Vivian Almaraz '23**, **Victoria Georgiu '23**, **Clara Li '23**
+
 ### Previous Updates
 
 - [2022](sds_newsletter_2022.html)
@@ -25,6 +31,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 ## Faculty Updates 
 
 - [**Albert Kim** was promoted](https://www.smith.edu/news/faculty-2023-tenure-and-promotions) to associate professor with tenure! **Ben Baumer** was also promoted to full Professor. 
+- **Albert Kim** is the 2023 winner of the [Waller Education Award](https://www.amstat.org/your-career/awards/waller-awards), given annually by the ASA Section on Statistics and Data Science Education! Previous winners from Smith include Ben Baumer (2019) and Nick Horton (2009). 
 - We hired [**Casey Berger**](https://www.caseyeberger.com/) to a joint tenure-track position with the Physics department. Casey has been teaching at Smith already and her research is in applying high performance computing and machine learning methods to many-body quantum systems. She has already designed a new course, SDS 271, which she will offer in the fall as a Python-based alternative to SDS 270. Casey was just recently elected as a Member-At-Large for the Topical Group in Data Science within the American Physics Society. We're super-excited to keep her at Smith!
 - We also hired **Rebecca Kurtz-Garcia** into a joint tenure-track position with the Mathematical Sciences department. Rebecca comes to us from the University of California, Riverside, where she recently completed her Ph.D. in statistics. Rebecca works in the intersection of time series analysis, econometrics, spectral analysis, and steady state simulation. She is starting as a Project NExT fellow this summer, and will be teaching introductory statistics and mathematical statistics in her first year. Yay!
 - After completing his first year, **Jared Joseph** is moving on to pursue a permanent job in the criminal investigations unit of the Internal Revenue Service. We're sad to see Jared go, but excited to see what he does next!
@@ -85,6 +92,18 @@ This upcoming year, I will be teaching *Introduction to Probability and Statisti
 Many of us will be at the [2023 Joint Statistical Meetings](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.pubSearchOptions&style=0) during the second week of August. 
 Don't miss these events featuring Smithies!
 
+- [IOL: Applications of Computational Social Science to Diverse Fields](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=1869)  
+  Stephanie Eckman '94
+- [The Future of Statistics in Education Research: Recommendations from 3 National Academies Reports](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=1723)  
+  Stephanie Eckman '94
+- [Rosenbaum & Rubin’s Propensity Score: Impact, Introspection and Discussion 40 years later](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=1646)  
+  Elizabeth Stuart '97
+- [Introducing Bayesian methods in statistics and data science curriculum](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=2582)  
+  Mine Dogucu '09
+- [Big Data with Rare Events, and Applications in Safety](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=1791)  
+  Maria Terres '09
+- [Collaborative writing workflows: building blocks towards reproducibility](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=1560)  
+  Sara Stoudt '15
 
 We hope to see you **in person**!
 
