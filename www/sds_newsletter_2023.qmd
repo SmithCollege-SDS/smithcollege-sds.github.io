@@ -11,6 +11,8 @@ https://www.facebook.com/groups/665780273559948/), a Google group, and a [Slack]
 
 ## Program Updates
 
+- Smith teams garnered [two out of three Best In awards](https://www.science.smith.edu/datafest/2023/04/10/recap-from-the-2023-asa-five-college-datafest/) at this year’s Five College DataFest held at the University of Massachusetts Amherst. The Smith teams were The Model Mavericks, who won Best in Show (**Clara Li ’23**, **Nikki Lin ’25**, **Rose Porta ’23**, **Quinn White ’23**), and the Sexy Data Scientists, who won Best in Group (**Sarah Branch ’24**, **Yaretsy Castro ’25J**, **Camila Maldonado ’24**, **Su Than Thar Nyi ’24J** and **Sonia Paredes ’23**). 
+
 - An article co-authored by five members of the department was awarded the [Jackie Dietz Award](https://www.amstat.org/your-career/awards/jackie-dietz-best-journal-of-statistics-and-data-science-education-paper-award) for the 2022 Best Paper published in the *Journal of Statistics and Data Science Education*. The paper is titled "Integrating Data Science Ethics Into an Undergraduate Major: A Case Study", and was written by **Benjamin S. Baumer**, **Randi L. Garcia**, **Albert Y. Kim**, **Katherine M. Kinnaird** & **Miles Q. Ott '01**. 
 - Our work on the [DSC-WAV](https://dsc-wav.github.io/www) project was written up in the [Grécourt Gate](https://www.smith.edu/news/new-pathways-for-students-in-data-sciences). This article features **AJ Haller '22J**
 - Students from SDS 236 (data journalism) wrote two articles that appeared on the front page (above the fold!) of the Daily Hampshire Gazette:
@@ -87,8 +89,10 @@ This upcoming year, I will be teaching *Introduction to Probability and Statisti
 
 ## Alumni Updates
 
+- **[Brittany Bennett '16](https://www.brittanybennett.com/)**: I am leading the analytics and engineering at Working Families Party as their Data Director, working to find ways to leverage data to win more elections. This role has challenged me in so many ways. I am dipping my toes into more advanced data engineering practices, DevOps, analytics engineering, the wild west of vendor politics, contract negotiations, and product development. While the time I spend coding is becoming less and less, I'm deeply enjoying my work at the intersection of data and electoral politics. Otherwise, I'm enjoying plenty of time in the kitchen as a hobbyist home-chef and have added many new recipes to my cooking Instagram. Pittsburgh is still home for now, though I have my eyes on Chicago or Philly.  
 - **Liz Stuart 97** (math major): I've been [named Chair of the Biostatistics Department at Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/2023/elizabeth-stuart-named-biostatistics-department-chair).  She would love to welcome more Smith alums to the field and Department!  She also is succeeding former Smith faculty member Nick Horton as co-chair of the National Academies’ Committee on Applied and Theoretical Statistics.
 - **Dana Udwin '14**: I'm happy to report that I defended my dissertation in biostatistics and joined the JHU Applied Physics Laboratory as a senior data scientist.
+- **Maggie Wang '20**: I start my PhD in political methodology at UChi this fall. Shout out to Ben and Scott for their help during the application process!
 
 
 ## What's next? 
