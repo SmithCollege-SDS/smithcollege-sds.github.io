@@ -67,6 +67,17 @@ As much as I enjoyed my time with family, I am excited to get back to teaching a
 
 #### Albert Y. Kim
 
+2022-2023 was a big academic year for me, both on personal and professional fronts. 
+First, my spouse and I survived our first year of raising our beautiful daughter Gigi. Nothing describes 
+the experience better that the old adage about parenting: "The days are long, but the years are short." Second, I got tenure and hence promoted to Associate Professor. 
+It's been a long time since I first started teaching at Reed College in 2013, but the 
+journey has been a rewarding one. In particular, I got two papers published that I'm very proud of:
+
+1. In Methods in Ecology and Evolution: Kim et al. (2022) ["Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection"](https://doi.org/10.1111/2041-210X.13982)
+1. In Nature: Dow et al. (2022) ["Warm springs alter timing but not total growth of temperate deciduous trees"](https://doi.org/10.1038/s41586-022-05092-3)
+
+This coming year, I will be teaching SDS 390 Ecological Forecasting and SDS 410 Capstone in the fall and SDS 220 Intro Stats in the spring. 
+
 
 
 #### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
