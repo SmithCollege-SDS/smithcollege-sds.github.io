@@ -51,6 +51,12 @@ Cuando vuelvo hablaremos español juntos!
 
 #### Shiya Cao
 
+Year one at Smith was good, and I enjoyed research, teaching, and importantly, a supportive environment in SDS and Smith. In Fall 2022, I created the [Disability Inclusion Analytics Lab (DIAL)](https://scao53.github.io/) to advance my research in disability inclusion and broader social inclusion topics. I had the pleasure to work with six Smithies **Linh Pham ’25**, **Zhirou Liu ’25**, **Christy Yang ’25**, **Vicky Xu ’26**, **Nikki Lin ’25**, and **Amber Liu ’24** in my lab this year. A paper on Examining Environmental Barriers for Disabled Employees in Different Industries and Work Spaces I wrote with **Christy Yang ’25** and **Vicky Xu ’26** was accepted by *WSDS 2023*. This summer four SURF students (**Christy Yang ’25**, **Vicky Xu ’26**, **Nikki Lin ’25**, and **Amber Liu ’24**) joined my lab and worked on two research projects: (1) Integrating Disability Inclusion Components into Introductory Data Science Pedagogy and (2) Examining the Intersection of Disability, Race, and Gender in Shaping the Employment Outcomes of Higher Educated Individuals. I also advised **Vicky Xu ’26** on a poster presentation she gave at the *2022 NextGen Data Science Day Conference*. In addition, my coauthored book chapter titled "The Chains that Bind: Gender, Disability, Race, and IT Accommodations" was [published](https://www.elgaronline.com/edcollchap/book/9781800377929/book-part-9781800377929-21.xml). I also gave a research talk at the *UMASS Amherst Statistics and Data Science Seminar Series* in Spring 2023. Moreover, I went to my first SDSS, attended some interesting talks, and met people who share similar research interests. This upcoming year I will continue working on publishing my dissertation papers, writing up papers from the lab projects, and explore some new research streams related to disability inclusion, statistics, and accessibility. 
+
+This fall, I will continue to teach SDS 192 Introduction to Data Science (taught 2 semesters this past year. Love it!) and develop and teach a research seminar course: SDS 300 Disability Inclusion and Data Analytics (so excited!). In the spring, I will also teach SDS 410 Capstone (looking forward!). 
+
+I am also very proud of our book club this year! We read six books: Stoner, The Memory Police, Seven Empty Houses, The Seven Moons of Maali Almeida, Tomorrow, and Tomorrow, and Tomorrow, Lessons in Chemistry. We are currently reading The Personal Librarian. Looking forward to reading more books with my peers!
+
 #### Kaitlyn Cook
 
 
