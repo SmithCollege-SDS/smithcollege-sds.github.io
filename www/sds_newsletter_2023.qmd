@@ -89,6 +89,12 @@ This coming year, I will be teaching SDS 390 Ecological Forecasting and SDS 410 
 
 #### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
 
+This year was great between teaching two flavors of Machine Learning, SDS 293: __Modeling for ML__ and CSC 294: __Computational ML,__ before heading off to London for my sabbatical at King's College London working with Prof. [Elaine Chew](https://www.kcl.ac.uk/people/elaine-chew) and her [COSMOS team](https://cosmos.isd.kcl.ac.uk/). It was such a great experience to work with Prof. Chew and her group, and I'm excited to bring back new collaborations and projects for Smithies to work on! 
+
+The big news out of my TInKER Lab is that our first big project was published in the Journal of Open Source Software (JOSS): [**`repytah`: An Open-Source Python Package for Building Aligned Hierarchies for Sequential Data**](https://joss.theoj.org/papers/10.21105/joss.05213). This is joint work with 12 Smithies: **Chenhui Jia**, **Lizette Carpenter**, **Thu Tran**, **Amanda Y. Liu**, **Sasha Yeutseyeva**, **Marium Tapal**, Yingke Wang, **Zoie Kexin Zhao**, **Jordan Moody**, **Denise Nava**, **Eleanor Donaher**, **Lillian Yushu Jiang**, and **Ben Bruncati**. 
+
+This coming fall, I'm looking forward to seeing everyone back on campus and teaching the new CSC 110. 
+
 #### Rebecca Kurtz-Garcia
 
 
