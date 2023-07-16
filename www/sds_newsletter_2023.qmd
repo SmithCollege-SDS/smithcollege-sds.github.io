@@ -64,6 +64,7 @@ I am also very proud of our book club this year! We read six books: Stoner, The 
 Year one is officially in the books! I had a wonderful time getting to know and work alongside the students, staff, and faculty in the SDS program---thank you for such a warm welcome to Northampton and to Smith. 
 
 Some personal highlights from this past year include:
+
 1. Teaching *Introduction to Probability and Statistics* (SDS 220), *Probability* (MTH 246) and *Mathematical Statistics* (MTH/SDS 320), all for the first time, and adapting the latter two courses to include a strong focus on simulation in R.
 2. Temporarily buying Amazon out of loaded die. (It was for a good statistical cause!)
 3. Publishing an article on [marginal proportional hazards models for clustered interval-censored data](https://doi.org/10.1111/biom.13787) in *Biometrics*, continuing existing collaborations with sleep medicine and COVID-19 researchers in Boston, and building new connections and collaborations with the Five College statistics community and other researchers here at Smith.  
