@@ -12,7 +12,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 ## Program Updates
 
 - No DataFest this year. But we got a beautiful new trophy case: pics 
-- **Randi Garcia** begun her term as Chair of SDS while Ben took a yearlong sabbatical in Columbia. See more in their updates below. 
+- **Randi Garcia** begun her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below. 
 
 ### Previous Updates
 
@@ -33,8 +33,18 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 - We hired **Kementari Whitcher**, **Yujie Wang**, and **Ab Mosca** who began their positions on July 1. 
 - After completing her first year, **Casey Berger** is moving on to pursue a tenure-track job in the Physics Department at Bates College. We're sad to see Casey go, but excited to see what she does next!
 
-#### [Ben Baumer](https://beanumber.github.io/www)
+#### [Ben Baumer](https://beanumber.github.io/)
 
+Hola, buenas días!
+
+I'm glad to be back in Northampton after spending my full-year sabbatical in Medellín, Colombia!
+It was an amazing experience from which we all learned a great deal. 
+My wife and I took many Spanish classes at [Universidad EAFIT](https://www.eafit.edu.co/), which is a lovely place to study. 
+We advanced to B2 level Spanish in the [CEFR framework](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages). 
+I suppose it's bittersweet to report that our daughters are both: 1) much better Spanish-speakers than we are; and 2) so much better that they are horrified by our attempts to speak Spanish! 
+
+While on sabbatical I was able to complete the [3rd edition of *Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/), and I struck up a new collaboration with a statistician that I met at EAFIT. 
+We're working on [an R package](https://github.com/beanumber/tidychangepoint/) and [a paper](https://beanumber.github.io/changepoint-paper/) for changepoint detection algorithms. 
 
 
 #### Shiya Cao
