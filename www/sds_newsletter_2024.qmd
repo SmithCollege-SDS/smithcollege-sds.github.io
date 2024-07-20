@@ -75,6 +75,11 @@ We're working on [an R package](https://github.com/beanumber/tidychangepoint/) a
 
 #### [Scott LaCombe](www.scottlacombe.com)
 
+The last year has been one of many big and exciting changes! Last August, I got married and we went on our honeymoon to Curacao over winter break. I was on sabbatical in the Spring Semester, and we bought a house in Holyoke. I am looking forward to hitting the ground running this Fall and I'm excited to be back.
+
+My sabbatical was spent wrapping up some existing research projects, and also planning out the next few years of my work with students. [My State Politics Lab](https://www.smith.edu/academics/our-approach-learning/humanities#state-politics-lab-8) has done a tremendous amount of working helping me build a comprehensive database of LGBTQ policies in the American States, and I took a team of Smithies to Chicago for the Midwest Political Science Association Conference to present our work in April. We are continuing our work this Fall by using text analysis to track the influence of interest groups in states passing Gender Affirming Care Bans and Conversion Therapy Bans. 
+
+This upcoming year, I will be teaching my *Research Seminar in Political Networks* (SDS/GOV 338) in the Fall, and plan on teaching *Research Design and Analysis* (SDS 290) and *Introduction to American Politics* (GOV 200) in the Spring. 
 
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
