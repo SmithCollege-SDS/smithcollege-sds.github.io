@@ -30,7 +30,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 
 - [**Katie Kinnaird** was promoted](https://www.smith.edu/news-events/news/faculty-approved-tenure-promotion) to associate professor with tenure! 
 - Alums **Clara Rosenberg '20** and **Robin Livingston '20** temporarily joined our faculty last August and taught SDS 100 in the Fall and Spring this year. Thank you, Clara and Robin! 
-- We hired **Kementari Whitcher**, **Yujie Wang**, and **Ab Mosca** who began their positions on July 1. 
+- We hired **Kementari Whitcher**, **Yujie Wang**, and **Ab Mosca '14** who began their positions on July 1. 
 - After completing her first year, **Casey Berger** is moving on to pursue a tenure-track job in the Physics Department at Bates College. We're sad to see Casey go, but excited to see what she does next!
 
 #### [Ben Baumer](https://beanumber.github.io/)
@@ -93,7 +93,7 @@ This past year I was excited to develop and teach a new statistics depth course 
 #### Rebecca Kurtz-Garcia
 
 
-#### [Scott LaCombe](www.scottlacombe.com)
+#### [Scott LaCombe](https://www.scottlacombe.com)
 
 The last year has been one of many big and exciting changes! Last August, I got married and we went on our honeymoon to Curacao over winter break. I was on sabbatical in the Spring Semester, and we bought a house in Holyoke. I am looking forward to hitting the ground running this Fall and I'm excited to be back.
 
@@ -114,7 +114,7 @@ This coming year, I'm looking forward to continuing my research examining the cu
 #### Yujie Wang
 
 
-#### Ab Mosca
+#### Ab Mosca '14
 
 
 ## Alumni Updates
@@ -130,9 +130,33 @@ This coming year, I'm looking forward to continuing my research examining the cu
 Many of us will be at the [2024 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2024/index.cfm) during the first week of August. 
 Don't miss these events featuring Smithies!
 
-- Add talks by Smithies HERE
+- [IOL: Quantum Computing for Statisticians](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1725)  
+  Elizabeth Stuart '97 (organizer)
+- [Synthetic Data in Preserving Privacy: Connections Across Federal Statistics and Health Data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1179)
+  Elizabeth Stuart '97 (organizer)
+- [Advancing Bayesian Thinking in STEM Education](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1952)  
+  Mine Dogucu '09 (discussant)
+- [Connecting the Dots in Data Science Education: Learning From Different Teaching Contexts](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=2166)  
+  Mine Dogucu '09 (organizer)
+- [Artificial Intelligence (AI) and Machine Learning (ML) in Business and Industry](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1373)  
+  Maria Terres '09 (panelist)
+- [Data Science Ethics: Bridging Teaching and Practice](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1242)
+    - [A Multimodal Approach to Integrating Ethics into an Undergraduate Data Science Curriculum](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1244)  
+      Randi Garcia
+    - [Data Ethnography: Cultivating Reflexive Sensibilities through the Cultural Analysis of Datasets](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1247)  
+      Lindsay Poirier
+- [Statistical Analyses and Applications for Studying Intersectionality and Disability Inclusion](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1593)  
+      Kaitlyn Cook (chair)  
+      Shiya Cao (organizer)
+    - [Model interpretation after using random projections: An applied study on travel disability data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1597)  
+      Shiya Cao
+- [Innovative Adaptive Statistical Models for Time Series Data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1792)  
+  Rebecca Kurtz-Garcia (chair)
+- [Bandwidth Selection for Zero Lugsail Estimators](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=2442)  
+  Rebecca Kurtz-Garcia
+  
 
-We hope to see you **in person**!
+We hope to see you there!
 
 
 ### StatFest
