@@ -11,7 +11,10 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 
 ## Program Updates
 
-- No DataFest this year. But we got a beautiful new trophy case: pics 
+- No DataFest this year. But we got a beautiful new trophy case: 
+
+![trophy_case](gfx/trophy_case.png)
+
 - **Randi Garcia** begun her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below. 
 
 ### Previous Updates
