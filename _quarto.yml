@@ -25,11 +25,11 @@ website:
       - text: Research
         icon: journals
         menu:
-          - text: "ScholarWorks"
-            icon: book
-            href: https://scholarworks.smith.edu/sds/
           - icon: collection
             href: research.qmd
+          - text: "Smith ScholarWorks"
+            icon: book
+            href: https://scholarworks.smith.edu/sds/
           - icon: mortarboard
             href: theses.qmd
       - text: "Writing"
