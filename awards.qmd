@@ -1,15 +1,17 @@
 ---
-title: 'Awards Archive'
+title: 'Honors & Prizes'
 ---
 
-# Prizes
+## Prizes
 
-## Statistical & Data Sciences Research Prize
+### Statistical & Data Sciences Research Prize
 
-The program awards an annual prize to a student majoring in SDS who performed outstanding research during her time at Smith. The faculty meets every spring to review the research projects they have supervised and select the prize recipient, who is then notified at the annual Awards Ceremony the day before Commencement.
+The program awards an annual prize to a student majoring in SDS who performed outstanding research during her time at Smith. 
+The faculty meets every spring to review the research projects they have supervised and select the prize recipient, who is then notified at the annual Awards Ceremony the day before [Commencement](https://www.smith.edu/news-events/events/commencement).
 
-### Awardees
+#### Awardees
 
+- 2024: 
 - 2023: Quinn White '23
 - 2022: Natalia Iannucci '22
 - 2021: Audrey Bertin '21
@@ -18,7 +20,7 @@ The program awards an annual prize to a student majoring in SDS who performed ou
 - 2018: Wencong (Priscilla) Li '18
 - 2017: Weijia (Vega) Zhang '17
 
-## Five College Statistics Prize
+### Five College Statistics Prize
 
 The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is awarded to one student at each of the Five Colleges, at their discretion. The award may be presented to a student satisfying any one of the following criteria (based on faculty vote from that institution):
 
@@ -27,8 +29,9 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 - outstanding use of Five College statistics resources
 - outstanding non-senior pursuing further study in statistics
 
-### Awardees
+#### Awardees
 
+- 2024: 
 - 2023: Aushanae Haller '23J, Clara Li '23 <cite>(outstanding service to statistics)</cite>
 - 2022: Sarah Gillespie '22J, Joyce Huang '22, Arris Moise '22, Chichi Wu '22 <cite>(outstanding service to statistics)</cite>
 - 2021: Yujia (Starry) Zhou '21J and Hannah Snell '21 <cite>(outstanding service to statistics)</cite>
@@ -40,7 +43,7 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 - 2015: Weijia (Vega) Zhang '18 <cite>(outstanding non-senior)</cite>
 
 	
-# Departmental Honors
+## Departmental Honors
 
 - 2023
     - Quinn White '23, Highest Honors  
@@ -78,9 +81,9 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
     Adviser: Ben Baumer
 
 	
-# Competitions
+## Competitions
 
-## [ASA Five College DataFest](http://www.science.smith.edu/datafest/)
+### [ASA Five College DataFest](http://www.science.smith.edu/datafest/)
 
 DataFest is a national undergraduate data analysis competition hosted at UMass each spring, in which students work in teams of up to five to extract insights from a complex, challenging data set over a weekend. 
 
@@ -124,7 +127,7 @@ Recent winners from Smith include:
   	  Deirdre Fitzpatrick '14, Michele Handy '15, Maja Milosavljevic '14, Sara Stoudt '15, and Dana Udwin '14
 
 
-## [Undergraduate Statistics Project Competition](https://www.causeweb.org/usproc/USCLAP%20Competition) (USCLAP)
+### [Undergraduate Statistics Project Competition](https://www.causeweb.org/usproc/USCLAP%20Competition) (USCLAP)
 
 The class project competition is for undergraduate students who conduct projects as part of an introductory or intermediate level statistics course. Most projects submitted to the USCLAP competition involve analyzing real data using existing statistical techniques. Students may choose any topic on which to conduct a study and students may use existing data or collect their own.
 
@@ -177,7 +180,7 @@ Recent winners from Smith include:
     <cite>WeathR: Twitter perspectives on the weather</cite>  
     Faculty sponsor: Ben Baumer
 
-## [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
+### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
 
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
 

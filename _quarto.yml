@@ -13,12 +13,11 @@ website:
       - text: "Awards"
         icon: award
         menu:
-          - text: Honors & Prizes
-            href: awards.html
+          - href: awards.qmd
           - text: "Mu Sigma Rho"
             href: mu_sigma_rho.qmd
       - text: "Help"
-        icon: fa-question-circle
+        icon: question-circle
         href: rmarkdown_problems.html
       - text: "Writing"
         icon: pencil

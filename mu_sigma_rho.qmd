@@ -7,7 +7,7 @@ execute:
   echo: false
 ---
 
-[Mu Sigma Rho](http://www.stat.purdue.edu/~mccabe/msr/) is the national statistics honor society, and the [Boston Chapter of the American Statistical Association](https://community.amstat.org/bostonchapter/home) oversees [nominations](http://www.colby.edu/musigmarho/) from Smith each spring.
+[Mu Sigma Rho](http://www.stat.purdue.edu/~mccabe/msr/) is the national statistics honor society, and the [Boston Chapter of the American Statistical Association](https://community.amstat.org/bostonchapter/home) oversees [nominations](https://community.amstat.org/bostonchapter/awards/new-page) from Smith each spring.
 
 
 ```{r, include=FALSE}
