@@ -19,12 +19,19 @@ website:
       - text: "Help"
         icon: question-circle
         href: rmarkdown_problems.html
+      - text: Research
+        icon: journals
+        menu:
+          - text: "ScholarWorks"
+            icon: book
+            href: https://scholarworks.smith.edu/sds/
+          - icon: collection
+            href: research.qmd
+          - icon: mortarboard
+            href: theses.qmd
       - text: "Writing"
         icon: pencil
         menu:
-          - text: "Publications"
-            icon: journals
-            href: https://scholarworks.smith.edu/sds/
           - text: "Newsletters"
             icon: newspaper
           - text: "2024"
