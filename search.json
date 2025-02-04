@@ -154,32 +154,67 @@
     "text": "Details\n\nDate and Time:Tuesday March 3, 12:10pm\nLocation: Sabin-Reed, 301, Smith College\nOpen to Students\n\n\nSponsors\n\nSmith College Statistical and Data Sciences"
   },
   {
-    "objectID": "speaker_hu.html",
-    "href": "speaker_hu.html",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "objectID": "sds_r_packages.html",
+    "href": "sds_r_packages.html",
+    "title": "R Packages for SDS",
     "section": "",
-    "text": "Jingchen (Monika) Hu\n\n\n\n\nMonika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates.\n\n\n\nHave you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics.\n\n\n\n\nDate and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+    "text": "library(knitr)\nopts_chunk$set(eval = FALSE)"
   },
   {
-    "objectID": "speaker_hu.html#jingchen-monika-hu",
-    "href": "speaker_hu.html#jingchen-monika-hu",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Monika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates."
+    "objectID": "sds_r_packages.html#check-existing-library-paths",
+    "href": "sds_r_packages.html#check-existing-library-paths",
+    "title": "R Packages for SDS",
+    "section": "Check existing library paths",
+    "text": "Check existing library paths\n\nlibs &lt;- .libPaths()\nlibs\n\n\nNote: admin installs into /usr/local/lib/R/site-library\n\n\nsys.lib &lt;- \"/usr/local/lib/R/site-library\""
   },
   {
-    "objectID": "speaker_hu.html#data-privacy",
-    "href": "speaker_hu.html#data-privacy",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
-    "section": "",
-    "text": "Have you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics."
+    "objectID": "sds_r_packages.html#currently-installed-packages",
+    "href": "sds_r_packages.html#currently-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Currently installed packages",
+    "text": "Currently installed packages\n\npkgs &lt;- as.data.frame(installed.packages(sys.lib))\npkgs.here &lt;- as.character(pkgs$Package)\n# these are the packages that are installed in the system library\npkgs.here"
   },
   {
-    "objectID": "speaker_hu.html#details",
-    "href": "speaker_hu.html#details",
-    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "objectID": "sds_r_packages.html#update-currently-installed-packages",
+    "href": "sds_r_packages.html#update-currently-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Update currently installed packages",
+    "text": "Update currently installed packages\n\n# run this first -- should always be safe\nupdate.packages(lib.loc = sys.lib)"
+  },
+  {
+    "objectID": "sds_r_packages.html#sds-packages-requested",
+    "href": "sds_r_packages.html#sds-packages-requested",
+    "title": "R Packages for SDS",
+    "section": "SDS packages requested",
+    "text": "SDS packages requested\nThese packages should be installed in the system library for all users. Please update these every semester\n\npkgs.desired &lt;- c(\"mosaic\", \"dplyr\", \"rmarkdown\", \"knitr\", \"markdown\", \"formatR\"\n                  , \"rstudio\", \"ggplot2\", \"tidyr\", \"stringr\", \"agricolae\", \"leaps\"\n                  , \"Lahman\", \"twitteR\", \"latticeExtra\", \"RSQLite\"\n                  , \"igraph\", \"Stat2Data\", \"lme4\", \"sp\", \"maptools\", \"rpart\"\n                  , \"manipulate\", \"BiocInstaller\", \"mosaicData\", \"RcolorBrewer\"\n                  , \"nycflights13\", \"devtools\", \"googlesheets\", \"readr\"\n                  , \"mdsr\", \"etl\", \"macleish\", \"lubridate\", \"openintro\"\n                  , \"tm\", \"jsonlite\", \"ggmap\", \"ggvis\", \"Rcpp\", \"plotly\"\n                  , \"tigris\", \"rvest\", \"MASS\", \"XML\", \"leaflet\"\n                  , \"readxl\", \"rmarkdown\", \"DBI\", \"ISLR\", \"broom\")"
+  },
+  {
+    "objectID": "sds_r_packages.html#install-missing-requested-packages",
+    "href": "sds_r_packages.html#install-missing-requested-packages",
+    "title": "R Packages for SDS",
+    "section": "Install missing requested packages",
+    "text": "Install missing requested packages\n\n# run this -- should always be safe but may take a while\ninstall.packages(setdiff(pkgs.desired, pkgs.here), lib = sys.lib)"
+  },
+  {
+    "objectID": "sds_r_packages.html#non-standard-installs",
+    "href": "sds_r_packages.html#non-standard-installs",
+    "title": "R Packages for SDS",
+    "section": "Non-standard installs",
+    "text": "Non-standard installs\nThese packages may have external dependencies that require some finagling.\n\npkgs.tricky &lt;- c(\"RMySQL\", \"RPostgreSQL\", \"rgdal\", \"rgeos\")\ninstall.packages(setdiff(pkgs.tricky, pkgs.here), lib = sys.lib)\n\nThese packages are not on CRAN and must be installed from GtiHub.\n\npkgs.github &lt;- c(\"andrewpbray/oilabs\", \"rstudio/sparklyr\", \"omegahat/Sxslt\")\nlapply(pkgs.github, FUN = \"devtools::install_github\")"
+  },
+  {
+    "objectID": "sds_r_packages.html#find-multiply-installed-packages",
+    "href": "sds_r_packages.html#find-multiply-installed-packages",
+    "title": "R Packages for SDS",
+    "section": "Find multiply installed packages",
+    "text": "Find multiply installed packages\nNote that packages can be installed in multiple libraries!\n\nlibrary(dplyr)\nas.data.frame(installed.packages()) %&gt;%\n  group_by(Package) %&gt;%\n  summarise(N = n(), where = paste(LibPath, collapse = \", \")) %&gt;%\n  filter(N &gt; 1) %&gt;%\n  print.data.frame()"
+  },
+  {
+    "objectID": "mu_sigma_rho.html",
+    "href": "mu_sigma_rho.html",
+    "title": "Mu Sigma Rho",
     "section": "",
-    "text": "Date and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
+    "text": "Mu Sigma Rho is the national statistics honor society, and the Boston Chapter of the American Statistical Association oversees nominations from Smith each spring.\n\n\n\n\n\nGrowth of Mu Sigma Rho inductees.\n\n\n\n\nSearch the archive to find inductees:"
   },
   {
     "objectID": "speaker_milner.html",
@@ -861,67 +896,60 @@
     "text": "What’s next?\n\nJoint Statistical Meetings\nMany of us will be at the 2024 Joint Statistical Meetings during the first week of August. Don’t miss these events featuring Smithies!\n\nIOL: Quantum Computing for Statisticians\nElizabeth Stuart ’97 (organizer)\nSynthetic Data in Preserving Privacy: Connections Across Federal Statistics and Health Data Elizabeth Stuart ’97 (organizer)\nAdvancing Bayesian Thinking in STEM Education\nMine Dogucu ’09 (discussant)\nConnecting the Dots in Data Science Education: Learning From Different Teaching Contexts\nMine Dogucu ’09 (organizer)\nArtificial Intelligence (AI) and Machine Learning (ML) in Business and Industry\nMaria Terres ’09 (panelist)\nData Science Ethics: Bridging Teaching and Practice\n\nA Multimodal Approach to Integrating Ethics into an Undergraduate Data Science Curriculum\nRandi Garcia\nData Ethnography: Cultivating Reflexive Sensibilities through the Cultural Analysis of Datasets\nLindsay Poirier\n\nStatistical Analyses and Applications for Studying Intersectionality and Disability Inclusion\nKaitlyn Cook (chair)\nShiya Cao (organizer)\n\nModel interpretation after using random projections: An applied study on travel disability data\nShiya Cao\n\nInnovative Adaptive Statistical Models for Time Series Data\nRebecca Kurtz-Garcia (chair)\nBandwidth Selection for Zero Lugsail Estimators\nRebecca Kurtz-Garcia\n\nWe hope to see you there!\n\n\nStatFest\nStatFest 2024 will be at Columbia University in New York City in September.\n\n\nWomen in Statistics and Data Science Conference\nWSDS 2024 will be in Reston, Virginia in October."
   },
   {
-    "objectID": "mu_sigma_rho.html",
-    "href": "mu_sigma_rho.html",
-    "title": "Mu Sigma Rho",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Faculty Research Profiles",
     "section": "",
-    "text": "Mu Sigma Rho is the national statistics honor society, and the Boston Chapter of the American Statistical Association oversees nominations from Smith each spring.\n\n\n\n\n\nGrowth of Mu Sigma Rho inductees.\n\n\n\n\nSearch the archive to find inductees:"
+    "text": "Please see our latest updates."
   },
   {
-    "objectID": "sds_r_packages.html",
-    "href": "sds_r_packages.html",
-    "title": "R Packages for SDS",
+    "objectID": "speaker_hu.html",
+    "href": "speaker_hu.html",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
     "section": "",
-    "text": "library(knitr)\nopts_chunk$set(eval = FALSE)"
+    "text": "Jingchen (Monika) Hu\n\n\n\n\nMonika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates.\n\n\n\nHave you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics.\n\n\n\n\nDate and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
   },
   {
-    "objectID": "sds_r_packages.html#check-existing-library-paths",
-    "href": "sds_r_packages.html#check-existing-library-paths",
-    "title": "R Packages for SDS",
-    "section": "Check existing library paths",
-    "text": "Check existing library paths\n\nlibs &lt;- .libPaths()\nlibs\n\n\nNote: admin installs into /usr/local/lib/R/site-library\n\n\nsys.lib &lt;- \"/usr/local/lib/R/site-library\""
+    "objectID": "speaker_hu.html#jingchen-monika-hu",
+    "href": "speaker_hu.html#jingchen-monika-hu",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Monika Hu is an Assistant Professor of Mathematics and Statistics at Vassar College. Her research focuses on dealing with data privacy issues by releasing synthetic data. She teaches statistics and data science courses at all levels, and has a strong teaching interest of Bayesian statistics for the undergraduates."
   },
   {
-    "objectID": "sds_r_packages.html#currently-installed-packages",
-    "href": "sds_r_packages.html#currently-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Currently installed packages",
-    "text": "Currently installed packages\n\npkgs &lt;- as.data.frame(installed.packages(sys.lib))\npkgs.here &lt;- as.character(pkgs$Package)\n# these are the packages that are installed in the system library\npkgs.here"
+    "objectID": "speaker_hu.html#data-privacy",
+    "href": "speaker_hu.html#data-privacy",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Have you ever filled out surveys and worried about your submitted personal information not being protected? Such worries are sensible and legitimate, as researchers have demonstrated great risks associated with personal-level data released to the public. In this talk, Dr. Hu will introduce synthetic data, an approach to data dissemination which provides good data utility and sufficient privacy protection. In particular, Dr. Hu will present a novel risk-efficient synthesis model, that factors a record’s disclosure risk into the Bayesian data synthesis for privacy protection. Dr. Hu will demonstrate the method with an application to the Consumer Expenditure Surveys of the U.S. Bureau of Labor Statistics."
   },
   {
-    "objectID": "sds_r_packages.html#update-currently-installed-packages",
-    "href": "sds_r_packages.html#update-currently-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Update currently installed packages",
-    "text": "Update currently installed packages\n\n# run this first -- should always be safe\nupdate.packages(lib.loc = sys.lib)"
+    "objectID": "speaker_hu.html#details",
+    "href": "speaker_hu.html#details",
+    "title": "Upcoming Speaker: Jingchen (Monika) Hu, Feb 27 5pm McConnell Hall 103",
+    "section": "",
+    "text": "Date and Time:Thursday Feb 27, 5pm\nLocation: McConnell Hall, 103, Smith College\nOpen to the Public\n\n\n\n\nSmith College Statistical and Data Sciences"
   },
   {
-    "objectID": "sds_r_packages.html#sds-packages-requested",
-    "href": "sds_r_packages.html#sds-packages-requested",
-    "title": "R Packages for SDS",
-    "section": "SDS packages requested",
-    "text": "SDS packages requested\nThese packages should be installed in the system library for all users. Please update these every semester\n\npkgs.desired &lt;- c(\"mosaic\", \"dplyr\", \"rmarkdown\", \"knitr\", \"markdown\", \"formatR\"\n                  , \"rstudio\", \"ggplot2\", \"tidyr\", \"stringr\", \"agricolae\", \"leaps\"\n                  , \"Lahman\", \"twitteR\", \"latticeExtra\", \"RSQLite\"\n                  , \"igraph\", \"Stat2Data\", \"lme4\", \"sp\", \"maptools\", \"rpart\"\n                  , \"manipulate\", \"BiocInstaller\", \"mosaicData\", \"RcolorBrewer\"\n                  , \"nycflights13\", \"devtools\", \"googlesheets\", \"readr\"\n                  , \"mdsr\", \"etl\", \"macleish\", \"lubridate\", \"openintro\"\n                  , \"tm\", \"jsonlite\", \"ggmap\", \"ggvis\", \"Rcpp\", \"plotly\"\n                  , \"tigris\", \"rvest\", \"MASS\", \"XML\", \"leaflet\"\n                  , \"readxl\", \"rmarkdown\", \"DBI\", \"ISLR\", \"broom\")"
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "SDS Theses FAQ",
+    "section": "",
+    "text": "Am I eligible for Departmental Honors in SDS?\n\nPlease see the College’s policies on departmental honors theses.\n\nWhat characterizes an SDS theses?"
   },
   {
-    "objectID": "sds_r_packages.html#install-missing-requested-packages",
-    "href": "sds_r_packages.html#install-missing-requested-packages",
-    "title": "R Packages for SDS",
-    "section": "Install missing requested packages",
-    "text": "Install missing requested packages\n\n# run this -- should always be safe but may take a while\ninstall.packages(setdiff(pkgs.desired, pkgs.here), lib = sys.lib)"
+    "objectID": "theses.html#frequently-asked-questions",
+    "href": "theses.html#frequently-asked-questions",
+    "title": "SDS Theses FAQ",
+    "section": "",
+    "text": "Am I eligible for Departmental Honors in SDS?\n\nPlease see the College’s policies on departmental honors theses.\n\nWhat characterizes an SDS theses?"
   },
   {
-    "objectID": "sds_r_packages.html#non-standard-installs",
-    "href": "sds_r_packages.html#non-standard-installs",
-    "title": "R Packages for SDS",
-    "section": "Non-standard installs",
-    "text": "Non-standard installs\nThese packages may have external dependencies that require some finagling.\n\npkgs.tricky &lt;- c(\"RMySQL\", \"RPostgreSQL\", \"rgdal\", \"rgeos\")\ninstall.packages(setdiff(pkgs.tricky, pkgs.here), lib = sys.lib)\n\nThese packages are not on CRAN and must be installed from GtiHub.\n\npkgs.github &lt;- c(\"andrewpbray/oilabs\", \"rstudio/sparklyr\", \"omegahat/Sxslt\")\nlapply(pkgs.github, FUN = \"devtools::install_github\")"
-  },
-  {
-    "objectID": "sds_r_packages.html#find-multiply-installed-packages",
-    "href": "sds_r_packages.html#find-multiply-installed-packages",
-    "title": "R Packages for SDS",
-    "section": "Find multiply installed packages",
-    "text": "Find multiply installed packages\nNote that packages can be installed in multiple libraries!\n\nlibrary(dplyr)\nas.data.frame(installed.packages()) %&gt;%\n  group_by(Package) %&gt;%\n  summarise(N = n(), where = paste(LibPath, collapse = \", \")) %&gt;%\n  filter(N &gt; 1) %&gt;%\n  print.data.frame()"
+    "objectID": "theses.html#archive-of-previous-sds-theses",
+    "href": "theses.html#archive-of-previous-sds-theses",
+    "title": "SDS Theses FAQ",
+    "section": "Archive of previous SDS theses",
+    "text": "Archive of previous SDS theses\nPlease see our list of previous SDS theses and the Departmental Honors designations that they have received. Note also that many previous theses are archived in Smith ScholarWorks."
   },
   {
     "objectID": "self_study.html",
@@ -1019,7 +1047,7 @@
     "href": "rmarkdown_problems.html#document-wont-knit",
     "title": "Troubleshooting in R Markdown",
     "section": "Document won’t knit",
-    "text": "Document won’t knit\nThere could be many reasons for this. Usually, the error message will pinpoint the location of the problem. Read the error messages!!\nSome most common problems are:\n\nincluding output in your code chunks, like\n\n\nmean(~speed, data = cars) 169.683\n\nError in parse(text = input): &lt;text&gt;:1:27: unexpected numeric constant\n1: mean(~speed, data = cars) 169.683\n                              ^\n\n\n\nincluding the &gt; or + prompts that come from the console in your code chunks, like\n\n\n&gt; mean(~speed, data = cars)\n\nError in parse(text = input): &lt;text&gt;:1:1: unexpected '&gt;'\n1: &gt;\n    ^\n\n\nor\n\ncars %&gt;%\n+ filter(speed &gt; 100)\n\nError: object 'speed' not found\n\n\n\nAsking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like [ reached getOption(\"max.print\") -- omitted 18684 rows ], but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included\n\n\n  cars\n\nin your document, but also dplyr expressions that aren’t saved into an object can do it, like\n\n  cars %&gt;%\n   filter(speed &gt; 100)\n\n\nNot including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.\n\n\nnow()\n\n[1] \"2025-02-04 20:29:54 UTC\"\n\nlibrary(lubridate)\nnow()\n\n[1] \"2025-02-04 20:29:54 UTC\"\n\n\nFor SDS classes, you often need to include\n\nlibrary(tidyverse)\n\nNote that tidyverse in turn loads dplyr and ggplot2.\nNote also that require() and library() are equivalent for our purposes, but library() is preferred.\n\nPackages not installed. If you try to load a package that is not available in your R session, then you will get a warning.\n\n\nlibrary(imadethisup)\n\nError in library(imadethisup): there is no package called 'imadethisup'\n\n\nTo install the package, click on the “Install” button under the “Packages” tab, or use the install.packages() function.\n\ninstall.packages(\"imadethisup\")\n\n\nHaving spaces or other non-safe characters in filenames. This will often break when you try to compile your Markown document into HTML. Do not use spaces, slashes, or pound signs in filenames!!\nReferring to objects that don’t exist. Recall that your Markdown document knits in a clean R session!! Objects in your working environment are shown under the “Environment” tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:\n\n\nmy_object\n\nError: object 'my_object' not found\n\n\nit means that R cannot find any object in its environment called my_object. Make sure that my_object is created in the Markdown document prior to where you are trying to access it.\nOne common way this can occur is if you failed to load a data frame provided by a package (that doesn’t use lazy loading). For example, the oilabs package does not support lazy loading, so you have to use the data() command to bring the data frames into your environment before using them.\n\nlibrary(oilabs)\nhead(ames)\ndata(ames)\nhead(ames)\n\n\nIncorrect file path. Note that absolute filenames like\n\n\nread.csv(\"/home/bbaumer/sds220/data/my_data.csv\")\n\nWarning in file(file, \"rt\"): cannot open file\n'/home/bbaumer/sds220/data/my_data.csv': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\n\nwill not work on anyone else’s computer. It is usually better to use a relative file path like:\n\nread.csv(\"~/sds220/data/my_data.csv\")\n\nHowever this will only works if someone else has the same directory structure as you. Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if\n\nread.csv(\"my_data.csv\")\n\ndoesn’t work, you may have to try\n\nread.csv(\"project/my_data.csv\")\n\nor something along those lines."
+    "text": "Document won’t knit\nThere could be many reasons for this. Usually, the error message will pinpoint the location of the problem. Read the error messages!!\nSome most common problems are:\n\nincluding output in your code chunks, like\n\n\nmean(~speed, data = cars) 169.683\n\nError in parse(text = input): &lt;text&gt;:1:27: unexpected numeric constant\n1: mean(~speed, data = cars) 169.683\n                              ^\n\n\n\nincluding the &gt; or + prompts that come from the console in your code chunks, like\n\n\n&gt; mean(~speed, data = cars)\n\nError in parse(text = input): &lt;text&gt;:1:1: unexpected '&gt;'\n1: &gt;\n    ^\n\n\nor\n\ncars %&gt;%\n+ filter(speed &gt; 100)\n\nError: object 'speed' not found\n\n\n\nAsking R to print out an entire data set. This one is often tricky to spot, because the code will work fine in the console, saying something like [ reached getOption(\"max.print\") -- omitted 18684 rows ], but in the RMarkdown it will try to include everything and then run out of memory. The easiest way to spot this is if you have included\n\n\n  cars\n\nin your document, but also dplyr expressions that aren’t saved into an object can do it, like\n\n  cars %&gt;%\n   filter(speed &gt; 100)\n\n\nNot including all the packages you need for your code. This error will occur if you try to use a function in a package that you haven’t loaded previously in your Markdown document.\n\n\nnow()\n\n[1] \"2025-02-04 20:49:57 UTC\"\n\nlibrary(lubridate)\nnow()\n\n[1] \"2025-02-04 20:49:57 UTC\"\n\n\nFor SDS classes, you often need to include\n\nlibrary(tidyverse)\n\nNote that tidyverse in turn loads dplyr and ggplot2.\nNote also that require() and library() are equivalent for our purposes, but library() is preferred.\n\nPackages not installed. If you try to load a package that is not available in your R session, then you will get a warning.\n\n\nlibrary(imadethisup)\n\nError in library(imadethisup): there is no package called 'imadethisup'\n\n\nTo install the package, click on the “Install” button under the “Packages” tab, or use the install.packages() function.\n\ninstall.packages(\"imadethisup\")\n\n\nHaving spaces or other non-safe characters in filenames. This will often break when you try to compile your Markown document into HTML. Do not use spaces, slashes, or pound signs in filenames!!\nReferring to objects that don’t exist. Recall that your Markdown document knits in a clean R session!! Objects in your working environment are shown under the “Environment” tab in your RStudio window. However, when you knit your Markdown document, it launches in a new, completely different R session. In order to objects to be available in that session, you have to create them. If you see an error like:\n\n\nmy_object\n\nError: object 'my_object' not found\n\n\nit means that R cannot find any object in its environment called my_object. Make sure that my_object is created in the Markdown document prior to where you are trying to access it.\nOne common way this can occur is if you failed to load a data frame provided by a package (that doesn’t use lazy loading). For example, the oilabs package does not support lazy loading, so you have to use the data() command to bring the data frames into your environment before using them.\n\nlibrary(oilabs)\nhead(ames)\ndata(ames)\nhead(ames)\n\n\nIncorrect file path. Note that absolute filenames like\n\n\nread.csv(\"/home/bbaumer/sds220/data/my_data.csv\")\n\nWarning in file(file, \"rt\"): cannot open file\n'/home/bbaumer/sds220/data/my_data.csv': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\n\nwill not work on anyone else’s computer. It is usually better to use a relative file path like:\n\nread.csv(\"~/sds220/data/my_data.csv\")\n\nHowever this will only works if someone else has the same directory structure as you. Note also that the working directory of the R session in which your Markdown document knits is not necessarily the same as the working directory of the R session which you see in RStudio. Thus, if\n\nread.csv(\"my_data.csv\")\n\ndoesn’t work, you may have to try\n\nread.csv(\"project/my_data.csv\")\n\nor something along those lines."
   },
   {
     "objectID": "rmarkdown_problems.html#code-not-being-evaluated",
