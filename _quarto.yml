@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: "../docs"
 
 # All icons on the menubar are from https://fontawesome.com/icons?d=gallery
 website:
@@ -52,10 +51,10 @@ website:
         menu:
           - text: "Ethics"
             icon: fa-book
-            href: ethics.html
+            href: sds-www/ethics.Rmd
           - text: "Calendar"
             icon: fa-calendar-alt
-            href: JSE_calendar.html
+            href: sds-www/JSE_calendar.Rmd
     right:
       - icon: fa-github
         href: https://github.com/SmithCollege-SDS
@@ -63,7 +62,7 @@ website:
     left: "Website maintained by [Ben Baumer](http://www.science.smith.edu/~bbaumer)." 
     right: 
       - icon: github
-        href: https://github.com/SmithCollege-SDS/sds-www
+        href: https://github.com/SmithCollege-SDS/smithcollege-sds.github.io/
 
 
 format:

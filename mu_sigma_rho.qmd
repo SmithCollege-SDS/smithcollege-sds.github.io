@@ -24,11 +24,11 @@ key <- "1P2ZOOXB5dHwycXZkFYm_3u7M4lEPPm36RJHdMloAZlY"
 
 archive <- read_sheet(key)
 archive %>%
-  write_rds(file = here::here("mu_sigma_rho.rda"))
+  write_rds(file = here::here("data/mu_sigma_rho.rda"))
 ```
 
 ```{r read-archive}
-archive <- read_rds(here::here("mu_sigma_rho.rda"))
+archive <- read_rds(here::here("data/mu_sigma_rho.rda"))
 ```
 
 
