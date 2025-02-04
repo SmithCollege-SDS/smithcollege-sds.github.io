@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="blinded">
+<meta name="dcterms.date" content="2025-02-04">
 
-<title>Teaching Data Science Ethics – SDS</title>
+<title>Ethics patches in a box – SDS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,22 +45,22 @@ div.csl-indent {
 }</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9c546a04fa00a275547e7eb78afa1c09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,7 +100,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SDS</span>
     </a>
   </div>
@@ -109,7 +111,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-fa-home" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -121,17 +123,17 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
         <li>
-    <a class="dropdown-item" href="./awards.html">
+    <a class="dropdown-item" href="../awards.html">
  <span class="dropdown-text">Honors &amp; Prizes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mu_sigma_rho.html">
+    <a class="dropdown-item" href="../mu_sigma_rho.html">
  <span class="dropdown-text">Mu Sigma Rho</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
+    <a class="nav-link" href="../rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
 </i> 
 <span class="menu-text">Help</span></a>
   </li>  
@@ -149,39 +151,39 @@ div.csl-indent {
   </li>  
         <li class="dropdown-header">Newsletters</li>
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2024.html">
+    <a class="dropdown-item" href="../sds_newsletter_2024.html">
  <span class="dropdown-text">2024</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2023.html">
+    <a class="dropdown-item" href="../sds_newsletter_2023.html">
  <span class="dropdown-text">2023</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2022.html">
+    <a class="dropdown-item" href="../sds_newsletter_2022.html">
  <span class="dropdown-text">2022</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+    <a class="dropdown-item" href="../sds_newsletter_2021.html">
  <span class="dropdown-text">2021</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+    <a class="dropdown-item" href="../sds_newsletter_2020.html">
  <span class="dropdown-text">2020</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+    <a class="dropdown-item" href="../sds_newsletter_2019.html">
  <span class="dropdown-text">2019</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+    <a class="dropdown-item" href="../sds_newsletter_2018.html">
  <span class="dropdown-text">2018</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+    <a class="dropdown-item" href="../sds_newsletter_2017.html">
  <span class="dropdown-text">2017</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+    <a class="dropdown-item" href="../sds_newsletter_2016.html">
  <span class="dropdown-text">2016</span></a>
   </li>  
     </ul>
@@ -194,12 +196,12 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+    <a class="dropdown-item" href="../sds-www/ethics.html"><i class="bi bi-fa-book" role="img">
 </i> 
  <span class="dropdown-text">Ethics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+    <a class="dropdown-item" href="../sds-www/JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
 </i> 
  <span class="dropdown-text">Calendar</span></a>
   </li>  
@@ -233,7 +235,22 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link active" data-scroll-target="#supplementary-materials">Supplementary materials</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#description-of-coursesetting" id="toc-description-of-coursesetting" class="nav-link" data-scroll-target="#description-of-coursesetting">Description of course/setting</a></li>
+  <li><a href="#nas-ethical-areas" id="toc-nas-ethical-areas" class="nav-link" data-scroll-target="#nas-ethical-areas">NAS ethical areas</a></li>
+  <li><a href="#questionsgoals-addressed" id="toc-questionsgoals-addressed" class="nav-link" data-scroll-target="#questionsgoals-addressed">Questions/goals addressed</a></li>
+  <li><a href="#bloom-taxonomy" id="toc-bloom-taxonomy" class="nav-link" data-scroll-target="#bloom-taxonomy">Bloom taxonomy</a></li>
+  <li><a href="#related-work-in-data-science-ethics" id="toc-related-work-in-data-science-ethics" class="nav-link" data-scroll-target="#related-work-in-data-science-ethics">Related work in data science ethics</a></li>
+  <li><a href="#generalizability" id="toc-generalizability" class="nav-link" data-scroll-target="#generalizability">Generalizability</a></li>
+  </ul></li>
+  <li><a href="#lesson-plan-for-instructors" id="toc-lesson-plan-for-instructors" class="nav-link" data-scroll-target="#lesson-plan-for-instructors">Lesson plan for instructors</a>
+  <ul class="collapse">
+  <li><a href="#student-preparation-required" id="toc-student-preparation-required" class="nav-link" data-scroll-target="#student-preparation-required">Student preparation required</a></li>
+  <li><a href="#instructions-for-students" id="toc-instructions-for-students" class="nav-link" data-scroll-target="#instructions-for-students">Instructions for students</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -243,14 +260,27 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching Data Science Ethics</h1>
+<h1 class="title">Ethics patches in a box</h1>
+<p class="subtitle lead">OkCupid, what should I do now?</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>blinded </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 4, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -260,64 +290,121 @@ div.csl-indent {
 </header>
 
 
-<section id="supplementary-materials" class="level3">
-<h3 class="anchored" data-anchor-id="supplementary-materials">Supplementary materials</h3>
-<p>In our paper, <em>Integrating Data Science Ethics Into an Undergraduate Major: A Case Study</em> <span class="citation" data-cites="baumer2020integrating">(<a href="#ref-baumer2020integrating" role="doc-biblioref">Baumer et al. 2022</a>)</span>, we describe six ethics modules that can be incorporated into various classes. These modules are summarized in Table 1 of the paper, which is reproduced below. This table connects each module to the relevant categories as defined by <span class="citation" data-cites="floridi2016what">Floridi and Taddeo (<a href="#ref-floridi2016what" role="doc-biblioref">2016</a>)</span> and the taxonomy of learning defined by <span class="citation" data-cites="bloom1956taxonomy">Bloom et al. (<a href="#ref-bloom1956taxonomy" role="doc-biblioref">1956</a>)</span>. Hyperlinks will take you to the actual teaching material.</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Summary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. ‘Bloom’ refers to Bloom’s taxonomy.</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Section</th>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">Categories</th>
-<th style="text-align: left;">Bloom</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">4.1</td>
-<td style="text-align: left;"><a href="patch_okcupid.html">OkCupid</a></td>
-<td style="text-align: left;">data</td>
-<td style="text-align: left;">Application</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4.2</td>
-<td style="text-align: left;"><a href="patch_stitchfix.html">StitchFix</a></td>
-<td style="text-align: left;">algorithms</td>
-<td style="text-align: left;">Application</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">4.3</td>
-<td style="text-align: left;"><a href="patch_social_networks.html">Grey’s Anatomy</a></td>
-<td style="text-align: left;">practices, data</td>
-<td style="text-align: left;">Application</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4.4</td>
-<td style="text-align: left;"><a href="patch_music.html">Copywriting music</a></td>
-<td style="text-align: left;">practices</td>
-<td style="text-align: left;">Evaluation</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">4.5</td>
-<td style="text-align: left;"><a href="patch_race_coding.html">Coding race</a></td>
-<td style="text-align: left;">practices, data</td>
-<td style="text-align: left;">Synthesis</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4.6</td>
-<td style="text-align: left;"><a href="patch_wmd.html">Weapons of Math Destruction</a></td>
-<td style="text-align: left;">practices, algorithms</td>
-<td style="text-align: left;">Evaluation</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="description-of-coursesetting" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-coursesetting">Description of course/setting</h2>
+<ul>
+<li>Actual: senior capstone in statistical &amp; data sciences</li>
+<li>Generic:
+<ul>
+<li>introductory data science course</li>
+<li>any course that covers web scraping</li>
+</ul></li>
+</ul>
 </section>
-<section id="references" class="level2">
+<section id="nas-ethical-areas" class="level2">
+<h2 class="anchored" data-anchor-id="nas-ethical-areas">NAS ethical areas</h2>
+<ul>
+<li>Ethical precepts for data science and codes of conduct</li>
+<li>Privacy and confidentiality</li>
+<li>Responsible conduct of research</li>
+<li>Ability to identify “junk” science</li>
+</ul>
+</section>
+<section id="questionsgoals-addressed" class="level2">
+<h2 class="anchored" data-anchor-id="questionsgoals-addressed">Questions/goals addressed</h2>
+<ul>
+<li>If I scrape data about other people and want to publish it, what is my responsibility to protect the privacy of the people whose information I scraped?</li>
+<li>How do my ethical responsibilities differ from my legal responsibilities?</li>
+<li>Are there technical solutions that could allow me to publish the data while protecting people’s privacy?</li>
+<li>Are my ethical responsibilities impacted by the value of the data?</li>
+</ul>
+</section>
+<section id="bloom-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="bloom-taxonomy"><a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#/media/File:Bloom%E2%80%99s_Taxonomy_Verbs.png">Bloom taxonomy</a></h2>
+<ul>
+<li>Application: Students apply knowledge of data science ethics in real-world context</li>
+</ul>
+</section>
+<section id="related-work-in-data-science-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="related-work-in-data-science-ethics">Related work in data science ethics</h2>
+<ul>
+<li><span class="citation" data-cites="zimmer2010but">Zimmer (<a href="#ref-zimmer2010but" role="doc-biblioref">2010</a>)</span></li>
+</ul>
+</section>
+<section id="generalizability" class="level2">
+<h2 class="anchored" data-anchor-id="generalizability">Generalizability</h2>
+<ul>
+<li>any publishing of personal data</li>
+<li>any attempt at web scraping</li>
+</ul>
+</section>
+</section>
+<section id="lesson-plan-for-instructors" class="level1">
+<h1>Lesson plan for instructors</h1>
+<section id="student-preparation-required" class="level2">
+<h2 class="anchored" data-anchor-id="student-preparation-required">Student preparation required</h2>
+<ul>
+<li>no technical knowledge required</li>
+<li>before class, read:
+<ul>
+<li><span class="citation" data-cites="kim2015okcupid">Kim and Escobedo-Land (<a href="#ref-kim2015okcupid" role="doc-biblioref">2015</a>)</span></li>
+<li><span class="citation" data-cites="poulsen2014wired">Poulsen (<a href="#ref-poulsen2014wired" role="doc-biblioref">2014</a>)</span></li>
+<li><span class="citation" data-cites="hackett2016fortune">Hackett (<a href="#ref-hackett2016fortune" role="doc-biblioref">2016</a>)</span></li>
+</ul></li>
+<li>(optional) other reference material:
+<ul>
+<li><span class="citation" data-cites="kirkegaard2016okcupid">Kirkegaard and Bjerrekær (<a href="#ref-kirkegaard2016okcupid" role="doc-biblioref">2016</a>)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="instructions-for-students" class="level2">
+<h2 class="anchored" data-anchor-id="instructions-for-students">Instructions for students</h2>
+<ul>
+<li>Your goal in this class activity is to help Prof.&nbsp;Kim draft a letter to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> that addresses any ethical considerations you find present in <span class="citation" data-cites="kim2015okcupid">Kim and Escobedo-Land (<a href="#ref-kim2015okcupid" role="doc-biblioref">2015</a>)</span>. Perhaps you think Prof.&nbsp;Kim should fully retract the article. Perhaps you think a partial retraction that removes or alters some part of the data is appropriate. Perhaps you think no action is necessary.</li>
+<li>You may want to consult the Internet for relevant facts during the group discussion.</li>
+<li>Have at least one person taking notes during your discussion, preferably on a white board that all group members can see.</li>
+<li>There is no right or wrong answer. However, your choices should be based on informed logical reasoning.</li>
+</ul>
+</section>
+<section id="activity-description" class="level2">
+<h2 class="anchored" data-anchor-id="activity-description">Activity description</h2>
+<ol>
+<li>(10 minutes): Give a brief overview of the three uses of <a href="https://en.wikipedia.org/wiki/OkCupid">OkCupid</a> data. Focus on Prof.&nbsp;Kim’s responsibilities as a published author. The students should have already read the assigned material.</li>
+<li>(20 minutes): Break the class into four groups. Each group will discuss one of the following topics:
+<ol>
+<li>Other OkCupid users
+<ul>
+<li>Discuss the use of OkCupid data by McKinlay and Kirkegaard. Was that use ethical? How did OkCupid respond? How does their work impact Prof.&nbsp;Kim’s situation?</li>
+</ul></li>
+<li>Anonymization and differential privacy
+<ul>
+<li>What role do <a href="https://en.wikipedia.org/wiki/Data_anonymization">data anonymization</a> and <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> play in Prof.&nbsp;Kim’s situation? Could these techniques lead to a safer product?</li>
+</ul></li>
+<li>Terms of Service
+<ul>
+<li>How closely do the ethical issues track the legal issues? What role do <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a> and/or The <a href="https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act">Computer Fraud and Abuse Act</a> (CFAA) play?</li>
+</ul></li>
+<li>Value of Data
+<ul>
+<li>What is the pedagogical value of the data set? How should these benefits be weighed against the potential for harm?</li>
+</ul></li>
+</ol></li>
+<li>(15 minutes): Have each group draft a <strong>one-paragraph statement</strong> to the editor of the <a href="https://en.wikipedia.org/wiki/Journal_of_Statistics_Education"><em>Journal of Statistics Education</em></a> on your topic that <strong>all</strong> group members agree with.</li>
+<li>(15 minutes): Have each group contribute their paragraph to a shared Google Doc that is presented to the whole class. Have each group discuss their contribution.</li>
+<li>(5 minutes): Wrap up. Tie up loose threads and try to connect key ideas to other topics in the class, recent events on campus, or current news.</li>
+</ol>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li>one paragraph from each group</li>
+<li>(optional): offer students extra credit to edit the Google Doc into a formal letter to the editor of <em>JSE</em> suitable for publication. Send the letter to Prof.&nbsp;Kim!</li>
+</ul>
+</section>
+</section>
+<section id="references" class="level1">
 
 
 
@@ -325,14 +412,20 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-baumer2020integrating" class="csl-entry" role="listitem">
-Baumer, Benjamin S, Randi L Garcia, Albert Y Kim, Katherine M Kinnaird, and Miles Q Ott. 2022. <span>“Integrating Data Science Ethics into an Undergraduate Major: A Case Study.”</span> <em>Journal of Statistics and Data Science Education</em>. <a href="https://arxiv.org/abs/2001.07649">https://arxiv.org/abs/2001.07649</a>.
+<div id="ref-hackett2016fortune" class="csl-entry" role="listitem">
+Hackett, Robert. 2016. <span>“Researchers Caused an Uproar by Publishing Data from 70,000 OkCupid Users.”</span> Fortune. <a href="https://fortune.com/2016/05/18/okcupid-data-research/">https://fortune.com/2016/05/18/okcupid-data-research/</a>.
 </div>
-<div id="ref-bloom1956taxonomy" class="csl-entry" role="listitem">
-Bloom, Benjamin S et al. 1956. <span>“Taxonomy of Educational Objectives. Vol. 1: Cognitive Domain.”</span> Edited by Benjamin S Bloom et al. <em>New York: McKay</em> 20 (24): 1.
+<div id="ref-kim2015okcupid" class="csl-entry" role="listitem">
+Kim, Albert Y, and Adriana Escobedo-Land. 2015. <span>“<span>OKCupid</span> Data for Introductory Statistics and Data Science Courses.”</span> <em>Journal of Statistics Education</em> 23 (2). <a href="https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737">https://amstat.tandfonline.com/doi/abs/10.1080/10691898.2015.11889737</a>.
 </div>
-<div id="ref-floridi2016what" class="csl-entry" role="listitem">
-Floridi, Luciano, and Mariarosaria Taddeo. 2016. <span>“What Is Data Ethics?”</span> <em>Philosophical Transactions of the Royal Society A</em>, December. <a href="https://doi.org/10.1098/rsta.2016.0360">https://doi.org/10.1098/rsta.2016.0360</a>.
+<div id="ref-kirkegaard2016okcupid" class="csl-entry" role="listitem">
+Kirkegaard, Emil OW, and Julius D Bjerrekær. 2016. <span>“The <span>OKCupid</span> Dataset: A Very Large Public Dataset of Dating Site Users.”</span> <em>Open Differential Psychology</em> 46.
+</div>
+<div id="ref-poulsen2014wired" class="csl-entry" role="listitem">
+Poulsen, Kevin. 2014. <span>“How a Math Genius Hacked <span>OKC</span>upid to Find True Love.”</span> Wired. <a href="https://www.wired.com/2014/01/how-to-hack-okcupid/">https://www.wired.com/2014/01/how-to-hack-okcupid/</a>.
+</div>
+<div id="ref-zimmer2010but" class="csl-entry" role="listitem">
+Zimmer, Michael. 2010. <span>“"But the Data Is Already Public": On the Ethics of Research in <span>Facebook</span>.”</span> <em>Ethics and Information Technology</em> 12 (4): 313–25. <a href="https://link.springer.com/article/10.1007/s10676-010-9227-5">https://link.springer.com/article/10.1007/s10676-010-9227-5</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -417,8 +510,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -427,7 +518,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/SmithCollege-SDS\.github\.io\/smithcollege-sds\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -529,7 +620,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -767,7 +857,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/smithcollege-sds.github.io/">
       <i class="bi bi-github" role="img">
 </i> 
     </a>

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="blinded">
-<meta name="dcterms.date" content="2024-11-06">
+<meta name="dcterms.date" content="2025-02-04">
 
 <title>Ethics patches in a box – SDS</title>
 <style>
@@ -45,22 +45,22 @@ div.csl-indent {
 }</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9c546a04fa00a275547e7eb78afa1c09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,6 +89,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="include/smith.css">
 </head>
@@ -100,7 +129,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SDS</span>
     </a>
   </div>
@@ -111,7 +140,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-fa-home" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -123,17 +152,17 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
         <li>
-    <a class="dropdown-item" href="./awards.html">
+    <a class="dropdown-item" href="../awards.html">
  <span class="dropdown-text">Honors &amp; Prizes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mu_sigma_rho.html">
+    <a class="dropdown-item" href="../mu_sigma_rho.html">
  <span class="dropdown-text">Mu Sigma Rho</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
+    <a class="nav-link" href="../rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
 </i> 
 <span class="menu-text">Help</span></a>
   </li>  
@@ -151,39 +180,39 @@ div.csl-indent {
   </li>  
         <li class="dropdown-header">Newsletters</li>
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2024.html">
+    <a class="dropdown-item" href="../sds_newsletter_2024.html">
  <span class="dropdown-text">2024</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2023.html">
+    <a class="dropdown-item" href="../sds_newsletter_2023.html">
  <span class="dropdown-text">2023</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2022.html">
+    <a class="dropdown-item" href="../sds_newsletter_2022.html">
  <span class="dropdown-text">2022</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+    <a class="dropdown-item" href="../sds_newsletter_2021.html">
  <span class="dropdown-text">2021</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+    <a class="dropdown-item" href="../sds_newsletter_2020.html">
  <span class="dropdown-text">2020</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+    <a class="dropdown-item" href="../sds_newsletter_2019.html">
  <span class="dropdown-text">2019</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+    <a class="dropdown-item" href="../sds_newsletter_2018.html">
  <span class="dropdown-text">2018</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+    <a class="dropdown-item" href="../sds_newsletter_2017.html">
  <span class="dropdown-text">2017</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+    <a class="dropdown-item" href="../sds_newsletter_2016.html">
  <span class="dropdown-text">2016</span></a>
   </li>  
     </ul>
@@ -196,12 +225,12 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+    <a class="dropdown-item" href="../sds-www/ethics.html"><i class="bi bi-fa-book" role="img">
 </i> 
  <span class="dropdown-text">Ethics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+    <a class="dropdown-item" href="../sds-www/JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
 </i> 
  <span class="dropdown-text">Calendar</span></a>
   </li>  
@@ -247,13 +276,8 @@ div.csl-indent {
   <li><a href="#lesson-plan-for-instructors" id="toc-lesson-plan-for-instructors" class="nav-link" data-scroll-target="#lesson-plan-for-instructors">Lesson plan for instructors</a>
   <ul class="collapse">
   <li><a href="#student-preparation-required" id="toc-student-preparation-required" class="nav-link" data-scroll-target="#student-preparation-required">Student preparation required</a></li>
-  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a>
-  <ul class="collapse">
-  <li><a href="#warm-up-how-are-people-connected-to-each-other" id="toc-warm-up-how-are-people-connected-to-each-other" class="nav-link" data-scroll-target="#warm-up-how-are-people-connected-to-each-other">Warm up: How are people connected to each other?</a></li>
-  <li><a href="#time-to-collect-data-greys-anatomy" id="toc-time-to-collect-data-greys-anatomy" class="nav-link" data-scroll-target="#time-to-collect-data-greys-anatomy">Time to collect data: <em>Grey’s Anatomy</em></a></li>
-  <li><a href="#questions-to-ask-in-data-collection-discussion" id="toc-questions-to-ask-in-data-collection-discussion" class="nav-link" data-scroll-target="#questions-to-ask-in-data-collection-discussion">Questions to Ask in Data Collection Discussion:</a></li>
-  <li><a href="#homework-portion" id="toc-homework-portion" class="nav-link" data-scroll-target="#homework-portion">Homework Portion</a></li>
-  </ul></li>
+  <li><a href="#instructions-for-students" id="toc-instructions-for-students" class="nav-link" data-scroll-target="#instructions-for-students">Instructions for students</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a></li>
   <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -266,7 +290,7 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Ethics patches in a box</h1>
-<p class="subtitle lead">a clever, topical title</p>
+<p class="subtitle lead">Get your fix: Algorithmic bias in shopping for clothes</p>
 </div>
 
 
@@ -283,7 +307,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2024</p>
+      <p class="date">February 4, 2025</p>
     </div>
   </div>
   
@@ -295,29 +319,30 @@ div.csl-indent {
 </header>
 
 
+<p><strong>Disclaimer</strong>: The author of this patch is not being compensated by StitchFix.</p>
 <section id="overview" class="level1">
 <h1>Overview</h1>
 <section id="description-of-coursesetting" class="level2">
 <h2 class="anchored" data-anchor-id="description-of-coursesetting">Description of course/setting</h2>
 <ul>
-<li>Actual: <em>Statistical Analysis of Social Network Data</em></li>
-<li>Generic: upper-level course that requires a second course in statistics, and preferably a programming course</li>
+<li>Actual: undergraduate machine learning</li>
+<li>Generic: any course that involves statistical modeling, such as a 200-level regression course</li>
 </ul>
 </section>
 <section id="nas-ethical-areas" class="level2">
 <h2 class="anchored" data-anchor-id="nas-ethical-areas">NAS ethical areas</h2>
 <ul>
-<li>Privacy and confidentiality,</li>
-<li>Responsible conduct of research,</li>
+<li>Privacy and confidentiality</li>
+<li>Responsible conduct of research</li>
+<li>Ability to detect algorithmic bias</li>
 </ul>
 </section>
 <section id="questionsgoals-addressed" class="level2">
 <h2 class="anchored" data-anchor-id="questionsgoals-addressed">Questions/goals addressed</h2>
 <ul>
-<li>Give students the experience of collecting social network data, and to experience how there are many subjective choices in the collection of those data.</li>
-<li>Have students consider how abstraction (the way in which data are represented) strips context from the data, and talk about implications of that lack of context</li>
-<li>Students apply general paper on ethics of survey data to the specific context of social network surveys: students create their own understanding of what makes social network data collection ethical.</li>
-<li>This is meant for the first day of class, so the main goal is to set the tone for the class that ethics must be considered throughout.</li>
+<li>Presents students with an example of algorithmic bias that they can directly play with and relate to. This is in contrast to more abstract and much less accessible examples discussed in academic readings and news media, such as facial recognition software.</li>
+<li>Asks students to view the statistical, mathematical, and machine learning topics covered in class through a sociological lens, in particular the nature of gender.</li>
+<li>Gives students the opportunity to think about statistical models in a very rich, real, and realistic setting, in particular what predictor variables <span class="math inline">\(\vec{x}\)</span> are (and are not) being collected and what modeling method <span class="math inline">\(\widehat{f}()\)</span> is being used.</li>
 </ul>
 </section>
 <section id="bloom-taxonomy" class="level2">
@@ -329,81 +354,70 @@ div.csl-indent {
 <section id="related-work-in-data-science-ethics" class="level2">
 <h2 class="anchored" data-anchor-id="related-work-in-data-science-ethics">Related work in data science ethics</h2>
 <ul>
-<li><span class="citation" data-cites="fiesler2020we">Fiesler, Garrett, and Beard (<a href="#ref-fiesler2020we" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="gebru2020race">Gebru (<a href="#ref-gebru2020race" role="doc-biblioref">2020</a>)</span></li>
 </ul>
 </section>
 <section id="generalizability" class="level2">
 <h2 class="anchored" data-anchor-id="generalizability">Generalizability</h2>
-<ul>
-<li>any collection of data on humans</li>
-</ul>
+<p>You can generalize this activity to any internet service where user information is collected for prediction purposes. While this exercise can work in almost any such setting (such as Netflix recommendations), we think it will work best when there is a clear opportunity for comparing and contrasting along some demographic variable, as was the case with StitchFix’s “Style Profile” quiz split along (binary) gender.</p>
 </section>
 </section>
 <section id="lesson-plan-for-instructors" class="level1">
 <h1>Lesson plan for instructors</h1>
 <section id="student-preparation-required" class="level2">
 <h2 class="anchored" data-anchor-id="student-preparation-required">Student preparation required</h2>
-<ul>
-<li>no technical knowledge required</li>
-<li>after class, read:
-<ul>
-<li><span class="citation" data-cites="hammer2017ethical">Hammer (<a href="#ref-hammer2017ethical" role="doc-biblioref">2017</a>)</span></li>
-<li><span class="citation" data-cites="kolaczyk2014">Kolaczyk and Csárdi (<a href="#ref-kolaczyk2014" role="doc-biblioref">2014</a>)</span> (Pages 1-10 and 13-18)</li>
-</ul></li>
-</ul>
+<p>Students should have a basic understanding of statistical modeling: <span class="math inline">\(y = f(\vec{x}) + \epsilon\)</span> and <span class="math inline">\(\widehat{y} = \widehat{f}(\vec{x})\)</span> where we have:</p>
+<ol type="1">
+<li>Outcome variables, both observed <span class="math inline">\(y\)</span> and fitted/predicted <span class="math inline">\(\widehat{y}\)</span></li>
+<li>A “true” unknown model <span class="math inline">\(f()\)</span> (i.e.&nbsp;“signal”) and a fitted/approximated model <span class="math inline">\(\widehat{f}()\)</span></li>
+<li>Explanatory/predictor variables <span class="math inline">\(\vec{x}\)</span></li>
+<li>An error term <span class="math inline">\(\epsilon\)</span> (i.e.&nbsp;noise)</li>
+</ol>
+<p>Optionally, students who have some familiarity with the difference between “modeling for prediction” and “modeling for explanation” will be well placed to absorb the lessons of this patch. For a broad discussion on this differencel, in particular to what ends each modeling paradigm is used for, instructors and upper-level students can read <span class="citation" data-cites="breiman2001statistical">(<a href="#ref-breiman2001statistical" role="doc-biblioref">Breiman et al. 2001</a>)</span>.</p>
+</section>
+<section id="instructions-for-students" class="level2">
+<h2 class="anchored" data-anchor-id="instructions-for-students">Instructions for students</h2>
+<p>In this exercise, you’ll learn that machine learning in practice isn’t as objective as many may think. Because machine learning algorithms are designed by humans for humans, they consequently incorporate many human biases and beliefs.</p>
+<p>The context for this exercise will be one many of you can relate to: shopping for clothes. In particular, we’ll focus on <a href="https://www.stitchfix.com/">StitchFix</a>, an online clothing subscription service that uses machine learning to predict which clothes will suit your style and hence are likely to buy. They then send you a “fix” of clothes to try at home and you keep only the ones you want.</p>
+<p>Today’s exercise will proceed as follows:</p>
+<ol type="1">
+<li>You’ll form groups of ideally two students.</li>
+<li>We’ll watch the following 4 minute clip from ABC’s <a href="http://abcnews.go.com/Lifestyle/clothing-box-services-stitch-fix-wantable-dia/story?id=49794347">Good Morning America</a> to familiarize ourselves with StitchFix’s business model.<br>
+<iframe src="https://www.goodmorningamerica.com/video/embed/49810458" width="640" height="360" scrolling="no" style="border:none;" allowfullscreen=""></iframe><br>
+</li>
+<li>In groups you’ll go to <a href="https://www.stitchfix.com/">StitchFix</a> and complete the “Style Profile” quiz that collects information about your clothing preferences as follows:
+<ol type="1">
+<li>One of you will sign up for StitchFix.</li>
+<li>Together you’ll both complete the quiz for one of the (binary) choices of gender: men or women.</li>
+<li>The other group member will then sign up for StitchFix.</li>
+<li>Together you’ll both complete the quiz for the <em>other</em> choice of gender. Make note of any differences you find interesting.</li>
+</ol></li>
+<li>We’ll have a class discussion relating this experience to the topics we’ve been learning in class and the notion of <em>algorithmic bias</em>.</li>
+</ol>
 </section>
 <section id="activity-description" class="level2">
 <h2 class="anchored" data-anchor-id="activity-description">Activity description</h2>
-<section id="warm-up-how-are-people-connected-to-each-other" class="level3">
-<h3 class="anchored" data-anchor-id="warm-up-how-are-people-connected-to-each-other">Warm up: How are people connected to each other?</h3>
+<p>This activity can be self-contained in a single 50 minute lecture as follows:</p>
+<ol type="1">
+<li>(5 minutes): Give students above instructions.</li>
+<li>(5 minutes): Watch clip from <em>Good Morning America</em>.</li>
+<li>(20 minutes): Have the student groups complete both the men’s and women’s “Style Profile” quiz.</li>
+<li>(10 minutes): Class discussion. Potential prompts include:
 <ul>
-<li>Networks are collections of inter-connected entities and in social networks those entities are people</li>
-<li>working in small groups: brainstorm as many possible different social connections that you can think of</li>
-<li>(after brainstorming is over) Have students share social connections they thought of and write them on the board</li>
-</ul>
-</section>
-<section id="time-to-collect-data-greys-anatomy" class="level3">
-<h3 class="anchored" data-anchor-id="time-to-collect-data-greys-anatomy">Time to collect data: <a href="https://en.wikipedia.org/wiki/Grey%27s_Anatomy"><em>Grey’s Anatomy</em></a></h3>
-<ul>
-<li>Introduce a TV show or movie in which many people interact with each other in different ways (I chose <em>Grey’s Anatomy</em> and got a DVD from the College Library)</li>
-<li>Ask each student to pair up. In pairs: identify two kinds of social connections that you could collect from watching part of <em>Grey’s Anatomy</em></li>
-<li>Have students pick which kind of social connection information they will collect</li>
-<li>Show part of the first episode of <em>Grey’s Anatomy</em> (I showed first 12 minutes) and have students collect the social network information</li>
-</ul>
-</section>
-<section id="questions-to-ask-in-data-collection-discussion" class="level3">
-<h3 class="anchored" data-anchor-id="questions-to-ask-in-data-collection-discussion">Questions to Ask in Data Collection Discussion:</h3>
-<ul>
-<li>What did you notice as you were collecting the data?</li>
-<li>Was it always obvious that people were or were not connected?</li>
-<li>How can biases be introduced when collecting social network data? What implications will that have for the conclusions we will make based on the data?</li>
-<li>Assuming that you were a “<a href="https://idioms.thefreedictionary.com/a+fly+on+the+wall">fly on the wall</a>” instead of watching a TV show, do you have any concerns for collecting these data?</li>
-</ul>
-</section>
-<section id="homework-portion" class="level3">
-<h3 class="anchored" data-anchor-id="homework-portion">Homework Portion</h3>
-<ul>
-<li>Read <span class="citation" data-cites="hammer2017ethical">Hammer (<a href="#ref-hammer2017ethical" role="doc-biblioref">2017</a>)</span> and reflect on the following questions:
-<ul>
-<li>How can you apply the ideas about data ethics from this reading (which is about surveys in general) to social network analysis survey collection? Which ideas carry over to the social network context, which do not?</li>
-<li>Did collecting the <em>Grey’s Anatomy</em> data bring up ethical concerns? Why or why not?</li>
+<li>“What sociological biases and beliefs are embedded in the quizzes?” There are too many to enumerate and thus we recommend the instructor complete both quizzes beforehand to get a sense for themselves.</li>
+<li>“What predictor variables are being collected in the quizzes both directly as well as indirectly?” Examples of the latter include date/time (hence season), browser/operating system (these are weakly tied with technological sophistication and income), and shipping address (hence climate).</li>
+<li>“What are the principal components to consider when buying clothes?” In our opinion, the user’s style (patterns, cuts, colors), fit (lengths, proportions), and budget.</li>
+<li>“What modeling method <span class="math inline">\(\widehat{f}()\)</span> do you think is being used by StitchFix?” While <span class="math inline">\(\widehat{f}()\)</span> is proprietary to StitchFix and thus unknown, given the initial prompt for the user to select “men” or “women”, at the very highest level <span class="math inline">\(\widehat{f}()\)</span> is a decision tree a split on gender encoded as a binary variable.</li>
+<li>“What crucial predictor variable <span class="math inline">\(\vec{x}\)</span> can StitchFix only collect after they’ve sent you your first fix?” Examples include which clothes you keep, which clothes you return, and the ratings/feedback you give.</li>
+<li>“What is being predicted by these models and what is being <em>reinforced</em>?” A much more rhetorical question.</li>
 </ul></li>
-<li>Read <span class="citation" data-cites="kolaczyk2014">Kolaczyk and Csárdi (<a href="#ref-kolaczyk2014" role="doc-biblioref">2014</a>)</span> (Pages 1-10 and 13-18)
-<ul>
-<li>Summarize in your own words the three types of Network Analysis</li>
-<li>Using <em>Grey’s Anatomy</em> data as an example: what are potential benefits/harms of conducting these kinds of analyses?</li>
-<li>Use the social network data you collected from watching <em>Grey’s Anatomy</em> in class to create an adjaceny list, an edge list, an adjacency matrix. What are the advantages and disadvantages of representing your network data in each of these ways?</li>
-<li>How does the way we represent data about people change how we consider the ethical implications that can be intwined in the collection and analysis of that data?</li>
-</ul></li>
-</ul>
-</section>
+<li>(5 minutes): Give a brief lecture on algorithmic bias.</li>
+<li>(5 minutes): Give students instructions on the reflection piece they need to submit.</li>
+</ol>
 </section>
 <section id="deliverables" class="level2">
 <h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
-<ul>
-<li>homework assignment</li>
-<li>(optional): sets up class discussion for the next class period in which students dicuss their ideas from the reading</li>
-</ul>
+<p>A reflection piece written by students summarizing their experiences and thoughts, ideally addressing the questions and goals in the previous section.</p>
 </section>
 </section>
 <section id="references" class="level1">
@@ -414,14 +428,11 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-fiesler2020we" class="csl-entry" role="listitem">
-Fiesler, Casey, Natalie Garrett, and Nathan Beard. 2020. <span>“What Do We Teach When We Teach Tech Ethics? A Syllabi Analysis.”</span> In <em>Proceedings of the 51st ACM Technical Symposium on Computer Science Education</em>, 289–95. <a href="https://doi.org/10.1145/3328778.3366825">https://doi.org/10.1145/3328778.3366825</a>.
+<div id="ref-breiman2001statistical" class="csl-entry" role="listitem">
+Breiman, Leo et al. 2001. <span>“Statistical Modeling: The Two Cultures (with Comments and a Rejoinder by the Author).”</span> <em>Statistical Science</em> 16 (3): 199–231. <a href="https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726">https://projecteuclid.org/download/pdf_1/euclid.ss/1009213726</a>.
 </div>
-<div id="ref-hammer2017ethical" class="csl-entry" role="listitem">
-Hammer, Marilyn J. 2017. <span>“Ethical Considerations for Data Collection Using Surveys.”</span> In <em>Oncology Nursing Forum</em>. Vol. 44. 2.
-</div>
-<div id="ref-kolaczyk2014" class="csl-entry" role="listitem">
-Kolaczyk, Eric D, and Gábor Csárdi. 2014. <em>Statistical Analysis of Network Data with r</em>. Vol. 65. Springer.
+<div id="ref-gebru2020race" class="csl-entry" role="listitem">
+Gebru, Timnit. 2020. <span>“Race and Gender.”</span> In <em>The Oxford Handbook of Ethics of <span>AI</span></em>, edited by Markus D. Dubber, Frank Pasquale, and Sunit Das, 251–69. Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780190067397.013.16">https://doi.org/10.1093/oxfordhb/9780190067397.013.16</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -506,8 +517,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -516,7 +525,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/SmithCollege-SDS\.github\.io\/smithcollege-sds\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -618,7 +627,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -856,7 +864,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/smithcollege-sds.github.io/">
       <i class="bi bi-github" role="img">
 </i> 
     </a>

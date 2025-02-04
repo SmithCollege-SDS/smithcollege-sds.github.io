@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-11-06">
 
-<title>Data collection &amp; analysis using Google Calendar – SDS</title>
+<title>Teaching Data Science Ethics – SDS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,59 +20,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9c546a04fa00a275547e7eb78afa1c09.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +98,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SDS</span>
     </a>
   </div>
@@ -124,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-fa-home" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -136,17 +121,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-awards">    
         <li>
-    <a class="dropdown-item" href="./awards.html">
+    <a class="dropdown-item" href="../awards.html">
  <span class="dropdown-text">Honors &amp; Prizes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mu_sigma_rho.html">
+    <a class="dropdown-item" href="../mu_sigma_rho.html">
  <span class="dropdown-text">Mu Sigma Rho</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
+    <a class="nav-link" href="../rmarkdown_problems.html"> <i class="bi bi-fa-question-circle" role="img">
 </i> 
 <span class="menu-text">Help</span></a>
   </li>  
@@ -164,39 +149,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li class="dropdown-header">Newsletters</li>
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2024.html">
+    <a class="dropdown-item" href="../sds_newsletter_2024.html">
  <span class="dropdown-text">2024</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2023.html">
+    <a class="dropdown-item" href="../sds_newsletter_2023.html">
  <span class="dropdown-text">2023</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2022.html">
+    <a class="dropdown-item" href="../sds_newsletter_2022.html">
  <span class="dropdown-text">2022</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2021.html">
+    <a class="dropdown-item" href="../sds_newsletter_2021.html">
  <span class="dropdown-text">2021</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2020.html">
+    <a class="dropdown-item" href="../sds_newsletter_2020.html">
  <span class="dropdown-text">2020</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2019.html">
+    <a class="dropdown-item" href="../sds_newsletter_2019.html">
  <span class="dropdown-text">2019</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2018.html">
+    <a class="dropdown-item" href="../sds_newsletter_2018.html">
  <span class="dropdown-text">2018</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2017.html">
+    <a class="dropdown-item" href="../sds_newsletter_2017.html">
  <span class="dropdown-text">2017</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./sds_newsletter_2016.html">
+    <a class="dropdown-item" href="../sds_newsletter_2016.html">
  <span class="dropdown-text">2016</span></a>
   </li>  
     </ul>
@@ -209,12 +194,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
         <li>
-    <a class="dropdown-item" href="./ethics.html"><i class="bi bi-fa-book" role="img">
+    <a class="dropdown-item" href="../sds-www/ethics.html"><i class="bi bi-fa-book" role="img">
 </i> 
  <span class="dropdown-text">Ethics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
+    <a class="dropdown-item" href="../sds-www/JSE_calendar.html"><i class="bi bi-fa-calendar-alt" role="img">
 </i> 
  <span class="dropdown-text">Calendar</span></a>
   </li>  
@@ -248,13 +233,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link active" data-scroll-target="#learning-goals">Learning Goals</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
-  <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
-  <li><a href="#screencast-demo" id="toc-screencast-demo" class="nav-link" data-scroll-target="#screencast-demo">Screencast demo</a></li>
-  </ul></li>
-  <li><a href="#examples-from-the-community" id="toc-examples-from-the-community" class="nav-link" data-scroll-target="#examples-from-the-community">Examples from the community</a></li>
+  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link active" data-scroll-target="#supplementary-materials">Supplementary materials</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -263,7 +243,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data collection &amp; analysis using Google Calendar</h1>
+<h1 class="title">Teaching Data Science Ethics</h1>
 </div>
 
 
@@ -271,12 +251,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -286,111 +260,81 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Resources for instructors for Albert Y. Kim and Johanna Hardin’s <em>Journal of Statistics and Data Science Education</em> paper:<br>
-<a href="https://doi.org/10.1080/10691898.2020.1799728" target="_blank"><em>“Playing the whole game”: A data collection and analysis exercise with Google Calendar.</em></a></p>
+<section id="supplementary-materials" class="level3">
+<h3 class="anchored" data-anchor-id="supplementary-materials">Supplementary materials</h3>
+<p>In our paper, <em>Integrating Data Science Ethics Into an Undergraduate Major: A Case Study</em> <span class="citation" data-cites="baumer2020integrating">(<a href="#ref-baumer2020integrating" role="doc-biblioref">Baumer et al. 2022</a>)</span>, we describe six ethics modules that can be incorporated into various classes. These modules are summarized in Table 1 of the paper, which is reproduced below. This table connects each module to the relevant categories as defined by <span class="citation" data-cites="floridi2016what">Floridi and Taddeo (<a href="#ref-floridi2016what" role="doc-biblioref">2016</a>)</span> and the taxonomy of learning defined by <span class="citation" data-cites="bloom1956taxonomy">Bloom et al. (<a href="#ref-bloom1956taxonomy" role="doc-biblioref">1956</a>)</span>. Hyperlinks will take you to the actual teaching material.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="JSE_calendar/whole-game.002.png" class="img-fluid figure-img" style="width:80.0%"></p>
-</figure>
+<table class="caption-top table table-sm table-striped small">
+<caption>Summary of ethical modules described. Categories correspond to those identified by Floridi and Taddeo. ‘Bloom’ refers to Bloom’s taxonomy.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Section</th>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">Categories</th>
+<th style="text-align: left;">Bloom</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4.1</td>
+<td style="text-align: left;"><a href="patch_okcupid.html">OkCupid</a></td>
+<td style="text-align: left;">data</td>
+<td style="text-align: left;">Application</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4.2</td>
+<td style="text-align: left;"><a href="patch_stitchfix.html">StitchFix</a></td>
+<td style="text-align: left;">algorithms</td>
+<td style="text-align: left;">Application</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4.3</td>
+<td style="text-align: left;"><a href="patch_social_networks.html">Grey’s Anatomy</a></td>
+<td style="text-align: left;">practices, data</td>
+<td style="text-align: left;">Application</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4.4</td>
+<td style="text-align: left;"><a href="patch_music.html">Copywriting music</a></td>
+<td style="text-align: left;">practices</td>
+<td style="text-align: left;">Evaluation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4.5</td>
+<td style="text-align: left;"><a href="patch_race_coding.html">Coding race</a></td>
+<td style="text-align: left;">practices, data</td>
+<td style="text-align: left;">Synthesis</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4.6</td>
+<td style="text-align: left;"><a href="patch_wmd.html">Weapons of Math Destruction</a></td>
+<td style="text-align: left;">practices, algorithms</td>
+<td style="text-align: left;">Evaluation</td>
+</tr>
+</tbody>
+</table>
 </div>
-</div>
-</div>
-<p><strong>Abstract</strong>: We provide a computational exercise suitable for early introduction in an undergraduate statistics or data science course that allows students to ‘play the whole game’ of data science: performing both data collection and data analysis. While many teaching resources exist for data analysis, such resources are not as abundant for data collection given the inherent difficulty of the task. Our proposed exercise centers around student use of Google Calendar to collect data with the goal of answering the question ‘How do I spend my time?’ On the one hand, the exercise involves answering a question with near universal appeal, but on the other hand, the data collection mechanism is not beyond the reach of a typical undergraduate student. A further benefit of the exercise is that it provides an opportunity for discussions on ethical questions and considerations that data providers and data analysts face in today’s age of large-scale internet-based data collection.</p>
-<section id="learning-goals" class="level1">
-<h1>Learning Goals</h1>
-<p>The learning goals of this assignment relate to:</p>
-<ul>
-<li>Data Collection
-<ol type="1">
-<li>Experience creating measurable data observations (e.g., how is “one day” measured, or what defines “studying”).</li>
-<li>Address data collection constraints due to limits in technological capacity and human behavior.</li>
-</ol></li>
-<li>Data Ethics
-<ol start="3" type="1">
-<li>Practice the ethical and legal responsibilities of those collecting, storing, and analyzing data.</li>
-<li>Decide limits for personal privacy.</li>
-<li>Deliberate on the trade-offs between research results and privacy.</li>
-</ol></li>
-<li>“Playing the whole game”
-<ol start="6" type="1">
-<li>Tie together data collection, analysis, ethics, and communication components.</li>
-<li>Iterate between and within the components of the “whole game.”</li>
-</ol></li>
-</ul>
-</section>
-<section id="resources" class="level1">
-<h1>Resources</h1>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<p>Both Albert and Johanna’s versions of the assignment assumed basic familiarity with R and RStudio as well as the <code>ggplot2</code> and <code>dplyr</code> packages.</p>
-<ol type="1">
-<li>Previews of the assignment as given to students in
-<ul>
-<li><a href="JSE_calendar/albert.html" target="_blank">Albert’s</a> course.</li>
-<li><a href="JSE_calendar/jo.html" target="_blank">Johanna’s</a> course</li>
-</ul></li>
-<li>A <code>.zip</code> file of all files necessary for both assignments: <a href="JSE_calendar/calendar.zip" download="">calendar.zip</a></li>
-<li>Both assignments give students some variation of the starter code below:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ical)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>calendar_data <span class="ot">&lt;-</span> <span class="st">"calendar_filename.ics"</span> <span class="sc">%&gt;%</span> </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use ical package to import into R</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ical_parse_df</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert to "tibble" data frame format</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use lubridate package to wrangle dates and times</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">start_datetime =</span> <span class="fu">with_tz</span>(start, <span class="at">tzone =</span> <span class="st">"America/New_York"</span>),</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">end_datetime =</span> <span class="fu">with_tz</span>(end, <span class="at">tzone =</span> <span class="st">"America/New_York"</span>),</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">duration =</span> end_datetime <span class="sc">-</span> start_datetime,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">date =</span> <span class="fu">floor_date</span>(start_datetime, <span class="at">unit =</span> <span class="st">"day"</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert calendar entry to all lowercase and rename:</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">activity =</span> <span class="fu">tolower</span>(summary)) <span class="sc">%&gt;%</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Compute total duration of time for each day &amp; activity:</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(date, activity) <span class="sc">%&gt;%</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">duration =</span> <span class="fu">sum</span>(duration))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="screencast-demo" class="level2">
-<h2 class="anchored" data-anchor-id="screencast-demo">Screencast demo</h2>
-<p>Here is a 6m56s YouTube screencast demonstrating how to:</p>
-<ol type="1">
-<li>Log time data in Google Calendar</li>
-<li>Export the calendar data to <a href="https://en.wikipedia.org/wiki/ICalendar" target="_blank"><code>.ics</code> file format</a></li>
-<li>Import the <code>.ics</code> in R using the <code>ical</code> package</li>
-</ol>
-<center>
-<iframe width="600" height="337.5" src="https://www.youtube.com/embed/vLlR4lBWAoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</center>
-<p><br></p>
-</section>
-</section>
-<section id="examples-from-the-community" class="level1">
-<h1>Examples from the community</h1>
-<p><a href="https://www.amherst.edu/people/facstaff/kcorreia" target="_blank">Prof.&nbsp;Katharine Correia</a> at Amherst College extended our original idea and used it for her students to create <strong>data diaries</strong> during the COVID-19 quarantine period of Spring 2020. Some examples of her students’ amazing work can be found <a href="https://stat231-01-s20.github.io/data-science-diaries/" target="_blank">here</a>.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="JSE_calendar/data_diaries.png" class="img-fluid figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<hr>
+<section id="references" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-baumer2020integrating" class="csl-entry" role="listitem">
+Baumer, Benjamin S, Randi L Garcia, Albert Y Kim, Katherine M Kinnaird, and Miles Q Ott. 2022. <span>“Integrating Data Science Ethics into an Undergraduate Major: A Case Study.”</span> <em>Journal of Statistics and Data Science Education</em>. <a href="https://arxiv.org/abs/2001.07649">https://arxiv.org/abs/2001.07649</a>.
+</div>
+<div id="ref-bloom1956taxonomy" class="csl-entry" role="listitem">
+Bloom, Benjamin S et al. 1956. <span>“Taxonomy of Educational Objectives. Vol. 1: Cognitive Domain.”</span> Edited by Benjamin S Bloom et al. <em>New York: McKay</em> 20 (24): 1.
+</div>
+<div id="ref-floridi2016what" class="csl-entry" role="listitem">
+Floridi, Luciano, and Mariarosaria Taddeo. 2016. <span>“What Is Data Ethics?”</span> <em>Philosophical Transactions of the Royal Society A</em>, December. <a href="https://doi.org/10.1098/rsta.2016.0360">https://doi.org/10.1098/rsta.2016.0360</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -473,8 +417,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -483,7 +425,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/SmithCollege-SDS\.github\.io\/smithcollege-sds\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -585,7 +527,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -823,7 +764,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SmithCollege-SDS/sds-www">
+    <a class="nav-link" href="https://github.com/SmithCollege-SDS/smithcollege-sds.github.io/">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
