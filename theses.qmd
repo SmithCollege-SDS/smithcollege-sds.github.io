@@ -7,8 +7,10 @@ title: "SDS Theses FAQ"
 - Am I eligible for Departmental Honors in SDS? 
     - Please see [the College's policies on departmental honors theses](https://www.smith.edu/academics/class-deans/departmental-honors).
 - What characterizes an SDS theses? 
+- Is there a template? 
+    - Yes! Please use [`pioneerdown`](https://github.com/SmithCollege-SDS/pioneerdown)
 
 ## Archive of previous SDS theses
 
-Please see [our list of previous SDS theses](https://smithcollege-sds.github.io/awards.html#departmental-honors) and the Departmental Honors designations that they have received.
+Please see [our list of previous SDS theses](awards.qmd#departmental-honors) and the Departmental Honors designations that they have received.
 Note also that many previous theses are [archived in Smith ScholarWorks](https://scholarworks.smith.edu/sds_etd/). 

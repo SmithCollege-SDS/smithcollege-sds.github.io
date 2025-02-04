@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  echo: false
+
 # All icons on the menubar are from https://fontawesome.com/icons?d=gallery
 website:
   reader-mode: true

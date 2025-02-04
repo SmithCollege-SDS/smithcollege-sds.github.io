@@ -11,7 +11,7 @@ The faculty meets every spring to review the research projects they have supervi
 
 #### Awardees
 
-- 2024: 
+- 2024: Heng (Silvia) Song '24
 - 2023: Quinn White '23
 - 2022: Natalia Iannucci '22
 - 2021: Audrey Bertin '21
@@ -45,40 +45,33 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 	
 ## Departmental Honors
 
-- 2023
-    - Quinn White '23, Highest Honors  
-      [Using Sensitivity Analyses to Approximate Total COVID-19 Infections: State and County level in the United States, March 2021--March 2022](https://scholarworks.smith.edu/theses/)  
-      Adviser: Ben Baumer
-- 2022
-    - Natalia Iannucci '22, Highest Honors  
-      [Improving Mutational Signature Detection in Cancer through Frequentist and Bayesian Hypothesis Testing](https://scholarworks.smith.edu/theses/)  
-      Adviser: Ben Baumer
-- 2021
-    - Audrey Bertin '21, Highest Honors  
-      [Addressing The Scientific Reproducibility Crisis Through Educational Software Integration](https://scholarworks.smith.edu/theses/2317)  
-      Adviser: Ben Baumer
-- 2020
-    - Jessica Keast '20, Highest Honors  
-      [Twang Identification in American Folk and Country Music](https://scholarworks.smith.edu/theses/2227/)  
-      Adviser: Katherine Kinnaird
-    - Aoi Ogawa '20, High Honors  
-      [Estimating Microbial Diversity of Toxin Producing Bacteria from Soil Using Cellular Automata](https://scholarworks.smith.edu/theses/2251/)  
-      Adviser: Katherine Halvorsen, Chris Golé, Jan Vriezen
-    - Ziwei (Crystal) Zang '20  
-    [Metabolites Prediction in Multiple Studies Using Machine Learning](https://scholarworks.smith.edu/theses/2290/)   
-      Adviser: Katherine Halvorsen
-- 2019
-    - Julianna Alvord '19, Highest Honors  
-    [Modeling Racially Disproportionate Language on Twitter during NFL Gameplay](https://scholarworks.smith.edu/theses/2108)  
-    Adviser: Randi Garcia and Ben Baumer
-- 2018
-    - Wencong (Priscilla) Li '18, Highest Honors  
-    [Tools for understanding taxicab and e-hail service use in New York City](https://scholarworks.smith.edu/theses/2032)  
-    Adviser: Ben Baumer
-- 2017
-    - Weijia (Vega) Zhang '17, High Honors  
-    [Improving access to open-source data about the NYC bike sharing system (Citi Bike)](https://scholarworks.smith.edu/theses/1871)  
-    Adviser: Ben Baumer
+
+```{r}
+#| message: false
+library(tidyverse)
+honors <- tribble(
+  ~year, ~student, ~designation, ~title, ~id, ~first_reader, ~second_reader,
+  2024, "Heng (Silvia) Song '24", "High Honors (MST)", "Stochastic Processes and their Application in Bayesian Statistics", NA, "Kaitlyn Cook", "Jen Beichman (MTH)",
+  2023, "Quinn White '23", "Highest Honors", "Using Sensitivity Analyses to Approximate Total COVID-19 Infections: State and County level in the United States, March 2021--March 2022", NA, "Ben Baumer", "Nick Reich (UMass)",
+  2022, "Natalia Iannucci '22", "Highest Honors", "Improving Mutational Signature Detection in Cancer through Frequentist and Bayesian Hypothesis Testing", 2446, "Ben Baumer", "Giovanni Parmigiani (Harvard)",
+  2021, "Audrey Bertin '21", "Highest Honors", "Addressing The Scientific Reproducibility Crisis Through Educational Software Integration", 2317, "Ben Baumer", "Albert Kim",
+  2020, "Jessica Keast '20", "Highest Honors", "Twang Identification in American Folk and Country Music", 2227, "Katherine Kinnaird", "Albert Kim",
+  2020, "Aoi Ogawa '20", "High Honors", "Estimating Microbial Diversity of Toxin Producing Bacteria from Soil Using Cellular Automata", 2251, "Katherine Halvorsen", "Chris Golé (MTH)", 
+  2020, "Ziwei (Crystal) Zang '20", "High Honors", "Metabolites Prediction in Multiple Studies Using Machine Learning", 2290, "Katherine Halvorsen", "Ed Resnick (Memorial Sloan Kettering)",
+  2019, "Julianna Alvord '19", "Highest Honors", "Modeling Racially Disproportionate Language on Twitter during NFL Gameplay", 2108, "Randi Garcia", "Ben Baumer",
+  2018, "Wencong (Priscilla) Li '18", "Highest Honors", "Tools for understanding taxicab and e-hail service use in New York City", 2032, "Ben Baumer", "Jordan Crouser", 
+  2017, "Weijia (Vega) Zhang '17", "High Honors", "Improving access to open-source data about the NYC bike sharing system (Citi Bike", 1871, "Ben Baumer", "Jordan Crouser",
+)
+honors |>
+  mutate(
+    link = paste0("[", title, "](https://scholarworks.smith.edu/theses/", id, ")" )
+  ) |>
+  select(year, student, designation, link, first_reader, second_reader) |>
+  janitor::clean_names(case = "title") |>
+  knitr::kable()
+```
+
+
 
 	
 ## Competitions
