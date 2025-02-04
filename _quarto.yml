@@ -17,9 +17,6 @@ website:
             href: awards.html
           - text: "Mu Sigma Rho"
             href: mu_sigma_rho.qmd
-      - text: "Events"
-        icon: fa-ticket
-        href: events.qmd
       - text: "Help"
         icon: fa-question-circle
         href: rmarkdown_problems.html

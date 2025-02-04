@@ -11,7 +11,10 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 
 ## Program Updates
 
-- No DataFest this year. But we got a beautiful new trophy case: pics 
+- No DataFest this year. But we got a beautiful new trophy case: 
+
+![trophy_case](gfx/trophy_case.png)
+
 - **Randi Garcia** begun her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below. 
 
 ### Previous Updates
@@ -79,8 +82,9 @@ This past year I was excited to develop and teach a new statistics depth course 
 
 
 #### Will Hopper
+The 2023-24 academic year had some exciting and fun firsts for me! During the summer, I developed and taught a new course for third-year students in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, focused on applying hierarchical regression models and structural equation models to data analysis and research problems in social science settings. During the "regular" academic year, I got to teach SDS 270: Programming for Data Science for the first (and second!) time. Since I typically teach courses focused on the statistics side of the SDS coin, I enjoyed the chance to teach a programming-focused class. Developing and teaching new classes is a lot of work, but it's also the most fun part of teaching; a new class is a bit like a blank canvas, and you get to be creative in finding the best way to fill it with what your students need to know.
 
-
+This fall, I'm looking forward to taking on advisees for the first time, watching the [Pokemon World Championships](https://worlds.pokemon.com/en-us/in-person/tournament-info/){target="_blank"}, and teaching [SDS 100: Reproducible Computing with Data](https://smithcollege-sds.github.io/sds100/){target="_blank"} for the first time!
 
 #### Albert Y. Kim
 
