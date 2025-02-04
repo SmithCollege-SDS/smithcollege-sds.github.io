@@ -6,9 +6,12 @@ title: "SDS Theses FAQ"
 
 - Am I eligible for Departmental Honors in SDS? 
     - Please see [the College's policies on departmental honors theses](https://www.smith.edu/academics/class-deans/departmental-honors).
+- Who should I ask to be my first and second reader? 
+    - Please review the [Faculty Research Profiles](research.qmd) and look for a good match. Please note that faculty have varying schedules and capacities for advising theses, and may or may not be available to serve as one of your readers. 
 - What characterizes an SDS theses? 
+- Should I do a Departmental Honors Thesis? 
 - Is there a template? 
-    - Yes! Please use [`pioneerdown`](https://github.com/SmithCollege-SDS/pioneerdown)
+    - Yes! Please use [`pioneerdown`](https://github.com/SmithCollege-SDS/pioneerdown).
 
 ## Archive of previous SDS theses
 
