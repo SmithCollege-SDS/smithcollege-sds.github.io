@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -305,86 +271,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">eval =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <section id="check-existing-library-paths" class="level2">
 <h2 class="anchored" data-anchor-id="check-existing-library-paths">Check existing library paths</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>libs <span class="ot">&lt;-</span> <span class="fu">.libPaths</span>()</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>libs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <blockquote class="blockquote">
 <p>Note: <code>admin</code> installs into <code>/usr/local/lib/R/site-library</code></p>
 </blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sys.lib <span class="ot">&lt;-</span> <span class="st">"/usr/local/lib/R/site-library"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="currently-installed-packages" class="level2">
 <h2 class="anchored" data-anchor-id="currently-installed-packages">Currently installed packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pkgs <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">installed.packages</span>(sys.lib))</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>pkgs.here <span class="ot">&lt;-</span> <span class="fu">as.character</span>(pkgs<span class="sc">$</span>Package)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># these are the packages that are installed in the system library</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>pkgs.here</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="update-currently-installed-packages" class="level2">
 <h2 class="anchored" data-anchor-id="update-currently-installed-packages">Update currently installed packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># run this first -- should always be safe</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">update.packages</span>(<span class="at">lib.loc =</span> sys.lib)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="sds-packages-requested" class="level2">
 <h2 class="anchored" data-anchor-id="sds-packages-requested">SDS packages requested</h2>
 <p>These packages should be installed in the system library for all users. Please update these <strong>every semester</strong></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>pkgs.desired <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"mosaic"</span>, <span class="st">"dplyr"</span>, <span class="st">"rmarkdown"</span>, <span class="st">"knitr"</span>, <span class="st">"markdown"</span>, <span class="st">"formatR"</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"rstudio"</span>, <span class="st">"ggplot2"</span>, <span class="st">"tidyr"</span>, <span class="st">"stringr"</span>, <span class="st">"agricolae"</span>, <span class="st">"leaps"</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"Lahman"</span>, <span class="st">"twitteR"</span>, <span class="st">"latticeExtra"</span>, <span class="st">"RSQLite"</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"igraph"</span>, <span class="st">"Stat2Data"</span>, <span class="st">"lme4"</span>, <span class="st">"sp"</span>, <span class="st">"maptools"</span>, <span class="st">"rpart"</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"manipulate"</span>, <span class="st">"BiocInstaller"</span>, <span class="st">"mosaicData"</span>, <span class="st">"RcolorBrewer"</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"nycflights13"</span>, <span class="st">"devtools"</span>, <span class="st">"googlesheets"</span>, <span class="st">"readr"</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"mdsr"</span>, <span class="st">"etl"</span>, <span class="st">"macleish"</span>, <span class="st">"lubridate"</span>, <span class="st">"openintro"</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"tm"</span>, <span class="st">"jsonlite"</span>, <span class="st">"ggmap"</span>, <span class="st">"ggvis"</span>, <span class="st">"Rcpp"</span>, <span class="st">"plotly"</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"tigris"</span>, <span class="st">"rvest"</span>, <span class="st">"MASS"</span>, <span class="st">"XML"</span>, <span class="st">"leaflet"</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>                  , <span class="st">"readxl"</span>, <span class="st">"rmarkdown"</span>, <span class="st">"DBI"</span>, <span class="st">"ISLR"</span>, <span class="st">"broom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="install-missing-requested-packages" class="level2">
 <h2 class="anchored" data-anchor-id="install-missing-requested-packages">Install missing requested packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># run this -- should always be safe but may take a while</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">setdiff</span>(pkgs.desired, pkgs.here), <span class="at">lib =</span> sys.lib)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="non-standard-installs" class="level2">
 <h2 class="anchored" data-anchor-id="non-standard-installs">Non-standard installs</h2>
 <p>These packages may have external dependencies that require some finagling.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>pkgs.tricky <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"RMySQL"</span>, <span class="st">"RPostgreSQL"</span>, <span class="st">"rgdal"</span>, <span class="st">"rgeos"</span>)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">setdiff</span>(pkgs.tricky, pkgs.here), <span class="at">lib =</span> sys.lib)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <p>These packages are not on CRAN and must be installed from GtiHub.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>pkgs.github <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"andrewpbray/oilabs"</span>, <span class="st">"rstudio/sparklyr"</span>, <span class="st">"omegahat/Sxslt"</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lapply</span>(pkgs.github, <span class="at">FUN =</span> <span class="st">"devtools::install_github"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="find-multiply-installed-packages" class="level2">
 <h2 class="anchored" data-anchor-id="find-multiply-installed-packages">Find multiply installed packages</h2>
 <p>Note that packages can be installed in multiple libraries!</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">installed.packages</span>()) <span class="sc">%&gt;%</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Package) <span class="sc">%&gt;%</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">N =</span> <span class="fu">n</span>(), <span class="at">where =</span> <span class="fu">paste</span>(LibPath, <span class="at">collapse =</span> <span class="st">", "</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(N <span class="sc">&gt;</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print.data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 
 
 </section>
