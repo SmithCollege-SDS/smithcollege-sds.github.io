@@ -1,5 +1,7 @@
 docs/*.bib
 docs/
+_site/
+.quarto/
 
 # History files
 .Rhistory
