@@ -1,5 +1,6 @@
 docs/*.bib
 docs/
+_site/
 
 # History files
 .Rhistory
@@ -38,3 +39,5 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+/.quarto/
