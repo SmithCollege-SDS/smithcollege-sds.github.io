@@ -34,6 +34,7 @@ jobs:
             any::ical
             any::lubridate
             any::mosaic
+            any::janitor
 
       - name: GitHub packages
         run: |
