@@ -8,10 +8,10 @@ website:
   navbar:
     left:
       - text: "Home"
-        icon: fa-home
+        icon: house
         href: index.qmd
       - text: "Awards"
-        icon: fa-award
+        icon: award
         menu:
           - text: Honors & Prizes
             href: awards.html
@@ -21,13 +21,13 @@ website:
         icon: fa-question-circle
         href: rmarkdown_problems.html
       - text: "Writing"
-        icon: fa-pencil-alt
+        icon: pencil
         menu:
           - text: "Publications"
-            icon: fa-scroll
+            icon: journals
             href: https://scholarworks.smith.edu/sds/
           - text: "Newsletters"
-            icon: fa-newspaper
+            icon: newspaper
           - text: "2024"
             href: sds_newsletter_2024.qmd
           - text: "2023"
@@ -47,13 +47,13 @@ website:
           - text: "2016"
             href: sds_newsletter_2016.html
       - text: Teaching
-        icon: fa-chalkboard-teacher
+        icon: rulers
         menu:
           - text: "Ethics"
-            icon: fa-book
+            icon: person-raised-hand
             href: sds-www/ethics.Rmd
           - text: "Calendar"
-            icon: fa-calendar-alt
+            icon: calendar-check
             href: sds-www/JSE_calendar.Rmd
     right:
       - icon: fa-github

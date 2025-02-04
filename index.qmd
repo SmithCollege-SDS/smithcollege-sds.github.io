@@ -5,9 +5,7 @@ output:
     toc: false
 ---
 
-This website is managed by the SDS faculty. For our official website, please visit [smith.edu](https://www.smith.edu/academics/statistics).
-
-Please see our [list of resources for self-study](self_study.html)
+This website is managed by the SDS faculty. For our official website, please visit [smith.edu](https://www.smith.edu/academics/statistical-data-sciences).
 
 
 ## Who we are
