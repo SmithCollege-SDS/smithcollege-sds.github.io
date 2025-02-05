@@ -31,16 +31,16 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 
 #### Awardees
 
-- 2024: 
-- 2023: Aushanae Haller '23J, Clara Li '23 <cite>(outstanding service to statistics)</cite>
-- 2022: Sarah Gillespie '22J, Joyce Huang '22, Arris Moise '22, Chichi Wu '22 <cite>(outstanding service to statistics)</cite>
-- 2021: Yujia (Starry) Zhou '21J and Hannah Snell '21 <cite>(outstanding service to statistics)</cite>
-- 2020: Laneé Jung '20 and Fatima Keita '20 <cite>(outstanding service to statistics)</cite>
-- 2019: Yue Kuang '19, Zixian Li '19, and Jingyi Liu '19 <cite>(outstanding senior capstone project)</cite>
-- 2018: Paige Patrick 'AC and Rutendo Madziwo '19 <cite>(outstanding service to statistics)</cite>
-- 2017: Abby Doctor '17 <cite>(outstanding senior capstone project)</cite>
-- 2016: Yiwen Zhu '16 and Emma Beauchamp '16 <cite>(outstanding theses)</cite>
-- 2015: Weijia (Vega) Zhang '18 <cite>(outstanding non-senior)</cite>
+- 2024: Christy Yang '25J and Vicky Xu '26 *(outstanding service to statistics)*
+- 2023: Aushanae Haller '23J, Clara Li '23 *(outstanding service to statistics)*
+- 2022: Sarah Gillespie '22J, Joyce Huang '22, Arris Moise '22, Chichi Wu '22 *(outstanding service to statistics)*
+- 2021: Yujia (Starry) Zhou '21J and Hannah Snell '21 *(outstanding service to statistics)*
+- 2020: Laneé Jung '20 and Fatima Keita '20 *(outstanding service to statistics)*
+- 2019: Yue Kuang '19, Zixian Li '19, and Jingyi Liu '19 *(outstanding senior capstone project)*
+- 2018: Paige Patrick 'AC and Rutendo Madziwo '19 *(outstanding service to statistics)*
+- 2017: Abby Doctor '17 *(outstanding senior capstone project)*
+- 2016: Yiwen Zhu '16 and Emma Beauchamp '16 *(outstanding theses)*
+- 2015: Weijia (Vega) Zhang '18 *(outstanding non-senior)*
 
 	
 ## Departmental Honors
@@ -83,34 +83,34 @@ DataFest is a national undergraduate data analysis competition hosted at UMass e
 Recent winners from Smith include:
 
 - [2023](https://www.science.smith.edu/datafest/2023/04/10/recap-from-the-2023-asa-five-college-datafest/)
-    - Best in Show: The Model Mavericks </br>
+    - Best in Show: The Model Mavericks   
       Clara Li '23, Nikki Lin, Rose Porta '23, Quinn White '23, and Kushagra Srivastava (UMass)
-    - Best in Group (Panel B): Sexy Data Scientists </br>
+    - Best in Group (Panel B): Sexy Data Scientists   
       Sarah Branch, Yaretsy Castro, Camila Maldonado, Su Than Thar Nyi, and Sonia Paredes
 
 
 - <a href="http://www.science.smith.edu/datafest/2019/04/03/winners-from-five-college-asa-datafest-2019/">2019</a>
-    - Best in Show: A-super-NOVA </br>
+    - Best in Show: A-super-NOVA   
     	Audrey Bertin '21, Arielle Dror '20, Clara Rosenberg '20, Kara VanAllen '20
-    - Best in Group (Panel B): Data Pirates </br>
+    - Best in Group (Panel B): Data Pirates   
     	Tina Liu '22, Francesca Giardine, Jessica Keast '20
-    - Best Multilevel Solution: ggsquad2</br>
+    - Best Multilevel Solution: ggsquad2  
     	Elaona Lemoto '20, Ana Porro, Mathena Abramson '19, Paige Patrick AC, Jordan Moody '20
-    - Best External Data: FUN[ction]</br>
+    - Best External Data: FUN[ction]  
     	Khulood Fahim, Zoya Alam, Melanie Nguyen, Julia Bouzaher
-    - Best Actionable Insight: LeGit</br>
+    - Best Actionable Insight: LeGit  
     	Victoria Zheng, Sunni Raleigh, Kelly Pien, Catherine Kung
-    - Best Data Insight: Unofficial Intelligence</br>
+    - Best Data Insight: Unofficial Intelligence  
     	Yanwan Zhu, Xian (Elaine) Ye, Rachel Yan, Kelly Shen '21, Yifan Ma '20, Nichole Yao
 - <a href="http://www.science.smith.edu/datafest/2018/03/27/winners-from-asa-five-college-datafest-2018/">2018</a>
-    - Best in Group (Panel B): A-super-NOVA </br>
+    - Best in Group (Panel B): A-super-NOVA   
     	Audrey Bertin '21, Riley Boeth '18, Emma Livingston '20, Clara Rosenberg '20, Kara VanAllen '20
 -	<a href="http://www.science.smith.edu/datafest/2017/04/02/recap-of-winners-from-datafest-2017/">2017</a>
-    - Best in Show: DataBest </br>
+    - Best in Show: DataBest   
     	Zainab Aqdas Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18, Ji Wong Chung '18 and Van Nguyen '18
-    - Best Statistical Interpretation: Normally Distributed </br>
+    - Best Statistical Interpretation: Normally Distributed   
     	Zixian Li '19, Angie Dinh '17, Abby Doctor '17, Erina Fukuda '18 and Raeesa Alam '19J
-    - Best Business Insight: Standard Divination </br>
+    - Best Business Insight: Standard Divination   
     	Isabella Zhu '20, Cas Sweeney '19, Sarah Abowitz '20 and Garcia Sun '20
 -	<a href="http://www.science.smith.edu/datafest/2015/03/30/datafest-2015-recap/">2015</a>
     - Best in Show: 2&beta;||!2&beta; <br>
@@ -128,49 +128,49 @@ Recent winners from Smith include:
 
 - 2022
     - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2022/spring/winners): Grace Rade '24, Audrey Kim '24, Lisa Li '24, & Joy Mahoney '24  
-    <cite>"Analysis Of Age, Race And Income As Factors Of Work Time"</cite>  
+    *"Analysis Of Age, Race And Income As Factors Of Work Time"*  
     Faculty sponsor: Will Hopper
 - 2021
     - [3rd Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2021/spring/winners): Quinn White '23 and Rose Evard '23  
-    <cite>"Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication?"</cite>  
+    *"Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication?"*  
     Faculty sponsor: Miles Ott
 - 2020
     - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/fall/winners): Xian Ye '21, Hannah Snell '21, Dianne Caravela '22, & Natalia Iannucci '22  
-    <cite>"Bayesian Analysis of Quality of Life and PPE (Personal Protective Equipment) Use During the Coronavirus (COVID-19) Pandemic"</cite>  
+    *"Bayesian Analysis of Quality of Life and PPE (Personal Protective Equipment) Use During the Coronavirus (COVID-19) Pandemic"*  
     Faculty sponsor: Miles Ott
     - [Honorable Mention (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/fall/winners): Juliet Ramey-Lariviere '22, Ivy Chen '22, & Kathleen Hablutzel '23  
-    <cite>"Measuring Healthcare Access: Are Income and Health Insurance Coverage Associated with whether Americans have a Usual Doctor's Office?"</cite>  
+    *"Measuring Healthcare Access: Are Income and Health Insurance Coverage Associated with whether Americans have a Usual Doctor's Office?"*  
     Faculty sponsor: Miles Ott
     - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2020/spring/winners): Clara Li '23, Rose Porta '23  
-    <cite>"Analysis of Sleep and Depression as Risk Factors for Diabetes"</cite>  
+    *"Analysis of Sleep and Depression as Risk Factors for Diabetes"*  
     Faculty sponsor: Ben Capistrant
 - 2018
     - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2018/spring/winners): Rebecca Wolf '20, Francesca Giardine '20, Denize Keles '20, & Rebecca Miller '20  
-    <cite>"Statistical Analysis of Climate Change Variables"</cite>  
+    *"Statistical Analysis of Climate Change Variables"*  
     Faculty sponsor: Miles Ott
 - 2017
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">2nd Place (Introductory Statistics)</a>: Erina Fukuda '18  
-    <cite>"Factors that Impact Video Game Sales"</cite>  
+    - [2nd Place (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2017/fall/winners): Erina Fukuda '18  
+    *"Factors that Impact Video Game Sales"*  
     Faculty sponsor: Ulf Aslak Jensen (DIS)
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/fall/winners">1st Place (Intermediate Statistics)</a>: Angelica Estrada '18 PB, Jessica Wert '18, Oumayma Koulouh '19  
-    <cite>"Helping the Red Cross Predict Flooding in Togo"</cite>  
+    - [1st Place (Intermediate Statistics)](https://www.causeweb.org/usproc/usclap/2017/fall/winners): Angelica Estrada '18 PB, Jessica Wert '18, Oumayma Koulouh '19  
+    *"Helping the Red Cross Predict Flooding in Togo"*  
     Faculty sponsor: Jordan Crouser
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">2nd Place (First Course in Statistics)</a>: Ngoc (Angie) Dinh '17, Van Nguyen '18, Abby Doctor '17, Christine Yee '17  
-    <cite>"What Are Your Odds?":An Interactive Web Application to Visualize Health Outcomes</cite>  
+    - [2nd Place (First Course in Statistics)](https://www.causeweb.org/usproc/usclap/2017/spring/winners): Ngoc (Angie) Dinh '17, Van Nguyen '18, Abby Doctor '17, Christine Yee '17  
+    *"What Are Your Odds?":An Interactive Web Application to Visualize Health Outcomes*  
     Faculty sponsor: Jordan Crouser
-    - <a href="https://www.causeweb.org/usproc/usclap/2017/spring/winners">3rd Place (Second Course in Statistics)</a>: Ji Won Chung '18, Zainab Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18  
-    <cite>A Business Opportunity: Targeting Expedia's Niche Market in Travel Packages Via Analytical and Predictive Modeling</cite>  
+    - [3rd Place (Second Course in Statistics)](https://www.causeweb.org/usproc/usclap/2017/spring/winners): Ji Won Chung '18, Zainab Rizvi '18, Subashini Sridhar '18J, Ji Young Yun '18  
+    *A Business Opportunity: Targeting Expedia's Niche Market in Travel Packages Via Analytical and Predictive Modeling*  
     Faculty sponsor: Jordan Crouser
 - 2016
-    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">1st Place (First Course in Statistics)</a>: Madison Laethem '17, Grace Zhan '18  
-    <cite>Predicting Student Debt Upon College Graduation</cite>  
+    - [1st Place (First Course in Statistics)](https://www.causeweb.org/usproc/content/2016-fall-usclap-winners): Madison Laethem '17, Grace Zhan '18  
+    *Predicting Student Debt Upon College Graduation*  
     Faculty sponsor: Jordan Crouser
-    - <a href="https://www.causeweb.org/usproc/content/2016-fall-usclap-winners">2nd Place (Second Course in Statistics)</a>:Ji Young Yun '18, Wencong Li '18  
-    <cite>NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?</cite>  
+    - [2nd Place (Second Course in Statistics)](https://www.causeweb.org/usproc/content/2016-fall-usclap-winners):Ji Young Yun '18, Wencong Li '18  
+    *NYC 311 - What are some of the factors that determine the number of days spent to solve non-emergency issues in New York City?*  
     Faculty sponsor: Jordan Crouser
 - 2014
-    - <a href="https://www.causeweb.org/usproc/2014%20Winning%20Projects">Honorable Mention</a>: Sara Stoudt '15, Dana Udwin '14, and Kelly Francis '15  
-    <cite>WeathR: Twitter perspectives on the weather</cite>  
+    - [Honorable Mention](https://www.causeweb.org/usproc/2014%20Winning%20Projects): Sara Stoudt '15, Dana Udwin '14, and Kelly Francis '15  
+    *WeathR: Twitter perspectives on the weather*  
     Faculty sponsor: Ben Baumer
 
 ### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
