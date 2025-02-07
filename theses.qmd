@@ -2,14 +2,40 @@
 title: "SDS Theses FAQ"
 ---
 
+## Departmental Honors guidelines
+
+The following procedures were ratified on November 14, 2016.
+
+- GPA in major: >= 3.3
+- GPA in other courses: >= 3.0
+- Exam: Oral presentation[^oral], followed by a private interview with faculty asking questions about the presentation
+- Percentages for final honors grade:
+    - Thesis (Readers): 60%
+    - Grades: 20%
+    - Exam: 20%
+
+[^oral]: The oral presentation typically lasts about 30 minutes. Students and guests are invited to ask questions once the presentation has concluded. Once these questions have been answered, students and guests are asked to leave, so that faculty may ask questions of the presenter in private. 
+
 ## Frequently Asked Questions
 
 - Am I eligible for Departmental Honors in SDS? 
     - Please see [the College's policies on departmental honors theses](https://www.smith.edu/academics/class-deans/departmental-honors).
+- What characterizes an SDS theses? 
+    - As SDS Departmental Honors theses needs to **focus on data** in some non-trivial way. Previous SDS theses have accomplished this in various ways. A non-exhaustive list of examples would include:
+        - Development focus: build an R package that interfaces with a rich data set and/or provides an interactive dashboard
+        - Methodology focus: learn about a sophisticated statistical methodology that is beyond the scope of the regular SDS curriculum and explain it and apply it in context
+        - Application focus: investigate a real-world problem using sophisticated statistics and data science techniques and provide a nuanced analysis in context
+        - Data focus: collect, curate, and/or document a novel data set using ethnographic techniques
+- Should I do a Departmental Honors Thesis? 
+    - It depends. Please talk to your major adviser and your potential first reader.   
+      
+      Departmental Honors theses are generally most appropriate for students who have completed the SDS curriculum early, have previous research experience, and are very likely to pursue graduate school in the near future. 
+        - For students who want research experience: A departmental honors thesis is generally *not* the best way to gain research experience, since it is inherently more of a solo project. Joining a research lab is generally a better way to gain research experience. Co-authoring a peer-reviewed journal article with a faculty mentor is generally more visible and a stronger research contribution to a graduate school application than a thesis. 
+        - For students with a second major: Note that if you do your thesis in your *other* major, it will count towards the application domain requirement for the SDS major. Application-focused theses are generally better situated in a second major (if there is one). 
+        - For students interested in graduate school: You may find that taking an advanced undergraduate or graduate-level class at UMass is a better investment of your time and will give you a better sense of what graduate school is like. It also might fulfill a course requirement in your graduate program (which a thesis will not). 
+        - For students who just want Honors: It is true that Departmental Honors theses are the only mechanism Smith has for earning Departmental Honors. However, as noted above, there are often better mechanisms for enriching your academic experience at Smith. 
 - Who should I ask to be my first and second reader? 
     - Please review the [Faculty Research Profiles](research.qmd) and look for a good match. Please note that faculty have varying schedules and capacities for advising theses, and may or may not be available to serve as one of your readers. 
-- What characterizes an SDS theses? 
-- Should I do a Departmental Honors Thesis? 
 - Is there a template? 
     - Yes! Please use [`pioneerdown`](https://github.com/SmithCollege-SDS/pioneerdown).
 

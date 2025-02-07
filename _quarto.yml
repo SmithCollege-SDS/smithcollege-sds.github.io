@@ -78,6 +78,5 @@ format:
   html:
     theme: yeti
     highlight: pygments
-    css: include/smith.css
     toc: true
     toc_float: true
