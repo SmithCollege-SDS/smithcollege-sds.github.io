@@ -16,6 +16,6 @@ This website is managed by the SDS faculty. For our official website, please vis
 - Not pictured: Ben Baumer, Kelley Dunphy (administrative coordinator), Ab Mosca, Yujie Wang, Kementari Whitcher
 
 ```{r, echo = FALSE}
-knitr::include_graphics("gfx/sds-2024.jpg")
+knitr::include_graphics("gfx/sds-2024.JPG")
 ```
 
