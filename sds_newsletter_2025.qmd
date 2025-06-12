@@ -39,7 +39,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 
 Hola, buenas días!
 
-I'm glad to be back in Northampton after spending my full-year sabbatical in Medellín, Colombia!
+I'm glad to be back in Northampton after spending my full-year sabbatical (AY24) in Medellín, Colombia!
 It was an amazing experience from which we all learned a great deal. 
 My wife and I took many Spanish classes at [Universidad EAFIT](https://www.eafit.edu.co/), which is a lovely place to study. 
 We advanced to B2 level Spanish in the [CEFR framework](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages). 
@@ -48,6 +48,11 @@ I suppose it's bittersweet to report that our daughters are both: 1) much better
 While on sabbatical I was able to complete the [3rd edition of *Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/), and I struck up a new collaboration with a statistician that I met at EAFIT. 
 We're working on [an R package](https://github.com/beanumber/tidychangepoint/) and [a paper](https://beanumber.github.io/changepoint-paper/) for changepoint detection algorithms. 
 
+The transition back in AY25 was fairly smooth. 
+I enjoyed teaching SDS 270, 236, and the capstone (twice!). 
+This summer I'm putting together a course on sports analytics (SDS 355) for the first time!
+
+Outside of work, I'm coaching my daughters' basketball and softball teams, and we got a dog (a miniature schnauzer-terrier mix) who likes to bark at other dogs. 
 
 #### Shiya Cao
 
