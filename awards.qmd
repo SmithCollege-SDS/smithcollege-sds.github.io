@@ -53,6 +53,9 @@ The [Five College Statistics](https://www.fivecolleges.edu/statistics/) prize is
 library(tidyverse)
 honors <- tribble(
   ~year, ~student, ~designation, ~title, ~id, ~first_reader, ~second_reader,
+  2025, "Elm Markert '25", "", "", NA, "Kaitlyn Cook", "",
+  2025, "Tillie Slosser '25", "", "", NA, "Scott LaCombe", "",
+  2025, "Skyler Williams '25", "(MST)", "", NA, "Kaitlyn Cook", "Rebecca Kurtz-Garcia",
   2024, "Heng (Silvia) Song '24", "High Honors (MST)", "Stochastic Processes and their Application in Bayesian Statistics", NA, "Kaitlyn Cook", "Jen Beichman (MTH)",
   2023, "Quinn White '23", "Highest Honors", "Using Sensitivity Analyses to Approximate Total COVID-19 Infections: State and County level in the United States, March 2021--March 2022", NA, "Ben Baumer", "Nick Reich (UMass)",
   2022, "Natalia Iannucci '22", "Highest Honors", "Improving Mutational Signature Detection in Cancer through Frequentist and Bayesian Hypothesis Testing", 2446, "Ben Baumer", "Giovanni Parmigiani (Harvard)",
