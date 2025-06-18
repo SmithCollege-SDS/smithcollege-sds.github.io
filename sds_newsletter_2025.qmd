@@ -39,7 +39,7 @@ https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn gr
 
 Hola, buenas días!
 
-I'm glad to be back in Northampton after spending my full-year sabbatical in Medellín, Colombia!
+I'm glad to be back in Northampton after spending my full-year sabbatical (AY24) in Medellín, Colombia!
 It was an amazing experience from which we all learned a great deal. 
 My wife and I took many Spanish classes at [Universidad EAFIT](https://www.eafit.edu.co/), which is a lovely place to study. 
 We advanced to B2 level Spanish in the [CEFR framework](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages). 
@@ -48,6 +48,11 @@ I suppose it's bittersweet to report that our daughters are both: 1) much better
 While on sabbatical I was able to complete the [3rd edition of *Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/), and I struck up a new collaboration with a statistician that I met at EAFIT. 
 We're working on [an R package](https://github.com/beanumber/tidychangepoint/) and [a paper](https://beanumber.github.io/changepoint-paper/) for changepoint detection algorithms. 
 
+The transition back in AY25 was fairly smooth. 
+I enjoyed teaching SDS 270, 236, and the capstone (twice!). 
+This summer I'm putting together a course on sports analytics (SDS 355) for the first time!
+
+Outside of work, I'm coaching my daughters' basketball and softball teams, and we got a dog (a miniature schnauzer-terrier mix) who likes to bark at other dogs. 
 
 #### Shiya Cao
 
@@ -133,32 +138,38 @@ This coming year, I'm looking forward to continuing my research examining the cu
 
 Many of us will be at the [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/index.cfm) during the first week of August. 
 
-Don't miss these events featuring Smithies!
+Don't miss these events featuring Smithies and current faculty!
 
-- [IOL: Quantum Computing for Statisticians](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1725)  
+- [Analysis of Analytic Treatment Interruption Trials with Misclassified Interval-Censored](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4523)  
+  Skyler Williams and Kaitlyn Cook
+- [Data-Driven Writing Prompts (for Humans): Creative Writing Meets Data Storytelling](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)  
+  Sara Stoudt '15
+- [Artisanal Programming](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)  
+  Ben Baumer (speaker and organizer)
+- [Hierarchical Bayesian Modeling for Battle Royale Style Competitions](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2203)  
+  Rebecca Kurtz-Garcia (speaker and organizer)
+- [Examining the Sexual Orientation and Gender Intersection-Related Healthcare Disparities](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4725)  
+  Shiya Cao
+- [What Skills/Concepts/Experiences are Important in a Course/Program/Job in Sports Analytics](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1324)  
+  Ben Baumer (chair)
+- [Teaching Bayesian Methods to Undergraduate Learners](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=3777)  
+  Mine Dogucu '09
+- [The Design and Implementation of a Bayesian Data Analysis Lesson for Pre-Service Teachers](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2386)  
+  Mine Dogucu '09
+- [Accessible Causal Inference](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1450)  
+  Elizabeth Stuart '97 (chair)
+- [AI & Statistical Approaches to Data Fusion](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1852)  
   Elizabeth Stuart '97 (organizer)
-- [Synthetic Data in Preserving Privacy: Connections Across Federal Statistics and Health Data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1179)
-  Elizabeth Stuart '97 (organizer)
-- [Advancing Bayesian Thinking in STEM Education](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1952)  
-  Mine Dogucu '09 (discussant)
-- [Connecting the Dots in Data Science Education: Learning From Different Teaching Contexts](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=2166)  
-  Mine Dogucu '09 (organizer)
-- [Artificial Intelligence (AI) and Machine Learning (ML) in Business and Industry](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1373)  
-  Maria Terres '09 (panelist)
-- [Data Science Ethics: Bridging Teaching and Practice](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1242)
-    - [A Multimodal Approach to Integrating Ethics into an Undergraduate Data Science Curriculum](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1244)  
-      Randi Garcia
-    - [Data Ethnography: Cultivating Reflexive Sensibilities through the Cultural Analysis of Datasets](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1247)  
-      Lindsay Poirier
-- [Statistical Analyses and Applications for Studying Intersectionality and Disability Inclusion](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1593)  
-      Kaitlyn Cook (chair)  
-      Shiya Cao (organizer)
-    - [Model interpretation after using random projections: An applied study on travel disability data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1597)  
-      Shiya Cao
-- [Innovative Adaptive Statistical Models for Time Series Data](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=1792)  
-  Rebecca Kurtz-Garcia (chair)
-- [Bandwidth Selection for Zero Lugsail Estimators](https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=2442)  
-  Rebecca Kurtz-Garcia
+- [Navigating Challenges and Leveraging Opportunities in Biostatistics Graduate Education](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1694)  
+  Elizabeth Stuart '97 (panelist)
+
+Join us for the **Smith JSM get together**:
+
+[Miranda Lambert's Casa Rosa](https://casarosanashville.com/our-menu/)  
+308 Broadway  
+Nashville, TN 37201  
+Monday, August 4th  
+7 - 8:30 pm
 
 We hope to see you there!
 
