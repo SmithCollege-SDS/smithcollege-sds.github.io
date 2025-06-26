@@ -2,109 +2,167 @@
 title: "SDS Newsletter"
 author: "Randi Garcia"
 date: "June 27, 2025"
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
-This newsletter is mostly a distillation of our Twitter @[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) feed. Please follow us to see more news, updates, and pictures!
+This newsletter is mostly a distillation of our Twitter \@[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) feed.
+Please follow us to see more news, updates, and pictures!
 
-There is also a [Facebook group](
-https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn group, and a [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945). **Please help us reach out to other alumnae by having them contact me!**
+There is also a [Facebook group](https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn group, and a [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945).
+**Please help us reach out to other alumnae by having them contact me!**
 
 ## Program Updates
 
-- There was no DataFest in 2024, but we got a beautiful new trophy case: 
+-   Prof. Scott LaCombe won the [junior faculty teaching award at Rally Day](https://www.smith.edu/news-events/events/rally-day). So exciting and so well deserved!!!
 
-![trophy_case](gfx/trophy_case.png)
+![](scott_sga_award.jpg)
 
-- **Randi Garcia** began her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below. 
+-   There was no DataFest in 2024, but we got a beautiful new trophy case:
+
+![](gfx/trophy_case.png)
+
+-   DataFest resumed in 2025 with Mount Holyoke College (Yokies: Fannie Fouron, Kate Khe Hoang, Linh Nguyen, Jade Pham) taking home the best in show trophy for the first time! Here's a picture of Ben handing it over:
+
+![](gfx/mhc_winners_2025.png)
+
+Now the trophy case has an empty spot...for now:
+
+![](gfx/trophy_case_no-trophy.png)
+
+-   Smith won a Best in Group (Panel B). Congratulations Data Wranglers (Itzel Aleman Flores, Danielle Justo, Zoe Khan)!!
+
+![](gfx/data_wranglers.png)
+
+-   Preparing for our very first decennial review next year.
 
 ### Previous Updates
 
-- [2024](sds_newsletter_2024.html)
-- [2023](sds_newsletter_2023.html)
-- [2022](sds_newsletter_2022.html)
-- [2021](sds_newsletter_2021.html)
-- [2020](sds_newsletter_2020.html)
-- [2019](sds_newsletter_2019.html)
-- [2018](sds_newsletter_2018.html)
-- [2017](sds_newsletter_2017.html)
-- [2016](sds_newsletter_2016.html)
+-   [2024](sds_newsletter_2024.html)
+-   [2023](sds_newsletter_2023.html)
+-   [2022](sds_newsletter_2022.html)
+-   [2021](sds_newsletter_2021.html)
+-   [2020](sds_newsletter_2020.html)
+-   [2019](sds_newsletter_2019.html)
+-   [2018](sds_newsletter_2018.html)
+-   [2017](sds_newsletter_2017.html)
+-   [2016](sds_newsletter_2016.html)
+
+## Faculty Updates
+
+-   **Randi Garcia** began her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below.
+-   **Shiya Cao** and **Kaitlyn Cook** were reappointed!
+-   We hired **Nikko Stevens**, **Gillian Beltz-Mohrmann**, and **Jericho Lawson** who begin their positions on July 1.
+-   Ben's article [*Big ideas in sports analytics and statistical tools for their investigation*](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1612) was recognized as a top cited article in WIREs Computational Statistics. 
 
 
-## Faculty Updates 
-
-- **Shiya Cao** and **Kaitlyn Cook** were reappointed! 
-- We hired **Nikko Stevens**, **Gillian Beltz-Mohrmann**, and **Jericho Lawson** who begin their positions on July 1. 
 
 #### [Ben Baumer](https://beanumber.github.io/)
 
 Hola, buenas días!
 
 I'm glad to be back in Northampton after spending my full-year sabbatical (AY24) in Medellín, Colombia!
-It was an amazing experience from which we all learned a great deal. 
-My wife and I took many Spanish classes at [Universidad EAFIT](https://www.eafit.edu.co/), which is a lovely place to study. 
-We advanced to B2 level Spanish in the [CEFR framework](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages). 
-I suppose it's bittersweet to report that our daughters are both: 1) much better Spanish-speakers than we are; and 2) so much better that they are horrified by our attempts to speak Spanish! 
+It was an amazing experience from which we all learned a great deal.
+My wife and I took many Spanish classes at [Universidad EAFIT](https://www.eafit.edu.co/), which is a lovely place to study.
+We advanced to B2 level Spanish in the [CEFR framework](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages).
+I suppose it's bittersweet to report that our daughters are both: 1) much better Spanish-speakers than we are; and 2) so much better that they are horrified by our attempts to speak Spanish!
 
-While on sabbatical I was able to complete the [3rd edition of *Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/), and I struck up a new collaboration with a statistician that I met at EAFIT. 
-We're working on [an R package](https://github.com/beanumber/tidychangepoint/) and [a paper](https://beanumber.github.io/changepoint-paper/) for changepoint detection algorithms. 
+While on sabbatical I was able to complete the [3rd edition of *Analyzing Baseball Data with R*](https://beanumber.github.io/abdwr3e/), and I struck up a new collaboration with a statistician that I met at EAFIT.
+We're working on [an R package](https://github.com/beanumber/tidychangepoint/) and [a paper](https://beanumber.github.io/changepoint-paper/) for changepoint detection algorithms.
 
-The transition back in AY25 was fairly smooth. 
-I enjoyed teaching SDS 270, 236, and the capstone (twice!). 
+The transition back in AY25 was fairly smooth.
+I enjoyed teaching SDS 270, 236, and the capstone (twice!).
 This summer I'm putting together a course on sports analytics (SDS 355) for the first time!
 
-Outside of work, I'm coaching my daughters' basketball and softball teams, and we got a dog (a miniature schnauzer-terrier mix) who likes to bark at other dogs. 
+Outside of work, I'm coaching my daughters' basketball and softball teams, and we got a dog (a miniature schnauzer-terrier mix) who likes to bark at other dogs.
 
 #### [Shiya Cao](https://scao53.github.io/)
 
-Year 3’s reappointment dossier preparation and review process helped me engage in systematic and in-depth reflection on my research and teaching practices. I am committed to continuing the three research areas I have developed since I joined Smith: (1) disability inclusion research using quantitative methodology; (2) accessible design; and (3) integrating disability inclusion components into data science pedagogy. I am also dedicated to providing effective strategies to help students succeed in data science courses and implementing inclusive pedagogy.
+Year 3’s reappointment dossier preparation and review process helped me engage in systematic and in-depth reflection on my research and teaching practices.
+I am committed to continuing the three research areas I have developed since I joined Smith: (1) disability inclusion research using quantitative methodology; (2) accessible design; and (3) integrating disability inclusion components into data science pedagogy.
+I am also dedicated to providing effective strategies to help students succeed in data science courses and implementing inclusive pedagogy.
 
-This year, I moved projects in the three research areas forward. I currently have two journal papers out for review examining employment and healthcare issues respectively through quantitative intersectional analyses of population survey data. In March 2025, I was honored to be invited by my collaborator Keegan Kang at Bucknell University to attend their Distinguished Visting Professor program for a week. During the visit, we continued working on an applied study using random projection algorithms in the differential privacy context. I also gave a talk on Conducting Statistics and Data Science Research in the Disability Inclusion Field and built connections with faculty members in the Mathematics & Statistics Department. Further, my collaboration with Heather Rosenfeld from the Smith College Spatial Analysis Lab resulted in the Campus Accessibility Map [version 1.0](https://experience.arcgis.com/experience/2de16261292f4581be25daee49958bf5). A first-authored journal article derived from this project is under review. Additionally, my article on Data Visualizations for Blind and Visually Impaired Students (condensed version) was invited by ASA Justice, Equity, Diversity, and Inclusion (JEDI) Outreach Group and [published](https://magazine.amstat.org/blog/2024/10/01/data-visualizations-accessible/) at *Amstat News JEDI Corner*. I will present the preliminary results of my pedagogical project at USCOTS this summer. Furthermore, I engaged five Smithies **Sarah Susnea ‘25**, **Mehreen Merza ‘25**, **Lucia Qin ‘26**, **Kayla Tillmon ‘27**, and **Rae Traver-Fallick ’27** in a couple of research projects this year. 
+This year, I moved projects in the three research areas forward.
+I currently have two journal papers out for review examining employment and healthcare issues respectively through quantitative intersectional analyses of population survey data.
+In March 2025, I was honored to be invited by my collaborator Keegan Kang at Bucknell University to attend their Distinguished Visting Professor program for a week.
+During the visit, we continued working on an applied study using random projection algorithms in the differential privacy context.
+I also gave a talk on Conducting Statistics and Data Science Research in the Disability Inclusion Field and built connections with faculty members in the Mathematics & Statistics Department.
+Further, my collaboration with Heather Rosenfeld from the Smith College Spatial Analysis Lab resulted in the Campus Accessibility Map [version 1.0](https://experience.arcgis.com/experience/2de16261292f4581be25daee49958bf5).
+A first-authored journal article derived from this project is under review.
+Additionally, my article on Data Visualizations for Blind and Visually Impaired Students (condensed version) was invited by ASA Justice, Equity, Diversity, and Inclusion (JEDI) Outreach Group and [published](https://magazine.amstat.org/blog/2024/10/01/data-visualizations-accessible/) at *Amstat News JEDI Corner*.
+I will present the preliminary results of my pedagogical project at USCOTS this summer.
+Furthermore, I engaged five Smithies **Sarah Susnea ‘25**, **Mehreen Merza ‘25**, **Lucia Qin ‘26**, **Kayla Tillmon ‘27**, and **Rae Traver-Fallick ’27** in a couple of research projects this year.
 
-I taught two sections of *SDS 192: Introduction to Data Science* in Fall 2024, had a Picker course release in Spring 2025 and taught *SDS 100: Reproducible Scientific Computing with Data*. I will be on sabbatical in Fall 2025 and will be looking forward to coming back in Spring 2026 to reflect on students’ feedback and the challenges and opportunities of AI in higher education, and “restart” to support students’ learning more effectively.
+I taught two sections of *SDS 192: Introduction to Data Science* in Fall 2024, had a Picker course release in Spring 2025 and taught *SDS 100: Reproducible Scientific Computing with Data*.
+I will be on sabbatical in Fall 2025 and will be looking forward to coming back in Spring 2026 to reflect on students’ feedback and the challenges and opportunities of AI in higher education, and “restart” to support students’ learning more effectively.
 
 Outside of work, a new thing I have been participating in this summer is [a series of Thursday evening hiking events in Western Massachusetts](https://www.ventureoutproject.com/queer-day-hikes-events).
 
 #### Kaitlyn Cook
 
-This past year I was excited to develop and teach a new statistics depth course on statistical methods in biostatistics and epidemiology (aptly named "Methods in Biostatistics and Epidemiology"!). The course blended topics from categorical data analysis and survival analysis with discussions of epidemiological study designs, threats to internal and external study validity, and metrics for quantifying the presence of disease in populations. I also enjoyed teaching MTH 246: Probability for the second time and SDS 291: Multiple Regression for the first time. Finally, I was particularly proud to watch my inaugural thesis student, **Heng (Silvia) Song '24**, successfully defend her thesis on "Stochastic Processes and their Application in Bayesian Statistics", making her the first student to graduate with honors in Mathematical Statistics at Smith! Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch.
+This past year I was excited to develop and teach a new statistics depth course on statistical methods in biostatistics and epidemiology (aptly named "Methods in Biostatistics and Epidemiology"!).
+The course blended topics from categorical data analysis and survival analysis with discussions of epidemiological study designs, threats to internal and external study validity, and metrics for quantifying the presence of disease in populations.
+I also enjoyed teaching MTH 246: Probability for the second time and SDS 291: Multiple Regression for the first time.
+Finally, I was particularly proud to watch my inaugural thesis student, **Heng (Silvia) Song '24**, successfully defend her thesis on "Stochastic Processes and their Application in Bayesian Statistics", making her the first student to graduate with honors in Mathematical Statistics at Smith!
+Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch.
 
-#### Randi Garcia
+#### [Randi Garcia](https://www.randilgarcia.com/)
 
+My transition back to work and chairing SDS after my 2022-2023 parental leave was smooth.
+These past two years I taught SDS 290 Research Design and Analysis in SDS along with my course release for chairing.
+In psychology I taught PSY 202 Research Methods, PSY/SDS 364 Research Seminar in Intergroup Relationships twice, and in Spring 2025 I taught a brand new course PSY 274 Close Relationships which I will teach again in SPring 2026.
+I am excited to teach PSY 202 again in Fall 2025 and then SDS 100 for the first time in Spring 2026.
 
+Sarah Witkowski in the Exercise and Sport Studies department here at Smith on perimenopause symptoms, activity, and cardiovascular health.
+Began projects with Maya Rosen and Stephanie Jones.
 
 #### Will Hopper
-The 2023-24 academic year had some exciting and fun firsts for me! During the summer, I developed and taught a new course for third-year students in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, focused on applying hierarchical regression models and structural equation models to data analysis and research problems in social science settings. During the "regular" academic year, I got to teach SDS 270: Programming for Data Science for the first (and second!) time. Since I typically teach courses focused on the statistics side of the SDS coin, I enjoyed the chance to teach a programming-focused class. Developing and teaching new classes is a lot of work, but it's also the most fun part of teaching; a new class is a bit like a blank canvas, and you get to be creative in finding the best way to fill it with what your students need to know.
+
+The 2023-24 academic year had some exciting and fun firsts for me!
+During the summer, I developed and taught a new course for third-year students in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, focused on applying hierarchical regression models and structural equation models to data analysis and research problems in social science settings.
+During the "regular" academic year, I got to teach SDS 270: Programming for Data Science for the first (and second!) time.
+Since I typically teach courses focused on the statistics side of the SDS coin, I enjoyed the chance to teach a programming-focused class.
+Developing and teaching new classes is a lot of work, but it's also the most fun part of teaching; a new class is a bit like a blank canvas, and you get to be creative in finding the best way to fill it with what your students need to know.
 
 This fall, I'm looking forward to taking on advisees for the first time, watching the [Pokemon World Championships](https://worlds.pokemon.com/en-us/in-person/tournament-info/){target="_blank"}, and teaching [SDS 100: Reproducible Computing with Data](https://smithcollege-sds.github.io/sds100/){target="_blank"} for the first time!
 
 #### Albert Y. Kim
 
-
-
 #### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
-
-
 
 #### Rebecca Kurtz-Garcia
 
-
 #### [Scott LaCombe](https://www.scottlacombe.com)
 
-The last year has been one of many big and exciting changes! Last August, I got married and we went on our honeymoon to Curacao over winter break. I was on sabbatical in the Spring Semester, and we bought a house in Holyoke. I am looking forward to hitting the ground running this Fall and I'm excited to be back.
+The last year has been one of many big and exciting changes!
+Last August, I got married and we went on our honeymoon to Curacao over winter break.
+I was on sabbatical in the Spring Semester, and we bought a house in Holyoke.
+I am looking forward to hitting the ground running this Fall and I'm excited to be back.
 
-My sabbatical was spent wrapping up some existing research projects, and also planning out the next few years of my work with students. [My State Politics Lab](https://www.smith.edu/academics/our-approach-learning/humanities#state-politics-lab-8) has done a tremendous amount of working helping me build a comprehensive database of LGBTQ policies in the American States, and I took a team of Smithies to Chicago for the Midwest Political Science Association Conference to present our work in April. We are continuing our work this Fall by using text analysis to track the influence of interest groups in states passing Gender Affirming Care Bans and Conversion Therapy Bans. 
+My sabbatical was spent wrapping up some existing research projects, and also planning out the next few years of my work with students.
+[My State Politics Lab](https://www.smith.edu/academics/our-approach-learning/humanities#state-politics-lab-8) has done a tremendous amount of working helping me build a comprehensive database of LGBTQ policies in the American States, and I took a team of Smithies to Chicago for the Midwest Political Science Association Conference to present our work in April.
+We are continuing our work this Fall by using text analysis to track the influence of interest groups in states passing Gender Affirming Care Bans and Conversion Therapy Bans.
 
-This upcoming year, I will be teaching my *Research Seminar in Political Networks* (SDS/GOV 338) in the Fall, and plan on teaching *Research Design and Analysis* (SDS 290) and *Introduction to American Politics* (GOV 200) in the Spring. 
-
+This upcoming year, I will be teaching my *Research Seminar in Political Networks* (SDS/GOV 338) in the Fall, and plan on teaching *Research Design and Analysis* (SDS 290) and *Introduction to American Politics* (GOV 200) in the Spring.
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
 
-Hello SDS friends! This summer, I'm feeling so grateful that I'm coming off of a year where I had an opportunity to focus on work that I find both socially important and personally fulfilling. A Spring sabbatical provided me time to really submerge into aspects of my research program. This past February I spent a month in Frankfurt, Germany on a Mercator Fellowship at Goethe University. While I was there, I delivered a number of lectures and workshops on "data ethnography" and had a chance to work with faculty, post-docs, and graduate students brainstorming how to devise new methods for studying the cultural aspects of data production, circulation, and use. Then in March, with some tremendous collaborators at UCLA, Northeastern University, and Whitman College, I published [a paper](https://ajph.aphapublications.org/doi/10.2105/AJPH.2024.307571) in the *American Journal of Public Health* documenting that almost half of US carceral facilities are proximate to sites of contamination by "forever chemicals" (or PFAS). The paper was covered in *[The Hill](https://thehill.com/policy/energy-environment/4547224-forever-chemicals-pfas-us-prisons-drinking-water-dangerous-levels-study/)*, *[The Guardian](https://www.theguardian.com/environment/2024/apr/08/prisons-contaminated-water-pfas)*, and supported the development of [proposed US legislation](https://www.markey.senate.gov/news/press-releases/senator-markey-rep-pressley-introduce-environmental-health-in-prisons-act) for improving environmental health in prisons. Publishing this paper meant a lot to me, both personally and professionally. Sabbatical also granted me some time for more personal pursuits. I've been diligently working to improve my French, devising Massachusetts adventures for me and my 2.5-year old niece, and putting some elbow grease into making my new house in South Hadley feel more like a home. 
+Hello SDS friends!
+This summer, I'm feeling so grateful that I'm coming off of a year where I had an opportunity to focus on work that I find both socially important and personally fulfilling.
+A Spring sabbatical provided me time to really submerge into aspects of my research program.
+This past February I spent a month in Frankfurt, Germany on a Mercator Fellowship at Goethe University.
+While I was there, I delivered a number of lectures and workshops on "data ethnography" and had a chance to work with faculty, post-docs, and graduate students brainstorming how to devise new methods for studying the cultural aspects of data production, circulation, and use.
+Then in March, with some tremendous collaborators at UCLA, Northeastern University, and Whitman College, I published [a paper](https://ajph.aphapublications.org/doi/10.2105/AJPH.2024.307571) in the *American Journal of Public Health* documenting that almost half of US carceral facilities are proximate to sites of contamination by "forever chemicals" (or PFAS).
+The paper was covered in [*The Hill*](https://thehill.com/policy/energy-environment/4547224-forever-chemicals-pfas-us-prisons-drinking-water-dangerous-levels-study/), [*The Guardian*](https://www.theguardian.com/environment/2024/apr/08/prisons-contaminated-water-pfas), and supported the development of [proposed US legislation](https://www.markey.senate.gov/news/press-releases/senator-markey-rep-pressley-introduce-environmental-health-in-prisons-act) for improving environmental health in prisons.
+Publishing this paper meant a lot to me, both personally and professionally.
+Sabbatical also granted me some time for more personal pursuits.
+I've been diligently working to improve my French, devising Massachusetts adventures for me and my 2.5-year old niece, and putting some elbow grease into making my new house in South Hadley feel more like a home.
 
-This coming year, I'm looking forward to continuing my research examining the cultural origins of the [Open Payments](https://openpaymentsdata.cms.gov/) database - anthropologically studying how the professionals responsible for disclosing data about their payments to healthcare providers develop certain accounting and meaning-making strategies in their work. I look forward to continue teaching *Data Ethnography* in the Fall and Spring, and to offering a new course called *Community-Based Data Science* in the Spring.
+This coming year, I'm looking forward to continuing my research examining the cultural origins of the [Open Payments](https://openpaymentsdata.cms.gov/) database - anthropologically studying how the professionals responsible for disclosing data about their payments to healthcare providers develop certain accounting and meaning-making strategies in their work.
+I look forward to continue teaching *Data Ethnography* in the Fall and Spring, and to offering a new course called *Community-Based Data Science* in the Spring.
 
 #### Kementari Whitcher
-
 
 #### Ab Mosca '14
 
@@ -112,51 +170,48 @@ This coming year, I'm looking forward to continuing my research examining the cu
 
 #### Gillian Beltz-Mohrmann
 
-
 ## Alumni Updates
 
-- Add alumni updates HERE
+-   Add alumni updates HERE
+-   Shevaughn Holness awarded NSF Graduate Research Fellowship
 
-
-## What's next? 
-
+## What's next?
 
 ### Joint Statistical Meetings
 
-Many of us will be at the [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/index.cfm) during the first week of August. 
+Many of us will be at the [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/index.cfm) during the first week of August.
 
 Don't miss these events featuring Smithies and current faculty!
 
-- [Analysis of Analytic Treatment Interruption Trials with Misclassified Interval-Censored](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4523)  
-  Skyler Williams and Kaitlyn Cook
-- [Data-Driven Writing Prompts (for Humans): Creative Writing Meets Data Storytelling](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)  
-  Sara Stoudt '15
-- [Artisanal Programming](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)  
-  Ben Baumer (speaker and organizer)
-- [Hierarchical Bayesian Modeling for Battle Royale Style Competitions](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2203)  
-  Rebecca Kurtz-Garcia (speaker and organizer)
-- [Examining the Sexual Orientation and Gender Intersection-Related Healthcare Disparities](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4725)  
-  Shiya Cao
-- [What Skills/Concepts/Experiences are Important in a Course/Program/Job in Sports Analytics](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1324)  
-  Ben Baumer (chair)
-- [Teaching Bayesian Methods to Undergraduate Learners](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=3777)  
-  Mine Dogucu '09
-- [The Design and Implementation of a Bayesian Data Analysis Lesson for Pre-Service Teachers](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2386)  
-  Mine Dogucu '09
-- [Accessible Causal Inference](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1450)  
-  Elizabeth Stuart '97 (chair)
-- [AI & Statistical Approaches to Data Fusion](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1852)  
-  Elizabeth Stuart '97 (organizer)
-- [Navigating Challenges and Leveraging Opportunities in Biostatistics Graduate Education](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1694)  
-  Elizabeth Stuart '97 (panelist)
+-   [Analysis of Analytic Treatment Interruption Trials with Misclassified Interval-Censored](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4523)\
+    Skyler Williams and Kaitlyn Cook
+-   [Data-Driven Writing Prompts (for Humans): Creative Writing Meets Data Storytelling](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)\
+    Sara Stoudt '15
+-   [Artisanal Programming](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2175)\
+    Ben Baumer (speaker and organizer)
+-   [Hierarchical Bayesian Modeling for Battle Royale Style Competitions](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2203)\
+    Rebecca Kurtz-Garcia (speaker and organizer)
+-   [Examining the Sexual Orientation and Gender Intersection-Related Healthcare Disparities](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=4725)\
+    Shiya Cao
+-   [What Skills/Concepts/Experiences are Important in a Course/Program/Job in Sports Analytics](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1324)\
+    Ben Baumer (chair)
+-   [Teaching Bayesian Methods to Undergraduate Learners](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=3777)\
+    Mine Dogucu '09
+-   [The Design and Implementation of a Bayesian Data Analysis Lesson for Pre-Service Teachers](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=2386)\
+    Mine Dogucu '09
+-   [Accessible Causal Inference](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1450)\
+    Elizabeth Stuart '97 (chair)
+-   [AI & Statistical Approaches to Data Fusion](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1852)\
+    Elizabeth Stuart '97 (organizer)
+-   [Navigating Challenges and Leveraging Opportunities in Biostatistics Graduate Education](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1694)\
+    Elizabeth Stuart '97 (panelist)
 
 Join us for the **Smith JSM get together**:
 
-[Miranda Lambert's Casa Rosa](https://casarosanashville.com/our-menu/)  
-308 Broadway  
-Nashville, TN 37201  
-Monday, August 4th  
+[Miranda Lambert's Casa Rosa](https://casarosanashville.com/our-menu/)\
+308 Broadway\
+Nashville, TN 37201\
+Monday, August 4th\
 7 - 8:30 pm
 
 We hope to see you there!
-
