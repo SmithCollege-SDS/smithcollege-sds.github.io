@@ -17,7 +17,7 @@ There is also a [Facebook group](https://www.facebook.com/groups/665780273559948
 
 -   Prof. Scott LaCombe won the [junior faculty teaching award at Rally Day](https://www.smith.edu/news-events/events/rally-day). So exciting and so well deserved!!!
 
-![](scott_sga_award.jpg)
+![](gfx/scott_sga_award.png)
 
 -   There was no DataFest in 2024, but we got a beautiful new trophy case:
 
@@ -27,15 +27,20 @@ There is also a [Facebook group](https://www.facebook.com/groups/665780273559948
 
 ![](gfx/mhc_winners_2025.png)
 
-Now the trophy case has an empty spot...for now:
-
-![](gfx/trophy_case_no-trophy.png)
+Now the trophy case has an empty spot...for now.
 
 -   Smith won a Best in Group (Panel B). Congratulations Data Wranglers (Itzel Aleman Flores, Danielle Justo, Zoe Khan)!!
 
 ![](gfx/data_wranglers.png)
 
--   Preparing for our very first decennial review next year.
+-   Nine SDS students participated in the [CivicHacks](https://civic-hacks.com/) hackaton in Boston for the first time!!
+
+![](gfx/civichacks_2025.png)
+
+-   Students from SDS 236 (data journalism), **Olivia Petty**, **Yarid Monzon Deras** and **Abby Caliandri**, wrote and article published in The Shoestring, [*Vaccination rates in some local schools could spell trouble*](https://theshoestring.org/2025/06/06/minding-the-gap-low-vaccination-rates-in-some-local-schools-could-spell-trouble/).
+    -   Also, read [this STATtr\@k interview](https://stattrak.amstat.org/2024/02/01/the-scoop-on-data-journalism/) with Data Journalism co-instructors Ben Baumer and Naila Moreira.
+-   **Casey MacGibbon** and **Juniper Huang** (both ‘25) delivered their first conference paper at ACM FACCT in Athens Greece titled [*What Remains Opaque in Transparency Initiatives: Visualizing Phantom Reductions through Devious Data Analysis*](https://programs.sigchi.org/facct/2025/program/content/201791).
+-   Spring 2025 marked the 10 year anniversary of the approval of the major is Statistical and Data Sciences!! Happy birthday SDS major!
 
 ### Previous Updates
 
@@ -51,12 +56,13 @@ Now the trophy case has an empty spot...for now:
 
 ## Faculty Updates
 
+![](gfx/faculty_graduation_2025.png)
+
 -   **Randi Garcia** began her term as Chair of SDS while Ben took a yearlong sabbatical in Colombia. See more in their updates below.
 -   **Shiya Cao** and **Kaitlyn Cook** were reappointed!
 -   We hired **Nikko Stevens**, **Gillian Beltz-Mohrmann**, and **Jericho Lawson** who begin their positions on July 1.
--   Ben's article [*Big ideas in sports analytics and statistical tools for their investigation*](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1612) was recognized as a top cited article in WIREs Computational Statistics. 
-
-
+-   Ben's article [*Big ideas in sports analytics and statistical tools for their investigation*](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1612) was recognized as a top cited article in WIREs Computational Statistics.
+-   Ben was recognized as a [Fellow of the ASA](https://www.amstat.org/news-listing/2025/04/21/asa-recognizes-2025-founders-and-fellows)
 
 #### [Ben Baumer](https://beanumber.github.io/)
 
