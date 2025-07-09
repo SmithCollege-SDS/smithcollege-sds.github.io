@@ -135,11 +135,20 @@ I'm looking forward to continuing my research in the fall!
 
 #### Will Hopper
 
-I can't believe the 2024-25 school year was my **fifth** year teaching at Smith! It's seems to have gone by so fast, but I feel like I'm finally settling in. During the past year, I got to teach [SDS 100: Reproducible Computing with Data](https://smithcollege-sds.github.io/sds100/){target="_blank"} for the first time. After helping to design the course several years ago, it was a reward to finally put the ideas into practice in the classroom, and I love seeing programming and data science concepts "click" for new students for the first time. I also taught SDS 270 (Programming for Data Science), and experimented with some changes to the format of the class to make it more interactive. One of the biggest changes was swapping out some assignments and tests for coding interviews, which gave me a chance to assess students in a more holistic way and understand what students are taking away from the class through conversation.
+I can't believe the 2024-25 school year was my **fifth** year teaching at Smith!
+It's seems to have gone by so fast, but I feel like I'm finally settling in.
+During the past year, I got to teach [SDS 100: Reproducible Computing with Data](https://smithcollege-sds.github.io/sds100/){target="_blank"} for the first time.
+After helping to design the course several years ago, it was a reward to finally put the ideas into practice in the classroom, and I love seeing programming and data science concepts "click" for new students for the first time.
+I also taught SDS 270 (Programming for Data Science), and experimented with some changes to the format of the class to make it more interactive.
+One of the biggest changes was swapping out some assignments and tests for coding interviews, which gave me a chance to assess students in a more holistic way and understand what students are taking away from the class through conversation.
 
-One small but exciting change from routine that I'm excited about is our department's new course, SDS 210: Introduction to Statistics. SDS 210 is not *really* a new class, but replaces our department's other two introductory statistics courses (SDS 201 and SDS 220), which had grown so similar over time that having two differently named and numbered classes no longer served a clear purpose. I'll be be "inaugurating" SDS 210 in the upcoming Fall semester. I *wanted* to number the class SDS 210.5 (the average of 201 and 220) but the Registrar's office would probably have not appreciated my little statistics joke.
+One small but exciting change from routine that I'm excited about is our department's new course, SDS 210: Introduction to Statistics.
+SDS 210 is not *really* a new class, but replaces our department's other two introductory statistics courses (SDS 201 and SDS 220), which had grown so similar over time that having two differently named and numbered classes no longer served a clear purpose.
+I'll be be "inaugurating" SDS 210 in the upcoming Fall semester.
+I *wanted* to number the class SDS 210.5 (the average of 201 and 220) but the Registrar's office would probably have not appreciated my little statistics joke.
 
-Over the summer, I've once again been teaching statistics and data science courses in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, helping prepare their students for doing quantitative research as part of their doctoral thesis. I doubt the social work students suspected they'd be programming in R when they arrived to graduate school, but it just goes to show the incredible reach of statistics and data science into nearly every academic discipline out there!
+Over the summer, I've once again been teaching statistics and data science courses in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, helping prepare their students for doing quantitative research as part of their doctoral thesis.
+I doubt the social work students suspected they'd be programming in R when they arrived to graduate school, but it just goes to show the incredible reach of statistics and data science into nearly every academic discipline out there!
 
 #### Albert Y. Kim
 
