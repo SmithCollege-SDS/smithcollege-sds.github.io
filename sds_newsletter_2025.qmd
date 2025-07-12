@@ -37,11 +37,12 @@ Now the trophy case has an empty spot...for now.
 
 ![](gfx/civichacks_2025.png)
 
+-   Students from SDS 410 Capstone in AY23, **Amber Liu**, **Hanna Lee**, **Parunjodhi Munisamy**, **Yaretsy Castro**, and **Tulip Daaboul**, published an article in Medium, [*Navigating Telematics Data*](https://medium.com/99p-labs/navigating-telematics-data-1b59e09489c7). 
 -   Students from SDS 236 (data journalism), **Olivia Petty**, **Yarid Monzon Deras** and **Abby Caliandri**, wrote and article published in The Shoestring, [*Vaccination rates in some local schools could spell trouble*](https://theshoestring.org/2025/06/06/minding-the-gap-low-vaccination-rates-in-some-local-schools-could-spell-trouble/).
     -   Also, read [this STATtr\@k interview](https://stattrak.amstat.org/2024/02/01/the-scoop-on-data-journalism/) with Data Journalism co-instructors Ben Baumer and Naila Moreira.
 -   **Casey MacGibbon** and **Juniper Huang** (both ‘25) delivered their first conference paper at ACM FACCT in Athens Greece titled [*What Remains Opaque in Transparency Initiatives: Visualizing Phantom Reductions through Devious Data Analysis*](https://programs.sigchi.org/facct/2025/program/content/201791).
 -   Spring 2025 marked the 10 year anniversary of the approval of the major is Statistical and Data Sciences!! Happy birthday SDS major!
--   Lala Rukh ’25, a double major in SDS and Quantitative Economics, as Senior Class President and Class of 2025 Alumnae Class President, delivered the senior class address during graduation!
+-   **Lala Rukh ’25**, a double major in SDS and Quantitative Economics, as Senior Class President and Class of 2025 Alumnae Class President, delivered the senior class address during graduation!
 
 ### Previous Updates
 
