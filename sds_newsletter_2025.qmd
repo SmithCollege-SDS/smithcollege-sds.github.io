@@ -1,16 +1,13 @@
 ---
 title: "SDS Newsletter"
 author: "Randi Garcia"
-date: "June 27, 2025"
+date: "July 14, 2025"
 editor: 
   markdown: 
     wrap: sentence
 ---
 
-This newsletter is mostly a distillation of our Twitter \@[SmithCollegeSDS](https://twitter.com/SmithCollegeSDS) feed.
-Please follow us to see more news, updates, and pictures!
-
-There is also a [Facebook group](https://www.facebook.com/groups/665780273559948/), a Google group, a LinkedIn group, and a [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945).
+Please join our [Facebook group](https://www.facebook.com/groups/665780273559948/), Google group, LinkedIn group, and [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945) for more updates and to stay connected.
 **Please help us reach out to other alumnae by having them contact me!**
 
 ## Program Updates
@@ -37,7 +34,7 @@ Now the trophy case has an empty spot...for now.
 
 ![](gfx/civichacks_2025.png)
 
--   Students from SDS 410 Capstone in AY23, **Amber Liu**, **Hanna Lee**, **Parunjodhi Munisamy**, **Yaretsy Castro**, and **Tulip Daaboul**, published an article in Medium, [*Navigating Telematics Data*](https://medium.com/99p-labs/navigating-telematics-data-1b59e09489c7). 
+-   Students from SDS 410 Capstone in AY23, **Amber Liu**, **Hanna Lee**, **Parunjodhi Munisamy**, **Yaretsy Castro**, and **Tulip Daaboul**, published an article in Medium, [*Navigating Telematics Data*](https://medium.com/99p-labs/navigating-telematics-data-1b59e09489c7).
 -   Students from SDS 236 (data journalism), **Olivia Petty**, **Yarid Monzon Deras** and **Abby Caliandri**, wrote and article published in The Shoestring, [*Vaccination rates in some local schools could spell trouble*](https://theshoestring.org/2025/06/06/minding-the-gap-low-vaccination-rates-in-some-local-schools-could-spell-trouble/).
     -   Also, read [this STATtr\@k interview](https://stattrak.amstat.org/2024/02/01/the-scoop-on-data-journalism/) with Data Journalism co-instructors Ben Baumer and Naila Moreira.
 -   **Casey MacGibbon** and **Juniper Huang** (both ‘25) delivered their first conference paper at ACM FACCT in Athens Greece titled [*What Remains Opaque in Transparency Initiatives: Visualizing Phantom Reductions through Devious Data Analysis*](https://programs.sigchi.org/facct/2025/program/content/201791).
@@ -85,9 +82,12 @@ This summer I'm putting together a course on sports analytics (SDS 355) for the 
 
 Outside of work, I'm coaching my daughters' basketball and softball teams, and we got a dog (a miniature schnauzer-terrier mix) who likes to bark at other dogs.
 
-#### Gillian Beltz-Mohrmann
+#### [Gillian Beltz-Mohrmann](https://gbeltzmo.github.io/)
 
-I am very excited to join the SDS Program (as well as the Physics Department) at Smith this Fall! I recently completed a postdoctoral research fellowship in the Cosmological Physics and Advanced Computing Group at Argonne National Laboratory. This semester I am looking forward to teaching SDS 271: Introduction to Data Science in Python, as well as SDS 291: Multiple Regression. I am thrilled to be joining the Smith and Northampton communities.
+I am very excited to join the SDS Program (as well as the Physics Department) at Smith this Fall!
+I recently completed a postdoctoral research fellowship in the Cosmological Physics and Advanced Computing Group at Argonne National Laboratory.
+This semester I am looking forward to teaching SDS 271: Introduction to Data Science in Python, as well as SDS 291: Multiple Regression.
+I am thrilled to be joining the Smith and Northampton communities.
 
 #### [Shiya Cao](https://scao53.github.io/)
 
@@ -111,7 +111,7 @@ I will be on sabbatical in Fall 2025 and will be looking forward to coming back 
 
 Outside of work, a new thing I have been participating in this summer is [a series of Thursday evening hiking events in Western Massachusetts](https://www.ventureoutproject.com/queer-day-hikes-events).
 
-#### Kaitlyn Cook
+#### [Kaitlyn Cook](https://www.smith.edu/people/kaitlyn-cook)
 
 This past year I was excited to develop and teach a new statistics depth course on statistical methods in biostatistics and epidemiology (aptly named "Methods in Biostatistics and Epidemiology"!).
 The course blended topics from categorical data analysis and survival analysis with discussions of epidemiological study designs, threats to internal and external study validity, and metrics for quantifying the presence of disease in populations.
@@ -155,11 +155,11 @@ I *wanted* to number the class SDS 210.5 (the average of 201 and 220) but the Re
 Over the summer, I've once again been teaching statistics and data science courses in Smith's [Doctoral Program for Social Work](https://ssw.smith.edu/phd){target="_blank"}, helping prepare their students for doing quantitative research as part of their doctoral thesis.
 I doubt the social work students suspected they'd be programming in R when they arrived to graduate school, but it just goes to show the incredible reach of statistics and data science into nearly every academic discipline out there!
 
-#### Albert Y. Kim
+#### [Albert Y. Kim](https://www.smith.edu/people/albert-young-sun-kim)
 
 #### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
 
-#### Rebecca Kurtz-Garcia
+#### [Rebecca Kurtz-Garcia](https://www.smith.edu/people/rebecca-kurtz-garcia)
 
 #### [Scott LaCombe](https://www.scottlacombe.com)
 
@@ -174,23 +174,37 @@ We are continuing our work this Fall by using text analysis to track the influen
 
 This upcoming year, I will be teaching my *Research Seminar in Political Networks* (SDS/GOV 338) in the Fall, and plan on teaching *Research Design and Analysis* (SDS 290) and *Introduction to American Politics* (GOV 200) in the Spring.
 
-#### Jericho Lawson
+#### [Jericho Lawson](https://www.smith.edu/people/jericho-lawson)
 
-#### Ab Mosca '14
+#### [Ab Mosca '14](https://www.smith.edu/people/ab-mosca)
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
 
-Hello SDS friends! This year marked my fourth year at Smith, and the first time in my career that I was able to witness students that I taught in their first year of college walk across a stage at commencement. It was both a thrilling and emotional experience for me!
+Hello SDS friends!
+This year marked my fourth year at Smith, and the first time in my career that I was able to witness students that I taught in their first year of college walk across a stage at commencement.
+It was both a thrilling and emotional experience for me!
 
-This year, I've advanced work on a number of research projects - both long-term and more recent. Drawing on my ethnographic research into open government datasets, I [published](https://journals.sagepub.com/doi/10.1177/20539517241270656) a paper in *Big Data and Society* detailing how data stakeholders weaponize calls to "put data into context" in order to exert control over how the data gets interpreted. I also [published](https://anthrosource.onlinelibrary.wiley.com/doi/abs/10.1002/sea2.70010) a paper in *Economic Anthropology* based on fieldwork I have done at corporate data compliance conferences over the past two summers; the paper details how professionals at life science companies have developed strategies to creatively comply with public transparency and data reporting laws, while also mitigating risk to their reputations. Rounding out almost a decade of historical and ethnographic research into AI's knowledge representation community, I [published](https://www.computer.org/csdl/magazine/an/2025/02/10817130/231p8C3UACc) an article detailing historical controversies between AI's 'neats' and 'scruffies' in the *IEEE Annals for the History of Computing*. Perhaps the article I'm most excited to report on however, was [co-published](https://dl.acm.org/doi/10.1145/3715275.3732114) in the *ACM Conference on Fairness, Accountability, and Transparency* with two Senior Smith students - Juniper Huang ('25) and Casey MacGibbon ('25). This paper shows how data analysts can produce "devious" data visualizations - drawing out events reported in data that are impossible or highly unlikely in order to encourage an audience to question the social conditions of the data's production. 
+This year, I've advanced work on a number of research projects - both long-term and more recent.
+Drawing on my ethnographic research into open government datasets, I [published](https://journals.sagepub.com/doi/10.1177/20539517241270656) a paper in *Big Data and Society* detailing how data stakeholders weaponize calls to "put data into context" in order to exert control over how the data gets interpreted.
+I also [published](https://anthrosource.onlinelibrary.wiley.com/doi/abs/10.1002/sea2.70010) a paper in *Economic Anthropology* based on fieldwork I have done at corporate data compliance conferences over the past two summers; the paper details how professionals at life science companies have developed strategies to creatively comply with public transparency and data reporting laws, while also mitigating risk to their reputations.
+Rounding out almost a decade of historical and ethnographic research into AI's knowledge representation community, I [published](https://www.computer.org/csdl/magazine/an/2025/02/10817130/231p8C3UACc) an article detailing historical controversies between AI's 'neats' and 'scruffies' in the *IEEE Annals for the History of Computing*.
+Perhaps the article I'm most excited to report on however, was [co-published](https://dl.acm.org/doi/10.1145/3715275.3732114) in the *ACM Conference on Fairness, Accountability, and Transparency* with two Senior Smith students - Juniper Huang ('25) and Casey MacGibbon ('25).
+This paper shows how data analysts can produce "devious" data visualizations - drawing out events reported in data that are impossible or highly unlikely in order to encourage an audience to question the social conditions of the data's production.
 
-I taught *SDS 237: Data Ethnography* in both the Fall and Spring semesters. I continue to be amazed by how much I learn from students each semester as they report on their interviews with data professionals, their observations of data collection practices, and their analyses of data discourse. I had a chance to present on how I teach this course as part of data ethics education panels at JSM and the Canadian Math Society meeting in 2024, and I also delivered a few guest lectures on the contents of this course throughout the academic year. In the Spring I taught *SDS 238: Community-Based Data Science* for the first time. The 19 students in the course helped the Northampton-based non-profit organization Solidago produce over 40 data visualizations documenting their history of progressive global justice grant-making. They also produced an archive of interviews with key organizational stakeholders. Overall, I was so impressed with the students' tremendous ability to apply design justice principles to addressing a community-based data science problem. 
+I taught *SDS 237: Data Ethnography* in both the Fall and Spring semesters.
+I continue to be amazed by how much I learn from students each semester as they report on their interviews with data professionals, their observations of data collection practices, and their analyses of data discourse.
+I had a chance to present on how I teach this course as part of data ethics education panels at JSM and the Canadian Math Society meeting in 2024, and I also delivered a few guest lectures on the contents of this course throughout the academic year.
+In the Spring I taught *SDS 238: Community-Based Data Science* for the first time.
+The 19 students in the course helped the Northampton-based non-profit organization Solidago produce over 40 data visualizations documenting their history of progressive global justice grant-making.
+They also produced an archive of interviews with key organizational stakeholders.
+Overall, I was so impressed with the students' tremendous ability to apply design justice principles to addressing a community-based data science problem.
 
-Outside of academic life, I've been continuing to work on improving my French, and I've been relaxing with a number of meditative sewing and knitting projects. I'm looking forward to what's in store in the coming year!
+Outside of academic life, I've been continuing to work on improving my French, and I've been relaxing with a number of meditative sewing and knitting projects.
+I'm looking forward to what's in store in the coming year!
 
-#### Nikko Stevens
+#### [Nikko Stevens](https://www.smith.edu/people/nikko-stevens)
 
-#### Kementari Whitcher
+#### [Kementari Whitcher](https://www.smith.edu/people/kementari-whitcher)
 
 ## Alumni Updates
 
