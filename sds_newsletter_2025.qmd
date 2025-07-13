@@ -113,11 +113,7 @@ Outside of work, a new thing I have been participating in this summer is [a seri
 
 #### [Kaitlyn Cook](https://www.smith.edu/people/kaitlyn-cook)
 
-This past year I was excited to develop and teach a new statistics depth course on statistical methods in biostatistics and epidemiology (aptly named "Methods in Biostatistics and Epidemiology"!).
-The course blended topics from categorical data analysis and survival analysis with discussions of epidemiological study designs, threats to internal and external study validity, and metrics for quantifying the presence of disease in populations.
-I also enjoyed teaching MTH 246: Probability for the second time and SDS 291: Multiple Regression for the first time.
-Finally, I was particularly proud to watch my inaugural thesis student, **Heng (Silvia) Song '24**, successfully defend her thesis on "Stochastic Processes and their Application in Bayesian Statistics", making her the first student to graduate with honors in Mathematical Statistics at Smith!
-Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch.
+This past academic year I enjoyed teaching *SDS 291: Multiple Regression* and *SDS 220: Introduction to Probability and Statistics*, as well as supervising several super-star honors thesis students on projects related to statistical methods for taxonomy assignment (*Elm Markert '25*) and misclassified interval-censored data (*Skyler Williams '25*). Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch. My biggest reality TV accomplishment to date is watching the entirety of *Real Housewives of Salt Lake City* in under three weeks; recommendations for my next *Real Housewives* franchise are highly welcomed and encouraged.
 
 #### [Randi Garcia](https://www.randilgarcia.com/)
 
