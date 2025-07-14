@@ -9,7 +9,7 @@ editor:
 
 Please join our [Facebook group](https://www.facebook.com/groups/665780273559948/), Google group, LinkedIn group, and [Slack](https://twitter.com/Miles_Ott/status/1242104426921426945) for more updates and to stay connected.
 
-**Please help us reach out to other alumnae by having them contact Randi, rgarcia@gmail.com!**
+**Please help us reach out to other alumnae by having them contact Randi, rgarcia\@gmail.com!**
 
 ## Program Updates
 
@@ -114,7 +114,9 @@ Outside of work, a new thing I have been participating in this summer is [a seri
 
 #### [Kaitlyn Cook](https://www.smith.edu/people/kaitlyn-cook)
 
-This past academic year I enjoyed teaching *SDS 291: Multiple Regression* and *SDS 220: Introduction to Probability and Statistics*, as well as supervising several super-star honors thesis students on projects related to statistical methods for taxonomy assignment (*Elm Markert '25*) and misclassified interval-censored data (*Skyler Williams '25*). Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch. My biggest reality TV accomplishment to date is watching the entirety of *Real Housewives of Salt Lake City* in under three weeks; recommendations for my next *Real Housewives* franchise are highly welcomed and encouraged.
+This past academic year I enjoyed teaching *SDS 291: Multiple Regression* and *SDS 220: Introduction to Probability and Statistics*, as well as supervising several super-star honors thesis students on projects related to statistical methods for taxonomy assignment (*Elm Markert '25*) and misclassified interval-censored data (*Skyler Williams '25*).
+Outside of the classroom, I've continued settling into life in the Valley by joining a local run club in Northampton, playing trumpet with the Amherst Community Band, and watching far too much reality TV from my couch.
+My biggest reality TV accomplishment to date is watching the entirety of *Real Housewives of Salt Lake City* in under three weeks; recommendations for my next *Real Housewives* franchise are highly welcomed and encouraged.
 
 #### [Randi Garcia](https://www.randilgarcia.com/)
 
@@ -207,8 +209,14 @@ I'm looking forward to what's in store in the coming year!
 
 ## Alumni Updates
 
--   Add alumni updates HERE
--   Shevaughn Holness awarded NSF Graduate Research Fellowship
+-   Alumni updates will be added HERE
+
+-   Shevaughn Holness awarded NSF Graduate Research Fellowship!!!
+
+-   Maggie Carttar ‘20 — **2024 update.** This year I’ve started a new role at the Federal Reserve Board of Governors in DC, a move into the brain of the US central bank system from the regional branch in Kansas City where I previously did similar work.
+    As a part of Statistics and Data Management within Board IT I get to coordinate data collection and quality assessments for multiple banking reports related to financial industry regulation and monetary policy.
+    I’ve been loving DC so far, roller skating, singing in a local choir, knitting many socks, and playing D&D with a bunch of fellow former Lamont pals every once in a blue moon.
+    Hope y’all are doing so well!
 
 ## What's next?
 
