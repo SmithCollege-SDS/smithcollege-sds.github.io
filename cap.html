@@ -232,13 +232,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#big-picture" id="toc-big-picture" class="nav-link active" data-scroll-target="#big-picture">Big picture</a></li>
-  <li><a href="#advising-loads" id="toc-advising-loads" class="nav-link" data-scroll-target="#advising-loads">Advising loads</a></li>
+  <li><a href="#big-picture" id="toc-big-picture" class="nav-link active" data-scroll-target="#big-picture">Big picture</a>
+  <ul class="collapse">
   <li><a href="#fte-growth" id="toc-fte-growth" class="nav-link" data-scroll-target="#fte-growth">FTE growth</a></li>
-  <li><a href="#enrollments" id="toc-enrollments" class="nav-link" data-scroll-target="#enrollments">Enrollments</a></li>
-  <li><a href="#summary-statistics" id="toc-summary-statistics" class="nav-link" data-scroll-target="#summary-statistics">Summary statistics</a></li>
+  </ul></li>
+  <li><a href="#majors-per-fte" id="toc-majors-per-fte" class="nav-link" data-scroll-target="#majors-per-fte">Majors per FTE</a></li>
+  <li><a href="#enrollments" id="toc-enrollments" class="nav-link" data-scroll-target="#enrollments">Enrollments</a>
+  <ul class="collapse">
   <li><a href="#enrollment-per-fte" id="toc-enrollment-per-fte" class="nav-link" data-scroll-target="#enrollment-per-fte">Enrollment per FTE</a></li>
-  <li><a href="#per-fte-table" id="toc-per-fte-table" class="nav-link" data-scroll-target="#per-fte-table">Per FTE table</a></li>
+  </ul></li>
+  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables">Tables</a>
+  <ul class="collapse">
+  <li><a href="#units-by-majors-over-5-years-per-fte" id="toc-units-by-majors-over-5-years-per-fte" class="nav-link" data-scroll-target="#units-by-majors-over-5-years-per-fte">Units by majors over 5 years per FTE</a></li>
+  <li><a href="#most-understaffed-unit-ay-pairs" id="toc-most-understaffed-unit-ay-pairs" class="nav-link" data-scroll-target="#most-understaffed-unit-ay-pairs">Most understaffed unit-AY pairs</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -264,8 +271,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="big-picture" class="level2">
-<h2 class="anchored" data-anchor-id="big-picture">Big picture</h2>
+<section id="big-picture" class="level1">
+<h1>Big picture</h1>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 11 × 5
@@ -284,9 +291,22 @@ ul.task-list li input[type="checkbox"] {
 11  2024        51    311         842         19490</code></pre>
 </div>
 </div>
+<p>I think the jump in FTE in 2024 is due to the reclassification on teaching-focused faculty.</p>
+<section id="fte-growth" class="level2">
+<h2 class="anchored" data-anchor-id="fte-growth">FTE growth</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="cap_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="advising-loads" class="level2">
-<h2 class="anchored" data-anchor-id="advising-loads">Advising loads</h2>
+</section>
+<section id="majors-per-fte" class="level1">
+<h1>Majors per FTE</h1>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>
@@ -351,34 +371,14 @@ increasing max.overlaps</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="cap_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="fte-growth" class="level2">
-<h2 class="anchored" data-anchor-id="fte-growth">FTE growth</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
-(`geom_segment()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
 <p><img src="cap_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="enrollments" class="level2">
-<h2 class="anchored" data-anchor-id="enrollments">Enrollments</h2>
+<section id="enrollments" class="level1">
+<h1>Enrollments</h1>
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
@@ -396,10 +396,6 @@ increasing max.overlaps</code></pre>
 </div>
 </div>
 </div>
-</section>
-<section id="summary-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="summary-statistics">Summary statistics</h2>
-</section>
 <section id="enrollment-per-fte" class="level2">
 <h2 class="anchored" data-anchor-id="enrollment-per-fte">Enrollment per FTE</h2>
 <div class="cell">
@@ -416,8 +412,11 @@ increasing max.overlaps</code></pre>
 </div>
 </div>
 </section>
-<section id="per-fte-table" class="level2">
-<h2 class="anchored" data-anchor-id="per-fte-table">Per FTE table</h2>
+</section>
+<section id="tables" class="level1">
+<h1>Tables</h1>
+<section id="units-by-majors-over-5-years-per-fte" class="level2">
+<h2 class="anchored" data-anchor-id="units-by-majors-over-5-years-per-fte">Units by majors over 5 years per FTE</h2>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 33 × 7
@@ -437,8 +436,30 @@ increasing max.overlaps</code></pre>
 # ℹ 1 more variable: mean_enrollment_fte &lt;dbl&gt;</code></pre>
 </div>
 </div>
+</section>
+<section id="most-understaffed-unit-ay-pairs" class="level2">
+<h2 class="anchored" data-anchor-id="most-understaffed-unit-ay-pairs">Most understaffed unit-AY pairs</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 185 × 6
+   department    AY   fte majors enrollment enrollment_fte
+   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;          &lt;dbl&gt;
+ 1 SDS         2019   4.5     20        675           150 
+ 2 SDS         2020   4.5     40        593           132.
+ 3 SDS         2018   4.5     10        586           130.
+ 4 SDS         2023   7.5     62        969           129.
+ 5 SWG         2022   4.5     15        568           126.
+ 6 SDS         2021   6       32        691           115.
+ 7 SDS         2022   7.5     38        836           111.
+ 8 EDC         2022   5       18        551           110.
+ 9 SWG         2021   4.5     23        488           108.
+10 CSC         2019   7.5     39        789           105.
+# ℹ 175 more rows</code></pre>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
