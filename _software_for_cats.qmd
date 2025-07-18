@@ -1,7 +1,6 @@
 ---
 title: "SDS Software"
 date: "September 7, 2016"
-output: html_document
 ---
 
 ## Software used by SDS classes

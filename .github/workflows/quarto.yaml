@@ -26,6 +26,7 @@ jobs:
             any::tidyverse
             any::DT
             any::emoji
+            any::ggrepel
             any::googlesheets4
             any::here
             any::htmltools
