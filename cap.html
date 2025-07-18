@@ -274,21 +274,97 @@ ul.task-list li input[type="checkbox"] {
 <section id="big-picture" class="level1">
 <h1>Big picture</h1>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 11 × 5
-      AY num_depts num_fte num_majors num_enrollees
-   &lt;dbl&gt;     &lt;int&gt;   &lt;dbl&gt;      &lt;dbl&gt;         &lt;dbl&gt;
- 1  2014        51      0         831         19782
- 2  2015        51      0         826         19424
- 3  2016        51      0         895         18815
- 4  2017        51      0         839         19121
- 5  2018        51    276.        842         19108
- 6  2019        51    280.        844         19084
- 7  2020        51    280.        922         19219
- 8  2021        51    279.        796         17966
- 9  2022        51    279.        805         20201
-10  2023        51    280.        864         19651
-11  2024        51    311         842         19490</code></pre>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: right;">AY</th>
+<th style="text-align: right;">num_units</th>
+<th style="text-align: right;">num_fte</th>
+<th style="text-align: right;">num_majors</th>
+<th style="text-align: right;">num_enrollees</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">831</td>
+<td style="text-align: right;">19782</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2015</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">826</td>
+<td style="text-align: right;">19424</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2016</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">895</td>
+<td style="text-align: right;">18815</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">839</td>
+<td style="text-align: right;">19121</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">275.55</td>
+<td style="text-align: right;">842</td>
+<td style="text-align: right;">19108</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">279.70</td>
+<td style="text-align: right;">844</td>
+<td style="text-align: right;">19084</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">279.70</td>
+<td style="text-align: right;">922</td>
+<td style="text-align: right;">19219</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">279.20</td>
+<td style="text-align: right;">796</td>
+<td style="text-align: right;">17966</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">279.20</td>
+<td style="text-align: right;">805</td>
+<td style="text-align: right;">20201</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">280.40</td>
+<td style="text-align: right;">864</td>
+<td style="text-align: right;">19651</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">311.00</td>
+<td style="text-align: right;">842</td>
+<td style="text-align: right;">19490</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <p>I think the jump in FTE in 2024 is due to the reclassification on teaching-focused faculty.</p>
@@ -418,43 +494,1829 @@ increasing max.overlaps</code></pre>
 <section id="units-by-majors-over-5-years-per-fte" class="level2">
 <h2 class="anchored" data-anchor-id="units-by-majors-over-5-years-per-fte">Units by majors over 5 years per FTE</h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 33 × 7
-   department num_years enroll_avg_5 majors_avg_5 current_fte mean_majors_fte
-   &lt;chr&gt;          &lt;int&gt;        &lt;dbl&gt;        &lt;dbl&gt;       &lt;dbl&gt;           &lt;dbl&gt;
- 1 PSY                5         980.         64.4        13.5            4.77
- 2 GOV                5         907.         56.6        14.5            3.90
- 3 BIO                5        1076.         49.6        21.5            2.31
- 4 ECO                5         783.         45.8        14              3.27
- 5 SDS                5         810.         42.8         9.5            4.51
- 6 CSC                5         828          42.2        10.5            4.02
- 7 ENG                5        1227          41.8        14.5            2.88
- 8 EGR                5         523.         40.8        12              3.4 
- 9 ART                5         956.         34.6        13              2.66
-10 MTH                5         983.         31.2        13.5            2.31
-# ℹ 23 more rows
-# ℹ 1 more variable: mean_enrollment_fte &lt;dbl&gt;</code></pre>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">unit</th>
+<th style="text-align: right;">num_years</th>
+<th style="text-align: right;">enroll_avg_5</th>
+<th style="text-align: right;">majors_avg_5</th>
+<th style="text-align: right;">current_fte</th>
+<th style="text-align: right;">mean_majors_fte</th>
+<th style="text-align: right;">mean_enrollment_fte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">979.60</td>
+<td style="text-align: right;">64.40</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">4.77</td>
+<td style="text-align: right;">72.56</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">906.80</td>
+<td style="text-align: right;">56.60</td>
+<td style="text-align: right;">14.5</td>
+<td style="text-align: right;">3.90</td>
+<td style="text-align: right;">62.54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1075.80</td>
+<td style="text-align: right;">49.60</td>
+<td style="text-align: right;">21.5</td>
+<td style="text-align: right;">2.31</td>
+<td style="text-align: right;">50.04</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">782.80</td>
+<td style="text-align: right;">45.80</td>
+<td style="text-align: right;">14.0</td>
+<td style="text-align: right;">3.27</td>
+<td style="text-align: right;">55.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">809.60</td>
+<td style="text-align: right;">42.80</td>
+<td style="text-align: right;">9.5</td>
+<td style="text-align: right;">4.51</td>
+<td style="text-align: right;">85.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">828.00</td>
+<td style="text-align: right;">42.20</td>
+<td style="text-align: right;">10.5</td>
+<td style="text-align: right;">4.02</td>
+<td style="text-align: right;">78.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1227.00</td>
+<td style="text-align: right;">41.80</td>
+<td style="text-align: right;">14.5</td>
+<td style="text-align: right;">2.88</td>
+<td style="text-align: right;">84.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">522.60</td>
+<td style="text-align: right;">40.80</td>
+<td style="text-align: right;">12.0</td>
+<td style="text-align: right;">3.40</td>
+<td style="text-align: right;">43.55</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">956.20</td>
+<td style="text-align: right;">34.60</td>
+<td style="text-align: right;">13.0</td>
+<td style="text-align: right;">2.66</td>
+<td style="text-align: right;">73.55</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">982.60</td>
+<td style="text-align: right;">31.20</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">2.31</td>
+<td style="text-align: right;">72.79</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">508.60</td>
+<td style="text-align: right;">27.40</td>
+<td style="text-align: right;">8.0</td>
+<td style="text-align: right;">3.42</td>
+<td style="text-align: right;">63.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NSC</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">221.20</td>
+<td style="text-align: right;">24.60</td>
+<td style="text-align: right;">4.5</td>
+<td style="text-align: right;">5.47</td>
+<td style="text-align: right;">49.16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">499.20</td>
+<td style="text-align: right;">23.80</td>
+<td style="text-align: right;">8.5</td>
+<td style="text-align: right;">2.80</td>
+<td style="text-align: right;">58.73</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SWG</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">505.80</td>
+<td style="text-align: right;">22.60</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right;">3.48</td>
+<td style="text-align: right;">77.82</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">493.20</td>
+<td style="text-align: right;">22.20</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right;">3.42</td>
+<td style="text-align: right;">75.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ENV</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">231.40</td>
+<td style="text-align: right;">21.20</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">5.30</td>
+<td style="text-align: right;">57.85</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">766.80</td>
+<td style="text-align: right;">19.60</td>
+<td style="text-align: right;">14.0</td>
+<td style="text-align: right;">1.40</td>
+<td style="text-align: right;">54.77</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">572.40</td>
+<td style="text-align: right;">16.80</td>
+<td style="text-align: right;">9.2</td>
+<td style="text-align: right;">1.83</td>
+<td style="text-align: right;">62.22</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">403.20</td>
+<td style="text-align: right;">14.80</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">2.11</td>
+<td style="text-align: right;">57.60</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FMS</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">300.00</td>
+<td style="text-align: right;">13.40</td>
+<td style="text-align: right;">4.0</td>
+<td style="text-align: right;">3.35</td>
+<td style="text-align: right;">75.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">343.40</td>
+<td style="text-align: right;">12.20</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">1.74</td>
+<td style="text-align: right;">49.06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">284.40</td>
+<td style="text-align: right;">11.40</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">1.63</td>
+<td style="text-align: right;">40.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AMS</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">236.60</td>
+<td style="text-align: right;">11.00</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">118.30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ESS</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">237.20</td>
+<td style="text-align: right;">10.80</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">2.16</td>
+<td style="text-align: right;">47.44</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">332.00</td>
+<td style="text-align: right;">10.20</td>
+<td style="text-align: right;">8.0</td>
+<td style="text-align: right;">1.27</td>
+<td style="text-align: right;">41.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">536.20</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">12.0</td>
+<td style="text-align: right;">0.83</td>
+<td style="text-align: right;">44.68</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">318.20</td>
+<td style="text-align: right;">9.80</td>
+<td style="text-align: right;">7.5</td>
+<td style="text-align: right;">1.31</td>
+<td style="text-align: right;">42.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">376.20</td>
+<td style="text-align: right;">8.80</td>
+<td style="text-align: right;">6.0</td>
+<td style="text-align: right;">1.47</td>
+<td style="text-align: right;">62.70</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GIT</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">397.00</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">1.29</td>
+<td style="text-align: right;">68.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">354.20</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">1.09</td>
+<td style="text-align: right;">64.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">224.00</td>
+<td style="text-align: right;">4.80</td>
+<td style="text-align: right;">6.0</td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">37.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DAN</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">311.40</td>
+<td style="text-align: right;">4.80</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">62.28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ITL</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">258.67</td>
+<td style="text-align: right;">4.67</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
 <section id="most-understaffed-unit-ay-pairs" class="level2">
 <h2 class="anchored" data-anchor-id="most-understaffed-unit-ay-pairs">Most understaffed unit-AY pairs</h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 185 × 6
-   department    AY   fte majors enrollment enrollment_fte
-   &lt;chr&gt;      &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;          &lt;dbl&gt;
- 1 SDS         2019   4.5     20        675           150 
- 2 SDS         2020   4.5     40        593           132.
- 3 SDS         2018   4.5     10        586           130.
- 4 SDS         2023   7.5     62        969           129.
- 5 SWG         2022   4.5     15        568           126.
- 6 SDS         2021   6       32        691           115.
- 7 SDS         2022   7.5     38        836           111.
- 8 EDC         2022   5       18        551           110.
- 9 SWG         2021   4.5     23        488           108.
-10 CSC         2019   7.5     39        789           105.
-# ℹ 175 more rows</code></pre>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">unit</th>
+<th style="text-align: right;">AY</th>
+<th style="text-align: right;">fte</th>
+<th style="text-align: right;">majors</th>
+<th style="text-align: right;">enrollment</th>
+<th style="text-align: right;">enrollment_fte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">675</td>
+<td style="text-align: right;">150.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">593</td>
+<td style="text-align: right;">131.78</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">586</td>
+<td style="text-align: right;">130.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">969</td>
+<td style="text-align: right;">129.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SWG</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">568</td>
+<td style="text-align: right;">126.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">691</td>
+<td style="text-align: right;">115.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">836</td>
+<td style="text-align: right;">111.47</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">551</td>
+<td style="text-align: right;">110.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SWG</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">488</td>
+<td style="text-align: right;">108.44</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">789</td>
+<td style="text-align: right;">105.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">891</td>
+<td style="text-align: right;">104.82</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SDS</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">959</td>
+<td style="text-align: right;">100.95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">7.00</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">700</td>
+<td style="text-align: right;">100.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SWG</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">531</td>
+<td style="text-align: right;">96.55</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">1346</td>
+<td style="text-align: right;">96.14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">803</td>
+<td style="text-align: right;">94.47</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">897</td>
+<td style="text-align: right;">94.42</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">558</td>
+<td style="text-align: right;">93.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">14.50</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">1334</td>
+<td style="text-align: right;">92.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">1266</td>
+<td style="text-align: right;">90.43</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">11.00</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">991</td>
+<td style="text-align: right;">90.09</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">14.50</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">1268</td>
+<td style="text-align: right;">87.45</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1038</td>
+<td style="text-align: right;">86.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">9.00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">775</td>
+<td style="text-align: right;">86.11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">846</td>
+<td style="text-align: right;">84.60</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">799</td>
+<td style="text-align: right;">84.11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DAN</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">378</td>
+<td style="text-align: right;">84.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">11.50</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">953</td>
+<td style="text-align: right;">82.87</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">762</td>
+<td style="text-align: right;">80.21</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">13.30</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">1064</td>
+<td style="text-align: right;">80.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">14.60</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">1165</td>
+<td style="text-align: right;">79.79</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">598</td>
+<td style="text-align: right;">79.73</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">11.50</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">916</td>
+<td style="text-align: right;">79.65</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">1234</td>
+<td style="text-align: right;">79.61</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">13.50</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">1070</td>
+<td style="text-align: right;">79.26</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">594</td>
+<td style="text-align: right;">79.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">1106</td>
+<td style="text-align: right;">79.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">1105</td>
+<td style="text-align: right;">78.93</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">631</td>
+<td style="text-align: right;">78.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">12.50</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">983</td>
+<td style="text-align: right;">78.64</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: right;">78.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SWG</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">506</td>
+<td style="text-align: right;">77.85</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">775</td>
+<td style="text-align: right;">77.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ENG</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">1082</td>
+<td style="text-align: right;">77.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">770</td>
+<td style="text-align: right;">77.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">498</td>
+<td style="text-align: right;">76.62</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">1185</td>
+<td style="text-align: right;">76.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">13.00</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">987</td>
+<td style="text-align: right;">75.92</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DAN</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">377</td>
+<td style="text-align: right;">75.40</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">740</td>
+<td style="text-align: right;">74.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">590</td>
+<td style="text-align: right;">73.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">477</td>
+<td style="text-align: right;">73.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">14.30</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">1049</td>
+<td style="text-align: right;">73.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MTH</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">878</td>
+<td style="text-align: right;">73.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NSC</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">4.50</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">328</td>
+<td style="text-align: right;">72.89</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">395</td>
+<td style="text-align: right;">71.82</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CSC</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">10.50</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">750</td>
+<td style="text-align: right;">71.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">464</td>
+<td style="text-align: right;">71.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">1106</td>
+<td style="text-align: right;">71.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">427</td>
+<td style="text-align: right;">71.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">388</td>
+<td style="text-align: right;">70.55</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">13.70</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">964</td>
+<td style="text-align: right;">70.36</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">386</td>
+<td style="text-align: right;">70.18</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">14.10</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">989</td>
+<td style="text-align: right;">70.14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">561</td>
+<td style="text-align: right;">70.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">385</td>
+<td style="text-align: right;">70.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">524</td>
+<td style="text-align: right;">69.87</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">1080</td>
+<td style="text-align: right;">69.68</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">417</td>
+<td style="text-align: right;">69.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">556</td>
+<td style="text-align: right;">69.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">14.10</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">978</td>
+<td style="text-align: right;">69.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">13.50</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">936</td>
+<td style="text-align: right;">69.33</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">15.00</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">1033</td>
+<td style="text-align: right;">68.87</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">515</td>
+<td style="text-align: right;">68.67</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">652</td>
+<td style="text-align: right;">68.63</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">512</td>
+<td style="text-align: right;">68.27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">13.30</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">905</td>
+<td style="text-align: right;">68.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">939</td>
+<td style="text-align: right;">67.07</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">14.10</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">943</td>
+<td style="text-align: right;">66.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">1026</td>
+<td style="text-align: right;">66.19</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">397</td>
+<td style="text-align: right;">66.17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">13.10</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">865</td>
+<td style="text-align: right;">66.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">561</td>
+<td style="text-align: right;">66.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">917</td>
+<td style="text-align: right;">65.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">523</td>
+<td style="text-align: right;">65.38</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">387</td>
+<td style="text-align: right;">64.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">14.25</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">917</td>
+<td style="text-align: right;">64.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">14.70</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">943</td>
+<td style="text-align: right;">64.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">15.70</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">1006</td>
+<td style="text-align: right;">64.08</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">539</td>
+<td style="text-align: right;">63.41</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">7.00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">443</td>
+<td style="text-align: right;">63.29</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CHM</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">632</td>
+<td style="text-align: right;">63.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EDC</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">378</td>
+<td style="text-align: right;">63.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">9.20</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">577</td>
+<td style="text-align: right;">62.72</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">13.00</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">811</td>
+<td style="text-align: right;">62.38</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">403</td>
+<td style="text-align: right;">62.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">15.70</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">972</td>
+<td style="text-align: right;">61.91</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PSY</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">14.60</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">902</td>
+<td style="text-align: right;">61.78</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">368</td>
+<td style="text-align: right;">61.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">582</td>
+<td style="text-align: right;">61.26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">14.30</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">868</td>
+<td style="text-align: right;">60.70</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">60.67</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">15.00</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">905</td>
+<td style="text-align: right;">60.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ANT</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">361</td>
+<td style="text-align: right;">60.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">387</td>
+<td style="text-align: right;">59.54</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">297</td>
+<td style="text-align: right;">59.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">14.50</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">860</td>
+<td style="text-align: right;">59.31</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">562</td>
+<td style="text-align: right;">59.16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">13.00</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">769</td>
+<td style="text-align: right;">59.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GIT</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">5.80</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">343</td>
+<td style="text-align: right;">59.14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">58.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">499</td>
+<td style="text-align: right;">58.71</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">11.00</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">643</td>
+<td style="text-align: right;">58.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ART</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">13.30</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">776</td>
+<td style="text-align: right;">58.35</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">552</td>
+<td style="text-align: right;">58.11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">16.70</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">967</td>
+<td style="text-align: right;">57.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">15.00</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">866</td>
+<td style="text-align: right;">57.73</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">13.00</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">750</td>
+<td style="text-align: right;">57.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">547</td>
+<td style="text-align: right;">57.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">5.50</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">315</td>
+<td style="text-align: right;">57.27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">371</td>
+<td style="text-align: right;">57.08</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">11.00</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">626</td>
+<td style="text-align: right;">56.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GOV</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">13.70</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">771</td>
+<td style="text-align: right;">56.28</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">478</td>
+<td style="text-align: right;">56.24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">362</td>
+<td style="text-align: right;">55.69</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">362</td>
+<td style="text-align: right;">55.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">529</td>
+<td style="text-align: right;">55.68</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">359</td>
+<td style="text-align: right;">55.23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">55.06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPP</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">10.50</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">566</td>
+<td style="text-align: right;">53.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">403</td>
+<td style="text-align: right;">53.73</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">344</td>
+<td style="text-align: right;">52.92</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ESS</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">263</td>
+<td style="text-align: right;">52.60</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">9.00</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">469</td>
+<td style="text-align: right;">52.11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">441</td>
+<td style="text-align: right;">51.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ECO</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">718</td>
+<td style="text-align: right;">51.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">382</td>
+<td style="text-align: right;">50.93</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SOC</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">405</td>
+<td style="text-align: right;">50.62</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">329</td>
+<td style="text-align: right;">50.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">606</td>
+<td style="text-align: right;">50.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HST</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">426</td>
+<td style="text-align: right;">50.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">297</td>
+<td style="text-align: right;">49.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">319</td>
+<td style="text-align: right;">49.08</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ESS</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">235</td>
+<td style="text-align: right;">47.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">46.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">347</td>
+<td style="text-align: right;">46.27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">552</td>
+<td style="text-align: right;">46.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PHY</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">345</td>
+<td style="text-align: right;">46.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">45.80</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">343</td>
+<td style="text-align: right;">45.73</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIO</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">21.50</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">975</td>
+<td style="text-align: right;">45.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">294</td>
+<td style="text-align: right;">45.23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">225</td>
+<td style="text-align: right;">45.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">9.00</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">405</td>
+<td style="text-align: right;">45.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PHI</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">267</td>
+<td style="text-align: right;">44.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">9.00</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">44.44</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">9.00</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">393</td>
+<td style="text-align: right;">43.67</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">7.00</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">43.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">348</td>
+<td style="text-align: right;">43.50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">REL</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">280</td>
+<td style="text-align: right;">43.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">344</td>
+<td style="text-align: right;">43.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">515</td>
+<td style="text-align: right;">42.92</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EAL</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">499</td>
+<td style="text-align: right;">41.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">6.50</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">41.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">40.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FRN</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">320</td>
+<td style="text-align: right;">40.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">199</td>
+<td style="text-align: right;">39.80</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">238</td>
+<td style="text-align: right;">39.67</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">471</td>
+<td style="text-align: right;">39.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">EGR</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">12.00</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">469</td>
+<td style="text-align: right;">39.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">7.00</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">38.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">230</td>
+<td style="text-align: right;">38.33</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFR</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">38.17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">7.50</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">286</td>
+<td style="text-align: right;">38.13</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">8.00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">38.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">8.50</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">35.88</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GEO</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">6.00</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">33.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">THE</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">32.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">224</td>
+<td style="text-align: right;">23.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">9.50</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">222</td>
+<td style="text-align: right;">23.37</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">8.30</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">191</td>
+<td style="text-align: right;">23.01</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">9.25</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">193</td>
+<td style="text-align: right;">20.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">10.30</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">212</td>
+<td style="text-align: right;">20.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">9.30</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">164</td>
+<td style="text-align: right;">17.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MUS</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">10.30</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">125</td>
+<td style="text-align: right;">12.14</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
