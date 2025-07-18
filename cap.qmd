@@ -39,7 +39,7 @@ cap <- cap_fte |>
 ```
 
 
-## Big picture
+# Big picture
 
 ```{r}
 cap |>
@@ -52,6 +52,8 @@ cap |>
   )
 ```
 
+I think the jump in FTE in 2024 is due to the reclassification on teaching-focused faculty. 
+
 ```{r}
 cap_recent <- cap |>
   filter(AY > 2021) |>
@@ -63,8 +65,44 @@ cap_recent <- cap |>
   )
 ```
 
+## FTE growth
 
-## Advising loads
+```{r}
+#| warning: false
+cap |>
+  group_by(department) |>
+  summarize(
+    fte_2020 = sum(ifelse(AY == 2020, fte, 0)),
+    fte_2024 = sum(ifelse(AY == 2024, fte, 0))
+  ) |>
+  drop_na(fte_2024) |>
+  mutate(
+    dept = fct_reorder(department, fte_2024),
+    is_up = fte_2024 > fte_2020
+  ) |>
+  ggplot(aes(x = dept, y = fte_2020)) +
+  geom_point() + 
+  geom_segment(
+    aes(xend = dept, yend = fte_2024, color = is_up), 
+    arrow = arrow(length = unit(0.2, "cm"))
+  ) +
+  scale_color_brewer("Growing?", palette = "Set2") +
+  labs(
+    title = "FTE by unit over time",
+    subtitle = "2020-2024"
+  ) +
+  scale_x_discrete(NULL) +
+  scale_y_continuous("FTE") +
+  coord_flip()
+```
+
+```{r}
+#| eval: false
+ggsave(here::here("college_wide/cap/fte_growth_2025.png"), width = 8, height = 6)
+```
+
+
+# Majors per FTE
 
 ```{r}
 mod <- lm(majors_3 ~ fte, data = cap_recent)
@@ -117,42 +155,8 @@ ggplot(cap_recent, aes(x = fte, y = majors_3)) +
 ggsave(here::here("college_wide/cap/majors_per_fte_2025.png"), width = 8, height = 6)
 ```
 
-## FTE growth
 
-```{r}
-cap |>
-  group_by(department) |>
-  summarize(
-    fte_2020 = sum(ifelse(AY == 2020, fte, 0)),
-    fte_2024 = sum(ifelse(AY == 2024, fte, 0))
-  ) |>
-  drop_na(fte_2024) |>
-  mutate(
-    dept = fct_reorder(department, fte_2024),
-    is_up = fte_2024 > fte_2020
-  ) |>
-  ggplot(aes(x = dept, y = fte_2020)) +
-  geom_point() + 
-  geom_segment(
-    aes(xend = dept, yend = fte_2024, color = is_up), 
-    arrow = arrow(length = unit(0.2, "cm"))
-  ) +
-  scale_color_brewer("Growing?", palette = "Set2") +
-  labs(
-    title = "FTE by unit over time",
-    subtitle = "2020-2024"
-  ) +
-  scale_x_discrete(NULL) +
-  scale_y_continuous("FTE") +
-  coord_flip()
-```
-
-```{r}
-#| eval: false
-ggsave(here::here("college_wide/cap/fte_growth_2025.png"), width = 8, height = 6)
-```
-
-## Enrollments
+# Enrollments
 
 ```{r}
 large_depts <- cap_enroll |>
@@ -179,7 +183,7 @@ cap_enroll |>
 ggsave(here::here("college_wide/cap/enrollment_growth_2025.png"), width = 8, height = 6)
 ```
 
-## Summary statistics
+## Enrollment per FTE
 
 ```{r}
 cap_current <- cap |>
@@ -200,7 +204,6 @@ cap_current <- cap |>
 
 
 
-## Enrollment per FTE
 
 ```{r}
 regions <- tibble(
@@ -230,7 +233,9 @@ ggplot(cap_current, aes(x = num_fte, y = num_enrolled)) +
 ggsave(here::here("college_wide/cap/enrollment_fte_2025.png"), width = 8, height = 6)
 ```
 
-## Per FTE table
+# Tables
+
+## Units by majors over 5 years per FTE
 
 ```{r}
 cap |>
@@ -248,5 +253,16 @@ cap |>
   ) |> 
   arrange(desc(majors_avg_5)) |>
   filter(enroll_avg_5 > 200)
+```
+
+## Most understaffed unit-AY pairs
+
+```{r}
+cap |>
+  filter(fte > 4) |>
+  mutate(
+    enrollment_fte = enrollment / fte,
+  ) |> 
+  arrange(desc(enrollment_fte))
 ```
 
