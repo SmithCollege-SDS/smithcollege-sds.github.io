@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2016-09-07">
 
-<title>SDS Software – SDS</title>
+<title>CAP – SDS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -233,15 +232,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#software-used-by-sds-classes" id="toc-software-used-by-sds-classes" class="nav-link active" data-scroll-target="#software-used-by-sds-classes">Software used by SDS classes</a>
-  <ul class="collapse">
-  <li><a href="#sds-136" id="toc-sds-136" class="nav-link" data-scroll-target="#sds-136">SDS 136</a></li>
-  <li><a href="#sds-192" id="toc-sds-192" class="nav-link" data-scroll-target="#sds-192">SDS 192</a></li>
-  <li><a href="#sds-220" id="toc-sds-220" class="nav-link" data-scroll-target="#sds-220">SDS 220</a></li>
-  <li><a href="#sds-291" id="toc-sds-291" class="nav-link" data-scroll-target="#sds-291">SDS 291</a></li>
-  <li><a href="#sds-293" id="toc-sds-293" class="nav-link" data-scroll-target="#sds-293">SDS 293</a></li>
-  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages">R packages</a></li>
-  </ul></li>
+  <li><a href="#big-picture" id="toc-big-picture" class="nav-link active" data-scroll-target="#big-picture">Big picture</a></li>
+  <li><a href="#advising-loads" id="toc-advising-loads" class="nav-link" data-scroll-target="#advising-loads">Advising loads</a></li>
+  <li><a href="#fte-growth" id="toc-fte-growth" class="nav-link" data-scroll-target="#fte-growth">FTE growth</a></li>
+  <li><a href="#enrollments" id="toc-enrollments" class="nav-link" data-scroll-target="#enrollments">Enrollments</a></li>
+  <li><a href="#summary-statistics" id="toc-summary-statistics" class="nav-link" data-scroll-target="#summary-statistics">Summary statistics</a></li>
+  <li><a href="#enrollment-per-fte" id="toc-enrollment-per-fte" class="nav-link" data-scroll-target="#enrollment-per-fte">Enrollment per FTE</a></li>
+  <li><a href="#per-fte-table" id="toc-per-fte-table" class="nav-link" data-scroll-target="#per-fte-table">Per FTE table</a></li>
   </ul>
 </nav>
     </div>
@@ -250,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SDS Software</h1>
+<h1 class="title">CAP</h1>
 </div>
 
 
@@ -258,12 +255,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 7, 2016</p>
-    </div>
-  </div>
   
     
   </div>
@@ -273,58 +264,181 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="software-used-by-sds-classes" class="level2">
-<h2 class="anchored" data-anchor-id="software-used-by-sds-classes">Software used by SDS classes</h2>
-<p>These applications should be installed on the Science image, particularly on the lectern computer in Sabin Reed 301.</p>
-<p><strong>All software should be the latest general available (GA) release unless otherwise noted</strong></p>
-<section id="sds-136" class="level3">
-<h3 class="anchored" data-anchor-id="sds-136">SDS 136</h3>
-<ul>
-<li><a href="http://www.tableau.com">Tableau</a> - if we ever got a site license for it; I know CATS was talking about it</li>
-</ul>
+<section id="big-picture" class="level2">
+<h2 class="anchored" data-anchor-id="big-picture">Big picture</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 11 × 5
+      AY num_depts num_fte num_majors num_enrollees
+   &lt;dbl&gt;     &lt;int&gt;   &lt;dbl&gt;      &lt;dbl&gt;         &lt;dbl&gt;
+ 1  2014        51      0         831         19782
+ 2  2015        51      0         826         19424
+ 3  2016        51      0         895         18815
+ 4  2017        51      0         839         19121
+ 5  2018        51    276.        842         19108
+ 6  2019        51    280.        844         19084
+ 7  2020        51    280.        922         19219
+ 8  2021        51    279.        796         17966
+ 9  2022        51    279.        805         20201
+10  2023        51    280.        864         19651
+11  2024        51    311         842         19490</code></pre>
+</div>
+</div>
 </section>
-<section id="sds-192" class="level3">
-<h3 class="anchored" data-anchor-id="sds-192">SDS 192</h3>
-<ul>
-<li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/mysql.html">mysql CLI</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li>External dependencies for <code>sf</code> package
-<ul>
-<li><a href="http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries">GDAL</a></li>
-<li><a href="http://trac.osgeo.org/geos">GEOS</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/udunits/">UDUNITS</a></li>
-</ul></li>
-</ul>
+<section id="advising-loads" class="level2">
+<h2 class="anchored" data-anchor-id="advising-loads">Advising loads</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = majors_3 ~ fte, data = cap_recent)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-20.367  -8.034  -0.435   4.866  31.834 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)   0.9687     3.2609   0.297    0.768    
+fte           2.5332     0.3715   6.818 3.36e-08 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 11.35 on 40 degrees of freedom
+  (9 observations deleted due to missingness)
+Multiple R-squared:  0.5375,    Adjusted R-squared:  0.5259 
+F-statistic: 46.48 on 1 and 40 DF,  p-value: 3.365e-08</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 42 × 9
+   .rownames majors_3   fte .fitted .resid   .hat .sigma .cooksd .std.resid
+   &lt;chr&gt;        &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;
+ 1 41            67    13.5   35.2   31.8  0.0637   10.2 0.286        2.90 
+ 2 26            61    14.5   37.7   23.3  0.0778   10.8 0.193        2.14 
+ 3 44            47.3   9.5   25.0   22.3  0.0285   10.9 0.0584       1.99 
+ 4 6             18     0.5    2.24  15.8  0.0749   11.2 0.0845       1.44 
+ 5 11            40.7  10.5   27.6   13.1  0.0341   11.3 0.0244       1.17 
+ 6 37            25     4.5   12.4   12.6  0.0329   11.3 0.0218       1.13 
+ 7 19            21.3   4     11.1   10.2  0.0362   11.4 0.0159       0.919
+ 8 15            43.7  14     36.4    7.23 0.0705   11.4 0.0166       0.661
+ 9 18            43.7  14.5   37.7    5.97 0.0778   11.4 0.0127       0.548
+10 16            23.3   6.5   17.4    5.90 0.0247   11.4 0.00351      0.527
+# ℹ 32 more rows</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 9 rows containing non-finite outside the scale range
+(`stat_smooth()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 9 rows containing missing values or values outside the scale range
+(`geom_point()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 9 rows containing missing values or values outside the scale range
+(`geom_label_repel()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: ggrepel: 8 unlabeled data points (too many overlaps). Consider
+increasing max.overlaps</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="cap_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="sds-220" class="level3">
-<h3 class="anchored" data-anchor-id="sds-220">SDS 220</h3>
-<ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-</ul>
+<section id="fte-growth" class="level2">
+<h2 class="anchored" data-anchor-id="fte-growth">FTE growth</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_point()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_segment()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="cap_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="sds-291" class="level3">
-<h3 class="anchored" data-anchor-id="sds-291">SDS 291</h3>
-<ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download2/">RStudio Desktop</a></li>
-<li><a href="https://cran.r-project.org/bin/">R</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a></li>
-<li><a href="https://www.spotify.com/us/download/">Spotify</a></li>
-</ul>
+<section id="enrollments" class="level2">
+<h2 class="anchored" data-anchor-id="enrollments">Enrollments</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_point()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_line()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="cap_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="sds-293" class="level3">
-<h3 class="anchored" data-anchor-id="sds-293">SDS 293</h3>
-<ul>
-<li><a href="https://www.python.org/">Python3</a> - I personally like the <a href="https://www.continuum.io/downloads">Anaconda</a> distribution for this course, but I can made do with most things.</li>
-</ul>
+<section id="summary-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="summary-statistics">Summary statistics</h2>
 </section>
-<section id="r-packages" class="level3">
-<h3 class="anchored" data-anchor-id="r-packages">R packages</h3>
-<p>See <a href="./sds_r_packages.html">R packages used by SDS</a></p>
+<section id="enrollment-per-fte" class="level2">
+<h2 class="anchored" data-anchor-id="enrollment-per-fte">Enrollment per FTE</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: ggrepel: 27 unlabeled data points (too many overlaps). Consider
+increasing max.overlaps</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="cap_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="per-fte-table" class="level2">
+<h2 class="anchored" data-anchor-id="per-fte-table">Per FTE table</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 33 × 7
+   department num_years enroll_avg_5 majors_avg_5 current_fte mean_majors_fte
+   &lt;chr&gt;          &lt;int&gt;        &lt;dbl&gt;        &lt;dbl&gt;       &lt;dbl&gt;           &lt;dbl&gt;
+ 1 PSY                5         980.         64.4        13.5            4.77
+ 2 GOV                5         907.         56.6        14.5            3.90
+ 3 BIO                5        1076.         49.6        21.5            2.31
+ 4 ECO                5         783.         45.8        14              3.27
+ 5 SDS                5         810.         42.8         9.5            4.51
+ 6 CSC                5         828          42.2        10.5            4.02
+ 7 ENG                5        1227          41.8        14.5            2.88
+ 8 EGR                5         523.         40.8        12              3.4 
+ 9 ART                5         956.         34.6        13              2.66
+10 MTH                5         983.         31.2        13.5            2.31
+# ℹ 23 more rows
+# ℹ 1 more variable: mean_enrollment_fte &lt;dbl&gt;</code></pre>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
