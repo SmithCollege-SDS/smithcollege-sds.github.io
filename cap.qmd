@@ -1,0 +1,252 @@
+---
+title: "CAP"
+---
+
+```{r}
+#| echo: false
+#| message: false
+library(tidyverse)
+library(googlesheets4)
+gs4_deauth()
+cap_majors <- "1fb5eyByIO1ykq_pqUFKbl200mp8gD8qjPyuKwL2WfA4" |>
+  read_sheet(sheet = "majors", na = "---") |>
+  janitor::clean_names() |>
+  pivot_longer(cols = -department, names_to = "AY", values_to = "majors") |>
+  mutate(AY = parse_number(AY) + 1)
+  # rowwise() |>
+  # mutate(
+  #   avg_3 = mean(c_across(x2021_22:x2023_24)),
+  #   avg_5 = mean(c_across(x2019_20:x2023_24))
+  # )
+
+cap_fte <- "1fb5eyByIO1ykq_pqUFKbl200mp8gD8qjPyuKwL2WfA4" |>
+  read_sheet(sheet = "fte", na = "---") |>
+  janitor::clean_names() |>
+  pivot_longer(cols = -department, names_to = "AY", values_to = "fte") |>
+  mutate(AY = parse_number(AY))
+
+cap_enroll <- "1fb5eyByIO1ykq_pqUFKbl200mp8gD8qjPyuKwL2WfA4" |>
+  read_sheet(sheet = "enrollments", na = "---") %>%
+  janitor::clean_names() |>
+  pivot_longer(cols = -department, names_to = "AY", values_to = "enrollment") |>
+  mutate(
+    AY = parse_number(AY) + 1
+  )
+
+cap <- cap_fte |>
+  full_join(cap_majors, by = join_by(department, AY)) |>
+  full_join(cap_enroll, by = join_by(department, AY))
+```
+
+
+## Big picture
+
+```{r}
+cap |>
+  group_by(AY) |>
+  summarize(
+    num_depts = n_distinct(department),
+    num_fte = sum(fte, na.rm = TRUE),
+    num_majors = sum(majors, na.rm = TRUE),
+    num_enrollees = sum(enrollment, na.rm = TRUE)
+  )
+```
+
+```{r}
+cap_recent <- cap |>
+  filter(AY > 2021) |>
+  group_by(department) |>
+  summarize(
+    fte = last(fte),
+    majors_3 = mean(majors, na.rm = TRUE),
+    mean_enrollment = mean(enrollment, na.rm = TRUE)
+  )
+```
+
+
+## Advising loads
+
+```{r}
+mod <- lm(majors_3 ~ fte, data = cap_recent)
+summary(mod)
+```
+
+```{r}
+mod |>
+  broom::augment() |>
+  arrange(desc(.resid))
+```
+
+```{r}
+arrows <- tribble(
+  ~fte, ~majors_3, ~xend, ~yend,
+  13, 10, 10, 25
+)
+
+context <- tribble(
+  ~fte, ~majors_3, ~label,
+  15, 8, paste("OLS regression line:\n", round(mod$coefficients[["fte"]], 2), "majors per FTE"),
+  9.4, 32, "+22\nmajors"
+)
+
+ggplot(cap_recent, aes(x = fte, y = majors_3)) +
+  geom_abline(
+    slope = mod$coefficients[["fte"]], 
+    intercept = mod$coefficients[["(Intercept)"]] + 22
+  ) + 
+  geom_point() + 
+  geom_smooth(method = "lm", se = 0) + 
+  ggrepel::geom_label_repel(aes(label = department, fill = department %in% c("CSC", "SDS"))) + 
+  geom_curve(
+    data = arrows,
+    aes(xend = xend, yend = yend), 
+    arrow = arrow(length = unit(0.1,"cm"))
+  ) + 
+  geom_text(data = context, aes(label = label), hjust = "right") + 
+  guides(fill = "none") + 
+  scale_y_continuous("Majors at Graduation (three-year average)") + 
+  scale_x_continuous("FTE by July 1") + 
+  labs(
+    title = "Majors per FTE", 
+    subtitle = "Based on CAP's 2025 annual report. Figures are for 2023-2024."
+  )
+```
+
+```{r}
+#| eval: false
+ggsave(here::here("college_wide/cap/majors_per_fte_2025.png"), width = 8, height = 6)
+```
+
+## FTE growth
+
+```{r}
+cap |>
+  group_by(department) |>
+  summarize(
+    fte_2020 = sum(ifelse(AY == 2020, fte, 0)),
+    fte_2024 = sum(ifelse(AY == 2024, fte, 0))
+  ) |>
+  drop_na(fte_2024) |>
+  mutate(
+    dept = fct_reorder(department, fte_2024),
+    is_up = fte_2024 > fte_2020
+  ) |>
+  ggplot(aes(x = dept, y = fte_2020)) +
+  geom_point() + 
+  geom_segment(
+    aes(xend = dept, yend = fte_2024, color = is_up), 
+    arrow = arrow(length = unit(0.2, "cm"))
+  ) +
+  scale_color_brewer("Growing?", palette = "Set2") +
+  labs(
+    title = "FTE by unit over time",
+    subtitle = "2020-2024"
+  ) +
+  scale_x_discrete(NULL) +
+  scale_y_continuous("FTE") +
+  coord_flip()
+```
+
+```{r}
+#| eval: false
+ggsave(here::here("college_wide/cap/fte_growth_2025.png"), width = 8, height = 6)
+```
+
+## Enrollments
+
+```{r}
+large_depts <- cap_enroll |>
+  filter(enrollment > 800) |>
+  pull(department) |>
+  unique()
+cap_enroll |>
+  filter(department %in% large_depts) |>
+  ggplot(aes(x = AY, y = enrollment, color = department)) +
+  geom_point() +
+  geom_line() +
+  scale_color_brewer(palette = "Set3") + 
+  scale_y_continuous("Total CAP Enrollments") +
+  scale_x_continuous("Academic Year") +
+  labs(
+    title = "Total CAP Enrollments for large departments", 
+    subtitle = "AY 2014-2024"
+  )
+```
+
+
+```{r}
+#| eval: false
+ggsave(here::here("college_wide/cap/enrollment_growth_2025.png"), width = 8, height = 6)
+```
+
+## Summary statistics
+
+```{r}
+cap_current <- cap |>
+  filter(AY == 2024) |>
+  group_by(department) |>
+  summarize(
+    num_units = n_distinct(department),
+    num_enrolled = sum(enrollment, na.rm = TRUE),
+    num_fte = sum(fte, na.rm = TRUE),
+    num_majors = sum(majors, na.rm = TRUE)
+  ) |>
+  mutate(
+    mean_enrollment_fte = num_enrolled / num_fte,
+    mean_majors_fte = num_majors / num_fte
+  ) |>
+  arrange(desc(mean_enrollment_fte))
+```
+
+
+
+## Enrollment per FTE
+
+```{r}
+regions <- tibble(
+  num_fte = 9, 
+  num_enrolled = 1:7 * 20 * num_fte,
+  label = paste(num_enrolled / num_fte, "students\nper FTE")
+)
+
+ggplot(cap_current, aes(x = num_fte, y = num_enrolled)) +
+  geom_abline(intercept = 0, slope = 71.1, color = "blue") + 
+  geom_abline(intercept = 0, slope = 1:7 * 20, linetype = 3) +
+  geom_text(data = regions, aes(label = label), size = 2) +
+  geom_point() + 
+  ggrepel::geom_label_repel(aes(label = department, fill = department %in% c("SDS", "CSC"))) +
+  labs(
+    title = "Enrollment per FTE",
+    subtitle = "Based on CAP’s 2025 Annual Report. Figures are for 2023-2024."
+  ) + 
+  scale_fill_manual(values = c("white", sds::smith_pal_categorical(2)[2])) + 
+  scale_x_continuous("FTE by July 1") + 
+  scale_y_continuous("Total Enrollment") +
+  guides(fill = "none")
+```
+
+```{r}
+#| eval: false
+ggsave(here::here("college_wide/cap/enrollment_fte_2025.png"), width = 8, height = 6)
+```
+
+## Per FTE table
+
+```{r}
+cap |>
+  filter(AY > 2019) |>
+  group_by(department) |>
+  summarize(
+    num_years = n(),
+    enroll_avg_5 = mean(enrollment, na.rm = TRUE),
+    majors_avg_5 = mean(majors, na.rm = TRUE),
+    current_fte = last(fte)
+  ) |>
+  mutate(
+    mean_majors_fte = majors_avg_5 / current_fte,
+    mean_enrollment_fte = enroll_avg_5 / current_fte,
+  ) |> 
+  arrange(desc(majors_avg_5)) |>
+  filter(enroll_avg_5 > 200)
+```
+
