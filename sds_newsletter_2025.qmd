@@ -221,6 +221,8 @@ I'm looking forward to what's in store in the coming year!
 
 -   Priscilla Wencong Li '18 - I will take a break from being a Data Scientist and start my MBA at Wharton this fall!
 
+-   Zoe Meers ('17, SDS minor) - This year I recently started working as a data scientist at the World Bank, a perfect combination of my GOV & SDS Smith degree, where I'm currently building out data viz packages in Python for economists & data scientist across the Bank to use. I spent the past four years working in tech as a data scientist at Canva where we did lots of fun stuff like implementing a Bayesian A/B testing suite and other fun models like multi-armed bandits. I also open sourced R & Python packages for Flourish while working at Canva. I'm coming up on year 8 (!) of maintaining some R packages, including `ggparliament` for visualizing legislatures & election results and `readabs` for pulling & cleaning data from the Australian Bureau of Statistics -- time flies! I use the skills the SDS department taught me at work every day - my sincere thanks to such a wonderful & innovative department!
+
 ## What's next?
 
 ### Joint Statistical Meetings
