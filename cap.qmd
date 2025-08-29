@@ -135,7 +135,7 @@ ggplot(cap_recent, aes(x = fte, y = majors_3)) +
   ) + 
   geom_point() + 
   geom_smooth(method = "lm", se = 0) + 
-  ggrepel::geom_label_repel(aes(label = unit, fill = unit %in% c("CSC", "SDS"))) + 
+  ggrepel::geom_label_repel(aes(label = unit, fill = unit %in% c("SDS"))) + 
   geom_curve(
     data = arrows,
     aes(xend = xend, yend = yend), 
