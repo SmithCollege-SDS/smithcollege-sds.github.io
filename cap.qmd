@@ -210,7 +210,7 @@ cap_current <- cap |>
 regions <- tibble(
   num_fte = 9, 
   num_enrolled = 1:7 * 20 * num_fte,
-  label = paste(num_enrolled / num_fte, "students\nper FTE")
+  label = paste(num_enrolled / num_fte, "enrollments\nper FTE")
 )
 
 ggplot(cap_current, aes(x = num_fte, y = num_enrolled)) +
@@ -218,7 +218,7 @@ ggplot(cap_current, aes(x = num_fte, y = num_enrolled)) +
   geom_abline(intercept = 0, slope = 1:7 * 20, linetype = 3) +
   geom_text(data = regions, aes(label = label), size = 2) +
   geom_point() + 
-  ggrepel::geom_label_repel(aes(label = unit, fill = unit %in% c("SDS", "CSC"))) +
+  ggrepel::geom_label_repel(aes(label = unit, fill = unit %in% c("SDS"))) +
   labs(
     title = "Enrollment per FTE",
     subtitle = "Based on CAP’s 2025 Annual Report. Figures are for 2023-2024."
