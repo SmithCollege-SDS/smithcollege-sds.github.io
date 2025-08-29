@@ -176,6 +176,10 @@ This upcoming year, I will be teaching my *Research Seminar in Political Network
 
 #### [Jericho Lawson](https://www.smith.edu/people/jericho-lawson)
 
+Hi everyone! I'm so excited to join the SDS department for the upcoming school year! The past year has been hectic to say the least. I just wrapped up PhD work at the University of California, Riverside, and while I am truly relieved to have finished, the feeling is definitely bittersweet. There were definitely many long nights of studying, fun moments with colleagues and friends, and lots of dry-erase markers thrown out from writing continuously on a whiteboard. 
+
+I am ready to join the Smith community and cannot wait to teach y'all during the school year. I am delighted to teach SDS 192: Introduction to Data Science and SDS 270: Programming for Data Science in R this year. As I'm preparing to settle in, I'm slowly creating a list of restaurants and hiking spots in the area to explore; if you have any recommendations, let me know!
+
 #### [Ab Mosca '14](https://www.smith.edu/people/ab-mosca)
 
 #### [Katherine Clemans](https://www.smith.edu/people/katherine-clemans)
@@ -220,6 +224,8 @@ I'm looking forward to what's in store in the coming year!
     Hope y’all are doing so well!
 
 -   Priscilla Wencong Li '18 - I will take a break from being a Data Scientist and start my MBA at Wharton this fall!
+
+-   Zoe Meers ('17, SDS minor) - This year I recently started working as a data scientist at the World Bank, a perfect combination of my GOV & SDS Smith degree, where I'm currently building out data viz packages in Python for economists & data scientist across the Bank to use. I spent the past four years working in tech as a data scientist at Canva where we did lots of fun stuff like implementing a Bayesian A/B testing suite and other fun models like multi-armed bandits. I also open sourced R & Python packages for Flourish while working at Canva. I'm coming up on year 8 (!) of maintaining some R packages, including `ggparliament` for visualizing legislatures & election results and `readabs` for pulling & cleaning data from the Australian Bureau of Statistics -- time flies! I use the skills the SDS department taught me at work every day - my sincere thanks to such a wonderful & innovative department!
 
 ## What's next?
 
