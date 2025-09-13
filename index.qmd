@@ -5,17 +5,18 @@ output:
     toc: false
 ---
 
-This website is managed by the SDS faculty. For our official website, please visit [smith.edu](https://www.smith.edu/academics/statistical-data-sciences).
+This website is managed by the SDS faculty:
 
+-   For our official website, please visit [smith.edu](https://www.smith.edu/academics/statistical-data-sciences).
+-   For additional information on our major and minor, please see this [page](https://docs.google.com/document/d/1FY2vdUIQKBC2VlXfY1NkkBPWHJADH0O1ukUPMU02xRE/edit?usp=sharing).
 
 ## Who we are
 
-- Top row: Katherine M. Kinnaird, William Hopper, Casey Berger, Nic Schwab
-- Middle row: Rebecca Kurtz-Garcia, Randi Garcia, Lindsay Poirier
-- Bottom row: Shiya Cao, Scott LaCombe, Kaitlyn Cook, Albert Kim, Hualong Xu (student representative)
-- Not pictured: Ben Baumer, Kelley Dunphy (administrative coordinator), Ab Mosca, Yujie Wang, Kementari Whitcher
+-   Top row: Katherine M. Kinnaird, William Hopper, Casey Berger, Nic Schwab
+-   Middle row: Rebecca Kurtz-Garcia, Randi Garcia, Lindsay Poirier
+-   Bottom row: Shiya Cao, Scott LaCombe, Kaitlyn Cook, Albert Kim, Hualong Xu (student representative)
+-   Not pictured: Ben Baumer, Kelley Dunphy (administrative coordinator), Ab Mosca, Yujie Wang, Kementari Whitcher
 
 ```{r, echo = FALSE}
 knitr::include_graphics("gfx/sds-2024.JPG")
 ```
-
