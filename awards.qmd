@@ -88,7 +88,7 @@ DataFest is a national undergraduate data analysis competition hosted at UMass e
 Recent winners from Smith include:
 
 
-- [2026]()
+- [2026](https://www.science.smith.edu/datafest/2026/04/14/mount-holyoke-repeats-as-best-in-show-brings-trophy-home-again/)
     - Most Topical Research Question: $n = 4$  
       Zoe Khan '27, Amber Zhang '27, Gemma Qu '28, Ace Carpenter '29
     - Best Business Pitch: The Outliers  
