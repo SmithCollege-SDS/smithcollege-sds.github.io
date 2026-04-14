@@ -87,6 +87,12 @@ DataFest is a national undergraduate data analysis competition hosted at UMass e
 
 Recent winners from Smith include:
 
+
+- [2026]()
+    - Most Topical Research Question: $n = 4$  
+      Zoe Khan '27, Amber Zhang '27, Gemma Qu '28, Ace Carpenter '29
+    - Best Business Pitch: The Outliers  
+      Ames Azogue Irigoyen '27, Kira Hou '28, Swikriti Dumre '28, Shengye Shen '28, Yuli Qin '27
 - [2025](https://www.science.smith.edu/datafest/2025/04/08/recap-of-the-2025-asa-five-college-datafest/)
     - Best in Group (Panel B): Data Wranglers  
       Itzel Aleman Flores '27, Danielle Justo '27, Zoe Khan '27
@@ -182,6 +188,11 @@ Recent winners from Smith include:
 ### [Undergraduate Research Project Competition](https://www.causeweb.org/usproc/USRESP%20Competition) (USRESP)
 
 The research project competition is for undergraduate students who conduct research projects coming from activities like summer research projects, senior capstone course research projects, independent research projects (e.g., independent studies), Honor's college research projects, or extension of class research projects. Some submissions to USRESP are applied research projects using existing statistical/analytical techniques to solve real world problems, which others are involve methodological research involving statistical applications or simulation studies evaluating different techniques. Students may collect their own data or use existing data and students can select any topic to study.
+
+- 2025
+    - [3rd Place](https://www.causeweb.org/usproc/usresp/2025/fall/winners): Tyler McCord '26 (Amherst College)  
+      *Revisiting The Safe Framework In The Statcast Era: A Modernized Approach To Evaluating MLB Infield Defense*  
+      Faculty sponsor: Ben Baumer
 
 - 2023
     - [1st Place](https://www.causeweb.org/usproc/usresp/2022/fall/winners): Irene Foster '23, Sunshine Schneider '23, Caitlin Timmons '23, Katelyn Diaz '23  
