@@ -119,16 +119,21 @@ mod |>
 ```{r}
 arrows <- tribble(
   ~fte, ~majors_3, ~xend, ~yend,
-  13, 10, 10, 25
+  17, 11, 18, 44,
 )
 
 context <- tribble(
   ~fte, ~majors_3, ~label,
-  15, 8, paste("OLS regression line:\n", round(mod$coefficients[["fte"]], 2), "majors per FTE"),
-  9.4, 32, "+22\nmajors"
+  18, 8, paste("OLS regression line:\n", round(mod$coefficients[["fte"]], 2), "majors per FTE"),
+  9.8, 34, "+22\nmajors"
 )
 
+gap <- mod |>
+  broom::augment(newdata = data.frame(fte = 10)) |>
+  rename(majors_3 = .fitted)
+
 ggplot(cap_recent, aes(x = fte, y = majors_3)) +
+  geom_segment(data = gap, aes(xend = 10, yend = majors_3 + 22), linetype = 3) +
   geom_abline(
     slope = mod$coefficients[["fte"]], 
     intercept = mod$coefficients[["(Intercept)"]] + 22
