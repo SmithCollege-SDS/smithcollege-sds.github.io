@@ -41,9 +41,9 @@ jobs:
         run: |
           Rscript -e 'remotes::install_github("SmithCollege-SDS/sds")'
       
-      - uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true
+#      - uses: quarto-dev/quarto-actions/setup@v2
+#        with:
+#          tinytex: true
 
 #      - name: Install Quarto extensions
 #        run: |        
