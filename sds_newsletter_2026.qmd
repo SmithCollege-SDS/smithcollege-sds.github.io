@@ -28,6 +28,21 @@ date: "July 15, 2026"
 
 #### [Ben Baumer](https://beanumber.github.io/)
 
+I'm working on a couple of papers with recent alums:
+
+- [Everyone Watches Women’s Basketball: Attendance and Fan Engagement in the WNBA](https://g-eastwood.github.io/wnbaattendance/) with **Gabriela Eastwood '26**. This paper stems from a research paper that Gabriela wrote for my SDS 355 Sports Analytics class in the fall. 
+- [Reward systems in sports: Who’s the fairest of them all?](https://beanumber.github.io/fairness/) with **Sarah Susnea '25**. This is ongoing work that started during our Pedagogical Partnership for the SDS capstone. 
+
+I'm also working on a couple of papers in the data science education space about first and [second courses in data science](https://beanumber.github.io/datascience2/). 
+
+I'm gearing up for another 1.5 years as SDS chair, and looking forward to [JSM in Boston](#whats-next).
+Hope to see you there!
+
+In other news, I coached Alice's 12U softball team and we [won the Massachusetts District 2 championship](https://gazettenet.com/2026/06/11/sports-briefs-northampton-12u-softball-claims-2026-massachusetts-district-2-little-league-title/)!!
+
+![](https://i0.wp.com/gazettenet.com/wp-content/uploads/2026/06/Screenshot-2026-06-11-182854.png?resize=780%2C584&ssl=1)
+
+
 #### [Gillian Beltz-Mohrmann](https://gbeltzmo.github.io/)
 
 #### [Shiya Cao](https://scao53.github.io/)
