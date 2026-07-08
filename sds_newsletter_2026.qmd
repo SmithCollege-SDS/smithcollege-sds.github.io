@@ -61,7 +61,7 @@ The latest news of my research is that the data package `tripaccess 0.1.0: Ameri
 
 I was also excited to be back in Spring 2026 (to be honest, a little overwhelmed for the first half of the semester as I adjusted to being back) to teach *SDS 192: Introduction to Data Science* and *SDS 300: Disability Inclusion and Data Analytics*. During the semester, I participated in the ASA Justice, Equity, Diversity, and Inclusion Outreach Group-Reading/Working Group (this group provided valuable feedback on my data package--thanks for that!). The materials we read in the group made me think more deeply about my pedagogy while I was teaching and learning alongside my students. It turned out to be a rewarding semester. Now I am really looking forward to next semester, teaching SDS 192 and *SDS 270: Programming for Data Science in R* and working with my student pedagogical partner **Tanisha Chetty ’27** on issues around GenAI in SDS 270.
 
-In 2026, I started running and swimming regularly (absolute beginner level)--add more cardio to my workouts!
+In 2026, I started running and swimming regularly (absolute beginner level)--adding more cardio to my workouts!
 
 
 #### [Dusty Christensen](https://www.smith.edu/people/dusty-christensen)
