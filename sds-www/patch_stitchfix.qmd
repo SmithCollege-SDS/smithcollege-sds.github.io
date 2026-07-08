@@ -3,16 +3,6 @@ title: "Ethics patches in a box"
 subtitle: "Get your fix: Algorithmic bias in shopping for clothes"
 author: "blinded"
 date: "Last updated on `r Sys.Date()`"
-bibliography: bibliography.bib
-output:
-  html_document:
-    fig_caption: yes
-    theme: lumen
-    toc: yes
-    toc_depth: 2
-    df_print: kable
-    toc_float:
-      collapsed: no
 ---
 
 ```{r setup, include=FALSE}

@@ -1,0 +1,12 @@
+format:
+  html:
+    toc: false
+    fig_caption: yes
+    theme: lumen
+    toc_depth: 2
+    number_sections: yes
+    df_print: kable
+    toc_float:
+      collapsed: no
+
+bibliography: bibliography.bib

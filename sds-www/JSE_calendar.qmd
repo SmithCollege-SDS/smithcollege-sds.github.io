@@ -1,9 +1,6 @@
 ---
 title: 'Data collection & analysis using Google Calendar'
 date: "Last updated on `r Sys.Date()`"
-output: 
-  html_document: 
-    number_sections: yes
 ---
 
 Resources for instructors for Albert Y. Kim and Johanna Hardin's *Journal of Statistics and Data Science Education* paper:  

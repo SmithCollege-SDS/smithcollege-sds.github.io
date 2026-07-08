@@ -2,6 +2,7 @@ docs/*.bib
 docs/
 _site/
 .quarto/
+_freeze/
 
 # History files
 .Rhistory
@@ -42,3 +43,5 @@ vignettes/*.pdf
 rsconnect/
 
 /.quarto/
+
+**/*.quarto_ipynb

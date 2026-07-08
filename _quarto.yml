@@ -3,6 +3,7 @@ project:
 
 execute:
   echo: false
+  freeze: auto  # re-render only when source changes
 
 # All icons on the menubar are from https://fontawesome.com/icons?d=gallery
 website:
@@ -60,10 +61,10 @@ website:
         menu:
           - text: "Ethics"
             icon: person-raised-hand
-            href: sds-www/ethics.Rmd
+            href: sds-www/ethics.qmd
           - text: "Calendar"
             icon: calendar-check
-            href: sds-www/JSE_calendar.Rmd
+            href: sds-www/JSE_calendar.qmd
     right:
       - icon: fa-github
         href: https://github.com/SmithCollege-SDS

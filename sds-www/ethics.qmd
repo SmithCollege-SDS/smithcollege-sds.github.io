@@ -1,9 +1,6 @@
 ---
 title: "Teaching Data Science Ethics"
 bibliography: bibliography.bib
-output:
-  html_document:
-    toc: false
 ---
 
 
