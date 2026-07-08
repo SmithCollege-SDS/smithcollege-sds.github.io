@@ -38,6 +38,10 @@ website:
         menu:
           - text: "Newsletters"
             icon: newspaper
+          - text: "2026"
+            href: sds_newsletter_2026.qmd
+          - text: "2025"
+            href: sds_newsletter_2025.qmd
           - text: "2024"
             href: sds_newsletter_2024.qmd
           - text: "2023"
