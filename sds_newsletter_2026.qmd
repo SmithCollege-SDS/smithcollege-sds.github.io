@@ -4,14 +4,54 @@ author: "Ben Baumer"
 date: "July 15, 2026"
 ---
 
+```{r}
+#| include: false
+library(emoji)
+```
+
 
 **Please help us reach out to other alumnae by having them contact Ben (<bbaumer@smith.edu>)!**
 
 ## Program Updates
 
+- Two SDS alums earned PhDs in biostatistics this year!!! While we count many alums with PhD as belonging to our SDS family, it's possible that Elaona and Crystal are the first alums who *actually* majored in SDS (see below) to get their PhDs in biostatistics. Congratulations to them both!!!
+    - **Elaona Lemoto '20** and post-bac '21 [defended her statistics dissertation](https://biostat.duke.edu/news/elaona-lemoto-defends-dissertation) at Duke and is now working in a Duke research lab!!! 
+    - **Crystal Zang '20** earned her degree from Pittsburgh and [took a job with Johnson & Johnson](https://www.linkedin.com/in/crystal-zang/)  
+- Don't worry, we haven't forgotten about these (superstar) edge cases:
+    - **Dana Udwin '14**: who [earned her PhD in biostatistics](https://www.linkedin.com/in/dudwin/) from Brown in 2023. Dana was technically a MTH major.
+    - **Sara Stoudt '15**: who earned her PhD in statistics from Berkeley in 2020. Sara is now an [assistant professor at Bucknell](https://www.bucknell.edu/fac-staff/sara-stoudt). But she was technically a MTH major, too.
+    - **Judy Zhang '15**: who [earned her PhD in statistics](https://www.linkedin.com/in/jingyang-zhang-ph-d-07380464/) from Northwestern in 2024. If memory serves, Judy was a PSY/MTH double major.
+    - **Yiwen Zhu '16**: who earned her PhD in biostatistics from Harvard in 2025 and is [still working there as a postdoc](https://hsph.harvard.edu/profile/yiwen-zhu/). I caught up with Yiwen at reunion in May. Yiwen was the first *unofficial* SDS major, in that she completed a self-designed major following the proposal for the SDS major that was still being deliberated by the Committee on Academic Priorities.  
+- Who will be next???
+
+- Sadly, the DataFest trophy [did not find its way home this year](https://www.science.smith.edu/datafest/2026/04/14/mount-holyoke-repeats-as-best-in-show-brings-trophy-home-again/), but we're happy for Mount Holyoke that they won again. `r emoji("smirk")`. Two teams from Smith were recognized for their efforts:
+    - **Most Topical Research Question**: n = 4: Zoe Khan, Amber Zhang, Gemma Qu, Ace Carpenter (Smith)  
+      ![](https://www.science.smith.edu/datafest/wp-content/uploads/sites/12/2026/04/most_topical-768x555.jpeg)
+    - **Best Business Pitch**: The Outliers: Ames Azogue Irigoyen, Kira Hou, Swikriti Dumre, Shengye Shen, Yuli Qin (Smith)  
+      ![](https://www.science.smith.edu/datafest/wp-content/uploads/sites/12/2026/04/best_business_pitch-768x334.jpeg)  
+  If any of you are around the Valley and want to be involved in DataFest next year, please don't hesitate to reach out!
+
 -   **Lucia Qin '26** shared her learning experience as a student research assistant in the invited panel "Teamwork Makes the Dream Work: Leveraging Different Approaches to Learn from Data" at the [Women in Statistics and Data Science Conference (WSDS) 2025](https://ww2.amstat.org/meetings/wsds/2025/) virtually.
 
 ![](gfx/lucia_qin_26_WSDS2025.png)
+
+- Our admin **Kelley Dunphy**'s amazing mom was awarded the [2026 Person of the Year from the Daily Hampshire Gazette](https://gazettenet.com/2026/06/11/a-life-of-showing-up-denise-devine-is-the-gazettes-2026-person-of-the-year/?fbclid=IwZnRzaASY1AlleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEe-Qe6W_LeevadUb0Oe4-1W6qVz_4xsCDAnj5Cna11QtWFh0PhVlqlDDtY5MQ_aem_cbGfzi6WypbTLn3)!
+
+- **Gabriela Eastwood '26** and **Katarina Flöer '26** are among the [first recipients of a Harris Impact Fellowship](https://www.smith.edu/news-events/news/deploying-data-heart)! Only 16 students were selected from more than 800 applications. Harvard, Northwestern, and Smith were the only schools to have more than one Fellow. What a coup for them and for SDS!!! 
+
+- **Prof. Kementari Whitcher** published her [first article under her new name](https://www.jhrehab.org/2026/04/21/four-year-study-demonstrates-literary-narratives-improve-empathic-awareness-in-occupational-therapy-students-copy/) in the *Journal of Humanities in Rehabilitation*.
+
+- Johns Hopkins biostatistics professor **Elizabeth Stuart '97** was [elected to National Academy of Medicine](https://publichealth.jhu.edu/2025/three-bloomberg-school-faculty-elected-to-national-academy-of-medicine)!!
+
+- BayFC Director of Data & Analytics **Arielle Dror '20** (see [update below](#alumni-updates)) was featured in this [video detailing their group's analytics operation](https://www.linkedin.com/posts/bayfc-ugcPost-7390100011335745536-Tq4o/)...and `r emoji("ice cream")` proclivities. 
+
+- [A student-led paper](https://programs.sigchi.org/cscw/2025/program/content/210963) from the study Prof. Nikko Stevents did on trans people's data epistemologies got [an honorable mention]( https://programs.sigchi.org/cscw/2025/awards/honorable-mentions) at the 28th ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing.
+
+- **Hayden Steinmann '28 and Madison Allred '26** published [an article (*After success of fare-free transit, what’s next for PVTA?*) about the PVTA](https://theshoestring.org/2026/05/27/after-success-of-fare-free-transit-whats-next-for-pvta/) in the *Shoestring*. The article stemmed from their coursework in SDS 236. 
+
+- **Claire Kelly ’26** won the SDS Research Prize for her excellent thesis, supervised by Prof. Randi Garcia. Even though the thesis was for departmental honors in PSY, the content was heavily statistical. 
+
+- **Dayana Caluna ’26** and **Lorena Bulnes Rodriguez ’26** won Smith's portion of the Five College Statistics Prize for their outstanding independent research project in statistics, also supervised by Prof. Randi Garcia. 
 
 ### Previous Updates
 
@@ -29,6 +69,17 @@ date: "July 15, 2026"
 
 ## Faculty Updates
 
+- **Lindsay Poirier** was granted tenure and promoted to associate professor!!!! Congratulations, Lindsay!!
+- **Sara Kirshbaum** was hired into the tenure-track line jointly held with Government and recently vacated by Scott LaCombe. Sara is a scholar of American political behavior including political participation, representation, mobilization, and elections. Welcome, Sara!!
+- **Will Hopper** was reappointed as a renewable Lecturer in SDS. **Ab Mosca '14** was re-hired on a similar renewable Lecturer line, shared jointly by SDS and CSC. 
+- We're sad to see **Jericho Lawson** go, but we're happy that he will be [nearby at Vassar](https://www.vassar.edu/faculty/jblawson). 
+- **Randi Garcia** finished her impactful three-year term as chair of SDS. Randi oversaw our first decennial review, the tenure and promotion of **Katherine Kinnaird** and **Lindsay Poirier**, and too many search committees to even count. Thank you for your service, Randi!! `r emoji("face_holding_back_tears")`
+- Speaking of the decennial review, can you believe it's been ten years?! Here is how the report starts:
+
+> In short, the faculty of the Statistics and Data Science Program are passionate, dedicated individuals who are providing an impressive learning experience for the students of Smith. Inspecting the wider ecology of U.S. liberal arts colleges, Smith’s SDS Program has few peers, and is itself widely respected as an innovator and a trend setter. When one reviewer was designing a similar major at his liberal arts college, he kept returning to Smith’s program for inspiration in curriculum design and student experience. Similarly, via our discussions with students and faculty members outside of SDS at Smith, it became clear that the program has also garnered great respect within Smith.
+
+
+
 #### [Ben Baumer](https://beanumber.github.io/)
 
 I'm working on a couple of papers with recent alums:
@@ -41,7 +92,7 @@ I'm also working on a couple of papers in the data science education space about
 I'm gearing up for another 1.5 years as SDS chair, and looking forward to [JSM in Boston](#whats-next).
 Hope to see you there!
 
-In other news, I coached Alice's 12U softball team and we [won the Massachusetts District 2 championship](https://gazettenet.com/2026/06/11/sports-briefs-northampton-12u-softball-claims-2026-massachusetts-district-2-little-league-title/)!!
+In other news, I coached Alice's 12U softball team and we [won the Massachusetts District 2 championship](https://gazettenet.com/2026/06/11/sports-briefs-northampton-12u-softball-claims-2026-massachusetts-district-2-little-league-title/)!! Also pictured is my good friend and co-coach **Meredith Bertrand '00**.
 
 ![](https://i0.wp.com/gazettenet.com/wp-content/uploads/2026/06/Screenshot-2026-06-11-182854.png?resize=780%2C584&ssl=1)
 
