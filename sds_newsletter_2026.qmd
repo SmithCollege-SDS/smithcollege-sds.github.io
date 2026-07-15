@@ -138,6 +138,19 @@ In 2026, I started running and swimming regularly (absolute beginner level)--add
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
 
+This past year has been one of many gratifying transitions for me. 
+Closing out a long-standing ethnography of the semantic web, I [published a paper](https://journals-sagepub-com.libproxy.smith.edu/doi/10.1177/03063127261424496) in a Social Studies of Science, examining social action involved in formalizing owl:sameas - a single property in an ontology language. 
+The paper explores how computational practitioners negotiate and redefine the meaning of sameness and difference as they attempt to stabilize standards for modeling data. 
+
+Exploring some new directions for my research, in Fall 2025, I was a fellow in the Kahn Institute's [long-term project on Hauntings](https://www.smith.edu/academics/applied-learning-research/kahn-liberal-arts-institute/hauntings). 
+Unearthing stories that haunt our statistics, I opted to focus on a project exploring the social history of the maternal mortality rate in the U.S. - examining how its reporting has shaped social hierarchies in medicine, been operationalized to justify stances on family planning, and been leveraged to make sense of the state of the country's healthcare system. 
+I look forward to continuing work on this project in the coming years.
+
+I also [published a paper](https://www.tandfonline.com/doi/full/10.1080/26939169.2026.2697726) in the Journal of Statistics and Data Science Education motivating and outlining how I teach Data Ethnography at Smith. In addition to discussing how students learn to study the data science community anthropologically, the article also highlights the exemplary work of several Smith students.
+
+While the news of my promotion to associate professor was certainly a highlight of the past year, nothing brought me quite as much joy as welcoming a little one into my family. My son Rafi was born in December, and I've spent the past seven months stunned by how much fuller life can feel with him.
+
+
 #### [Nikko Stevens](https://www.smith.edu/people/nikko-stevens)
 
 #### [Kementari Whitcher](https://www.smith.edu/people/kementari-whitcher)
