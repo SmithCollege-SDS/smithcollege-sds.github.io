@@ -134,6 +134,14 @@ In 2026, I started running and swimming regularly (absolute beginner level)--add
 
 #### [Rebecca Kurtz-Garcia](https://www.smith.edu/people/rebecca-kurtz-garcia)
 
+This past year has been incredibly eventful and rewarding! I am absolutely delighted to have been reappointed at Smith during my third-year review. On the teaching front, I had the pleasure of teaching Time Series Analysis for the first time—a dream course with a fantastic group of students.
+
+My research side was equally busy. My R package, [`fixedCV`](https://cran.r-project.org/web/packages/fixedCV/index.html), was officially published on CRAN, a corresponding paper was accepted with revisions, and two more are on track to wrap up by the end of summer. My work this year focused on robust variance estimation in time series—essentially finding ways to make sure our statistical conclusions remain valid even when we know very little about the data. I also co-authored two book chapters: one for the second edition of the Handbook of Markov Chain Monte Carlo, and another on online learning tools for introductory statistics.
+
+Off-campus, my partner and I are eagerly preparing to welcome our first child at the end of the summer! In a flurry of nesting and tackling my to-do list, I somehow managed to complete five quilts. While I’d normally enter my work into the Big E or the Three-County Fair, this year's batch is happily destined straight for nurseries—both my own and those of loved ones!
+
+Between crafting a new course, writing research papers, stitching together quilts, and preparing to welcome a brand-new human, it’s been a massive year of growing and creating!
+
 #### [Ab Mosca '14](https://www.smith.edu/people/ab-mosca)
 
 #### [Lindsay Poirier](https://lindsaypoirier.github.io/)
