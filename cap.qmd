@@ -57,7 +57,7 @@ I think the jump in FTE in 2024 is due to the reclassification on teaching-focus
 
 ```{r}
 cap_recent <- cap |>
-  filter(AY > 2021) |>
+  filter(AY > 2022) |>
   group_by(unit) |>
   summarize(
     fte = last(fte),
@@ -73,24 +73,24 @@ cap_recent <- cap |>
 cap |>
   group_by(unit) |>
   summarize(
-    fte_2020 = sum(ifelse(AY == 2020, fte, 0)),
-    fte_2024 = sum(ifelse(AY == 2024, fte, 0))
+    fte_2021 = sum(ifelse(AY == 2021, fte, 0)),
+    fte_2025 = sum(ifelse(AY == 2025, fte, 0))
   ) |>
-  drop_na(fte_2024) |>
+  drop_na(fte_2025) |>
   mutate(
-    unit = fct_reorder(unit, fte_2024),
-    is_up = fte_2024 > fte_2020
+    unit = fct_reorder(unit, fte_2025),
+    is_up = fte_2025 > fte_2021
   ) |>
-  ggplot(aes(x = unit, y = fte_2020)) +
+  ggplot(aes(x = unit, y = fte_2021)) +
   geom_point() + 
   geom_segment(
-    aes(xend = unit, yend = fte_2024, color = is_up), 
+    aes(xend = unit, yend = fte_2025, color = is_up), 
     arrow = arrow(length = unit(0.2, "cm"))
   ) +
   scale_color_brewer("Growing?", palette = "Set2") +
   labs(
     title = "FTE by unit over time",
-    subtitle = "2020-2024"
+    subtitle = "2021-2025"
   ) +
   scale_x_discrete(NULL) +
   scale_y_continuous("FTE") +
@@ -122,10 +122,12 @@ arrows <- tribble(
   17, 11, 18, 44,
 )
 
+bump <- 24
+
 context <- tribble(
   ~fte, ~majors_3, ~label,
   18, 8, paste("OLS regression line:\n", round(mod$coefficients[["fte"]], 2), "majors per FTE"),
-  9.8, 34, "+22\nmajors"
+  9.8, 34, paste0("+", bump, "\nmajors")
 )
 
 gap <- mod |>
@@ -133,10 +135,10 @@ gap <- mod |>
   rename(majors_3 = .fitted)
 
 ggplot(cap_recent, aes(x = fte, y = majors_3)) +
-  geom_segment(data = gap, aes(xend = 10, yend = majors_3 + 22), linetype = 3) +
+  geom_segment(data = gap, aes(xend = 10, yend = majors_3 + bump), linetype = 3) +
   geom_abline(
     slope = mod$coefficients[["fte"]], 
-    intercept = mod$coefficients[["(Intercept)"]] + 22
+    intercept = mod$coefficients[["(Intercept)"]] + bump
   ) + 
   geom_point() + 
   geom_smooth(method = "lm", se = 0) + 
@@ -152,7 +154,7 @@ ggplot(cap_recent, aes(x = fte, y = majors_3)) +
   scale_x_continuous("FTE by July 1") + 
   labs(
     title = "Majors per FTE", 
-    subtitle = "Based on CAP's 2025 annual report. Figures are for 2023-2024."
+    subtitle = "Based on CAP's 2026 annual report. Figures are for 2023-2025."
   )
 ```
 
@@ -193,7 +195,7 @@ ggsave(here::here("college_wide/cap/enrollment_growth_2025.png"), width = 8, hei
 
 ```{r}
 cap_current <- cap |>
-  filter(AY == 2024) |>
+  filter(AY == 2025) |>
   group_by(unit) |>
   summarize(
     num_units = n_distinct(unit),
@@ -226,7 +228,7 @@ ggplot(cap_current, aes(x = num_fte, y = num_enrolled)) +
   ggrepel::geom_label_repel(aes(label = unit, fill = unit %in% c("SDS"))) +
   labs(
     title = "Enrollment per FTE",
-    subtitle = "Based on CAP’s 2025 Annual Report. Figures are for 2023-2024."
+    subtitle = "Based on CAP’s 2026 Annual Report. Figures are for 2023-2025."
   ) + 
   scale_fill_manual(values = c("white", sds::smith_pal_categorical(2)[2])) + 
   scale_x_continuous("FTE by July 1") + 
@@ -245,7 +247,7 @@ ggsave(here::here("college_wide/cap/enrollment_fte_2025.png"), width = 8, height
 
 ```{r}
 cap |>
-  filter(AY > 2019) |>
+  filter(AY > 2020) |>
   group_by(unit) |>
   summarize(
     num_years = n(),
