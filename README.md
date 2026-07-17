@@ -14,7 +14,8 @@ SDS content for the web not managed by college relations, available at
 2.  The contents are based on all `.qmd/.Rmd` files
 
 ### In order to preview this website locally:
-To check your work locally, you'll need to install all of the R packages.  The most up-to-date list of these is in `quarto.yaml`
+To check your work locally, you'll need to install all of the R packages necessary to render the `*.qmd` files. 
+The most up-to-date list of these is in [`.github/workflows/quarto.yaml`](.github/workflows/quarto.yaml).
 
 1. open the R Console in your editor (e.g. Positron) and run:
 ```
@@ -23,13 +24,14 @@ install.packages(c(
   "googlesheets4", "here", "htmltools", "kableExtra", 
   "knitr", "ical", "lubridate", "mosaic", "janitor"
 ))
+
+remotes::install_github("SmithCollege-SDS/sds")
 ```
 
-2. in the terminal, run `quarto preview`
+2. in the Terminal, run `quarto preview`
 
 ### In order to build this website:
 
-1.  Just make a commit, the build will be triggered automatically by
-    GitHub Actions.
+1.  Any `git push` to the `master` branch will trigger [GitHub Actions](https://github.com/features/actions) to rebuild the website.
 
-The resulting `gh-pages` branch will contain all `.html` files
+The resulting `gh-pages` branch will contain all the `.html` files.
