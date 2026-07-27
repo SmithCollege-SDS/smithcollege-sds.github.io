@@ -22,7 +22,7 @@ library(emoji)
     - **Sara Stoudt '15**: who earned her PhD in statistics from Berkeley in 2020. Sara is now an [assistant professor at Bucknell](https://www.bucknell.edu/fac-staff/sara-stoudt). But she was technically a MTH major, too.
     - **Judy Zhang '15**: who [earned her PhD in statistics](https://www.linkedin.com/in/jingyang-zhang-ph-d-07380464/) from Northwestern in 2024. If memory serves, Judy was a PSY/MTH double major.
     - **Yiwen Zhu '16**: who earned her master's in biostatistics and her PhD in epidemiology from Harvard in 2025 and is [still working there as a postdoc](https://hsph.harvard.edu/profile/yiwen-zhu/). I caught up with Yiwen at reunion in May. Yiwen was the first *unofficial* SDS major, in that she completed a self-designed major following the proposal for the SDS major that was still being deliberated by the Committee on Academic Priorities.  
-- Who will be next???
+- Who will be next??? [Quinn White '23](https://www.linkedin.com/in/quinn-white-a77ba5229/)? [Marium Tapal '22](https://www.linkedin.com/in/mariumtapal/)?
 
 - Sadly, the DataFest trophy [did not find its way home this year](https://www.science.smith.edu/datafest/2026/04/14/mount-holyoke-repeats-as-best-in-show-brings-trophy-home-again/), but we're happy for Mount Holyoke that they won again. `r emoji("smirk")`. Two teams from Smith were recognized for their efforts:
     - **Most Topical Research Question**: n = 4: Zoe Khan, Amber Zhang, Gemma Qu, Ace Carpenter (Smith)  
@@ -235,6 +235,7 @@ Alumni updates will be added **HERE**
   I never would have worked in soccer and fulfilled my dream without Smith SDS -- [the R package I helped build](https://github.com/nwslR/nwslR) as a final project for Advanced Programming in R caught the eye of many people who gave me opportunities that ultimately led to several different jobs. I will be forever grateful for all that I learned in my time on campus! 
 - **[Ananda Montoly '22](https://www.linkedin.com/in/ananda-montoly/)**: I'm still working as a software engineer at YouTube on our playback experience side.
 - **[Naylynn Tañón Reyes '23](https://www.linkedin.com/in/naylynntanonreyes/)**: I’m the Technical Project Manager for the Science Operations Center (SOC) on NASA’s Pandora mission, working at the SETI Institute.
+- **[Marium Tapal '22](https://www.linkedin.com/in/mariumtapal/)**: After a couple of years as an RA at Harvard Business School, I made the leap back to school — I just wrapped up my first year in the Statistics PhD program at Rutgers!
 
 
 
