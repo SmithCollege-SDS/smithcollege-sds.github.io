@@ -22,7 +22,7 @@ library(emoji)
     - **Sara Stoudt '15**: who earned her PhD in statistics from Berkeley in 2020. Sara is now an [assistant professor at Bucknell](https://www.bucknell.edu/fac-staff/sara-stoudt). But she was technically a MTH major, too.
     - **Judy Zhang '15**: who [earned her PhD in statistics](https://www.linkedin.com/in/jingyang-zhang-ph-d-07380464/) from Northwestern in 2024. If memory serves, Judy was a PSY/MTH double major.
     - **Yiwen Zhu '16**: who earned her master's in biostatistics and her PhD in epidemiology from Harvard in 2025 and is [still working there as a postdoc](https://hsph.harvard.edu/profile/yiwen-zhu/). I caught up with Yiwen at reunion in May. Yiwen was the first *unofficial* SDS major, in that she completed a self-designed major following the proposal for the SDS major that was still being deliberated by the Committee on Academic Priorities.  
-- Who will be next???
+- Who will be next??? [Quinn White '23](https://www.linkedin.com/in/quinn-white-a77ba5229/)? [Marium Tapal '22](https://www.linkedin.com/in/mariumtapal/)?
 
 - Sadly, the DataFest trophy [did not find its way home this year](https://www.science.smith.edu/datafest/2026/04/14/mount-holyoke-repeats-as-best-in-show-brings-trophy-home-again/), but we're happy for Mount Holyoke that they won again. `r emoji("smirk")`. Two teams from Smith were recognized for their efforts:
     - **Most Topical Research Question**: n = 4: Zoe Khan, Amber Zhang, Gemma Qu, Ace Carpenter (Smith)  
@@ -122,7 +122,7 @@ In 2026, I started running and swimming regularly (absolute beginner level)--add
 
 #### [Kaitlyn Cook](https://www.smith.edu/people/kaitlyn-cook)
 
-It’s hard to believe I’ve already wrapped up year four at Smith! This past fall, I had the absolute pleasure of teaching my seminar course, _SDS 390: Methods in Biostatistics and Epidemiology_, for the second time. The students were dedicated and inquisitive, and I really enjoyed updating the course to include more discussion of timely public health articles and a fuller treatment of graphical methods for causal inference. This spring semester I took my first sabbatical. I spent dedicated time on research projects related to misclassified interval-censored data (with **Skyler Williams ‘25**) and software for interval-censored data analysis (with **Katrina Wang ‘27**) and traveled to visit friends/collaborators at Vassar College and Oregon State University. As wonderful as sabbatical was, I'm really looking forward to being back on campus and teaching two favorits (_SDS 291: Multiple Regression_ and _MTH 246: Probability_) this fall!
+It’s hard to believe I’ve already wrapped up year four at Smith! This past fall, I had the absolute pleasure of teaching my seminar course, _SDS 390: Methods in Biostatistics and Epidemiology_, for the second time. The students were dedicated and inquisitive, and I really enjoyed updating the course to include more discussion of timely public health articles and a fuller treatment of graphical methods for causal inference. This spring semester I took my first sabbatical. I spent dedicated time on research projects related to misclassified interval-censored data (with **Skyler Williams ‘25**) and software for interval-censored data analysis (with **Katrina Wang ‘27**) and traveled to visit friends/collaborators at Vassar College and Oregon State University. As wonderful as sabbatical was, I'm really looking forward to being back on campus and teaching two favorites (_SDS 291: Multiple Regression_ and _MTH 246: Probability_) this fall!
 
 Outside of Smith, I continue playing trumpet with a local community band, running with a local run club, and watching (too much) reality TV. I am particularly proud of two of my accomplishments on these fronts: (a) winning the Survivor Season 50 fantasy league that I run with friends (!) and (b) returning to distance running after an eight-year hiatus by finishing the Providence Half Marathon (!!). 
 
@@ -235,6 +235,7 @@ Alumni updates will be added **HERE**
   I never would have worked in soccer and fulfilled my dream without Smith SDS -- [the R package I helped build](https://github.com/nwslR/nwslR) as a final project for Advanced Programming in R caught the eye of many people who gave me opportunities that ultimately led to several different jobs. I will be forever grateful for all that I learned in my time on campus! 
 - **[Ananda Montoly '22](https://www.linkedin.com/in/ananda-montoly/)**: I'm still working as a software engineer at YouTube on our playback experience side.
 - **[Naylynn Tañón Reyes '23](https://www.linkedin.com/in/naylynntanonreyes/)**: I’m the Technical Project Manager for the Science Operations Center (SOC) on NASA’s Pandora mission, working at the SETI Institute.
+- **[Marium Tapal '22](https://www.linkedin.com/in/mariumtapal/)**: After a couple of years as an RA at Harvard Business School, I made the leap back to school — I just wrapped up my first year in the Statistics PhD program at Rutgers!
 
 
 
