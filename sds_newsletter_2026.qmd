@@ -99,6 +99,20 @@ In other news, I coached Alice's 12U softball team and we [won the Massachusetts
 
 #### [Gillian Beltz-Mohrmann](https://gbeltzmo.github.io/)
 
+I thoroughly enjoyed my first year at Smith, and am excited to begin year 2! Last fall I taught my first two courses in SDS: Multiple Regression and Programming for Data Science in Python. I had so much fun, and am excited to be teaching these courses again this year. In the spring I hopped over to the Physics Department, where I taught Mathematical Methods of Physical Sciences and Engineering, as well as Computational Methods in the Physical Sciences. I have loved getting to know students and colleagues in both SDS and Physics, and am looking forward to another great year in this joint role!
+
+I also enjoyed doing research with two students last year: Madeline Dean (physics '27) worked with me on modeling the impact of baryonic feedback on the distribution of matter around galaxies, and Emma Schultz (physics '28) worked on modeling the effect of dust attenuation on observed galaxy properties. Both Madeline and Emma are going to continue working with me this year, and Madeline is going to be my first senior thesis student!
+
+Much of my research time this past year was spent co-leading a project within the Dark Energy Spectroscopic Instrument (DESI) Collaboration, which focuses on obtaining cosmological constraints using novel galaxy clustering measurements. The DESI Collaboration had a successful meeting in Durham, UK in July, at which I presented recent results from this work. I then traveled to A Coruna, Spain, where I was invited to give a talk at the New Frontiers in Cosmology conference. However, the most exciting part of this conference was watching a total solar eclipse over the ocean.
+
+I few papers that I was involved in came out this past year:
+
+- [DiffstarPop: A generative physical model of galaxy star formation history](https://ui.adsabs.harvard.edu/abs/2026OJAp....961920A/abstract)
+- [Cosmological Constraints from Full-Scale Clustering and Galaxy-Galaxy Lensing with DESI DR1](https://ui.adsabs.harvard.edu/abs/2025arXiv251215962L/abstract)
+- [Illuminating the Physics of Dark Energy with the Discovery Simulations](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..74B/abstract)
+
+Finally, my dog Gadget has been loving life in Northampton, and in January was in his fourth published paper: [Dogs with a large vocabulary of object labels learn new labels by overhearing like 1.5-year-old infants](https://www.science.org/doi/10.1126/science.adq5474) (which was also featured in the NY Times).
+
 #### [Shiya Cao](https://scao53.github.io/)
 
 Year 4 at Smith was a productive year. I am grateful for my pre-tenure sabbatical in Fall 2025. The focus of my sabbatical was taking up the Visiting Fellow position at the Yang-Tan Institute (YTI) on Employment and Disability in the School of Industrial and Labor Relations at Cornell University. During this fellowship, I worked on and submitted one peer-reviewed journal paper, delivered an invited lecture, built collaborative research opportunities with YTI faculty. Furthermore, the sabbatical allowed me to make progress on several other research projects: 
