@@ -1,0 +1,172 @@
+---
+title: "Workday reporting"
+execute:
+  message: false
+---
+
+```{r}
+#| label: get-file
+#| message: false
+library(tidyverse)
+library(googledrive)
+
+read_excel_drive_cache <- function(.data, ...) {
+
+  # Check if any files were found
+  if (nrow(.data) == 0) {
+    stop("No .xlsx files found in Google Drive.")
+  }
+
+  # Print the name of the file being downloaded
+  message("Downloading the last alphabetical file:", .data$name, "\n")
+
+  # 3. Download the selected file to a temporary location
+  temp_file <- tempfile(fileext = ".xlsx")
+  drive_download(
+    file = .data, # A 'dribble' row can be passed directly to drive_download
+    path = temp_file,
+    overwrite = TRUE
+  )
+
+  # 4. Read the Excel file into R
+  readxl::read_excel(temp_file, ...) |>
+    janitor::clean_names()
+}
+```
+
+
+```{r}
+#| label: data-dir
+# List only .xlsx files inside the "Chair" directory of the "SDS" Shared Drive
+workday_data_dir <- drive_find(
+  pattern = "Workday Data",
+  type = "folder",
+  shared_drive = "SDS"
+)
+```
+
+```{r}
+workday_majors_sds <- workday_data_dir |>
+  drive_ls() |>
+  filter(str_detect(name, "workday_majors_sds")) |>
+  drive_ls(
+    pattern = "Department_majors",
+    type = "xlsx"
+  ) |>
+  arrange(desc(name)) |>
+  head(1) |>
+  mutate(date_saved = parse_date(str_sub(name, 0, 8), "%Y%m%d"))
+
+sds_majors <- workday_majors_sds |>
+  read_excel_drive_cache() |>
+  mutate(
+    is_sds_major = str_detect(programs_of_study, "Statistical and Data Sciences Major"),
+    is_mst_major = str_detect(programs_of_study, "Mathematical Statistics Major"),
+    is_mth_major = str_detect(programs_of_study, "Mathematics Major"),
+    is_sds_minor = str_detect(programs_of_study, "Statistical and Data Sciences Minor"),
+    is_sts_minor = str_detect(programs_of_study, "Applied Statistics Minor"),
+  )
+```
+
+## SDS Majors and minors
+
+As of `r format(workday_majors_sds$date_saved, "%B %e, %Y")` were **`r nrow(sds_majors)`** SDS majors. 
+
+```{r}
+#| label: sds-majors
+sds_majors |>
+  group_by(class_year) |>
+  summarize(
+    sds_majors = sum(is_sds_major),
+    mst_majors = sum(is_mst_major)
+  ) |>
+  arrange(class_year) |>
+  janitor::clean_names(case = "title") |>
+  knitr::kable()
+```
+
+
+## MST Majors
+
+```{r}
+workday_majors_mst <- workday_data_dir |>
+  drive_ls() |>
+  filter(str_detect(name, "workday_majors_mst")) |>
+  drive_ls(
+    pattern = "MST_Majors",
+    type = "xlsx"
+  ) |>
+  arrange(desc(name)) |>
+  head(1) |>
+  mutate(date_saved = parse_date(str_sub(name, 0, 8), "%Y%m%d"))
+
+mst_majors <- workday_majors_mst |>
+  read_excel_drive_cache() |>
+  mutate(
+    is_sds_major = str_detect(major_s, "Statistical and Data Sciences Major"),
+    is_mst_major = str_detect(major_s, "Mathematical Statistics Major"),
+    is_mth_major = str_detect(major_s, "Mathematics Major")
+  )
+```
+
+As of `r format(workday_majors_mst$date_saved, "%B %e, %Y")` were **`r nrow(mst_majors)`** MST majors. 
+
+```{r}
+#| label: mst-majors
+mst_majors |>
+  group_by(class_year) |>
+  summarize(
+    sds_majors = sum(is_sds_major),
+    mst_majors = sum(is_mst_major)
+  ) |>
+  arrange(class_year) |>
+  janitor::clean_names(case = "title") |>
+  knitr::kable()
+```
+
+
+
+## Faculty advising loads
+
+```{r}
+workday_advisers <- workday_data_dir |>
+  drive_ls() |>
+  filter(str_detect(name, "workday_advising")) |>
+  drive_ls(
+    pattern = "Advisee_Count_Report",
+    type = "xlsx",
+  ) |>
+  arrange(desc(name)) |>
+  head(1)
+
+y <- workday_advisers |>
+  read_excel_drive_cache()
+```
+
+```{r}
+sds_advisers <- y |>
+  filter(majors_in_academic_unit > 0) |>
+  select(-academic_units, -adviser_email, -adviser_id) |>
+  mutate(
+    total_wt_advisees = liberal_arts_advisees + majors_in_academic_unit + majors_out_of_academic_unit + 0.5 * (minor_advisees + concentration_advisees)
+  )
+sds_advisers |>
+  arrange(desc(total_wt_advisees)) |>
+  janitor::clean_names(case = "title") |>
+  janitor::adorn_totals(where = "row") |>
+  knitr::kable()
+```
+
+Among the `r (n <- nrow(filter(y, majors_in_academic_unit > 0)))` advising faculty members, the average faculty advising load is **`r round(nrow(sds_majors) / n, 2)`** SDS majors, **`r round(nrow(mst_majors) / n, 2)`** MST majors, and **`r round(sum(sds_advisers$total_wt_advisees) / n, 2)`** total weighted advisees.
+
+## Capstone planning
+
+```{r}
+#| eval: false
+sds_majors |>
+  filter(is_sds_major, grepl("27|AC", class_year)) |>
+  select(student, class_year) |>
+  arrange(class_year, student) |>
+  print(n = Inf)
+```
+
