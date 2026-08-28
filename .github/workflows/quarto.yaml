@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GS4_KEY: ${{ secrets.DRIVE_KEY }}
     steps:
       - uses: actions/checkout@v4
 

@@ -9,7 +9,57 @@ execute:
 #| message: false
 library(tidyverse)
 library(googledrive)
+```
 
+```{r}
+#| label: token-cache-dir
+#| message: false
+# designate project-specific cache
+cache_dir <- here::here(".secrets")
+encrypted_token_path <- here::here(cache_dir, "drive-token.rds")
+
+# set values in options
+options(
+  gargle_oauth_cache = cache_dir,
+  gargle_oauth_email = TRUE,
+  gargle_verbosity = "debug"
+)
+```
+
+```{r}
+#| eval: false
+# Ben did this once -- no one else should need to do it!!!
+
+# Step 1a: generate a secret key
+secret_key <- gargle::secret_make_key()
+# Step 1b: save the secret key as the GS4_KEY environment variable in `_environment.local`
+# Sys.getenv("DRIVE_KEY")
+# Sys.setenv(DRIVE_KEY = secret_key)
+
+# Step 1c: Configure the secret key as a Secret on GitHub
+
+# Step 2a: get a token and DO NOT CACHE IT
+googledrive::drive_auth(email = "bbaumer@smith.edu", scopes = "drive.readonly", cache = FALSE)
+# Step 2b: encrypt the token and write it to a file
+gargle::secret_write_rds(
+  x = drive_token(),
+  path = encrypted_token_path,
+  key = "DRIVE_KEY"
+)
+# Step 2c: commit the encrypted_token_path file to GitHub
+```
+
+
+```{r}
+#| label: authorize-token
+#| message: false
+# now decrypt the token using the secret key. 
+# This should work both locally AND on GitHub Actions!!
+drive_auth(token = gargle::secret_read_rds(encrypted_token_path, "DRIVE_KEY"))
+```
+
+
+```{r}
 read_excel_drive_cache <- function(.data, ...) {
 
   # Check if any files were found
@@ -37,6 +87,7 @@ read_excel_drive_cache <- function(.data, ...) {
 
 ```{r}
 #| label: data-dir
+#| message: false
 # List only .xlsx files inside the "Chair" directory of the "SDS" Shared Drive
 workday_data_dir <- drive_find(
   pattern = "Workday Data",
@@ -46,6 +97,8 @@ workday_data_dir <- drive_find(
 ```
 
 ```{r}
+#| label: find-drive-files
+#| message: false
 workday_majors_sds <- workday_data_dir |>
   drive_ls() |>
   filter(str_detect(name, "workday_majors_sds")) |>
@@ -89,6 +142,7 @@ sds_majors |>
 ## MST Majors
 
 ```{r}
+#| message: false
 workday_majors_mst <- workday_data_dir |>
   drive_ls() |>
   filter(str_detect(name, "workday_majors_mst")) |>
@@ -129,6 +183,7 @@ mst_majors |>
 ## Faculty advising loads
 
 ```{r}
+#| message: false
 workday_advisers <- workday_data_dir |>
   drive_ls() |>
   filter(str_detect(name, "workday_advising")) |>
