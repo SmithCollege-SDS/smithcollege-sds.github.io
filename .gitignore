@@ -45,3 +45,5 @@ rsconnect/
 /.quarto/
 
 **/*.quarto_ipynb
+
+/_*.local
