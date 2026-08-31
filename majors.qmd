@@ -214,6 +214,33 @@ sds_advisers |>
 
 Among the `r (n <- nrow(filter(y, majors_in_academic_unit > 0)))` advising faculty members, the average faculty advising load is **`r round(nrow(sds_majors) / n, 2)`** SDS majors, **`r round(nrow(mst_majors) / n, 2)`** MST majors, and **`r round(sum(sds_advisers$total_wt_advisees) / n, 2)`** total weighted advisees.
 
+## Enrollments
+
+```{r}
+#| message: false
+workday_enrollments <- workday_data_dir |>
+  drive_ls() |>
+  filter(str_detect(name, "workday_enrollments")) |>
+  drive_ls(
+    pattern = "SDS Majors",
+    type = "xlsx"
+  ) |>
+  arrange(desc(name)) |>
+  head(1) |>
+  mutate(date_saved = parse_date(str_sub(name, 0, 8), "%Y%m%d"))
+
+enrollments <- workday_enrollments |>
+  read_excel_drive_cache(skip = 1)
+
+enrollments |>
+  select(course_number, section_number, all_instructors, section_capacity, enrollment_count, waitlist_count) |>
+  mutate(open_seats = section_capacity - enrollment_count - waitlist_count) |>
+  arrange(course_number, section_number, open_seats) |>
+  unique() |>
+  janitor::clean_names(case = "title") |>
+  knitr::kable()
+```
+
 ## Capstone planning
 
 ```{r}
