@@ -124,6 +124,10 @@ The class project competition is for undergraduate students who conduct projects
 
 Recent winners from Smith include:
 
+- 2026
+    - [1st Place (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2026/spring/winners): Luchi (Amber) Zhang '27, Zishu (Anna) Zhao '27, & Nicole Choi '27  
+    *"Limited English Proficiency and Uninsurance Among U.S. Adults: The Moderating Role of Disability Status"*  
+    Faculty sponsor: Shiya Cao
 - 2022
     - [Honorable Mention (Introductory Statistics)](https://www.causeweb.org/usproc/usclap/2022/spring/winners): Grace Rade '24, Audrey Kim '24, Lisa Li '24, & Joy Mahoney '24  
     *"Analysis Of Age, Race And Income As Factors Of Work Time"*  
