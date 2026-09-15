@@ -222,7 +222,7 @@ workday_enrollments <- workday_data_dir |>
   drive_ls() |>
   filter(str_detect(name, "workday_enrollments")) |>
   drive_ls(
-    pattern = "SDS Majors",
+    pattern = "Academic_Chair_Course_Section_Report",
     type = "xlsx"
   ) |>
   arrange(desc(name)) |>
@@ -233,6 +233,7 @@ enrollments <- workday_enrollments |>
   read_excel_drive_cache(skip = 1)
 
 enrollments |>
+  filter(str_detect(owning_academic_unit, "Statistical and Data Sciences")) |>
   select(course_number, section_number, all_instructors, section_capacity, enrollment_count, waitlist_count) |>
   mutate(open_seats = section_capacity - enrollment_count - waitlist_count) |>
   arrange(course_number, section_number, open_seats) |>
