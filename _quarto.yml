@@ -85,3 +85,8 @@ format:
     highlight: pygments
     toc: true
     toc_float: true
+
+editor: 
+  markdown: 
+    canonical: true
+    wrap: sentence
