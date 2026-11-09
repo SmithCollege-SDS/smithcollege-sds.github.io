@@ -11,7 +11,7 @@ Here is a list of conferences that SDS faculty attend often:
 - [NESS](https://nestat.org/) (New England Statistics Symposium): A regional annual meeting where statisticians and data scientists across New England share research and network.
 - [WSDS](https://www.amstat.org/meetings/women-in-statistics-and-data-science) (Women in Statistics and Data Science): A conference celebrating and supporting women and gender minorities working in statistics and data science.
 - [WiML](https://wimlworkshop.org/) (Women in Machine Learning): A workshop and community promoting the work and careers of women and gender minorities in machine learning.
-
+- [eUSR](https://www.causeweb.org/usproc/eusrc) (Electronic Undergraduate Statistics Research Conference): An online conference for undergraduate statistics and data science students.
 # Niche Conferences
 
 - Pedagogical:
