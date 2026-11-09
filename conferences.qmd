@@ -1,0 +1,34 @@
+---
+title: "Conferences"
+---
+
+Here is a list of conferences that SDS faculty attend often:
+
+
+# General: Statistics and Data Science
+
+- [JSM](https://www.amstat.org/meetings/joint-statistical-meetings) (Joint Statistical Meetings): The largest annual gathering of statisticians in North America, jointly organized by major statistical societies such as the American Statistical Association.
+- [NESS](https://nestat.org/) (New England Statistics Symposium): A regional annual meeting where statisticians and data scientists across New England share research and network.
+- [WSDS](https://www.amstat.org/meetings/women-in-statistics-and-data-science) (Women in Statistics and Data Science): A conference celebrating and supporting women and gender minorities working in statistics and data science.
+- [WiML](https://wimlworkshop.org/) (Women in Machine Learning): A workshop and community promoting the work and careers of women and gender minorities in machine learning.
+- [eUSR](https://www.causeweb.org/usproc/eusrc) (Electronic Undergraduate Statistics Research Conference): An online conference for undergraduate statistics and data science students.
+# Niche Conferences
+
+- Pedagogical:
+    - [USCOTS](https://www.causeweb.org/cause/conferences/uscots) (US Conference on Teaching Statistics): A biennial conference on improving the teaching and learning of statistics, especially at the undergraduate level.
+- Political Science:
+    - [MPSA](https://www.mpsanet.org/conference/) (Midwest Political Science Association): A large annual conference for political science research across all subfields.
+    - [APSA](https://apsanet.org/events/annual-meeting-exhibition/) (American Political Science Association): The flagship annual meeting of political scientists in the United States.
+    - [NEPSA](https://www.newenglandpsa.org/) (New England Political Science Association): A regional annual conference for political scientists in New England.
+- Social and Ethical Perspectives on Data:
+    - [4S](https://www.4sonline.org/meeting/) (Society for Social Studies of Science): An annual meeting on the social, cultural, and political dimensions of science and technology.
+    - [Data Power](https://datapowerconference.org/) (Data Power Conference): A conference examining the social, political, and economic power of data and datafication.
+    - [AOIR](https://aoir.org/) (Association of Internet Researchers): An annual conference for interdisciplinary research on the internet and digital media.
+    - [FAccT](https://facctconference.org/) (ACM Conference on Fairness, Accountability, and Transparency): A conference on the fairness, accountability, and transparency of computational and algorithmic systems.
+- Data Journalism:
+    - [NICAR](https://www.ire.org/training/conferences/nicar-2026/) (National Institute for Computer-Assisted Reporting): A data journalism conference for investigate reporters featuring sessions about R, Python, and AI, etc.
+- Sports Analytics:
+    - [NESSIS](https://www.nessis.org/) (New England Symposium on Statistics in Sports): Premier academic conference on sports analytics, hosted at Harvard University. 
+    - [CSAS](https://statds.org/events/csas2026/) (Connecticut Sports Analytics Symposium): Intentionally designed to engage participants at all educational levels, including high school, undergraduate, and graduate, who are interested in sports analytics or, more broadly, data science. 
+    
+
