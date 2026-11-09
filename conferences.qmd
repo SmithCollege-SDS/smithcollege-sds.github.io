@@ -25,4 +25,10 @@ Here is a list of conferences that SDS faculty attend often:
     - [Data Power](https://datapowerconference.org/) (Data Power Conference): A conference examining the social, political, and economic power of data and datafication.
     - [AOIR](https://aoir.org/) (Association of Internet Researchers): An annual conference for interdisciplinary research on the internet and digital media.
     - [FAccT](https://facctconference.org/) (ACM Conference on Fairness, Accountability, and Transparency): A conference on the fairness, accountability, and transparency of computational and algorithmic systems.
+- Data Journalism:
+    - [NICAR](https://www.ire.org/training/conferences/nicar-2026/) (National Institute for Computer-Assisted Reporting): A data journalism conference for investigate reporters featuring sessions about R, Python, and AI, etc.
+- Sports Analytics:
+    - [NESSIS](https://www.nessis.org/) (New England Symposium on Statistics in Sports): Premier academic conference on sports analytics, hosted at Harvard University. 
+    - [CSAS](https://statds.org/events/csas2026/) (Connecticut Sports Analytics Symposium): Intentionally designed to engage participants at all educational levels, including high school, undergraduate, and graduate, who are interested in sports analytics or, more broadly, data science. 
+    
 
