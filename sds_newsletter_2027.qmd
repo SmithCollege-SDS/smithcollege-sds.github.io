@@ -1,0 +1,382 @@
+---
+title: "SDS Newsletter"
+author: "Ben Baumer"
+date: "July XX, 2027"
+---
+
+```{r}
+#| include: false
+library(emoji)
+```
+
+**This is a work in progress until July 2027**
+
+## Fall 2026
+
+- Sara K. joining
+- Decennial review plan
+- MST leveling up making sure that students are aware of offering
+- Zoe presented JSM
+- KB Boomer
+- Census workshop
+- Liz Stuart
+- Elaona Talk
+- Alumni Panel
+- From #bragging
+  - Kate Flöer '26 and I just had a paper accepted to the NeurIPS education track! It is an expanded version of her final project from SDS 293.
+  - Zishu Zhao, Nicole Choi, Luchi Zhang win USPROC project
+  - Arielle Dror work featured on [Athletic](https://www.nytimes.com/athletic/5300864/2024/02/26/nwsl-data-analytics/)
+- 
+
+**Please help us reach out to other alumnae by having them contact Ben ([bbaumer\@smith.edu](mailto:bbaumer@smith.edu){.email})!**
+
+## Program Updates
+
+- Two SDS alums earned PhDs in biostatistics this year!!!
+  While we count many alums with PhD as belonging to our SDS family, it's possible that Elaona and Crystal are the first alums who *actually* majored in SDS (see below) to get their PhDs in biostatistics.
+  Congratulations to them both!!!
+
+  - **Elaona Lemoto '20** and post-bac '21 [defended her statistics dissertation](https://biostat.duke.edu/news/elaona-lemoto-defends-dissertation) at Duke and is now working in a Duke research lab!!!
+  - **Crystal Zang '20** earned her degree from Pittsburgh and [took a job with Johnson & Johnson](https://www.linkedin.com/in/crystal-zang/)\
+
+- Don't worry, we haven't forgotten about these (superstar) edge cases:
+
+  - **Dana Udwin '14**: who [earned her PhD in biostatistics](https://www.linkedin.com/in/dudwin/) from Brown in 2023. Dana was technically a MTH major.
+  - **Sara Stoudt '15**: who earned her PhD in statistics from Berkeley in 2020. Sara is now an [assistant professor at Bucknell](https://www.bucknell.edu/fac-staff/sara-stoudt). But she was technically a MTH major, too.
+  - **Judy Zhang '15**: who [earned her PhD in statistics](https://www.linkedin.com/in/jingyang-zhang-ph-d-07380464/) from Northwestern in 2024. If memory serves, Judy was a PSY/MTH double major.
+  - **Yiwen Zhu '16**: who earned her master's in biostatistics and her PhD in epidemiology from Harvard in 2025 and is [still working there as a postdoc](https://hsph.harvard.edu/profile/yiwen-zhu/). I caught up with Yiwen at reunion in May. Yiwen was the first *unofficial* SDS major, in that she completed a self-designed major following the proposal for the SDS major that was still being deliberated by the Committee on Academic Priorities.\
+
+- Who will be next???
+  [Quinn White '23](https://www.linkedin.com/in/quinn-white-a77ba5229/)?
+  [Marium Tapal '22](https://www.linkedin.com/in/mariumtapal/)?
+
+- Sadly, the DataFest trophy [did not find its way home this year](https://www.science.smith.edu/datafest/2026/04/14/mount-holyoke-repeats-as-best-in-show-brings-trophy-home-again/), but we're happy for Mount Holyoke that they won again.
+  `r emoji("smirk")`.
+  Two teams from Smith were recognized for their efforts:
+
+  - **Most Topical Research Question**: n = 4: Zoe Khan, Amber Zhang, Gemma Qu, Ace Carpenter (Smith)\
+    ![](https://www.science.smith.edu/datafest/wp-content/uploads/sites/12/2026/04/most_topical-768x555.jpeg)
+  - **Best Business Pitch**: The Outliers: Ames Azogue Irigoyen, Kira Hou, Swikriti Dumre, Shengye Shen, Yuli Qin (Smith)\
+    ![](https://www.science.smith.edu/datafest/wp-content/uploads/sites/12/2026/04/best_business_pitch-768x334.jpeg)\
+    If any of you are around the Valley and want to be involved in DataFest next year, please don't hesitate to reach out!
+
+- **Lucia Qin '26** shared her learning experience as a student research assistant in the invited panel "Teamwork Makes the Dream Work: Leveraging Different Approaches to Learn from Data" at the [Women in Statistics and Data Science Conference (WSDS) 2025](https://ww2.amstat.org/meetings/wsds/2025/) virtually.
+
+![](gfx/lucia_qin_26_WSDS2025.png)
+
+- Our admin **Kelley Dunphy**'s amazing mom was awarded the [2026 Person of the Year from the Daily Hampshire Gazette](https://gazettenet.com/2026/06/11/a-life-of-showing-up-denise-devine-is-the-gazettes-2026-person-of-the-year/?fbclid=IwZnRzaASY1AlleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEe-Qe6W_LeevadUb0Oe4-1W6qVz_4xsCDAnj5Cna11QtWFh0PhVlqlDDtY5MQ_aem_cbGfzi6WypbTLn3)!
+
+- **Gabriela Eastwood '26** and **Katarina Flöer '26** are among the [first recipients of a Harris Impact Fellowship](https://www.smith.edu/news-events/news/deploying-data-heart)!
+  Only 16 students were selected from more than 800 applications.
+  Harvard, Northwestern, and Smith were the only schools to have more than one Fellow.
+  What a coup for them and for SDS!!!
+
+- **Prof. Kementari Whitcher** published her [first article under her new name](https://www.jhrehab.org/2026/04/21/four-year-study-demonstrates-literary-narratives-improve-empathic-awareness-in-occupational-therapy-students-copy/) in the *Journal of Humanities in Rehabilitation*.
+
+- Johns Hopkins biostatistics professor **Elizabeth Stuart '97** was [elected to National Academy of Medicine](https://publichealth.jhu.edu/2025/three-bloomberg-school-faculty-elected-to-national-academy-of-medicine)!!
+
+- BayFC Director of Data & Analytics **Arielle Dror '20** (see [update below](#alumni-updates)) was featured in this [video detailing their group's analytics operation](https://www.linkedin.com/posts/bayfc-ugcPost-7390100011335745536-Tq4o/)...and `r emoji("ice cream")` proclivities.
+
+- [A student-led paper](https://programs.sigchi.org/cscw/2025/program/content/210963) from the study Prof. Nikko Stevents did on trans people's data epistemologies got [an honorable mention](https://programs.sigchi.org/cscw/2025/awards/honorable-mentions) at the 28th ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing.
+
+- **Hayden Steinmann '28 and Madison Allred '26** published [an article (*After success of fare-free transit, what’s next for PVTA?*) about the PVTA](https://theshoestring.org/2026/05/27/after-success-of-fare-free-transit-whats-next-for-pvta/) in the *Shoestring*.
+  The article stemmed from their coursework in SDS 236.
+
+- **Claire Kelly ’26** won the SDS Research Prize for her excellent thesis, supervised by Prof. Randi Garcia.
+  Even though the thesis was for departmental honors in PSY, the content was heavily statistical.
+
+- **Dayana Caluna ’26** and **Lorena Bulnes Rodriguez ’26** won Smith's portion of the Five College Statistics Prize for their outstanding independent research project in statistics, also supervised by Prof. Randi Garcia.
+
+### Previous Updates
+
+- [2026](sds_newsletter_2026.qmd)
+- [2025](sds_newsletter_2025.qmd)
+- [2024](sds_newsletter_2024.qmd)
+- [2023](sds_newsletter_2023.qmd)
+- [2022](sds_newsletter_2022.qmd)
+- [2021](sds_newsletter_2021.qmd)
+- [2020](sds_newsletter_2020.qmd)
+- [2019](sds_newsletter_2019.qmd)
+- [2018](sds_newsletter_2018.qmd)
+- [2017](sds_newsletter_2017.qmd)
+- [2016](sds_newsletter_2016.qmd)
+
+## Faculty Updates
+
+- **Lindsay Poirier** was granted tenure and promoted to associate professor!!!! Congratulations, Lindsay!!
+- **Sara Kirshbaum** was hired into the tenure-track line jointly held with Government and recently vacated by Scott LaCombe. Sara is a scholar of American political behavior including political participation, representation, mobilization, and elections. Welcome, Sara!!
+- **Will Hopper** was reappointed as a renewable Lecturer in SDS. **Ab Mosca '14** was re-hired on a similar renewable Lecturer line, shared jointly by SDS and CSC.
+- We're sad to see **Jericho Lawson** go, but we're happy that he will be [nearby at Vassar](https://www.vassar.edu/faculty/jblawson).
+- **Randi Garcia** finished her impactful three-year term as chair of SDS. Randi oversaw our first decennial review, the tenure and promotion of **Katherine Kinnaird** and **Lindsay Poirier**, and too many search committees to even count. Thank you for your service, Randi!! `r emoji("face_holding_back_tears")`
+- Speaking of the decennial review, can you believe it's been ten years?! Here is how the report starts:
+
+> In short, the faculty of the Statistics and Data Science Program are passionate, dedicated individuals who are providing an impressive learning experience for the students of Smith.
+> Inspecting the wider ecology of U.S. liberal arts colleges, Smith’s SDS Program has few peers, and is itself widely respected as an innovator and a trend setter.
+> When one reviewer was designing a similar major at his liberal arts college, he kept returning to Smith’s program for inspiration in curriculum design and student experience.
+> Similarly, via our discussions with students and faculty members outside of SDS at Smith, it became clear that the program has also garnered great respect within Smith.
+
+#### [Ben Baumer](https://beanumber.github.io/)
+
+I'm working on a couple of papers with recent alums:
+
+- [Everyone Watches Women’s Basketball: Attendance and Fan Engagement in the WNBA](https://g-eastwood.github.io/wnbaattendance/) with **Gabriela Eastwood '26**. This paper stems from a research paper that Gabriela wrote for my SDS 355 Sports Analytics class in the fall.
+- [Reward systems in sports: Who’s the fairest of them all?](https://beanumber.github.io/fairness/) with **Sarah Susnea '25**. This is ongoing work that started during our Pedagogical Partnership for the SDS capstone.
+
+I'm also working on a couple of papers in the data science education space about first and [second courses in data science](https://beanumber.github.io/datascience2/).
+
+I'm gearing up for another 1.5 years as SDS chair, and looking forward to [JSM in Boston](#whats-next).
+Hope to see you there!
+
+In other news, I coached Alice's 12U softball team and we [won the Massachusetts District 2 championship](https://gazettenet.com/2026/06/11/sports-briefs-northampton-12u-softball-claims-2026-massachusetts-district-2-little-league-title/)!!
+Also pictured is my good friend and co-coach **Meredith Bertrand '00**.
+
+![](https://i0.wp.com/gazettenet.com/wp-content/uploads/2026/06/Screenshot-2026-06-11-182854.png?resize=780%2C584&ssl=1)
+
+#### [Gillian Beltz-Mohrmann](https://gbeltzmo.github.io/)
+
+I thoroughly enjoyed my first year at Smith, and am excited to begin year 2!
+Last fall I taught my first two courses in SDS: Multiple Regression and Programming for Data Science in Python.
+I had so much fun, and am excited to be teaching these courses again this year.
+In the spring I hopped over to the Physics Department, where I taught Mathematical Methods of Physical Sciences and Engineering, as well as Computational Methods in the Physical Sciences.
+I have loved getting to know students and colleagues in both SDS and Physics, and am looking forward to another great year in this joint role!
+
+I also enjoyed doing research with two students last year: Madeline Dean (physics '27) worked with me on modeling the impact of baryonic feedback on the distribution of matter around galaxies, and Emma Schultz (physics '28) worked on modeling the effect of dust attenuation on observed galaxy properties.
+Both Madeline and Emma are going to continue working with me this year, and Madeline is going to be my first senior thesis student!
+
+Much of my research time this past year was spent co-leading a project within the Dark Energy Spectroscopic Instrument (DESI) Collaboration, which focuses on obtaining cosmological constraints using novel galaxy clustering measurements.
+The DESI Collaboration had a successful meeting in Durham, UK in July, at which I presented recent results from this work.
+I then traveled to A Coruna, Spain, where I was invited to give a talk at the New Frontiers in Cosmology conference.
+However, the most exciting part of this conference was watching a total solar eclipse over the ocean.
+
+I few papers that I was involved in came out this past year:
+
+- [DiffstarPop: A generative physical model of galaxy star formation history](https://ui.adsabs.harvard.edu/abs/2026OJAp....961920A/abstract)
+- [Cosmological Constraints from Full-Scale Clustering and Galaxy-Galaxy Lensing with DESI DR1](https://ui.adsabs.harvard.edu/abs/2025arXiv251215962L/abstract)
+- [Illuminating the Physics of Dark Energy with the Discovery Simulations](https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..74B/abstract)
+
+Finally, my dog Gadget has been loving life in Northampton, and in January was in his fourth published paper: [Dogs with a large vocabulary of object labels learn new labels by overhearing like 1.5-year-old infants](https://www.science.org/doi/10.1126/science.adq5474) (which was also featured in the NY Times).
+
+#### [Shiya Cao](https://scao53.github.io/)
+
+Year 4 at Smith was a productive year.
+I am grateful for my pre-tenure sabbatical in Fall 2025.
+The focus of my sabbatical was taking up the Visiting Fellow position at the Yang-Tan Institute (YTI) on Employment and Disability in the School of Industrial and Labor Relations at Cornell University.
+During this fellowship, I worked on and submitted one peer-reviewed journal paper, delivered an invited lecture, built collaborative research opportunities with YTI faculty.
+Furthermore, the sabbatical allowed me to make progress on several other research projects:
+
+- published two peer-reviewed journal papers co-authored with students:
+
+  - [Educational Opportunities of Participatory GIS for Accessibility on a College Campus](https://www-tandfonline-com.libproxy.smith.edu/doi/full/10.1080/03098265.2025.2549304) with Heather Rosenfeld and **Sarah Susnea ’25**
+  - [Examining the Intersectional and Structural Issues of Routine Healthcare Utilization and Access Inequities for LGB People with Chronic Diseases](https://www.mdpi.com/1660-4601/22/12/1830) with **Mehreen Merza ’25**, **Sophia Silovsky ’24**, **Nicole Tresvalles ’24**, **Lucia Qin ’26**, and **Sarah Susnea ’25**. This paper stems from a project paper **Mehreen Merza ’25**, **Sophia Silovsky ’24**, and **Nicole Tresvalles ’24** wrote for my *SDS 300: Disability Inclusion and Data Analytics* in Fall 2023
+
+- published one peer-reviewed American Statistical Association (ASA) *Chance* magazine paper on [A Review of Research and Practices on Teaching Data Visualizations for Blind and Visually Impaired Students](https://www-tandfonline-com.libproxy.smith.edu/doi/full/10.1080/09332480.2025.2560278)
+
+- applied for the [American Council of Learned Societies (ACLS)](https://www.acls.org/) Digital Justice Seed Grants with Heather Rosenfeld for our comprehensive and participatory campus accessibility maps project.
+  Our application received positive feedback during the first round of review and advanced to the second round of evaluation, although not funded
+
+The latest news on my research is that the data package `tripaccess 0.1.0: American Travel Behavior and Access Datasets` is now available on CRAN.
+I worked with **Amber Zhang ’27** and **Anna Zhao ’27** on this data package this summer.
+Please check out [the package site](https://scao53.github.io/tripaccess/) for more information!
+
+I was also excited to be back in Spring 2026 (to be honest, a little overwhelmed for the first half of the semester as I adjusted to being back) to teach *SDS 192: Introduction to Data Science* and *SDS 300: Disability Inclusion and Data Analytics*.
+During the semester, I participated in the ASA Justice, Equity, Diversity, and Inclusion Outreach Group-Reading/Working Group (this group provided valuable feedback on my data package--thanks for that!).
+The materials we read in this group made me think more deeply about my pedagogy while I was teaching and learning alongside my students.
+It turned out to be a rewarding semester.
+Now I am really looking forward to next semester, teaching SDS 192 and *SDS 270: Programming for Data Science in R* and working with my student pedagogical partner **Tanisha Chetty ’27** on issues around AI in SDS 270.
+
+In 2026, I started running and swimming regularly (absolute beginner level)--adding more cardio to my workouts!
+
+#### [Dusty Christensen](https://www.smith.edu/people/dusty-christensen)
+
+#### [Kaitlyn Cook](https://www.smith.edu/people/kaitlyn-cook)
+
+It’s hard to believe I’ve already wrapped up year four at Smith!
+This past fall, I had the absolute pleasure of teaching my seminar course, *SDS 390: Methods in Biostatistics and Epidemiology*, for the second time.
+The students were dedicated and inquisitive, and I really enjoyed updating the course to include more discussion of timely public health articles and a fuller treatment of graphical methods for causal inference.
+This spring semester I took my first sabbatical.
+I spent dedicated time on research projects related to misclassified interval-censored data (with **Skyler Williams ‘25**) and software for interval-censored data analysis (with **Katrina Wang ‘27**) and traveled to visit friends/collaborators at Vassar College and Oregon State University.
+As wonderful as sabbatical was, I'm really looking forward to being back on campus and teaching two favorites (*SDS 291: Multiple Regression* and *MTH 246: Probability*) this fall!
+
+Outside of Smith, I continue playing trumpet with a local community band, running with a local run club, and watching (too much) reality TV.
+I am particularly proud of two of my accomplishments on these fronts: (a) winning the Survivor Season 50 fantasy league that I run with friends (!) and (b) returning to distance running after an eight-year hiatus by finishing the Providence Half Marathon (!!).
+
+#### [Randi Garcia](https://www.randilgarcia.com/)
+
+This year I wrapped up my three-year term as chair of SDS.
+It was an eventful year with a search for a new professor joint with GOV (hiring Sara Kirshbaum) and our first ever decennial review, to name a few highlights.
+It was a pleasure to serve as chair of SDS, but I'm happy to pass the baton back to Ben's capable hands!
+
+I'm happy to now turn my attention primarily back to teaching and research.
+My collaborations with Sarah Witkowski and Stephanie Jones in the Exercise and Sport Studies department here at Smith have progressed.
+Prof Witkowski's work investigates on perimenopause symptoms, activity, and cardiovascular health while Prof Jones studies multiple sclerosis, somatosensory impairments, and fatigue.
+Witkowski and I published a paper in Physiological Reports this year with Tint Tha Ra Wun '25.
+Jones's grant is close to funded!
+Cross your fingers for us.
+
+Maya Rosen, Smith neuroscience professor, and I revised a paper for the journal Developmental Psychopathology with Lizeth Sepulveda '25 investigating childhood executive functioning as a buffer against declines in mental health due to COVID-19 stressors.
+
+I have also begun two research collaborations leveraging my expertise in dyadic data analysis.
+One is in collaboration with Amy Hale and Rachael Coakley at Boston Children's Hospital and the Harvard Medical School assessing the effectiveness of parent-child interventions to reduced children's chronic pain.
+The second is on a project working with Frederick Altice and David Oliveros at Yale School of Medicine investigating a dyadic behavioral design intervention to reduce stigma in populations affected by injection drug use.
+
+I have also continued working on research in my lab, revising papers on the division of household labor, gatekeeping, and social dominance orientation with Meredith Zhang '23 (submitted to the Journal of Family Psychology), as well as a paper on self-objectification in online learning contexts with Jessica Pardim Araujo '23.
+
+This year I had five Smith students in my research group, three are SDS students: Kayla Tillmon '27, Nora Zhou '26J, and Itzel Aleman Flores '27.
+We are now investigating political polarization and approach and avoidance of political conversatoins depending on relationship closeness.
+I'm looking forward to continuing my research in the fall!
+
+In psychology I taught two sections of PSY 202 Research Methods this past fall.
+Then, this past semester I taught SDS 210 Introduction to Statistics for the first time in 8 years, coordinating with Ben Baumer.
+A lot has changed in the world!
+I learning A LOT --- thank you, Ben!
+I am excited to teach SDS 100 for the first time in Fall 2026.
+
+#### [Will Hopper](https://www.smith.edu/people/will-hopper)
+
+#### [Albert Y. Kim](https://www.smith.edu/people/albert-young-sun-kim)
+
+#### [Sara Kirshbaum](https://www.smith.edu/people/sara-kirshbaum)
+
+#### [Katherine M. Kinnaird](https://katherinemkinnaird.net/)
+
+#### [Rebecca Kurtz-Garcia](https://www.smith.edu/people/rebecca-kurtz-garcia)
+
+This past year has been incredibly eventful and rewarding!
+I am absolutely delighted to have been reappointed at Smith during my third-year review.
+On the teaching front, I had the pleasure of teaching Time Series Analysis for the first time—a dream course with a fantastic group of students.
+
+My research side was equally busy.
+My R package, [`fixedCV`](https://cran.r-project.org/web/packages/fixedCV/index.html), was officially published on CRAN, a corresponding paper was accepted with revisions, and two more are on track to wrap up by the end of summer.
+My work this year focused on robust variance estimation in time series—essentially finding ways to make sure our statistical conclusions remain valid even when we know very little about the data.
+I also co-authored two book chapters: one for the second edition of the Handbook of Markov Chain Monte Carlo, and another on online learning tools for introductory statistics.
+
+Off-campus, my partner and I are eagerly preparing to welcome our first child at the end of the summer!
+In a flurry of nesting and tackling my to-do list, I somehow managed to complete five quilts.
+While I’d normally enter my work into the Big E or the Three-County Fair, this year's batch is happily destined straight for nurseries—both my own and those of loved ones!
+
+Between crafting a new course, writing research papers, stitching together quilts, and preparing to welcome a brand-new human, it’s been a massive year of growing and creating!
+
+#### [Ab Mosca '14](https://www.smith.edu/people/ab-mosca)
+
+After two years as a visitor, I’m excited to move into a renewable role at Smith!
+I spent a lot of the past year iterating on the classes I teach for SDS and CSC.
+
+In SDS/CSC 109 we continued our tradition of creating a physical, interactive visualization to engage the campus community.
+Neilson generously let us set up in the atrium for two weeks to collect data on Smithies’ perception of Smith’s value vs cost, and the relationship between sleep and stress among students.
+Here are some of our visualizations mid-data collection:
+
+```{r}
+#| layout-ncol: 2 
+knitr::include_graphics("gfx/ab_exihibit.jpg")
+knitr::include_graphics("gfx/ab_exihibit2.jpg")
+```
+
+In SDS/CSC 235 students engaged with partners from the Biology department, CEEDS, and the Public Health Institute of Western MA to create visual analytics systems with partners’ data to support data cleaning, analysis, and communication.
+
+Apart from teaching, I involved several students with a nutrition visualization project aiming to simplify and visualize data in nutrition facts panels, joined in on a SURF project with **Kaitlyn Cook** analyzing prior-authorization data for puberty blockers, and started working with Heather Rosenfeld from the SAL to study neurodivergence and visualization design.
+I'm also serving on the Inclusivity and Accessibility Organizing Committee for IEEE VIS 2026.
+When I’m not teaching or researching I spend time in my community garden plot, doing pottery, assistant coaching track and field at Northampton High, running, and biking.
+
+#### [Lindsay Poirier](https://lindsaypoirier.github.io/)
+
+This past year has been one of many gratifying transitions for me.
+Closing out a long-standing ethnography of the semantic web, I [published a paper](https://journals-sagepub-com.libproxy.smith.edu/doi/10.1177/03063127261424496) in a Social Studies of Science, examining social action involved in formalizing owl:sameas - a single property in an ontology language.
+The paper explores how computational practitioners negotiate and redefine the meaning of sameness and difference as they attempt to stabilize standards for modeling data.
+
+Exploring some new directions for my research, in Fall 2025, I was a fellow in the Kahn Institute's [long-term project on Hauntings](https://www.smith.edu/academics/applied-learning-research/kahn-liberal-arts-institute/hauntings).
+Unearthing stories that haunt our statistics, I opted to focus on a project exploring the social history of the maternal mortality rate in the U.S. - examining how its reporting has shaped social hierarchies in medicine, been operationalized to justify stances on family planning, and been leveraged to make sense of the state of the country's healthcare system.
+I look forward to continuing work on this project in the coming years.
+
+I also [published a paper](https://www.tandfonline.com/doi/full/10.1080/26939169.2026.2697726) in the Journal of Statistics and Data Science Education motivating and outlining how I teach Data Ethnography at Smith.
+In addition to discussing how students learn to study the data science community anthropologically, the article also highlights the exemplary work of several Smith students.
+
+While the news of my promotion to associate professor was certainly a highlight of the past year, nothing brought me quite as much joy as welcoming a little one into my family.
+My son Rafi was born in December, and I've spent the past seven months stunned by how much fuller life can feel with him.
+
+#### [Nikko Stevens](https://www.smith.edu/people/nikko-stevens)
+
+This past year was my first year at Smith, and it was a blast!
+I taught the SDS Capstone in both the fall and the spring and so had the pleasure of teaching (I think) every graduating SDS senior this year.
+I also brought a new course to Smith, *Data Science Goes To the Movies*.
+I taught this class for many years at ASU, and it was so fun to see the new approaches Smith students have to this material.
+
+I launched my lab, the Data Infrastructure Group (DIG) and worked with a bunch of smart students to wrap up some of the work I brought with me from my postdoc.
+A few highlights:
+
+- **Chashi Yang '28**, **Kiara Singh '28** and **Yuzhang Fu '26** finished the website for the [Liberation + AI Think Tank](http://liberationplusai.com/) (that I co-run with Catherine D'Ignazio)
+
+- **Radiah Khan '28** and **Nicole Sanchez Flores '26** completed a first-pass analysis of the relationship between data centers and environmental harm, with incredible support from Heather Rosenfeld and Kalai'i Ellis in the Spatial Analysis Lab
+
+- **Alina Zhao '29** and **Hannah Zhang '29** worked with me and some collaborators on a paper about reverse engineering that we're planning to submit in the fall
+
+- And *so* many students have helped with a massive scoping review of the concept of carceral technology.
+  This collaboration (with Theo Schall at UMass and Catherine D'Ignazio at MIT) will be submitted to FAccT this October.
+  The students include: **Lucia Qin '26, Itzel Aleman Flores '28, Michelle Jiang '29, Kiersten Conley '28, Yelena Davidson '26**
+
+Outside of the lab, my research energy is focused on finishing a full first draft of my book, *Abolitionist Engineering*, which connects the contemporary movement for prison abolition to the daily technical practices of software engineers and data scientists.
+I spent part of the summer working with a SURF student, **Michelle Jiang '29**, to build lit reviews and do some fact checking.
+I was able to turn my full focus to the book for a little bit, because a bunch of papers came out or got submitted this year:
+
+- [A study about how trans people relate to data as sources of knowledge](https://journals.sagepub.com/doi/full/10.1177/20539517251381694)
+
+- [A write up of the same study with a focus on design implications](https://dl.acm.org/doi/abs/10.1145/3757682), this one led by UW grad student Amelia Lee Doğan
+
+- [A quick meditation on responsibility and repair in AI](https://doi.org/10.1111/tran.70046)
+
+- [And this big team effort of a paper about open source and AI](https://arxiv.org/abs/2606.07764) that emerged from an NSF workshop about AI and ideas of open source
+
+In the fall, I'll be teaching two new-to-Smith courses, both emerging directly from my research: AI Ethics, and Data of the Criminal Legal System.
+I'm prepping both of those now, informed in part by my work with [Western Mass CORE](https://westernmasscore.org/), an organization that helps incarcerated students transfer their inside credits to college after they're released.
+
+Outside of work, I'm spending time rock climbing, drawing, hanging out with my wife and our dogs, and leaving a trail of unfinished house projects.
+
+#### [Kementari Whitcher](https://www.smith.edu/people/kementari-whitcher)
+
+I have thoroughly enjoyed my first two years at Smith and am looking forward to another year in 2026-2027.
+I have been concentrating on introductory statistics and on research design and analysis this year, and look forward to teaching those again next year.
+I've been working on making my classes more "Executive Functioning Friendly" over time as I implement knowledge gained from a graduate certificate in Neurodiversity and Learning Difference from Landmark College, which I am finishing up this summer.
+Also, this summer, I've been working with two SURF students on projects related to (1) syllabus statements around disability accommodations and (2) US military veterans' mental health care experiences.
+I'm looking forward to lots of data analysis this fall!
+I also just published my first paper [with my new name](https://www.jhrehab.org/2026/04/21/four-year-study-demonstrates-literary-narratives-improve-empathic-awareness-in-occupational-therapy-students-copy/) (since getting married 2 years ago).
+
+In my personal life I play the harp, and just spent a couple of hours with elementary students in Northfield at their summer recreation program.
+I'm also playing banjo and bodhran with local jam sessions at Smith and in Shelburne Falls.
+We completed our annual pilgrimage to the top of Cadillac Mountain in Acadia National Park for Summer Solstice, and visited lots of friends and family in Maine.
+We're looking forward to the local farm stands filling up with all the goodies our area has to offer in the summer and fall, and also to cooler weather and the return of baking season.
+
+## Alumni Updates {#alumni-updates}
+
+Alumni updates will be added **HERE**
+
+- [**Arielle Dror '20**](https://www.linkedin.com/in/arielledror/): After several years working as a data scientist/engineer for various soccer teams, I started as an Analytics Engineer at Netflix a few months ago.
+  I love this job because it feels like a Swiss Army Knife role where my day can involve building pipelines, deriving new metrics, or prototyping new data products for our stakeholders.
+  Working in sports was so much fun and I already miss the camaraderie/chaos of the team environment and the excitement of winning, but I am very thrilled to have my nights and weekends back to relax and pursue new hobbies.
+  I've been spending a lot more time with my dog, Bingo, and I've recently taken up pottery!
+  Another perk of this new role is that it will allow me to relocate from San Jose, CA to NYC to be closer to friends and family -- if anyone is in the area, I would love to connect!
+
+  I never would have worked in soccer and fulfilled my dream without Smith SDS -- [the R package I helped build](https://github.com/nwslR/nwslR) as a final project for Advanced Programming in R caught the eye of many people who gave me opportunities that ultimately led to several different jobs.
+  I will be forever grateful for all that I learned in my time on campus!
+
+- [**Ananda Montoly '22**](https://www.linkedin.com/in/ananda-montoly/): I'm still working as a software engineer at YouTube on our playback experience side.
+
+- [**Naylynn Tañón Reyes '23**](https://www.linkedin.com/in/naylynntanonreyes/): I’m the Technical Project Manager for the Science Operations Center (SOC) on NASA’s Pandora mission, working at the SETI Institute.
+
+- [**Marium Tapal '22**](https://www.linkedin.com/in/mariumtapal/): After a couple of years as an RA at Harvard Business School, I made the leap back to school — I just wrapped up my first year in the Statistics PhD program at Rutgers!
+
+## What's next? {#whats-next}
+
+### Joint Statistical Meetings
+
+Many of us will be at the [2026 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2026/index.cfm) during the first week of August in **BOSTON**!.
+
+Don't miss these events featuring Smithies and current faculty!
+
+Join us for the **Smith JSM get together**:
+
+- [Boqueria Seaport](https://boqueriarestaurant.com/location/bos-seaport/)\
+  25 Thomson Pl\
+  Boston, MA 02210\
+  Monday, August 3rd\
+  7 - 8:30 p
+
+We hope to see you there!
